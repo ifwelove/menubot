@@ -80,7 +80,6 @@ class LineBotController extends Controller
                     $templateMessage = new TemplateMessageBuilder('選擇飲料店', $buttonTemplateBuilder);
                     $this->bot->replyMessage($event['replyToken'], $templateMessage);
                 } elseif (isset(config('beverage_shops.shops')[$userMessage])) {
-                    $this->dd(123);
                     $shop = config('beverage_shops.shops')[$userMessage];
                     $this->replyWithShopMenu($event['replyToken'], $shop, $userMessage . ' 菜單');
                 }
