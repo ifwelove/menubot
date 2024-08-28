@@ -4,6 +4,7 @@ namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
+use GuzzleHttp\Client;
 
 class Handler extends ExceptionHandler
 {
@@ -38,4 +39,42 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    public function report(Throwable $exception)
+    {
+        // 你可以根据具体的异常类型或严重程度来决定是否发送通知
+        if ($this->shouldReport($exception)) {
+            $this->sendErrorNotification($exception);
+        }
+
+        parent::report($exception);
+    }
+
+    protected function sendErrorNotification(Throwable $exception)
+    {
+        try {
+
+            $owen_token = config('app.line_owen_token');
+            $client   = new Client();
+            $headers  = [
+                'Authorization' => sprintf('Bearer %s', $owen_token),
+                'Content-Type'  => 'application/x-www-form-urlencoded'
+            ];
+            $options  = [
+                'form_params' => [
+                    'message' => 'Error: ' . $exception->getMessage() . "\n" .
+                        'File: ' . $exception->getFile() . "\n" .
+                        'Line: ' . $exception->getLine()
+                ]
+            ];
+            $response = $client->request('POST', 'https://notify-api.line.me/api/notify', [
+                'headers'     => $headers,
+                'form_params' => $options['form_params']
+            ]);
+        } catch (Throwable $e) {
+            // 这里你可以记录日志，防止错误通知本身出现问题
+            parent::report($e);
+        }
+    }
+
 }

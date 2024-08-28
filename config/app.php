@@ -232,4 +232,5 @@ return [
 
     ],
 
+    'line_owen_token' => env('LINE_OWEN_TOKEN'),
 ];
