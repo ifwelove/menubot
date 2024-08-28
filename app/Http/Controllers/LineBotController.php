@@ -36,7 +36,6 @@ class LineBotController extends Controller
 
                     $actions = [];
                     foreach (array_keys($shops) as $shopName) {
-                        // 使用 PostbackTemplateActionBuilder 创建动作按钮
                         $actions[] = new PostbackTemplateActionBuilder($shopName, "action=select&shop={$shopName}");
                     }
 
@@ -54,9 +53,20 @@ class LineBotController extends Controller
                     $imageMessageBuilder = new ImageMessageBuilder($imageUrl, $imageUrl);
                     $this->bot->replyMessage($event['replyToken'], $imageMessageBuilder);
                 } else {
-                    $responseMessage = "抱歉，我找不到與 " . $userMessage . " 相關的飲料店。";
-                    $textMessageBuilder = new TextMessageBuilder($responseMessage);
-                    $this->bot->replyMessage($event['replyToken'], $textMessageBuilder);
+//                    $responseMessage = "抱歉，我找不到與 " . $userMessage . " 相關的飲料店。";
+//                    $textMessageBuilder = new TextMessageBuilder($responseMessage);
+//                    $this->bot->replyMessage($event['replyToken'], $textMessageBuilder);
+                }
+            } elseif ($event['type'] == 'postback') {
+                // 处理 postback 事件
+                $data = $event['postback']['data']; // 获取 postback 的数据
+                parse_str($data, $postbackData);
+
+                if ($postbackData['action'] == 'select' && isset($postbackData['shop'])) {
+                    $shopName = $postbackData['shop'];
+                    $imageUrl = url(config('beverage_shops.shops')[$shopName]);
+                    $imageMessageBuilder = new ImageMessageBuilder($imageUrl, $imageUrl);
+                    $this->bot->replyMessage($event['replyToken'], $imageMessageBuilder);
                 }
             }
         }
