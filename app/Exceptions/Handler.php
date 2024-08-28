@@ -40,15 +40,25 @@ class Handler extends ExceptionHandler
         });
     }
 
+//    public function report(Throwable $exception)
+//    {
+//        // 你可以根据具体的异常类型或严重程度来决定是否发送通知
+//        if ($this->shouldReport($exception)) {
+//            $this->sendErrorNotification($exception);
+//        }
+//
+//        parent::report($exception);
+//    }
+
     public function report(Throwable $exception)
     {
-        // 你可以根据具体的异常类型或严重程度来决定是否发送通知
-        if ($this->shouldReport($exception)) {
-            $this->sendErrorNotification($exception);
-        }
-
+        // 强制报告所有异常
         parent::report($exception);
+
+        // 发送通知到 LINE（之前你配置的代码）
+        $this->sendErrorNotification($exception);
     }
+
 
     protected function sendErrorNotification(Throwable $exception)
     {

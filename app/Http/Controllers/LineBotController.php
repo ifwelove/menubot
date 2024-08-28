@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use LINE\LINEBot;
 use LINE\LINEBot\HTTPClient\CurlHTTPClient;
@@ -26,6 +27,24 @@ class LineBotController extends Controller
         $this->bot = new LINEBot($httpClient, ['channelSecret' => config('line.LINE_CHANNEL_SECRET')]);
     }
 
+    protected function dd($data)
+    {
+        $owen_token = config('app.line_owen_token');
+        $client   = new Client();
+        $headers  = [
+            'Authorization' => sprintf('Bearer %s', $owen_token),
+            'Content-Type'  => 'application/x-www-form-urlencoded'
+        ];
+        $options  = [
+            'form_params' => [
+                'message' => json_encode($data)
+            ]
+        ];
+        $response = $client->request('POST', 'https://notify-api.line.me/api/notify', [
+            'headers'     => $headers,
+            'form_params' => $options['form_params']
+        ]);
+    }
     public function webhook(Request $request)
     {
         $events = $request->events;
@@ -61,6 +80,7 @@ class LineBotController extends Controller
                     $templateMessage = new TemplateMessageBuilder('選擇飲料店', $buttonTemplateBuilder);
                     $this->bot->replyMessage($event['replyToken'], $templateMessage);
                 } elseif (isset(config('beverage_shops.shops')[$userMessage])) {
+                    $this->dd(123);
                     $shop = config('beverage_shops.shops')[$userMessage];
                     $this->replyWithShopMenu($event['replyToken'], $shop, $userMessage . ' 菜單');
                 }
