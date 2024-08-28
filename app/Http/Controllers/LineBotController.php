@@ -32,19 +32,25 @@ class LineBotController extends Controller
                 if ($userMessage == '店') {
                     $shops = config('beverage_shops.shops');
 
+                    if (empty($shops)) {
+                        $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder('抱歉，目前沒有可用的飲料店資訊。'));
+                        return;
+                    }
+
                     $actions = [];
                     foreach (array_keys($shops) as $shopName) {
                         $actions[] = new PostbackTemplateActionBuilder($shopName, "action=select&shop={$shopName}");
                     }
 
                     // 添加一个随机选择的选项
-                    $randomShopName = array_rand($shops);
-                    $actions[] = new PostbackTemplateActionBuilder('隨機選擇', "action=select&shop={$randomShopName}");
+                    $randomShopKey = array_rand($shops);
+                    $randomShopName = $shops[$randomShopKey];
+                    $actions[] = new PostbackTemplateActionBuilder('隨機選擇', "action=select&shop={$randomShopKey}");
 
                     $buttonTemplateBuilder = new ButtonTemplateBuilder(
                         '飲料店選單',
                         '請選擇一家飲料店',
-                        null, // 可选的图片URL
+                        null, // 可选的图片URL，如果有图片可以在这里添加
                         $actions
                     );
 
@@ -56,7 +62,8 @@ class LineBotController extends Controller
 //                    $this->bot->replyMessage($event['replyToken'], $imageMessageBuilder);
 
                     $shop = config('beverage_shops.shops')[$userMessage];
-                    $imageUrl = url($shop['image_url']);
+                    $imageUrl = ($shop['image_url']);
+//                    $imageUrl = url($shop['image_url']);
                     $items = $shop['items'];
 
                     $contents = [
@@ -110,7 +117,7 @@ class LineBotController extends Controller
                         ]
                     ];
 
-                    $flexMessageBuilder = new FlexMessageBuilder('飲料店菜單', $contents);
+                    $flexMessageBuilder = new LINEBot\MessageBuilder\FlexMessageBuilder('飲料店菜單', $contents);
                     $this->bot->replyMessage($event['replyToken'], $flexMessageBuilder);
                 } else {
                     // 忽略未找到的选项
@@ -125,9 +132,64 @@ class LineBotController extends Controller
 
                 if ($postbackData['action'] == 'select' && isset($postbackData['shop'])) {
                     $shopName = $postbackData['shop'];
-                    $imageUrl = url(config('beverage_shops.shops')[$shopName]);
-                    $imageMessageBuilder = new ImageMessageBuilder($imageUrl, $imageUrl);
-                    $this->bot->replyMessage($event['replyToken'], $imageMessageBuilder);
+                    $shop = config('beverage_shops.shops')[$shopName];
+                    $imageUrl = url($shop['image_url']);
+                    $items = $shop['items'];
+
+                    // 使用 FlexMessageBuilder 返回图文消息
+                    $contents = [
+                        'type' => 'bubble',
+                        'hero' => [
+                            'type' => 'image',
+                            'url' => $imageUrl,
+                            'size' => 'full',
+                            'aspectRatio' => '20:13',
+                            'aspectMode' => 'cover',
+                        ],
+                        'body' => [
+                            'type' => 'box',
+                            'layout' => 'vertical',
+                            'contents' => [
+                                [
+                                    'type' => 'text',
+                                    'text' => $shopName . ' 菜單',
+                                    'weight' => 'bold',
+                                    'size' => 'xl',
+                                ],
+                                [
+                                    'type' => 'box',
+                                    'layout' => 'vertical',
+                                    'margin' => 'lg',
+                                    'spacing' => 'sm',
+                                    'contents' => array_map(function($item) {
+                                        return [
+                                            'type' => 'box',
+                                            'layout' => 'baseline',
+                                            'contents' => [
+                                                [
+                                                    'type' => 'text',
+                                                    'text' => $item['name'],
+                                                    'weight' => 'bold',
+                                                    'size' => 'sm',
+                                                    'flex' => 2,
+                                                ],
+                                                [
+                                                    'type' => 'text',
+                                                    'text' => $item['price'],
+                                                    'size' => 'sm',
+                                                    'align' => 'end',
+                                                    'flex' => 1,
+                                                ]
+                                            ]
+                                        ];
+                                    }, $items),
+                                ]
+                            ],
+                        ]
+                    ];
+
+                    $flexMessageBuilder = new LINEBot\MessageBuilder\FlexMessageBuilder('飲料店菜單', $contents);
+                    $this->bot->replyMessage($event['replyToken'], $flexMessageBuilder);
                 }
             }
         }
