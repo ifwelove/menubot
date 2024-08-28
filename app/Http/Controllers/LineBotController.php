@@ -7,8 +7,11 @@ use LINE\LINEBot;
 use LINE\LINEBot\HTTPClient\CurlHTTPClient;
 use LINE\LINEBot\MessageBuilder\TemplateMessageBuilder;
 use LINE\LINEBot\MessageBuilder\TemplateBuilder\ButtonTemplateBuilder;
-use LINE\LINEBot\TemplateAction\MessageTemplateActionBuilder;
 use LINE\LINEBot\MessageBuilder\ImageMessageBuilder;
+
+use LINE\LINEBot\MessageBuilder\TextMessageBuilder;
+use LINE\LINEBot\TemplateActionBuilder\PostbackTemplateActionBuilder;
+
 
 class LineBotController extends Controller
 {
@@ -16,8 +19,8 @@ class LineBotController extends Controller
 
     public function __construct()
     {
-        $httpClient = new CurlHTTPClient(env('LINE_CHANNEL_ACCESS_TOKEN'));
-        $this->bot = new LINEBot($httpClient, ['channelSecret' => env('LINE_CHANNEL_SECRET')]);
+        $httpClient = new CurlHTTPClient(config('line.LINE_CHANNEL_ACCESS_TOKEN'));
+        $this->bot = new LINEBot($httpClient, ['channelSecret' => config('line.LINE_CHANNEL_SECRET')]);
     }
 
     public function webhook(Request $request)
@@ -33,13 +36,14 @@ class LineBotController extends Controller
 
                     $actions = [];
                     foreach (array_keys($shops) as $shopName) {
-                        $actions[] = new MessageTemplateActionBuilder($shopName, $shopName);
+                        // 使用 PostbackTemplateActionBuilder 创建动作按钮
+                        $actions[] = new PostbackTemplateActionBuilder($shopName, "action=select&shop={$shopName}");
                     }
 
                     $buttonTemplateBuilder = new ButtonTemplateBuilder(
                         '飲料店選單',
                         '請選擇一家飲料店',
-                        null, // 可選的圖片URL
+                        null, // 可选的图片URL
                         $actions
                     );
 
