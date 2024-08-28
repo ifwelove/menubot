@@ -54,7 +54,7 @@ class LineBotController extends Controller
                     $imageMessageBuilder = new ImageMessageBuilder($imageUrl, $imageUrl);
                     $this->bot->replyMessage($event['replyToken'], $imageMessageBuilder);
                 } else {
-                    $responseMessage = "抱歉，我找不到與 '$userMessage' 相關的飲料店。";
+                    $responseMessage = "抱歉，我找不到與 '$imageUrl . $userMessage' 相關的飲料店。";
                     $textMessageBuilder = new TextMessageBuilder($responseMessage);
                     $this->bot->replyMessage($event['replyToken'], $textMessageBuilder);
                 }
