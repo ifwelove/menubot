@@ -7,9 +7,14 @@ use LINE\LINEBot;
 use LINE\LINEBot\HTTPClient\CurlHTTPClient;
 use LINE\LINEBot\MessageBuilder\TemplateMessageBuilder;
 use LINE\LINEBot\MessageBuilder\TemplateBuilder\ButtonTemplateBuilder;
-use LINE\LINEBot\MessageBuilder\ImageMessageBuilder;
-use LINE\LINEBot\MessageBuilder\TextMessageBuilder;
+use LINE\LINEBot\MessageBuilder\FlexMessageBuilder;
+use LINE\LINEBot\MessageBuilder\Flex\ContainerBuilder\BubbleContainerBuilder;
+use LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\ImageComponentBuilder;
+use LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\BoxComponentBuilder;
+use LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder;
+use LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\SeparatorComponentBuilder;
 use LINE\LINEBot\TemplateActionBuilder\PostbackTemplateActionBuilder;
+use LINE\LINEBot\MessageBuilder\TextMessageBuilder;
 
 class LineBotController extends Controller
 {
@@ -44,156 +49,59 @@ class LineBotController extends Controller
 
                     // 添加一个随机选择的选项
                     $randomShopKey = array_rand($shops);
-                    $randomShopName = $shops[$randomShopKey];
                     $actions[] = new PostbackTemplateActionBuilder('隨機選擇', "action=select&shop={$randomShopKey}");
 
                     $buttonTemplateBuilder = new ButtonTemplateBuilder(
                         '飲料店選單',
                         '請選擇一家飲料店',
-                        null, // 可选的图片URL，如果有图片可以在这里添加
+                        null,
                         $actions
                     );
 
                     $templateMessage = new TemplateMessageBuilder('選擇飲料店', $buttonTemplateBuilder);
                     $this->bot->replyMessage($event['replyToken'], $templateMessage);
                 } elseif (isset(config('beverage_shops.shops')[$userMessage])) {
-//                    $imageUrl = url(config('beverage_shops.shops')[$userMessage]);
-//                    $imageMessageBuilder = new ImageMessageBuilder($imageUrl, $imageUrl);
-//                    $this->bot->replyMessage($event['replyToken'], $imageMessageBuilder);
-
                     $shop = config('beverage_shops.shops')[$userMessage];
-                    $imageUrl = ($shop['image_url']);
-//                    $imageUrl = url($shop['image_url']);
-                    $items = $shop['items'];
-
-                    $contents = [
-                        'type' => 'bubble',
-                        'hero' => [
-                            'type' => 'image',
-                            'url' => $imageUrl,
-                            'size' => 'full',
-                            'aspectRatio' => '20:13',
-                            'aspectMode' => 'cover',
-                        ],
-                        'body' => [
-                            'type' => 'box',
-                            'layout' => 'vertical',
-                            'contents' => [
-                                [
-                                    'type' => 'text',
-                                    'text' => $userMessage . ' 菜單',
-                                    'weight' => 'bold',
-                                    'size' => 'xl',
-                                ],
-                                [
-                                    'type' => 'box',
-                                    'layout' => 'vertical',
-                                    'margin' => 'lg',
-                                    'spacing' => 'sm',
-                                    'contents' => array_map(function($item) {
-                                        return [
-                                            'type' => 'box',
-                                            'layout' => 'baseline',
-                                            'contents' => [
-                                                [
-                                                    'type' => 'text',
-                                                    'text' => $item['name'],
-                                                    'weight' => 'bold',
-                                                    'size' => 'sm',
-                                                    'flex' => 2,
-                                                ],
-                                                [
-                                                    'type' => 'text',
-                                                    'text' => $item['price'],
-                                                    'size' => 'sm',
-                                                    'align' => 'end',
-                                                    'flex' => 1,
-                                                ]
-                                            ]
-                                        ];
-                                    }, $items),
-                                ]
-                            ],
-                        ]
-                    ];
-
-                    $flexMessageBuilder = new LINEBot\MessageBuilder\FlexMessageBuilder('飲料店菜單', $contents);
-                    $this->bot->replyMessage($event['replyToken'], $flexMessageBuilder);
-                } else {
-                    // 忽略未找到的选项
-                    //                    $responseMessage = "抱歉，我找不到與 " . $userMessage . " 相關的飲料店。";
-                    //                    $textMessageBuilder = new TextMessageBuilder($responseMessage);
-                    //                    $this->bot->replyMessage($event['replyToken'], $textMessageBuilder);
+                    $this->replyWithShopMenu($event['replyToken'], $shop, $userMessage . ' 菜單');
                 }
             } elseif ($event['type'] == 'postback') {
-                // 处理 postback 事件
-                $data = $event['postback']['data']; // 获取 postback 的数据
+                $data = $event['postback']['data'];
                 parse_str($data, $postbackData);
 
                 if ($postbackData['action'] == 'select' && isset($postbackData['shop'])) {
                     $shopName = $postbackData['shop'];
                     $shop = config('beverage_shops.shops')[$shopName];
-                    $imageUrl = url($shop['image_url']);
-                    $items = $shop['items'];
-
-                    // 使用 FlexMessageBuilder 返回图文消息
-                    $contents = [
-                        'type' => 'bubble',
-                        'hero' => [
-                            'type' => 'image',
-                            'url' => $imageUrl,
-                            'size' => 'full',
-                            'aspectRatio' => '20:13',
-                            'aspectMode' => 'cover',
-                        ],
-                        'body' => [
-                            'type' => 'box',
-                            'layout' => 'vertical',
-                            'contents' => [
-                                [
-                                    'type' => 'text',
-                                    'text' => $shopName . ' 菜單',
-                                    'weight' => 'bold',
-                                    'size' => 'xl',
-                                ],
-                                [
-                                    'type' => 'box',
-                                    'layout' => 'vertical',
-                                    'margin' => 'lg',
-                                    'spacing' => 'sm',
-                                    'contents' => array_map(function($item) {
-                                        return [
-                                            'type' => 'box',
-                                            'layout' => 'baseline',
-                                            'contents' => [
-                                                [
-                                                    'type' => 'text',
-                                                    'text' => $item['name'],
-                                                    'weight' => 'bold',
-                                                    'size' => 'sm',
-                                                    'flex' => 2,
-                                                ],
-                                                [
-                                                    'type' => 'text',
-                                                    'text' => $item['price'],
-                                                    'size' => 'sm',
-                                                    'align' => 'end',
-                                                    'flex' => 1,
-                                                ]
-                                            ]
-                                        ];
-                                    }, $items),
-                                ]
-                            ],
-                        ]
-                    ];
-
-                    $flexMessageBuilder = new LINEBot\MessageBuilder\FlexMessageBuilder('飲料店菜單', $contents);
-                    $this->bot->replyMessage($event['replyToken'], $flexMessageBuilder);
+                    $this->replyWithShopMenu($event['replyToken'], $shop, $shopName . ' 菜單');
                 }
             }
         }
 
         return response()->json(['status' => 'success'], 200);
+    }
+
+    private function replyWithShopMenu($replyToken, $shop, $title)
+    {
+        $imageUrl = $shop['image_url'];
+        $items = $shop['items'];
+
+        $itemComponents = [];
+        foreach ($items as $item) {
+            $itemComponents[] = new BoxComponentBuilder('baseline', [
+                new TextComponentBuilder($item['name'], null, 'sm', 'bold', 2),
+                new TextComponentBuilder($item['price'], null, 'sm', null, 1, 'end'),
+            ]);
+        }
+
+        $bubble = new BubbleContainerBuilder(
+            null,
+            new ImageComponentBuilder($imageUrl, null, 'full', '20:13', 'cover'),
+            new BoxComponentBuilder('vertical', array_merge(
+                [new TextComponentBuilder($title, null, 'xl', 'bold')],
+                $itemComponents
+            ))
+        );
+
+        $flexMessageBuilder = new FlexMessageBuilder('飲料店菜單', $bubble);
+        $this->bot->replyMessage($replyToken, $flexMessageBuilder);
     }
 }
