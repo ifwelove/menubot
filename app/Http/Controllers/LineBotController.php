@@ -165,13 +165,10 @@ class LineBotController extends Controller
                 ->setLayout('baseline')
                 ->setContents([
                     TextComponentBuilder::builder()
+                        ->setAction($buttonAction)
                         ->setText($shopName)
                         ->setSize('sm')
                         ->setFlex(4),
-                    ButtonComponentBuilder::builder()
-                        ->setAction($buttonAction)
-                        ->setStyle(ComponentButtonStyle::LINK)
-                        ->setHeight(ComponentButtonHeight::SM)
                 ]);
         }
 
