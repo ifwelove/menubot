@@ -87,8 +87,8 @@ class LineBotController extends Controller
 
                         // 添加一个随机选择的选项
                         $randomShopKey = array_rand($shops);
-                        $actions[]     = new PostbackTemplateActionBuilder('正餐', "action=select&shop={$randomShopKey}");
-                        $actions[]     = new PostbackTemplateActionBuilder('下午茶', "action=select&shop={$randomShopKey}");
+//                        $actions[]     = new PostbackTemplateActionBuilder('正餐', "action=select&shop={$randomShopKey}");
+//                        $actions[]     = new PostbackTemplateActionBuilder('下午茶', "action=select&shop={$randomShopKey}");
                         $actions[]     = new PostbackTemplateActionBuilder('飲料', "action=select&shop={$randomShopKey}");
 
                         $buttonTemplateBuilder = new ButtonTemplateBuilder('選單', '請選擇一個項目', null, $actions);
@@ -126,9 +126,12 @@ class LineBotController extends Controller
 
                     } elseif ($userMessage == '飲料店') {
                         $this->replyWithShopList($event['replyToken']);
-                    } elseif (isset(config('beverage_shops.shops')[$userMessage])) {
-                        $shop = config('beverage_shops.shops')[$userMessage];
-                        $this->replyWithShopMenu($event['replyToken'], $shop, $userMessage . ' 菜單');
+                    } elseif (array_keys(config('menu.shops.drink'), $userMessage)) {
+                        $matchingKeys = array_keys(config('menu.shops.drink'), $userMessage);
+                        $shopName = $matchingKeys[0];
+                        $shop = config("menus.{$shopName}");
+//                        $shop = config('beverage_shops.shops')[$userMessage];
+                        $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
                     }
 
                 } elseif ($event['type'] == 'postback') {
@@ -137,8 +140,9 @@ class LineBotController extends Controller
 
                     if ($postbackData['action'] == 'select' && isset($postbackData['shop'])) {
                         $shopName = $postbackData['shop'];
-                        $shop     = config('beverage_shops.shops')[$shopName];
-                        $this->replyWithShopMenu($event['replyToken'], $shop, $shopName . ' 菜單');
+//                        $shop     = config('beverage_shops.shops')[$shopName];
+                        $shop = config("menus.{$shopName}");
+                        $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
                     }
                 }
             }
@@ -150,7 +154,7 @@ class LineBotController extends Controller
 
     private function replyWithShopList($replyToken)
     {
-        $shops = config('beverage_shops.shops');
+        $shops = config('menu.shops.drink');
 
         if (empty($shops)) {
             $this->bot->replyMessage($replyToken, new TextMessageBuilder('抱歉，目前沒有可用的飲料店資訊。'));
@@ -159,15 +163,18 @@ class LineBotController extends Controller
 
         // 构建所有饮料店信息的 Flex Components
         $shopComponents = [];
-        foreach ($shops as $shopName => $shopInfo) {
-            $buttonAction     = new PostbackTemplateActionBuilder('查看菜单', "action=select&shop={$shopName}");
+        $randomKeys = (count($shops) > 20) ? array_rand($shops, 20) : array_keys($shops);
+        foreach ($randomKeys as $key) {
+//        foreach ($shops as $shopName => $shopInfo) {
+            $shopName = $shops[$key]; // 或者直接用 $key 如果鍵名就是店鋪名
+            $buttonAction     = new PostbackTemplateActionBuilder('查看菜单', "action=select&shop={$key}");
             $shopComponents[] = BoxComponentBuilder::builder()
                 ->setLayout('baseline')
                 ->setContents([
                     TextComponentBuilder::builder()
                         ->setAction($buttonAction)
                         ->setText($shopName)
-                        ->setSize('sm')
+                        ->setSize('lg')
                         ->setFlex(4),
                 ]);
         }
@@ -197,13 +204,13 @@ class LineBotController extends Controller
 
         // 创建饮料项目组件
         $itemComponents = [];
-        foreach ($shop['items'] as $category => $detail) {
+        foreach ($shop['menu_items'] as $category => $detail) {
             $itemComponents[] = TextComponentBuilder::builder()
                 ->setText($category)
                 ->setWeight('bold')
                 ->setSize('md');
 
-            foreach ($detail['items'] as $item) {
+            foreach ($detail as $item) {
                 $priceText = ' ';
                 if (! empty($item['price_cold'])) {
                     $priceText .= $item['price_cold'] . $coldEmoji;
@@ -250,7 +257,7 @@ class LineBotController extends Controller
                         ButtonComponentBuilder::builder()
                             ->setStyle('link')
                             ->setHeight('sm')
-                            ->setAction(new UriTemplateActionBuilder('你訂', $shop['website_url']))
+                            ->setAction(new UriTemplateActionBuilder('你訂', sprintf('https://order.nidin.shop/brand/%s/', $shop['brand_code'])))
                         // 设置按钮动作链接
                     ])));
 
