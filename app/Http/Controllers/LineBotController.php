@@ -82,7 +82,7 @@ class LineBotController extends Controller
 
                         $actions = [];
                         foreach (array_keys($shops) as $shopName) {
-//                            $actions[] = new PostbackTemplateActionBuilder($shopName, "action=select&shop={$shopName}");
+                            //                            $actions[] = new PostbackTemplateActionBuilder($shopName, "action=select&shop={$shopName}");
                         }
 
                         // 添加一个随机选择的选项
@@ -108,12 +108,11 @@ class LineBotController extends Controller
                         shuffle($randomKeys); // 随机排序选出的店铺键
                         $columns = [];
                         foreach ($randomKeys as $key) {
-                            $shopName = $key; // 使用 $key 作为店铺名称
+                            $shopName     = $key; // 使用 $key 作为店铺名称
                             $postbackData = http_build_query(['action' => 'select', 'shop' => $shopName]);
-                            $action = new PostbackTemplateActionBuilder($shopName, $postbackData);
+                            $action       = new PostbackTemplateActionBuilder($shopName, $postbackData);
 
-                            $column = new CarouselColumnTemplateBuilder(
-                                $shopName, // title
+                            $column    = new CarouselColumnTemplateBuilder($shopName, // title
                                 '選擇您的飲料', // text
                                 $shops[$key]['image_url'], // image url (optional)
                                 [$action] // actions
@@ -122,13 +121,16 @@ class LineBotController extends Controller
                         }
 
                         $carouselTemplateBuilder = new CarouselTemplateBuilder($columns);
-                        $templateMessage = new TemplateMessageBuilder('選擇飲料店', $carouselTemplateBuilder);
+                        $templateMessage         = new TemplateMessageBuilder('選擇飲料店', $carouselTemplateBuilder);
                         $this->bot->replyMessage($event['replyToken'], $templateMessage);
 
+                    } elseif ($userMessage == '飲料店') {
+                        $this->replyWithShopList($event['replyToken']);
                     } elseif (isset(config('beverage_shops.shops')[$userMessage])) {
                         $shop = config('beverage_shops.shops')[$userMessage];
                         $this->replyWithShopMenu($event['replyToken'], $shop, $userMessage . ' 菜單');
                     }
+
                 } elseif ($event['type'] == 'postback') {
                     $data = $event['postback']['data'];
                     parse_str($data, $postbackData);
@@ -145,6 +147,46 @@ class LineBotController extends Controller
         }
         return response()->json(['status' => 'success'], 200);
     }
+
+    private function replyWithShopList($replyToken)
+    {
+        $shops = config('beverage_shops.shops');
+
+        if (empty($shops)) {
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder('抱歉，目前沒有可用的飲料店資訊。'));
+            return;
+        }
+
+        // 构建所有饮料店信息的 Flex Components
+        $shopComponents = [];
+        foreach ($shops as $shopName => $shopInfo) {
+            $buttonAction     = new PostbackTemplateActionBuilder('查看菜单', "action=select&shop={$shopName}");
+            $shopComponents[] = BoxComponentBuilder::builder()
+                ->setLayout('baseline')
+                ->setContents([
+                    TextComponentBuilder::builder()
+                        ->setText($shopName)
+                        ->setSize('sm')
+                        ->setFlex(4),
+                    ButtonComponentBuilder::builder()
+                        ->setAction($buttonAction)
+                        ->setStyle(ComponentButtonStyle::LINK)
+                        ->setHeight(ComponentButtonHeight::SM)
+                ]);
+        }
+
+        // 创建 Flex Message
+        $flexMessageBuilder = FlexMessageBuilder::builder()
+            ->setAltText('飲料店列表') // 设置备用文字
+            ->setContents(BubbleContainerBuilder::builder()
+                ->setBody(BoxComponentBuilder::builder()
+                    ->setLayout('vertical')
+                    ->setContents($shopComponents)));
+
+        // 使用LINE Bot实例发送消息
+        $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+    }
+
 
     private function replyWithShopMenu($replyToken, $shop, $title)
     {
