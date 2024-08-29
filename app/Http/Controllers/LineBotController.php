@@ -176,6 +176,11 @@ class LineBotController extends Controller
         $flexMessageBuilder = FlexMessageBuilder::builder()
             ->setAltText('飲料店列表') // 设置备用文字
             ->setContents(BubbleContainerBuilder::builder()
+                ->setHero(ImageComponentBuilder::builder()
+                    ->setUrl('https://i.meee.com.tw/ElQ1WxG.jpg')
+                    ->setSize('full')
+                    ->setAspectRatio('20:13')
+                    ->setAspectMode('cover'))
                 ->setBody(BoxComponentBuilder::builder()
                     ->setLayout('vertical')
                     ->setContents($shopComponents)));
