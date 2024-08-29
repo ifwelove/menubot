@@ -96,7 +96,7 @@ class LineBotController extends Controller
                         $templateMessage = new TemplateMessageBuilder('選擇', $buttonTemplateBuilder);
                         $this->bot->replyMessage($event['replyToken'], $templateMessage);
                     } elseif ($userMessage == '喝什麼') {
-                        $shops = config('beverage_shops.shops');
+                        $shops = config('menu.shops.drink');
 
                         if (empty($shops)) {
                             $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder('抱歉，目前沒有可用的飲料店資訊。'));
@@ -108,13 +108,17 @@ class LineBotController extends Controller
                         shuffle($randomKeys); // 随机排序选出的店铺键
                         $columns = [];
                         foreach ($randomKeys as $key) {
-                            $shopName     = $key; // 使用 $key 作为店铺名称
-                            $postbackData = http_build_query(['action' => 'select', 'shop' => $shopName]);
+                            $shop = config("menus.{$key}");
+                            if (is_null($shop)) {
+                                continue;
+                            }
+                            $shopName     = $shop['shop_name']; // 使用 $key 作为店铺名称
+                            $postbackData = http_build_query(['action' => 'select', 'shop' => $key]);
                             $action       = new PostbackTemplateActionBuilder($shopName, $postbackData);
 
                             $column    = new CarouselColumnTemplateBuilder($shopName, // title
-                                '選擇您的飲料', // text
-                                $shops[$key]['image_url'], // image url (optional)
+                                '點擊看菜單', // text
+                                $shop['image_url'], // image url (optional)
                                 [$action] // actions
                             );
                             $columns[] = $column;
