@@ -171,6 +171,10 @@ class LineBotController extends Controller
         foreach ($randomKeys as $key) {
 //        foreach ($shops as $shopName => $shopInfo) {
             $shopName = $shops[$key]; // 或者直接用 $key 如果鍵名就是店鋪名
+            $shop = config("menus.{$key}");
+            if (is_null($shop)) {
+                continue;
+            }
             $buttonAction     = new PostbackTemplateActionBuilder('查看菜单', "action=select&shop={$key}");
             $shopComponents[] = BoxComponentBuilder::builder()
                 ->setLayout('baseline')
