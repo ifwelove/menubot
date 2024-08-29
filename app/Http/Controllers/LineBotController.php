@@ -82,16 +82,18 @@ class LineBotController extends Controller
 
                         $actions = [];
                         foreach (array_keys($shops) as $shopName) {
-                            $actions[] = new PostbackTemplateActionBuilder($shopName, "action=select&shop={$shopName}");
+//                            $actions[] = new PostbackTemplateActionBuilder($shopName, "action=select&shop={$shopName}");
                         }
 
                         // 添加一个随机选择的选项
                         $randomShopKey = array_rand($shops);
-                        $actions[]     = new PostbackTemplateActionBuilder('隨機選擇', "action=select&shop={$randomShopKey}");
+                        $actions[]     = new PostbackTemplateActionBuilder('正餐', "action=select&shop={$randomShopKey}");
+                        $actions[]     = new PostbackTemplateActionBuilder('下午茶', "action=select&shop={$randomShopKey}");
+                        $actions[]     = new PostbackTemplateActionBuilder('飲料', "action=select&shop={$randomShopKey}");
 
-                        $buttonTemplateBuilder = new ButtonTemplateBuilder('飲料店選單', '請選擇一家飲料店', null, $actions);
+                        $buttonTemplateBuilder = new ButtonTemplateBuilder('選單', '請選擇一個項目', null, $actions);
 
-                        $templateMessage = new TemplateMessageBuilder('選擇飲料店', $buttonTemplateBuilder);
+                        $templateMessage = new TemplateMessageBuilder('選擇', $buttonTemplateBuilder);
                         $this->bot->replyMessage($event['replyToken'], $templateMessage);
                     } elseif ($userMessage == '喝什麼') {
                         $shops = config('beverage_shops.shops');
