@@ -233,7 +233,7 @@ class LineBotController extends Controller
                     if (! empty($priceText)) {
                         $priceText .= ''; // 分隔冷热价格
                     }
-                    $priceText .= $item['price_hot'] . '$';
+                    $priceText .= $item['price'] . '$';
                 }
                 $itemComponents[] = BoxComponentBuilder::builder()
                     ->setLayout('baseline')
