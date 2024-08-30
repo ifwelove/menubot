@@ -182,7 +182,7 @@ class LineBotController extends Controller
                     TextComponentBuilder::builder()
                         ->setAction($buttonAction)
                         ->setText($shopName)
-                        ->setSize('lg')
+                        ->setSize('xl')
                         ->setFlex(4),
                 ]);
         }
@@ -228,6 +228,12 @@ class LineBotController extends Controller
                         $priceText .= ''; // 分隔冷热价格
                     }
                     $priceText .= $item['price_hot'] . $hotEmoji;
+                }
+                if (! empty($item['price'])) {
+                    if (! empty($priceText)) {
+                        $priceText .= ''; // 分隔冷热价格
+                    }
+                    $priceText .= $item['price_hot'] . '$';
                 }
                 $itemComponents[] = BoxComponentBuilder::builder()
                     ->setLayout('baseline')
