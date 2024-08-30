@@ -2,7 +2,7 @@
 return [
     'brand_code' => 'aniceholiday',
     'shop_name' => 'ㄧ沐日',
-    'image_url' => 'https://www.aniceholiday.com.tw/static/images/logo.svg?v=20240326',
+    'image_url' => 'https://menu.noder.tw/images/logo-anh.png',
     'menu_items' => [
         '原味茶' => [
             [
