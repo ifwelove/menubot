@@ -253,6 +253,11 @@ class LineBotController extends Controller
         }
 
         // 创建Flex Message
+        if (isset($shop['web_url'])) {
+            $web_url = new UriTemplateActionBuilder('官網', $shop['web_url']);
+        } else {
+            $web_url = new UriTemplateActionBuilder('你訂', sprintf('https://order.nidin.shop/brand/%s/', $shop['brand_code']));
+        }
         $flexMessageBuilder = FlexMessageBuilder::builder()
             ->setAltText($title) // 设置备用文字
             ->setContents(BubbleContainerBuilder::builder()
@@ -271,7 +276,7 @@ class LineBotController extends Controller
                         ButtonComponentBuilder::builder()
                             ->setStyle('link')
                             ->setHeight('sm')
-                            ->setAction(new UriTemplateActionBuilder('你訂', sprintf('https://order.nidin.shop/brand/%s/', $shop['brand_code'])))
+                            ->setAction($web_url)
                         // 设置按钮动作链接
                     ])));
 
