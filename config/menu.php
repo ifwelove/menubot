@@ -3,7 +3,7 @@ return [
     'shops' => [
        'food' => [],
        'drink' => [
-           'aniceholiday' => 'ㄧ沐日',
+           'aniceholiday' => '一沐日',
            'moocha' => '牧夏',
            'lianxianru' => '戀鮮乳',
            'xianruzhilian' => '鮮乳之戀',
