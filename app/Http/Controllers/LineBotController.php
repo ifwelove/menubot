@@ -196,6 +196,9 @@ class LineBotController extends Controller
                     } elseif ($postbackData['action'] == 'tags') {
                         // 執行「飲料標籤」功能
                         $this->showShopTags($event['replyToken']);
+                    } elseif ($postbackData['action'] == 'aliases') {
+                        // 執行「飲料店別名」功能
+                        $this->showShopAliases($event['replyToken']);
                     }
                 }
             }
@@ -424,23 +427,75 @@ class LineBotController extends Controller
      */
     private function showInstructions($replyToken)
     {
-        // 建立按鈕選單
-        $actions = [
-            new PostbackTemplateActionBuilder('📖 使用說明', 'action=instructions'),
-            new PostbackTemplateActionBuilder('🎲 喝什麼', 'action=random'),
-            new PostbackTemplateActionBuilder('🏪 飲料店', 'action=shoplist'),
-            new PostbackTemplateActionBuilder('🏷️ 飲料標籤', 'action=tags')
+        // 使用 Flex Message 支援5個選項
+        $buttonComponents = [
+            ButtonComponentBuilder::builder()
+                ->setStyle(ComponentButtonStyle::LINK)
+                ->setHeight(ComponentButtonHeight::SM)
+                ->setAction(new PostbackTemplateActionBuilder('📖 使用說明', 'action=instructions'))
+                ->setColor('#1976D2'),
+            ButtonComponentBuilder::builder()
+                ->setStyle(ComponentButtonStyle::LINK)
+                ->setHeight(ComponentButtonHeight::SM)
+                ->setAction(new PostbackTemplateActionBuilder('🎲 喝什麼', 'action=random'))
+                ->setColor('#388E3C'),
+            ButtonComponentBuilder::builder()
+                ->setStyle(ComponentButtonStyle::LINK)
+                ->setHeight(ComponentButtonHeight::SM)
+                ->setAction(new PostbackTemplateActionBuilder('🏪 飲料店', 'action=shoplist'))
+                ->setColor('#F57C00'),
+            ButtonComponentBuilder::builder()
+                ->setStyle(ComponentButtonStyle::LINK)
+                ->setHeight(ComponentButtonHeight::SM)
+                ->setAction(new PostbackTemplateActionBuilder('🏷️ 飲料標籤', 'action=tags'))
+                ->setColor('#7B1FA2'),
+            ButtonComponentBuilder::builder()
+                ->setStyle(ComponentButtonStyle::LINK)
+                ->setHeight(ComponentButtonHeight::SM)
+                ->setAction(new PostbackTemplateActionBuilder('🔤 飲料店別名', 'action=aliases'))
+                ->setColor('#C2185B'),
         ];
         
-        $buttonTemplateBuilder = new ButtonTemplateBuilder(
-            '功能選單',
-            '請選擇您要使用的功能',
-            null,
-            $actions
-        );
+        // 在按鈕之間加入間距
+        $components = [];
+        foreach ($buttonComponents as $index => $button) {
+            $components[] = $button;
+            if ($index < count($buttonComponents) - 1) {
+                $components[] = BoxComponentBuilder::builder()
+                    ->setLayout(ComponentLayout::VERTICAL)
+                    ->setHeight('8px');
+            }
+        }
         
-        $templateMessage = new TemplateMessageBuilder('功能選單', $buttonTemplateBuilder);
-        $this->bot->replyMessage($replyToken, $templateMessage);
+        $flexMessageBuilder = FlexMessageBuilder::builder()
+            ->setAltText('功能選單')
+            ->setContents(BubbleContainerBuilder::builder()
+                ->setHeader(BoxComponentBuilder::builder()
+                    ->setLayout(ComponentLayout::VERTICAL)
+                    ->setContents([
+                        TextComponentBuilder::builder()
+                            ->setText('功能選單')
+                            ->setWeight(ComponentFontWeight::BOLD)
+                            ->setSize(ComponentFontSize::LG)
+                            ->setAlign('center')
+                    ]))
+                ->setBody(BoxComponentBuilder::builder()
+                    ->setLayout(ComponentLayout::VERTICAL)
+                    ->setSpacing(ComponentSpacing::SM)
+                    ->setContents([
+                        TextComponentBuilder::builder()
+                            ->setText('請選擇您要使用的功能')
+                            ->setSize(ComponentFontSize::SM)
+                            ->setAlign('center')
+                            ->setMargin(ComponentMargin::MD),
+                        BoxComponentBuilder::builder()
+                            ->setLayout(ComponentLayout::VERTICAL)
+                            ->setMargin(ComponentMargin::LG)
+                            ->setSpacing(ComponentSpacing::SM)
+                            ->setContents($components)
+                    ])));
+        
+        $this->bot->replyMessage($replyToken, $flexMessageBuilder);
     }
 
     /**
@@ -579,6 +634,97 @@ class LineBotController extends Controller
         }
         
         $this->bot->replyMessage($replyToken, new TextMessageBuilder($message));
+    }
+
+    /**
+     * 顯示飲料店別名
+     */
+    private function showShopAliases($replyToken)
+    {
+        $keywords = config('shop_keywords');
+        $shops = config('menu.shops.drink');
+        
+        // 選擇一些常用的店家來顯示別名
+        $popularShops = [
+            '50lantea', 'coco', 'kebuke', 'milkshop', 'chingshin',
+            'tigersugar', 'truedan', 'comebuytea', 'happylemon',
+            'kungfutea', 'threepercent', 'herotang'
+        ];
+        
+        $components = [
+            TextComponentBuilder::builder()
+                ->setText('🔤 飲料店別名查詢')
+                ->setWeight(ComponentFontWeight::BOLD)
+                ->setSize(ComponentFontSize::LG)
+                ->setMargin(ComponentMargin::MD),
+            TextComponentBuilder::builder()
+                ->setText('您可以使用以下別名快速查詢：')
+                ->setSize(ComponentFontSize::SM)
+                ->setMargin(ComponentMargin::MD)
+                ->setColor('#666666'),
+            SeparatorComponentBuilder::builder()
+                ->setMargin(ComponentMargin::MD)
+        ];
+        
+        foreach ($popularShops as $shopCode) {
+            if (!isset($keywords[$shopCode]) || !isset($shops[$shopCode])) {
+                continue;
+            }
+            
+            $shopName = $shops[$shopCode];
+            $aliases = $keywords[$shopCode];
+            
+            // 店名標題
+            $components[] = TextComponentBuilder::builder()
+                ->setText("【{$shopName}】")
+                ->setWeight(ComponentFontWeight::BOLD)
+                ->setSize(ComponentFontSize::MD)
+                ->setMargin(ComponentMargin::LG)
+                ->setColor('#1976D2');
+            
+            // 別名列表
+            $aliasText = '✓ ' . implode('、', array_slice($aliases, 0, 4));
+            $components[] = TextComponentBuilder::builder()
+                ->setText($aliasText)
+                ->setSize(ComponentFontSize::SM)
+                ->setMargin(ComponentMargin::SM)
+                ->setWrap(true);
+        }
+        
+        // 加入提示
+        $components[] = SeparatorComponentBuilder::builder()
+            ->setMargin(ComponentMargin::LG);
+        
+        $components[] = BoxComponentBuilder::builder()
+            ->setLayout(ComponentLayout::HORIZONTAL)
+            ->setMargin(ComponentMargin::LG)
+            ->setContents([
+                TextComponentBuilder::builder()
+                    ->setText('💡')
+                    ->setSize(ComponentFontSize::SM)
+                    ->setFlex(0),
+                TextComponentBuilder::builder()
+                    ->setText('直接輸入別名即可查看菜單！')
+                    ->setSize(ComponentFontSize::SM)
+                    ->setMargin(ComponentMargin::SM)
+                    ->setFlex(1)
+                    ->setWrap(true)
+            ]);
+        
+        $components[] = TextComponentBuilder::builder()
+            ->setText('例如：輸入「50」即可查看50嵐菜單')
+            ->setSize(ComponentFontSize::XXS)
+            ->setMargin(ComponentMargin::SM)
+            ->setColor('#999999');
+        
+        $flexMessageBuilder = FlexMessageBuilder::builder()
+            ->setAltText('飲料店別名查詢')
+            ->setContents(BubbleContainerBuilder::builder()
+                ->setBody(BoxComponentBuilder::builder()
+                    ->setLayout(ComponentLayout::VERTICAL)
+                    ->setContents($components)));
+        
+        $this->bot->replyMessage($replyToken, $flexMessageBuilder);
     }
 
 }
