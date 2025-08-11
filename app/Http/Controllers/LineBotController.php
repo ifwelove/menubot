@@ -73,28 +73,12 @@ class LineBotController extends Controller
                     $userMessage = $event['message']['text'];
 
                     if ($userMessage == '菜單') {
-                        $shops = config('beverage_shops.shops');
-
-                        if (empty($shops)) {
-                            $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder('抱歉，目前沒有可用的飲料店資訊。'));
-                            return;
-                        }
-
-                        $actions = [];
-                        foreach (array_keys($shops) as $shopName) {
-                            //                            $actions[] = new PostbackTemplateActionBuilder($shopName, "action=select&shop={$shopName}");
-                        }
-
-                        // 添加一个随机选择的选项
-                        $randomShopKey = array_rand($shops);
-//                        $actions[]     = new PostbackTemplateActionBuilder('正餐', "action=select&shop={$randomShopKey}");
-//                        $actions[]     = new PostbackTemplateActionBuilder('下午茶', "action=select&shop={$randomShopKey}");
-                        $actions[]     = new PostbackTemplateActionBuilder('飲料', "action=select&shop={$randomShopKey}");
-
-                        $buttonTemplateBuilder = new ButtonTemplateBuilder('選單', '請選擇一個項目', null, $actions);
-
-                        $templateMessage = new TemplateMessageBuilder('選擇', $buttonTemplateBuilder);
-                        $this->bot->replyMessage($event['replyToken'], $templateMessage);
+                        $message = "請選擇功能：\n\n";
+                        $message .= "輸入「飲料店」- 查看所有飲料店\n";
+                        $message .= "輸入「喝什麼」- 隨機推薦飲料店\n";
+                        $message .= "或直接輸入飲料店名稱查看菜單";
+                        
+                        $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder($message));
                     } elseif ($userMessage == '喝什麼') {
                         $shops = config('menu.shops.drink');
 
@@ -103,8 +87,8 @@ class LineBotController extends Controller
                             return;
                         }
 
-                        // 随机选择最多5个店铺
-                        $randomKeys = (count($shops) > 5) ? array_rand($shops, 5) : array_keys($shops);
+                        // 随机选择最多10个店铺
+                        $randomKeys = (count($shops) > 10) ? array_rand($shops, 10) : array_keys($shops);
                         shuffle($randomKeys); // 随机排序选出的店铺键
                         $columns = [];
                         foreach ($randomKeys as $key) {
@@ -167,7 +151,9 @@ class LineBotController extends Controller
 
         // 构建所有饮料店信息的 Flex Components
         $shopComponents = [];
-        $randomKeys = (count($shops) > 20) ? array_rand($shops, 20) : array_keys($shops);
+        // 顯示更多店家，但保持適當數量避免過長
+        $randomKeys = (count($shops) > 30) ? array_rand($shops, 30) : array_keys($shops);
+        shuffle($randomKeys); // 隨機排序
         foreach ($randomKeys as $key) {
 //        foreach ($shops as $shopName => $shopInfo) {
             $shopName = $shops[$key]; // 或者直接用 $key 如果鍵名就是店鋪名
@@ -176,13 +162,21 @@ class LineBotController extends Controller
                 continue;
             }
             $buttonAction     = new PostbackTemplateActionBuilder('查看菜单', "action=select&shop={$key}");
+            // 在每個店名前加入間距
+            if (count($shopComponents) > 0) {
+                // 加入分隔線
+                $shopComponents[] = SeparatorComponentBuilder::builder()
+                    ->setMargin('md');
+            }
+            
             $shopComponents[] = BoxComponentBuilder::builder()
                 ->setLayout('baseline')
+                ->setMargin('lg')  // 增加外邊距
                 ->setContents([
                     TextComponentBuilder::builder()
                         ->setAction($buttonAction)
                         ->setText($shopName)
-                        ->setSize('xl')
+                        ->setSize('md')  // 從 xl 改為 md
                         ->setFlex(4),
                 ]);
         }
