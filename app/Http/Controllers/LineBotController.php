@@ -33,15 +33,18 @@ use LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\IconComponentBuilder;
 use LINE\LINEBot\TemplateActionBuilder\UriTemplateActionBuilder;
 use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselTemplateBuilder;
 use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselColumnTemplateBuilder;
+use App\Services\ShopSearchService;
 
 class LineBotController extends Controller
 {
     private $bot;
+    private $shopSearchService;
 
     public function __construct()
     {
         $httpClient = new CurlHTTPClient(config('line.LINE_CHANNEL_ACCESS_TOKEN'));
         $this->bot  = new LINEBot($httpClient, ['channelSecret' => config('line.LINE_CHANNEL_SECRET')]);
+        $this->shopSearchService = new ShopSearchService();
     }
 
     protected function dd($data)
@@ -72,7 +75,21 @@ class LineBotController extends Controller
                 if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
                     $userMessage = $event['message']['text'];
 
-                    if ($userMessage == '菜單') {
+                    if ($userMessage == '使用說明') {
+                        $this->showInstructions($event['replyToken']);
+                    } elseif ($userMessage == '店家清單') {
+                        $this->replyWithShopList($event['replyToken']);
+                    } elseif ($userMessage == 'TOP名店') {
+                        $this->showTopShops($event['replyToken']);
+                    } elseif ($userMessage == '隨機飲料店') {
+                        $this->showRandomShop($event['replyToken']);
+                    } elseif ($userMessage == '找茶') {
+                        $this->showTeaShops($event['replyToken']);
+                    } elseif ($userMessage == '奶類') {
+                        $this->showMilkShops($event['replyToken']);
+                    } elseif ($userMessage == '飲料標籤') {
+                        $this->showShopTags($event['replyToken']);
+                    } elseif ($userMessage == '菜單') {
                         $message = "請選擇功能：\n\n";
                         $message .= "輸入「飲料店」- 查看所有飲料店\n";
                         $message .= "輸入「喝什麼」- 隨機推薦飲料店\n";
@@ -115,11 +132,40 @@ class LineBotController extends Controller
                     } elseif ($userMessage == '飲料店') {
                         $this->replyWithShopList($event['replyToken']);
                     } elseif (array_keys(config('menu.shops.drink'), $userMessage)) {
+                        // 完全匹配店名
                         $matchingKeys = array_keys(config('menu.shops.drink'), $userMessage);
                         $shopName = $matchingKeys[0];
                         $shop = config("menus.{$shopName}");
-//                        $shop = config('beverage_shops.shops')[$userMessage];
                         $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
+                    } else {
+                        // 先檢查是否為標籤
+                        $tags = config('shop_tags');
+                        if (isset($tags[$userMessage])) {
+                            $this->showShopsByTag($event['replyToken'], $tags[$userMessage], "🏷️ {$userMessage}");
+                            return;
+                        }
+                        
+                        // 關鍵字搜尋
+                        $searchResults = $this->shopSearchService->search($userMessage);
+                        
+                        if (count($searchResults) == 1) {
+                            // 只找到一個結果，直接顯示菜單
+                            $shopCode = array_key_first($searchResults);
+                            $shop = $this->shopSearchService->getShopInfo($shopCode);
+                            if ($shop) {
+                                $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
+                            }
+                        } elseif (count($searchResults) > 1) {
+                            // 多個結果，顯示選擇列表
+                            $this->replyWithSearchResults($event['replyToken'], $searchResults, $userMessage);
+                        } else {
+                            // 沒有找到結果
+                            $message = "找不到「{$userMessage}」相關的飲料店 😢\n\n";
+                            $message .= "試試這些關鍵字：\n";
+                            $suggestions = $this->shopSearchService->getSuggestedKeywords();
+                            $message .= implode('、', array_slice($suggestions, 0, 5));
+                            $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder($message));
+                        }
                     }
 
                 } elseif ($event['type'] == 'postback') {
@@ -128,9 +174,28 @@ class LineBotController extends Controller
 
                     if ($postbackData['action'] == 'select' && isset($postbackData['shop'])) {
                         $shopName = $postbackData['shop'];
-//                        $shop     = config('beverage_shops.shops')[$shopName];
                         $shop = config("menus.{$shopName}");
                         $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
+                    } elseif ($postbackData['action'] == 'instructions') {
+                        // 顯示使用說明
+                        $message = "📖 使用說明\n\n";
+                        $message .= "🔸 使用說明：查看功能介紹\n";
+                        $message .= "🔸 店家清單：瀏覽所有飲料店\n";
+                        $message .= "🔸 TOP名店：查看熱門推薦店家\n";
+                        $message .= "🔸 隨機飲料店：讓系統推薦一家店\n";
+                        $message .= "🔸 找茶：茶類專門店\n";
+                        $message .= "🔸 奶類：鮮奶茶專門店\n\n";
+                        $message .= "💡 也可以直接輸入店名或關鍵字搜尋！";
+                        $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder($message));
+                    } elseif ($postbackData['action'] == 'random') {
+                        // 執行「喝什麼」功能
+                        $this->showRandomShop($event['replyToken']);
+                    } elseif ($postbackData['action'] == 'shoplist') {
+                        // 執行「飲料店」功能
+                        $this->replyWithShopList($event['replyToken']);
+                    } elseif ($postbackData['action'] == 'tags') {
+                        // 執行「飲料標籤」功能
+                        $this->showShopTags($event['replyToken']);
                     }
                 }
             }
@@ -276,6 +341,244 @@ class LineBotController extends Controller
 
         // 使用LINE Bot实例发送消息
         $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+    }
+
+    /**
+     * 顯示搜尋結果列表
+     */
+    private function replyWithSearchResults($replyToken, $searchResults, $keyword)
+    {
+        // 限制最多顯示10個結果
+        $searchResults = array_slice($searchResults, 0, 10, true);
+        
+        if (count($searchResults) <= 5) {
+            // 使用 Carousel 顯示（5個以下）
+            $columns = [];
+            foreach ($searchResults as $shopCode => $shopName) {
+                $shop = config("menus.{$shopCode}");
+                if (!$shop) {
+                    continue;
+                }
+                
+                $postbackData = http_build_query(['action' => 'select', 'shop' => $shopCode]);
+                $action = new PostbackTemplateActionBuilder($shopName, $postbackData);
+                
+                $column = new CarouselColumnTemplateBuilder(
+                    $shopName,
+                    '點擊查看菜單',
+                    isset($shop['image_url']) ? $shop['image_url'] : null,
+                    [$action]
+                );
+                $columns[] = $column;
+            }
+            
+            if (!empty($columns)) {
+                $carouselTemplateBuilder = new CarouselTemplateBuilder($columns);
+                $templateMessage = new TemplateMessageBuilder(
+                    "找到 " . count($searchResults) . " 個「{$keyword}」相關的飲料店",
+                    $carouselTemplateBuilder
+                );
+                $this->bot->replyMessage($replyToken, $templateMessage);
+            }
+        } else {
+            // 使用 Flex Message 顯示（超過5個）
+            $shopComponents = [];
+            $shopComponents[] = TextComponentBuilder::builder()
+                ->setText("找到 " . count($searchResults) . " 個「{$keyword}」相關的飲料店")
+                ->setWeight('bold')
+                ->setSize('lg')
+                ->setMargin('md');
+                
+            $shopComponents[] = SeparatorComponentBuilder::builder()
+                ->setMargin('md');
+            
+            foreach ($searchResults as $shopCode => $shopName) {
+                $buttonAction = new PostbackTemplateActionBuilder('查看菜單', "action=select&shop={$shopCode}");
+                
+                $shopComponents[] = BoxComponentBuilder::builder()
+                    ->setLayout('baseline')
+                    ->setMargin('md')
+                    ->setContents([
+                        TextComponentBuilder::builder()
+                            ->setAction($buttonAction)
+                            ->setText($shopName)
+                            ->setSize('md')
+                            ->setColor('#1976D2')
+                            ->setFlex(4),
+                    ]);
+            }
+            
+            $flexMessageBuilder = FlexMessageBuilder::builder()
+                ->setAltText("找到 " . count($searchResults) . " 個相關飲料店")
+                ->setContents(BubbleContainerBuilder::builder()
+                    ->setBody(BoxComponentBuilder::builder()
+                        ->setLayout('vertical')
+                        ->setContents($shopComponents)));
+            
+            $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+        }
+    }
+
+    /**
+     * 顯示使用說明
+     */
+    private function showInstructions($replyToken)
+    {
+        // 建立按鈕選單
+        $actions = [
+            new PostbackTemplateActionBuilder('📖 使用說明', 'action=instructions'),
+            new PostbackTemplateActionBuilder('🎲 喝什麼', 'action=random'),
+            new PostbackTemplateActionBuilder('🏪 飲料店', 'action=shoplist'),
+            new PostbackTemplateActionBuilder('🏷️ 飲料標籤', 'action=tags')
+        ];
+        
+        $buttonTemplateBuilder = new ButtonTemplateBuilder(
+            '功能選單',
+            '請選擇您要使用的功能',
+            null,
+            $actions
+        );
+        
+        $templateMessage = new TemplateMessageBuilder('功能選單', $buttonTemplateBuilder);
+        $this->bot->replyMessage($replyToken, $templateMessage);
+    }
+
+    /**
+     * 顯示TOP名店
+     */
+    private function showTopShops($replyToken)
+    {
+        $topShops = config('shop_tags.TOP熱門店家');
+        
+        if (empty($topShops)) {
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder('目前沒有熱門店家資訊'));
+            return;
+        }
+        
+        // 隨機選擇最多10家顯示
+        $selectedShops = array_slice($topShops, 0, 10, true);
+        $columns = [];
+        
+        foreach ($selectedShops as $shopCode => $shopName) {
+            $shop = config("menus.{$shopCode}");
+            if (!$shop) {
+                continue;
+            }
+            
+            $postbackData = http_build_query(['action' => 'select', 'shop' => $shopCode]);
+            $action = new PostbackTemplateActionBuilder($shopName, $postbackData);
+            
+            $column = new CarouselColumnTemplateBuilder(
+                $shopName,
+                '🔥 熱門推薦',
+                isset($shop['image_url']) ? $shop['image_url'] : null,
+                [$action]
+            );
+            $columns[] = $column;
+        }
+        
+        if (!empty($columns)) {
+            $carouselTemplateBuilder = new CarouselTemplateBuilder($columns);
+            $templateMessage = new TemplateMessageBuilder('TOP熱門店家', $carouselTemplateBuilder);
+            $this->bot->replyMessage($replyToken, $templateMessage);
+        }
+    }
+
+    /**
+     * 顯示隨機一家店
+     */
+    private function showRandomShop($replyToken)
+    {
+        $shops = config('menu.shops.drink');
+        
+        if (empty($shops)) {
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder('目前沒有飲料店資訊'));
+            return;
+        }
+        
+        // 隨機選一家店
+        $randomKey = array_rand($shops);
+        $shop = config("menus.{$randomKey}");
+        
+        if ($shop) {
+            $this->replyWithShopMenu($replyToken, $shop, '🎲 為您推薦：' . $shop['shop_name']);
+        }
+    }
+
+    /**
+     * 顯示茶類專門店
+     */
+    private function showTeaShops($replyToken)
+    {
+        $teaShops = config('shop_tags.茶專門');
+        $this->showShopsByTag($replyToken, $teaShops, '🍵 茶類專門店');
+    }
+
+    /**
+     * 顯示奶類飲品店
+     */
+    private function showMilkShops($replyToken)
+    {
+        $milkShops = config('shop_tags.鮮奶茶');
+        $this->showShopsByTag($replyToken, $milkShops, '🥛 奶類飲品店');
+    }
+
+    /**
+     * 根據標籤顯示店家
+     */
+    private function showShopsByTag($replyToken, $shops, $title)
+    {
+        if (empty($shops)) {
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder('目前沒有相關店家資訊'));
+            return;
+        }
+        
+        // 限制顯示數量
+        $shops = array_slice($shops, 0, 10, true);
+        $columns = [];
+        
+        foreach ($shops as $shopCode => $shopName) {
+            $shop = config("menus.{$shopCode}");
+            if (!$shop) {
+                continue;
+            }
+            
+            $postbackData = http_build_query(['action' => 'select', 'shop' => $shopCode]);
+            $action = new PostbackTemplateActionBuilder($shopName, $postbackData);
+            
+            $column = new CarouselColumnTemplateBuilder(
+                $shopName,
+                '點擊查看菜單',
+                isset($shop['image_url']) ? $shop['image_url'] : null,
+                [$action]
+            );
+            $columns[] = $column;
+        }
+        
+        if (!empty($columns)) {
+            $carouselTemplateBuilder = new CarouselTemplateBuilder($columns);
+            $templateMessage = new TemplateMessageBuilder($title, $carouselTemplateBuilder);
+            $this->bot->replyMessage($replyToken, $templateMessage);
+        }
+    }
+
+    /**
+     * 顯示所有飲料標籤
+     */
+    private function showShopTags($replyToken)
+    {
+        $tags = config('shop_tags');
+        
+        $message = "🏷️ 飲料店分類標籤\n";
+        $message .= "請輸入以下標籤查看相關店家：\n\n";
+        
+        foreach (array_keys($tags) as $tag) {
+            if ($tag !== 'TOP熱門店家') {
+                $message .= "• {$tag}\n";
+            }
+        }
+        
+        $this->bot->replyMessage($replyToken, new TextMessageBuilder($message));
     }
 
 }

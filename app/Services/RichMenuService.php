@@ -162,12 +162,13 @@ class RichMenuService
         return [
             'size' => [
                 'width' => 2500,
-                'height' => 843
+                'height' => 1686
             ],
             'selected' => false,
             'name' => '飲料店查詢選單',
             'chatBarText' => '選單',
             'areas' => [
+                // 第一行
                 [
                     'bounds' => [
                         'x' => 0,
@@ -177,7 +178,7 @@ class RichMenuService
                     ],
                     'action' => [
                         'type' => 'message',
-                        'text' => '菜單'
+                        'text' => '使用說明'
                     ]
                 ],
                 [
@@ -189,7 +190,7 @@ class RichMenuService
                     ],
                     'action' => [
                         'type' => 'message',
-                        'text' => '喝什麼'
+                        'text' => '店家清單'
                     ]
                 ],
                 [
@@ -201,7 +202,44 @@ class RichMenuService
                     ],
                     'action' => [
                         'type' => 'message',
-                        'text' => '飲料店'
+                        'text' => 'TOP名店'
+                    ]
+                ],
+                // 第二行
+                [
+                    'bounds' => [
+                        'x' => 0,
+                        'y' => 843,
+                        'width' => 833,
+                        'height' => 843
+                    ],
+                    'action' => [
+                        'type' => 'message',
+                        'text' => '隨機飲料店'
+                    ]
+                ],
+                [
+                    'bounds' => [
+                        'x' => 833,
+                        'y' => 843,
+                        'width' => 834,
+                        'height' => 843
+                    ],
+                    'action' => [
+                        'type' => 'message',
+                        'text' => '找茶'
+                    ]
+                ],
+                [
+                    'bounds' => [
+                        'x' => 1667,
+                        'y' => 843,
+                        'width' => 833,
+                        'height' => 843
+                    ],
+                    'action' => [
+                        'type' => 'message',
+                        'text' => '奶類'
                     ]
                 ]
             ]
