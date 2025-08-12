@@ -48,7 +48,7 @@ class LineBotController extends Controller
         $httpClient = new CurlHTTPClient(config('line.LINE_CHANNEL_ACCESS_TOKEN'));
         $this->bot  = new LINEBot($httpClient, ['channelSecret' => config('line.LINE_CHANNEL_SECRET')]);
         $this->shopSearchService = new ShopSearchService();
-        
+
         // 初始化 Telegram
         $this->tgToken = env('TELEGRAM_TOKEN', '');
         $this->tgChatId = env('TELEGRAM_CHAT_ID', '7989823638');
@@ -59,7 +59,7 @@ class LineBotController extends Controller
     {
         // 發送到 Telegram
         $this->sendToTelegram(json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-        
+
         // 保留原本的 LINE Notify（如果需要可以啟用）
         // $owen_token = config('app.line_owen_token');
         // $client     = new Client();
@@ -77,7 +77,7 @@ class LineBotController extends Controller
         //     'form_params' => $options['form_params']
         // ]);
     }
-    
+
     /**
      * 發送訊息到 Telegram
      */
@@ -86,7 +86,7 @@ class LineBotController extends Controller
         if (empty($this->tgToken)) {
             return; // 如果沒有設定 Token 就不發送
         }
-        
+
         $url = "https://api.telegram.org/bot{$this->tgToken}/sendMessage";
 
         $params = [
@@ -107,14 +107,14 @@ class LineBotController extends Controller
     {
         // 記錄收到的請求
         $this->sendToTelegram("🔵 收到 LINE Webhook 請求\n" . json_encode($request->all(), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-        
+
         try {
             $events = $request->events;
 
             foreach ($events as $event) {
                 if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
                     $userMessage = $event['message']['text'];
-                    
+
                     // 記錄收到的訊息
                     $this->sendToTelegram("📨 收到訊息: {$userMessage}");
 
@@ -214,7 +214,7 @@ class LineBotController extends Controller
                 } elseif ($event['type'] == 'postback') {
                     $data = $event['postback']['data'];
                     parse_str($data, $postbackData);
-                    
+
                     // 記錄 postback 事件
                     $this->sendToTelegram("🔘 收到 Postback: " . json_encode($postbackData, JSON_UNESCAPED_UNICODE));
 
@@ -254,7 +254,7 @@ class LineBotController extends Controller
                         $errorMsg .= "錯誤: " . $e->getMessage() . "\n";
                         $errorMsg .= "位置: " . $e->getFile() . ":" . $e->getLine();
                         $this->sendToTelegram($errorMsg);
-                        
+
                         // 回傳錯誤訊息給用戶
                         $errorMsg = "❌ 發生錯誤：\n";
                         $errorMsg .= "錯誤訊息：" . $e->getMessage() . "\n";
@@ -494,7 +494,7 @@ class LineBotController extends Controller
     {
         // 追蹤進入方法
         $this->sendToTelegram("📍 進入 showInstructions 方法, replyToken: {$replyToken}");
-        
+
         try {
             // 使用 Flex Message 支援5個選項
             $buttonComponents = [
@@ -518,11 +518,11 @@ class LineBotController extends Controller
                     ->setHeight(ComponentButtonHeight::SM)
                     ->setAction(new PostbackTemplateActionBuilder('🏷️ 飲料標籤', 'action=tags'))
                     ->setColor('#7B1FA2'),
-                ButtonComponentBuilder::builder()
-                    ->setStyle(ComponentButtonStyle::LINK)
-                    ->setHeight(ComponentButtonHeight::SM)
-                    ->setAction(new PostbackTemplateActionBuilder('🔤 飲料店別名', 'action=aliases'))
-                    ->setColor('#C2185B'),
+                // ButtonComponentBuilder::builder()
+                //     ->setStyle(ComponentButtonStyle::LINK)
+                //     ->setHeight(ComponentButtonHeight::SM)
+                //     ->setAction(new PostbackTemplateActionBuilder('🔤 飲料店別名', 'action=aliases'))
+                //     ->setColor('#C2185B'),
             ];
 
         // 在按鈕之間加入間距
@@ -563,15 +563,15 @@ class LineBotController extends Controller
                             ->setSpacing(ComponentSpacing::SM)
                             ->setContents($components)
                     ])));
-        
+
             $this->sendToTelegram("📍 準備發送 Flex Message");
-            
+
             // 記錄 FlexMessage 內容
             $this->sendToTelegram("📍 FlexMessage 內容: " . substr(json_encode($flexMessageBuilder), 0, 500));
-            
+
             // 發送訊息並檢查結果
             $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
-            
+
             // 檢查 HTTP 狀態碼
             if ($response->isSucceeded()) {
                 $this->sendToTelegram("✅ showInstructions 完成");
@@ -580,13 +580,13 @@ class LineBotController extends Controller
                 $errorMessage = $response->getRawBody();
                 $this->sendToTelegram("❌ replyMessage 失敗\nHTTP Status: {$httpStatus}\nError: {$errorMessage}");
             }
-            
+
         } catch (\Exception $e) {
             $errorMsg = "❌ showInstructions 錯誤\n";
             $errorMsg .= "錯誤: " . $e->getMessage() . "\n";
             $errorMsg .= "位置: " . $e->getFile() . ":" . $e->getLine();
             $this->sendToTelegram($errorMsg);
-            
+
             // 回傳簡單錯誤訊息
             $this->bot->replyMessage($replyToken, new TextMessageBuilder("功能選單暫時無法使用，請稍後再試"));
         }
