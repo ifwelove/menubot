@@ -736,11 +736,10 @@ class LineBotController extends Controller
             $keywords = config('shop_keywords', []);
             $shops = config('menu.shops.drink', []);
 
-            // 選擇一些常用的店家來顯示別名（確保這些品牌都存在於 menu.php）
-            // 目前只有 50lantea 在 shop_keywords.php 中是啟用的
-            $popularShops = [
-                '50lantea'
-            ];
+            // 隨機選取品牌來顯示別名
+            $allShopCodes = array_keys($keywords);
+            shuffle($allShopCodes); // 隨機打亂順序
+            $popularShops = array_slice($allShopCodes, 0, 10); // 取前 10 個品牌
 
             $components = [
                 TextComponentBuilder::builder()
