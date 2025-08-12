@@ -31,6 +31,7 @@ use LINE\LINEBot\TemplateActionBuilder\PostbackTemplateActionBuilder;
 use LINE\LINEBot\MessageBuilder\TextMessageBuilder;
 use LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\IconComponentBuilder;
 use LINE\LINEBot\TemplateActionBuilder\UriTemplateActionBuilder;
+use LINE\LINEBot\TemplateActionBuilder\MessageTemplateActionBuilder;
 use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselTemplateBuilder;
 use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselColumnTemplateBuilder;
 use App\Services\ShopSearchService;
@@ -714,17 +715,63 @@ class LineBotController extends Controller
     private function showShopTags($replyToken)
     {
         $tags = config('shop_tags');
-
-        $message = "🏷️ 飲料店分類標籤\n";
-        $message .= "請輸入以下標籤查看相關店家：\n\n";
-
+        
+        // 建立標籤按鈕
+        $tagButtons = [];
+        $colorMap = [
+            '黑糖系列' => '#795548',
+            '鮮奶茶' => '#FF9800',
+            '水果茶' => '#4CAF50',
+            '精品茶飲' => '#673AB7',
+            '茶專門' => '#009688',
+            '手搖創新' => '#2196F3',
+            '咖啡茶飲' => '#795548',
+            '特色飲品' => '#E91E63',
+            '泰式奶茶' => '#FF5722',
+        ];
+        
         foreach (array_keys($tags) as $tag) {
             if ($tag !== 'TOP熱門店家') {
-                $message .= "• {$tag}\n";
+                $color = isset($colorMap[$tag]) ? $colorMap[$tag] : '#607D8B';
+                $tagButtons[] = ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new MessageTemplateActionBuilder($tag, $tag))
+                    ->setColor($color);
             }
         }
-
-        $this->bot->replyMessage($replyToken, new TextMessageBuilder($message));
+        
+        // 建立 Flex Message
+        $flexMessageBuilder = FlexMessageBuilder::builder()
+            ->setAltText('飲料店分類標籤')
+            ->setContents(BubbleContainerBuilder::builder()
+                ->setHeader(BoxComponentBuilder::builder()
+                    ->setLayout(ComponentLayout::VERTICAL)
+                    ->setContents([
+                        TextComponentBuilder::builder()
+                            ->setText('🏷️ 飲料店分類標籤')
+                            ->setWeight(ComponentFontWeight::BOLD)
+                            ->setSize(ComponentFontSize::LG)
+                            ->setAlign('center')
+                    ]))
+                ->setBody(BoxComponentBuilder::builder()
+                    ->setLayout(ComponentLayout::VERTICAL)
+                    ->setSpacing(ComponentSpacing::SM)
+                    ->setContents(array_merge(
+                        [
+                            TextComponentBuilder::builder()
+                                ->setText('點選標籤查看相關店家')
+                                ->setSize(ComponentFontSize::SM)
+                                ->setAlign('center')
+                                ->setMargin(ComponentMargin::MD)
+                                ->setColor('#666666'),
+                            SeparatorComponentBuilder::builder()
+                                ->setMargin(ComponentMargin::MD)
+                        ],
+                        $tagButtons
+                    ))));
+        
+        $this->bot->replyMessage($replyToken, $flexMessageBuilder);
     }
 
     /**
