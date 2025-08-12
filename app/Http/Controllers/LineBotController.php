@@ -525,16 +525,8 @@ class LineBotController extends Controller
                 //     ->setColor('#C2185B'),
             ];
 
-        // 在按鈕之間加入間距
-        $components = [];
-        foreach ($buttonComponents as $index => $button) {
-            $components[] = $button;
-            if ($index < count($buttonComponents) - 1) {
-                $components[] = BoxComponentBuilder::builder()
-                    ->setLayout(ComponentLayout::VERTICAL)
-                    ->setHeight('8px');
-            }
-        }
+        // 使用按鈕組件
+        $components = $buttonComponents;
 
         $flexMessageBuilder = FlexMessageBuilder::builder()
             ->setAltText('功能選單')
