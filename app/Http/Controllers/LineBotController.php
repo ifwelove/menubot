@@ -493,37 +493,37 @@ class LineBotController extends Controller
     private function showInstructions($replyToken)
     {
         // 追蹤進入方法
-        $this->sendToTelegram("📍 進入 showInstructions 方法");
+        $this->sendToTelegram("📍 進入 showInstructions 方法, replyToken: {$replyToken}");
         
         try {
             // 使用 Flex Message 支援5個選項
             $buttonComponents = [
-            ButtonComponentBuilder::builder()
-                ->setStyle(ComponentButtonStyle::LINK)
-                ->setHeight(ComponentButtonHeight::SM)
-                ->setAction(new PostbackTemplateActionBuilder('📖 使用說明', 'action=instructions'))
-                ->setColor('#1976D2'),
-            ButtonComponentBuilder::builder()
-                ->setStyle(ComponentButtonStyle::LINK)
-                ->setHeight(ComponentButtonHeight::SM)
-                ->setAction(new PostbackTemplateActionBuilder('🎲 喝什麼', 'action=random'))
-                ->setColor('#388E3C'),
-            ButtonComponentBuilder::builder()
-                ->setStyle(ComponentButtonStyle::LINK)
-                ->setHeight(ComponentButtonHeight::SM)
-                ->setAction(new PostbackTemplateActionBuilder('🏪 飲料店', 'action=shoplist'))
-                ->setColor('#F57C00'),
-            ButtonComponentBuilder::builder()
-                ->setStyle(ComponentButtonStyle::LINK)
-                ->setHeight(ComponentButtonHeight::SM)
-                ->setAction(new PostbackTemplateActionBuilder('🏷️ 飲料標籤', 'action=tags'))
-                ->setColor('#7B1FA2'),
-            ButtonComponentBuilder::builder()
-                ->setStyle(ComponentButtonStyle::LINK)
-                ->setHeight(ComponentButtonHeight::SM)
-                ->setAction(new PostbackTemplateActionBuilder('🔤 飲料店別名', 'action=aliases'))
-                ->setColor('#C2185B'),
-        ];
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('📖 使用說明', 'action=instructions'))
+                    ->setColor('#1976D2'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🎲 喝什麼', 'action=random'))
+                    ->setColor('#388E3C'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🏪 飲料店', 'action=shoplist'))
+                    ->setColor('#F57C00'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🏷️ 飲料標籤', 'action=tags'))
+                    ->setColor('#7B1FA2'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🔤 飲料店別名', 'action=aliases'))
+                    ->setColor('#C2185B'),
+            ];
 
         // 在按鈕之間加入間距
         $components = [];
