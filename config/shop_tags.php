@@ -8,7 +8,7 @@ return [
         'tigersugar' => '老虎堂',
         'goodlucktea' => '井厚韻椪糖飲品專賣',
     ],
-    
+
     '鮮奶茶' => [
         'somilk' => '壽奶茶',
         'lianxianru' => '戀鮮乳',
@@ -19,14 +19,14 @@ return [
         'nuttea' => 'NUTTEA堅果奶茶',
         'afterus' => '厚奶的我們',
     ],
-    
+
     '水果茶' => [
         'yaungguo' => '漾果茶坊',
         'easyway' => '一芳水果茶',
         'guocaishichang' => '果採試嚐',
         'gobartea' => '果霸茶',
     ],
-    
+
     '精品茶飲' => [
         'mutucha' => '沐荼寺-臺灣精品茶飲專門',
         'lanlanlin' => '朗朗嶺職人手作茶飲',
@@ -34,7 +34,7 @@ return [
         'cellartea' => '窖藏',
         'threepercent' => '3%THREE PERCENT 金萱茶手搖專賣店',
     ],
-    
+
     '茶專門' => [
         'chanung' => '水巷茶弄',
         'yuxincha' => '御心茶',
@@ -50,7 +50,7 @@ return [
         'teasommelier' => '侍茶匠',
         'idealtea' => '禮想紅茶烏龍專販所',
     ],
-    
+
     '手搖創新' => [
         'jellypartea' => '嚼力 ゼリーパーティー',
         'kure8brand' => '八酵茶',
@@ -63,13 +63,13 @@ return [
         'shoulddo' => '十渡',
         'chillday' => '鶖茶',
     ],
-    
+
     '咖啡茶飲' => [
         'brunocoffee' => '不二弄咖啡',
         'kingkongtea' => '金剛咖啡茶飲',
         'lohass' => '樂活事',
     ],
-    
+
     '特色飲品' => [
         'azhedrinks' => '阿蔗甘蔗冰茶',
         'mesonewiseman' => '仙草達人',
@@ -78,25 +78,25 @@ return [
         'mitshop' => 'MIT米亞緹時尚創意飲品',
         'ziranqnai' => '自然Q奶',
     ],
-    
+
     '泰式奶茶' => [
         'sonnychathai' => '泰桑哩',
         'milkthai' => '艿泰多',
     ],
-    
+
     'TOP熱門店家' => [
         '50lantea' => '50嵐',
         // 以下品牌在 shop_keywords.php 中已被註解，暫時先註解掉
-        // 'coco' => 'coco',
-        // 'kebuke' => '可不可熟成紅茶',
-        // 'milkshop' => '迷客夏',
-        // 'chingshin' => '清心福全',
-        // 'tigersugar' => '老虎堂',
-        // 'truedan' => '珍煮丹',
-        // 'comebuytea' => 'comebuy',
-        // 'happylemon' => '快樂檸檬',
-        // 'tenren' => '天仁茗茶',
-        // 'teatop' => '茶湯會',
-        // 'chatime' => '日出茶太',
+        'coco' => 'coco',
+        'kebuke' => '可不可熟成紅茶',
+        'milkshop' => '迷客夏',
+        'chingshin' => '清心福全',
+        'tigersugar' => '老虎堂',
+        'truedan' => '珍煮丹',
+        'comebuytea' => 'comebuy',
+        'happylemon' => '快樂檸檬',
+        'tenren' => '天仁茗茶',
+        'teatop' => '茶湯會',
+        'chatime' => '日出茶太',
     ],
 ];
