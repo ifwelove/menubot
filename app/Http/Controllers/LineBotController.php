@@ -249,15 +249,11 @@ class LineBotController extends Controller
                         }
                     } catch (\Exception $e) {
                         // 發送錯誤到 Telegram
-                        $errorInfo = [
-                            'type' => 'postback_error',
-                            'action' => $postbackData['action'] ?? 'unknown',
-                            'error' => $e->getMessage(),
-                            'file' => $e->getFile(),
-                            'line' => $e->getLine(),
-                            'trace' => $e->getTraceAsString()
-                        ];
-                        $this->sendToTelegram("❌ Postback 處理錯誤\n" . json_encode($errorInfo, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+                        $errorMsg = "❌ Postback 處理錯誤\n";
+                        $errorMsg .= "Action: " . ($postbackData['action'] ?? 'unknown') . "\n";
+                        $errorMsg .= "錯誤: " . $e->getMessage() . "\n";
+                        $errorMsg .= "位置: " . $e->getFile() . ":" . $e->getLine();
+                        $this->sendToTelegram($errorMsg);
                         
                         // 回傳錯誤訊息給用戶
                         $errorMsg = "❌ 發生錯誤：\n";
@@ -269,14 +265,10 @@ class LineBotController extends Controller
             }
         } catch (\Exception $e) {
             // 最外層的錯誤處理
-            $errorInfo = [
-                'type' => 'main_error',
-                'error' => $e->getMessage(),
-                'file' => $e->getFile(),
-                'line' => $e->getLine(),
-                'trace' => $e->getTraceAsString()
-            ];
-            $this->sendToTelegram("❌ 主要錯誤\n" . json_encode($errorInfo, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            $errorMsg = "❌ 主要錯誤\n";
+            $errorMsg .= "錯誤: " . $e->getMessage() . "\n";
+            $errorMsg .= "位置: " . $e->getFile() . ":" . $e->getLine();
+            $this->sendToTelegram($errorMsg);
         }
         return response()->json(['status' => 'success'], 200);
     }
@@ -500,8 +492,12 @@ class LineBotController extends Controller
      */
     private function showInstructions($replyToken)
     {
-        // 使用 Flex Message 支援5個選項
-        $buttonComponents = [
+        // 追蹤進入方法
+        $this->sendToTelegram("📍 進入 showInstructions 方法");
+        
+        try {
+            // 使用 Flex Message 支援5個選項
+            $buttonComponents = [
             ButtonComponentBuilder::builder()
                 ->setStyle(ComponentButtonStyle::LINK)
                 ->setHeight(ComponentButtonHeight::SM)
@@ -567,8 +563,20 @@ class LineBotController extends Controller
                             ->setSpacing(ComponentSpacing::SM)
                             ->setContents($components)
                     ])));
-
-        $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+        
+            $this->sendToTelegram("📍 準備發送 Flex Message");
+            $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+            $this->sendToTelegram("✅ showInstructions 完成");
+            
+        } catch (\Exception $e) {
+            $errorMsg = "❌ showInstructions 錯誤\n";
+            $errorMsg .= "錯誤: " . $e->getMessage() . "\n";
+            $errorMsg .= "位置: " . $e->getFile() . ":" . $e->getLine();
+            $this->sendToTelegram($errorMsg);
+            
+            // 回傳簡單錯誤訊息
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder("功能選單暫時無法使用，請稍後再試"));
+        }
     }
 
     /**
@@ -822,14 +830,10 @@ class LineBotController extends Controller
             $this->bot->replyMessage($replyToken, new TextMessageBuilder($errorMsg));
 
             // 記錄詳細錯誤到 Telegram
-            $errorInfo = [
-                'type' => 'showShopAliases_error',
-                'error' => $e->getMessage(),
-                'file' => $e->getFile(),
-                'line' => $e->getLine(),
-                'trace' => $e->getTraceAsString()
-            ];
-            $this->sendToTelegram("❌ showShopAliases 錯誤\n" . json_encode($errorInfo, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            $errorMsg = "❌ showShopAliases 錯誤\n";
+            $errorMsg .= "錯誤: " . $e->getMessage() . "\n";
+            $errorMsg .= "位置: " . $e->getFile() . ":" . $e->getLine();
+            $this->sendToTelegram($errorMsg);
         }
     }
 
