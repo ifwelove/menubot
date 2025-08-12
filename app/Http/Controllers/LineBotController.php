@@ -508,16 +508,16 @@ class LineBotController extends Controller
                     ->setHeight(ComponentButtonHeight::SM)
                     ->setAction(new PostbackTemplateActionBuilder('🎲 喝什麼', 'action=random'))
                     ->setColor('#388E3C'),
-                ButtonComponentBuilder::builder()
-                    ->setStyle(ComponentButtonStyle::LINK)
-                    ->setHeight(ComponentButtonHeight::SM)
-                    ->setAction(new PostbackTemplateActionBuilder('🏪 飲料店', 'action=shoplist'))
-                    ->setColor('#F57C00'),
-                ButtonComponentBuilder::builder()
-                    ->setStyle(ComponentButtonStyle::LINK)
-                    ->setHeight(ComponentButtonHeight::SM)
-                    ->setAction(new PostbackTemplateActionBuilder('🏷️ 飲料標籤', 'action=tags'))
-                    ->setColor('#7B1FA2'),
+                // ButtonComponentBuilder::builder()
+                //     ->setStyle(ComponentButtonStyle::LINK)
+                //     ->setHeight(ComponentButtonHeight::SM)
+                //     ->setAction(new PostbackTemplateActionBuilder('🏪 飲料店', 'action=shoplist'))
+                //     ->setColor('#F57C00'),
+                // ButtonComponentBuilder::builder()
+                //     ->setStyle(ComponentButtonStyle::LINK)
+                //     ->setHeight(ComponentButtonHeight::SM)
+                //     ->setAction(new PostbackTemplateActionBuilder('🏷️ 飲料標籤', 'action=tags'))
+                //     ->setColor('#7B1FA2'),
                 // ButtonComponentBuilder::builder()
                 //     ->setStyle(ComponentButtonStyle::LINK)
                 //     ->setHeight(ComponentButtonHeight::SM)
@@ -567,7 +567,12 @@ class LineBotController extends Controller
             $this->sendToTelegram("📍 準備發送 Flex Message");
 
             // 記錄 FlexMessage 內容
-            $this->sendToTelegram("📍 FlexMessage 內容: " . substr(json_encode($flexMessageBuilder), 0, 500));
+            try {
+                $messageArray = $flexMessageBuilder->buildMessage();
+                $this->sendToTelegram("📍 FlexMessage 內容: " . substr(json_encode($messageArray, JSON_UNESCAPED_UNICODE), 0, 500));
+            } catch (\Exception $e) {
+                $this->sendToTelegram("📍 無法序列化 FlexMessage: " . $e->getMessage());
+            }
 
             // 發送訊息並檢查結果
             $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
