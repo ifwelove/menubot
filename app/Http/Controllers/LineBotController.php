@@ -644,11 +644,11 @@ class LineBotController extends Controller
         $keywords = config('shop_keywords');
         $shops = config('menu.shops.drink');
         
-        // 選擇一些常用的店家來顯示別名
+        // 選擇一些常用的店家來顯示別名（確保這些品牌都存在於 menu.php）
         $popularShops = [
-            '50lantea', 'coco', 'kebuke', 'milkshop', 'chingshin',
-            'tigersugar', 'truedan', 'comebuytea', 'happylemon',
-            'kungfutea', 'threepercent', 'herotang'
+            '50lantea', 'chingshin', 'truedan', 'comebuytea',
+            'kungfutea', 'threepercent', 'herotang', 'teatop',
+            'sharetea', 'dayungs', 'mrwish', '85cafe'
         ];
         
         $components = [
@@ -667,8 +667,13 @@ class LineBotController extends Controller
         ];
         
         foreach ($popularShops as $shopCode) {
-            if (!isset($keywords[$shopCode]) || !isset($shops[$shopCode])) {
-                continue;
+            // 加強錯誤檢查
+            if (!isset($shops[$shopCode])) {
+                continue; // 店家不存在
+            }
+            
+            if (!isset($keywords[$shopCode]) || !is_array($keywords[$shopCode])) {
+                continue; // 關鍵字不存在或不是陣列
             }
             
             $shopName = $shops[$shopCode];

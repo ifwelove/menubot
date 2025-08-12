@@ -17,9 +17,9 @@ class ShopSearchService
         $keyword = trim($keyword);
         $keyword = Str::lower($keyword);
         
-        // 載入配置
-        $shops = config('menu.shops.drink');
-        $keywords = config('shop_keywords');
+        // 載入配置並檢查是否存在
+        $shops = config('menu.shops.drink', []);
+        $keywords = config('shop_keywords', []);
         
         $results = [];
         
@@ -32,6 +32,11 @@ class ShopSearchService
         
         // 2. 檢查關鍵字配置
         foreach ($keywords as $shopCode => $shopKeywords) {
+            // 確保 shopKeywords 是陣列
+            if (!is_array($shopKeywords)) {
+                continue;
+            }
+            
             foreach ($shopKeywords as $shopKeyword) {
                 if (Str::lower($shopKeyword) === $keyword || 
                     Str::contains(Str::lower($shopKeyword), $keyword) ||
@@ -66,7 +71,7 @@ class ShopSearchService
      */
     public function shopExists(string $shopCode)
     {
-        $shops = config('menu.shops.drink');
+        $shops = config('menu.shops.drink', []);
         return isset($shops[$shopCode]);
     }
     
@@ -98,9 +103,9 @@ class ShopSearchService
     public function getSuggestedKeywords()
     {
         return [
-            '50嵐', 'coco', '可不可', '迷客夏', '清心', 
-            '珍煮丹', '老虎堂', '一芳', '茶湯會', '功夫茶',
-            '黑糖', '鮮奶', '水果茶', '珍珠', '仙草'
+            '50嵐', '清心', '珍煮丹', '茶湯會', '功夫茶',
+            '黑糖', '鮮奶', '水果茶', '珍珠', '仙草',
+            '85度C', '萬波', '貢茶', '大苑子', '歇腳亭'
         ];
     }
 }
