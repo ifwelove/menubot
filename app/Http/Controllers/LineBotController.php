@@ -39,16 +39,28 @@ class LineBotController extends Controller
 {
     private $bot;
     private $shopSearchService;
+    private $tgToken;
+    private $tgClient;
+    private $tgChatId;
 
     public function __construct()
     {
         $httpClient = new CurlHTTPClient(config('line.LINE_CHANNEL_ACCESS_TOKEN'));
         $this->bot  = new LINEBot($httpClient, ['channelSecret' => config('line.LINE_CHANNEL_SECRET')]);
         $this->shopSearchService = new ShopSearchService();
+        
+        // 初始化 Telegram
+        $this->tgToken = env('TELEGRAM_TOKEN', '');
+        $this->tgChatId = env('TELEGRAM_CHAT_ID', '7989823638');
+        $this->tgClient = new Client();
     }
 
     protected function dd($data)
     {
+        // 發送到 Telegram
+        $this->sendToTelegram(json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        
+        // 保留原本的 LINE Notify（如果需要可以啟用）
         // $owen_token = config('app.line_owen_token');
         // $client     = new Client();
         // $headers    = [
@@ -65,19 +77,49 @@ class LineBotController extends Controller
         //     'form_params' => $options['form_params']
         // ]);
     }
+    
+    /**
+     * 發送訊息到 Telegram
+     */
+    protected function sendToTelegram($text)
+    {
+        if (empty($this->tgToken)) {
+            return; // 如果沒有設定 Token 就不發送
+        }
+        
+        $url = "https://api.telegram.org/bot{$this->tgToken}/sendMessage";
+
+        $params = [
+            'chat_id' => $this->tgChatId,
+            'text'    => $text,
+        ];
+
+        try {
+            $res = $this->tgClient->post($url, ['form_params' => $params, 'timeout' => 5,]);
+            return json_decode($res->getBody()->getContents(), true);
+        } catch (\Exception $e) {
+            // 錯誤紀錄
+            \Log::error('Telegram send error', ['error' => $e->getMessage()]);
+        }
+    }
 
     public function webhook(Request $request)
     {
+        // 記錄收到的請求
+        $this->sendToTelegram("🔵 收到 LINE Webhook 請求\n" . json_encode($request->all(), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        
         try {
             $events = $request->events;
 
             foreach ($events as $event) {
                 if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
                     $userMessage = $event['message']['text'];
+                    
+                    // 記錄收到的訊息
+                    $this->sendToTelegram("📨 收到訊息: {$userMessage}");
 
                     if ($userMessage == '使用說明') {
-                        // $this->showInstructions($event['replyToken']);
-                        $this->replyWithShopList($event['replyToken']);
+                        $this->showInstructions($event['replyToken']);
                     } elseif ($userMessage == '店家清單') {
                         $this->replyWithShopList($event['replyToken']);
                     } elseif ($userMessage == 'TOP名店') {
@@ -172,6 +214,9 @@ class LineBotController extends Controller
                 } elseif ($event['type'] == 'postback') {
                     $data = $event['postback']['data'];
                     parse_str($data, $postbackData);
+                    
+                    // 記錄 postback 事件
+                    $this->sendToTelegram("🔘 收到 Postback: " . json_encode($postbackData, JSON_UNESCAPED_UNICODE));
 
                     try {
                         if ($postbackData['action'] == 'select' && isset($postbackData['shop'])) {
@@ -203,30 +248,35 @@ class LineBotController extends Controller
                             $this->showShopAliases($event['replyToken']);
                         }
                     } catch (\Exception $e) {
+                        // 發送錯誤到 Telegram
+                        $errorInfo = [
+                            'type' => 'postback_error',
+                            'action' => $postbackData['action'] ?? 'unknown',
+                            'error' => $e->getMessage(),
+                            'file' => $e->getFile(),
+                            'line' => $e->getLine(),
+                            'trace' => $e->getTraceAsString()
+                        ];
+                        $this->sendToTelegram("❌ Postback 處理錯誤\n" . json_encode($errorInfo, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+                        
                         // 回傳錯誤訊息給用戶
                         $errorMsg = "❌ 發生錯誤：\n";
                         $errorMsg .= "錯誤訊息：" . $e->getMessage() . "\n";
                         $errorMsg .= "錯誤位置：" . $e->getFile() . ":" . $e->getLine();
                         $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder($errorMsg));
-
-                        // 同時記錄到 dd
-                        $this->dd([
-                            'error' => $e->getMessage(),
-                            'file' => $e->getFile(),
-                            'line' => $e->getLine(),
-                            'trace' => $e->getTraceAsString()
-                        ]);
                     }
                 }
             }
         } catch (\Exception $e) {
             // 最外層的錯誤處理
-            $this->dd([
-                'main_error' => $e->getMessage(),
+            $errorInfo = [
+                'type' => 'main_error',
+                'error' => $e->getMessage(),
                 'file' => $e->getFile(),
                 'line' => $e->getLine(),
                 'trace' => $e->getTraceAsString()
-            ]);
+            ];
+            $this->sendToTelegram("❌ 主要錯誤\n" . json_encode($errorInfo, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         }
         return response()->json(['status' => 'success'], 200);
     }
@@ -771,13 +821,15 @@ class LineBotController extends Controller
             $errorMsg .= "請稍後再試或聯絡管理員";
             $this->bot->replyMessage($replyToken, new TextMessageBuilder($errorMsg));
 
-            // 記錄詳細錯誤
-            $this->dd([
-                'method' => 'showShopAliases',
+            // 記錄詳細錯誤到 Telegram
+            $errorInfo = [
+                'type' => 'showShopAliases_error',
                 'error' => $e->getMessage(),
                 'file' => $e->getFile(),
-                'line' => $e->getLine()
-            ]);
+                'line' => $e->getLine(),
+                'trace' => $e->getTraceAsString()
+            ];
+            $this->sendToTelegram("❌ showShopAliases 錯誤\n" . json_encode($errorInfo, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         }
     }
 
