@@ -14,53 +14,69 @@ class ShopSearchService
      */
     public function search(string $keyword)
     {
-        $keyword = trim($keyword);
-        $keyword = Str::lower($keyword);
-        
-        // 載入配置並檢查是否存在
-        $shops = config('menu.shops.drink', []);
-        $keywords = config('shop_keywords', []);
-        
-        $results = [];
-        
-        // 1. 先檢查是否完全匹配店名
-        foreach ($shops as $code => $name) {
-            if (Str::lower($name) === $keyword) {
-                return [$code => $name];
-            }
-        }
-        
-        // 2. 檢查關鍵字配置
-        foreach ($keywords as $shopCode => $shopKeywords) {
-            // 確保 shopKeywords 是陣列
-            if (!is_array($shopKeywords)) {
-                continue;
+        try {
+            $keyword = trim($keyword);
+            $keyword = Str::lower($keyword);
+            
+            // 載入配置並檢查是否存在
+            $shops = config('menu.shops.drink', []);
+            $keywords = config('shop_keywords', []);
+            
+            $results = [];
+            
+            // 1. 先檢查是否完全匹配店名
+            foreach ($shops as $code => $name) {
+                if (Str::lower($name) === $keyword) {
+                    return [$code => $name];
+                }
             }
             
-            foreach ($shopKeywords as $shopKeyword) {
-                if (Str::lower($shopKeyword) === $keyword || 
-                    Str::contains(Str::lower($shopKeyword), $keyword) ||
-                    Str::contains($keyword, Str::lower($shopKeyword))) {
+            // 2. 檢查關鍵字配置
+            foreach ($keywords as $shopCode => $shopKeywords) {
+                // 確保 shopKeywords 是陣列
+                if (!is_array($shopKeywords)) {
+                    continue;
+                }
+                
+                foreach ($shopKeywords as $shopKeyword) {
+                    // 確保 shopKeyword 是字串
+                    if (!is_string($shopKeyword)) {
+                        continue;
+                    }
                     
-                    // 確認這個店家代碼存在於店家列表中
-                    if (isset($shops[$shopCode])) {
-                        $results[$shopCode] = $shops[$shopCode];
-                        break; // 找到就跳出內層迴圈
+                    if (Str::lower($shopKeyword) === $keyword || 
+                        Str::contains(Str::lower($shopKeyword), $keyword) ||
+                        Str::contains($keyword, Str::lower($shopKeyword))) {
+                        
+                        // 確認這個店家代碼存在於店家列表中
+                        if (isset($shops[$shopCode])) {
+                            $results[$shopCode] = $shops[$shopCode];
+                            break; // 找到就跳出內層迴圈
+                        }
                     }
                 }
             }
-        }
-        
-        // 3. 如果關鍵字沒找到，進行模糊搜尋店名
-        if (empty($results)) {
-            foreach ($shops as $code => $name) {
-                if (Str::contains(Str::lower($name), $keyword)) {
-                    $results[$code] = $name;
+            
+            // 3. 如果關鍵字沒找到，進行模糊搜尋店名
+            if (empty($results)) {
+                foreach ($shops as $code => $name) {
+                    if (Str::contains(Str::lower($name), $keyword)) {
+                        $results[$code] = $name;
+                    }
                 }
             }
+            
+            return $results;
+        } catch (\Exception $e) {
+            // 發生錯誤時返回空陣列
+            \Log::error('ShopSearchService::search error', [
+                'keyword' => $keyword,
+                'error' => $e->getMessage(),
+                'trace' => $e->getTraceAsString()
+            ]);
+            
+            return [];
         }
-        
-        return $results;
     }
     
     /**
