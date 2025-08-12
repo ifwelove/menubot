@@ -215,6 +215,10 @@ class LineBotController extends Controller
                         }
                     }
 
+                } elseif ($event['type'] == 'message' && $event['message']['type'] == 'location') {
+                    // 處理位置訊息
+                    $this->handleLocationMessage($event);
+                    
                 } elseif ($event['type'] == 'postback') {
                     $data = $event['postback']['data'];
                     parse_str($data, $postbackData);
@@ -892,6 +896,172 @@ class LineBotController extends Controller
             $errorMsg .= "錯誤: " . $e->getMessage() . "\n";
             $errorMsg .= "位置: " . $e->getFile() . ":" . $e->getLine();
             $this->sendToTelegram($errorMsg);
+        }
+    }
+
+    /**
+     * 處理位置訊息
+     */
+    private function handleLocationMessage($event)
+    {
+        $latitude = $event['message']['latitude'];
+        $longitude = $event['message']['longitude'];
+        $address = $event['message']['address'] ?? '';
+        
+        $this->sendToTelegram("📍 收到位置: {$latitude}, {$longitude}\n地址: {$address}");
+        
+        $this->findNearbyShops($event['replyToken'], $latitude, $longitude);
+    }
+
+    /**
+     * 尋找附近的飲料店
+     */
+    private function findNearbyShops($replyToken, $userLat, $userLng)
+    {
+        $shopLocations = config('shop_locations', []);
+        $shops = config('menu.shops.drink', []);
+        $nearbyShops = [];
+        
+        // 計算所有店家的距離
+        foreach ($shopLocations as $shopCode => $branches) {
+            if (!isset($shops[$shopCode])) {
+                continue;
+            }
+            
+            $shopName = $shops[$shopCode];
+            
+            foreach ($branches as $branch) {
+                $distance = $this->calculateDistance($userLat, $userLng, $branch['lat'], $branch['lng']);
+                
+                if ($distance <= 2.0) { // 2公里內
+                    $nearbyShops[] = [
+                        'shop_code' => $shopCode,
+                        'shop_name' => $shopName,
+                        'branch_name' => $branch['name'],
+                        'address' => $branch['address'],
+                        'distance' => $distance,
+                    ];
+                }
+            }
+        }
+        
+        // 按距離排序
+        usort($nearbyShops, function($a, $b) {
+            return $a['distance'] <=> $b['distance'];
+        });
+        
+        // 顯示結果
+        $this->displayNearbyShops($replyToken, $nearbyShops);
+    }
+
+    /**
+     * 計算兩點之間的距離（公里）
+     */
+    private function calculateDistance($lat1, $lon1, $lat2, $lon2)
+    {
+        $earthRadius = 6371; // 地球半徑（公里）
+        
+        $latDiff = deg2rad($lat2 - $lat1);
+        $lonDiff = deg2rad($lon2 - $lon1);
+        
+        $a = sin($latDiff/2) * sin($latDiff/2) +
+             cos(deg2rad($lat1)) * cos(deg2rad($lat2)) *
+             sin($lonDiff/2) * sin($lonDiff/2);
+        
+        $c = 2 * atan2(sqrt($a), sqrt(1-$a));
+        
+        return $earthRadius * $c;
+    }
+
+    /**
+     * 顯示附近的飲料店
+     */
+    private function displayNearbyShops($replyToken, $shops)
+    {
+        if (empty($shops)) {
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder('附近 2 公里內沒有找到飲料店 😢'));
+            return;
+        }
+        
+        // 限制顯示前 5 家
+        $shops = array_slice($shops, 0, 5);
+        
+        // 建立 Flex Message
+        $shopComponents = [];
+        
+        // 標題
+        $shopComponents[] = TextComponentBuilder::builder()
+            ->setText('📍 附近的飲料店')
+            ->setWeight(ComponentFontWeight::BOLD)
+            ->setSize(ComponentFontSize::LG)
+            ->setMargin(ComponentMargin::MD);
+            
+        $shopComponents[] = TextComponentBuilder::builder()
+            ->setText('以下是離您最近的飲料店')
+            ->setSize(ComponentFontSize::SM)
+            ->setColor('#666666')
+            ->setMargin(ComponentMargin::MD);
+            
+        $shopComponents[] = SeparatorComponentBuilder::builder()
+            ->setMargin(ComponentMargin::LG);
+        
+        // 店家列表
+        foreach ($shops as $index => $shop) {
+            // 店名和分店名
+            $shopComponents[] = BoxComponentBuilder::builder()
+                ->setLayout(ComponentLayout::HORIZONTAL)
+                ->setMargin(ComponentMargin::LG)
+                ->setContents([
+                    TextComponentBuilder::builder()
+                        ->setText(($index + 1) . ". {$shop['shop_name']} {$shop['branch_name']}")
+                        ->setWeight(ComponentFontWeight::BOLD)
+                        ->setSize(ComponentFontSize::MD)
+                        ->setFlex(1)
+                        ->setWrap(true),
+                    TextComponentBuilder::builder()
+                        ->setText(sprintf("%.1f km", $shop['distance']))
+                        ->setSize(ComponentFontSize::SM)
+                        ->setColor('#FF5722')
+                        ->setAlign('end')
+                ]);
+            
+            // 地址
+            $shopComponents[] = TextComponentBuilder::builder()
+                ->setText($shop['address'])
+                ->setSize(ComponentFontSize::SM)
+                ->setColor('#666666')
+                ->setMargin(ComponentMargin::SM)
+                ->setWrap(true);
+            
+            // 查看菜單按鈕
+            $shopComponents[] = ButtonComponentBuilder::builder()
+                ->setStyle(ComponentButtonStyle::LINK)
+                ->setHeight(ComponentButtonHeight::SM)
+                ->setAction(new PostbackTemplateActionBuilder(
+                    '查看菜單',
+                    "action=select&shop={$shop['shop_code']}"
+                ))
+                ->setColor('#1976D2')
+                ->setMargin(ComponentMargin::SM);
+            
+            if ($index < count($shops) - 1) {
+                $shopComponents[] = SeparatorComponentBuilder::builder()
+                    ->setMargin(ComponentMargin::LG);
+            }
+        }
+        
+        $flexMessageBuilder = FlexMessageBuilder::builder()
+            ->setAltText('附近的飲料店')
+            ->setContents(BubbleContainerBuilder::builder()
+                ->setBody(BoxComponentBuilder::builder()
+                    ->setLayout(ComponentLayout::VERTICAL)
+                    ->setContents($shopComponents)));
+        
+        try {
+            $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ 顯示附近店家錯誤: " . $e->getMessage());
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder('抱歉，顯示附近店家時發生錯誤'));
         }
     }
 
