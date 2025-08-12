@@ -508,21 +508,21 @@ class LineBotController extends Controller
                     ->setHeight(ComponentButtonHeight::SM)
                     ->setAction(new PostbackTemplateActionBuilder('🎲 喝什麼', 'action=random'))
                     ->setColor('#388E3C'),
-                // ButtonComponentBuilder::builder()
-                //     ->setStyle(ComponentButtonStyle::LINK)
-                //     ->setHeight(ComponentButtonHeight::SM)
-                //     ->setAction(new PostbackTemplateActionBuilder('🏪 飲料店', 'action=shoplist'))
-                //     ->setColor('#F57C00'),
-                // ButtonComponentBuilder::builder()
-                //     ->setStyle(ComponentButtonStyle::LINK)
-                //     ->setHeight(ComponentButtonHeight::SM)
-                //     ->setAction(new PostbackTemplateActionBuilder('🏷️ 飲料標籤', 'action=tags'))
-                //     ->setColor('#7B1FA2'),
-                // ButtonComponentBuilder::builder()
-                //     ->setStyle(ComponentButtonStyle::LINK)
-                //     ->setHeight(ComponentButtonHeight::SM)
-                //     ->setAction(new PostbackTemplateActionBuilder('🔤 飲料店別名', 'action=aliases'))
-                //     ->setColor('#C2185B'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🏪 飲料店', 'action=shoplist'))
+                    ->setColor('#F57C00'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🏷️ 飲料標籤', 'action=tags'))
+                    ->setColor('#7B1FA2'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🔤 飲料店別名', 'action=aliases'))
+                    ->setColor('#C2185B'),
             ];
 
         // 使用按鈕組件
