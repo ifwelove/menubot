@@ -86,16 +86,17 @@ return [
     
     'TOP熱門店家' => [
         '50lantea' => '50嵐',
-        'coco' => 'coco',
-        'kebuke' => '可不可熟成紅茶',
-        'milkshop' => '迷客夏',
-        'chingshin' => '清心福全',
-        'tigersugar' => '老虎堂',
-        'truedan' => '珍煮丹',
-        'comebuytea' => 'comebuy',
-        'happylemon' => '快樂檸檬',
-        'tenren' => '天仁茗茶',
-        'teatop' => '茶湯會',
-        'chatime' => '日出茶太',
+        // 以下品牌在 shop_keywords.php 中已被註解，暫時先註解掉
+        // 'coco' => 'coco',
+        // 'kebuke' => '可不可熟成紅茶',
+        // 'milkshop' => '迷客夏',
+        // 'chingshin' => '清心福全',
+        // 'tigersugar' => '老虎堂',
+        // 'truedan' => '珍煮丹',
+        // 'comebuytea' => 'comebuy',
+        // 'happylemon' => '快樂檸檬',
+        // 'tenren' => '天仁茗茶',
+        // 'teatop' => '茶湯會',
+        // 'chatime' => '日出茶太',
     ],
 ];

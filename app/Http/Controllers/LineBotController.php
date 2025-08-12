@@ -565,8 +565,21 @@ class LineBotController extends Controller
                     ])));
         
             $this->sendToTelegram("📍 準備發送 Flex Message");
-            $this->bot->replyMessage($replyToken, $flexMessageBuilder);
-            $this->sendToTelegram("✅ showInstructions 完成");
+            
+            // 記錄 FlexMessage 內容
+            $this->sendToTelegram("📍 FlexMessage 內容: " . substr(json_encode($flexMessageBuilder), 0, 500));
+            
+            // 發送訊息並檢查結果
+            $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+            
+            // 檢查 HTTP 狀態碼
+            if ($response->isSucceeded()) {
+                $this->sendToTelegram("✅ showInstructions 完成");
+            } else {
+                $httpStatus = $response->getHTTPStatus();
+                $errorMessage = $response->getRawBody();
+                $this->sendToTelegram("❌ replyMessage 失敗\nHTTP Status: {$httpStatus}\nError: {$errorMessage}");
+            }
             
         } catch (\Exception $e) {
             $errorMsg = "❌ showInstructions 錯誤\n";
@@ -727,10 +740,9 @@ class LineBotController extends Controller
             $shops = config('menu.shops.drink', []);
 
             // 選擇一些常用的店家來顯示別名（確保這些品牌都存在於 menu.php）
+            // 目前只有 50lantea 在 shop_keywords.php 中是啟用的
             $popularShops = [
-                '50lantea', 'chingshin', 'truedan', 'comebuytea',
-                'kungfutea', 'threepercent', 'herotang', 'teatop',
-                'sharetea', 'dayungs', 'mrwish', '85cafe'
+                '50lantea'
             ];
 
             $components = [
