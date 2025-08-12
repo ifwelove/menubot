@@ -118,22 +118,25 @@ class LineBotController extends Controller
 
                     // 記錄收到的訊息
                     $this->sendToTelegram("📨 收到訊息: {$userMessage}");
+                    
+                    // 正規化訊息：將日文「説」替換為中文「說」
+                    $normalizedMessage = str_replace('説', '說', $userMessage);
 
-                    if ($userMessage == '使用說明') {
+                    if ($normalizedMessage == '使用說明') {
                         $this->showInstructions($event['replyToken']);
-                    } elseif ($userMessage == '店家清單') {
+                    } elseif ($normalizedMessage == '店家清單') {
                         $this->replyWithShopList($event['replyToken']);
-                    } elseif ($userMessage == 'TOP名店') {
+                    } elseif ($normalizedMessage == 'TOP名店') {
                         $this->showTopShops($event['replyToken']);
-                    } elseif ($userMessage == '隨機飲料店') {
+                    } elseif ($normalizedMessage == '隨機飲料店') {
                         $this->showRandomShop($event['replyToken']);
-                    } elseif ($userMessage == '找茶') {
+                    } elseif ($normalizedMessage == '找茶') {
                         $this->showTeaShops($event['replyToken']);
-                    } elseif ($userMessage == '奶類') {
+                    } elseif ($normalizedMessage == '奶類') {
                         $this->showMilkShops($event['replyToken']);
-                    } elseif ($userMessage == '飲料標籤') {
+                    } elseif ($normalizedMessage == '飲料標籤') {
                         $this->showShopTags($event['replyToken']);
-                    } elseif ($userMessage == '菜單') {
+                    } elseif ($normalizedMessage == '菜單') {
                         $message = "請選擇功能：\n\n";
                         $message .= "輸入「飲料店」- 查看所有飲料店\n";
                         $message .= "輸入「喝什麼」- 隨機推薦飲料店\n";
