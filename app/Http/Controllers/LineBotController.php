@@ -76,7 +76,8 @@ class LineBotController extends Controller
                     $userMessage = $event['message']['text'];
 
                     if ($userMessage == '使用說明') {
-                        $this->showInstructions($event['replyToken']);
+                        // $this->showInstructions($event['replyToken']);
+                        $this->replyWithShopList($event['replyToken']);
                     } elseif ($userMessage == '店家清單') {
                         $this->replyWithShopList($event['replyToken']);
                     } elseif ($userMessage == 'TOP名店') {
