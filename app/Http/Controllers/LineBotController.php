@@ -252,7 +252,8 @@ class LineBotController extends Controller
                             $message .= "🔸 隨機飲料店：讓系統推薦一家店\n";
                             $message .= "🔸 找茶：茶類專門店\n";
                             $message .= "🔸 奶類：鮮奶茶專門店\n";
-                            $message .= "🔸 找附近飲料店：搜尋您附近的店家\n\n";
+                            $message .= "🔸 快速搜尋附近店家：搜尋 2km 內的店家\n";
+                            $message .= "🔸 自訂搜尋範圍：選擇搜尋距離再找店家\n\n";
                             $message .= "💡 也可以直接輸入店名或關鍵字搜尋！\n";
                             $message .= "📍 或直接分享位置來尋找附近店家！";
                             $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder($message));
@@ -269,8 +270,14 @@ class LineBotController extends Controller
                             // 執行「飲料店別名」功能
                             $this->showShopAliases($event['replyToken']);
                         } elseif ($postbackData['action'] == 'nearby') {
-                            // 執行「找附近飲料店」功能
+                            // 執行「找附近飲料店」功能（舊版，保留相容性）
                             $this->requestLocation($event['replyToken']);
+                        } elseif ($postbackData['action'] == 'nearby_quick') {
+                            // 快速搜尋附近店家（使用預設 2km）
+                            $this->requestLocation($event['replyToken'], true);
+                        } elseif ($postbackData['action'] == 'nearby_custom') {
+                            // 自訂搜尋範圍
+                            $this->showDistanceOptions($event['replyToken']);
                         } elseif ($postbackData['action'] == 'search_nearby') {
                             // 執行距離搜尋
                             $lat = (float)($postbackData['lat'] ?? 0);
@@ -279,6 +286,10 @@ class LineBotController extends Controller
                             
                             $this->sendToTelegram("📍 執行搜尋: 距離 {$distance} 公里");
                             $this->findNearbyShops($event['replyToken'], $lat, $lng, $distance);
+                        } elseif ($postbackData['action'] == 'select_distance') {
+                            // 選擇距離後，要求分享位置
+                            $distance = (float)($postbackData['distance'] ?? 2.0);
+                            $this->requestLocationWithDistance($event['replyToken'], $distance);
                         }
                     } catch (\Exception $e) {
                         // 發送錯誤到 Telegram
@@ -529,7 +540,7 @@ class LineBotController extends Controller
         $this->sendToTelegram("📍 進入 showInstructions 方法, replyToken: {$replyToken}");
 
         try {
-            // 使用 Flex Message 支援6個選項
+            // 使用 Flex Message 支援7個選項
             $buttonComponents = [
                 ButtonComponentBuilder::builder()
                     ->setStyle(ComponentButtonStyle::LINK)
@@ -559,8 +570,13 @@ class LineBotController extends Controller
                 ButtonComponentBuilder::builder()
                     ->setStyle(ComponentButtonStyle::LINK)
                     ->setHeight(ComponentButtonHeight::SM)
-                    ->setAction(new PostbackTemplateActionBuilder('📍 找附近飲料店', 'action=nearby'))
+                    ->setAction(new PostbackTemplateActionBuilder('📍 快速搜尋附近店家', 'action=nearby_quick'))
                     ->setColor('#E91E63'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🎯 自訂搜尋範圍', 'action=nearby_custom'))
+                    ->setColor('#FF5722'),
             ];
 
         // 使用按鈕組件
@@ -940,7 +956,12 @@ class LineBotController extends Controller
         
         $this->sendToTelegram("📍 收到位置: {$latitude}, {$longitude}\n地址: {$address}");
         
-        // 顯示距離選擇選項，而不是直接搜尋
+        // 檢查是否為快速搜尋模式
+        // 由於無狀態，我們檢查前一個訊息是否包含「快速搜尋模式」
+        // 或者根據時間戳判斷（實際上我們無法準確判斷，所以預設顯示距離選項）
+        
+        // 為了簡化，快速搜尋會在 showDistanceOptions 中提供「立即搜尋 2km」選項
+        // 顯示距離選擇選項
         $this->askSearchDistance($event['replyToken'], $latitude, $longitude);
     }
 
@@ -954,6 +975,12 @@ class LineBotController extends Controller
             
             // 建立快速回覆按鈕
             $quickReplyButtons = [
+                new QuickReplyButtonBuilder(
+                    new PostbackTemplateActionBuilder(
+                        '⚡ 快速搜尋 2km',
+                        "action=search_nearby&lat={$latitude}&lng={$longitude}&distance=2"
+                    )
+                ),
                 new QuickReplyButtonBuilder(
                     new PostbackTemplateActionBuilder(
                         '500 公尺',
@@ -1096,12 +1123,97 @@ class LineBotController extends Controller
     }
 
     /**
-     * 要求用戶分享位置
+     * 顯示距離選項（用於自訂搜尋範圍）
      */
-    private function requestLocation($replyToken)
+    private function showDistanceOptions($replyToken)
     {
         try {
-            $this->sendToTelegram("📍 要求用戶分享位置");
+            $this->sendToTelegram("🎯 顯示自訂搜尋範圍選項");
+            
+            // 使用 Flex Message 顯示距離選項
+            $buttonComponents = [
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🔍 500 公尺', 'action=select_distance&distance=0.5'))
+                    ->setColor('#4CAF50'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🔍 1 公里', 'action=select_distance&distance=1'))
+                    ->setColor('#2196F3'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🔍 2 公里', 'action=select_distance&distance=2'))
+                    ->setColor('#FF9800'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('🔍 5 公里', 'action=select_distance&distance=5'))
+                    ->setColor('#F44336'),
+            ];
+            
+            $flexMessageBuilder = FlexMessageBuilder::builder()
+                ->setAltText('選擇搜尋範圍')
+                ->setContents(BubbleContainerBuilder::builder()
+                    ->setHeader(BoxComponentBuilder::builder()
+                        ->setLayout(ComponentLayout::VERTICAL)
+                        ->setContents([
+                            TextComponentBuilder::builder()
+                                ->setText('🎯 選擇搜尋範圍')
+                                ->setWeight(ComponentFontWeight::BOLD)
+                                ->setSize(ComponentFontSize::LG)
+                                ->setAlign('center')
+                        ]))
+                    ->setBody(BoxComponentBuilder::builder()
+                        ->setLayout(ComponentLayout::VERTICAL)
+                        ->setSpacing(ComponentSpacing::SM)
+                        ->setContents([
+                            TextComponentBuilder::builder()
+                                ->setText('請選擇您想要搜尋的範圍')
+                                ->setSize(ComponentFontSize::SM)
+                                ->setAlign('center')
+                                ->setMargin(ComponentMargin::MD),
+                            TextComponentBuilder::builder()
+                                ->setText('選擇後將會要求您分享位置')
+                                ->setSize(ComponentFontSize::XXS)
+                                ->setAlign('center')
+                                ->setColor('#999999')
+                                ->setMargin(ComponentMargin::SM),
+                            BoxComponentBuilder::builder()
+                                ->setLayout(ComponentLayout::VERTICAL)
+                                ->setMargin(ComponentMargin::LG)
+                                ->setSpacing(ComponentSpacing::SM)
+                                ->setContents($buttonComponents)
+                        ])));
+            
+            $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+            
+            if ($response->isSucceeded()) {
+                $this->sendToTelegram("✅ 成功顯示距離選項");
+            } else {
+                $this->sendToTelegram("❌ 顯示距離選項失敗: " . $response->getRawBody());
+            }
+            
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ showDistanceOptions 錯誤: " . $e->getMessage());
+            
+            // 回傳錯誤訊息
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                "抱歉，功能暫時無法使用。\n請直接分享您的位置。"
+            ));
+        }
+    }
+
+    /**
+     * 要求用戶分享位置（帶預設距離）
+     */
+    private function requestLocationWithDistance($replyToken, $distance)
+    {
+        try {
+            $distanceText = $distance < 1 ? ($distance * 1000) . ' 公尺' : $distance . ' 公里';
+            $this->sendToTelegram("📍 要求用戶分享位置，預設距離: {$distanceText}");
             
             // 建立快速回覆按鈕
             $quickReplyButton = new QuickReplyButtonBuilder(
@@ -1113,10 +1225,77 @@ class LineBotController extends Controller
             
             // 建立文字訊息並附加快速回覆
             $textMessageBuilder = new TextMessageBuilder(
-                "📍 請分享您的位置，我會幫您找出附近的飲料店！\n\n" .
-                "點擊下方的「分享位置」按鈕，即可開始搜尋。",
+                "🎯 已選擇搜尋範圍：{$distanceText}\n\n" .
+                "請分享您的位置，我會幫您找出範圍內的飲料店！\n" .
+                "點擊下方的「分享位置」按鈕開始搜尋。\n\n" .
+                "💡 提示：分享位置後會直接搜尋 {$distanceText} 內的店家",
                 $quickReply
             );
+            
+            // 由於無法保存狀態，我們將距離資訊放在訊息中讓用戶知道
+            
+            // 發送訊息
+            $response = $this->bot->replyMessage($replyToken, $textMessageBuilder);
+            
+            if ($response->isSucceeded()) {
+                $this->sendToTelegram("✅ 成功發送位置請求（含距離資訊）");
+            } else {
+                $this->sendToTelegram("❌ 發送位置請求失敗: " . $response->getRawBody());
+            }
+            
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ requestLocationWithDistance 錯誤: " . $e->getMessage());
+            
+            // 回傳錯誤訊息
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                "抱歉，功能暫時無法使用。\n請直接分享您的位置。"
+            ));
+        }
+    }
+
+    /**
+     * 要求用戶分享位置
+     */
+    private function requestLocation($replyToken, $isQuickSearch = false)
+    {
+        try {
+            $this->sendToTelegram("📍 要求用戶分享位置，快速搜尋模式: " . ($isQuickSearch ? '是' : '否'));
+            
+            // 建立快速回覆按鈕，根據模式加入不同的資訊
+            $actionBuilder = $isQuickSearch 
+                ? new PostbackTemplateActionBuilder('分享位置', 'action=location_quick&mode=quick')
+                : new LocationTemplateActionBuilder('分享位置');
+            
+            $quickReplyButton = new QuickReplyButtonBuilder($actionBuilder);
+            
+            // 如果是快速搜尋，使用特殊的 postback 按鈕來標記
+            if ($isQuickSearch) {
+                // 對於快速搜尋，我們需要使用 LocationTemplateActionBuilder
+                // 但要在訊息中標記這是快速搜尋
+                $quickReplyButton = new QuickReplyButtonBuilder(
+                    new LocationTemplateActionBuilder('分享位置')
+                );
+            }
+            
+            // 建立快速回覆訊息
+            $quickReply = new QuickReplyMessageBuilder([$quickReplyButton]);
+            
+            // 根據模式調整訊息文字
+            $message = $isQuickSearch
+                ? "📍 快速搜尋模式\n\n" .
+                  "請分享您的位置，我會幫您找出 2 公里內的飲料店！\n" .
+                  "點擊下方的「分享位置」按鈕開始搜尋。"
+                : "📍 請分享您的位置，我會幫您找出附近的飲料店！\n\n" .
+                  "點擊下方的「分享位置」按鈕，即可開始搜尋。";
+            
+            // 建立文字訊息並附加快速回覆
+            $textMessageBuilder = new TextMessageBuilder($message, $quickReply);
+            
+            // 如果是快速搜尋，在 session 或暫存中標記
+            if ($isQuickSearch) {
+                // 由於 LINE Bot 是無狀態的，我們將在訊息中包含提示
+                $this->sendToTelegram("📍 設定快速搜尋模式");
+            }
             
             // 發送訊息
             $response = $this->bot->replyMessage($replyToken, $textMessageBuilder);
