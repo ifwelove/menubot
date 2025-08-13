@@ -221,3 +221,139 @@ Route::get('/test-instructions', function () {
         ], 500);
     }
 });
+
+// 測試 displayNearbyShops 的 Flex Message 建構
+Route::get('/test-display-shops', function () {
+    // 模擬 5 家店的資料（使用字串格式的距離）
+    $shops = [
+        [
+            'shop_code' => '50lantea',
+            'shop_name' => '50嵐',
+            'branch_name' => '伊通店',
+            'address' => '台北市中山區伊通街66-2號',
+            'tel' => '02-2502-6131',
+            'distance' => '0.45'  // 使用字串
+        ],
+        [
+            'shop_code' => 'milkshoptea',
+            'shop_name' => '迷客夏',
+            'branch_name' => '臺北伊通店',
+            'address' => '台北市中山區伊通街68-3號',
+            'tel' => '02-25185358',
+            'distance' => '0.45'  // 使用字串
+        ],
+        [
+            'shop_code' => '50lantea',
+            'shop_name' => '50嵐',
+            'branch_name' => '遼寧店',
+            'address' => '台北市中山區遼寧街28號1樓',
+            'tel' => '02-2773-7808',
+            'distance' => '0.68'  // 使用字串
+        ],
+        [
+            'shop_code' => 'milkshoptea',
+            'shop_name' => '迷客夏',
+            'branch_name' => '臺北長春店',
+            'address' => '台北市中山區長春路66號',
+            'tel' => '02-25613117',
+            'distance' => '0.92'  // 使用字串
+        ],
+        [
+            'shop_code' => '50lantea',
+            'shop_name' => '50嵐',
+            'branch_name' => '林森北店',
+            'address' => '台北市中山區林森北路487號',
+            'tel' => '02-2537-5088',
+            'distance' => '1.20'  // 使用字串
+        ]
+    ];
+    
+    try {
+        // 建立 Flex Message 組件
+        $shopComponents = [];
+        
+        // 標題
+        $shopComponents[] = LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder::builder()
+            ->setText('📍 附近的飲料店')
+            ->setWeight(LINE\LINEBot\Constant\Flex\ComponentFontWeight::BOLD)
+            ->setSize(LINE\LINEBot\Constant\Flex\ComponentFontSize::LG)
+            ->setMargin(LINE\LINEBot\Constant\Flex\ComponentMargin::MD);
+        
+        // 分隔線
+        $shopComponents[] = LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\SeparatorComponentBuilder::builder()
+            ->setMargin(LINE\LINEBot\Constant\Flex\ComponentMargin::MD);
+        
+        // 店家資訊
+        foreach ($shops as $index => $shop) {
+            // 店名
+            $shopComponents[] = LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder::builder()
+                ->setText($shop['shop_name'] . ' - ' . $shop['branch_name'])
+                ->setWeight(LINE\LINEBot\Constant\Flex\ComponentFontWeight::BOLD)
+                ->setSize(LINE\LINEBot\Constant\Flex\ComponentFontSize::SM)
+                ->setMargin(LINE\LINEBot\Constant\Flex\ComponentMargin::MD);
+            
+            // 距離和地址
+            $shopComponents[] = LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder::builder()
+                ->setText('📍 ' . $shop['distance'] . ' km | ' . $shop['address'])
+                ->setSize(LINE\LINEBot\Constant\Flex\ComponentFontSize::XXS)
+                ->setColor('#666666')
+                ->setWrap(true)
+                ->setMargin(LINE\LINEBot\Constant\Flex\ComponentMargin::SM);
+            
+            // 電話
+            if (!empty($shop['tel'])) {
+                $shopComponents[] = LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder::builder()
+                    ->setText('📞 ' . $shop['tel'])
+                    ->setSize(LINE\LINEBot\Constant\Flex\ComponentFontSize::XXS)
+                    ->setColor('#666666')
+                    ->setMargin(LINE\LINEBot\Constant\Flex\ComponentMargin::SM);
+            }
+            
+            // 檢視菜單按鈕
+            $shopComponents[] = LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\ButtonComponentBuilder::builder()
+                ->setStyle(LINE\LINEBot\Constant\Flex\ComponentButtonStyle::LINK)
+                ->setHeight(LINE\LINEBot\Constant\Flex\ComponentButtonHeight::SM)
+                ->setAction(new LINE\LINEBot\TemplateActionBuilder\MessageTemplateActionBuilder(
+                    '查看菜單',
+                    '查看' . $shop['shop_name'] . '菜單'
+                ))
+                ->setColor('#1976D2')
+                ->setMargin(LINE\LINEBot\Constant\Flex\ComponentMargin::SM);
+            
+            // 加入分隔線（最後一個不加）
+            if ($index < count($shops) - 1) {
+                $shopComponents[] = LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\SeparatorComponentBuilder::builder()
+                    ->setMargin(LINE\LINEBot\Constant\Flex\ComponentMargin::MD);
+            }
+        }
+        
+        // 建立 Flex Message
+        $flexMessageBuilder = LINE\LINEBot\MessageBuilder\FlexMessageBuilder::builder()
+            ->setAltText('附近的飲料店')
+            ->setContents(LINE\LINEBot\MessageBuilder\Flex\ContainerBuilder\BubbleContainerBuilder::builder()
+                ->setBody(LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\BoxComponentBuilder::builder()
+                    ->setLayout(LINE\LINEBot\Constant\Flex\ComponentLayout::VERTICAL)
+                    ->setContents($shopComponents)));
+        
+        // 轉換為陣列以檢查結構
+        $messageArray = $flexMessageBuilder->buildMessage();
+        
+        return response()->json([
+            'status' => 'success',
+            'shops_count' => count($shops),
+            'components_count' => count($shopComponents),
+            'message_structure' => $messageArray,
+            'json_size' => strlen(json_encode($messageArray)) . ' bytes',
+            'note' => '距離值已改為字串格式'
+        ]);
+        
+    } catch (\Exception $e) {
+        return response()->json([
+            'status' => 'error',
+            'message' => $e->getMessage(),
+            'file' => $e->getFile(),
+            'line' => $e->getLine(),
+            'trace' => $e->getTraceAsString()
+        ], 500);
+    }
+});

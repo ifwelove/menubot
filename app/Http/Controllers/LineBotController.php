@@ -106,6 +106,15 @@ class LineBotController extends Controller
 
     public function webhook(Request $request)
     {
+        // 設定錯誤處理器以捕捉 Fatal Error
+        register_shutdown_function(function() {
+            $error = error_get_last();
+            if ($error && in_array($error['type'], [E_ERROR, E_CORE_ERROR, E_COMPILE_ERROR, E_PARSE])) {
+                $this->sendToTelegram("💥 Fatal Error: " . $error['message'] . "\n" . 
+                                    "File: " . $error['file'] . ":" . $error['line']);
+            }
+        });
+        
         // 記錄收到的請求
         $this->sendToTelegram("🔵 收到 LINE Webhook 請求\n" . json_encode($request->all(), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
@@ -1016,97 +1025,59 @@ class LineBotController extends Controller
             $shops = array_slice($shops, 0, 5);
             $this->sendToTelegram("📍 限制顯示前 " . count($shops) . " 家");
         
-        // 建立 Flex Message
+        // 建立 Flex Message - 簡化版本
+        $this->sendToTelegram("📍 開始建構 Flex Message，共 " . count($shops) . " 家店");
+        
         $shopComponents = [];
         
         // 標題
         $shopComponents[] = TextComponentBuilder::builder()
-            ->setText('📍 附近的飲料店')
+            ->setText('📍 附近的飲料店（' . count($shops) . ' 家）')
             ->setWeight(ComponentFontWeight::BOLD)
-            ->setSize(ComponentFontSize::LG)
-            ->setMargin(ComponentMargin::MD);
+            ->setSize(ComponentFontSize::LG);
             
-        $shopComponents[] = TextComponentBuilder::builder()
-            ->setText('以下是離您最近的飲料店')
-            ->setSize(ComponentFontSize::SM)
-            ->setColor('#666666')
-            ->setMargin(ComponentMargin::MD);
-            
-        $shopComponents[] = SeparatorComponentBuilder::builder()
-            ->setMargin(ComponentMargin::LG);
-        
-        // 店家列表
+        // 店家列表 - 簡化版本
         foreach ($shops as $index => $shop) {
-            // 店名和分店名
-            $shopComponents[] = BoxComponentBuilder::builder()
-                ->setLayout(ComponentLayout::HORIZONTAL)
-                ->setMargin(ComponentMargin::LG)
-                ->setContents([
-                    TextComponentBuilder::builder()
-                        ->setText(($index + 1) . ". {$shop['shop_name']} {$shop['branch_name']}")
-                        ->setWeight(ComponentFontWeight::BOLD)
-                        ->setSize(ComponentFontSize::MD)
-                        ->setFlex(1)
-                        ->setWrap(true),
-                    TextComponentBuilder::builder()
-                        ->setText(sprintf("%.1f km", $shop['distance']))
-                        ->setSize(ComponentFontSize::SM)
-                        ->setColor('#FF5722')
-                        ->setAlign('end')
-                ]);
+            // 店名和距離（使用字串格式）
+            $distanceStr = is_numeric($shop['distance']) ? sprintf("%.1f", $shop['distance']) : $shop['distance'];
+            $shopComponents[] = TextComponentBuilder::builder()
+                ->setText(($index + 1) . ". {$shop['shop_name']} {$shop['branch_name']} - {$distanceStr} km")
+                ->setSize(ComponentFontSize::MD)
+                ->setMargin(ComponentMargin::MD);
             
             // 地址
             $shopComponents[] = TextComponentBuilder::builder()
-                ->setText($shop['address'])
+                ->setText("📍 {$shop['address']}")
                 ->setSize(ComponentFontSize::SM)
                 ->setColor('#666666')
-                ->setMargin(ComponentMargin::SM)
-                ->setWrap(true);
+                ->setMargin(ComponentMargin::SM);
             
             // 電話（如果有的話）
             if (!empty($shop['tel'])) {
-                $shopComponents[] = BoxComponentBuilder::builder()
-                    ->setLayout(ComponentLayout::HORIZONTAL)
-                    ->setMargin(ComponentMargin::SM)
-                    ->setContents([
-                        TextComponentBuilder::builder()
-                            ->setText('📞')
-                            ->setSize(ComponentFontSize::SM)
-                            ->setFlex(0),
-                        TextComponentBuilder::builder()
-                            ->setText($shop['tel'])
-                            ->setSize(ComponentFontSize::SM)
-                            ->setColor('#1976D2')
-                            ->setMargin(ComponentMargin::SM)
-                            ->setAction(new UriTemplateActionBuilder(
-                                'tel:' . str_replace([' ', '-', '(', ')'], '', $shop['tel'])
-                            ))
-                    ]);
-            }
-            
-            // 查看菜單按鈕
-            $shopComponents[] = ButtonComponentBuilder::builder()
-                ->setStyle(ComponentButtonStyle::LINK)
-                ->setHeight(ComponentButtonHeight::SM)
-                ->setAction(new PostbackTemplateActionBuilder(
-                    '查看菜單',
-                    "action=select&shop={$shop['shop_code']}"
-                ))
-                ->setColor('#1976D2')
-                ->setMargin(ComponentMargin::SM);
-            
-            if ($index < count($shops) - 1) {
-                $shopComponents[] = SeparatorComponentBuilder::builder()
-                    ->setMargin(ComponentMargin::LG);
+                $shopComponents[] = TextComponentBuilder::builder()
+                    ->setText("📞 {$shop['tel']}")
+                    ->setSize(ComponentFontSize::SM)
+                    ->setColor('#1976D2')
+                    ->setMargin(ComponentMargin::SM);
             }
         }
         
-        $flexMessageBuilder = FlexMessageBuilder::builder()
-            ->setAltText('附近的飲料店')
-            ->setContents(BubbleContainerBuilder::builder()
-                ->setBody(BoxComponentBuilder::builder()
-                    ->setLayout(ComponentLayout::VERTICAL)
-                    ->setContents($shopComponents)));
+        $this->sendToTelegram("📍 建構了 " . count($shopComponents) . " 個組件");
+        
+        try {
+            $this->sendToTelegram("📍 開始建構 FlexMessageBuilder");
+            $flexMessageBuilder = FlexMessageBuilder::builder()
+                ->setAltText('附近的飲料店')
+                ->setContents(BubbleContainerBuilder::builder()
+                    ->setBody(BoxComponentBuilder::builder()
+                        ->setLayout(ComponentLayout::VERTICAL)
+                        ->setContents($shopComponents)));
+            
+            $this->sendToTelegram("📍 FlexMessageBuilder 建構完成");
+        } catch (\Exception $builderError) {
+            $this->sendToTelegram("❌ FlexMessageBuilder 建構錯誤: " . $builderError->getMessage());
+            throw $builderError;
+        }
         
             $this->sendToTelegram("📍 準備發送 Flex Message");
             
@@ -1127,8 +1098,9 @@ class LineBotController extends Controller
             $count = 0;
             foreach ($shops as $shop) {
                 $count++;
+                $distanceStr = is_numeric($shop['distance']) ? sprintf("%.1f", $shop['distance']) : $shop['distance'];
                 $message .= "{$count}. {$shop['shop_name']} {$shop['branch_name']}\n";
-                $message .= "   📍 " . sprintf("%.1f", $shop['distance']) . " km\n";
+                $message .= "   📍 {$distanceStr} km\n";
                 $message .= "   📮 {$shop['address']}\n";
                 if (!empty($shop['tel'])) {
                     $message .= "   📞 {$shop['tel']}\n";
