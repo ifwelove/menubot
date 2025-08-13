@@ -968,7 +968,7 @@ class LineBotController extends Controller
                             'branch_name' => $store['name'] ?? $store['name_short'] ?? '分店',
                             'address' => $store['address'] ?? '',
                             'tel' => $store['tel'] ?? '',
-                            'distance' => $distance,
+                            'distance' => round($distance, 2), // 確保是數值，方便後續處理
                         ];
                     }
                 }
@@ -1021,70 +1021,77 @@ class LineBotController extends Controller
                 return;
             }
             
-            // 限制顯示前 5 家
-            $shops = array_slice($shops, 0, 5);
+            // 限制顯示前 10 家（Carousel 限制）
+            $shops = array_slice($shops, 0, 10);
             $this->sendToTelegram("📍 限制顯示前 " . count($shops) . " 家");
-        
-        // 建立 Flex Message - 簡化版本
-        $this->sendToTelegram("📍 開始建構 Flex Message，共 " . count($shops) . " 家店");
-        
-        $shopComponents = [];
-        
-        // 標題
-        $shopComponents[] = TextComponentBuilder::builder()
-            ->setText('📍 附近的飲料店（' . count($shops) . ' 家）')
-            ->setWeight(ComponentFontWeight::BOLD)
-            ->setSize(ComponentFontSize::LG);
             
-        // 店家列表 - 簡化版本
-        foreach ($shops as $index => $shop) {
-            // 店名和距離（使用字串格式）
-            $distanceStr = is_numeric($shop['distance']) ? sprintf("%.1f", $shop['distance']) : $shop['distance'];
-            $shopComponents[] = TextComponentBuilder::builder()
-                ->setText(($index + 1) . ". {$shop['shop_name']} {$shop['branch_name']} - {$distanceStr} km")
-                ->setSize(ComponentFontSize::MD)
-                ->setMargin(ComponentMargin::MD);
+            // 建立 Carousel 卡片
+            $this->sendToTelegram("📍 開始建構 Carousel，共 " . count($shops) . " 家店");
             
-            // 地址
-            $shopComponents[] = TextComponentBuilder::builder()
-                ->setText("📍 {$shop['address']}")
-                ->setSize(ComponentFontSize::SM)
-                ->setColor('#666666')
-                ->setMargin(ComponentMargin::SM);
+            $columns = [];
             
-            // 電話（如果有的話）
-            if (!empty($shop['tel'])) {
-                $shopComponents[] = TextComponentBuilder::builder()
-                    ->setText("📞 {$shop['tel']}")
-                    ->setSize(ComponentFontSize::SM)
-                    ->setColor('#1976D2')
-                    ->setMargin(ComponentMargin::SM);
+            foreach ($shops as $index => $shop) {
+                // 準備距離字串
+                $distanceStr = is_numeric($shop['distance']) ? sprintf("%.1f", $shop['distance']) : $shop['distance'];
+                
+                // 標題（最多40字元）
+                $title = mb_substr($shop['shop_name'] . ' ' . $shop['branch_name'], 0, 40);
+                
+                // 描述文字（最多60字元）
+                $text = "📍 {$distanceStr} km\n";
+                $text .= mb_substr($shop['address'], 0, 50);
+                
+                // 建立動作按鈕
+                $actions = [];
+                
+                // 查看菜單按鈕
+                if (!empty($shop['shop_code'])) {
+                    $postbackData = http_build_query(['action' => 'select', 'shop' => $shop['shop_code']]);
+                    $actions[] = new PostbackTemplateActionBuilder('查看菜單', $postbackData);
+                }
+                
+                // 撥打電話按鈕（如果有電話）
+                if (!empty($shop['tel'])) {
+                    $actions[] = new UriTemplateActionBuilder('撥打電話', 'tel:' . $shop['tel']);
+                }
+                
+                // 如果沒有動作，至少加一個查看詳情
+                if (empty($actions)) {
+                    $actions[] = new MessageTemplateActionBuilder('查看詳情', $shop['shop_name'] . ' ' . $shop['branch_name']);
+                }
+                
+                // 取得店家圖片（如果有的話）
+                $imageUrl = null;
+                if (!empty($shop['shop_code'])) {
+                    $shopConfig = config("menus.{$shop['shop_code']}");
+                    if ($shopConfig && isset($shopConfig['image_url'])) {
+                        $imageUrl = $shopConfig['image_url'];
+                    }
+                }
+                
+                // 建立 Carousel Column
+                $column = new CarouselColumnTemplateBuilder(
+                    $title,      // 標題
+                    $text,       // 描述文字
+                    $imageUrl,   // 圖片 URL（可選）
+                    $actions     // 動作按鈕
+                );
+                
+                $columns[] = $column;
+                
+                $this->sendToTelegram("📍 建立第 " . ($index + 1) . " 張卡片：{$title}");
             }
-        }
-        
-        $this->sendToTelegram("📍 建構了 " . count($shopComponents) . " 個組件");
-        
-        try {
-            $this->sendToTelegram("📍 開始建構 FlexMessageBuilder");
-            $flexMessageBuilder = FlexMessageBuilder::builder()
-                ->setAltText('附近的飲料店')
-                ->setContents(BubbleContainerBuilder::builder()
-                    ->setBody(BoxComponentBuilder::builder()
-                        ->setLayout(ComponentLayout::VERTICAL)
-                        ->setContents($shopComponents)));
             
-            $this->sendToTelegram("📍 FlexMessageBuilder 建構完成");
-        } catch (\Exception $builderError) {
-            $this->sendToTelegram("❌ FlexMessageBuilder 建構錯誤: " . $builderError->getMessage());
-            throw $builderError;
-        }
-        
-            $this->sendToTelegram("📍 準備發送 Flex Message");
+            // 建立 Carousel Template
+            $carouselTemplateBuilder = new CarouselTemplateBuilder($columns);
+            $templateMessage = new TemplateMessageBuilder('📍 附近的飲料店', $carouselTemplateBuilder);
             
-            $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+            $this->sendToTelegram("📍 準備發送 Carousel Message");
+            
+            $response = $this->bot->replyMessage($replyToken, $templateMessage);
             
             if ($response->isSucceeded()) {
-                $this->sendToTelegram("✅ 成功發送附近店家資訊");
+                $this->sendToTelegram("✅ 成功發送附近店家 Carousel");
             } else {
                 $this->sendToTelegram("❌ 發送失敗: " . $response->getRawBody());
                 throw new \Exception("LINE API 錯誤");

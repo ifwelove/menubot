@@ -222,6 +222,191 @@ Route::get('/test-instructions', function () {
     }
 });
 
+// 測試 Carousel 附近店家
+Route::get('/test-carousel-shops', function () {
+    // 模擬 10 家店的資料（使用字串格式的距離）
+    $shops = [
+        [
+            'shop_code' => '50lantea',
+            'shop_name' => '50嵐',
+            'branch_name' => '伊通店',
+            'address' => '台北市中山區伊通街66-2號',
+            'tel' => '02-2502-6131',
+            'distance' => '0.45'
+        ],
+        [
+            'shop_code' => 'milkshoptea',
+            'shop_name' => '迷客夏',
+            'branch_name' => '臺北伊通店',
+            'address' => '台北市中山區伊通街68-3號',
+            'tel' => '02-25185358',
+            'distance' => '0.45'
+        ],
+        [
+            'shop_code' => '50lantea',
+            'shop_name' => '50嵐',
+            'branch_name' => '遼寧店',
+            'address' => '台北市中山區遼寧街28號1樓',
+            'tel' => '02-2773-7808',
+            'distance' => '0.68'
+        ],
+        [
+            'shop_code' => 'milkshoptea',
+            'shop_name' => '迷客夏',
+            'branch_name' => '臺北長春店',
+            'address' => '台北市中山區長春路66號',
+            'tel' => '02-25613117',
+            'distance' => '0.92'
+        ],
+        [
+            'shop_code' => '50lantea',
+            'shop_name' => '50嵐',
+            'branch_name' => '林森北店',
+            'address' => '台北市中山區林森北路487號',
+            'tel' => '02-2537-5088',
+            'distance' => '1.20'
+        ],
+        [
+            'shop_code' => 'comebuy2001',
+            'shop_name' => 'ComeBy啡',
+            'branch_name' => '中山北店',
+            'address' => '台北市中山區中山北路二段45號',
+            'tel' => '02-2511-9988',
+            'distance' => '1.35'
+        ],
+        [
+            'shop_code' => 'coco',
+            'shop_name' => 'CoCo都可',
+            'branch_name' => '南京松江店',
+            'address' => '台北市中山區南京東路二段115號',
+            'tel' => '02-2511-7788',
+            'distance' => '1.50'
+        ],
+        [
+            'shop_code' => 'kebuke',
+            'shop_name' => '可不可熟成紅茶',
+            'branch_name' => '建國北店',
+            'address' => '台北市中山區建國北路二段120號',
+            'tel' => '02-2502-5566',
+            'distance' => '1.65'
+        ],
+        [
+            'shop_code' => 'tigersugar',
+            'shop_name' => '老虎堂',
+            'branch_name' => '中山店',
+            'address' => '台北市中山區中山北路二段16號',
+            'tel' => '02-2563-1122',
+            'distance' => '1.80'
+        ],
+        [
+            'shop_code' => 'tenren',
+            'shop_name' => '天仁茗茶',
+            'branch_name' => '南京東店',
+            'address' => '台北市中山區南京東路二段95號',
+            'tel' => '02-2511-3366',
+            'distance' => '1.95'
+        ]
+    ];
+    
+    try {
+        // 建立 Carousel 卡片
+        $columns = [];
+        
+        foreach ($shops as $index => $shop) {
+            // 準備距離字串
+            $distanceStr = $shop['distance'];
+            
+            // 標題（最多40字元）
+            $title = mb_substr($shop['shop_name'] . ' ' . $shop['branch_name'], 0, 40);
+            
+            // 描述文字（最多60字元）
+            $text = "📍 {$distanceStr} km\n";
+            $text .= mb_substr($shop['address'], 0, 50);
+            
+            // 建立動作按鈕
+            $actions = [];
+            
+            // 查看菜單按鈕
+            $postbackData = http_build_query(['action' => 'select', 'shop' => $shop['shop_code']]);
+            $actions[] = [
+                'type' => 'postback',
+                'label' => '查看菜單',
+                'data' => $postbackData
+            ];
+            
+            // 撥打電話按鈕
+            if (!empty($shop['tel'])) {
+                $actions[] = [
+                    'type' => 'uri',
+                    'label' => '撥打電話',
+                    'uri' => 'tel:' . $shop['tel']
+                ];
+            }
+            
+            // 取得店家圖片
+            $imageUrl = null;
+            if (!empty($shop['shop_code'])) {
+                $shopConfig = config("menus.{$shop['shop_code']}");
+                if ($shopConfig && isset($shopConfig['image_url'])) {
+                    $imageUrl = $shopConfig['image_url'];
+                }
+            }
+            
+            // 如果沒有圖片，使用預設圖片
+            if (!$imageUrl) {
+                $imageUrl = 'https://via.placeholder.com/300x200?text=' . urlencode($shop['shop_name']);
+            }
+            
+            // 建立 Carousel Column 結構
+            $column = [
+                'thumbnailImageUrl' => $imageUrl,
+                'imageBackgroundColor' => '#FFFFFF',
+                'title' => $title,
+                'text' => $text,
+                'defaultAction' => [
+                    'type' => 'postback',
+                    'label' => '查看詳情',
+                    'data' => $postbackData
+                ],
+                'actions' => array_slice($actions, 0, 3) // 最多3個按鈕
+            ];
+            
+            $columns[] = $column;
+        }
+        
+        // 建立完整的 Carousel 訊息結構
+        $carouselMessage = [
+            'type' => 'template',
+            'altText' => '📍 附近的飲料店',
+            'template' => [
+                'type' => 'carousel',
+                'columns' => $columns,
+                'imageAspectRatio' => 'rectangle',
+                'imageSize' => 'cover'
+            ]
+        ];
+        
+        return response()->json([
+            'status' => 'success',
+            'shops_count' => count($shops),
+            'columns_count' => count($columns),
+            'message_structure' => $carouselMessage,
+            'json_size' => strlen(json_encode($carouselMessage)) . ' bytes',
+            'json_size_kb' => round(strlen(json_encode($carouselMessage)) / 1024, 2) . ' KB',
+            'note' => 'Carousel 卡片選單格式，可左右滑動'
+        ]);
+        
+    } catch (\Exception $e) {
+        return response()->json([
+            'status' => 'error',
+            'message' => $e->getMessage(),
+            'file' => $e->getFile(),
+            'line' => $e->getLine(),
+            'trace' => $e->getTraceAsString()
+        ], 500);
+    }
+});
+
 // 測試 displayNearbyShops 的 Flex Message 建構
 Route::get('/test-display-shops', function () {
     // 模擬 5 家店的資料（使用字串格式的距離）
