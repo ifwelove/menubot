@@ -1,0 +1,295 @@
+{
+  "brand_info": {
+    "id": 2484,
+    "brand_code": "kure8brand",
+    "name": "KURE8 Kombucha | 8酵茶"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:21:01.827776",
+    "total_pages": 0,
+    "total_stores": 3,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2484,
+      "brand_code": "kure8brand",
+      "brand_name": "KURE8 Kombucha | 8酵茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2484_8475c42f2bb3ac26.jpeg",
+      "id": 22806,
+      "name": "忠孝店",
+      "name_short": "忠孝店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20034_icon_20240712_174157_64569.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2484_8475c42f2bb3ac26.jpeg",
+      "description": null,
+      "longitude": "121.55087460000000000000",
+      "latitude": "25.04219410000000000000",
+      "address": "台北市大安區忠孝東路四段181巷7弄3號",
+      "address_remark": "",
+      "tel": "02-87738738",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 5,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 2277,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2484,
+      "brand_code": "kure8brand",
+      "brand_name": "KURE8 Kombucha | 8酵茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2484_8475c42f2bb3ac26.jpeg",
+      "id": 20034,
+      "name": "大安店",
+      "name_short": "大安店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20034_icon_20240712_174157_64569.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2484_8475c42f2bb3ac26.jpeg",
+      "description": null,
+      "longitude": "121.54381800000000000000",
+      "latitude": "25.03278360000000000000",
+      "address": "台北市大安區復興南路二段7號",
+      "address_remark": "",
+      "tel": "02-23250738",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 10,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 2985,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2484,
+      "brand_code": "kure8brand",
+      "brand_name": "KURE8 Kombucha | 8酵茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2484_8475c42f2bb3ac26.jpeg",
+      "id": 22803,
+      "name": "南港店",
+      "name_short": "南港店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20034_icon_20240712_174157_64569.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2484_8475c42f2bb3ac26.jpeg",
+      "description": null,
+      "longitude": "121.61289290000000000000",
+      "latitude": "25.05461730000000000000",
+      "address": "台北市南港區興東街3號",
+      "address_remark": "1樓",
+      "tel": "02-27885590",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.87,
+      "rating_order_count": 15,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9824,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

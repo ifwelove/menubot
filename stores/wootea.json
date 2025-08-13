@@ -1,0 +1,5230 @@
+{
+  "brand_info": {
+    "id": 1212,
+    "brand_code": "wootea",
+    "name": "五桐號"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:17:55.819077",
+    "total_pages": 3,
+    "total_stores": 64,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 21366,
+      "name": "台北遼寧店",
+      "name_short": "台北遼寧店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.54205660000000000000",
+      "latitude": "25.04912800000000000000",
+      "address": "台北市中山區遼寧街48-3號",
+      "address_remark": "",
+      "tel": "02-27505200",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.11,
+      "rating_order_count": 19,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 751,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 16849,
+      "name": "台北合江店",
+      "name_short": "台北合江店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.53932840000000000000",
+      "latitude": "25.06006900000000000000",
+      "address": "台北市中山區合江街113號",
+      "address_remark": "",
+      "tel": "02-25177711",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 20,
+      "rating_average_star": 4.44,
+      "rating_order_count": 43,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 1057,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11901,
+      "name": "台北光華三創店",
+      "name_short": "台北光華三創店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.53221920000000000000",
+      "latitude": "25.04407470000000000000",
+      "address": "台北市中正區八德路一段94號",
+      "address_remark": "",
+      "tel": "02-33224565",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.81,
+      "rating_order_count": 74,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 1473,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11823,
+      "name": "台北中山南西店",
+      "name_short": "台北中山南西店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.52005440000000000000",
+      "latitude": "25.05187490000000000000",
+      "address": "台北市大同區南京西路18巷6號",
+      "address_remark": "",
+      "tel": "02-25580866",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.34,
+      "rating_order_count": 59,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "12:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "12:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 300
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 600
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 700
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 2361,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11907,
+      "name": "台北晴光市場店",
+      "name_short": "台北晴光市場店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.52343000000000000000",
+      "latitude": "25.06482200000000000000",
+      "address": "台北市中山區農安街8之5號1樓",
+      "address_remark": "",
+      "tel": "02-25931958",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.55,
+      "rating_order_count": 112,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 30000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 2578,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 20625,
+      "name": "北捷門市",
+      "name_short": "北捷門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.51786420000000000000",
+      "latitude": "25.04638460000000000000",
+      "address": "台北市中正區忠孝西路一段49號",
+      "address_remark": "B1",
+      "tel": "02-23830208",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 7,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 2803,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11904,
+      "name": "台北通化旗艦店",
+      "name_short": "台北通化旗艦店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.55436270000000000000",
+      "latitude": "25.03082430000000000000",
+      "address": "台北市大安區通化街41號",
+      "address_remark": "",
+      "tel": "02-27095050",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.62,
+      "rating_order_count": 45,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿350外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 3826,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11865,
+      "name": "台北古亭店",
+      "name_short": "台北古亭店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.52285670000000000000",
+      "latitude": "25.02728640000000000000",
+      "address": "台北市大安區和平東路一段17號",
+      "address_remark": "捷運古亭站5號出口",
+      "tel": "02-23917553",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.66,
+      "rating_order_count": 115,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4182,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11928,
+      "name": "台北西門店",
+      "name_short": "台北西門店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.50627300000000000000",
+      "latitude": "25.04437900000000000000",
+      "address": "台北市萬華區西寧南路48-3號1樓",
+      "address_remark": "",
+      "tel": "02-23831808",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.71,
+      "rating_order_count": 14,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4340,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11874,
+      "name": "台北吳興店",
+      "name_short": "台北吳興店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.56342620000000000000",
+      "latitude": "25.02763980000000000000",
+      "address": "台北市信義區吳興街233號",
+      "address_remark": "",
+      "tel": "02-27205205",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.7,
+      "rating_order_count": 40,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4926,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11850,
+      "name": "台北饒河店",
+      "name_short": "台北饒河店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.57806350000000000000",
+      "latitude": "25.05118520000000000000",
+      "address": "台北市松山區八德路四段773號1樓",
+      "address_remark": "",
+      "tel": "02-27476189",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.59,
+      "rating_order_count": 78,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5257,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11862,
+      "name": "新北三重文化店",
+      "name_short": "新北三重文化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.49917200000000000000",
+      "latitude": "25.06403500000000000000",
+      "address": "新北市三重區文化北路20之一號",
+      "address_remark": "",
+      "tel": "02-29871260",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 20,
+      "rating_average_star": 4.62,
+      "rating_order_count": 69,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 3400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5346,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11910,
+      "name": "台北內湖江南店",
+      "name_short": "台北內湖江南店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.57567150000000000000",
+      "latitude": "25.07632270000000000000",
+      "address": "台北市內湖區江南街126號1樓",
+      "address_remark": "台北市內湖區江南街126號",
+      "tel": "02-27996069",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 60,
+      "rating_average_star": 4.54,
+      "rating_order_count": 153,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "18:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "18:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 2200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 4000,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 5000,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5986,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 17765,
+      "name": "永和樂華店",
+      "name_short": "永和樂華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.51423800000000000000",
+      "latitude": "25.00836390000000000000",
+      "address": "新北市永和區永和路一段150號",
+      "address_remark": "",
+      "tel": "02-22323350",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.2,
+      "rating_order_count": 5,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:15:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:15:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7123,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 15640,
+      "name": "三重五華店",
+      "name_short": "三重五華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.49131880000000000000",
+      "latitude": "25.08392650000000000000",
+      "address": "新北市三重區五華街144號",
+      "address_remark": "",
+      "tel": "02-89835568",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.86,
+      "rating_order_count": 29,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7588,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11895,
+      "name": "台北天母芝山店",
+      "name_short": "台北天母芝山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.52294410000000000000",
+      "latitude": "25.10524570000000000000",
+      "address": "台北市士林區德行西路54之1號1摟",
+      "address_remark": "台北市士林區德行西路54-1號",
+      "tel": "02-28353560",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 1,
+      "rating_average_star": 4.79,
+      "rating_order_count": 62,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7803,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11829,
+      "name": "台北景美店",
+      "name_short": "台北景美店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.54090500000000000000",
+      "latitude": "24.99011890000000000000",
+      "address": "台北市文山區景文街104號",
+      "address_remark": "",
+      "tel": "02-29355938",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.78,
+      "rating_order_count": 82,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9038,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11934,
+      "name": "台北北投石牌店",
+      "name_short": "台北北投石牌店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.51620960000000000000",
+      "latitude": "25.11618230000000000000",
+      "address": "台北市北投區石牌路二段62號",
+      "address_remark": "台北市北投區石牌路二段62號",
+      "tel": "02-28236003",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.36,
+      "rating_order_count": 157,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9561,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11835,
+      "name": "新北板橋埔墘店",
+      "name_short": "新北板橋埔墘店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.47589010000000000000",
+      "latitude": "25.01689040000000000000",
+      "address": "新北市板橋區中山路二段167號",
+      "address_remark": "",
+      "tel": "02-29522518",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.19,
+      "rating_order_count": 37,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 7000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9656,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 13714,
+      "name": "板橋莒光店",
+      "name_short": "板橋莒光店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.47004290000000000000",
+      "latitude": "25.02456920000000000000",
+      "address": "新北市板橋區莒光路26號1樓",
+      "address_remark": "",
+      "tel": "02-82536600",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.77,
+      "rating_order_count": 35,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9804,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11925,
+      "name": "新北南勢角店",
+      "name_short": "新北南勢角店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.50978500000000000000",
+      "latitude": "24.98914490000000000000",
+      "address": "新北市中和區景新里興南路一段94號",
+      "address_remark": "",
+      "tel": "02-31511150",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.21,
+      "rating_order_count": 28,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9891,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 21243,
+      "name": "台北南港店",
+      "name_short": "台北南港店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.61383850000000000000",
+      "latitude": "25.05498660000000000000",
+      "address": "台北市南港區南港路一段147號",
+      "address_remark": "",
+      "tel": "02-26534088",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 60,
+      "rating_average_star": 4.64,
+      "rating_order_count": 22,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9950,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 12783,
+      "name": "新店大坪林店",
+      "name_short": "新店大坪林店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.54156450000000000000",
+      "latitude": "24.98270110000000000000",
+      "address": "新北市新店區北新路三段156號1樓",
+      "address_remark": "",
+      "tel": "02-29107123",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.06,
+      "rating_order_count": 18,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10109,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 15802,
+      "name": "中和環球店",
+      "name_short": "中和環球店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.47511830000000000000",
+      "latitude": "25.00580850000000000000",
+      "address": "新北市中和區中山路三段101號",
+      "address_remark": "新北市中和區中山路三段101號",
+      "tel": "02-22223953",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.86,
+      "rating_order_count": 77,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10676,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 14548,
+      "name": "板橋中正店",
+      "name_short": "板橋中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.45618180000000000000",
+      "latitude": "25.01731670000000000000",
+      "address": "新北市板橋區中正路201號",
+      "address_remark": "新北市板橋區中正路201號1樓",
+      "tel": "02-29600100",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.88,
+      "rating_order_count": 93,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 11893,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 12792,
+      "name": "新莊中和店",
+      "name_short": "新莊中和店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.44721520000000000000",
+      "latitude": "25.04986320000000000000",
+      "address": "新北市新莊區中和街157號1樓",
+      "address_remark": "健身工廠旁",
+      "tel": "02-22760738",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.68,
+      "rating_order_count": 82,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:50:00",
+      "end_time": "21:40:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:50:00",
+      "order_end_time": "21:40:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 600
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 11920,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 18115,
+      "name": "板橋四川店",
+      "name_short": "板橋四川店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.45603610000000000000",
+      "latitude": "24.99591400000000000000",
+      "address": "新北市板橋區四川路1段200號",
+      "address_remark": "220新北市板橋區四川路一段200號",
+      "tel": "02-29643423",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 16,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 2000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 13524,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 16132,
+      "name": "泰山明志店",
+      "name_short": "泰山明志店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.42408010000000000000",
+      "latitude": "25.03877680000000000000",
+      "address": "新北市泰山區貴子里明志路三段186號",
+      "address_remark": "泰山區明志路三段186號",
+      "tel": "02-29042250",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.91,
+      "rating_order_count": 45,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:10:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:10:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6300
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 15084,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 16435,
+      "name": "淡水竹圍店",
+      "name_short": "淡水竹圍店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1212_photo_20250102_164201_f4b66.png",
+      "description": null,
+      "longitude": "121.46019350000000000000",
+      "latitude": "25.13651370000000000000",
+      "address": "新北市淡水區民權路135號",
+      "address_remark": "",
+      "tel": "02-28084853",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.92,
+      "rating_order_count": 60,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 15792,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 16951,
+      "name": "林口中正店",
+      "name_short": "林口中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.39526230000000000000",
+      "latitude": "25.07751460000000000000",
+      "address": "新北市林口區中正路55號",
+      "address_remark": "",
+      "tel": "02-26029110",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.75,
+      "rating_order_count": 63,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 13000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2800,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 19060,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 17363,
+      "name": "林口文化店",
+      "name_short": "林口文化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.36506590000000000000",
+      "latitude": "25.06764690000000000000",
+      "address": "新北市林口區文化二路一段38號",
+      "address_remark": "",
+      "tel": "02-26090082",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 14,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 22787,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 14983,
+      "name": "三峽北大店",
+      "name_short": "三峽北大店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.37267570000000000000",
+      "latitude": "24.94224930000000000000",
+      "address": "新北市三峽區國學街39號",
+      "address_remark": "新北市三峽區國學街39號",
+      "tel": "02-26717876",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 20,
+      "rating_average_star": 4.47,
+      "rating_order_count": 15,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿799外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 799,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 799,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 999,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1199,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1399,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1599,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1799,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1999,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2199,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2399,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 26916,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 14533,
+      "name": "鶯歌建國店",
+      "name_short": "鶯歌建國店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.34943500000000000000",
+      "latitude": "24.95336100000000000000",
+      "address": "新北市鶯歌區建國路199號",
+      "address_remark": "",
+      "tel": "02-86771658",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.84,
+      "rating_order_count": 32,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 28595,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 14188,
+      "name": "桃園中正店",
+      "name_short": "桃園中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.30602990000000000000",
+      "latitude": "25.00251270000000000000",
+      "address": "桃園市桃園區中正路503號",
+      "address_remark": "",
+      "tel": "03-3310166",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.68,
+      "rating_order_count": 56,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 31290,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 14542,
+      "name": "八德介壽店",
+      "name_short": "八德介壽店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.29933430000000000000",
+      "latitude": "24.95954950000000000000",
+      "address": "桃園市八德區介壽路一段908號",
+      "address_remark": "",
+      "tel": "03-3665559",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.59,
+      "rating_order_count": 27,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:15:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:15:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 34082,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 14530,
+      "name": "桃園大竹店",
+      "name_short": "桃園大竹店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.26291600000000000000",
+      "latitude": "25.02144350000000000000",
+      "address": "桃園市蘆竹區大竹路427號1樓",
+      "address_remark": "桃園市蘆竹區大竹路427號",
+      "tel": "033230568",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.67,
+      "rating_order_count": 49,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:45:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 13000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 16000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1700,
+          "order_min_distance_m": 17000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 18000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1900,
+          "order_min_distance_m": 19000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 36375,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 20559,
+      "name": "桃園大溪店",
+      "name_short": "桃園大溪店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.29498970000000000000",
+      "latitude": "24.92223090000000000000",
+      "address": "桃園市大溪區介壽路75號1樓",
+      "address_remark": "",
+      "tel": "03-3896600",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 37029,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 13119,
+      "name": "內壢忠孝店",
+      "name_short": "內壢忠孝店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.25580230000000000000",
+      "latitude": "24.97449800000000000000",
+      "address": "桃園市中壢區忠孝路79號",
+      "address_remark": "",
+      "tel": "03-4525880",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.87,
+      "rating_order_count": 71,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 38713,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 12459,
+      "name": "桃園中壢龍崗店",
+      "name_short": "桃園中壢龍崗店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.25340130000000000000",
+      "latitude": "24.93019260000000000000",
+      "address": "桃園市中壢區龍東路213號",
+      "address_remark": "",
+      "tel": "03-4163970",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.87,
+      "rating_order_count": 15,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 41319,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11856,
+      "name": "桃園中壢中原店",
+      "name_short": "桃園中壢中原店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.24076610000000000000",
+      "latitude": "24.95558790000000000000",
+      "address": "桃園市中壢區實踐路86號",
+      "address_remark": "",
+      "tel": "03-4373777",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 60,
+      "rating_average_star": 4.53,
+      "rating_order_count": 34,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 13000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 16000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 41447,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 13543,
+      "name": "中壢健行店",
+      "name_short": "中壢健行店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.22842940000000000000",
+      "latitude": "24.94729720000000000000",
+      "address": "桃園市中壢區健行路247號",
+      "address_remark": "",
+      "tel": "03-4577759",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 15,
+      "rating_average_star": 4.89,
+      "rating_order_count": 57,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 12000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 43379,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11853,
+      "name": "桃園中壢SOGO店",
+      "name_short": "桃園中壢SOGO店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.22284680000000000000",
+      "latitude": "24.96178580000000000000",
+      "address": "桃園市中壢區新生路197號",
+      "address_remark": "",
+      "tel": "03-2805777",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.67,
+      "rating_order_count": 6,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 43388,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 15874,
+      "name": "中壢新明店",
+      "name_short": "中壢新明店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.21436430000000000000",
+      "latitude": "24.95758690000000000000",
+      "address": "桃園市中壢區新明路15號",
+      "address_remark": "桃園市中壢區新明路15號",
+      "tel": "03-4921636",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.82,
+      "rating_order_count": 28,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 700
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 44633,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 15736,
+      "name": "桃園大園店",
+      "name_short": "桃園大園店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.19701240000000000000",
+      "latitude": "25.06437730000000000000",
+      "address": "桃園市大園區中山北路13號",
+      "address_remark": "桃園市大園區中山北路13號",
+      "tel": "03-3862698",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.57,
+      "rating_order_count": 35,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:15:00",
+      "end_time": "21:20:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:15:00",
+      "order_end_time": "21:20:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 12000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 44763,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 25642,
+      "name": "宜蘭頭城門市",
+      "name_short": "宜蘭頭城門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.82399000000000000000",
+      "latitude": "24.85569000000000000000",
+      "address": "宜蘭縣頭城鎮鎮青雲路三段82號",
+      "address_remark": "",
+      "tel": "03-9778065",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 47068,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 16135,
+      "name": "平鎮南勢店",
+      "name_short": "平鎮南勢店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.21088480000000000000",
+      "latitude": "24.91558820000000000000",
+      "address": "桃園市平鎮區中豐路南勢二段133號",
+      "address_remark": "桃園市平鎮區中豐路南勢二段133號",
+      "tel": "03-4390060",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.84,
+      "rating_order_count": 37,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 47268,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 13113,
+      "name": "龍潭北龍店",
+      "name_short": "龍潭北龍店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.21240750000000000000",
+      "latitude": "24.86551200000000000000",
+      "address": "桃園市龍潭區北龍路58號",
+      "address_remark": "桃園市龍潭區北龍路58號",
+      "tel": "03-4990597",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.4,
+      "rating_order_count": 20,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 13000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 50546,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 16141,
+      "name": "楊梅文化店",
+      "name_short": "楊梅文化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.18382670000000000000",
+      "latitude": "24.91230820000000000000",
+      "address": "桃園市楊梅區文化街187號",
+      "address_remark": "桃園市楊梅區文化街187號",
+      "tel": "03-4814160",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 31,
+      "rating_average_star": 4.82,
+      "rating_order_count": 49,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:45:00",
+      "end_time": "19:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:45:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 50703,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 14551,
+      "name": "楊梅大成店",
+      "name_short": "楊梅大成店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.14581870000000000000",
+      "latitude": "24.91135660000000000000",
+      "address": "桃園市楊梅區大成路142號",
+      "address_remark": "桃園市楊梅區大成路142號",
+      "tel": "03-4754988",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.97,
+      "rating_order_count": 131,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 55363,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11886,
+      "name": "宜蘭羅東店",
+      "name_short": "宜蘭羅東店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.77299100000000000000",
+      "latitude": "24.67776140000000000000",
+      "address": "宜蘭縣羅東鎮大新里公正路45號1樓",
+      "address_remark": "",
+      "tel": "03-9571500",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.27,
+      "rating_order_count": 45,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 62210,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 15427,
+      "name": "湖口中正店",
+      "name_short": "湖口中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.04454050000000000000",
+      "latitude": "24.90247050000000000000",
+      "address": "新竹縣湖口鄉中正路一段14號",
+      "address_remark": "新竹縣湖口鄉中正路一段14號",
+      "tel": "03-6992330",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.87,
+      "rating_order_count": 31,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 25000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 68297,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 13227,
+      "name": "湖口仁和店",
+      "name_short": "湖口仁和店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.01484060000000000000",
+      "latitude": "24.87260420000000000000",
+      "address": "新竹縣湖口鄉仁和路112-1號",
+      "address_remark": "新竹縣湖口鄉鳳凰村仁和路112-1號",
+      "tel": "03-6960113",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.57,
+      "rating_order_count": 135,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 73421,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 15643,
+      "name": "竹東長春店",
+      "name_short": "竹東長春店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.08233040000000000000",
+      "latitude": "24.74517380000000000000",
+      "address": "新竹縣竹東鎮長春路三段256號",
+      "address_remark": "",
+      "tel": "03-5101977",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.67,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 74465,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11868,
+      "name": "新竹竹北三民店",
+      "name_short": "新竹竹北三民店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "121.01042630000000000000",
+      "latitude": "24.83407520000000000000",
+      "address": "新竹縣竹北市三民路280號",
+      "address_remark": "",
+      "tel": "03-6566988",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.71,
+      "rating_order_count": 97,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 76097,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 15166,
+      "name": "新豐新興店",
+      "name_short": "新豐新興店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "120.99163140000000000000",
+      "latitude": "24.86485700000000000000",
+      "address": "新竹縣新豐鄉新興路9號1樓",
+      "address_remark": "新竹縣新豐鄉新興路9號",
+      "tel": "03-5591005",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.91,
+      "rating_order_count": 55,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:40:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:40:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 8500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 76667,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 20259,
+      "name": "竹北正西店",
+      "name_short": "竹北正西店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.00223540000000000000",
+      "latitude": "24.84022170000000000000",
+      "address": "新竹縣竹北市中正西路102號",
+      "address_remark": "",
+      "tel": "03-5531238",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "19:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "19:45:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 76719,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 18472,
+      "name": "竹科光復店",
+      "name_short": "竹科光復店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.01424990000000000000",
+      "latitude": "24.78476200000000000000",
+      "address": "新竹市東區光復路一段426號",
+      "address_remark": "1樓",
+      "tel": "03-5770185",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.83,
+      "rating_order_count": 18,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 78875,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 11919,
+      "name": "新竹清大店",
+      "name_short": "新竹清大店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "120.99838230000000000000",
+      "latitude": "24.79696150000000000000",
+      "address": "新竹市東區建功一路12號",
+      "address_remark": "清夜停車場對面",
+      "tel": "03-5750020",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.53,
+      "rating_order_count": 38,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 79870,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 12888,
+      "name": "新竹光華店",
+      "name_short": "新竹光華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "120.97213300000000000000",
+      "latitude": "24.81809330000000000000",
+      "address": "新竹市北區新竹市北區光華街102-1號",
+      "address_remark": "",
+      "tel": "03-5428966",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.56,
+      "rating_order_count": 78,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 100
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 450
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 4000,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 5000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 81631,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 19788,
+      "name": "新竹中正店",
+      "name_short": "新竹中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.96337660000000000000",
+      "latitude": "24.81305090000000000000",
+      "address": "新竹市北區新竹市北區中正路275號",
+      "address_remark": "1樓",
+      "tel": "03-5320600",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 7,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:50:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:50:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 82980,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 22692,
+      "name": "新竹城隍廟店",
+      "name_short": "新竹城隍廟店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.96465380000000000000",
+      "latitude": "24.80421410000000000000",
+      "address": "新竹市北區中山路136號",
+      "address_remark": "1樓",
+      "tel": "03-5230080",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.5,
+      "rating_order_count": 4,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 83368,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 17140,
+      "name": "新竹雙子星店",
+      "name_short": "新竹雙子星店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "120.96727470000000000000",
+      "latitude": "24.76851860000000000000",
+      "address": "新竹市東區藝術路35號",
+      "address_remark": "",
+      "tel": "03-5191359",
+      "order_status": 20,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 6,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "19:15:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "19:15:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 85409,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 16438,
+      "name": "新竹大庄店",
+      "name_short": "新竹大庄店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "120.92761400000000000000",
+      "latitude": "24.78947410000000000000",
+      "address": "新竹市香山區大庄路54號",
+      "address_remark": "新竹市香山區大庄路54號1樓",
+      "tel": "03-5300833",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.58,
+      "rating_order_count": 24,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 88677,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1212,
+      "brand_code": "wootea",
+      "brand_name": "五桐號",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1212_b30bfebb07864e47.png",
+      "id": 12456,
+      "name": "苗栗頭份尚順店",
+      "name_short": "苗栗頭份尚順店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1212_icon_20220810_095745_dd2c4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1212_b30bfebb07864e47.png",
+      "description": null,
+      "longitude": "120.90248360000000000000",
+      "latitude": "24.68844380000000000000",
+      "address": "苗栗縣頭份市東民二街10號",
+      "address_remark": "",
+      "tel": "03-7662282",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.69,
+      "rating_order_count": 16,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 98612,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

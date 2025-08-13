@@ -1,0 +1,178 @@
+{
+  "brand_info": {
+    "id": 1978,
+    "brand_code": "plante",
+    "name": "植蘊 Planté"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:19:35.841352",
+    "total_pages": 0,
+    "total_stores": 2,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 1978,
+      "brand_code": "plante",
+      "brand_name": "植蘊 Planté",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1978_f7e2fdb44ccfb459.png",
+      "id": 16966,
+      "name": "北車概念店",
+      "name_short": "北車概念店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_16963_icon_20230926_111813_763a2.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1978_f7e2fdb44ccfb459.png",
+      "description": null,
+      "longitude": "121.51255400000000000000",
+      "latitude": "25.04375090000000000000",
+      "address": "台北市中正區武昌街一段16巷2號",
+      "address_remark": "",
+      "tel": "02-23111323",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.79,
+      "rating_order_count": 58,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 3588,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1978,
+      "brand_code": "plante",
+      "brand_name": "植蘊 Planté",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1978_f7e2fdb44ccfb459.png",
+      "id": 16969,
+      "name": "大直小公園店",
+      "name_short": "大直小公園店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_16963_icon_20230926_111813_763a2.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1978_f7e2fdb44ccfb459.png",
+      "description": null,
+      "longitude": "121.55723140000000000000",
+      "latitude": "25.08274480000000000000",
+      "address": "台北市中山區樂群三路200號2F-01",
+      "address_remark": "",
+      "tel": "02-85015580",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.93,
+      "rating_order_count": 15,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 4000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4990,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

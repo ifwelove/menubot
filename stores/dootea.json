@@ -1,0 +1,111 @@
+{
+  "brand_info": {
+    "id": 2141,
+    "brand_code": "dootea",
+    "name": "兜喜茶"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:20:04.896551",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2141,
+      "brand_code": "dootea",
+      "brand_name": "兜喜茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2141_dad28774396e7ec8.jpg",
+      "id": 17897,
+      "name": "總店",
+      "name_short": "總店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_17897_icon_20240102_113126_855d0.jpeg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2141_dad28774396e7ec8.jpg",
+      "description": null,
+      "longitude": "121.47134710000000000000",
+      "latitude": "25.08227570000000000000",
+      "address": "新北市蘆洲區中正路28號",
+      "address_remark": "新北市蘆洲區中正路28號",
+      "tel": "02-82821119",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 8,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 9720,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "brand_info": {
+    "id": 2853,
+    "brand_code": "bignoah",
+    "name": "大諾亞飲品"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:22:18.408956",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2853,
+      "brand_code": "bignoah",
+      "brand_name": "大諾亞飲品",
+      "brand_photo": null,
+      "id": 22656,
+      "name": "文山萬芳店",
+      "name_short": "文山萬芳店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22656_icon_20250224_151600_2efe0.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_22656_photo_20250307_141853_c4cf7.jpg",
+      "description": "大諾亞飲品-文山萬芳店",
+      "longitude": "121.55769520000000000000",
+      "latitude": "24.99904720000000000000",
+      "address": "台北市文山區興隆路三段124號",
+      "address_remark": "",
+      "tel": "02 2230 9001",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 9000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 8164,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

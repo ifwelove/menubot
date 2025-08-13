@@ -1,0 +1,70 @@
+{
+  "brand_info": {
+    "id": 949,
+    "brand_code": "jamstea",
+    "name": "JAMS TEA 詹姆•詹姆"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:17:09.901986",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 949,
+      "brand_code": "jamstea",
+      "brand_name": "JAMS TEA 詹姆•詹姆",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/949_086b81a135c9341c.png",
+      "id": 9190,
+      "name": "八德門市",
+      "name_short": "八德門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_9190_icon_20220928_181620_9bacf.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/949_086b81a135c9341c.png",
+      "description": null,
+      "longitude": "121.54613400000000000000",
+      "latitude": "25.04798420000000000000",
+      "address": "台北市松山區八德路二段376號1樓",
+      "address_remark": "台北市松山區八德路二段376號",
+      "tel": "0227216731",
+      "order_status": 20,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 1272,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "brand_info": {
+    "id": 1804,
+    "brand_code": "btsbbrand",
+    "name": "半糖少冰"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:19:04.183451",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 1804,
+      "brand_code": "btsbbrand",
+      "brand_name": "半糖少冰",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1804_49ee643a61cbe0f2.png",
+      "id": 15514,
+      "name": "信義永吉店",
+      "name_short": "信義永吉店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_15514_icon_20230825_145706_541c7.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_15514_photo_20230825_143708_590dc.png",
+      "description": null,
+      "longitude": "121.56864820000000000000",
+      "latitude": "25.04410220000000000000",
+      "address": "台北市信義區松隆路68號",
+      "address_remark": "",
+      "tel": "02-2766-7288",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.45,
+      "rating_order_count": 75,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "18:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4209,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

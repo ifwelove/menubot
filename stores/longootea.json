@@ -1,0 +1,116 @@
+{
+  "brand_info": {
+    "id": 3175,
+    "brand_code": "longootea",
+    "name": "巃蕪中山"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:23:21.615678",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 3175,
+      "brand_code": "longootea",
+      "brand_name": "巃蕪中山",
+      "brand_photo": null,
+      "id": 24379,
+      "name": "中山店",
+      "name_short": "Longoo",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_24379_icon_20250701_160810_0a7c6.jpeg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_24379_photo_20250702_224817_36646.jpeg",
+      "description": "中午時段外送較多，建議提早預訂，如有外送延遲，還請見諒",
+      "longitude": "121.52177370000000000000",
+      "latitude": "25.05164860000000000000",
+      "address": "台北市中山區南京西路12巷13弄2號",
+      "address_remark": "",
+      "tel": "0225096090",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 6000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 2139,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

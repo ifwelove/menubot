@@ -1,0 +1,189 @@
+{
+  "brand_info": {
+    "id": 2221,
+    "brand_code": "reaallchildhood",
+    "name": "回憶小時候&厚野雞排"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:20:18.947418",
+    "total_pages": 0,
+    "total_stores": 2,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2221,
+      "brand_code": "reaallchildhood",
+      "brand_name": "回憶小時候&厚野雞排",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2221_06a1a85b443d9208.jpg",
+      "id": 22845,
+      "name": "桃園民生店",
+      "name_short": "桃園民生店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18427_icon_20240419_152717_f8b26.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_22845_photo_20250509_174946_40f50.jpg",
+      "description": null,
+      "longitude": "121.31292790000000000000",
+      "latitude": "24.99469260000000000000",
+      "address": "桃園市桃園區民生路228號1樓",
+      "address_remark": "1樓",
+      "tel": "0906636993",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.57,
+      "rating_order_count": 14,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:15:00",
+      "end_time": "20:50:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:15:00",
+      "order_end_time": "20:50:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 4200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 5500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        },
+        {
+          "tag_id": 17,
+          "name": "其他",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/17_f346d802fffd7ce4.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/17_731bfa6f70ebb9ff.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 30699,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2221,
+      "brand_code": "reaallchildhood",
+      "brand_name": "回憶小時候&厚野雞排",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2221_06a1a85b443d9208.jpg",
+      "id": 18427,
+      "name": "竹科介壽店",
+      "name_short": "竹科介壽店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18427_icon_20240419_152717_f8b26.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2221_06a1a85b443d9208.jpg",
+      "description": null,
+      "longitude": "121.02087390000000000000",
+      "latitude": "24.78121690000000000000",
+      "address": "新竹市東區介壽路15號",
+      "address_remark": "",
+      "tel": "0912-320-298",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.98,
+      "rating_order_count": 45,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:50:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:50:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 78372,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

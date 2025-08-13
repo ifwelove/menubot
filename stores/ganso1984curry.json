@@ -1,0 +1,142 @@
+{
+  "brand_info": {
+    "id": 2781,
+    "brand_code": "ganso1984curry",
+    "name": "元祖咖哩"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:22:07.425059",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2781,
+      "brand_code": "ganso1984curry",
+      "brand_name": "元祖咖哩",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2781_b0f90f00cd119172.png",
+      "id": 22341,
+      "name": "三重湯城店",
+      "name_short": "三重湯城店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22341_icon_20250103_200602_0afe6.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2781_b0f90f00cd119172.png",
+      "description": null,
+      "longitude": "121.46944740000000000000",
+      "latitude": "25.04540070000000000000",
+      "address": "新北市三重區重新路五段588號",
+      "address_remark": "",
+      "tel": "0971738512",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿1000外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        },
+        {
+          "tag_id": 3,
+          "name": "甜點",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/3_aaaca2342961c506.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/3_850b4e5b693498cd.jpg"
+        },
+        {
+          "tag_id": 4,
+          "name": "便當",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/4_7f21e5dfda115bc6.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/4_2ba2eba5d0f31f31.jpg"
+        },
+        {
+          "tag_id": 10,
+          "name": "下午茶",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/10_3b30cd0c9991821f.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/10_3f9939a32ee1925f.png"
+        },
+        {
+          "tag_id": 11,
+          "name": "中式料理",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/11_5c958d3c84a7db59.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/11_8269accd5d8a5c20.jpg"
+        },
+        {
+          "tag_id": 12,
+          "name": "日式料理",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/12_ae7b97d6cba8858f.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/12_51c8dc785c641bfe.png"
+        },
+        {
+          "tag_id": 17,
+          "name": "其他",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/17_f346d802fffd7ce4.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/17_731bfa6f70ebb9ff.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 9060,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

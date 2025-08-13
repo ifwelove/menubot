@@ -1,0 +1,147 @@
+{
+  "brand_info": {
+    "id": 3049,
+    "brand_code": "wudotea",
+    "name": "伍度"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:22:49.846963",
+    "total_pages": 0,
+    "total_stores": 2,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 3049,
+      "brand_code": "wudotea",
+      "brand_name": "伍度",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/3049_b766174fe5723f0f.jpg",
+      "id": 24310,
+      "name": "永和頂溪店",
+      "name_short": "永和頂溪店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_23548_icon_20250517_133236_e5fe9.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.51427140000000000000",
+      "latitude": "25.01050550000000000000",
+      "address": "新北市永和區中山路一段6號",
+      "address_remark": "永和路一段交叉口（中正橋下永和路右轉）",
+      "tel": "0911－265－953",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:40:00",
+      "end_time": "22:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:40:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6845,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 3049,
+      "brand_code": "wudotea",
+      "brand_name": "伍度",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/3049_b766174fe5723f0f.jpg",
+      "id": 23548,
+      "name": "遠東世紀店",
+      "name_short": "遠東世紀店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_23548_icon_20250517_133236_e5fe9.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.48716950000000000000",
+      "latitude": "24.99669850000000000000",
+      "address": "新北市中和區連城路250號",
+      "address_remark": "園區內店面-金字塔旁",
+      "tel": "0972863705",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "16:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "16:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 800
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10482,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

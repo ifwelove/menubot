@@ -1,0 +1,891 @@
+{
+  "brand_info": {
+    "id": 1792,
+    "brand_code": "wulintea",
+    "name": "武林茶"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:19:02.605689",
+    "total_pages": 0,
+    "total_stores": 11,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 21126,
+      "name": "東區地下街店",
+      "name_short": "東區地下街店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1792_94df05f0dbabbbfc.jpg",
+      "description": "",
+      "longitude": "121.54635380000000000000",
+      "latitude": "25.04196310000000000000",
+      "address": "台北市大安區大安路一段77號",
+      "address_remark": "東區地下街1-1號店鋪",
+      "tel": "02 8771 5513",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:45:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:45:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 5000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 1908,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 20598,
+      "name": "雙連捷運店",
+      "name_short": "雙連捷運店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1792_94df05f0dbabbbfc.jpg",
+      "description": "",
+      "longitude": "121.52063320000000000000",
+      "latitude": "25.05787020000000000000",
+      "address": "台北市中山區民生西路47號",
+      "address_remark": "B1 中山地下街B70櫃位",
+      "tel": "02-25319700",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 2394,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 15463,
+      "name": "信義永吉店",
+      "name_short": "信義永吉店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1792_94df05f0dbabbbfc.jpg",
+      "description": "",
+      "longitude": "121.56860240000000000000",
+      "latitude": "25.04171040000000000000",
+      "address": "台北市信義區永吉路30巷178號1樓",
+      "address_remark": "永吉路30巷靠近忠孝東路",
+      "tel": "02-25282727",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.96,
+      "rating_order_count": 24,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿350外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 4319,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 21135,
+      "name": "台鐵松山店",
+      "name_short": "台鐵松山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1792_94df05f0dbabbbfc.jpg",
+      "description": "",
+      "longitude": "121.57832120000000000000",
+      "latitude": "25.04920160000000000000",
+      "address": "台北市信義區松山路11號",
+      "address_remark": "地下一樓G2-3,在台鐵售票口對面",
+      "tel": "0921 118 089",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5312,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 20589,
+      "name": "三重集美店",
+      "name_short": "三重集美店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1792_94df05f0dbabbbfc.jpg",
+      "description": "",
+      "longitude": "121.49085280000000000000",
+      "latitude": "25.05338700000000000000",
+      "address": "新北市三重區集美街161號",
+      "address_remark": "",
+      "tel": "02 2368 2710",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:45:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6189,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 21123,
+      "name": "新北竹林店",
+      "name_short": "新北竹林店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1792_94df05f0dbabbbfc.jpg",
+      "description": "",
+      "longitude": "121.51974330000000000000",
+      "latitude": "25.01228650000000000000",
+      "address": "新北市永和區竹林路89號",
+      "address_remark": "",
+      "tel": "02 8921 3148",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6312,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 20592,
+      "name": "內湖成功店",
+      "name_short": "內湖成功店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1792_94df05f0dbabbbfc.jpg",
+      "description": "",
+      "longitude": "121.59119240000000000000",
+      "latitude": "25.08216480000000000000",
+      "address": "台北市內湖區成功路四段30巷8號",
+      "address_remark": "",
+      "tel": "02 8792 8815",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1700,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 8153,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 20448,
+      "name": "中和連城店",
+      "name_short": "中和連城店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1792_94df05f0dbabbbfc.jpg",
+      "description": "",
+      "longitude": "121.49870460000000000000",
+      "latitude": "25.00197230000000000000",
+      "address": "新北市中和區連城路25號",
+      "address_remark": "",
+      "tel": "02-22466996",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 5,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:40:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:40:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 8958,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 21129,
+      "name": "新北四維店",
+      "name_short": "新北四維店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1792_94df05f0dbabbbfc.jpg",
+      "description": "",
+      "longitude": "121.46519030000000000000",
+      "latitude": "25.02494250000000000000",
+      "address": "新北市板橋區四維路123號",
+      "address_remark": "",
+      "tel": "02 2254 0508",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 3.67,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10365,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 20451,
+      "name": "東湖店",
+      "name_short": "東湖店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1792_photo_20241016_021021_04aed.jpg",
+      "description": "",
+      "longitude": "121.61617280000000000000",
+      "latitude": "25.06811430000000000000",
+      "address": "台北市內湖區東湖路118號",
+      "address_remark": "",
+      "tel": "02 2633 7007",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.5,
+      "rating_order_count": 8,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿350外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10484,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1792,
+      "brand_code": "wulintea",
+      "brand_name": "武林茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1792_94df05f0dbabbbfc.jpg",
+      "id": 21132,
+      "name": "新北新莊店",
+      "name_short": "新北新莊店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1792_icon_20241016_021021_c3834.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1792_94df05f0dbabbbfc.jpg",
+      "description": "",
+      "longitude": "121.45170480000000000000",
+      "latitude": "25.03819060000000000000",
+      "address": "新北市新莊區中華路一段28號",
+      "address_remark": "",
+      "tel": "02 2732 5601",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:45:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:45:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 11519,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

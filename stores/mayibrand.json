@@ -1,0 +1,292 @@
+{
+  "brand_info": {
+    "id": 1503,
+    "brand_code": "mayibrand",
+    "name": "滿溢"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:18:24.214120",
+    "total_pages": 0,
+    "total_stores": 4,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 1503,
+      "brand_code": "mayibrand",
+      "brand_name": "滿溢",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1503_c6c2de4dbc9f2045.jpg",
+      "id": 13440,
+      "name": "台北石牌店",
+      "name_short": "台北石牌店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13440_icon_20221106_183731_ae4a7.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_13440_photo_20241219_160207_86afe.jpg",
+      "description": null,
+      "longitude": "121.51269250000000000000",
+      "latitude": "25.11401120000000000000",
+      "address": "台北市北投區石牌路一段132號",
+      "address_remark": "台北市北投區石牌路一段132號",
+      "tel": "02-28202003",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 53,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9416,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1503,
+      "brand_code": "mayibrand",
+      "brand_name": "滿溢",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1503_c6c2de4dbc9f2045.jpg",
+      "id": 13987,
+      "name": "林口長庚店",
+      "name_short": "林口長庚店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13987_icon_20221206_134621_dee78.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_13987_photo_20250805_160450_f0e34.jpg",
+      "description": null,
+      "longitude": "121.36956640000000000000",
+      "latitude": "25.05914730000000000000",
+      "address": "桃園市龜山區復興北路33號之2號",
+      "address_remark": "",
+      "tel": "03-3271899",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.68,
+      "rating_order_count": 44,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 22117,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1503,
+      "brand_code": "mayibrand",
+      "brand_name": "滿溢",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1503_c6c2de4dbc9f2045.jpg",
+      "id": 18691,
+      "name": "中山東店",
+      "name_short": "中山東店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13987_icon_20221206_134621_dee78.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1503_773fa52f7cdd9c35.png",
+      "description": null,
+      "longitude": "121.31394150000000000000",
+      "latitude": "24.99554940000000000000",
+      "address": "桃園市桃園區中山東路26號",
+      "address_remark": "",
+      "tel": "03-3360626",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.43,
+      "rating_order_count": 7,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "22:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 30537,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1503,
+      "brand_code": "mayibrand",
+      "brand_name": "滿溢",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1503_c6c2de4dbc9f2045.jpg",
+      "id": 13428,
+      "name": "桃園中平店",
+      "name_short": "桃園中平店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13428_icon_20221106_180152_22ea7.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1503_photo_20240806_175501_db86c.png",
+      "description": null,
+      "longitude": "121.29224080000000000000",
+      "latitude": "24.98984560000000000000",
+      "address": "桃園市桃園區中平路27號",
+      "address_remark": "桃園市立游泳池旁",
+      "tel": "03-2288830",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.75,
+      "rating_order_count": 20,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 33501,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

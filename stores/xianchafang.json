@@ -1,0 +1,76 @@
+{
+  "brand_info": {
+    "id": 3133,
+    "brand_code": "xianchafang",
+    "name": "仙茶坊*飲品*炸物"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:23:09.238210",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 3133,
+      "brand_code": "xianchafang",
+      "brand_name": "仙茶坊*飲品*炸物",
+      "brand_photo": null,
+      "id": 24004,
+      "name": "中和興南店",
+      "name_short": "中和興南店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/default_icon_2020.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.50738900000000000000",
+      "latitude": "24.98576500000000000000",
+      "address": "新北市中和區興南路二段26號",
+      "address_remark": "",
+      "tel": "0960935573",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "12:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "12:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        },
+        {
+          "tag_id": 17,
+          "name": "其他",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/17_f346d802fffd7ce4.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/17_731bfa6f70ebb9ff.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10461,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

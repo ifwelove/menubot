@@ -1,0 +1,553 @@
+{
+  "brand_info": {
+    "id": 1224,
+    "brand_code": "lephare",
+    "name": "樂法"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:17:57.195456",
+    "total_pages": 0,
+    "total_stores": 8,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 1224,
+      "brand_code": "lephare",
+      "brand_name": "樂法",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1224_ca6a105bf280c78d.png",
+      "id": 12942,
+      "name": "民生店",
+      "name_short": "民生店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1224_icon_20220829_135008_5f7e3.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1224_ca6a105bf280c78d.png",
+      "description": null,
+      "longitude": "121.54609060000000000000",
+      "latitude": "25.05663840000000000000",
+      "address": "台北市松山區民生東路三段130巷16號",
+      "address_remark": "",
+      "tel": "02-27160502",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.74,
+      "rating_order_count": 38,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "19:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 1192,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1224,
+      "brand_code": "lephare",
+      "brand_name": "樂法",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1224_ca6a105bf280c78d.png",
+      "id": 12939,
+      "name": "正德店",
+      "name_short": "正德店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1224_icon_20220829_135008_5f7e3.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1224_ca6a105bf280c78d.png",
+      "description": null,
+      "longitude": "121.53182570000000000000",
+      "latitude": "25.04365560000000000000",
+      "address": "台北市中正區八德路一段82巷7號",
+      "address_remark": "",
+      "tel": "02-23510093",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.51,
+      "rating_order_count": 53,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 1551,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1224,
+      "brand_code": "lephare",
+      "brand_name": "樂法",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1224_ca6a105bf280c78d.png",
+      "id": 19065,
+      "name": "忠孝店",
+      "name_short": "忠孝店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1224_icon_20220829_135008_5f7e3.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.54535500000000000000",
+      "latitude": "25.04189400000000000000",
+      "address": "台北市大安區忠孝東路四段51-10號",
+      "address_remark": "",
+      "tel": "0227217987",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.44,
+      "rating_order_count": 9,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "18:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 1845,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1224,
+      "brand_code": "lephare",
+      "brand_name": "樂法",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1224_ca6a105bf280c78d.png",
+      "id": 12957,
+      "name": "京站店",
+      "name_short": "京站店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1224_icon_20220829_135008_5f7e3.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1224_ca6a105bf280c78d.png",
+      "description": null,
+      "longitude": "121.51786420000000000000",
+      "latitude": "25.04638460000000000000",
+      "address": "台北市中正區忠孝西路一段49號",
+      "address_remark": "台北車站第12號販賣部，北車淡水線B3出口鄰(近捷運淡水線出口)",
+      "tel": "02-23142445",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 3.86,
+      "rating_order_count": 14,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "22:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 2803,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1224,
+      "brand_code": "lephare",
+      "brand_name": "樂法",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1224_ca6a105bf280c78d.png",
+      "id": 12960,
+      "name": "市府店",
+      "name_short": "市府店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1224_icon_20220829_135008_5f7e3.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1224_ca6a105bf280c78d.png",
+      "description": null,
+      "longitude": "121.56529680000000000000",
+      "latitude": "25.04065210000000000000",
+      "address": "台北市信義區忠孝東路5段6號1樓",
+      "address_remark": "市府轉運站內",
+      "tel": "02-27233882",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 3984,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1224,
+      "brand_code": "lephare",
+      "brand_name": "樂法",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1224_ca6a105bf280c78d.png",
+      "id": 12951,
+      "name": "西門店",
+      "name_short": "西門店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1224_icon_20220829_135008_5f7e3.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1224_ca6a105bf280c78d.png",
+      "description": null,
+      "longitude": "121.50744020000000000000",
+      "latitude": "25.04275760000000000000",
+      "address": "台北市萬華區漢中街116號",
+      "address_remark": "",
+      "tel": "02-23700375",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.91,
+      "rating_order_count": 106,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4266,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1224,
+      "brand_code": "lephare",
+      "brand_name": "樂法",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1224_ca6a105bf280c78d.png",
+      "id": 20199,
+      "name": "南港車站店",
+      "name_short": "南港車站店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1224_icon_20220829_135008_5f7e3.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.60609990000000000000",
+      "latitude": "25.05290570000000000000",
+      "address": "台北市南港區忠孝東路七段359號1樓（CITY LINK 南港店B棟一樓）",
+      "address_remark": "",
+      "tel": "02-26519860",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 4,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 8930,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1224,
+      "brand_code": "lephare",
+      "brand_name": "樂法",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1224_ca6a105bf280c78d.png",
+      "id": 12003,
+      "name": "金城店",
+      "name_short": "金城店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1224_icon_20220829_135008_5f7e3.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1224_ca6a105bf280c78d.png",
+      "description": null,
+      "longitude": "121.00207580000000000000",
+      "latitude": "24.79368830000000000000",
+      "address": "新竹市東區金城一路30號",
+      "address_remark": "NOVA步行3分鐘",
+      "tel": "03-5165816",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.66,
+      "rating_order_count": 95,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 79660,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

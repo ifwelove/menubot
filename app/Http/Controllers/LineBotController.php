@@ -918,32 +918,58 @@ class LineBotController extends Controller
      */
     private function findNearbyShops($replyToken, $userLat, $userLng)
     {
-        $shopLocations = config('shop_locations', []);
+        $storesPath = base_path('stores');
         $shops = config('menu.shops.drink', []);
         $nearbyShops = [];
         
-        // 計算所有店家的距離
-        foreach ($shopLocations as $shopCode => $branches) {
-            if (!isset($shops[$shopCode])) {
+        $this->sendToTelegram("📍 開始搜尋附近店家，共有 " . count($shops) . " 個品牌");
+        
+        // 遍歷所有品牌的 JSON 檔案
+        foreach ($shops as $shopCode => $shopName) {
+            $jsonFile = "{$storesPath}/{$shopCode}.json";
+            
+            if (!file_exists($jsonFile)) {
                 continue;
             }
             
-            $shopName = $shops[$shopCode];
-            
-            foreach ($branches as $branch) {
-                $distance = $this->calculateDistance($userLat, $userLng, $branch['lat'], $branch['lng']);
+            try {
+                $data = json_decode(file_get_contents($jsonFile), true);
                 
-                if ($distance <= 2.0) { // 2公里內
-                    $nearbyShops[] = [
-                        'shop_code' => $shopCode,
-                        'shop_name' => $shopName,
-                        'branch_name' => $branch['name'],
-                        'address' => $branch['address'],
-                        'distance' => $distance,
-                    ];
+                if (!isset($data['stores']) || !is_array($data['stores'])) {
+                    continue;
                 }
+                
+                // 檢查每個分店
+                foreach ($data['stores'] as $store) {
+                    // 確保座標資料存在
+                    if (!isset($store['latitude']) || !isset($store['longitude'])) {
+                        continue;
+                    }
+                    
+                    $distance = $this->calculateDistance(
+                        $userLat, $userLng, 
+                        (float)$store['latitude'], 
+                        (float)$store['longitude']
+                    );
+                    
+                    if ($distance <= 2.0) { // 2公里內
+                        $nearbyShops[] = [
+                            'shop_code' => $shopCode,
+                            'shop_name' => $shopName,
+                            'branch_name' => $store['name'] ?? $store['name_short'] ?? '分店',
+                            'address' => $store['address'] ?? '',
+                            'tel' => $store['tel'] ?? '',
+                            'distance' => $distance,
+                        ];
+                    }
+                }
+            } catch (\Exception $e) {
+                $this->sendToTelegram("❌ 讀取 {$shopCode} 資料錯誤: " . $e->getMessage());
+                continue;
             }
         }
+        
+        $this->sendToTelegram("📍 找到 " . count($nearbyShops) . " 家附近的店");
         
         // 按距離排序
         usort($nearbyShops, function($a, $b) {
@@ -1032,6 +1058,27 @@ class LineBotController extends Controller
                 ->setColor('#666666')
                 ->setMargin(ComponentMargin::SM)
                 ->setWrap(true);
+            
+            // 電話（如果有的話）
+            if (!empty($shop['tel'])) {
+                $shopComponents[] = BoxComponentBuilder::builder()
+                    ->setLayout(ComponentLayout::HORIZONTAL)
+                    ->setMargin(ComponentMargin::SM)
+                    ->setContents([
+                        TextComponentBuilder::builder()
+                            ->setText('📞')
+                            ->setSize(ComponentFontSize::SM)
+                            ->setFlex(0),
+                        TextComponentBuilder::builder()
+                            ->setText($shop['tel'])
+                            ->setSize(ComponentFontSize::SM)
+                            ->setColor('#1976D2')
+                            ->setMargin(ComponentMargin::SM)
+                            ->setAction(new UriTemplateActionBuilder(
+                                'tel:' . str_replace([' ', '-', '(', ')'], '', $shop['tel'])
+                            ))
+                    ]);
+            }
             
             // 查看菜單按鈕
             $shopComponents[] = ButtonComponentBuilder::builder()

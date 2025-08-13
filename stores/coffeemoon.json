@@ -1,0 +1,113 @@
+{
+  "brand_info": {
+    "id": 3142,
+    "brand_code": "coffeemoon",
+    "name": "咖啡月"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:23:11.975258",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 3142,
+      "brand_code": "coffeemoon",
+      "brand_name": "咖啡月",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/3142_90ae48e6ae9ee3a2.png",
+      "id": 24028,
+      "name": "COFFEE MOON",
+      "name_short": "COFFEE MOON",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_24028_icon_20250701_075650_40a0c.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_24028_photo_20250701_091520_2e90e.jpg",
+      "description": null,
+      "longitude": "121.53415150000000000000",
+      "latitude": "25.05373180000000000000",
+      "address": "台北市中山區四平街73號",
+      "address_remark": "",
+      "tel": "02-25026663",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4,
+      "rating_order_count": 1,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "07:35:00",
+      "end_time": "16:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "07:35:00",
+      "order_end_time": "16:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        },
+        {
+          "tag_id": 2,
+          "name": "咖啡",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/2_d350df2957c2efcc.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/2_d4cd2747050a0544.png"
+        },
+        {
+          "tag_id": 3,
+          "name": "甜點",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/3_aaaca2342961c506.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/3_850b4e5b693498cd.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 525,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

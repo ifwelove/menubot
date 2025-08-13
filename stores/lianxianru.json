@@ -1,0 +1,157 @@
+{
+  "brand_info": {
+    "id": 2520,
+    "brand_code": "lianxianru",
+    "name": "戀鮮乳"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:21:09.128303",
+    "total_pages": 0,
+    "total_stores": 2,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2520,
+      "brand_code": "lianxianru",
+      "brand_name": "戀鮮乳",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2520_69c59a302fc9cb1f.jpg",
+      "id": 20334,
+      "name": "戀鮮乳甜品屋",
+      "name_short": "戀鮮乳甜品屋",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20334_icon_20240819_111511_5aa48.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2520_69c59a302fc9cb1f.jpg",
+      "description": null,
+      "longitude": "121.50214470000000000000",
+      "latitude": "25.07100500000000000000",
+      "address": "新北市三重區龍濱路189號",
+      "address_remark": "",
+      "tel": "0961190185",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 15,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "14:00:00",
+      "end_time": "23:59:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "14:00:00",
+      "order_end_time": "23:59:00",
+      "delivery_way_description": "最低滿1外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 1,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        },
+        {
+          "tag_id": 3,
+          "name": "甜點",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/3_aaaca2342961c506.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/3_850b4e5b693498cd.jpg"
+        },
+        {
+          "tag_id": 10,
+          "name": "下午茶",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/10_3b30cd0c9991821f.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/10_3f9939a32ee1925f.png"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5385,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2520,
+      "brand_code": "lianxianru",
+      "brand_name": "戀鮮乳",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2520_69c59a302fc9cb1f.jpg",
+      "id": 20337,
+      "name": "樂華夜市戀鮮乳",
+      "name_short": "樂華夜市戀鮮乳",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20337_icon_20240819_112513_29b34.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2520_69c59a302fc9cb1f.jpg",
+      "description": null,
+      "longitude": "121.50860820000000000000",
+      "latitude": "24.99798720000000000000",
+      "address": "新北市中和區保建路27之1號",
+      "address_remark": "",
+      "tel": "0961190185",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 15,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "23:59:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "23:59:00",
+      "delivery_way_description": "最低滿1外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 1,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        },
+        {
+          "tag_id": 3,
+          "name": "甜點",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/3_aaaca2342961c506.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/3_850b4e5b693498cd.jpg"
+        },
+        {
+          "tag_id": 10,
+          "name": "下午茶",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/10_3b30cd0c9991821f.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/10_3f9939a32ee1925f.png"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 8790,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

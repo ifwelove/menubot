@@ -1,0 +1,505 @@
+{
+  "brand_info": {
+    "id": 2325,
+    "brand_code": "shisheng",
+    "name": "十盛奶茶專賣"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:20:34.160704",
+    "total_pages": 0,
+    "total_stores": 6,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2325,
+      "brand_code": "shisheng",
+      "brand_name": "十盛奶茶專賣",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2325_998a03a886320a46.png",
+      "id": 19851,
+      "name": "臺北古亭店",
+      "name_short": "臺北古亭店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18960_icon_20240422_183027_a2ae9.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2325_998a03a886320a46.png",
+      "description": "世界で一番好き【十盛奶茶專賣】",
+      "longitude": "121.52293780000000000000",
+      "latitude": "25.02728300000000000000",
+      "address": "台北市大安區和平東路一段19號",
+      "address_remark": "",
+      "tel": "02-2394-3188",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4,
+      "rating_order_count": 10,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4178,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2325,
+      "brand_code": "shisheng",
+      "brand_name": "十盛奶茶專賣",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2325_998a03a886320a46.png",
+      "id": 23713,
+      "name": "臺北士林店",
+      "name_short": "臺北士林店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18960_icon_20240422_183027_a2ae9.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/23713_photo_20250521_162354_01bda.png",
+      "description": "世界で一番好き【十盛奶茶專賣】",
+      "longitude": "121.52609190000000000000",
+      "latitude": "25.09455410000000000000",
+      "address": "台北市士林區中正路235巷24號",
+      "address_remark": "",
+      "tel": "02-28830895",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6209,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2325,
+      "brand_code": "shisheng",
+      "brand_name": "十盛奶茶專賣",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2325_998a03a886320a46.png",
+      "id": 20526,
+      "name": "新莊輔大店",
+      "name_short": "新莊輔大店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18960_icon_20240422_183027_a2ae9.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2325_998a03a886320a46.png",
+      "description": "世界で一番好き【十盛奶茶專賣】",
+      "longitude": "121.43268200000000000000",
+      "latitude": "25.03231200000000000000",
+      "address": "新北市新莊區中正路516-34號",
+      "address_remark": "",
+      "tel": "02-29081016",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 8,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 30000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 14132,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2325,
+      "brand_code": "shisheng",
+      "brand_name": "十盛奶茶專賣",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2325_998a03a886320a46.png",
+      "id": 19857,
+      "name": "桃園中正店",
+      "name_short": "桃園中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18960_icon_20240422_183027_a2ae9.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2325_998a03a886320a46.png",
+      "description": "世界で一番好き【十盛奶茶專賣】",
+      "longitude": "121.31248690000000000000",
+      "latitude": "24.99186140000000000000",
+      "address": "桃園市桃園區中正路60-22號",
+      "address_remark": "",
+      "tel": "03-334-6188",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 12,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 7000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 30868,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2325,
+      "brand_code": "shisheng",
+      "brand_name": "十盛奶茶專賣",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2325_998a03a886320a46.png",
+      "id": 19863,
+      "name": "中壢中央店",
+      "name_short": "中壢中央店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18960_icon_20240422_183027_a2ae9.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2325_998a03a886320a46.png",
+      "description": "世界で一番好き【十盛奶茶專賣】",
+      "longitude": "121.22542500000000000000",
+      "latitude": "24.95637910000000000000",
+      "address": "桃園市中壢區中央東路60號",
+      "address_remark": "",
+      "tel": "03-494-3311",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "12:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "12:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 43310,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2325,
+      "brand_code": "shisheng",
+      "brand_name": "十盛奶茶專賣",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2325_998a03a886320a46.png",
+      "id": 20514,
+      "name": "宜蘭羅東店",
+      "name_short": "宜蘭羅東店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18960_icon_20240422_183027_a2ae9.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2325_998a03a886320a46.png",
+      "description": "世界で一番好き【十盛奶茶專賣】",
+      "longitude": "121.76907510000000000000",
+      "latitude": "24.67539610000000000000",
+      "address": "宜蘭縣羅東鎮公園路98號",
+      "address_remark": "",
+      "tel": "03-954-9688",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 62253,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

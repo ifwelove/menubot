@@ -1,0 +1,96 @@
+{
+  "brand_info": {
+    "id": 1470,
+    "brand_code": "seventea",
+    "name": "七盞茶"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:18:20.136926",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 1470,
+      "brand_code": "seventea",
+      "brand_name": "七盞茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1470_2a9c4f0cb033f0ab.jpg",
+      "id": 22596,
+      "name": "三重三民店",
+      "name_short": "三重三民店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13350_icon_20221012_144408_ff3c2.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1470_2a9c4f0cb033f0ab.jpg",
+      "description": null,
+      "longitude": "121.48504970000000000000",
+      "latitude": "25.06336410000000000000",
+      "address": "新北市三重區三民街110號",
+      "address_remark": "1樓",
+      "tel": "02 8988 2770",
+      "order_status": 20,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 8,
+      "rating_average_star": 4.87,
+      "rating_order_count": 30,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:45:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:45:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4300
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5300
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 7113,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

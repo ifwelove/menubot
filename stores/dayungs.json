@@ -1,0 +1,91 @@
+{
+  "brand_info": {
+    "id": 487,
+    "brand_code": "dayungs",
+    "name": "大苑子"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:16:23.194817",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 487,
+      "brand_code": "dayungs",
+      "brand_name": "大苑子",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/487_8fff3aac32b835be.jpg",
+      "id": 3669,
+      "name": "台北錦西店",
+      "name_short": "台北錦西店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3669_icon_20201030_160009_2efa7.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.52195970000000000000",
+      "latitude": "25.06041690000000000000",
+      "address": "台北市中山區錦西街5號",
+      "address_remark": "台北市中山區錦西街5號",
+      "tel": "02-25218196",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.56,
+      "rating_order_count": 34,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:55:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 2374,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

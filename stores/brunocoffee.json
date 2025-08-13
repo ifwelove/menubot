@@ -1,0 +1,134 @@
+{
+  "brand_info": {
+    "id": 2302,
+    "brand_code": "brunocoffee",
+    "name": "不二弄咖啡"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:20:28.558394",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2302,
+      "brand_code": "brunocoffee",
+      "brand_name": "不二弄咖啡",
+      "brand_photo": null,
+      "id": 18904,
+      "name": "新莊概念店",
+      "name_short": "新莊概念店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/default_icon_2020.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.44705740000000000000",
+      "latitude": "25.04892750000000000000",
+      "address": "新北市新莊區幸福路773號",
+      "address_remark": "",
+      "tel": "02-8991-8080",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 5,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 5000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        },
+        {
+          "tag_id": 2,
+          "name": "咖啡",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/2_d350df2957c2efcc.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/2_d4cd2747050a0544.png"
+        },
+        {
+          "tag_id": 9,
+          "name": "早午餐",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/9_78cf733568b4dc7e.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/9_80b17e06c3629ac4.jpg"
+        },
+        {
+          "tag_id": 10,
+          "name": "下午茶",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/10_3b30cd0c9991821f.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/10_3f9939a32ee1925f.png"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 11947,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

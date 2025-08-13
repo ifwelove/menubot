@@ -1,0 +1,224 @@
+{
+  "brand_info": {
+    "id": 2478,
+    "brand_code": "cowbanana",
+    "name": "Cow Banana香蕉牛"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:20:59.104382",
+    "total_pages": 0,
+    "total_stores": 3,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2478,
+      "brand_code": "cowbanana",
+      "brand_name": "Cow Banana香蕉牛",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2478_ba64ca55425043df.jpg",
+      "id": 20013,
+      "name": "公館店",
+      "name_short": "公館店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20013_icon_20240713_172854_d7515.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_20013_photo_20240713_172839_c02d7.jpg",
+      "description": null,
+      "longitude": "121.53260250000000000000",
+      "latitude": "25.01683040000000000000",
+      "address": "台北市大安區羅斯福路三段345號",
+      "address_remark": "",
+      "tel": "02 2755 5959",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "19:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5233,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2478,
+      "brand_code": "cowbanana",
+      "brand_name": "Cow Banana香蕉牛",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2478_ba64ca55425043df.jpg",
+      "id": 20010,
+      "name": "政大店",
+      "name_short": "政大店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20010_icon_20240713_172811_2c047.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_20010_photo_20240713_172800_4185a.jpg",
+      "description": null,
+      "longitude": "121.57582020000000000000",
+      "latitude": "24.98789480000000000000",
+      "address": "台北市文山區萬壽路5號",
+      "address_remark": "",
+      "tel": "02 2234 0101",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "15:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "15:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10584,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2478,
+      "brand_code": "cowbanana",
+      "brand_name": "Cow Banana香蕉牛",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2478_ba64ca55425043df.jpg",
+      "id": 20007,
+      "name": "台藝大總店",
+      "name_short": "台藝大總店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20007_icon_20240713_172659_ba229.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_20007_photo_20240713_172543_d850c.jpg",
+      "description": null,
+      "longitude": "121.44956520000000000000",
+      "latitude": "25.00699030000000000000",
+      "address": "新北市板橋區大觀路一段35巷7弄2號",
+      "address_remark": "",
+      "tel": "02 2966 7606",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 5,
+      "rating_order_count": 4,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "15:50:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "15:50:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 13352,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

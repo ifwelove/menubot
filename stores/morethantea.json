@@ -1,0 +1,91 @@
+{
+  "brand_info": {
+    "id": 3205,
+    "brand_code": "morethantea",
+    "name": "盛好概念手窈飲"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:23:27.174856",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 3205,
+      "brand_code": "morethantea",
+      "brand_name": "盛好概念手窈飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/3205_b0070ef410a5e68e.jpg",
+      "id": 24481,
+      "name": "內湖江南店",
+      "name_short": "內湖江南店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_24481_icon_20250722_161849_53229.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_24481_photo_20250722_163530_25a93.jpg",
+      "description": null,
+      "longitude": "121.57927570000000000000",
+      "latitude": "25.07770520000000000000",
+      "address": "台北市內湖區江南街25號",
+      "address_remark": "",
+      "tel": "02-26578600",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "18:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6489,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "brand_info": {
+    "id": 2517,
+    "brand_code": "xianruzhilian",
+    "name": "Love milk"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:21:07.761430",
+    "total_pages": 0,
+    "total_stores": 2,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2517,
+      "brand_code": "xianruzhilian",
+      "brand_name": "Love milk",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2517_d5e85a9911b7f2d9.jpg",
+      "id": 20331,
+      "name": "鮮乳之戀甜品屋",
+      "name_short": "鮮乳之戀甜品屋",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20331_icon_20240819_111757_21f50.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2517_d5e85a9911b7f2d9.jpg",
+      "description": null,
+      "longitude": "121.56431840000000000000",
+      "latitude": "25.02657970000000000000",
+      "address": "台北市信義區吳興街279號",
+      "address_remark": "",
+      "tel": "0961190185",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 1,
+      "order_tolerance_day": 30,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        },
+        {
+          "tag_id": 3,
+          "name": "甜點",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/3_aaaca2342961c506.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/3_850b4e5b693498cd.jpg"
+        },
+        {
+          "tag_id": 10,
+          "name": "下午茶",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/10_3b30cd0c9991821f.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/10_3f9939a32ee1925f.png"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5117,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2517,
+      "brand_code": "xianruzhilian",
+      "brand_name": "Love milk",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2517_d5e85a9911b7f2d9.jpg",
+      "id": 21309,
+      "name": "鮮乳之戀甜品屋 景美店",
+      "name_short": "鮮乳之戀甜品屋 景美店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20331_icon_20240819_111757_21f50.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2517_d5e85a9911b7f2d9.jpg",
+      "description": null,
+      "longitude": "121.54624080000000000000",
+      "latitude": "24.98663020000000000000",
+      "address": "台北市文山區木柵路一段12號",
+      "address_remark": "",
+      "tel": "0961190185",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 1,
+      "order_tolerance_day": 30,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "23:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "23:00:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        },
+        {
+          "tag_id": 3,
+          "name": "甜點",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/3_aaaca2342961c506.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/3_850b4e5b693498cd.jpg"
+        },
+        {
+          "tag_id": 10,
+          "name": "下午茶",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/10_3b30cd0c9991821f.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/10_3f9939a32ee1925f.png"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9594,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

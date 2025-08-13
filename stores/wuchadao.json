@@ -1,0 +1,163 @@
+{
+  "brand_info": {
+    "id": 2445,
+    "brand_code": "wuchadao",
+    "name": "舞茶道"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:20:55.010162",
+    "total_pages": 0,
+    "total_stores": 2,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2445,
+      "brand_code": "wuchadao",
+      "brand_name": "舞茶道",
+      "brand_photo": null,
+      "id": 19827,
+      "name": "十三行店",
+      "name_short": "十三行店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_19827_icon_20240619_142757_70566.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_19827_photo_20240619_142805_3072a.jpg",
+      "description": null,
+      "longitude": "121.41120560000000000000",
+      "latitude": "25.15786010000000000000",
+      "address": "新北市八里區中山路一段219號",
+      "address_remark": "",
+      "tel": "02-26194560",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.6,
+      "rating_order_count": 10,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:15:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:15:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 12000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 22479,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2445,
+      "brand_code": "wuchadao",
+      "brand_name": "舞茶道",
+      "brand_photo": null,
+      "id": 19824,
+      "name": "台北八里店",
+      "name_short": "台北八里店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_19824_icon_20240619_142655_aa953.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_19824_photo_20240619_142741_5cc4b.jpg",
+      "description": null,
+      "longitude": "121.39883090000000000000",
+      "latitude": "25.14721150000000000000",
+      "address": "新北市八里區中山路二段472號",
+      "address_remark": "",
+      "tel": "02-26192825",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 7,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:15:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:15:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 22757,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

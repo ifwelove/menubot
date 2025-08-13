@@ -1,0 +1,861 @@
+{
+  "brand_info": {
+    "id": 2679,
+    "brand_code": "chaffee",
+    "name": "天仁CHAFFEE"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:21:46.466254",
+    "total_pages": 0,
+    "total_stores": 11,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 21678,
+      "name": "復興店",
+      "name_short": "復興店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21678_icon_20241119_143154_f24e0.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "121.54371700000000000000",
+      "latitude": "25.05286900000000000000",
+      "address": "台北市中山區復興北路152號",
+      "address_remark": "",
+      "tel": "02-27191310",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 747,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 22461,
+      "name": "南西誠品店",
+      "name_short": "南西誠品店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21681_icon_20241119_143203_d309b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "121.52068060000000000000",
+      "latitude": "25.05213470000000000000",
+      "address": "台北市中山區南京西路14號",
+      "address_remark": "南西誠品B1",
+      "tel": "02-25816698",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 2278,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 22464,
+      "name": "微風南山店",
+      "name_short": "微風南山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21681_icon_20241119_143203_d309b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "121.56595550000000000000",
+      "latitude": "25.03430730000000000000",
+      "address": "台北市信義區松智路17號",
+      "address_remark": "微風南山B2",
+      "tel": "02-23450568",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4,
+      "rating_order_count": 4,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4532,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 22467,
+      "name": "信義遠百店",
+      "name_short": "信義遠百店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21681_icon_20241119_143203_d309b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "121.56795050000000000000",
+      "latitude": "25.03675560000000000000",
+      "address": "台北市信義區松仁路58號",
+      "address_remark": "信義遠百A13 B3",
+      "tel": "02-27580599",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4557,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 22455,
+      "name": "松山店",
+      "name_short": "松山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21681_icon_20241119_143203_d309b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "121.57918660000000000000",
+      "latitude": "25.04930660000000000000",
+      "address": "台北市信義區松山路11號",
+      "address_remark": "1樓西口廣場",
+      "tel": "02-25288138",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5423,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 22452,
+      "name": "南港店",
+      "name_short": "南港店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21681_icon_20241119_143203_d309b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "121.60451800000000000000",
+      "latitude": "25.05255820000000000000",
+      "address": "台北市南港區忠孝東路七段369號(CITYLINK B棟2樓)",
+      "address_remark": "CITYLINK B棟2樓",
+      "tel": "02-26529036",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:20:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:20:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 8722,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 23311,
+      "name": "LaLaport南港店",
+      "name_short": "LaLaport南港店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21681_icon_20241119_143203_d309b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "121.61803100000000000000",
+      "latitude": "25.05925580000000000000",
+      "address": "台北市南港區經貿二路131號",
+      "address_remark": "1樓 LaLaport南港",
+      "tel": "02-27852988",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 4,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10535,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 22470,
+      "name": "汐止遠雄店",
+      "name_short": "汐止遠雄店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21681_icon_20241119_143203_d309b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "121.64871000000000000000",
+      "latitude": "25.06206230000000000000",
+      "address": "新北市汐止區新台五路一段99號",
+      "address_remark": "iFG遠雄廣場B1",
+      "tel": "02-26971886",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 8,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 14580,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 22458,
+      "name": "林口三井店",
+      "name_short": "林口三井店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21681_icon_20241119_143203_d309b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "121.36568950000000000000",
+      "latitude": "25.07086030000000000000",
+      "address": "新北市林口區文化三路一段356號1樓（誠品生活天仁茗茶專櫃）",
+      "address_remark": "三井outlet 1期",
+      "tel": "02-26089185",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4,
+      "rating_order_count": 8,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:15:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:15:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 22754,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 22473,
+      "name": "中壢大江店",
+      "name_short": "中壢大江店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21681_icon_20241119_143203_d309b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "121.22847470000000000000",
+      "latitude": "25.00152830000000000000",
+      "address": "桃園市中壢區中園路二段501號",
+      "address_remark": "大江國際購物中心GBF",
+      "tel": "03-4680286",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 41281,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2679,
+      "brand_code": "chaffee",
+      "brand_name": "天仁CHAFFEE",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2679_42fd364323fb92f8.jpg",
+      "id": 21681,
+      "name": "天仁茶文化館店",
+      "name_short": "天仁茶文化館店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_21681_icon_20241119_143203_d309b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2679_42fd364323fb92f8.jpg",
+      "description": null,
+      "longitude": "120.91936730000000000000",
+      "latitude": "24.71640180000000000000",
+      "address": "苗栗縣竹南鎮中華路422號",
+      "address_remark": "",
+      "tel": "037-696718",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "16:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "16:00:00",
+      "delivery_way_description": "最低滿600外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 94610,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

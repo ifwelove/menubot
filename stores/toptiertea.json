@@ -1,0 +1,361 @@
+{
+  "brand_info": {
+    "id": 2907,
+    "brand_code": "toptiertea",
+    "name": "特好喝"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:22:30.714198",
+    "total_pages": 0,
+    "total_stores": 6,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2907,
+      "brand_code": "toptiertea",
+      "brand_name": "特好喝",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2907_a6c2770571a18258.jpg",
+      "id": 22875,
+      "name": "台北通化店",
+      "name_short": "台北通化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22875_icon_20250325_112358_e5426.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2907_a6c2770571a18258.jpg",
+      "description": null,
+      "longitude": "121.55434150000000000000",
+      "latitude": "25.03031930000000000000",
+      "address": "台北市大安區通化街71號",
+      "address_remark": "",
+      "tel": "(02)2709-0200",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 14,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 3884,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2907,
+      "brand_code": "toptiertea",
+      "brand_name": "特好喝",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2907_a6c2770571a18258.jpg",
+      "id": 22878,
+      "name": "台北大直店",
+      "name_short": "台北大直店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22878_icon_20250325_112350_0628d.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2907_a6c2770571a18258.jpg",
+      "description": null,
+      "longitude": "121.54644350000000000000",
+      "latitude": "25.08325030000000000000",
+      "address": "台北市中山區大直街55號",
+      "address_remark": "",
+      "tel": "(02)2532-0271",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.88,
+      "rating_order_count": 16,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4518,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2907,
+      "brand_code": "toptiertea",
+      "brand_name": "特好喝",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2907_a6c2770571a18258.jpg",
+      "id": 24418,
+      "name": "永和樂華店",
+      "name_short": "永和樂華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22881_icon_20250325_112330_08840.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2907_a6c2770571a18258.jpg",
+      "description": null,
+      "longitude": "121.51439700000000000000",
+      "latitude": "25.00909590000000000000",
+      "address": "新北市永和區永和路一段188號",
+      "address_remark": "",
+      "tel": "0229265997",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7019,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2907,
+      "brand_code": "toptiertea",
+      "brand_name": "特好喝",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2907_a6c2770571a18258.jpg",
+      "id": 22881,
+      "name": "中和環球店",
+      "name_short": "中和環球店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22881_icon_20250325_112330_08840.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2907_a6c2770571a18258.jpg",
+      "description": null,
+      "longitude": "121.47445010000000000000",
+      "latitude": "25.00596290000000000000",
+      "address": "新北市中和區中山路三段121號",
+      "address_remark": "",
+      "tel": "(02)2228-8880",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 8,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10730,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2907,
+      "brand_code": "toptiertea",
+      "brand_name": "特好喝",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2907_a6c2770571a18258.jpg",
+      "id": 23986,
+      "name": "新莊新泰店",
+      "name_short": "新莊新泰店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22881_icon_20250325_112330_08840.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2907_a6c2770571a18258.jpg",
+      "description": null,
+      "longitude": "121.44610710000000000000",
+      "latitude": "25.03975010000000000000",
+      "address": "新北市新莊區新泰路253號",
+      "address_remark": "",
+      "tel": "0289922023",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 6,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 12205,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2907,
+      "brand_code": "toptiertea",
+      "brand_name": "特好喝",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2907_a6c2770571a18258.jpg",
+      "id": 22872,
+      "name": "林口一號店",
+      "name_short": "林口一號店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22872_icon_20250325_112407_ade96.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2907_a6c2770571a18258.jpg",
+      "description": null,
+      "longitude": "121.36980230000000000000",
+      "latitude": "25.05849730000000000000",
+      "address": "桃園市龜山區復興北路50號",
+      "address_remark": "",
+      "tel": "(03)328-6836",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.82,
+      "rating_order_count": 11,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 22082,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

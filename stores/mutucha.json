@@ -1,0 +1,265 @@
+{
+  "brand_info": {
+    "id": 2436,
+    "brand_code": "mutucha",
+    "name": "沐荼寺-臺灣精品茶飲專門"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:20:52.281681",
+    "total_pages": 0,
+    "total_stores": 3,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2436,
+      "brand_code": "mutucha",
+      "brand_name": "沐荼寺-臺灣精品茶飲專門",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2436_d536ad295f25a302.png",
+      "id": 19800,
+      "name": "內湖店",
+      "name_short": "內湖店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_19800_icon_20250119_214643_eaa99.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2436_d536ad295f25a302.png",
+      "description": null,
+      "longitude": "121.56787480000000000000",
+      "latitude": "25.08390730000000000000",
+      "address": "台北市內湖區內湖路一段323巷18弄2號",
+      "address_remark": "",
+      "tel": "02-26276288",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 17,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5946,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2436,
+      "brand_code": "mutucha",
+      "brand_name": "沐荼寺-臺灣精品茶飲專門",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2436_d536ad295f25a302.png",
+      "id": 20925,
+      "name": "蘆洲店",
+      "name_short": "蘆洲店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20925_icon_20250119_214734_4e5be.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2436_d536ad295f25a302.png",
+      "description": null,
+      "longitude": "121.47081120000000000000",
+      "latitude": "25.08060710000000000000",
+      "address": "新北市蘆洲區中山二路197號",
+      "address_remark": "",
+      "tel": "02-22818080",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 5,
+      "rating_order_count": 13,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9681,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 2436,
+      "brand_code": "mutucha",
+      "brand_name": "沐荼寺-臺灣精品茶飲專門",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2436_d536ad295f25a302.png",
+      "id": 20322,
+      "name": "竹北店",
+      "name_short": "竹北店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_20322_icon_20250119_214711_e10f7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/2436_d536ad295f25a302.png",
+      "description": null,
+      "longitude": "121.02677580000000000000",
+      "latitude": "24.82070760000000000000",
+      "address": "新竹縣竹北市光明六路東一段247號",
+      "address_remark": "",
+      "tel": "03-6587878",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.84,
+      "rating_order_count": 19,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 74990,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

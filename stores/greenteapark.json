@@ -1,0 +1,81 @@
+{
+  "brand_info": {
+    "id": 2355,
+    "brand_code": "greenteapark",
+    "name": "公園綠茶"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:20:38.342939",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2355,
+      "brand_code": "greenteapark",
+      "brand_name": "公園綠茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/2355_fad0aa951d9b37ee.png",
+      "id": 19158,
+      "name": "華陰店",
+      "name_short": "華陰店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/default_icon_2020.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_19158_photo_20240528_170045_dff49.png",
+      "description": null,
+      "longitude": "121.51933670000000000000",
+      "latitude": "25.04946730000000000000",
+      "address": "台北市大同區華陰街37-1號",
+      "address_remark": "",
+      "tel": "0910-689-268",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 2499,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

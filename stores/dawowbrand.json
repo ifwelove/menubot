@@ -1,0 +1,106 @@
+{
+  "brand_info": {
+    "id": 1630,
+    "brand_code": "dawowbrand",
+    "name": "大王茶迷"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:18:36.840415",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 1630,
+      "brand_code": "dawowbrand",
+      "brand_name": "大王茶迷",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1630_767fa39f8715c1fc.jpg",
+      "id": 18616,
+      "name": "竹科店",
+      "name_short": "竹科店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18616_icon_20240328_102249_f7776.jpg",
+      "photo": null,
+      "description": "11/11買一送一活動請來電訂購",
+      "longitude": "121.02181910000000000000",
+      "latitude": "24.78154940000000000000",
+      "address": "新竹市東區新竹市東區光復路一段193號",
+      "address_remark": "",
+      "tel": "0911-799151",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 20,
+      "rating_average_star": 4.75,
+      "rating_order_count": 24,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1350,
+          "order_min_distance_m": 4600
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 78240,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

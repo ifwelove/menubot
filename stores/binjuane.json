@@ -1,0 +1,76 @@
+{
+  "brand_info": {
+    "id": 2865,
+    "brand_code": "binjuane",
+    "name": "冰饌"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:22:21.155115",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2865,
+      "brand_code": "binjuane",
+      "brand_name": "冰饌",
+      "brand_photo": null,
+      "id": 22701,
+      "name": "虎林店",
+      "name_short": "虎林店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/default_icon_2020.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.57644350000000000000",
+      "latitude": "25.03946030000000000000",
+      "address": "台北市信義區忠孝東路五段372巷27弄98號",
+      "address_remark": "",
+      "tel": "02-87860799",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 5,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:50:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:50:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5395,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

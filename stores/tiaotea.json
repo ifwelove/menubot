@@ -1,0 +1,76 @@
+{
+  "brand_info": {
+    "id": 2908,
+    "brand_code": "tiaotea",
+    "name": "挑Tea"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:22:32.072456",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2908,
+      "brand_code": "tiaotea",
+      "brand_name": "挑Tea",
+      "brand_photo": null,
+      "id": 22900,
+      "name": "挑Tea",
+      "name_short": "桃園泰昌總店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/default_icon_2020.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.29466070000000000000",
+      "latitude": "24.98792800000000000000",
+      "address": "桃園市桃園區泰昌三街62號",
+      "address_remark": "",
+      "tel": "03-2200368",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "19:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 33272,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

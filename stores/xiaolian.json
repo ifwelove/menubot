@@ -1,0 +1,96 @@
+{
+  "brand_info": {
+    "id": 1855,
+    "brand_code": "xiaolian",
+    "name": "孝廉的茶店"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:19:10.005331",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 1855,
+      "brand_code": "xiaolian",
+      "brand_name": "孝廉的茶店",
+      "brand_photo": null,
+      "id": 15829,
+      "name": "台北南港店",
+      "name_short": "台北南港店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_15829_icon_20230817_185959_d7f28.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_15829_photo_20230817_185508_71ca6.jpg",
+      "description": null,
+      "longitude": "121.60609960000000000000",
+      "latitude": "25.05580760000000000000",
+      "address": "台北市南港區興中路44巷30號",
+      "address_remark": "",
+      "tel": "02-27888019",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.84,
+      "rating_order_count": 64,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 8940,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

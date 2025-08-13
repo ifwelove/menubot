@@ -1,0 +1,91 @@
+{
+  "brand_info": {
+    "id": 2547,
+    "brand_code": "golden",
+    "name": "蔗家店"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:21:14.649933",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 2547,
+      "brand_code": "golden",
+      "brand_name": "蔗家店",
+      "brand_photo": null,
+      "id": 20553,
+      "name": "板橋亞東店",
+      "name_short": "板橋亞東店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/default_icon_2020.png",
+      "photo": null,
+      "description": "*蔗家店<甘蔗茶飮専門店>,        *番茄牛肉冰城<専注番茄牛肉麵及天然冰品原汁飮品>，都在蔗家店",
+      "longitude": "121.45410400000000000000",
+      "latitude": "24.99524000000000000000",
+      "address": "新北市板橋區四川路二段43號",
+      "address_remark": "亞東科大斜對面",
+      "tel": "0932 007 148",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 13785,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

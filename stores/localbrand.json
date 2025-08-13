@@ -1,0 +1,76 @@
+{
+  "brand_info": {
+    "id": 3274,
+    "brand_code": "localbrand",
+    "name": "Local飲料&冰品"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:23:39.502735",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 3274,
+      "brand_code": "localbrand",
+      "brand_name": "Local飲料&冰品",
+      "brand_photo": null,
+      "id": 25918,
+      "name": "明湖店",
+      "name_short": "明湖店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_25918_icon_20250812_174316_4df29.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_25918_photo_20250812_174834_9e4b7.jpg",
+      "description": null,
+      "longitude": "121.61210580000000000000",
+      "latitude": "25.07112020000000000000",
+      "address": "台北市內湖區康寧路三段165巷18號",
+      "address_remark": "鑰匙店旁邊",
+      "tel": "02-26309778",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 60,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "12:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "12:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10068,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

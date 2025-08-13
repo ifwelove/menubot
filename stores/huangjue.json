@@ -1,0 +1,272 @@
+{
+  "brand_info": {
+    "id": 1822,
+    "brand_code": "huangjue",
+    "name": "皇爵"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:19:05.566326",
+    "total_pages": 0,
+    "total_stores": 4,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 1822,
+      "brand_code": "huangjue",
+      "brand_name": "皇爵",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1822_bf9592ef35af7330.jpg",
+      "id": 15631,
+      "name": "三重商工店",
+      "name_short": "三重商工店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_15631_icon_20230619_175344_ffa0d.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_15631_photo_20230619_175321_64e0d.jpg",
+      "description": null,
+      "longitude": "121.48253210000000000000",
+      "latitude": "25.06814080000000000000",
+      "address": "新北市三重區忠孝路二段150號",
+      "address_remark": "",
+      "tel": "02-2986-7577",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 24,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "23:59:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "23:59:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3950
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7606,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1822,
+      "brand_code": "huangjue",
+      "brand_name": "皇爵",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1822_bf9592ef35af7330.jpg",
+      "id": 15628,
+      "name": "蘆洲中華店",
+      "name_short": "蘆洲中華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_15628_icon_20230619_174851_318b7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_15628_photo_20230619_174734_0a073.jpg",
+      "description": null,
+      "longitude": "121.46268570000000000000",
+      "latitude": "25.08132280000000000000",
+      "address": "新北市蘆洲區中華街28號",
+      "address_remark": "",
+      "tel": "02-8282-2200",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 11,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "23:59:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "23:59:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10700,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1822,
+      "brand_code": "huangjue",
+      "brand_name": "皇爵",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1822_bf9592ef35af7330.jpg",
+      "id": 15634,
+      "name": "新莊公園店",
+      "name_short": "新莊公園店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_15634_icon_20230619_175357_a3fd2.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_15634_photo_20230619_174824_48372.jpg",
+      "description": null,
+      "longitude": "121.45511430000000000000",
+      "latitude": "25.04029670000000000000",
+      "address": "新北市新莊區公園路208號",
+      "address_remark": "",
+      "tel": "02-2277-5512",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.18,
+      "rating_order_count": 11,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "23:59:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "23:59:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 11026,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1822,
+      "brand_code": "huangjue",
+      "brand_name": "皇爵",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1822_bf9592ef35af7330.jpg",
+      "id": 15625,
+      "name": "板橋忠孝店",
+      "name_short": "板橋忠孝店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_15625_icon_20230619_174637_7409a.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1822_bf9592ef35af7330.jpg",
+      "description": null,
+      "longitude": "121.46442100000000000000",
+      "latitude": "25.00245970000000000000",
+      "address": "新北市板橋區忠孝路172號",
+      "address_remark": "",
+      "tel": "02-8953-6629",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 7,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 1,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:10:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:10:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 4000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 12078,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

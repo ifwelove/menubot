@@ -1,0 +1,86 @@
+{
+  "brand_info": {
+    "id": 443,
+    "brand_code": "atteabrand",
+    "name": "署茗職茶@AtTea"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:16:12.756054",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 443,
+      "brand_code": "atteabrand",
+      "brand_name": "署茗職茶@AtTea",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/443_340a2cddcb045306.jpg",
+      "id": 3483,
+      "name": "台北內湖旗艦店",
+      "name_short": "台北內湖旗艦店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3483_icon_20200824_093527_58a38.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.57076520000000000000",
+      "latitude": "25.08037360000000000000",
+      "address": "台北市內湖區洲子街83號",
+      "address_remark": "",
+      "tel": "02-26561515",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.58,
+      "rating_order_count": 24,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5846,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "brand_info": {
+    "id": 653,
+    "brand_code": "chumumilk",
+    "name": "初牧乳飲製造所"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-13T11:16:43.055716",
+    "total_pages": 0,
+    "total_stores": 1,
+    "location": {
+      "longitude": 121.53802593358863,
+      "latitude": 25.052828996845143,
+      "description": "台北车站附近"
+    }
+  },
+  "stores": [
+    {
+      "brand_id": 653,
+      "brand_code": "chumumilk",
+      "brand_name": "初牧乳飲製造所",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/653_8a6c1046a62b615b.jpg",
+      "id": 18268,
+      "name": "新北新莊中港店",
+      "name_short": "新北新莊中港店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_5687_icon_20210507_114010_62916.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.45510610000000000000",
+      "latitude": "25.04056070000000000000",
+      "address": "新北市新莊區中港路137號",
+      "address_remark": "",
+      "tel": "0229960517",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 7,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:40:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:40:00",
+      "delivery_way_description": "最低滿399外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 399,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 399,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 11020,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}
