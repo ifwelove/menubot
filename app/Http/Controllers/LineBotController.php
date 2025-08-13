@@ -34,6 +34,9 @@ use LINE\LINEBot\TemplateActionBuilder\UriTemplateActionBuilder;
 use LINE\LINEBot\TemplateActionBuilder\MessageTemplateActionBuilder;
 use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselTemplateBuilder;
 use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselColumnTemplateBuilder;
+use LINE\LINEBot\QuickReplyBuilder\QuickReplyMessageBuilder;
+use LINE\LINEBot\QuickReplyBuilder\ButtonBuilder\QuickReplyButtonBuilder;
+use LINE\LINEBot\TemplateActionBuilder\LocationTemplateActionBuilder;
 use App\Services\ShopSearchService;
 
 class LineBotController extends Controller
@@ -248,8 +251,10 @@ class LineBotController extends Controller
                             $message .= "🔸 TOP名店：查看熱門推薦店家\n";
                             $message .= "🔸 隨機飲料店：讓系統推薦一家店\n";
                             $message .= "🔸 找茶：茶類專門店\n";
-                            $message .= "🔸 奶類：鮮奶茶專門店\n\n";
-                            $message .= "💡 也可以直接輸入店名或關鍵字搜尋！";
+                            $message .= "🔸 奶類：鮮奶茶專門店\n";
+                            $message .= "🔸 找附近飲料店：搜尋您附近的店家\n\n";
+                            $message .= "💡 也可以直接輸入店名或關鍵字搜尋！\n";
+                            $message .= "📍 或直接分享位置來尋找附近店家！";
                             $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder($message));
                         } elseif ($postbackData['action'] == 'random') {
                             // 執行「喝什麼」功能
@@ -263,6 +268,9 @@ class LineBotController extends Controller
                         } elseif ($postbackData['action'] == 'aliases') {
                             // 執行「飲料店別名」功能
                             $this->showShopAliases($event['replyToken']);
+                        } elseif ($postbackData['action'] == 'nearby') {
+                            // 執行「找附近飲料店」功能
+                            $this->requestLocation($event['replyToken']);
                         }
                     } catch (\Exception $e) {
                         // 發送錯誤到 Telegram
@@ -513,7 +521,7 @@ class LineBotController extends Controller
         $this->sendToTelegram("📍 進入 showInstructions 方法, replyToken: {$replyToken}");
 
         try {
-            // 使用 Flex Message 支援5個選項
+            // 使用 Flex Message 支援6個選項
             $buttonComponents = [
                 ButtonComponentBuilder::builder()
                     ->setStyle(ComponentButtonStyle::LINK)
@@ -540,6 +548,11 @@ class LineBotController extends Controller
                     ->setHeight(ComponentButtonHeight::SM)
                     ->setAction(new PostbackTemplateActionBuilder('🔤 飲料店別名', 'action=aliases'))
                     ->setColor('#C2185B'),
+                ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder('📍 找附近飲料店', 'action=nearby'))
+                    ->setColor('#E91E63'),
             ];
 
         // 使用按鈕組件
@@ -1006,6 +1019,48 @@ class LineBotController extends Controller
         $c = 2 * atan2(sqrt($a), sqrt(1-$a));
         
         return $earthRadius * $c;
+    }
+
+    /**
+     * 要求用戶分享位置
+     */
+    private function requestLocation($replyToken)
+    {
+        try {
+            $this->sendToTelegram("📍 要求用戶分享位置");
+            
+            // 建立快速回覆按鈕
+            $quickReplyButton = new QuickReplyButtonBuilder(
+                new LocationTemplateActionBuilder('分享位置')
+            );
+            
+            // 建立快速回覆訊息
+            $quickReply = new QuickReplyMessageBuilder([$quickReplyButton]);
+            
+            // 建立文字訊息並附加快速回覆
+            $textMessageBuilder = new TextMessageBuilder(
+                "📍 請分享您的位置，我會幫您找出附近的飲料店！\n\n" .
+                "點擊下方的「分享位置」按鈕，即可開始搜尋。",
+                $quickReply
+            );
+            
+            // 發送訊息
+            $response = $this->bot->replyMessage($replyToken, $textMessageBuilder);
+            
+            if ($response->isSucceeded()) {
+                $this->sendToTelegram("✅ 成功發送位置請求");
+            } else {
+                $this->sendToTelegram("❌ 發送位置請求失敗: " . $response->getRawBody());
+            }
+            
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ requestLocation 錯誤: " . $e->getMessage());
+            
+            // 回傳錯誤訊息
+            $errorMsg = "抱歉，位置功能暫時無法使用。\n";
+            $errorMsg .= "請直接分享您的位置訊息。";
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder($errorMsg));
+        }
     }
 
     /**
