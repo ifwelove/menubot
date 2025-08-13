@@ -37,6 +37,7 @@ use LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselColumnTemplateBuilder;
 use LINE\LINEBot\QuickReplyBuilder\QuickReplyMessageBuilder;
 use LINE\LINEBot\QuickReplyBuilder\ButtonBuilder\QuickReplyButtonBuilder;
 use LINE\LINEBot\TemplateActionBuilder\LocationTemplateActionBuilder;
+use Illuminate\Support\Facades\Cache;
 use App\Services\ShopSearchService;
 
 class LineBotController extends Controller
@@ -287,9 +288,21 @@ class LineBotController extends Controller
                             $this->sendToTelegram("📍 執行搜尋: 距離 {$distance} 公里");
                             $this->findNearbyShops($event['replyToken'], $lat, $lng, $distance);
                         } elseif ($postbackData['action'] == 'select_distance') {
-                            // 選擇距離後，要求分享位置
+                            // 選擇距離後，要求分享位置（舊版，保留相容性）
                             $distance = (float)($postbackData['distance'] ?? 2.0);
                             $this->requestLocationWithDistance($event['replyToken'], $distance);
+                        } elseif ($postbackData['action'] == 'custom_search') {
+                            // 自訂搜尋範圍 - 選擇距離後要求分享位置
+                            $distance = (float)($postbackData['distance'] ?? 2.0);
+                            $userId = $event['source']['userId'] ?? null;
+                            
+                            if ($userId) {
+                                // 暫存用戶選擇的距離（5分鐘有效）
+                                Cache::put("custom_search_distance_{$userId}", $distance, 300);
+                                $this->sendToTelegram("🎯 儲存用戶 {$userId} 的自訂距離：{$distance} km");
+                            }
+                            
+                            $this->requestLocationForCustomSearch($event['replyToken'], $distance);
                         }
                     } catch (\Exception $e) {
                         // 發送錯誤到 Telegram
@@ -953,15 +966,26 @@ class LineBotController extends Controller
         $latitude = $event['message']['latitude'];
         $longitude = $event['message']['longitude'];
         $address = $event['message']['address'] ?? '';
+        $userId = $event['source']['userId'] ?? null;
         
         $this->sendToTelegram("📍 收到位置: {$latitude}, {$longitude}\n地址: {$address}");
         
-        // 檢查是否為快速搜尋模式
-        // 由於無狀態，我們檢查前一個訊息是否包含「快速搜尋模式」
-        // 或者根據時間戳判斷（實際上我們無法準確判斷，所以預設顯示距離選項）
+        // 檢查是否有自訂搜尋的距離設定
+        if ($userId) {
+            $customDistance = Cache::get("custom_search_distance_{$userId}");
+            if ($customDistance !== null) {
+                // 清除暫存
+                Cache::forget("custom_search_distance_{$userId}");
+                
+                $this->sendToTelegram("🎯 使用自訂距離搜尋：{$customDistance} km");
+                
+                // 直接使用自訂距離搜尋
+                $this->findNearbyShops($event['replyToken'], $latitude, $longitude, $customDistance);
+                return;
+            }
+        }
         
-        // 為了簡化，快速搜尋會在 showDistanceOptions 中提供「立即搜尋 2km」選項
-        // 顯示距離選擇選項
+        // 一般流程：顯示距離選擇選項
         $this->askSearchDistance($event['replyToken'], $latitude, $longitude);
     }
 
@@ -1135,22 +1159,22 @@ class LineBotController extends Controller
                 ButtonComponentBuilder::builder()
                     ->setStyle(ComponentButtonStyle::LINK)
                     ->setHeight(ComponentButtonHeight::SM)
-                    ->setAction(new PostbackTemplateActionBuilder('🔍 500 公尺', 'action=select_distance&distance=0.5'))
+                    ->setAction(new PostbackTemplateActionBuilder('🔍 搜尋 500 公尺內', 'action=custom_search&distance=0.5'))
                     ->setColor('#4CAF50'),
                 ButtonComponentBuilder::builder()
                     ->setStyle(ComponentButtonStyle::LINK)
                     ->setHeight(ComponentButtonHeight::SM)
-                    ->setAction(new PostbackTemplateActionBuilder('🔍 1 公里', 'action=select_distance&distance=1'))
+                    ->setAction(new PostbackTemplateActionBuilder('🔍 搜尋 1 公里內', 'action=custom_search&distance=1'))
                     ->setColor('#2196F3'),
                 ButtonComponentBuilder::builder()
                     ->setStyle(ComponentButtonStyle::LINK)
                     ->setHeight(ComponentButtonHeight::SM)
-                    ->setAction(new PostbackTemplateActionBuilder('🔍 2 公里', 'action=select_distance&distance=2'))
+                    ->setAction(new PostbackTemplateActionBuilder('🔍 搜尋 2 公里內', 'action=custom_search&distance=2'))
                     ->setColor('#FF9800'),
                 ButtonComponentBuilder::builder()
                     ->setStyle(ComponentButtonStyle::LINK)
                     ->setHeight(ComponentButtonHeight::SM)
-                    ->setAction(new PostbackTemplateActionBuilder('🔍 5 公里', 'action=select_distance&distance=5'))
+                    ->setAction(new PostbackTemplateActionBuilder('🔍 搜尋 5 公里內', 'action=custom_search&distance=5'))
                     ->setColor('#F44336'),
             ];
             
@@ -1176,7 +1200,7 @@ class LineBotController extends Controller
                                 ->setAlign('center')
                                 ->setMargin(ComponentMargin::MD),
                             TextComponentBuilder::builder()
-                                ->setText('選擇後將會要求您分享位置')
+                                ->setText('點擊後將要求您分享位置')
                                 ->setSize(ComponentFontSize::XXS)
                                 ->setAlign('center')
                                 ->setColor('#999999')
@@ -1198,6 +1222,55 @@ class LineBotController extends Controller
             
         } catch (\Exception $e) {
             $this->sendToTelegram("❌ showDistanceOptions 錯誤: " . $e->getMessage());
+            
+            // 回傳錯誤訊息
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                "抱歉，功能暫時無法使用。\n請直接分享您的位置。"
+            ));
+        }
+    }
+
+    /**
+     * 要求用戶分享位置（自訂搜尋範圍專用）
+     */
+    private function requestLocationForCustomSearch($replyToken, $distance)
+    {
+        try {
+            $distanceText = $distance < 1 ? ($distance * 1000) . ' 公尺' : $distance . ' 公里';
+            $this->sendToTelegram("🎯 自訂搜尋範圍：要求分享位置，距離 {$distanceText}");
+            
+            // 建立快速回覆按鈕
+            $quickReplyButton = new QuickReplyButtonBuilder(
+                new LocationTemplateActionBuilder('分享位置')
+            );
+            
+            // 建立快速回覆訊息
+            $quickReply = new QuickReplyMessageBuilder([$quickReplyButton]);
+            
+            // 建立文字訊息並附加快速回覆
+            // 在訊息中加入特殊標記，用於識別自訂搜尋模式
+            $message = "🎯 [自訂搜尋:{$distance}km] 已選擇搜尋範圍：{$distanceText}\n\n";
+            $message .= "請分享您的位置，我會立即搜尋範圍內的飲料店！\n";
+            $message .= "點擊下方的「分享位置」按鈕開始搜尋。\n\n";
+            $message .= "⚡ 分享位置後將直接搜尋，不會再詢問距離";
+            
+            $textMessageBuilder = new TextMessageBuilder($message, $quickReply);
+            
+            // 儲存距離資訊（使用 Redis 或其他方式）
+            // 這裡我們使用訊息內容來標記
+            $this->sendToTelegram("🎯 標記自訂搜尋模式，距離：{$distance} km");
+            
+            // 發送訊息
+            $response = $this->bot->replyMessage($replyToken, $textMessageBuilder);
+            
+            if ($response->isSucceeded()) {
+                $this->sendToTelegram("✅ 成功發送自訂搜尋的位置請求");
+            } else {
+                $this->sendToTelegram("❌ 發送位置請求失敗: " . $response->getRawBody());
+            }
+            
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ requestLocationForCustomSearch 錯誤: " . $e->getMessage());
             
             // 回傳錯誤訊息
             $this->bot->replyMessage($replyToken, new TextMessageBuilder(
