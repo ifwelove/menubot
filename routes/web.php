@@ -14,6 +14,59 @@ Route::get('/test', function () {
 });
 
 // 測試定位找店功能
+// 測試 Flex Message 大小
+Route::get('/test-flex-size', function () {
+    // 模擬 5 家店的資料
+    $shops = [
+        ['shop_code' => 'shop1', 'shop_name' => '測試店1', 'branch_name' => '分店1', 'address' => '測試地址1', 'tel' => '02-12345678', 'distance' => 0.1],
+        ['shop_code' => 'shop2', 'shop_name' => '測試店2', 'branch_name' => '分店2', 'address' => '測試地址2', 'tel' => '02-12345678', 'distance' => 0.2],
+        ['shop_code' => 'shop3', 'shop_name' => '測試店3', 'branch_name' => '分店3', 'address' => '測試地址3', 'tel' => '02-12345678', 'distance' => 0.3],
+        ['shop_code' => 'shop4', 'shop_name' => '測試店4', 'branch_name' => '分店4', 'address' => '測試地址4', 'tel' => '02-12345678', 'distance' => 0.4],
+        ['shop_code' => 'shop5', 'shop_name' => '測試店5', 'branch_name' => '分店5', 'address' => '測試地址5', 'tel' => '02-12345678', 'distance' => 0.5],
+    ];
+    
+    // 建立 Flex Message（與 displayNearbyShops 相同邏輯）
+    $shopComponents = [];
+    
+    // 標題
+    $shopComponents[] = LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\TextComponentBuilder::builder()
+        ->setText('📍 附近的飲料店')
+        ->setWeight(LINE\LINEBot\Constant\Flex\ComponentFontWeight::BOLD)
+        ->setSize(LINE\LINEBot\Constant\Flex\ComponentFontSize::LG)
+        ->setMargin(LINE\LINEBot\Constant\Flex\ComponentMargin::MD);
+    
+    // 計算組件數量
+    $componentCount = 1; // 標題
+    
+    foreach ($shops as $index => $shop) {
+        // 每家店的組件數：店名(1) + 地址(1) + 電話(1) + 按鈕(1) + 分隔線(1) = 5
+        $componentCount += 5;
+    }
+    
+    // 建立完整的 Flex Message
+    $flexMessageBuilder = LINE\LINEBot\MessageBuilder\FlexMessageBuilder::builder()
+        ->setAltText('附近的飲料店')
+        ->setContents(LINE\LINEBot\MessageBuilder\Flex\ContainerBuilder\BubbleContainerBuilder::builder()
+            ->setBody(LINE\LINEBot\MessageBuilder\Flex\ComponentBuilder\BoxComponentBuilder::builder()
+                ->setLayout(LINE\LINEBot\Constant\Flex\ComponentLayout::VERTICAL)
+                ->setContents($shopComponents)));
+    
+    // 轉換為陣列以計算大小
+    $messageArray = $flexMessageBuilder->buildMessage();
+    $jsonSize = strlen(json_encode($messageArray));
+    
+    return response()->json([
+        'shops_count' => count($shops),
+        'component_count' => $componentCount,
+        'estimated_component_count_for_109_shops' => 1 + (109 * 5), // 546 個組件
+        'json_size' => $jsonSize . ' bytes',
+        'json_size_kb' => round($jsonSize / 1024, 2) . ' KB',
+        'estimated_size_for_109_shops' => round(($jsonSize / 5) * 109 / 1024, 2) . ' KB',
+        'line_limit' => '300 KB',
+        'message_preview' => $messageArray,
+    ]);
+});
+
 Route::get('/test-location', function () {
     $controller = app(LineBotController::class);
     
