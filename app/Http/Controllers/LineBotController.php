@@ -1004,13 +1004,17 @@ class LineBotController extends Controller
      */
     private function displayNearbyShops($replyToken, $shops)
     {
-        if (empty($shops)) {
-            $this->bot->replyMessage($replyToken, new TextMessageBuilder('附近 2 公里內沒有找到飲料店 😢'));
-            return;
-        }
-        
-        // 限制顯示前 5 家
-        $shops = array_slice($shops, 0, 5);
+        try {
+            $this->sendToTelegram("📍 準備顯示 " . count($shops) . " 家店");
+            
+            if (empty($shops)) {
+                $this->bot->replyMessage($replyToken, new TextMessageBuilder('附近 2 公里內沒有找到飲料店 😢'));
+                return;
+            }
+            
+            // 限制顯示前 5 家
+            $shops = array_slice($shops, 0, 5);
+            $this->sendToTelegram("📍 限制顯示前 " . count($shops) . " 家");
         
         // 建立 Flex Message
         $shopComponents = [];
@@ -1104,11 +1108,35 @@ class LineBotController extends Controller
                     ->setLayout(ComponentLayout::VERTICAL)
                     ->setContents($shopComponents)));
         
-        try {
-            $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+            $this->sendToTelegram("📍 準備發送 Flex Message");
+            
+            $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+            
+            if ($response->isSucceeded()) {
+                $this->sendToTelegram("✅ 成功發送附近店家資訊");
+            } else {
+                $this->sendToTelegram("❌ 發送失敗: " . $response->getRawBody());
+                throw new \Exception("LINE API 錯誤");
+            }
+            
         } catch (\Exception $e) {
-            $this->sendToTelegram("❌ 顯示附近店家錯誤: " . $e->getMessage());
-            $this->bot->replyMessage($replyToken, new TextMessageBuilder('抱歉，顯示附近店家時發生錯誤'));
+            $this->sendToTelegram("❌ displayNearbyShops 錯誤: " . $e->getMessage());
+            
+            // 改用簡單文字訊息
+            $message = "📍 附近的飲料店：\n\n";
+            $count = 0;
+            foreach ($shops as $shop) {
+                $count++;
+                $message .= "{$count}. {$shop['shop_name']} {$shop['branch_name']}\n";
+                $message .= "   📍 " . sprintf("%.1f", $shop['distance']) . " km\n";
+                $message .= "   📮 {$shop['address']}\n";
+                if (!empty($shop['tel'])) {
+                    $message .= "   📞 {$shop['tel']}\n";
+                }
+                $message .= "\n";
+            }
+            
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder($message));
         }
     }
 
