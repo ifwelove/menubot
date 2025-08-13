@@ -271,6 +271,14 @@ class LineBotController extends Controller
                         } elseif ($postbackData['action'] == 'nearby') {
                             // 執行「找附近飲料店」功能
                             $this->requestLocation($event['replyToken']);
+                        } elseif ($postbackData['action'] == 'search_nearby') {
+                            // 執行距離搜尋
+                            $lat = (float)($postbackData['lat'] ?? 0);
+                            $lng = (float)($postbackData['lng'] ?? 0);
+                            $distance = (float)($postbackData['distance'] ?? 2.0);
+                            
+                            $this->sendToTelegram("📍 執行搜尋: 距離 {$distance} 公里");
+                            $this->findNearbyShops($event['replyToken'], $lat, $lng, $distance);
                         }
                     } catch (\Exception $e) {
                         // 發送錯誤到 Telegram
@@ -932,19 +940,85 @@ class LineBotController extends Controller
         
         $this->sendToTelegram("📍 收到位置: {$latitude}, {$longitude}\n地址: {$address}");
         
-        $this->findNearbyShops($event['replyToken'], $latitude, $longitude);
+        // 顯示距離選擇選項，而不是直接搜尋
+        $this->askSearchDistance($event['replyToken'], $latitude, $longitude);
+    }
+
+    /**
+     * 詢問搜尋距離
+     */
+    private function askSearchDistance($replyToken, $latitude, $longitude)
+    {
+        try {
+            $this->sendToTelegram("📍 顯示距離選擇選項");
+            
+            // 建立快速回覆按鈕
+            $quickReplyButtons = [
+                new QuickReplyButtonBuilder(
+                    new PostbackTemplateActionBuilder(
+                        '500 公尺',
+                        "action=search_nearby&lat={$latitude}&lng={$longitude}&distance=0.5"
+                    )
+                ),
+                new QuickReplyButtonBuilder(
+                    new PostbackTemplateActionBuilder(
+                        '1 公里',
+                        "action=search_nearby&lat={$latitude}&lng={$longitude}&distance=1"
+                    )
+                ),
+                new QuickReplyButtonBuilder(
+                    new PostbackTemplateActionBuilder(
+                        '2 公里',
+                        "action=search_nearby&lat={$latitude}&lng={$longitude}&distance=2"
+                    )
+                ),
+                new QuickReplyButtonBuilder(
+                    new PostbackTemplateActionBuilder(
+                        '5 公里',
+                        "action=search_nearby&lat={$latitude}&lng={$longitude}&distance=5"
+                    )
+                ),
+            ];
+            
+            // 建立快速回覆訊息
+            $quickReply = new QuickReplyMessageBuilder($quickReplyButtons);
+            
+            // 建立文字訊息並附加快速回覆
+            $textMessageBuilder = new TextMessageBuilder(
+                "📍 請選擇搜尋範圍：\n\n" .
+                "選擇較小的範圍可以找到最近的店家，\n" .
+                "選擇較大的範圍可以看到更多選擇。",
+                $quickReply
+            );
+            
+            // 發送訊息
+            $response = $this->bot->replyMessage($replyToken, $textMessageBuilder);
+            
+            if ($response->isSucceeded()) {
+                $this->sendToTelegram("✅ 成功發送距離選擇選項");
+            } else {
+                $this->sendToTelegram("❌ 發送距離選擇失敗: " . $response->getRawBody());
+                // 如果失敗，使用預設 2 公里搜尋
+                $this->findNearbyShops($replyToken, $latitude, $longitude, 2.0);
+            }
+            
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ askSearchDistance 錯誤: " . $e->getMessage());
+            // 發生錯誤時使用預設搜尋
+            $this->findNearbyShops($replyToken, $latitude, $longitude, 2.0);
+        }
     }
 
     /**
      * 尋找附近的飲料店
      */
-    private function findNearbyShops($replyToken, $userLat, $userLng)
+    private function findNearbyShops($replyToken, $userLat, $userLng, $searchDistance = 2.0)
     {
         $storesPath = base_path('stores');
         $shops = config('menu.shops.drink', []);
         $nearbyShops = [];
         
-        $this->sendToTelegram("📍 開始搜尋附近店家，共有 " . count($shops) . " 個品牌");
+        $this->sendToTelegram("📍 開始搜尋 {$searchDistance} 公里內的店家，共有 " . count($shops) . " 個品牌");
         
         // 遍歷所有品牌的 JSON 檔案
         foreach ($shops as $shopCode => $shopName) {
@@ -974,7 +1048,7 @@ class LineBotController extends Controller
                         (float)$store['longitude']
                     );
                     
-                    if ($distance <= 2.0) { // 2公里內
+                    if ($distance <= $searchDistance) { // 在搜尋距離內
                         $nearbyShops[] = [
                             'shop_code' => $shopCode,
                             'shop_name' => $shopName,
@@ -998,8 +1072,8 @@ class LineBotController extends Controller
             return $a['distance'] <=> $b['distance'];
         });
         
-        // 顯示結果
-        $this->displayNearbyShops($replyToken, $nearbyShops);
+        // 顯示結果，傳遞搜尋距離
+        $this->displayNearbyShops($replyToken, $nearbyShops, $searchDistance);
     }
 
     /**
@@ -1066,13 +1140,19 @@ class LineBotController extends Controller
     /**
      * 顯示附近的飲料店
      */
-    private function displayNearbyShops($replyToken, $shops)
+    private function displayNearbyShops($replyToken, $shops, $searchDistance = 2.0)
     {
         try {
             $this->sendToTelegram("📍 準備顯示 " . count($shops) . " 家店");
             
             if (empty($shops)) {
-                $this->bot->replyMessage($replyToken, new TextMessageBuilder('附近 2 公里內沒有找到飲料店 😢'));
+                $distanceText = $searchDistance < 1 ? ($searchDistance * 1000) . ' 公尺' : $searchDistance . ' 公里';
+                $message = "附近 {$distanceText}內沒有找到飲料店 😢\n\n";
+                $message .= "您可以試試：\n";
+                $message .= "1. 擴大搜尋範圍\n";
+                $message .= "2. 移動到其他位置再試\n";
+                $message .= "3. 直接輸入店名搜尋";
+                $this->bot->replyMessage($replyToken, new TextMessageBuilder($message));
                 return;
             }
             
