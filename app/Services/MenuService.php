@@ -157,12 +157,23 @@ class MenuService
      */
     protected function formatJsonMenu($jsonMenu)
     {
+        $brandCode = $jsonMenu['brand_code'] ?? '';
+        $brandImage = $jsonMenu['brand_image'] ?? '';
+        
+        // 如果 JSON 沒有品牌圖片，嘗試從 PHP 檔案讀取
+        if (empty($brandImage) && !empty($brandCode)) {
+            $phpMenu = $this->loadPhpMenu($brandCode);
+            if ($phpMenu && isset($phpMenu['image_url'])) {
+                $brandImage = $phpMenu['image_url'];
+            }
+        }
+        
         $formatted = [
-            'brand_code' => $jsonMenu['brand_code'] ?? '',
+            'brand_code' => $brandCode,
             'shop_name' => $jsonMenu['brand_name'] ?? $jsonMenu['store_name'] ?? '',
             'store_id' => $jsonMenu['store_id'] ?? null,
             'store_name' => $jsonMenu['store_name'] ?? '',
-            'image_url' => $jsonMenu['brand_image'] ?? '',
+            'image_url' => $brandImage,
             'menu_version' => $jsonMenu['menu_version'] ?? null,
             'menu_items' => []
         ];
