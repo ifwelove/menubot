@@ -1397,6 +1397,81 @@ class LineBotController extends Controller
     }
 
     /**
+     * 加權隨機選擇店家
+     * 距離越近的店家有更高的機率被選中
+     */
+    private function weightedRandomSelect($shops, $limit = 10)
+    {
+        if (count($shops) <= $limit) {
+            return $shops;
+        }
+        
+        // 計算權重（距離越近，權重越高）
+        $distances = array_column($shops, 'distance');
+        $maxDistance = max($distances);
+        $minDistance = min($distances);
+        $range = $maxDistance - $minDistance;
+        
+        $weightedShops = [];
+        
+        foreach ($shops as $index => $shop) {
+            // 反向權重：距離越近，權重越大
+            // 使用指數函數讓近的店家有更明顯的優勢
+            $normalizedDistance = ($shop['distance'] - $minDistance) / ($range > 0 ? $range : 1);
+            $weight = exp(-2 * $normalizedDistance); // 指數衰減，近的店家權重明顯更高
+            
+            $weightedShops[] = [
+                'index' => $index,
+                'weight' => $weight,
+                'cumulative' => 0
+            ];
+        }
+        
+        // 計算累積權重
+        $totalWeight = 0;
+        foreach ($weightedShops as &$item) {
+            $totalWeight += $item['weight'];
+            $item['cumulative'] = $totalWeight;
+        }
+        
+        // 隨機選擇不重複的店家
+        $selected = [];
+        $selectedIndices = [];
+        $attempts = 0;
+        $maxAttempts = $limit * 10; // 防止無限循環
+        
+        while (count($selected) < $limit && $attempts < $maxAttempts) {
+            $attempts++;
+            $random = (mt_rand() / mt_getrandmax()) * $totalWeight;
+            
+            foreach ($weightedShops as $item) {
+                if ($random <= $item['cumulative'] && !in_array($item['index'], $selectedIndices)) {
+                    $selected[] = $shops[$item['index']];
+                    $selectedIndices[] = $item['index'];
+                    break;
+                }
+            }
+        }
+        
+        // 如果隨機選擇不足，補充剩餘的店家
+        if (count($selected) < $limit) {
+            foreach ($shops as $index => $shop) {
+                if (!in_array($index, $selectedIndices)) {
+                    $selected[] = $shop;
+                    if (count($selected) >= $limit) break;
+                }
+            }
+        }
+        
+        // 保持距離排序，讓顯示更有邏輯性
+        usort($selected, function($a, $b) {
+            return $a['distance'] <=> $b['distance'];
+        });
+        
+        return $selected;
+    }
+    
+    /**
      * 顯示附近的飲料店
      */
     private function displayNearbyShops($replyToken, $shops, $searchDistance = 2.0)
@@ -1415,9 +1490,10 @@ class LineBotController extends Controller
                 return;
             }
             
-            // 限制顯示前 10 家（Carousel 限制）
-            $shops = array_slice($shops, 0, 10);
-            $this->sendToTelegram("📍 限制顯示前 " . count($shops) . " 家");
+            // 使用加權隨機選擇 10 家（給所有店家曝光機會）
+            $totalShops = count($shops);
+            $shops = $this->weightedRandomSelect($shops, 10);
+            $this->sendToTelegram("📍 從 {$totalShops} 家店中加權隨機選擇了 " . count($shops) . " 家");
             
             // 建立 Carousel 卡片
             $this->sendToTelegram("📍 開始建構 Carousel，共 " . count($shops) . " 家店");
