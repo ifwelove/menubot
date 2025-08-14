@@ -7,7 +7,7 @@ use App\Services\MenuService;
 
 class TestMenuService extends Command
 {
-    protected $signature = 'menu:test {brand_code?} {--store-id=}';
+    protected $signature = 'menu:test {brand_code?} {--store-id=} {--performance : 執行效能測試}';
     
     protected $description = '測試菜單服務，顯示 JSON 和 PHP 菜單載入狀況';
     
@@ -21,6 +21,11 @@ class TestMenuService extends Command
     
     public function handle()
     {
+        if ($this->option('performance')) {
+            $this->performanceTest();
+            return;
+        }
+        
         $brandCode = $this->argument('brand_code');
         $storeId = $this->option('store-id');
         
@@ -160,5 +165,97 @@ class TestMenuService extends Command
         $this->comment("使用方式:");
         $this->comment("  php artisan menu:test <brand_code>     - 測試特定品牌菜單");
         $this->comment("  php artisan menu:test --store-id=<id>  - 測試特定店鋪菜單");
+        $this->comment("  php artisan menu:test --performance    - 執行效能測試");
+    }
+    
+    protected function performanceTest()
+    {
+        $this->info("執行效能測試...");
+        $this->info("");
+        
+        // 顯示當前統計
+        $stats = $this->menuService->getPerformanceStats();
+        $this->info("系統狀態:");
+        $this->info("- 索引狀態: " . ($stats['index_loaded'] ? '已載入' : '未載入'));
+        $this->info("- 索引大小: " . $this->formatBytes($stats['index_size']));
+        $this->info("- 品牌數量: " . $stats['total_brands']);
+        $this->info("- 店鋪數量: " . $stats['total_stores']);
+        $this->info("- 快取驅動: " . $stats['cache_driver']);
+        $this->info("");
+        
+        // 測試案例
+        $testCases = [
+            'cocotea' => 'CoCo都可',
+            '50lantea' => '50嵐',
+            'chingshin' => '清心福全',
+            'nonexistent' => '不存在的品牌'
+        ];
+        
+        $this->info("測試載入速度:");
+        $this->info("");
+        
+        // 第一輪測試（冷啟動）
+        $this->comment("第一輪測試（無快取）:");
+        $this->menuService->clearCache();
+        
+        foreach ($testCases as $code => $name) {
+            $start = microtime(true);
+            $menu = $this->menuService->getMenuByBrandCode($code);
+            $elapsed = round((microtime(true) - $start) * 1000, 2);
+            
+            $status = $menu ? '✓' : '✗';
+            $this->line("  {$status} {$name} ({$code}): {$elapsed}ms");
+        }
+        
+        $this->info("");
+        $this->comment("第二輪測試（有快取）:");
+        
+        foreach ($testCases as $code => $name) {
+            $start = microtime(true);
+            $menu = $this->menuService->getMenuByBrandCode($code);
+            $elapsed = round((microtime(true) - $start) * 1000, 2);
+            
+            $status = $menu ? '✓' : '✗';
+            $this->line("  {$status} {$name} ({$code}): {$elapsed}ms");
+        }
+        
+        // 測試搜尋功能
+        $this->info("");
+        $this->comment("搜尋功能測試:");
+        
+        $searchTerms = ['珍珠', '奶茶', '綠茶'];
+        
+        foreach ($searchTerms as $term) {
+            $start = microtime(true);
+            $results = $this->menuService->searchMenuItem($term);
+            $elapsed = round((microtime(true) - $start) * 1000, 2);
+            
+            $this->line("  搜尋 '{$term}': 找到 " . count($results) . " 項 ({$elapsed}ms)");
+        }
+        
+        $this->info("");
+        $this->info("✅ 效能測試完成");
+        
+        // 提供優化建議
+        $this->info("");
+        $this->comment("優化建議:");
+        
+        if (!$stats['index_loaded']) {
+            $this->warn("⚠️  索引檔案未載入，請執行 php artisan menu:build-index");
+        }
+        
+        if ($stats['cache_driver'] === 'array') {
+            $this->warn("⚠️  目前使用陣列快取（僅在請求期間有效），建議使用 file 或 redis");
+        }
+    }
+    
+    protected function formatBytes($bytes)
+    {
+        if ($bytes === 0) return '0 B';
+        
+        $units = ['B', 'KB', 'MB', 'GB'];
+        $factor = floor((strlen($bytes) - 1) / 3);
+        
+        return sprintf("%.2f %s", $bytes / pow(1024, $factor), $units[$factor]);
     }
 }

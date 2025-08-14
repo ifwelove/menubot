@@ -10,11 +10,30 @@ class MenuService
 {
     protected $jsonMenuPath;
     protected $phpMenuPath;
+    protected $indexPath;
+    protected $index = null;
     
     public function __construct()
     {
         $this->jsonMenuPath = base_path('menus');
         $this->phpMenuPath = config_path('menus');
+        $this->indexPath = base_path('menus/_index.json');
+        $this->loadIndex();
+    }
+    
+    /**
+     * 載入索引檔案
+     */
+    protected function loadIndex()
+    {
+        if (File::exists($this->indexPath)) {
+            try {
+                $content = File::get($this->indexPath);
+                $this->index = json_decode($content, true);
+            } catch (\Exception $e) {
+                Log::error("Failed to load menu index: " . $e->getMessage());
+            }
+        }
     }
     
     /**
@@ -23,14 +42,18 @@ class MenuService
      */
     public function getMenuByBrandCode($brandCode)
     {
-        // 先嘗試從 JSON 載入
-        $jsonMenu = $this->loadJsonMenuByBrandCode($brandCode);
-        if ($jsonMenu) {
-            return $this->formatJsonMenu($jsonMenu);
-        }
+        $cacheKey = "menu_brand_{$brandCode}";
         
-        // 找不到 JSON 時，使用原有的 PHP 菜單
-        return $this->loadPhpMenu($brandCode);
+        return Cache::store('file')->remember($cacheKey, 3600, function () use ($brandCode) {
+            // 先嘗試從 JSON 載入
+            $jsonMenu = $this->loadJsonMenuByBrandCode($brandCode);
+            if ($jsonMenu) {
+                return $this->formatJsonMenu($jsonMenu);
+            }
+            
+            // 找不到 JSON 時，使用原有的 PHP 菜單
+            return $this->loadPhpMenu($brandCode);
+        });
     }
     
     /**
@@ -40,7 +63,7 @@ class MenuService
     {
         $cacheKey = "menu_store_{$storeId}";
         
-        return Cache::remember($cacheKey, 3600, function () use ($storeId) {
+        return Cache::store('file')->remember($cacheKey, 3600, function () use ($storeId) {
             $jsonPath = "{$this->jsonMenuPath}/{$storeId}.json";
             
             if (File::exists($jsonPath)) {
@@ -65,10 +88,37 @@ class MenuService
      */
     protected function loadJsonMenuByBrandCode($brandCode)
     {
-        // 獲取所有 JSON 檔案
+        // 優先使用索引
+        if ($this->index && isset($this->index['brand_to_stores'][$brandCode])) {
+            $storeIds = $this->index['brand_to_stores'][$brandCode];
+            
+            // 只讀取第一個店鋪的菜單
+            if (!empty($storeIds)) {
+                $storeId = $storeIds[0];
+                $jsonPath = "{$this->jsonMenuPath}/{$storeId}.json";
+                
+                if (File::exists($jsonPath)) {
+                    try {
+                        $content = File::get($jsonPath);
+                        return json_decode($content, true);
+                    } catch (\Exception $e) {
+                        Log::error("Failed to load JSON menu for store {$storeId}: " . $e->getMessage());
+                    }
+                }
+            }
+        }
+        
+        // 索引不存在或找不到時，使用舊方法（但效率較低）
+        Log::warning("Index not found or brand not in index: {$brandCode}, falling back to scan method");
+        
         $jsonFiles = File::glob("{$this->jsonMenuPath}/*.json");
         
         foreach ($jsonFiles as $file) {
+            // 跳過索引檔案
+            if (str_contains($file, '_index.json')) {
+                continue;
+            }
+            
             try {
                 $content = File::get($file);
                 $menu = json_decode($content, true);
@@ -157,6 +207,59 @@ class MenuService
      */
     public function getAllBrands()
     {
+        // 優先使用索引
+        if ($this->index && isset($this->index['brand_info'])) {
+            $brands = [];
+            foreach ($this->index['brand_info'] as $code => $info) {
+                $brands[$code] = [
+                    'code' => $code,
+                    'name' => $info['name'],
+                    'has_json' => true,
+                    'stores' => []
+                ];
+                
+                // 從索引中獲取店鋪資訊
+                if (isset($this->index['brand_to_stores'][$code])) {
+                    foreach ($this->index['brand_to_stores'][$code] as $storeId) {
+                        if (isset($this->index['store_info'][$storeId])) {
+                            $storeInfo = $this->index['store_info'][$storeId];
+                            $brands[$code]['stores'][] = [
+                                'id' => $storeId,
+                                'name' => $storeInfo['store_name'] ?? ''
+                            ];
+                        }
+                    }
+                }
+            }
+            
+            // 補充 PHP 菜單
+            $phpFiles = File::glob("{$this->phpMenuPath}/*.php");
+            foreach ($phpFiles as $file) {
+                $brandCode = basename($file, '.php');
+                if (!isset($brands[$brandCode])) {
+                    try {
+                        $menu = include $file;
+                        $brands[$brandCode] = [
+                            'code' => $brandCode,
+                            'name' => $menu['shop_name'] ?? '',
+                            'has_json' => false,
+                            'has_php' => true,
+                            'stores' => []
+                        ];
+                    } catch (\Exception $e) {
+                        Log::error("Failed to load PHP file {$file}: " . $e->getMessage());
+                    }
+                } else {
+                    $brands[$brandCode]['has_php'] = true;
+                }
+            }
+            
+            return $brands;
+        }
+        
+        // 索引不存在時使用舊方法
+        Log::warning("Menu index not available, using fallback method for getAllBrands");
+        
         $brands = [];
         
         // 從 JSON 檔案收集品牌
@@ -219,31 +322,35 @@ class MenuService
      */
     public function searchMenuItem($keyword, $brandCode = null)
     {
-        $results = [];
-        $keyword = mb_strtolower($keyword);
+        $cacheKey = "search_" . md5($keyword . '_' . ($brandCode ?? 'all'));
         
-        if ($brandCode) {
-            $menu = $this->getMenuByBrandCode($brandCode);
-            if ($menu) {
-                $results = $this->searchInMenu($menu, $keyword);
-            }
-        } else {
-            // 搜尋所有品牌
-            $brands = $this->getAllBrands();
-            foreach ($brands as $brand) {
-                $menu = $this->getMenuByBrandCode($brand['code']);
+        return Cache::store('file')->remember($cacheKey, 1800, function () use ($keyword, $brandCode) {
+            $results = [];
+            $keyword = mb_strtolower($keyword);
+            
+            if ($brandCode) {
+                $menu = $this->getMenuByBrandCode($brandCode);
                 if ($menu) {
-                    $brandResults = $this->searchInMenu($menu, $keyword);
-                    foreach ($brandResults as $result) {
-                        $result['brand_name'] = $menu['shop_name'];
-                        $result['brand_code'] = $brand['code'];
-                        $results[] = $result;
+                    $results = $this->searchInMenu($menu, $keyword);
+                }
+            } else {
+                // 搜尋所有品牌
+                $brands = $this->getAllBrands();
+                foreach ($brands as $brand) {
+                    $menu = $this->getMenuByBrandCode($brand['code']);
+                    if ($menu) {
+                        $brandResults = $this->searchInMenu($menu, $keyword);
+                        foreach ($brandResults as $result) {
+                            $result['brand_name'] = $menu['shop_name'];
+                            $result['brand_code'] = $brand['code'];
+                            $results[] = $result;
+                        }
                     }
                 }
             }
-        }
-        
-        return $results;
+            
+            return $results;
+        });
     }
     
     /**
@@ -268,5 +375,50 @@ class MenuService
         }
         
         return $results;
+    }
+    
+    /**
+     * 清除所有菜單快取
+     */
+    public function clearCache()
+    {
+        Cache::store('file')->flush();
+        Log::info('Menu cache cleared');
+    }
+    
+    /**
+     * 重新載入索引
+     */
+    public function reloadIndex()
+    {
+        $this->index = null;
+        $this->loadIndex();
+        $this->clearCache();
+        Log::info('Menu index reloaded');
+    }
+    
+    /**
+     * 獲取效能統計
+     */
+    public function getPerformanceStats()
+    {
+        $stats = [
+            'index_loaded' => !is_null($this->index),
+            'index_size' => 0,
+            'total_brands' => 0,
+            'total_stores' => 0,
+            'cache_driver' => config('cache.default')
+        ];
+        
+        if ($this->index) {
+            $stats['total_brands'] = count($this->index['brand_to_stores'] ?? []);
+            $stats['total_stores'] = count($this->index['store_info'] ?? []);
+            
+            if (File::exists($this->indexPath)) {
+                $stats['index_size'] = filesize($this->indexPath);
+            }
+        }
+        
+        return $stats;
     }
 }

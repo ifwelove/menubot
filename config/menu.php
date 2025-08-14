@@ -229,6 +229,9 @@ return [
            'monmonday' => '漫漫點',
            'missingtea' => '思茶 手作飲品',
            'milkshoptea' => '迷客夏',
+           'chatime' => '日出茶太',
+           'chaforteatogo' => '天仁喫茶趣ToGo',
+           'tigersugar' => '老虎堂',
        ]
     ],
 ];
