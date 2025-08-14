@@ -17,7 +17,6 @@ return [
         'supermilktea' => '顏太煮奶茶',
         'shisheng' => '十盛奶茶專賣',
         'nuttea' => 'NUTTEA堅果奶茶',
-        'afterus' => '厚奶的我們',
     ],
 
     '水果茶' => [

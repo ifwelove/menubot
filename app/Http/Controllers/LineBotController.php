@@ -688,10 +688,13 @@ class LineBotController extends Controller
         // 隨機選擇最多10家顯示
         $selectedShops = array_slice($topShops, 0, 10, true);
         $columns = [];
+        $skippedShops = [];
 
         foreach ($selectedShops as $shopCode => $shopName) {
             $shop = $this->menuService->getMenuByBrandCode($shopCode);
             if (!$shop) {
+                $skippedShops[] = "{$shopName} ({$shopCode})";
+                $this->sendToTelegram("⚠️ 無法載入TOP店家菜單: {$shopName} ({$shopCode})");
                 continue;
             }
 
@@ -711,6 +714,13 @@ class LineBotController extends Controller
             $carouselTemplateBuilder = new CarouselTemplateBuilder($columns);
             $templateMessage = new TemplateMessageBuilder('TOP熱門店家', $carouselTemplateBuilder);
             $this->bot->replyMessage($replyToken, $templateMessage);
+        } else {
+            // 如果所有店家都被跳過，顯示錯誤訊息
+            $errorMsg = "抱歉，TOP熱門店家的菜單目前無法載入。";
+            if (!empty($skippedShops)) {
+                $errorMsg .= "\n\n無法載入的店家：\n" . implode("\n", $skippedShops);
+            }
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder($errorMsg));
         }
     }
 
@@ -805,10 +815,13 @@ class LineBotController extends Controller
         // 限制顯示數量
         $shops = array_slice($shops, 0, 10, true);
         $columns = [];
+        $skippedShops = [];
 
         foreach ($shops as $shopCode => $shopName) {
             $shop = $this->menuService->getMenuByBrandCode($shopCode);
             if (!$shop) {
+                $skippedShops[] = "{$shopName} ({$shopCode})";
+                $this->sendToTelegram("⚠️ 無法載入店家菜單: {$shopName} ({$shopCode})");
                 continue;
             }
 
@@ -828,6 +841,13 @@ class LineBotController extends Controller
             $carouselTemplateBuilder = new CarouselTemplateBuilder($columns);
             $templateMessage = new TemplateMessageBuilder($title, $carouselTemplateBuilder);
             $this->bot->replyMessage($replyToken, $templateMessage);
+        } else {
+            // 如果所有店家都被跳過，顯示錯誤訊息
+            $errorMsg = "抱歉，{$title} 的店家菜單目前無法載入。";
+            if (!empty($skippedShops)) {
+                $errorMsg .= "\n\n無法載入的店家：\n" . implode("\n", $skippedShops);
+            }
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder($errorMsg));
         }
     }
 
