@@ -268,6 +268,16 @@ class LineBotController extends Controller
                         } elseif ($postbackData['action'] == 'random') {
                             // 執行「喝什麼」功能
                             $this->showRandomShop($event['replyToken']);
+                        } elseif ($postbackData['action'] == 'random_brand') {
+                            // 執行隨機品牌推薦
+                            $this->showRandomBrand($event['replyToken']);
+                        } elseif ($postbackData['action'] == 'request_location_for_random') {
+                            // 請求位置來進行附近隨機推薦
+                            $userId = $event['source']['userId'] ?? null;
+                            if ($userId) {
+                                Cache::put("user_action_{$userId}", 'random_nearby', 300); // 暫存 5 分鐘
+                            }
+                            $this->requestLocationForRandom($event['replyToken']);
                         } elseif ($postbackData['action'] == 'shoplist') {
                             // 執行「飲料店」功能
                             $this->replyWithShopList($event['replyToken']);
@@ -705,9 +715,48 @@ class LineBotController extends Controller
     }
 
     /**
-     * 顯示隨機一家店
+     * 顯示隨機推薦選項
      */
     private function showRandomShop($replyToken)
+    {
+        // 取得使用者 ID 來設定狀態
+        $userId = null;
+        if (isset($event['source']['userId'])) {
+            $userId = $event['source']['userId'];
+        }
+        
+        // 建立 Quick Reply 按鈕
+        $quickReplyButtons = [
+            new QuickReplyButtonBuilder(
+                new PostbackTemplateActionBuilder(
+                    '🎲 隨機推薦品牌',
+                    'action=random_brand'
+                )
+            ),
+            new QuickReplyButtonBuilder(
+                new PostbackTemplateActionBuilder(
+                    '📍 附近隨機推薦',
+                    'action=request_location_for_random'
+                )
+            )
+        ];
+        
+        $quickReply = new QuickReplyMessageBuilder($quickReplyButtons);
+        
+        $message = "請選擇推薦方式：\n\n";
+        $message .= "🎲 隨機推薦品牌\n";
+        $message .= "從所有品牌中隨機選擇一家\n\n";
+        $message .= "📍 附近隨機推薦\n";
+        $message .= "從您附近 1km 內的店家隨機選擇";
+        
+        $textMessage = new TextMessageBuilder($message, $quickReply);
+        $this->bot->replyMessage($replyToken, $textMessage);
+    }
+    
+    /**
+     * 顯示隨機品牌
+     */
+    private function showRandomBrand($replyToken)
     {
         $shops = config('menu.shops.drink');
 
@@ -977,6 +1026,23 @@ class LineBotController extends Controller
         
         $this->sendToTelegram("📍 收到位置: {$latitude}, {$longitude}\n地址: {$address}");
         
+        // 檢查是否是從隨機推薦來的位置分享
+        $textBefore = $event['message']['text'] ?? '';
+        if (strpos($textBefore, '附近隨機推薦') !== false || 
+            ($userId && Cache::get("user_action_{$userId}") === 'random_nearby')) {
+            
+            // 清除暫存狀態
+            if ($userId) {
+                Cache::forget("user_action_{$userId}");
+            }
+            
+            $this->sendToTelegram("🎲 執行附近隨機推薦");
+            
+            // 執行附近隨機推薦
+            $this->randomNearbyShop($event['replyToken'], $latitude, $longitude);
+            return;
+        }
+        
         // 檢查是否有自訂搜尋的距離設定
         if ($userId) {
             $customDistance = Cache::get("custom_search_distance_{$userId}");
@@ -1151,6 +1217,107 @@ class LineBotController extends Controller
         $c = 2 * atan2(sqrt($a), sqrt(1-$a));
         
         return $earthRadius * $c;
+    }
+    
+    /**
+     * 請求位置來進行附近隨機推薦
+     */
+    private function requestLocationForRandom($replyToken)
+    {
+        $quickReplyButtons = [
+            new QuickReplyButtonBuilder(
+                new LocationTemplateActionBuilder('📍 分享位置'),
+                null
+            )
+        ];
+        
+        $quickReply = new QuickReplyMessageBuilder($quickReplyButtons);
+        
+        $message = "請分享您的位置，我會從您附近 1 公里內隨機推薦一家飲料店給您！";
+        
+        $textMessage = new TextMessageBuilder($message, $quickReply);
+        $this->bot->replyMessage($replyToken, $textMessage);
+    }
+    
+    /**
+     * 隨機推薦附近的店家
+     */
+    private function randomNearbyShop($replyToken, $userLat, $userLng)
+    {
+        // 使用 1km 作為預設搜尋範圍
+        $searchDistance = 1.0;
+        
+        $this->sendToTelegram("📍 開始搜尋附近 {$searchDistance}km 內的隨機店家");
+        
+        // 找出附近的店家
+        $nearbyShops = [];
+        $nidinData = $this->shopSearchService->getNidinShops();
+        
+        foreach ($nidinData as $shopCode => $stores) {
+            $shopName = config("menu.shops.drink.{$shopCode}");
+            if (!$shopName) {
+                continue;
+            }
+            
+            foreach ($stores as $store) {
+                if (empty($store['latitude']) || empty($store['longitude'])) {
+                    continue;
+                }
+                
+                $distance = $this->calculateDistance(
+                    $userLat, $userLng, 
+                    (float)$store['latitude'], 
+                    (float)$store['longitude']
+                );
+                
+                if ($distance <= $searchDistance) {
+                    $nearbyShops[] = [
+                        'shop_code' => $shopCode,
+                        'shop_name' => $shopName,
+                        'branch_name' => $store['name'] ?? $store['name_short'] ?? '分店',
+                        'address' => $store['address'] ?? '',
+                        'distance' => round($distance, 2),
+                    ];
+                }
+            }
+        }
+        
+        $this->sendToTelegram("📍 找到 " . count($nearbyShops) . " 家附近的店");
+        
+        if (empty($nearbyShops)) {
+            $message = "您附近 1 公里內沒有找到飲料店 😢\n\n";
+            $message .= "要不要試試看隨機推薦品牌？";
+            
+            // 提供 Quick Reply 選項
+            $quickReplyButtons = [
+                new QuickReplyButtonBuilder(
+                    new PostbackTemplateActionBuilder(
+                        '🎲 隨機推薦品牌',
+                        'action=random_brand'
+                    )
+                )
+            ];
+            
+            $quickReply = new QuickReplyMessageBuilder($quickReplyButtons);
+            $textMessage = new TextMessageBuilder($message, $quickReply);
+            $this->bot->replyMessage($replyToken, $textMessage);
+            return;
+        }
+        
+        // 隨機選擇一家
+        $randomIndex = array_rand($nearbyShops);
+        $selectedShop = $nearbyShops[$randomIndex];
+        
+        $this->sendToTelegram("📍 隨機選中：{$selectedShop['shop_name']} {$selectedShop['branch_name']}");
+        
+        // 載入並顯示菜單
+        $shop = $this->menuService->getMenuByBrandCode($selectedShop['shop_code']);
+        if ($shop) {
+            $distance = $selectedShop['distance'];
+            $branchName = $selectedShop['branch_name'];
+            $title = "📍 為您推薦附近 {$distance}km 的：\n{$shop['shop_name']} {$branchName}";
+            $this->replyWithShopMenu($replyToken, $shop, $title);
+        }
     }
 
     /**
