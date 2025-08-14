@@ -5,14 +5,11 @@
     "name": "甘鹿兒"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:17:16.799944",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:03:35.353787",
+    "total_regions_searched": 371,
+    "regions_with_stores": 3,
     "total_stores": 1,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -46,8 +43,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -94,7 +91,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 11853,
+      "distance": 7766,
       "in_avail_nidin_league": 0
     }
   ]

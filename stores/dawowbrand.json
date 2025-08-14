@@ -5,14 +5,11 @@
     "name": "大王茶迷"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:18:36.840415",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:09:44.594280",
+    "total_regions_searched": 371,
+    "regions_with_stores": 4,
     "total_stores": 1,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -46,8 +43,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -99,7 +96,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 78240,
+      "distance": 75968,
       "in_avail_nidin_league": 0
     }
   ]

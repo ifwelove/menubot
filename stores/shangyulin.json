@@ -5,88 +5,13 @@
     "name": "上宇林"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:15:29.265426",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T09:54:16.849161",
+    "total_regions_searched": 371,
+    "regions_with_stores": 180,
     "total_stores": 10,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
-    {
-      "brand_id": 187,
-      "brand_code": "shangyulin",
-      "brand_name": "上宇林",
-      "brand_photo": null,
-      "id": 17777,
-      "name": "中壢日新店",
-      "name_short": "中壢日新店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_17210_icon_20231017_105220_83a03.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.23839330000000000000",
-      "latitude": "24.95417300000000000000",
-      "address": "桃園市中壢區日新路7號",
-      "address_remark": "",
-      "tel": "034650021",
-      "order_status": 20,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 2,
-      "rating_average_star": 5,
-      "rating_order_count": 1,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 0,
-      "distance": 41809,
-      "in_avail_nidin_league": 0
-    },
     {
       "brand_id": 187,
       "brand_code": "shangyulin",
@@ -118,8 +43,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -156,7 +81,79 @@
         }
       ],
       "store_allow_order": 0,
-      "distance": 41816,
+      "distance": 70579,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 187,
+      "brand_code": "shangyulin",
+      "brand_name": "上宇林",
+      "brand_photo": null,
+      "id": 17777,
+      "name": "中壢日新店",
+      "name_short": "中壢日新店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_17210_icon_20231017_105220_83a03.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.23839330000000000000",
+      "latitude": "24.95417300000000000000",
+      "address": "桃園市中壢區日新路7號",
+      "address_remark": "",
+      "tel": "034650021",
+      "order_status": 20,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 70586,
       "in_avail_nidin_league": 0
     },
     {
@@ -190,8 +187,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -228,7 +225,7 @@
         }
       ],
       "store_allow_order": 0,
-      "distance": 55370,
+      "distance": 84133,
       "in_avail_nidin_league": 0
     },
     {
@@ -262,8 +259,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -300,7 +297,7 @@
         }
       ],
       "store_allow_order": 0,
-      "distance": 78053,
+      "distance": 106467,
       "in_avail_nidin_league": 0
     },
     {
@@ -334,8 +331,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -372,7 +369,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 82565,
+      "distance": 111177,
       "in_avail_nidin_league": 0
     },
     {
@@ -406,8 +403,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -444,7 +441,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 82949,
+      "distance": 111594,
       "in_avail_nidin_league": 0
     },
     {
@@ -478,8 +475,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -516,7 +513,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 83512,
+      "distance": 112184,
       "in_avail_nidin_league": 0
     },
     {
@@ -550,8 +547,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -597,8 +594,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 97724,
+      "store_allow_order": 0,
+      "distance": 125941,
       "in_avail_nidin_league": 0
     },
     {
@@ -632,10 +629,10 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
-      "is_off_day": 0,
+      "is_off_day": 1,
       "order_start_time": "10:30:00",
       "order_end_time": "20:30:00",
       "delivery_way_description": "最低滿200外送",
@@ -679,8 +676,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 101616,
+      "store_allow_order": 0,
+      "distance": 129919,
       "in_avail_nidin_league": 0
     },
     {
@@ -714,8 +711,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -762,7 +759,7 @@
         }
       ],
       "store_allow_order": 0,
-      "distance": 118173,
+      "distance": 115343,
       "in_avail_nidin_league": 0
     }
   ]

@@ -5,14 +5,11 @@
     "name": "錨起來喝"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:16:44.441856",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:01:03.499758",
+    "total_regions_searched": 371,
+    "regions_with_stores": 111,
     "total_stores": 3,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -46,8 +43,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -119,7 +116,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 2429,
+      "distance": 29966,
       "in_avail_nidin_league": 0
     },
     {
@@ -226,7 +223,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 2723,
+      "distance": 31086,
       "in_avail_nidin_league": 0
     },
     {
@@ -252,7 +249,7 @@
       "order_start_day": 0,
       "order_tolerance_day": 2,
       "rating_average_star": 4.97,
-      "rating_order_count": 59,
+      "rating_order_count": 60,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 1,
@@ -323,7 +320,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 32261,
+      "distance": 60235,
       "in_avail_nidin_league": 0
     }
   ]

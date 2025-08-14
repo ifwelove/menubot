@@ -5,14 +5,11 @@
     "name": "双十八木"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:18:18.646486",
-    "total_pages": 0,
-    "total_stores": 2,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T10:07:53.649001",
+    "total_regions_searched": 371,
+    "regions_with_stores": 9,
+    "total_stores": 23,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -104,7 +101,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 17397,
+      "distance": 38608,
       "in_avail_nidin_league": 0
     },
     {
@@ -138,8 +135,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "22:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -216,7 +213,1964 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 41431,
+      "distance": 62638,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 19179,
+      "name": "台中大里門市",
+      "name_short": "台中大里門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.68909640000000000000",
+      "latitude": "24.10507160000000000000",
+      "address": "台中市大里區長榮里中興路二段149號1樓",
+      "address_remark": "",
+      "tel": "04-24833200",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.86,
+      "rating_order_count": 88,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:15:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:15:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 300
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 1044,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 13389,
+      "name": "台中大智門市",
+      "name_short": "台中大智門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.68850400000000000000",
+      "latitude": "24.13589800000000000000",
+      "address": "台中市東區大智路19號",
+      "address_remark": "",
+      "tel": "04-22232188",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.66,
+      "rating_order_count": 110,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿35外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 35,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 35,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4596,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 15451,
+      "name": "台中逢甲門市",
+      "name_short": "台中逢甲門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.64512830000000000000",
+      "latitude": "24.18079310000000000000",
+      "address": "台中市西屯區西平里福星路345號",
+      "address_remark": "",
+      "tel": "04-24524838",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.74,
+      "rating_order_count": 42,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 300
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 11950,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 20250,
+      "name": "彰化員林門市",
+      "name_short": "彰化員林門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.58101430000000000000",
+      "latitude": "23.96047080000000000000",
+      "address": "彰化縣員林市三民東街293號",
+      "address_remark": "",
+      "tel": "04-8397753",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.9,
+      "rating_order_count": 60,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:40:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:40:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 24633,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 16429,
+      "name": "雲林虎尾門市",
+      "name_short": "雲林虎尾門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.43163100000000000000",
+      "latitude": "23.70654950000000000000",
+      "address": "雲林縣虎尾鎮中正路227號",
+      "address_remark": "雲林縣虎尾鎮中正路227號",
+      "tel": "05-6328779",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.9,
+      "rating_order_count": 71,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:50:00",
+      "end_time": "21:40:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:50:00",
+      "order_end_time": "21:40:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 66165,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 15256,
+      "name": "嘉義民雄門市",
+      "name_short": "嘉義民雄門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.43086440000000000000",
+      "latitude": "23.55528480000000000000",
+      "address": "嘉義縣民雄鄉民族路8號",
+      "address_remark": "",
+      "tel": "05-2269806",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.95,
+      "rating_order_count": 141,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 85773,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 23989,
+      "name": "嘉義朴子門市",
+      "name_short": "嘉義朴子門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.25704210000000000000",
+      "latitude": "23.44641520000000000000",
+      "address": "嘉義縣朴子市文化里山通路103號",
+      "address_remark": "1樓",
+      "tel": "05-3706085",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 1,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 110191,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 17909,
+      "name": "台南新營門市",
+      "name_short": "台南新營門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.30874310000000000000",
+      "latitude": "23.30316890000000000000",
+      "address": "台南市新營區民榮里復興路139-1號",
+      "address_remark": "",
+      "tel": "06-6322236",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.95,
+      "rating_order_count": 37,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "19:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125524,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 18235,
+      "name": "高雄岡山門市",
+      "name_short": "高雄岡山門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.30192710000000000000",
+      "latitude": "22.79906780000000000000",
+      "address": "高雄市岡山區大仁北路182號1樓",
+      "address_remark": "",
+      "tel": "07-6225202",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.99,
+      "rating_order_count": 171,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:50:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:50:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 100
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 24698,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 24364,
+      "name": "屏東廣東門市",
+      "name_short": "屏東廣東門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.50060380000000000000",
+      "latitude": "22.68167370000000000000",
+      "address": "屏東縣屏東市廣東路494號",
+      "address_remark": "",
+      "tel": "08-7361028",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 6,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 27447,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 13558,
+      "name": "台南歸仁門市",
+      "name_short": "台南歸仁門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.29196810000000000000",
+      "latitude": "22.96711700000000000000",
+      "address": "台南市歸仁區中山路二段72號",
+      "address_remark": "",
+      "tel": "06-2300823",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.86,
+      "rating_order_count": 56,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 27572,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 15208,
+      "name": "台南東寧門市",
+      "name_short": "台南東寧門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.22666460000000000000",
+      "latitude": "22.99027600000000000000",
+      "address": "台南市東區東寧路294號",
+      "address_remark": "",
+      "tel": "06-2088183",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 15,
+      "rating_average_star": 4.57,
+      "rating_order_count": 53,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 36801,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 13618,
+      "name": "台南開元門市",
+      "name_short": "台南開元門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.22745140000000000000",
+      "latitude": "23.01208800000000000000",
+      "address": "台南市永康區中山南路22號",
+      "address_remark": "",
+      "tel": "06-3036698",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 15,
+      "rating_average_star": 4.71,
+      "rating_order_count": 68,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:50:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:50:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 38285,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 13305,
+      "name": "台南南科門市(新市創始)",
+      "name_short": "台南南科門市(新市創始)",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.28869480000000000000",
+      "latitude": "23.07766990000000000000",
+      "address": "台南市新市區新和里民權路88號",
+      "address_remark": "",
+      "tel": "06-5896711",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.74,
+      "rating_order_count": 143,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 38444,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 22611,
+      "name": "台南鹽行門市",
+      "name_short": "台南鹽行門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.24217310000000000000",
+      "latitude": "23.04080330000000000000",
+      "address": "台南市永康區新行街112號",
+      "address_remark": "",
+      "tel": "06-2435508",
+      "order_status": 20,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 10,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 39092,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 23179,
+      "name": "台南新都門市",
+      "name_short": "台南新都門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.19220360000000000000",
+      "latitude": "22.96724490000000000000",
+      "address": "台南市南區明亮里新都路502號",
+      "address_remark": "1樓",
+      "tel": "06-2630705",
+      "order_status": 20,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 39632,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 13555,
+      "name": "台南民生門市",
+      "name_short": "台南民生門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.19633800000000000000",
+      "latitude": "22.99559730000000000000",
+      "address": "台南市中西區民生路二段108號",
+      "address_remark": "台南市中西區民生路二段108號",
+      "tel": "06-2230202",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.61,
+      "rating_order_count": 51,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "00:00:00",
+      "end_time": "23:59:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "00:00:00",
+      "order_end_time": "23:59:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 40749,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 17014,
+      "name": "高雄瑞隆門市",
+      "name_short": "高雄瑞隆門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.32771640000000000000",
+      "latitude": "22.60536880000000000000",
+      "address": "高雄市前鎮區瑞隆路532號",
+      "address_remark": "",
+      "tel": "07-7215925",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.91,
+      "rating_order_count": 70,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 42624,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 13531,
+      "name": "台南郡平門市",
+      "name_short": "台南郡平門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.16912680000000000000",
+      "latitude": "22.98915050000000000000",
+      "address": "台南市安平區國平里郡平路142號",
+      "address_remark": "",
+      "tel": "06-2956695",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 1,
+      "rating_average_star": 4.79,
+      "rating_order_count": 53,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 43660,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 13311,
+      "name": "台南善化總門市",
+      "name_short": "台南善化總門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "120.29806850000000000000",
+      "latitude": "23.13182730000000000000",
+      "address": "台南市善化區和平路180號",
+      "address_remark": "",
+      "tel": "06-5832805",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.76,
+      "rating_order_count": 187,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿25外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 25,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 25,
+          "order_min_distance_m": 100
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 44105,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1467,
+      "brand_code": "double18tea",
+      "brand_name": "双十八木",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1467_fcb85dc8ca37847b.jpg",
+      "id": 15253,
+      "name": "台東更生門市",
+      "name_short": "台東更生門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1467_icon_20221004_163734_eab41.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1467_fcb85dc8ca37847b.jpg",
+      "description": null,
+      "longitude": "121.13809130000000000000",
+      "latitude": "22.76597080000000000000",
+      "address": "台東縣臺東市更生路627號",
+      "address_remark": "",
+      "tel": "089-238383",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.73,
+      "rating_order_count": 49,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿30外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 30,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 90374,
       "in_avail_nidin_league": 0
     }
   ]

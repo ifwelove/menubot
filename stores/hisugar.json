@@ -5,14 +5,11 @@
     "name": "HiSugar：嗨糖"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:15:27.846091",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T09:54:07.376204",
+    "total_regions_searched": 371,
+    "regions_with_stores": 105,
     "total_stores": 1,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -115,7 +112,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 2140,
+      "distance": 30848,
       "in_avail_nidin_league": 0
     }
   ]

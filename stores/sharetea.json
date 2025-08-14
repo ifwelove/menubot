@@ -1,0 +1,93 @@
+{
+  "brand_info": {
+    "id": 1165,
+    "brand_code": "sharetea",
+    "name": "歇腳亭"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-14T10:05:11.222617",
+    "total_regions_searched": 371,
+    "regions_with_stores": 1,
+    "total_stores": 1,
+    "coverage": "全台所有县市区域"
+  },
+  "stores": [
+    {
+      "brand_id": 1165,
+      "brand_code": "sharetea",
+      "brand_name": "歇腳亭",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1165_5ee190559dfe62de.jpg",
+      "id": 11599,
+      "name": "逢甲文華店",
+      "name_short": "逢甲文華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1165_icon_20220519_114410_03ace.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1165_5ee190559dfe62de.jpg",
+      "description": null,
+      "longitude": "120.64620670000000000000",
+      "latitude": "24.18317140000000000000",
+      "address": "台中市西屯區文華路223號1樓",
+      "address_remark": "",
+      "tel": "04-2452-1358",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "23:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "23:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 129593,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

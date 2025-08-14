@@ -5,14 +5,11 @@
     "name": "兩良紅茶"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:16:40.328556",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:00:34.889776",
+    "total_regions_searched": 371,
+    "regions_with_stores": 105,
     "total_stores": 3,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -41,7 +38,7 @@
       "rating_order_count": 3,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
+      "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
       "start_time": "09:40:00",
@@ -99,7 +96,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5754,
+      "distance": 2085,
       "in_avail_nidin_league": 0
     },
     {
@@ -176,7 +173,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 6704,
+      "distance": 5184,
       "in_avail_nidin_league": 0
     },
     {
@@ -263,7 +260,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 9658,
+      "distance": 5899,
       "in_avail_nidin_league": 0
     }
   ]

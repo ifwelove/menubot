@@ -5,14 +5,11 @@
     "name": "台茶1号"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:15:38.572899",
-    "total_pages": 0,
-    "total_stores": 1,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T09:55:22.171497",
+    "total_regions_searched": 371,
+    "regions_with_stores": 221,
+    "total_stores": 3,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -46,48 +43,63 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
       "order_end_time": "20:00:00",
-      "delivery_way_description": "最低滿300外送",
+      "delivery_way_description": "最低滿350外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 300,
+          "order_min_price": 350,
           "order_min_distance_m": 0
         },
         {
           "delivery_type": 3,
-          "order_min_price": 300,
+          "order_min_price": 350,
           "order_min_distance_m": 800
         },
         {
           "delivery_type": 3,
-          "order_min_price": 500,
+          "order_min_price": 450,
           "order_min_distance_m": 1000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 800,
+          "order_min_price": 550,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
           "order_min_distance_m": 3000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 10000
+          "order_min_price": 750,
+          "order_min_distance_m": 4000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 15000
+          "order_min_price": 850,
+          "order_min_distance_m": 5000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 20000
+          "order_min_price": 950,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 8000
         }
       ],
       "meal_tag_info": [
@@ -99,7 +111,176 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 11079,
+      "distance": 14775,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 343,
+      "brand_code": "teafect1",
+      "brand_name": "台茶1号",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/343_d8d005e9471e2425.jpg",
+      "id": 23698,
+      "name": "豐原豐東店",
+      "name_short": "豐原豐東店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_343_icon_20200422_143056_84859.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.72875160000000000000",
+      "latitude": "24.24613480000000000000",
+      "address": "台中市豐原區豐東路51-1號",
+      "address_remark": "",
+      "tel": "04-25282628",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿35外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 35,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 35,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125168,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 343,
+      "brand_code": "teafect1",
+      "brand_name": "台茶1号",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/343_d8d005e9471e2425.jpg",
+      "id": 2807,
+      "name": "潭子圓通店",
+      "name_short": "潭子圓通店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_343_icon_20200422_143056_84859.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_2807_photo_20200710_111112_a0f42.jpg",
+      "description": null,
+      "longitude": "120.70186130000000000000",
+      "latitude": "24.20723270000000000000",
+      "address": "台中市潭子區圓通南路289號",
+      "address_remark": "",
+      "tel": "04-25337663",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.67,
+      "rating_order_count": 15,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 123040,
       "in_avail_nidin_league": 0
     }
   ]

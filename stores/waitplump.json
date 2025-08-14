@@ -5,14 +5,11 @@
     "name": "微胖手作茶飲"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:17:07.181081",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:02:35.133168",
+    "total_regions_searched": 371,
+    "regions_with_stores": 4,
     "total_stores": 2,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -46,8 +43,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -79,7 +76,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 1153,
+      "distance": 4911,
       "in_avail_nidin_league": 0
     },
     {
@@ -113,8 +110,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -146,7 +143,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5706,
+      "distance": 9489,
       "in_avail_nidin_league": 0
     }
   ]

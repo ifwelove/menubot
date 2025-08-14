@@ -5,14 +5,11 @@
     "name": "萬波島嶼紅茶Wanpo Tea Shop"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:16:33.413278",
-    "total_pages": 1,
-    "total_stores": 34,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T09:59:46.033791",
+    "total_regions_searched": 371,
+    "regions_with_stores": 358,
+    "total_stores": 70,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -20,25 +17,25 @@
       "brand_code": "wanpoteashop",
       "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 22185,
-      "name": "台北中山店",
-      "name_short": "台北中山店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3933_icon_20210714_101252_c28c5.jpg",
+      "id": 7975,
+      "name": "中和民樂店",
+      "name_short": "中和民樂店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
       "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
       "description": null,
-      "longitude": "121.52255600000000000000",
-      "latitude": "25.05634860000000000000",
-      "address": "台北市中山區中山北路二段52之1號",
+      "longitude": "121.48153650000000000000",
+      "latitude": "25.00107250000000000000",
+      "address": "新北市中和區民樂路4號",
       "address_remark": "",
-      "tel": "(02)2511-0691",
+      "tel": "02-8228-2221",
       "order_status": 10,
       "is_off_allow_order": 0,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
-      "order_tolerance_day": 10,
-      "rating_average_star": 4.64,
-      "rating_order_count": 14,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.78,
+      "rating_order_count": 392,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
@@ -46,171 +43,12 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
       "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿500外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 1500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 2500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 3000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 2092,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 7921,
-      "name": "台北八德店",
-      "name_short": "台北八德店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.55691790000000000000",
-      "latitude": "25.04824930000000000000",
-      "address": "台北市松山區八德路三段223-1號1樓",
-      "address_remark": "",
-      "tel": "02-2578-9833",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.85,
-      "rating_order_count": 181,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "17:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "17:30:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 2565,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 22641,
-      "name": "台北大安店",
-      "name_short": "台北大安店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.54631380000000000000",
-      "latitude": "25.03617110000000000000",
-      "address": "台北市大安區東豐街35號",
-      "address_remark": "",
-      "tel": "(02)2706-4888",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 10,
-      "rating_average_star": 4.63,
-      "rating_order_count": 8,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "17:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "17:30:00",
       "delivery_way_description": "最低滿200外送",
       "delivery_info": [
         {
@@ -222,26 +60,6 @@
           "delivery_type": 3,
           "order_min_price": 200,
           "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4500
         }
       ],
       "meal_tag_info": [
@@ -253,7 +71,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 2634,
+      "distance": 4531,
       "in_avail_nidin_league": 0
     },
     {
@@ -287,8 +105,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "19:15:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -365,7 +183,618 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 3624,
+      "distance": 4626,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 22641,
+      "name": "台北大安店",
+      "name_short": "台北大安店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.54631380000000000000",
+      "latitude": "25.03617110000000000000",
+      "address": "台北市大安區東豐街35號",
+      "address_remark": "",
+      "tel": "(02)2706-4888",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.63,
+      "rating_order_count": 8,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "17:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "17:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5589,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 22185,
+      "name": "台北中山店",
+      "name_short": "台北中山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3933_icon_20210714_101252_c28c5.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.52255600000000000000",
+      "latitude": "25.05634860000000000000",
+      "address": "台北市中山區中山北路二段52之1號",
+      "address_remark": "",
+      "tel": "(02)2511-0691",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.64,
+      "rating_order_count": 14,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6711,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 9532,
+      "name": "板橋府中店",
+      "name_short": "板橋府中店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.46118560000000000000",
+      "latitude": "25.00756320000000000000",
+      "address": "新北市板橋區重慶路34號",
+      "address_remark": "",
+      "tel": "02-2958-2888",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.78,
+      "rating_order_count": 187,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7012,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7948,
+      "name": "木柵保儀店",
+      "name_short": "木柵保儀店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.56846040000000000000",
+      "latitude": "24.98872280000000000000",
+      "address": "台北市文山區保儀路4號",
+      "address_remark": "",
+      "tel": "02-2936-8688",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.91,
+      "rating_order_count": 93,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "18:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7730,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7921,
+      "name": "台北八德店",
+      "name_short": "台北八德店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.55691790000000000000",
+      "latitude": "25.04824930000000000000",
+      "address": "台北市松山區八德路三段223-1號1樓",
+      "address_remark": "",
+      "tel": "02-2578-9833",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.85,
+      "rating_order_count": 181,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "17:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "17:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7794,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 13669,
+      "name": "土城裕民店",
+      "name_short": "土城裕民店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.44760920000000000000",
+      "latitude": "24.98854190000000000000",
+      "address": "新北市土城區裕民路22號",
+      "address_remark": "",
+      "tel": "02-82626656",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.62,
+      "rating_order_count": 50,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 9326,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 21315,
+      "name": "新莊宏匯店",
+      "name_short": "新莊宏匯店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.45077110000000000000",
+      "latitude": "25.05687630000000000000",
+      "address": "新北市新莊區中港路680號",
+      "address_remark": "1樓",
+      "tel": "(02)8521-2812",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.35,
+      "rating_order_count": 26,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10720,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7984,
+      "name": "三重徐匯店",
+      "name_short": "三重徐匯店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.48142320000000000000",
+      "latitude": "25.07993900000000000000",
+      "address": "新北市三重區三和路四段229號",
+      "address_remark": "",
+      "tel": "02-8281-5930",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.83,
+      "rating_order_count": 132,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 35000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10925,
       "in_avail_nidin_league": 0
     },
     {
@@ -399,8 +828,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -457,372 +886,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 4390,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 7984,
-      "name": "三重徐匯店",
-      "name_short": "三重徐匯店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.48142320000000000000",
-      "latitude": "25.07993900000000000000",
-      "address": "新北市三重區三和路四段229號",
-      "address_remark": "",
-      "tel": "02-8281-5930",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 14,
-      "rating_average_star": 4.83,
-      "rating_order_count": 132,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 15000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 35000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 8388,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 7948,
-      "name": "木柵保儀店",
-      "name_short": "木柵保儀店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.56846040000000000000",
-      "latitude": "24.98872280000000000000",
-      "address": "台北市文山區保儀路4號",
-      "address_remark": "",
-      "tel": "02-2936-8688",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.91,
-      "rating_order_count": 93,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "18:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "18:00:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10058,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 7975,
-      "name": "中和民樂店",
-      "name_short": "中和民樂店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.48153650000000000000",
-      "latitude": "25.00107250000000000000",
-      "address": "新北市中和區民樂路4號",
-      "address_remark": "",
-      "tel": "02-8228-2221",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.78,
-      "rating_order_count": 392,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 1000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10511,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 21315,
-      "name": "新莊宏匯店",
-      "name_short": "新莊宏匯店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.45077110000000000000",
-      "latitude": "25.05687630000000000000",
-      "address": "新北市新莊區中港路680號",
-      "address_remark": "1樓",
-      "tel": "(02)8521-2812",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 10,
-      "rating_average_star": 4.35,
-      "rating_order_count": 26,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "22:00:00",
-      "delivery_way_description": "最低滿150外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 11461,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 9532,
-      "name": "板橋府中店",
-      "name_short": "板橋府中店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.46118560000000000000",
-      "latitude": "25.00756320000000000000",
-      "address": "新北市板橋區重慶路34號",
-      "address_remark": "",
-      "tel": "02-2958-2888",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.78,
-      "rating_order_count": 187,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 12005,
+      "distance": 11184,
       "in_avail_nidin_league": 0
     },
     {
@@ -856,8 +920,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -884,233 +948,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 13422,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 13669,
-      "name": "土城裕民店",
-      "name_short": "土城裕民店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.44760920000000000000",
-      "latitude": "24.98854190000000000000",
-      "address": "新北市土城區裕民路22號",
-      "address_remark": "",
-      "tel": "02-82626656",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 10,
-      "rating_average_star": 4.62,
-      "rating_order_count": 50,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿250外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 15048,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 7918,
-      "name": "淡水英專店",
-      "name_short": "淡水英專店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.44475270000000000000",
-      "latitude": "25.17033980000000000000",
-      "address": "新北市淡水區清水街3號",
-      "address_remark": "",
-      "tel": "02-8631-0223",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.82,
-      "rating_order_count": 96,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "09:30:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "09:30:00",
-      "order_end_time": "22:00:00",
-      "delivery_way_description": "最低滿150外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 2800
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 3800
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 550,
-          "order_min_distance_m": 4800
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 20879,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 16831,
-      "name": "淡水淡大店",
-      "name_short": "淡水淡大店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.44849700000000000000",
-      "latitude": "25.17722250000000000000",
-      "address": "新北市淡水區北新路182巷39號",
-      "address_remark": "",
-      "tel": "02-86312227",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 10,
-      "rating_average_star": 4.89,
-      "rating_order_count": 19,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿150外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 2800
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 3800
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 21417,
+      "distance": 15576,
       "in_avail_nidin_league": 0
     },
     {
@@ -1212,7 +1050,472 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 23000,
+      "distance": 21666,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7918,
+      "name": "淡水英專店",
+      "name_short": "淡水英專店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.44475270000000000000",
+      "latitude": "25.17033980000000000000",
+      "address": "新北市淡水區清水街3號",
+      "address_remark": "",
+      "tel": "02-8631-0223",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.82,
+      "rating_order_count": 96,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2800
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3800
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4800
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 24794,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 16831,
+      "name": "淡水淡大店",
+      "name_short": "淡水淡大店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.44849700000000000000",
+      "latitude": "25.17722250000000000000",
+      "address": "新北市淡水區北新路182巷39號",
+      "address_remark": "",
+      "tel": "02-86312227",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.89,
+      "rating_order_count": 19,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2800
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3800
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 25547,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 8005,
+      "name": "桃園中正店",
+      "name_short": "桃園中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.30556390000000000000",
+      "latitude": "25.00306840000000000000",
+      "address": "桃園市桃園區中正路531號",
+      "address_remark": "",
+      "tel": "03-3383-303",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.76,
+      "rating_order_count": 387,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 27443,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7864,
+      "name": "桃園介壽店",
+      "name_short": "桃園介壽店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.30050410000000000000",
+      "latitude": "24.96392080000000000000",
+      "address": "桃園市八德區介壽路一段735號1樓",
+      "address_remark": "",
+      "tel": "03-3761-915",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.86,
+      "rating_order_count": 229,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿80外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 80,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 80,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 28875,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7807,
+      "name": "內壢後站店",
+      "name_short": "內壢後站店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.25712610000000000000",
+      "latitude": "24.97118260000000000000",
+      "address": "桃園市中壢區莊敬路80號",
+      "address_remark": "",
+      "tel": "03-4550-036",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.77,
+      "rating_order_count": 163,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1499
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2499
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3499
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4499
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 5499
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 6499
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 7499
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8499
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 34251,
       "in_avail_nidin_league": 0
     },
     {
@@ -1314,313 +1617,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 29191,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 8005,
-      "name": "桃園中正店",
-      "name_short": "桃園中正店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.30556390000000000000",
-      "latitude": "25.00306840000000000000",
-      "address": "桃園市桃園區中正路531號",
-      "address_remark": "",
-      "tel": "03-3383-303",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.76,
-      "rating_order_count": 387,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "22:00:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1300,
-          "order_min_distance_m": 15000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 31331,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 7864,
-      "name": "桃園介壽店",
-      "name_short": "桃園介壽店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.30050410000000000000",
-      "latitude": "24.96392080000000000000",
-      "address": "桃園市八德區介壽路一段735號1樓",
-      "address_remark": "",
-      "tel": "03-3761-915",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.86,
-      "rating_order_count": 229,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "22:00:00",
-      "delivery_way_description": "最低滿80外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 80,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 80,
-          "order_min_distance_m": 1500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 100,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 2500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 3500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 4500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 5500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 550,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 650,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 750,
-          "order_min_distance_m": 8000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 33696,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 7807,
-      "name": "內壢後站店",
-      "name_short": "內壢後站店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.25712610000000000000",
-      "latitude": "24.97118260000000000000",
-      "address": "桃園市中壢區莊敬路80號",
-      "address_remark": "",
-      "tel": "03-4550-036",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.77,
-      "rating_order_count": 163,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿150外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 1499
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 2499
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 3499
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 4499
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 5499
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 550,
-          "order_min_distance_m": 6499
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 650,
-          "order_min_distance_m": 7499
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 8499
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1150,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1300,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 38690,
+      "distance": 34643,
       "in_avail_nidin_league": 0
     },
     {
@@ -1654,8 +1651,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1702,7 +1699,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 41041,
+      "distance": 36130,
       "in_avail_nidin_league": 0
     },
     {
@@ -1736,8 +1733,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1804,7 +1801,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 42090,
+      "distance": 38477,
       "in_avail_nidin_league": 0
     },
     {
@@ -1881,7 +1878,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 43375,
+      "distance": 38912,
       "in_avail_nidin_league": 0
     },
     {
@@ -1958,79 +1955,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 44146,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 7873,
-      "name": "桃園大園店",
-      "name_short": "桃園大園店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.19719520000000000000",
-      "latitude": "25.06452550000000000000",
-      "address": "桃園市大園區中山北路24號",
-      "address_remark": "",
-      "tel": "03-3860-662",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.83,
-      "rating_order_count": 194,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 44739,
+      "distance": 39631,
       "in_avail_nidin_league": 0
     },
     {
@@ -2107,7 +2032,79 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 45690,
+      "distance": 41178,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7873,
+      "name": "桃園大園店",
+      "name_short": "桃園大園店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.19719520000000000000",
+      "latitude": "25.06452550000000000000",
+      "address": "桃園市大園區中山北路24號",
+      "address_remark": "",
+      "tel": "03-3860-662",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.83,
+      "rating_order_count": 194,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 42359,
       "in_avail_nidin_league": 0
     },
     {
@@ -2194,7 +2191,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 55369,
+      "distance": 50462,
       "in_avail_nidin_league": 0
     },
     {
@@ -2220,7 +2217,7 @@
       "order_start_day": 0,
       "order_tolerance_day": 7,
       "rating_average_star": 4.93,
-      "rating_order_count": 74,
+      "rating_order_count": 75,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
@@ -2228,8 +2225,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -2276,7 +2273,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 62078,
+      "distance": 58507,
       "in_avail_nidin_league": 0
     },
     {
@@ -2310,8 +2307,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "18:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -2326,8 +2323,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 68994,
+      "store_allow_order": 0,
+      "distance": 65389,
       "in_avail_nidin_league": 0
     },
     {
@@ -2361,8 +2358,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -2429,7 +2426,104 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 69492,
+      "distance": 66332,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 11548,
+      "name": "竹北三民店",
+      "name_short": "竹北三民店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.01207310000000000000",
+      "latitude": "24.83324630000000000000",
+      "address": "新竹縣竹北市三民路295號",
+      "address_remark": "",
+      "tel": "03-6562228",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.69,
+      "rating_order_count": 70,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 1,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿350外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 70738,
       "in_avail_nidin_league": 0
     },
     {
@@ -2511,104 +2605,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 75864,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 535,
-      "brand_code": "wanpoteashop",
-      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "id": 11548,
-      "name": "竹北三民店",
-      "name_short": "竹北三民店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
-      "description": null,
-      "longitude": "121.01207310000000000000",
-      "latitude": "24.83324630000000000000",
-      "address": "新竹縣竹北市三民路295號",
-      "address_remark": "",
-      "tel": "03-6562228",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 10,
-      "rating_average_star": 4.69,
-      "rating_order_count": 70,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 1,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿350外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 550,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1400,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 8000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 0,
-      "distance": 75951,
+      "distance": 71053,
       "in_avail_nidin_league": 0
     },
     {
@@ -2642,8 +2639,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "18:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -2685,7 +2682,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 82844,
+      "distance": 77535,
       "in_avail_nidin_league": 0
     },
     {
@@ -2719,8 +2716,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -2797,7 +2794,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 97300,
+      "distance": 91530,
       "in_avail_nidin_league": 0
     },
     {
@@ -2831,8 +2828,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -2894,7 +2891,3376 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 101855,
+      "distance": 96130,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 10753,
+      "name": "台中東勢店",
+      "name_short": "台中東勢店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.83008220000000000000",
+      "latitude": "24.25368290000000000000",
+      "address": "台中市東勢區忠孝街11號",
+      "address_remark": "",
+      "tel": "04-2577-0258",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.84,
+      "rating_order_count": 94,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:45:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 11000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 121602,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 14959,
+      "name": "台中后里店",
+      "name_short": "台中后里店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": "外送來電時間較彈性，特約公司行號來電才有特約價，平台無特約價，價格較高",
+      "longitude": "120.72005270000000000000",
+      "latitude": "24.30940550000000000000",
+      "address": "台中市后里區甲后路一段692號",
+      "address_remark": "外送來電時間較彈性，特約公司行號來電才有特約價，平台無特約價，價格較高",
+      "tel": "04-25580830",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.86,
+      "rating_order_count": 37,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 5000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 124733,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 21843,
+      "name": "花蓮中華店",
+      "name_short": "花蓮中華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "121.60705670000000000000",
+      "latitude": "23.97619840000000000000",
+      "address": "花蓮縣花蓮市中華路76號",
+      "address_remark": "",
+      "tel": "(03)8320-808",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 4,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 128402,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7591,
+      "name": "豐原店",
+      "name_short": "豐原店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_7357_icon_20210713_160340_09960.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.71447200000000000000",
+      "latitude": "24.24958800000000000000",
+      "address": "台中市豐原區西安街16號1樓",
+      "address_remark": "",
+      "tel": "04-25280219",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.82,
+      "rating_order_count": 322,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "17:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "17:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 13000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 16000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 17000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1900,
+          "order_min_distance_m": 18000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 19000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 122485,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 12081,
+      "name": "台中大雅店",
+      "name_short": "台中大雅店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": "常客訂購飲品歡迎現場掃LINE商家群組,優惠方式資訊不間斷",
+      "longitude": "120.64752230000000000000",
+      "latitude": "24.22561430000000000000",
+      "address": "台中市大雅區大雅路140號",
+      "address_remark": "林釗尚小兒科診所對面",
+      "tel": "04-25602255",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.75,
+      "rating_order_count": 44,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿135外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 135,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 135,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 255,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 305,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 355,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 405,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 455,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 505,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 555,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 605,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 655,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 705,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 755,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 805,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 855,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 960,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1250,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1350,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1450,
+          "order_min_distance_m": 13000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125190,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 8875,
+      "name": "台中東山店",
+      "name_short": "台中東山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.72207080000000000000",
+      "latitude": "24.17589190000000000000",
+      "address": "台中市北屯區東山路一段316之1號",
+      "address_remark": "台中市北屯區東山路一段316-1號",
+      "tel": "04-2436-3042",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.75,
+      "rating_order_count": 153,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:45:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:45:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 100000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125822,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 19527,
+      "name": "台中松竹店",
+      "name_short": "台中松竹店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.69743170000000000000",
+      "latitude": "24.18297370000000000000",
+      "address": "台中市北屯區松竹路二段105號",
+      "address_remark": "",
+      "tel": "(04)2243-5655",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.6,
+      "rating_order_count": 15,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 126627,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7357,
+      "name": "台中中清店",
+      "name_short": "台中中清店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.66040780000000000000",
+      "latitude": "24.19265640000000000000",
+      "address": "台中市北屯區新興路1-3-1號",
+      "address_remark": "",
+      "tel": "04-2426-2377",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.89,
+      "rating_order_count": 315,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128110,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 12078,
+      "name": "台中漢口店",
+      "name_short": "台中漢口店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.66203710000000000000",
+      "latitude": "24.16536100000000000000",
+      "address": "台中市西屯區漢口路二段120號",
+      "address_remark": "",
+      "tel": "04-23141577",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.79,
+      "rating_order_count": 155,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1350,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 121196,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 17312,
+      "name": "台中一中店",
+      "name_short": "台中一中店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3933_icon_20210714_101252_c28c5.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.68451660000000000000",
+      "latitude": "24.14749510000000000000",
+      "address": "台中市北區太平路63巷1號",
+      "address_remark": "",
+      "tel": "04-22270087",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.95,
+      "rating_order_count": 43,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 121587,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7909,
+      "name": "台中東海店",
+      "name_short": "台中東海店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": "來電訂購外送門檻比較低",
+      "longitude": "120.59236390000000000000",
+      "latitude": "24.18156340000000000000",
+      "address": "台中市龍井區台灣大道五段3巷66號",
+      "address_remark": "來電訂購外送門檻比較低 超過8公里以上的外送服務請來電訂購喔",
+      "tel": "04-2652-0280",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.87,
+      "rating_order_count": 239,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125041,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 19137,
+      "name": "新台中黎明店",
+      "name_short": "新台中黎明店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.63599590000000000000",
+      "latitude": "24.14694190000000000000",
+      "address": "台中市南屯區黎明路二段199號",
+      "address_remark": "台中市南屯區黎明路二段199號",
+      "tel": "(04)2382-1107",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.33,
+      "rating_order_count": 24,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1300
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 280,
+          "order_min_distance_m": 2400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125371,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7906,
+      "name": "台中美村南店",
+      "name_short": "台中美村南店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.66665280000000000000",
+      "latitude": "24.11455910000000000000",
+      "address": "台中市南區美村南路249號",
+      "address_remark": "",
+      "tel": "04-2263-5252",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.94,
+      "rating_order_count": 208,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126838,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 11545,
+      "name": "大里成功店",
+      "name_short": "大里成功店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.70290900000000000000",
+      "latitude": "24.08983900000000000000",
+      "address": "台中市大里區成功路483號",
+      "address_remark": "台中市大里區成功路483號",
+      "tel": "04-24968798",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.96,
+      "rating_order_count": 115,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127256,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7951,
+      "name": "文山忠勇店",
+      "name_short": "文山忠勇店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.61368900000000000000",
+      "latitude": "24.14115100000000000000",
+      "address": "台中市南屯區忠勇路64之1號",
+      "address_remark": "",
+      "tel": "04-2380-2260",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.81,
+      "rating_order_count": 165,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127813,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7912,
+      "name": "霧峰中正店",
+      "name_short": "霧峰中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.69879070000000000000",
+      "latitude": "24.06679190000000000000",
+      "address": "台中市霧峰區中正路1005號",
+      "address_remark": "",
+      "tel": "04-2330-2125",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.97,
+      "rating_order_count": 396,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128662,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 16924,
+      "name": "彰化和美店",
+      "name_short": "彰化和美店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.49572000000000000000",
+      "latitude": "24.10920890000000000000",
+      "address": "彰化縣和美鎮鹿和路六段390號",
+      "address_remark": "",
+      "tel": "04-7553589",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.71,
+      "rating_order_count": 24,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 118199,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 12426,
+      "name": "新彰化中華店",
+      "name_short": "新彰化中華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.54149910000000000000",
+      "latitude": "24.07823260000000000000",
+      "address": "彰化縣彰化市中華路107號",
+      "address_remark": "彰化市中華路107號",
+      "tel": "04-7237-738",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.87,
+      "rating_order_count": 102,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 118801,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 15949,
+      "name": "草屯中正店",
+      "name_short": "草屯中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.68478250000000000000",
+      "latitude": "23.97909820000000000000",
+      "address": "南投縣草屯鎮中正路642號",
+      "address_remark": "南投縣草屯鎮炎峰里中正路642號1F",
+      "tel": "049-2356006",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.8,
+      "rating_order_count": 51,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "20:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "20:45:00",
+      "delivery_way_description": "最低滿60外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 60,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 60,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 9900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 13000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 123933,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 19524,
+      "name": "南投民族店",
+      "name_short": "南投民族店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.69057680000000000000",
+      "latitude": "23.91010840000000000000",
+      "address": "南投縣南投市民族路140號",
+      "address_remark": "",
+      "tel": "(049)-2202858",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.8,
+      "rating_order_count": 10,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 129162,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 15265,
+      "name": "彰化溪湖店",
+      "name_short": "彰化溪湖店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.48038910000000000000",
+      "latitude": "23.95746360000000000000",
+      "address": "彰化縣溪湖鎮彰水路三段188號",
+      "address_remark": "",
+      "tel": "04-8858515",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.85,
+      "rating_order_count": 27,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "19:50:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "19:50:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128399,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 15271,
+      "name": "嘉義民族店",
+      "name_short": "嘉義民族店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.44820980000000000000",
+      "latitude": "23.47597820000000000000",
+      "address": "嘉義市西區民族路530號",
+      "address_remark": "嘉義市民族路530號",
+      "tel": "05-2280607",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.74,
+      "rating_order_count": 23,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "19:50:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "19:50:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 9000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 101395,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 13422,
+      "name": "新營民權店",
+      "name_short": "新營民權店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.31294260000000000000",
+      "latitude": "23.30502590000000000000",
+      "address": "台南市新營區民權路52之1號",
+      "address_remark": "",
+      "tel": "06-6320911",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.92,
+      "rating_order_count": 93,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "19:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126268,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 22999,
+      "name": "台南善化店",
+      "name_short": "台南善化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.29564910000000000000",
+      "latitude": "23.13215140000000000000",
+      "address": "台南市善化區中山路286-3號",
+      "address_remark": "",
+      "tel": "(06)5832-337",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 6,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125187,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 15115,
+      "name": "台南新市店",
+      "name_short": "台南新市店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.29346600000000000000",
+      "latitude": "23.07658840000000000000",
+      "address": "台南市新市區仁愛街253號",
+      "address_remark": "",
+      "tel": "06-5899099",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.47,
+      "rating_order_count": 30,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "17:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "17:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 124510,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 14347,
+      "name": "台南府前店",
+      "name_short": "台南府前店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.19678200000000000000",
+      "latitude": "22.99098210000000000000",
+      "address": "台南市中西區府前路二段34號",
+      "address_remark": "台南市中西區府前路二段34號",
+      "tel": "06-2239987",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.94,
+      "rating_order_count": 51,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 11000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126592,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 14212,
+      "name": "路竹中正店",
+      "name_short": "路竹中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3933_icon_20210714_101252_c28c5.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.26355950000000000000",
+      "latitude": "22.85499440000000000000",
+      "address": "高雄市路竹區中正路171號",
+      "address_remark": "高雄市路竹區中正路171號",
+      "tel": "07-6978555",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.99,
+      "rating_order_count": 73,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 121694,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7831,
+      "name": "高雄岡山店",
+      "name_short": "高雄岡山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.29149050000000000000",
+      "latitude": "22.79510800000000000000",
+      "address": "高雄市岡山區壽天路103-6號",
+      "address_remark": "",
+      "tel": "07-6228-555",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.96,
+      "rating_order_count": 157,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 129340,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7828,
+      "name": "楠梓後昌店",
+      "name_short": "楠梓後昌店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.29747460000000000000",
+      "latitude": "22.70879630000000000000",
+      "address": "高雄市左營區後昌路683號",
+      "address_remark": "",
+      "tel": "07-3634-522",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.94,
+      "rating_order_count": 146,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127720,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 15538,
+      "name": "高雄華榮店",
+      "name_short": "高雄華榮店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.29653890000000000000",
+      "latitude": "22.66670810000000000000",
+      "address": "高雄市鼓山區華榮路313號",
+      "address_remark": "高雄市鼓山區華榮路313號",
+      "tel": "07-5529959",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 21,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 129233,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 17953,
+      "name": "高雄富國店",
+      "name_short": "高雄富國店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.30649950000000000000",
+      "latitude": "22.65719900000000000000",
+      "address": "高雄市左營區富國路1號",
+      "address_remark": "",
+      "tel": "07-5585580",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.75,
+      "rating_order_count": 16,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 121347,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 11206,
+      "name": "鳳山青年店",
+      "name_short": "鳳山青年店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.35121890000000000000",
+      "latitude": "22.64032600000000000000",
+      "address": "高雄市鳳山區青年路二段322號",
+      "address_remark": "",
+      "tel": "07-7775-709",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.8,
+      "rating_order_count": 122,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 122786,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7846,
+      "name": "高雄武廟店",
+      "name_short": "高雄武廟店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.32562220000000000000",
+      "latitude": "22.63144340000000000000",
+      "address": "高雄市苓雅區武廟路190號",
+      "address_remark": "高雄市苓雅區武廟路190號",
+      "tel": "07-7220-099",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.59,
+      "rating_order_count": 144,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 16000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1700,
+          "order_min_distance_m": 17000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 18000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1900,
+          "order_min_distance_m": 19000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 30000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 4500,
+          "order_min_distance_m": 45000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 5000,
+          "order_min_distance_m": 50000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 7000,
+          "order_min_distance_m": 70000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 8000,
+          "order_min_distance_m": 80000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 9000,
+          "order_min_distance_m": 90000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 10000,
+          "order_min_distance_m": 100000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 124557,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 24469,
+      "name": "台東中華店",
+      "name_short": "台東中華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.15381100000000000000",
+      "latitude": "22.75516640000000000000",
+      "address": "台東縣臺東市中華路一段326號",
+      "address_remark": "",
+      "tel": "(089)332-208",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 122542,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 7837,
+      "name": "東港中山店",
+      "name_short": "東港中山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "description": null,
+      "longitude": "120.45189370000000000000",
+      "latitude": "22.46578370000000000000",
+      "address": "屏東縣東港鎮中山路13之1號",
+      "address_remark": "",
+      "tel": "08-8338-583",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.86,
+      "rating_order_count": 64,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:28:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:28:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 8000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 122218,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 535,
+      "brand_code": "wanpoteashop",
+      "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/535_9d0c6ac14ebcec3e.jpeg",
+      "id": 25843,
+      "name": "恆春南門店",
+      "name_short": "恆春南門店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_535_icon_20210816_134820_58324.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.74503370000000000000",
+      "latitude": "22.00115620000000000000",
+      "address": "屏東縣恆春鎮南門路24號",
+      "address_remark": "",
+      "tel": "08-8891115",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "15:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "15:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 107749,
       "in_avail_nidin_league": 0
     }
   ]

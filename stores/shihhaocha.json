@@ -1,0 +1,1322 @@
+{
+  "brand_info": {
+    "id": 103,
+    "brand_code": "shihhaocha",
+    "name": "識好茶"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-14T09:53:39.139037",
+    "total_regions_searched": 371,
+    "regions_with_stores": 183,
+    "total_stores": 17,
+    "coverage": "全台所有县市区域"
+  },
+  "stores": [
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 9547,
+      "name": "佳里店",
+      "name_short": "佳里店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.17542510000000000000",
+      "latitude": "23.16127380000000000000",
+      "address": "台南市佳里區義民街223號",
+      "address_remark": "",
+      "tel": "06-7235152",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 52,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 125,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127170,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 7354,
+      "name": "新化店",
+      "name_short": "新化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.30672150000000000000",
+      "latitude": "23.03600730000000000000",
+      "address": "台南市新化區中山路326號",
+      "address_remark": "",
+      "tel": "06-5908783",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.86,
+      "rating_order_count": 51,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿125外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 125,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 125,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127627,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 1936,
+      "name": "海佃店",
+      "name_short": "海佃店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.18518630000000000000",
+      "latitude": "23.04573550000000000000",
+      "address": "台南市安南區海佃路二段764號",
+      "address_remark": "",
+      "tel": "06-2450060",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.9,
+      "rating_order_count": 168,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 119351,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 3277,
+      "name": "府安店",
+      "name_short": "府安店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.20035180000000000000",
+      "latitude": "23.02529810000000000000",
+      "address": "台南市安南區府安路五段98巷56弄258號",
+      "address_remark": "",
+      "tel": "06-3589633",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.67,
+      "rating_order_count": 27,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 121683,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 9544,
+      "name": "國安店",
+      "name_short": "國安店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.18706190000000000000",
+      "latitude": "23.02184890000000000000",
+      "address": "台南市安南區國安街187號",
+      "address_remark": "",
+      "tel": "06-3585187",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.93,
+      "rating_order_count": 95,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "07:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "07:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 125,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 122606,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 9550,
+      "name": "文賢店",
+      "name_short": "文賢店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.19358170000000000000",
+      "latitude": "23.01476470000000000000",
+      "address": "台南市北區文賢路725號",
+      "address_remark": "",
+      "tel": "06-3585029",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.76,
+      "rating_order_count": 17,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 125,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 123374,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 20820,
+      "name": "歸仁店",
+      "name_short": "歸仁店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.29382160000000000000",
+      "latitude": "22.99502700000000000000",
+      "address": "台南市歸仁區中正北路3段227號",
+      "address_remark": "",
+      "tel": "06-3306006",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.92,
+      "rating_order_count": 38,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "07:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "07:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿90外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 90,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 90,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 125,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 123571,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 20823,
+      "name": "西門店",
+      "name_short": "西門店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.20333150000000000000",
+      "latitude": "23.00225160000000000000",
+      "address": "台南市北區西門路三段156號",
+      "address_remark": "",
+      "tel": "06-2213631",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 125,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 124809,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 1511,
+      "name": "和緯店",
+      "name_short": "和緯店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.18447930000000000000",
+      "latitude": "23.00623370000000000000",
+      "address": "台南市北區和緯路五段66號",
+      "address_remark": "",
+      "tel": "06-3500607",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.93,
+      "rating_order_count": 138,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 124868,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 3587,
+      "name": "成功店",
+      "name_short": "成功店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.20827680000000000000",
+      "latitude": "22.99762870000000000000",
+      "address": "台南市北區成功路83號",
+      "address_remark": "",
+      "tel": "06-2230635",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 104,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "19:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿10外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 10,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 10,
+          "order_min_distance_m": 100
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 150
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 350
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 700
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 1700
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 2000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125305,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 6509,
+      "name": "東寧店",
+      "name_short": "東寧店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.22811440000000000000",
+      "latitude": "22.99019490000000000000",
+      "address": "台南市東區東寧路353號",
+      "address_remark": "",
+      "tel": "06-2002192",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.92,
+      "rating_order_count": 48,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿120外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 120,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 300
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 160,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 100
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125774,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 2147,
+      "name": "環河店",
+      "name_short": "環河店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.19190110000000000000",
+      "latitude": "22.99195940000000000000",
+      "address": "台南市中西區環河街4號",
+      "address_remark": "",
+      "tel": "06-2231067",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 37,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿75外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 75,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 75,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126612,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 2251,
+      "name": "怡平店",
+      "name_short": "怡平店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.18133870000000000000",
+      "latitude": "22.99281730000000000000",
+      "address": "台南市安平區怡平路55號",
+      "address_remark": "",
+      "tel": "06-2953999",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.82,
+      "rating_order_count": 87,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126842,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 14173,
+      "name": "崇德店",
+      "name_short": "崇德店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.22649580000000000000",
+      "latitude": "22.97497840000000000000",
+      "address": "台南市東區崇德路471-2號",
+      "address_remark": "",
+      "tel": "06-2905709",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 11,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 125,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 127963,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 2405,
+      "name": "大同店",
+      "name_short": "大同店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.21405600000000000000",
+      "latitude": "22.97650760000000000000",
+      "address": "台南市東區大同路二段185號",
+      "address_remark": "",
+      "tel": "06-2135859",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.79,
+      "rating_order_count": 68,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:45:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 225,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128097,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 18094,
+      "name": "府平店",
+      "name_short": "府平店-06-2996438",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.16810220000000000000",
+      "latitude": "22.98691820000000000000",
+      "address": "台南市安平區府平路227號",
+      "address_remark": "",
+      "tel": "06-2996438",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 12,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 125,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128120,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 103,
+      "brand_code": "shihhaocha",
+      "brand_name": "識好茶",
+      "brand_photo": null,
+      "id": 3301,
+      "name": "仁和店",
+      "name_short": "仁和店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_103_icon_20190605_133801_ee187.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.23276510000000000000",
+      "latitude": "22.97193560000000000000",
+      "address": "台南市東區仁和路101號",
+      "address_remark": "",
+      "tel": "06-2679797",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.88,
+      "rating_order_count": 67,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128223,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

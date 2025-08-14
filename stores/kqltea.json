@@ -5,16 +5,223 @@
     "name": "康青龍"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:16:36.219364",
-    "total_pages": 0,
-    "total_stores": 10,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T10:00:06.796875",
+    "total_regions_searched": 371,
+    "regions_with_stores": 354,
+    "total_stores": 14,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
+    {
+      "brand_id": 581,
+      "brand_code": "kqltea",
+      "brand_name": "康青龍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
+      "id": 5771,
+      "name": "汐止汐科店",
+      "name_short": "汐止汐科店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
+      "description": null,
+      "longitude": "121.64833010000000000000",
+      "latitude": "25.06047200000000000000",
+      "address": "新北市汐止區新台五路一段96號1樓",
+      "address_remark": "C10",
+      "tel": "02-2696-3939",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.93,
+      "rating_order_count": 46,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "16:40:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "16:20:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7298,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 581,
+      "brand_code": "kqltea",
+      "brand_name": "康青龍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
+      "id": 5783,
+      "name": "文山靜心店",
+      "name_short": "文山靜心店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
+      "description": null,
+      "longitude": "121.54669710000000000000",
+      "latitude": "24.99927520000000000000",
+      "address": "台北市文山區興隆路二段81號",
+      "address_remark": "",
+      "tel": "02-2935-3132",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.82,
+      "rating_order_count": 113,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿350外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 13027,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 581,
+      "brand_code": "kqltea",
+      "brand_name": "康青龍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
+      "id": 4157,
+      "name": "台北永康店",
+      "name_short": "東門永康店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
+      "description": null,
+      "longitude": "121.52975490000000000000",
+      "latitude": "25.03299420000000000000",
+      "address": "台北市大安區永康街2-7號",
+      "address_remark": "",
+      "tel": "0982-076-799",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.89,
+      "rating_order_count": 131,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 600
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 800
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 2600
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 15520,
+      "in_avail_nidin_league": 0
+    },
     {
       "brand_id": 581,
       "brand_code": "kqltea",
@@ -99,345 +306,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 624,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 581,
-      "brand_code": "kqltea",
-      "brand_name": "康青龍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
-      "id": 4157,
-      "name": "台北永康店",
-      "name_short": "東門永康店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
-      "description": null,
-      "longitude": "121.52975490000000000000",
-      "latitude": "25.03299420000000000000",
-      "address": "台北市大安區永康街2-7號",
-      "address_remark": "",
-      "tel": "0982-076-799",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 3,
-      "rating_average_star": 4.89,
-      "rating_order_count": 131,
-      "has_shipping_fee": 1,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿250外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 200
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 400
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 600
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 800
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 1500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 2500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 2600
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 3055,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 581,
-      "brand_code": "kqltea",
-      "brand_name": "康青龍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
-      "id": 5765,
-      "name": "萬華東園店",
-      "name_short": "萬華東園店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
-      "description": null,
-      "longitude": "121.49688420000000000000",
-      "latitude": "25.02530930000000000000",
-      "address": "台北市萬華區東園街109號",
-      "address_remark": "",
-      "tel": "02-2307-8889",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 10,
-      "rating_average_star": 4.93,
-      "rating_order_count": 126,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "19:30:00",
-      "delivery_way_description": "最低滿250外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 1500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 2500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 4000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 6696,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 581,
-      "brand_code": "kqltea",
-      "brand_name": "康青龍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
-      "id": 5783,
-      "name": "文山靜心店",
-      "name_short": "文山靜心店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
-      "description": null,
-      "longitude": "121.54669710000000000000",
-      "latitude": "24.99927520000000000000",
-      "address": "台北市文山區興隆路二段81號",
-      "address_remark": "",
-      "tel": "02-2935-3132",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 0,
-      "rating_average_star": 4.82,
-      "rating_order_count": 113,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿350外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 2500
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 7795,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 581,
-      "brand_code": "kqltea",
-      "brand_name": "康青龍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
-      "id": 5873,
-      "name": "三重車路頭店",
-      "name_short": "三重車路頭店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
-      "description": null,
-      "longitude": "121.48380130000000000000",
-      "latitude": "25.07735110000000000000",
-      "address": "新北市三重區車路頭街163號",
-      "address_remark": "",
-      "tel": "02-8287-2019",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 5,
-      "rating_order_count": 206,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "22:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "22:30:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 7000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 7941,
+      "distance": 15982,
       "in_avail_nidin_league": 0
     },
     {
@@ -471,8 +340,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -564,7 +433,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 9298,
+      "distance": 18447,
       "in_avail_nidin_league": 0
     },
     {
@@ -572,38 +441,217 @@
       "brand_code": "kqltea",
       "brand_name": "康青龍",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
-      "id": 5771,
-      "name": "汐止汐科店",
-      "name_short": "汐止汐科店",
+      "id": 5765,
+      "name": "萬華東園店",
+      "name_short": "萬華東園店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
       "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
       "description": null,
-      "longitude": "121.64833010000000000000",
-      "latitude": "25.06047200000000000000",
-      "address": "新北市汐止區新台五路一段96號1樓",
-      "address_remark": "C10",
-      "tel": "02-2696-3939",
+      "longitude": "121.49688420000000000000",
+      "latitude": "25.02530930000000000000",
+      "address": "台北市萬華區東園街109號",
+      "address_remark": "",
+      "tel": "02-2307-8889",
       "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
+      "is_close_allow_order": 0,
       "order_start_day": 0,
-      "order_tolerance_day": 0,
+      "order_tolerance_day": 10,
       "rating_average_star": 4.93,
+      "rating_order_count": 126,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 4000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 19599,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 581,
+      "brand_code": "kqltea",
+      "brand_name": "康青龍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
+      "id": 5873,
+      "name": "三重車路頭店",
+      "name_short": "三重車路頭店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
+      "description": null,
+      "longitude": "121.48380130000000000000",
+      "latitude": "25.07735110000000000000",
+      "address": "新北市三重區車路頭街163號",
+      "address_remark": "",
+      "tel": "02-8287-2019",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 5,
+      "rating_order_count": 206,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 23307,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 581,
+      "brand_code": "kqltea",
+      "brand_name": "康青龍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
+      "id": 13675,
+      "name": "宜蘭東港店",
+      "name_short": "宜蘭東港店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
+      "description": null,
+      "longitude": "121.76416970000000000000",
+      "latitude": "24.75328440000000000000",
+      "address": "宜蘭縣宜蘭市東港路二段312號",
+      "address_remark": "",
+      "tel": "03-938-7870",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 5,
       "rating_order_count": 46,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "09:30:00",
-      "end_time": "16:40:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "start_time": "10:30:00",
+      "end_time": "19:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "09:30:00",
-      "order_end_time": "16:20:00",
+      "order_start_time": "10:30:00",
+      "order_end_time": "19:30:00",
       "delivery_way_description": null,
       "delivery_info": [],
       "meal_tag_info": [
@@ -615,7 +663,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 14511,
+      "distance": 40113,
       "in_avail_nidin_league": 0
     },
     {
@@ -649,8 +697,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -712,58 +760,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 43152,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 581,
-      "brand_code": "kqltea",
-      "brand_name": "康青龍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
-      "id": 13675,
-      "name": "宜蘭東港店",
-      "name_short": "宜蘭東港店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
-      "description": null,
-      "longitude": "121.76416970000000000000",
-      "latitude": "24.75328440000000000000",
-      "address": "宜蘭縣宜蘭市東港路二段312號",
-      "address_remark": "",
-      "tel": "03-938-7870",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 5,
-      "rating_order_count": 46,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 1,
-      "order_start_time": "10:30:00",
-      "order_end_time": "19:30:00",
-      "delivery_way_description": null,
-      "delivery_info": [],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 0,
-      "distance": 52372,
+      "distance": 55686,
       "in_avail_nidin_league": 0
     },
     {
@@ -835,7 +832,308 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 75411,
+      "distance": 86548,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 581,
+      "brand_code": "kqltea",
+      "brand_name": "康青龍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
+      "id": 19182,
+      "name": "花蓮中山店",
+      "name_short": "花蓮中山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
+      "description": null,
+      "longitude": "121.60179680000000000000",
+      "latitude": "23.98692520000000000000",
+      "address": "花蓮縣花蓮市國安里中山路420之4號",
+      "address_remark": "",
+      "tel": "03-831-1032",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "23:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "23:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126820,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 581,
+      "brand_code": "kqltea",
+      "brand_name": "康青龍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
+      "id": 5849,
+      "name": "埔里中正店",
+      "name_short": "埔里中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
+      "description": null,
+      "longitude": "120.96889300000000000000",
+      "latitude": "23.96381780000000000000",
+      "address": "南投縣埔里鎮東門里中正路342號",
+      "address_remark": "",
+      "tel": "04-9299-2333",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.5,
+      "rating_order_count": 14,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 97936,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 581,
+      "brand_code": "kqltea",
+      "brand_name": "康青龍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
+      "id": 5867,
+      "name": "台南崇德店",
+      "name_short": "台南崇德店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
+      "description": null,
+      "longitude": "120.22736390000000000000",
+      "latitude": "22.97283290000000000000",
+      "address": "台南市東區崇德路538號1樓",
+      "address_remark": "",
+      "tel": "06-260-8298",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 78,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "18:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 128241,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 581,
+      "brand_code": "kqltea",
+      "brand_name": "康青龍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/581_ce26c636b69a2e50.jpg",
+      "id": 5750,
+      "name": "金門金城店",
+      "name_short": "金門金城店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_581_icon_20230327_131041_094d4.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/581_ce26c636b69a2e50.jpg",
+      "description": null,
+      "longitude": "118.31377060000000000000",
+      "latitude": "24.43145180000000000000",
+      "address": "金門縣金城鎮民權路11號",
+      "address_remark": "",
+      "tel": "08-237-1386",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.94,
+      "rating_order_count": 17,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 13000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 16667,
       "in_avail_nidin_league": 0
     }
   ]

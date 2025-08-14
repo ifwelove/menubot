@@ -5,16 +5,463 @@
     "name": "茶詠春"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:17:15.419060",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:03:26.979528",
+    "total_regions_searched": 371,
+    "regions_with_stores": 4,
     "total_stores": 11,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
+    {
+      "brand_id": 985,
+      "brand_code": "ourlandourte",
+      "brand_name": "茶詠春",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
+      "id": 12822,
+      "name": "三重溪尾店",
+      "name_short": "三重溪尾店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/985_e6d0969f139c54ac.jpeg",
+      "description": null,
+      "longitude": "121.48766810000000000000",
+      "latitude": "25.08179860000000000000",
+      "address": "新北市三重區溪尾街236號",
+      "address_remark": "",
+      "tel": "02-82872863",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.87,
+      "rating_order_count": 15,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2400,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 4000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4142,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 985,
+      "brand_code": "ourlandourte",
+      "brand_name": "茶詠春",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
+      "id": 19020,
+      "name": "三重中正北店",
+      "name_short": "三重中正北店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.47738440000000000000",
+      "latitude": "25.06967360000000000000",
+      "address": "新北市三重區中正北路189-1號",
+      "address_remark": "",
+      "tel": "02-29899098",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 15,
+      "rating_average_star": 5,
+      "rating_order_count": 8,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 4000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4561,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 985,
+      "brand_code": "ourlandourte",
+      "brand_name": "茶詠春",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
+      "id": 19011,
+      "name": "三重光復店",
+      "name_short": "三重光復店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.46979670000000000000",
+      "latitude": "25.04916980000000000000",
+      "address": "新北市三重區光復路一段68巷58號",
+      "address_remark": "",
+      "tel": "02-29995667",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 15,
+      "rating_average_star": 5,
+      "rating_order_count": 35,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 4000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5784,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 985,
+      "brand_code": "ourlandourte",
+      "brand_name": "茶詠春",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
+      "id": 20661,
+      "name": "蘆洲三民店",
+      "name_short": "蘆洲三民店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.47247540000000000000",
+      "latitude": "25.08533550000000000000",
+      "address": "新北市蘆洲區復興路40號",
+      "address_remark": "",
+      "tel": "0983 318 308",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 11,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6045,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 985,
+      "brand_code": "ourlandourte",
+      "brand_name": "茶詠春",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
+      "id": 22401,
+      "name": "新北五權店",
+      "name_short": "新北五權店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.45915820000000000000",
+      "latitude": "25.06693560000000000000",
+      "address": "新北市新莊區五權一路86號",
+      "address_remark": "",
+      "tel": "02-22981777",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 15,
+      "rating_average_star": 4.91,
+      "rating_order_count": 45,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6867,
+      "in_avail_nidin_league": 0
+    },
     {
       "brand_id": 985,
       "brand_code": "ourlandourte",
@@ -99,7 +546,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 6057,
+      "distance": 8388,
       "in_avail_nidin_league": 0
     },
     {
@@ -107,303 +554,17 @@
       "brand_code": "ourlandourte",
       "brand_name": "茶詠春",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
-      "id": 12822,
-      "name": "三重溪尾店",
-      "name_short": "三重溪尾店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/985_e6d0969f139c54ac.jpeg",
-      "description": null,
-      "longitude": "121.48766810000000000000",
-      "latitude": "25.08179860000000000000",
-      "address": "新北市三重區溪尾街236號",
-      "address_remark": "",
-      "tel": "02-82872863",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 14,
-      "rating_average_star": 4.86,
-      "rating_order_count": 14,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:30:00",
-      "end_time": "21:00:00",
-      "is_preparing": 1,
-      "is_open": 0,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:30:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 900
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 750,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 850,
-          "order_min_distance_m": 6500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1400,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2400,
-          "order_min_distance_m": 15000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 4000,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 7812,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 985,
-      "brand_code": "ourlandourte",
-      "brand_name": "茶詠春",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
-      "id": 19020,
-      "name": "三重中正北店",
-      "name_short": "三重中正北店",
+      "id": 22296,
+      "name": "新莊幸福店",
+      "name_short": "新莊幸福店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
       "photo": null,
       "description": null,
-      "longitude": "121.47738440000000000000",
-      "latitude": "25.06967360000000000000",
-      "address": "新北市三重區中正北路189-1號",
+      "longitude": "121.44512600000000000000",
+      "latitude": "25.04885100000000000000",
+      "address": "新北市新莊區幸福路825號",
       "address_remark": "",
-      "tel": "02-29899098",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 15,
-      "rating_average_star": 5,
-      "rating_order_count": 8,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "20:00:00",
-      "delivery_way_description": "最低滿150外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 200
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 15000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 4000,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 8316,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 985,
-      "brand_code": "ourlandourte",
-      "brand_name": "茶詠春",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
-      "id": 19011,
-      "name": "三重光復店",
-      "name_short": "三重光復店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.46979670000000000000",
-      "latitude": "25.04916980000000000000",
-      "address": "新北市三重區光復路一段68巷58號",
-      "address_remark": "",
-      "tel": "02-29995667",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 15,
-      "rating_average_star": 5,
-      "rating_order_count": 35,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "20:00:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 15000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 4000,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 8966,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 985,
-      "brand_code": "ourlandourte",
-      "brand_name": "茶詠春",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
-      "id": 20661,
-      "name": "蘆洲三民店",
-      "name_short": "蘆洲三民店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.47247540000000000000",
-      "latitude": "25.08533550000000000000",
-      "address": "新北市蘆洲區復興路40號",
-      "address_remark": "",
-      "tel": "0983 318 308",
+      "tel": "02 2990 4170",
       "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
@@ -411,51 +572,46 @@
       "order_start_day": 0,
       "order_tolerance_day": 7,
       "rating_average_star": 5,
-      "rating_order_count": 11,
+      "rating_order_count": 13,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "20:30:00",
+      "start_time": "09:30:00",
+      "end_time": "21:00:00",
       "is_preparing": 0,
       "is_open": 1,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿250外送",
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 250,
+          "order_min_price": 100,
           "order_min_distance_m": 0
         },
         {
           "delivery_type": 3,
-          "order_min_price": 250,
+          "order_min_price": 100,
           "order_min_distance_m": 500
         },
         {
           "delivery_type": 3,
-          "order_min_price": 300,
+          "order_min_price": 200,
           "order_min_distance_m": 1000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 2500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
+          "order_min_price": 300,
           "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
         }
       ],
       "meal_tag_info": [
@@ -467,7 +623,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 9789,
+      "distance": 8908,
       "in_avail_nidin_league": 0
     },
     {
@@ -544,89 +700,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 10109,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 985,
-      "brand_code": "ourlandourte",
-      "brand_name": "茶詠春",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
-      "id": 22401,
-      "name": "新北五權店",
-      "name_short": "新北五權店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.45915820000000000000",
-      "latitude": "25.06693560000000000000",
-      "address": "新北市新莊區五權一路86號",
-      "address_remark": "",
-      "tel": "02-22981777",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 15,
-      "rating_average_star": 4.91,
-      "rating_order_count": 43,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿150外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10543,
+      "distance": 10803,
       "in_avail_nidin_league": 0
     },
     {
@@ -728,84 +802,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 10843,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 985,
-      "brand_code": "ourlandourte",
-      "brand_name": "茶詠春",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/985_e6d0969f139c54ac.jpeg",
-      "id": 22296,
-      "name": "新莊幸福店",
-      "name_short": "新莊幸福店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_985_icon_20220122_104341_63286.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.44512600000000000000",
-      "latitude": "25.04885100000000000000",
-      "address": "新北市新莊區幸福路825號",
-      "address_remark": "",
-      "tel": "02 2990 4170",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 5,
-      "rating_order_count": 13,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "09:30:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "09:30:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿100外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 100,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 100,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 12200,
+      "distance": 13211,
       "in_avail_nidin_league": 0
     },
     {
@@ -839,8 +836,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 1,
       "order_start_time": "11:00:00",
@@ -856,7 +853,7 @@
         }
       ],
       "store_allow_order": 0,
-      "distance": 23038,
+      "distance": 19555,
       "in_avail_nidin_league": 0
     },
     {
@@ -890,8 +887,8 @@
       "is_favorite": 0,
       "start_time": "10:45:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:45:00",
@@ -933,7 +930,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 76476,
+      "distance": 73915,
       "in_avail_nidin_league": 0
     }
   ]

@@ -5,88 +5,13 @@
     "name": "清心福全"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:16:27.280593",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T09:59:13.732008",
+    "total_regions_searched": 371,
+    "regions_with_stores": 148,
     "total_stores": 18,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
-    {
-      "brand_id": 517,
-      "brand_code": "chingshin",
-      "brand_name": "清心福全",
-      "brand_photo": null,
-      "id": 19308,
-      "name": "內湖港墘店",
-      "name_short": "內湖港墘店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.57897880000000000000",
-      "latitude": "25.08077710000000000000",
-      "address": "台北市內湖區內湖路一段737巷56號",
-      "address_remark": "",
-      "tel": "02 2799 6737",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 0,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 5,
-      "rating_order_count": 1,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "22:00:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 2500
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 6712,
-      "in_avail_nidin_league": 0
-    },
     {
       "brand_id": 517,
       "brand_code": "chingshin",
@@ -161,7 +86,400 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 7974,
+      "distance": 4201,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 517,
+      "brand_code": "chingshin",
+      "brand_name": "清心福全",
+      "brand_photo": null,
+      "id": 17992,
+      "name": "蘆洲民義店",
+      "name_short": "蘆洲民義店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.47414610000000000000",
+      "latitude": "25.09125380000000000000",
+      "address": "新北市蘆洲區民義街119之1號",
+      "address_remark": "新北市蘆洲區民義街119-1號",
+      "tel": "02-22881627",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.2,
+      "rating_order_count": 5,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "00:00:00",
+      "end_time": "23:59:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "00:00:00",
+      "order_end_time": "23:59:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 16000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3500,
+          "order_min_distance_m": 18000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 5000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6374,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 517,
+      "brand_code": "chingshin",
+      "brand_name": "清心福全",
+      "brand_photo": null,
+      "id": 17995,
+      "name": "蘆洲仁愛店",
+      "name_short": "蘆洲仁愛店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.47161460000000000000",
+      "latitude": "25.09178810000000000000",
+      "address": "新北市蘆洲區民族路470號",
+      "address_remark": "",
+      "tel": "02-82826699",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.83,
+      "rating_order_count": 6,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 16000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3500,
+          "order_min_distance_m": 18000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 5000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6680,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 517,
+      "brand_code": "chingshin",
+      "brand_name": "清心福全",
+      "brand_photo": null,
+      "id": 17989,
+      "name": "蘆洲中華店",
+      "name_short": "蘆洲中華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.46348960000000000000",
+      "latitude": "25.08150140000000000000",
+      "address": "新北市蘆洲區中華街25-1號",
+      "address_remark": "",
+      "tel": "02-22830707",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.95,
+      "rating_order_count": 21,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "00:00:00",
+      "end_time": "23:59:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "00:00:00",
+      "order_end_time": "23:59:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 16000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3500,
+          "order_min_distance_m": 18000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 5000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6830,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 517,
+      "brand_code": "chingshin",
+      "brand_name": "清心福全",
+      "brand_photo": null,
+      "id": 19980,
+      "name": "新莊中港店",
+      "name_short": "新莊中港店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.45278790000000000000",
+      "latitude": "25.04497390000000000000",
+      "address": "新北市新莊區中港路302號",
+      "address_remark": "",
+      "tel": "02 2276 2121",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.33,
+      "rating_order_count": 6,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "23:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "23:00:00",
+      "delivery_way_description": "最低滿350外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 8091,
       "in_avail_nidin_league": 0
     },
     {
@@ -273,7 +591,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 9160,
+      "distance": 8622,
       "in_avail_nidin_league": 0
     },
     {
@@ -281,201 +599,141 @@
       "brand_code": "chingshin",
       "brand_name": "清心福全",
       "brand_photo": null,
-      "id": 17992,
-      "name": "蘆洲民義店",
-      "name_short": "蘆洲民義店",
+      "id": 19308,
+      "name": "內湖港墘店",
+      "name_short": "內湖港墘店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
       "photo": null,
       "description": null,
-      "longitude": "121.47414610000000000000",
-      "latitude": "25.09125380000000000000",
-      "address": "新北市蘆洲區民義街119之1號",
-      "address_remark": "新北市蘆洲區民義街119-1號",
-      "tel": "02-22881627",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.2,
-      "rating_order_count": 5,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "00:00:00",
-      "end_time": "23:59:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "00:00:00",
-      "order_end_time": "23:59:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 12000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2500,
-          "order_min_distance_m": 14000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3000,
-          "order_min_distance_m": 16000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3500,
-          "order_min_distance_m": 18000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 5000,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10041,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 517,
-      "brand_code": "chingshin",
-      "brand_name": "清心福全",
-      "brand_photo": null,
-      "id": 17995,
-      "name": "蘆洲仁愛店",
-      "name_short": "蘆洲仁愛店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.47161460000000000000",
-      "latitude": "25.09178810000000000000",
-      "address": "新北市蘆洲區民族路470號",
+      "longitude": "121.57897880000000000000",
+      "latitude": "25.08077710000000000000",
+      "address": "台北市內湖區內湖路一段737巷56號",
       "address_remark": "",
-      "tel": "02-82826699",
-      "order_status": 10,
+      "tel": "02 2799 6737",
+      "order_status": 20,
       "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
       "order_start_day": 0,
       "order_tolerance_day": 7,
-      "rating_average_star": 4.83,
-      "rating_order_count": 6,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 1,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "09:30:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "start_time": "11:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "09:30:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿200外送",
+      "order_start_time": "11:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿300外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 200,
+          "order_min_price": 300,
           "order_min_distance_m": 0
         },
         {
           "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 3000
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
         },
         {
           "delivery_type": 3,
           "order_min_price": 400,
-          "order_min_distance_m": 4000
+          "order_min_distance_m": 2000
         },
         {
           "delivery_type": 3,
           "order_min_price": 500,
+          "order_min_distance_m": 2500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 9249,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 517,
+      "brand_code": "chingshin",
+      "brand_name": "清心福全",
+      "brand_photo": null,
+      "id": 22626,
+      "name": "五股工商店",
+      "name_short": "五股工商店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.43780400000000000000",
+      "latitude": "25.08548390000000000000",
+      "address": "新北市五股區工商路96號",
+      "address_remark": "",
+      "tel": "02 8295 4587",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.5,
+      "rating_order_count": 8,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
           "order_min_distance_m": 5000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 12000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2500,
-          "order_min_distance_m": 14000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3000,
-          "order_min_distance_m": 16000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3500,
-          "order_min_distance_m": 18000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 5000,
-          "order_min_distance_m": 20000
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
         }
       ],
       "meal_tag_info": [
@@ -487,7 +745,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 10361,
+      "distance": 10182,
       "in_avail_nidin_league": 0
     },
     {
@@ -521,8 +779,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -559,258 +817,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 10439,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 517,
-      "brand_code": "chingshin",
-      "brand_name": "清心福全",
-      "brand_photo": null,
-      "id": 3795,
-      "name": "政大店",
-      "name_short": "政大店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.57466170000000000000",
-      "latitude": "24.98795130000000000000",
-      "address": "台北市文山區指南路二段61號",
-      "address_remark": "",
-      "tel": "02-86610017",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 10,
-      "rating_average_star": 5,
-      "rating_order_count": 12,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "09:30:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10507,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 517,
-      "brand_code": "chingshin",
-      "brand_name": "清心福全",
-      "brand_photo": null,
-      "id": 17989,
-      "name": "蘆洲中華店",
-      "name_short": "蘆洲中華店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.46348960000000000000",
-      "latitude": "25.08150140000000000000",
-      "address": "新北市蘆洲區中華街25-1號",
-      "address_remark": "",
-      "tel": "02-22830707",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.95,
-      "rating_order_count": 21,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "00:00:00",
-      "end_time": "23:59:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "00:00:00",
-      "order_end_time": "23:59:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 12000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2500,
-          "order_min_distance_m": 14000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3000,
-          "order_min_distance_m": 16000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3500,
-          "order_min_distance_m": 18000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 5000,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10613,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 517,
-      "brand_code": "chingshin",
-      "brand_name": "清心福全",
-      "brand_photo": null,
-      "id": 19980,
-      "name": "新莊中港店",
-      "name_short": "新莊中港店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.45278790000000000000",
-      "latitude": "25.04497390000000000000",
-      "address": "新北市新莊區中港路302號",
-      "address_remark": "",
-      "tel": "02 2276 2121",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.33,
-      "rating_order_count": 6,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "23:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "23:00:00",
-      "delivery_way_description": "最低滿350外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 1500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 11239,
+      "distance": 11079,
       "in_avail_nidin_league": 0
     },
     {
@@ -912,89 +919,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 13454,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 517,
-      "brand_code": "chingshin",
-      "brand_name": "清心福全",
-      "brand_photo": null,
-      "id": 22626,
-      "name": "五股工商店",
-      "name_short": "五股工商店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.43780400000000000000",
-      "latitude": "25.08548390000000000000",
-      "address": "新北市五股區工商路96號",
-      "address_remark": "",
-      "tel": "02 8295 4587",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 2,
-      "rating_average_star": 4.5,
-      "rating_order_count": 8,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "20:00:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 2500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 3500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 6000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 13961,
+      "distance": 11278,
       "in_avail_nidin_league": 0
     },
     {
@@ -1106,7 +1031,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 14676,
+      "distance": 12797,
       "in_avail_nidin_league": 0
     },
     {
@@ -1213,7 +1138,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 15972,
+      "distance": 13109,
       "in_avail_nidin_league": 0
     },
     {
@@ -1247,8 +1172,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "23:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1325,7 +1250,79 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 16339,
+      "distance": 13427,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 517,
+      "brand_code": "chingshin",
+      "brand_name": "清心福全",
+      "brand_photo": null,
+      "id": 3795,
+      "name": "政大店",
+      "name_short": "政大店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_3795_icon_20210108_150204_55cd5.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.57466170000000000000",
+      "latitude": "24.98795130000000000000",
+      "address": "台北市文山區指南路二段61號",
+      "address_remark": "",
+      "tel": "02-86610017",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 5,
+      "rating_order_count": 12,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 13603,
       "in_avail_nidin_league": 0
     },
     {
@@ -1359,8 +1356,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "23:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1437,7 +1434,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 16874,
+      "distance": 14040,
       "in_avail_nidin_league": 0
     },
     {
@@ -1564,7 +1561,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 17910,
+      "distance": 16520,
       "in_avail_nidin_league": 0
     },
     {
@@ -1598,8 +1595,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1646,7 +1643,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 20947,
+      "distance": 19511,
       "in_avail_nidin_league": 0
     },
     {
@@ -1680,8 +1677,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "19:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -1723,7 +1720,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 72324,
+      "distance": 70241,
       "in_avail_nidin_league": 0
     }
   ]

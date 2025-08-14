@@ -5,653 +5,13 @@
     "name": "金茶伍"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:17:35.998202",
-    "total_pages": 0,
-    "total_stores": 14,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T10:04:52.806058",
+    "total_regions_searched": 371,
+    "regions_with_stores": 8,
+    "total_stores": 35,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
-    {
-      "brand_id": 1150,
-      "brand_code": "woocha",
-      "brand_name": "金茶伍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
-      "id": 18996,
-      "name": "三重大同門市",
-      "name_short": "三重大同門市",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18996_icon_20250610_095810_d535c.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1150_photo_20250102_163935_dc43f.png",
-      "description": null,
-      "longitude": "121.49576580000000000000",
-      "latitude": "25.06146220000000000000",
-      "address": "新北市三重區重新路二段144號",
-      "address_remark": "",
-      "tel": "02-29764894",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 2,
-      "rating_average_star": 4.84,
-      "rating_order_count": 75,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "09:30:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "09:30:00",
-      "order_end_time": "22:00:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 1500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 2500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 4500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 750,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 850,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1100,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1300,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 15000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 5681,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1150,
-      "brand_code": "woocha",
-      "brand_name": "金茶伍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
-      "id": 18322,
-      "name": "永和樂華門市",
-      "name_short": "永和樂華門市",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18322_icon_20250610_095713_c7e32.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.51023030000000000000",
-      "latitude": "25.00954550000000000000",
-      "address": "新北市永和區中山路一段147號1樓",
-      "address_remark": "",
-      "tel": "02-86603777",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 2,
-      "rating_average_star": 4.92,
-      "rating_order_count": 64,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "22:00:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1100,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1300,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2100,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 10000,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 7222,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1150,
-      "brand_code": "woocha",
-      "brand_name": "金茶伍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
-      "id": 16825,
-      "name": "永和保平門市",
-      "name_short": "永和保平門市",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_16825_icon_20250610_095645_326b3.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.51251380000000000000",
-      "latitude": "25.00730900000000000000",
-      "address": "新北市永和區保平路25號",
-      "address_remark": "",
-      "tel": "02-22331616",
-      "order_status": 20,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 30,
-      "rating_average_star": 4.84,
-      "rating_order_count": 87,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "22:00:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1400,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2400,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 0,
-      "distance": 7360,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1150,
-      "brand_code": "woocha",
-      "brand_name": "金茶伍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
-      "id": 16186,
-      "name": "三重車路頭門市",
-      "name_short": "三重車路頭門市",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_16186_icon_20250610_095612_be886.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.48432640000000000000",
-      "latitude": "25.07395210000000000000",
-      "address": "新北市三重區車路頭街78號",
-      "address_remark": "新北市三重區車路頭街78號",
-      "tel": "02-82839205",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 14,
-      "rating_average_star": 4.62,
-      "rating_order_count": 47,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "22:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "22:30:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1400,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1600,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1800,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 7672,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1150,
-      "brand_code": "woocha",
-      "brand_name": "金茶伍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
-      "id": 22089,
-      "name": "板橋介壽門市",
-      "name_short": "板橋介壽門市",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22089_icon_20250610_095850_490c0.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.46740640000000000000",
-      "latitude": "25.02006910000000000000",
-      "address": "新北市板橋區介壽街14號",
-      "address_remark": "",
-      "tel": "02-22516168",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 2,
-      "rating_average_star": 4.81,
-      "rating_order_count": 16,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "22:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "22:30:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1100,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1300,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2100,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 10000,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10397,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1150,
-      "brand_code": "woocha",
-      "brand_name": "金茶伍",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
-      "id": 19518,
-      "name": "桃園中正門市",
-      "name_short": "桃園中正門市",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_19518_icon_20250610_095826_85781.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.30570150000000000000",
-      "latitude": "25.00363710000000000000",
-      "address": "桃園市桃園區中正路562號",
-      "address_remark": "",
-      "tel": "03-3317789",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 5,
-      "rating_order_count": 40,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 900,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1800,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2100,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 31294,
-      "in_avail_nidin_league": 0
-    },
     {
       "brand_id": 1150,
       "brand_code": "woocha",
@@ -756,7 +116,211 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 34466,
+      "distance": 10809,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 19518,
+      "name": "桃園中正門市",
+      "name_short": "桃園中正門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_19518_icon_20250610_095826_85781.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.30570150000000000000",
+      "latitude": "25.00363710000000000000",
+      "address": "桃園市桃園區中正路562號",
+      "address_remark": "",
+      "tel": "03-3317789",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 41,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2100,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 13296,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 22089,
+      "name": "板橋介壽門市",
+      "name_short": "板橋介壽門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22089_icon_20250610_095850_490c0.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.46740640000000000000",
+      "latitude": "25.02006910000000000000",
+      "address": "新北市板橋區介壽街14號",
+      "address_remark": "",
+      "tel": "02-22516168",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.81,
+      "rating_order_count": 16,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 10000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 17199,
       "in_avail_nidin_league": 0
     },
     {
@@ -868,7 +432,440 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 42513,
+      "distance": 18414,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 18322,
+      "name": "永和樂華門市",
+      "name_short": "永和樂華門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18322_icon_20250610_095713_c7e32.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.51023030000000000000",
+      "latitude": "25.00954550000000000000",
+      "address": "新北市永和區中山路一段147號1樓",
+      "address_remark": "",
+      "tel": "02-86603777",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.92,
+      "rating_order_count": 64,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 10000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 20738,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 16825,
+      "name": "永和保平門市",
+      "name_short": "永和保平門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_16825_icon_20250610_095645_326b3.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.51251380000000000000",
+      "latitude": "25.00730900000000000000",
+      "address": "新北市永和區保平路25號",
+      "address_remark": "",
+      "tel": "02-22331616",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.84,
+      "rating_order_count": 87,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2400,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 20835,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 18996,
+      "name": "三重大同門市",
+      "name_short": "三重大同門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_18996_icon_20250610_095810_d535c.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1150_photo_20250102_163935_dc43f.png",
+      "description": null,
+      "longitude": "121.49576580000000000000",
+      "latitude": "25.06146220000000000000",
+      "address": "新北市三重區重新路二段144號",
+      "address_remark": "",
+      "tel": "02-29764894",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.84,
+      "rating_order_count": 75,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "22:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 24093,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 16186,
+      "name": "三重車路頭門市",
+      "name_short": "三重車路頭門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_16186_icon_20250610_095612_be886.png",
+      "photo": null,
+      "description": null,
+      "longitude": "121.48432640000000000000",
+      "latitude": "25.07395210000000000000",
+      "address": "新北市三重區車路頭街78號",
+      "address_remark": "新北市三重區車路頭街78號",
+      "tel": "02-82839205",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.62,
+      "rating_order_count": 47,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 24560,
       "in_avail_nidin_league": 0
     },
     {
@@ -975,7 +972,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 51002,
+      "distance": 25494,
       "in_avail_nidin_league": 0
     },
     {
@@ -1052,7 +1049,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 72283,
+      "distance": 45155,
       "in_avail_nidin_league": 0
     },
     {
@@ -1134,7 +1131,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 74543,
+      "distance": 47263,
       "in_avail_nidin_league": 0
     },
     {
@@ -1251,7 +1248,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 75902,
+      "distance": 49840,
       "in_avail_nidin_league": 0
     },
     {
@@ -1275,7 +1272,7 @@
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
-      "order_tolerance_day": 10,
+      "order_tolerance_day": 4,
       "rating_average_star": 4.74,
       "rating_order_count": 54,
       "has_shipping_fee": 0,
@@ -1323,7 +1320,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 78495,
+      "distance": 51601,
       "in_avail_nidin_league": 0
     },
     {
@@ -1357,8 +1354,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1395,7 +1392,2189 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 78853,
+      "distance": 52074,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 22086,
+      "name": "台中精誠門市",
+      "name_short": "台中精誠門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22086_icon_20250610_095844_a66fe.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.65499750000000000000",
+      "latitude": "24.15147640000000000000",
+      "address": "台中市西區精誠路198號",
+      "address_remark": "",
+      "tel": "04-23200895",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 8,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "16:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "16:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 3894,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14095,
+      "name": "前鎮門市",
+      "name_short": "前鎮門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14095_icon_20250610_095428_f1bb2.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.30806790000000000000",
+      "latitude": "22.59220050000000000000",
+      "address": "高雄市前鎮區前鎮街279號",
+      "address_remark": "高雄市前鎮區前鎮街279號",
+      "tel": "07-8210187",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.85,
+      "rating_order_count": 68,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "17:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "17:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6165,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 16828,
+      "name": "楠梓惠豐門市",
+      "name_short": "楠梓惠豐門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_16828_icon_20250610_095657_bc3d1.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.29404050000000000000",
+      "latitude": "22.72384380000000000000",
+      "address": "高雄市楠梓區夀豐路523號",
+      "address_remark": "",
+      "tel": "07-3605177",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.98,
+      "rating_order_count": 102,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 17798,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 22890,
+      "name": "高雄燕巢門市",
+      "name_short": "高雄燕巢門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22890_icon_20250610_095901_bce1f.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.36040750000000000000",
+      "latitude": "22.79321740000000000000",
+      "address": "高雄市燕巢區中民路635號",
+      "address_remark": "1樓",
+      "tel": "07-6166668",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 13,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 26223,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14107,
+      "name": "岡山大仁門市",
+      "name_short": "岡山大仁門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14107_icon_20250610_095456_f1d7e.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.30167970000000000000",
+      "latitude": "22.80233370000000000000",
+      "address": "高雄市岡山區大仁北路46號1樓",
+      "address_remark": "高雄市岡山區大仁北路46號",
+      "tel": "07-6221020",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 1,
+      "rating_average_star": 4.93,
+      "rating_order_count": 45,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:45:00",
+      "end_time": "19:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:45:00",
+      "order_end_time": "19:45:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 13000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 28220,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14092,
+      "name": "路竹門市",
+      "name_short": "路竹門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14092_icon_20250610_095420_fa17a.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.26423430000000000000",
+      "latitude": "22.85432750000000000000",
+      "address": "高雄市路竹區中正路217號",
+      "address_remark": "",
+      "tel": "07-6073555",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.89,
+      "rating_order_count": 57,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 36777,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14098,
+      "name": "阿蓮門市",
+      "name_short": "阿蓮門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14098_icon_20250610_095435_d0f79.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.33212090000000000000",
+      "latitude": "22.88072970000000000000",
+      "address": "高雄市阿蓮區中正路450號",
+      "address_remark": "",
+      "tel": "07-6315589",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 38847,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14110,
+      "name": "旗山延平門市",
+      "name_short": "旗山延平門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14110_icon_20250610_095504_c3ec1.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.48332630000000000000",
+      "latitude": "22.88334330000000000000",
+      "address": "高雄市旗山區延平一路695號",
+      "address_remark": "",
+      "tel": "07-6628519",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.97,
+      "rating_order_count": 96,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿70外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 70,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 70,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 140,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 210,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 280,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 420,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 560,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 43051,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14086,
+      "name": "長榮大學門市",
+      "name_short": "長榮大學門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14086_icon_20250610_095403_f8806.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.26986210000000000000",
+      "latitude": "22.91065500000000000000",
+      "address": "台南市歸仁區長榮路一段213號",
+      "address_remark": "",
+      "tel": "06-2782868",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 31,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 44374,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14074,
+      "name": "關廟門市",
+      "name_short": "關廟門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14074_icon_20250610_095326_273e4.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.32926040000000000000",
+      "latitude": "22.95930760000000000000",
+      "address": "台南市關廟區香洋里中山路一段337號",
+      "address_remark": "",
+      "tel": "06-5951195",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 6,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 50163,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 16816,
+      "name": "仁德門市",
+      "name_short": "仁德門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_16816_icon_20250610_095620_af4b7.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.25157950000000000000",
+      "latitude": "22.94930040000000000000",
+      "address": "台南市仁德區中正路2段248號",
+      "address_remark": "",
+      "tel": "06-2703456",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.72,
+      "rating_order_count": 46,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": "最低滿0外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 0,
+          "order_min_distance_m": 0
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 50370,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 16819,
+      "name": "歸仁門市",
+      "name_short": "歸仁門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_16819_icon_20250610_095627_09c5b.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.29747890000000000000",
+      "latitude": "22.96626370000000000000",
+      "address": "台南市歸仁區中山路一段517號",
+      "address_remark": "",
+      "tel": "06-2395333",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.88,
+      "rating_order_count": 81,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 51560,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 25723,
+      "name": "仁德一甲門市",
+      "name_short": "仁德一甲門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22890_icon_20250610_095901_bce1f.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.25297440000000000000",
+      "latitude": "22.97424810000000000000",
+      "address": "台南市仁德區中正路三段102號",
+      "address_remark": "",
+      "tel": "06-2705168",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 3,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "18:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 53802,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14077,
+      "name": "中華南門市",
+      "name_short": "中華南門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14077_icon_20250610_095334_34d11.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.19232570000000000000",
+      "latitude": "22.96158420000000000000",
+      "address": "台南市南區中華南路二段121號",
+      "address_remark": "",
+      "tel": "06-2628002",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 24,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 54601,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14062,
+      "name": "中華東門市",
+      "name_short": "中華東門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14062_icon_20250610_095253_41d5c.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.23228430000000000000",
+      "latitude": "22.98397320000000000000",
+      "address": "台南市東區中華東路二段205號1樓",
+      "address_remark": "",
+      "tel": "06-2908628",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.83,
+      "rating_order_count": 90,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 55871,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 25720,
+      "name": "新孝門市",
+      "name_short": "新孝門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_22890_icon_20250610_095901_bce1f.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.19027880000000000000",
+      "latitude": "22.97767040000000000000",
+      "address": "台南市南區國宅里新孝路29號",
+      "address_remark": "1樓",
+      "tel": "06-2650568",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 13000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 56848,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14059,
+      "name": "崑山門市",
+      "name_short": "崑山門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14059_icon_20250610_095246_02a5e.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.25952180000000000000",
+      "latitude": "23.00927790000000000000",
+      "address": "台南市永康區台南市永康區永華路151號",
+      "address_remark": "",
+      "tel": "06-2051238",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.84,
+      "rating_order_count": 25,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 58526,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 16822,
+      "name": "永康復國門市",
+      "name_short": "永康復國門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_16822_icon_20250610_095633_5fa2b.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.24617490000000000000",
+      "latitude": "23.00835690000000000000",
+      "address": "台南市永康區復國一路235號",
+      "address_remark": "",
+      "tel": "06-3123838",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 24,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 58788,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14068,
+      "name": "南台門市",
+      "name_short": "南台門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14068_icon_20250610_095311_426fd.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.22319750000000000000",
+      "latitude": "23.02105050000000000000",
+      "address": "台南市永康區大武街73號",
+      "address_remark": "",
+      "tel": "06-2432334",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.91,
+      "rating_order_count": 35,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 61335,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14047,
+      "name": "本原門市",
+      "name_short": "本原門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14047_icon_20250610_095155_85ef8.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.17376430000000000000",
+      "latitude": "23.05166830000000000000",
+      "address": "台南市安南區本原街三段242號",
+      "address_remark": "台南市安南區本原街三段242號",
+      "tel": "06-2456898",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.86,
+      "rating_order_count": 103,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 67579,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1150,
+      "brand_code": "woocha",
+      "brand_name": "金茶伍",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1150_10b9ecd5e9d05c38.png",
+      "id": 14053,
+      "name": "佳里門市",
+      "name_short": "佳里門市",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14053_icon_20250610_095225_3bcc2.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1150_10b9ecd5e9d05c38.png",
+      "description": null,
+      "longitude": "120.17468220000000000000",
+      "latitude": "23.16464940000000000000",
+      "address": "台南市佳里區光復路375號",
+      "address_remark": "台南市佳里區光復路375號",
+      "tel": "06-7234585",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.88,
+      "rating_order_count": 40,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 82991,
       "in_avail_nidin_league": 0
     }
   ]

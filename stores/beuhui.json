@@ -5,14 +5,11 @@
     "name": "北回木瓜牛奶"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:17:11.286742",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:03:00.153503",
+    "total_regions_searched": 371,
+    "regions_with_stores": 4,
     "total_stores": 1,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -44,14 +41,14 @@
       "menu_layout_type": 1,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "start_time": "12:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "19:30:00",
+      "order_start_time": "12:00:00",
+      "order_end_time": "19:00:00",
       "delivery_way_description": "最低滿200外送",
       "delivery_info": [
         {
@@ -79,7 +76,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 78038,
+      "distance": 75770,
       "in_avail_nidin_league": 0
     }
   ]

@@ -5,14 +5,11 @@
     "name": "大茗本位製茶堂"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:18:14.559947",
-    "total_pages": 1,
-    "total_stores": 27,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T10:07:28.779538",
+    "total_regions_searched": 371,
+    "regions_with_stores": 8,
+    "total_stores": 49,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -20,708 +17,40 @@
       "brand_code": "daming",
       "brand_name": "大茗本位製茶堂",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 20442,
-      "name": "台北伊通店",
-      "name_short": "台北伊通店",
+      "id": 22848,
+      "name": "南港lalaport店",
+      "name_short": "南港lalaport店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
       "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
       "description": null,
-      "longitude": "121.53496260000000000000",
-      "latitude": "25.05395330000000000000",
-      "address": "台北市中山區伊通街123號",
-      "address_remark": "",
-      "tel": "02-2500-7350",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 4.62,
-      "rating_order_count": 34,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "19:50:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "19:50:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 7000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 433,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 17059,
-      "name": "台北站前店",
-      "name_short": "台北站前店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "121.51649890000000000000",
-      "latitude": "25.04471670000000000000",
-      "address": "台北市中正區信陽街11-2號",
-      "address_remark": "",
-      "tel": "02-23830688",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 4.6,
-      "rating_order_count": 99,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "19:30:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 3500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 3056,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 15667,
-      "name": "台北通化店",
-      "name_short": "台北通化店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "121.55418960000000000000",
-      "latitude": "25.03249220000000000000",
-      "address": "台北市大安區文昌街205號1樓",
-      "address_remark": "",
-      "tel": "02-27014588",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 14,
-      "rating_average_star": 4.72,
-      "rating_order_count": 116,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:45:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:45:00",
-      "delivery_way_description": "最低滿380外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 380,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 380,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 3500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 550,
-          "order_min_distance_m": 4500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 850,
-          "order_min_distance_m": 5500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 900,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 3616,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 16768,
-      "name": "信義永吉店",
-      "name_short": "信義永吉店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "121.56889230000000000000",
-      "latitude": "25.04292750000000000000",
-      "address": "台北市信義區永吉路30巷121號",
-      "address_remark": "",
-      "tel": "02-27658868",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.74,
-      "rating_order_count": 96,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "20:45:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "20:45:00",
-      "delivery_way_description": "最低滿390外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 390,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 390,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 3500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 550,
-          "order_min_distance_m": 4500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 750,
-          "order_min_distance_m": 5500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1300,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2500,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 4293,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 21138,
-      "name": "三重自強店",
-      "name_short": "三重自強店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13215_icon_20220929_104857_1b401.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "121.49857640000000000000",
-      "latitude": "25.06789880000000000000",
-      "address": "新北市三重區自強路一段30號",
-      "address_remark": "",
-      "tel": "(02)2970-2988",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.7,
-      "rating_order_count": 27,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:50:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:50:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 1500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2500,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3500,
-          "order_min_distance_m": 12000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 5611,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 13603,
-      "name": "台北公館店",
-      "name_short": "台北公館店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "121.53423520000000000000",
-      "latitude": "25.01347830000000000000",
-      "address": "台北市中正區汀州路三段158之1號",
-      "address_remark": "",
-      "tel": "02-23673535",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.75,
-      "rating_order_count": 153,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿350外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 3500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 7500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1400,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1800,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 5688,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 21984,
-      "name": "台北龍山寺店",
-      "name_short": "台北龍山寺店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "121.49900280000000000000",
-      "latitude": "25.03511660000000000000",
-      "address": "台北市萬華區西園路一段226號",
-      "address_remark": "",
-      "tel": "0966444976",
+      "longitude": "121.61758250000000000000",
+      "latitude": "25.05934490000000000000",
+      "address": "台北市南港區經貿二路131號B1",
+      "address_remark": "百貨b1",
+      "tel": "02-26538383",
       "order_status": 10,
       "is_off_allow_order": 0,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
       "order_tolerance_day": 3,
-      "rating_average_star": 4.9,
-      "rating_order_count": 21,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "22:00:00",
-      "delivery_way_description": "最低滿250外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 7500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1400,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1800,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 20000
-        }
-      ],
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
       "meal_tag_info": [
         {
           "tag_id": 1,
@@ -731,7 +60,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5720,
+      "distance": 19483,
       "in_avail_nidin_league": 0
     },
     {
@@ -765,8 +94,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "19:50:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -833,7 +162,109 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5989,
+      "distance": 22668,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 16768,
+      "name": "信義永吉店",
+      "name_short": "信義永吉店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "121.56889230000000000000",
+      "latitude": "25.04292750000000000000",
+      "address": "台北市信義區永吉路30巷121號",
+      "address_remark": "",
+      "tel": "02-27658868",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.74,
+      "rating_order_count": 96,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:45:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:45:00",
+      "delivery_way_description": "最低滿390外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 390,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 390,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 25879,
       "in_avail_nidin_league": 0
     },
     {
@@ -945,7 +376,512 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 6175,
+      "distance": 27428,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 15667,
+      "name": "台北通化店",
+      "name_short": "台北通化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "121.55418960000000000000",
+      "latitude": "25.03249220000000000000",
+      "address": "台北市大安區文昌街205號1樓",
+      "address_remark": "",
+      "tel": "02-27014588",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.72,
+      "rating_order_count": 116,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:45:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:45:00",
+      "delivery_way_description": "最低滿380外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 380,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 380,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 28325,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 20442,
+      "name": "台北伊通店",
+      "name_short": "台北伊通店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "121.53496260000000000000",
+      "latitude": "25.05395330000000000000",
+      "address": "台北市中山區伊通街123號",
+      "address_remark": "",
+      "tel": "02-2500-7350",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.62,
+      "rating_order_count": 34,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "19:50:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "19:50:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 7000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 28711,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 17059,
+      "name": "台北站前店",
+      "name_short": "台北站前店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "121.51649890000000000000",
+      "latitude": "25.04471670000000000000",
+      "address": "台北市中正區信陽街11-2號",
+      "address_remark": "",
+      "tel": "02-23830688",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.6,
+      "rating_order_count": 99,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "19:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 31474,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 13603,
+      "name": "台北公館店",
+      "name_short": "台北公館店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "121.53423520000000000000",
+      "latitude": "25.01347830000000000000",
+      "address": "台北市中正區汀州路三段158之1號",
+      "address_remark": "",
+      "tel": "02-23673535",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.75,
+      "rating_order_count": 153,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿350外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 32075,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 21138,
+      "name": "三重自強店",
+      "name_short": "三重自強店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13215_icon_20220929_104857_1b401.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "121.49857640000000000000",
+      "latitude": "25.06789880000000000000",
+      "address": "新北市三重區自強路一段30號",
+      "address_remark": "",
+      "tel": "(02)2970-2988",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.7,
+      "rating_order_count": 27,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:50:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:50:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3500,
+          "order_min_distance_m": 12000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 32125,
       "in_avail_nidin_league": 0
     },
     {
@@ -1037,7 +973,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 9104,
+      "distance": 33737,
       "in_avail_nidin_league": 0
     },
     {
@@ -1045,114 +981,68 @@
       "brand_code": "daming",
       "brand_name": "大茗本位製茶堂",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 22848,
-      "name": "南港lalaport店",
-      "name_short": "南港lalaport店",
+      "id": 21984,
+      "name": "台北龍山寺店",
+      "name_short": "台北龍山寺店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
       "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
       "description": null,
-      "longitude": "121.61758250000000000000",
-      "latitude": "25.05934490000000000000",
-      "address": "台北市南港區經貿二路131號B1",
-      "address_remark": "百貨b1",
-      "tel": "02-26538383",
+      "longitude": "121.49900280000000000000",
+      "latitude": "25.03511660000000000000",
+      "address": "台北市萬華區西園路一段226號",
+      "address_remark": "",
+      "tel": "0966444976",
       "order_status": 10,
       "is_off_allow_order": 0,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
       "order_tolerance_day": 3,
-      "rating_average_star": 5,
-      "rating_order_count": 1,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": null,
-      "delivery_info": [],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10478,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 23746,
-      "name": "板橋府中店",
-      "name_short": "板橋府中店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "121.46131870000000000000",
-      "latitude": "25.00783940000000000000",
-      "address": "新北市板橋區重慶路33號",
-      "address_remark": "",
-      "tel": "02-29592828",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 5,
+      "rating_average_star": 4.91,
       "rating_order_count": 22,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "start_time": "10:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿400外送",
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿250外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 400,
+          "order_min_price": 250,
           "order_min_distance_m": 0
         },
         {
           "delivery_type": 3,
-          "order_min_price": 400,
+          "order_min_price": 250,
           "order_min_distance_m": 1000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 500,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
           "order_min_distance_m": 3000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 600,
+          "order_min_price": 450,
           "order_min_distance_m": 4000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 700,
+          "order_min_price": 600,
           "order_min_distance_m": 5000
         },
         {
@@ -1162,27 +1052,27 @@
         },
         {
           "delivery_type": 3,
-          "order_min_price": 900,
+          "order_min_price": 1000,
           "order_min_distance_m": 7000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1000,
+          "order_min_price": 1200,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
           "order_min_distance_m": 8000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1200,
+          "order_min_price": 1800,
           "order_min_distance_m": 10000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1600,
-          "order_min_distance_m": 15000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2100,
+          "order_min_price": 2000,
           "order_min_distance_m": 20000
         }
       ],
@@ -1195,7 +1085,109 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 11969,
+      "distance": 34152,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 19344,
+      "name": "淡水英專店",
+      "name_short": "淡水英專店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "121.44542660000000000000",
+      "latitude": "25.16969140000000000000",
+      "address": "新北市淡水區英專路19號",
+      "address_remark": "1樓",
+      "tel": "02-26281683",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.27,
+      "rating_order_count": 22,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 36757,
       "in_avail_nidin_league": 0
     },
     {
@@ -1302,7 +1294,114 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 12214,
+      "distance": 39649,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 23746,
+      "name": "板橋府中店",
+      "name_short": "板橋府中店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "121.46131870000000000000",
+      "latitude": "25.00783940000000000000",
+      "address": "新北市板橋區重慶路33號",
+      "address_remark": "",
+      "tel": "02-29592828",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 22,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2100,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 40406,
       "in_avail_nidin_league": 0
     },
     {
@@ -1336,8 +1435,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1419,109 +1518,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 14940,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 19344,
-      "name": "淡水英專店",
-      "name_short": "淡水英專店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "121.44542660000000000000",
-      "latitude": "25.16969140000000000000",
-      "address": "新北市淡水區英專路19號",
-      "address_remark": "1樓",
-      "tel": "02-26281683",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 4.27,
-      "rating_order_count": 22,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:30:00",
-      "end_time": "20:30:00",
-      "is_preparing": 1,
-      "is_open": 0,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:30:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1300,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 20752,
+      "distance": 43265,
       "in_avail_nidin_league": 0
     },
     {
@@ -1633,129 +1630,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 22164,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 21054,
-      "name": "桃園統領店",
-      "name_short": "桃園統領店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13215_icon_20220929_104857_1b401.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "121.31243090000000000000",
-      "latitude": "24.99105450000000000000",
-      "address": "桃園市桃園區中正路61號",
-      "address_remark": "",
-      "tel": "03-3369900",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 3,
-      "rating_average_star": 4.94,
-      "rating_order_count": 16,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "21:15:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "21:15:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 200
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2300,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2500,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3000,
-          "order_min_distance_m": 15000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 4000,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 30909,
+      "distance": 48585,
       "in_avail_nidin_league": 0
     },
     {
@@ -1877,7 +1752,129 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 31540,
+      "distance": 58942,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 21054,
+      "name": "桃園統領店",
+      "name_short": "桃園統領店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13215_icon_20220929_104857_1b401.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "121.31243090000000000000",
+      "latitude": "24.99105450000000000000",
+      "address": "桃園市桃園區中正路61號",
+      "address_remark": "",
+      "tel": "03-3369900",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.94,
+      "rating_order_count": 16,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:15:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:15:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2300,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 4000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 58930,
       "in_avail_nidin_league": 0
     },
     {
@@ -1979,99 +1976,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 38715,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 25942,
-      "name": "桃園龍潭店",
-      "name_short": "桃園龍潭店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.21388500000000000000",
-      "latitude": "24.86547510000000000000",
-      "address": "桃園市龍潭區東龍路256號",
-      "address_remark": "1樓",
-      "tel": "03-4994499",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 5,
-      "rating_order_count": 2,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "20:00:00",
-      "delivery_way_description": "最低滿350外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 900,
-          "order_min_distance_m": 8000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 50385,
+      "distance": 66658,
       "in_avail_nidin_league": 0
     },
     {
@@ -2105,8 +2010,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -2208,7 +2113,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 62269,
+      "distance": 68976,
       "in_avail_nidin_league": 0
     },
     {
@@ -2216,54 +2121,79 @@
       "brand_code": "daming",
       "brand_name": "大茗本位製茶堂",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 18454,
-      "name": "新竹金山店",
-      "name_short": "新竹金山店",
+      "id": 25942,
+      "name": "桃園龍潭店",
+      "name_short": "桃園龍潭店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "photo": null,
       "description": null,
-      "longitude": "121.02280910000000000000",
-      "latitude": "24.77744710000000000000",
-      "address": "新竹市東區金山十三街1號",
-      "address_remark": "",
-      "tel": "03-6667886",
+      "longitude": "121.21388500000000000000",
+      "latitude": "24.86547510000000000000",
+      "address": "桃園市龍潭區東龍路256號",
+      "address_remark": "1樓",
+      "tel": "03-4994499",
       "order_status": 10,
       "is_off_allow_order": 0,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.79,
-      "rating_order_count": 98,
+      "order_tolerance_day": 5,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:30:00",
+      "start_time": "11:00:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "10:30:00",
+      "order_start_time": "11:00:00",
       "order_end_time": "20:00:00",
-      "delivery_way_description": "最低滿300外送",
+      "delivery_way_description": "最低滿350外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 300,
+          "order_min_price": 350,
           "order_min_distance_m": 0
         },
         {
           "delivery_type": 3,
-          "order_min_price": 300,
+          "order_min_price": 350,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
           "order_min_distance_m": 5000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 10000
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 8000
         }
       ],
       "meal_tag_info": [
@@ -2275,7 +2205,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 78426,
+      "distance": 48982,
       "in_avail_nidin_league": 0
     },
     {
@@ -2283,25 +2213,25 @@
       "brand_code": "daming",
       "brand_name": "大茗本位製茶堂",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 20445,
-      "name": "新竹民生店",
-      "name_short": "新竹民生店",
+      "id": 19350,
+      "name": "台中霧峰店",
+      "name_short": "台中霧峰店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
       "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
       "description": null,
-      "longitude": "120.97539270000000000000",
-      "latitude": "24.81265320000000000000",
-      "address": "新竹市東區復中里民生路258號",
-      "address_remark": "1樓",
-      "tel": "03-5333523",
+      "longitude": "120.69854350000000000000",
+      "latitude": "24.06437300000000000000",
+      "address": "台中市霧峰區中正路893號",
+      "address_remark": "台中市霧峰區中正路893號",
+      "tel": "04-23399245",
       "order_status": 10,
       "is_off_allow_order": 0,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
       "order_tolerance_day": 15,
-      "rating_average_star": 4.67,
-      "rating_order_count": 12,
+      "rating_average_star": 4.99,
+      "rating_order_count": 114,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
@@ -2315,6 +2245,840 @@
       "is_off_day": 0,
       "order_start_time": "10:00:00",
       "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 25294,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 17768,
+      "name": "員林林森店",
+      "name_short": "員林林森店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.57759090000000000000",
+      "latitude": "23.95848570000000000000",
+      "address": "彰化縣員林市林森路臨258號",
+      "address_remark": "",
+      "tel": "04-8363738",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.9,
+      "rating_order_count": 198,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:25:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:25:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 27962,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 22101,
+      "name": "大里成功店",
+      "name_short": "大里成功店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.70264820000000000000",
+      "latitude": "24.08844130000000000000",
+      "address": "台中市大里區成功路391號",
+      "address_remark": "",
+      "tel": "04-24966008",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.88,
+      "rating_order_count": 25,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 28256,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 23281,
+      "name": "大里大明店",
+      "name_short": "大里大明店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.68117100000000000000",
+      "latitude": "24.11498850000000000000",
+      "address": "台中市大里區大明路285號",
+      "address_remark": "1樓",
+      "tel": "04-24876158",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 6,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 32877,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 18607,
+      "name": "太平永義店",
+      "name_short": "太平永義店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.71101340000000000000",
+      "latitude": "24.12699570000000000000",
+      "address": "台中市太平區太平路686號",
+      "address_remark": "",
+      "tel": "04-23510889",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.82,
+      "rating_order_count": 17,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 6400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 33157,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 13215,
+      "name": "高工店",
+      "name_short": "高工店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13215_icon_20220929_104857_1b401.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.66674510000000000000",
+      "latitude": "24.11394730000000000000",
+      "address": "台中市南區美村南路140號",
+      "address_remark": "",
+      "tel": "04-22600246",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.82,
+      "rating_order_count": 88,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 33554,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 23896,
+      "name": "台中烏日店",
+      "name_short": "台中烏日店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.63579780000000000000",
+      "latitude": "24.10729120000000000000",
+      "address": "台中市烏日區中山路一段486號",
+      "address_remark": "",
+      "tel": "04-23379565",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 34783,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 17588,
+      "name": "台中忠孝店",
+      "name_short": "台中忠孝店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.68450200000000000000",
+      "latitude": "24.13092630000000000000",
+      "address": "台中市南區台中路168號",
+      "address_remark": "",
+      "tel": "04-22850065",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 15,
+      "rating_average_star": 4.86,
+      "rating_order_count": 43,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:30:00",
       "delivery_way_description": "最低滿150外送",
       "delivery_info": [
         {
@@ -2325,144 +3089,97 @@
         {
           "delivery_type": 3,
           "order_min_price": 150,
-          "order_min_distance_m": 300
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 600
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
           "order_min_distance_m": 1000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 500,
+          "order_min_price": 200,
           "order_min_distance_m": 1500
         },
         {
           "delivery_type": 3,
-          "order_min_price": 500,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
           "order_min_distance_m": 2500
         },
         {
           "delivery_type": 3,
-          "order_min_price": 650,
+          "order_min_price": 450,
           "order_min_distance_m": 3500
         },
         {
           "delivery_type": 3,
-          "order_min_price": 800,
+          "order_min_price": 500,
           "order_min_distance_m": 4000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1200,
+          "order_min_price": 550,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
           "order_min_distance_m": 5000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2500,
-          "order_min_distance_m": 9000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 81572,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 17771,
-      "name": "新竹食品店",
-      "name_short": "新竹食品店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "120.97610640000000000000",
-      "latitude": "24.79680480000000000000",
-      "address": "新竹市東區食品路167號",
-      "address_remark": "",
-      "tel": "03-5730586",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 4.64,
-      "rating_order_count": 100,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
+          "order_min_price": 750,
+          "order_min_distance_m": 5500
         },
         {
           "delivery_type": 3,
           "order_min_price": 800,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
           "order_min_distance_m": 6000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1500,
+          "order_min_price": 850,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
           "order_min_distance_m": 7000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 2000,
+          "order_min_price": 950,
           "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 20000
         }
       ],
       "meal_tag_info": [
@@ -2474,7 +3191,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 82486,
+      "distance": 34827,
       "in_avail_nidin_league": 0
     },
     {
@@ -2482,44 +3199,59 @@
       "brand_code": "daming",
       "brand_name": "大茗本位製茶堂",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 21981,
-      "name": "新竹城隍店",
-      "name_short": "新竹城隍店",
+      "id": 18112,
+      "name": "太平精武東店",
+      "name_short": "太平精武東店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
       "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
       "description": null,
-      "longitude": "120.96547830000000000000",
-      "latitude": "24.80486790000000000000",
-      "address": "新竹市北區中山路90號",
-      "address_remark": "1樓",
-      "tel": "03-5210021",
+      "longitude": "120.70893000000000000000",
+      "latitude": "24.14901500000000000000",
+      "address": "台中市東區精武東路152號1樓",
+      "address_remark": "",
+      "tel": "04-22152134",
       "order_status": 10,
       "is_off_allow_order": 0,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 5,
-      "rating_order_count": 10,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.67,
+      "rating_order_count": 36,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
       "start_time": "10:00:00",
-      "end_time": "21:00:00",
+      "end_time": "22:00:00",
       "is_preparing": 0,
       "is_open": 1,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿350外送",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿150外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 350,
+          "order_min_price": 150,
           "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2500
         },
         {
           "delivery_type": 3,
@@ -2543,8 +3275,1251 @@
         },
         {
           "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1250,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 11500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1350,
+          "order_min_distance_m": 12000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 36283,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 17582,
+      "name": "台中一中店",
+      "name_short": "台中一中店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.68379990000000000000",
+      "latitude": "24.14787390000000000000",
+      "address": "台中市北區太平路83號1樓",
+      "address_remark": "",
+      "tel": "04-22266333",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 65,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
           "order_min_price": 600,
           "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 37140,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 18109,
+      "name": "台中南屯店",
+      "name_short": "台中南屯店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13215_icon_20220929_104857_1b401.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.65105300000000000000",
+      "latitude": "24.13617000000000000000",
+      "address": "台中市南屯區南屯路二段165號1樓",
+      "address_remark": "台中市南屯路二段165號1樓",
+      "tel": "04-24712368",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 24,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 50
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1250,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1350,
+          "order_min_distance_m": 10500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 37348,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 25768,
+      "name": "益民錦新店",
+      "name_short": "益民錦新店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.68674820000000000000",
+      "latitude": "24.15304530000000000000",
+      "address": "台中市北區一中街130號",
+      "address_remark": "",
+      "tel": "04-22266888",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 37708,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 14440,
+      "name": "勤美店",
+      "name_short": "勤美店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.66554810000000000000",
+      "latitude": "24.14899900000000000000",
+      "address": "台中市西區双龍里模範街23巷23號1樓",
+      "address_remark": "",
+      "tel": "04-23012366",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.88,
+      "rating_order_count": 67,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 38191,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 16333,
+      "name": "永興進化店",
+      "name_short": "永興進化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.68243590000000000000",
+      "latitude": "24.16332210000000000000",
+      "address": "台中市北區進化北路304之1號1樓",
+      "address_remark": "",
+      "tel": "04-22353500",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.58,
+      "rating_order_count": 38,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 39293,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 19347,
+      "name": "彰化彰基店",
+      "name_short": "彰化彰基店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.54257960000000000000",
+      "latitude": "24.07079400000000000000",
+      "address": "彰化縣彰化市中山路二段246號",
+      "address_remark": "",
+      "tel": "04-7237168",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 6,
+      "rating_average_star": 4.55,
+      "rating_order_count": 29,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1700,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 39477,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 22308,
+      "name": "東山軍功店",
+      "name_short": "東山軍功店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.71886080000000000000",
+      "latitude": "24.17569220000000000000",
+      "address": "台中市北屯區軍功里東山路一段264號",
+      "address_remark": "",
+      "tel": "04-24360888",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.89,
+      "rating_order_count": 9,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 10500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 12000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 39710,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 17585,
+      "name": "文心昌平店",
+      "name_short": "文心昌平店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.69114400000000000000",
+      "latitude": "24.17172630000000000000",
+      "address": "台中市北屯區文心路四段801號",
+      "address_remark": "台中市北屯區文心路四段801號",
+      "tel": "04-22417819",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.66,
+      "rating_order_count": 74,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 40081,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 13218,
+      "name": "台中黎明店",
+      "name_short": "台中黎明店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.63524930000000000000",
+      "latitude": "24.15055340000000000000",
+      "address": "台中市南屯區三和里黎明路二段367號1樓",
+      "address_remark": "",
+      "tel": "04-22559595",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.81,
+      "rating_order_count": 172,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1800
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5500
         },
         {
           "delivery_type": 3,
@@ -2563,120 +4538,38 @@
         },
         {
           "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3000,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 83230,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1434,
-      "brand_code": "daming",
-      "brand_name": "大茗本位製茶堂",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 22425,
-      "name": "竹南博愛店",
-      "name_short": "竹南博愛店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
-      "description": null,
-      "longitude": "120.87706330000000000000",
-      "latitude": "24.68669360000000000000",
-      "address": "苗栗縣竹南鎮延平路112號",
-      "address_remark": "",
-      "tel": "037-484589",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 4.81,
-      "rating_order_count": 21,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "20:45:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "20:45:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
           "order_min_price": 1200,
-          "order_min_distance_m": 7000
+          "order_min_distance_m": 7500
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1400,
+          "order_min_price": 1500,
           "order_min_distance_m": 8000
         },
         {
           "delivery_type": 3,
           "order_min_price": 2000,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
           "order_min_distance_m": 9000
         },
         {
           "delivery_type": 3,
           "order_min_price": 3000,
           "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 4000,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 5000,
+          "order_min_distance_m": 15000
         }
       ],
       "meal_tag_info": [
@@ -2688,7 +4581,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 101586,
+      "distance": 40158,
       "in_avail_nidin_league": 0
     },
     {
@@ -2696,49 +4589,59 @@
       "brand_code": "daming",
       "brand_name": "大茗本位製茶堂",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
-      "id": 15127,
-      "name": "苗栗府前店",
-      "name_short": "苗栗府前店",
+      "id": 23428,
+      "name": "台中嶺東店",
+      "name_short": "台中嶺東店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
       "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
       "description": null,
-      "longitude": "120.81796330000000000000",
-      "latitude": "24.56008000000000000000",
-      "address": "苗栗縣苗栗市府前路165號1樓",
+      "longitude": "120.60980920000000000000",
+      "latitude": "24.13835950000000000000",
+      "address": "台中市南屯區永春南路125號",
       "address_remark": "",
-      "tel": "037-320808",
+      "tel": "04-23862222",
       "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.88,
-      "rating_order_count": 75,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 7,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
       "start_time": "10:00:00",
-      "end_time": "20:30:00",
+      "end_time": "22:00:00",
       "is_preparing": 0,
       "is_open": 1,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿300外送",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 300,
+          "order_min_price": 100,
           "order_min_distance_m": 0
         },
         {
           "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 3000
+          "order_min_price": 100,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
         },
         {
           "delivery_type": 3,
@@ -2762,12 +4665,655 @@
         },
         {
           "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 40411,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 23425,
+      "name": "青海漢口店",
+      "name_short": "青海漢口店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.65768400000000000000",
+      "latitude": "24.16298700000000000000",
+      "address": "台中市西屯區漢口路二段2號",
+      "address_remark": "",
+      "tel": "04-23141667",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 6,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
           "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
           "order_min_distance_m": 8000
         },
         {
           "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 40453,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 22359,
+      "name": "斗六中山店",
+      "name_short": "斗六中山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.53814000000000000000",
+      "latitude": "23.70131880000000000000",
+      "address": "雲林縣斗六市中山路306號",
+      "address_remark": "",
+      "tel": "0981-595942",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 26,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
           "order_min_price": 1200,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1250,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1350,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1650,
+          "order_min_distance_m": 10500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1700,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1750,
+          "order_min_distance_m": 11500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1850,
+          "order_min_distance_m": 12500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1900,
+          "order_min_distance_m": 13000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1950,
+          "order_min_distance_m": 13500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2050,
+          "order_min_distance_m": 14500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2100,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2300,
+          "order_min_distance_m": 15500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2400,
+          "order_min_distance_m": 16000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 16500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2600,
+          "order_min_distance_m": 17000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2700,
+          "order_min_distance_m": 17500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2800,
+          "order_min_distance_m": 18000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2900,
+          "order_min_distance_m": 18500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 19000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3100,
+          "order_min_distance_m": 19500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3200,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 26933,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 19191,
+      "name": "台中東海店",
+      "name_short": "台中東海店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.59232370000000000000",
+      "latitude": "24.18148730000000000000",
+      "address": "台中市龍井區臺灣大道五段3巷68之1號",
+      "address_remark": "1樓",
+      "tel": "04-26528808",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 10,
+      "rating_average_star": 4.9,
+      "rating_order_count": 41,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1700,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2200,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 46627,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 16420,
+      "name": "世貿中工店",
+      "name_short": "世貿中工店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.61846600000000000000",
+      "latitude": "24.17755530000000000000",
+      "address": "台中市西屯區中工三路151號1樓",
+      "address_remark": "",
+      "tel": "04-23595860",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.8,
+      "rating_order_count": 139,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
           "order_min_distance_m": 10000
         }
       ],
@@ -2780,7 +5326,641 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 118289,
+      "distance": 47417,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 14185,
+      "name": "逢甲西屯店",
+      "name_short": "逢甲西屯店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.64504500000000000000",
+      "latitude": "24.17268000000000000000",
+      "address": "台中市西屯區西屯路二段259號",
+      "address_remark": "",
+      "tel": "04-24520661",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.78,
+      "rating_order_count": 138,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 48356,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 16873,
+      "name": "台中水湳店",
+      "name_short": "台中水湳店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.67128960000000000000",
+      "latitude": "24.17501440000000000000",
+      "address": "台中市北屯區中清路二段62號1樓",
+      "address_remark": "",
+      "tel": "04-22930050",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.83,
+      "rating_order_count": 103,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 8500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1150,
+          "order_min_distance_m": 9500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 54154,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 15043,
+      "name": "嘉義文化店",
+      "name_short": "嘉義文化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.44957770000000000000",
+      "latitude": "23.48077410000000000000",
+      "address": "嘉義市東區文化路218號",
+      "address_remark": "",
+      "tel": "05-2278476",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.85,
+      "rating_order_count": 66,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 46038,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 19005,
+      "name": "嘉義民族店",
+      "name_short": "嘉義民族店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.44508300000000000000",
+      "latitude": "23.47574030000000000000",
+      "address": "嘉義市西區民族路630號",
+      "address_remark": "",
+      "tel": "05-2221218",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.82,
+      "rating_order_count": 17,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 46975,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1434,
+      "brand_code": "daming",
+      "brand_name": "大茗本位製茶堂",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1434_6e38e5a8973236a5.jpg",
+      "id": 22380,
+      "name": "台中沙鹿鎮南店",
+      "name_short": "台中沙鹿鎮南店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13218_icon_20220929_104905_388a7.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1434_6e38e5a8973236a5.jpg",
+      "description": null,
+      "longitude": "120.56020720000000000000",
+      "latitude": "24.23422910000000000000",
+      "address": "台中市沙鹿區四平街55號",
+      "address_remark": "",
+      "tel": "04-26362999",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.6,
+      "rating_order_count": 5,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 88158,
       "in_avail_nidin_league": 0
     }
   ]

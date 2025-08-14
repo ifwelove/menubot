@@ -5,14 +5,11 @@
     "name": "Spica手作太空飲品"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:17:25.753776",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:04:09.355035",
+    "total_regions_searched": 371,
+    "regions_with_stores": 3,
     "total_stores": 1,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -24,7 +21,7 @@
       "name": "內湖店",
       "name_short": "內湖店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_10738_icon_20221209_103409_33b4b.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1072_d036e62ccca92ff3.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_10738_photo_20250813_125456_21446.png",
       "description": null,
       "longitude": "121.57351000000000000000",
       "latitude": "25.08159620000000000000",
@@ -46,8 +43,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -109,7 +106,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 6231,
+      "distance": 23138,
       "in_avail_nidin_league": 0
     }
   ]

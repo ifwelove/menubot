@@ -5,14 +5,11 @@
     "name": "林三茶研所"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:18:49.847607",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:10:44.486507",
+    "total_regions_searched": 371,
+    "regions_with_stores": 3,
     "total_stores": 14,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -20,17 +17,17 @@
       "brand_code": "linsontea",
       "brand_name": "林三茶研所",
       "brand_photo": null,
-      "id": 25795,
-      "name": "三重文化店",
-      "name_short": "三重文化店",
+      "id": 25672,
+      "name": "清大店",
+      "name_short": "清大店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_25795_photo_20250801_155323_9e928.jpeg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_25672_photo_20250801_155249_fc913.jpeg",
       "description": null,
-      "longitude": "121.49852190000000000000",
-      "latitude": "25.06619270000000000000",
-      "address": "新北市三重區文化北路100號",
+      "longitude": "120.99715600000000000000",
+      "latitude": "24.79820480000000000000",
+      "address": "新竹市東區建新路42號",
       "address_remark": "1樓",
-      "tel": "02-29826054",
+      "tel": "03-5730588",
       "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
@@ -38,20 +35,326 @@
       "order_start_day": 0,
       "order_tolerance_day": 7,
       "rating_average_star": 5,
-      "rating_order_count": 1,
+      "rating_order_count": 5,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 1,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "22:30:00",
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
       "is_preparing": 0,
       "is_open": 1,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "22:30:00",
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 13534,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1702,
+      "brand_code": "linsontea",
+      "brand_name": "林三茶研所",
+      "brand_photo": null,
+      "id": 21312,
+      "name": "桃園楊梅店",
+      "name_short": "桃園楊梅店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_21312_photo_20241107_183642_62ea1.jpg",
+      "description": null,
+      "longitude": "121.14611990000000000000",
+      "latitude": "24.91333800000000000000",
+      "address": "桃園市楊梅區楊梅里大成路232號",
+      "address_remark": "",
+      "tel": "03-4750313",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.58,
+      "rating_order_count": 71,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 12000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 14056,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1702,
+      "brand_code": "linsontea",
+      "brand_name": "林三茶研所",
+      "brand_photo": null,
+      "id": 25798,
+      "name": "新竹金山店",
+      "name_short": "新竹金山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_25798_photo_20250801_155307_085c0.jpeg",
+      "description": null,
+      "longitude": "121.02215110000000000000",
+      "latitude": "24.77782800000000000000",
+      "address": "新竹市東區金山里金山街65號",
+      "address_remark": "1樓",
+      "tel": "03-5790088",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 15220,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1702,
+      "brand_code": "linsontea",
+      "brand_name": "林三茶研所",
+      "brand_photo": null,
+      "id": 17035,
+      "name": "大觀店",
+      "name_short": "大觀店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_17035_photo_20231017_185859_9b96d.jpg",
+      "description": null,
+      "longitude": "121.13907700000000000000",
+      "latitude": "25.04447430000000000000",
+      "address": "桃園市觀音區大觀路二段246號",
+      "address_remark": "桃園市觀音區大觀路二段246號",
+      "tel": "03-4838103",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.89,
+      "rating_order_count": 122,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
       "delivery_way_description": "最低滿200外送",
       "delivery_info": [
         {
@@ -62,21 +365,41 @@
         {
           "delivery_type": 3,
           "order_min_price": 200,
-          "order_min_distance_m": 1000
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 4000
         },
         {
           "delivery_type": 3,
           "order_min_price": 400,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
           "order_min_distance_m": 5000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 3000,
+          "order_min_price": 500,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
           "order_min_distance_m": 10000
         }
       ],
@@ -89,7 +412,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5528,
+      "distance": 26528,
       "in_avail_nidin_league": 0
     },
     {
@@ -97,135 +420,38 @@
       "brand_code": "linsontea",
       "brand_name": "林三茶研所",
       "brand_photo": null,
-      "id": 21144,
-      "name": "新莊龍安店",
-      "name_short": "新莊龍安店",
+      "id": 23371,
+      "name": "中壢福州店",
+      "name_short": "中壢福州店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_21144_photo_20241107_183602_d4606.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_23371_photo_20250524_123838_7ed64.jpg",
       "description": null,
-      "longitude": "121.42289270000000000000",
-      "latitude": "25.01913460000000000000",
-      "address": "新北市新莊區龍安路347號",
+      "longitude": "121.23119860000000000000",
+      "latitude": "24.96762740000000000000",
+      "address": "桃園市中壢區福州二街385號",
       "address_remark": "",
-      "tel": "02-82010048",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 30,
-      "rating_average_star": 4.92,
-      "rating_order_count": 131,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "09:50:00",
-      "end_time": "21:50:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "09:50:00",
-      "order_end_time": "21:50:00",
-      "delivery_way_description": "最低滿250外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 1500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 750,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 950,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 9000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 15865,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1702,
-      "brand_code": "linsontea",
-      "brand_name": "林三茶研所",
-      "brand_photo": null,
-      "id": 15295,
-      "name": "林口長庚店",
-      "name_short": "林口長庚店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_15295_photo_20231017_185806_8d115.jpg",
-      "description": null,
-      "longitude": "121.36945150000000000000",
-      "latitude": "25.05926890000000000000",
-      "address": "桃園市龜山區復興北路23號1樓",
-      "address_remark": "",
-      "tel": "03-3979000",
+      "tel": "03-4510028",
       "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
-      "order_tolerance_day": 30,
-      "rating_average_star": 4.97,
-      "rating_order_count": 211,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.92,
+      "rating_order_count": 50,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 1,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:30:00",
+      "start_time": "09:30:00",
+      "end_time": "21:00:00",
       "is_preparing": 0,
       "is_open": 1,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:30:00",
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:00:00",
       "delivery_way_description": "最低滿250外送",
       "delivery_info": [
         {
@@ -236,11 +462,6 @@
         {
           "delivery_type": 3,
           "order_min_price": 250,
-          "order_min_distance_m": 600
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
           "order_min_distance_m": 1000
         },
         {
@@ -260,43 +481,8 @@
         },
         {
           "delivery_type": 3,
-          "order_min_price": 700,
+          "order_min_price": 850,
           "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2500,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3000,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 4000,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 5000,
-          "order_min_distance_m": 11000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 6500,
-          "order_min_distance_m": 12000
         }
       ],
       "meal_tag_info": [
@@ -308,7 +494,94 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 22132,
+      "distance": 27423,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1702,
+      "brand_code": "linsontea",
+      "brand_name": "林三茶研所",
+      "brand_photo": null,
+      "id": 15298,
+      "name": "大園店",
+      "name_short": "大園店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_15298_photo_20231017_185823_b4e36.jpg",
+      "description": null,
+      "longitude": "121.19720520000000000000",
+      "latitude": "25.06529580000000000000",
+      "address": "桃園市大園區中山北路62號",
+      "address_remark": "",
+      "tel": "03-3866228",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.98,
+      "rating_order_count": 160,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 33169,
       "in_avail_nidin_league": 0
     },
     {
@@ -420,7 +693,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 30454,
+      "distance": 38831,
       "in_avail_nidin_league": 0
     },
     {
@@ -446,7 +719,7 @@
       "order_start_day": 0,
       "order_tolerance_day": 14,
       "rating_average_star": 4.78,
-      "rating_order_count": 242,
+      "rating_order_count": 243,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 1,
@@ -537,7 +810,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 31570,
+      "distance": 38937,
       "in_avail_nidin_league": 0
     },
     {
@@ -664,7 +937,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 32057,
+      "distance": 40493,
       "in_avail_nidin_league": 0
     },
     {
@@ -746,7 +1019,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 33385,
+      "distance": 43120,
       "in_avail_nidin_league": 0
     },
     {
@@ -754,314 +1027,53 @@
       "brand_code": "linsontea",
       "brand_name": "林三茶研所",
       "brand_photo": null,
-      "id": 23371,
-      "name": "中壢福州店",
-      "name_short": "中壢福州店",
+      "id": 15295,
+      "name": "林口長庚店",
+      "name_short": "林口長庚店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_23371_photo_20250524_123838_7ed64.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_15295_photo_20231017_185806_8d115.jpg",
       "description": null,
-      "longitude": "121.23119860000000000000",
-      "latitude": "24.96762740000000000000",
-      "address": "桃園市中壢區福州二街385號",
+      "longitude": "121.36945150000000000000",
+      "latitude": "25.05926890000000000000",
+      "address": "桃園市龜山區復興北路23號1樓",
       "address_remark": "",
-      "tel": "03-4510028",
+      "tel": "03-3979000",
       "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
-      "order_tolerance_day": 3,
-      "rating_average_star": 4.92,
-      "rating_order_count": 48,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "09:30:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "09:30:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿250外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 850,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 42091,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1702,
-      "brand_code": "linsontea",
-      "brand_name": "林三茶研所",
-      "brand_photo": null,
-      "id": 15298,
-      "name": "大園店",
-      "name_short": "大園店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_15298_photo_20231017_185823_b4e36.jpg",
-      "description": null,
-      "longitude": "121.19720520000000000000",
-      "latitude": "25.06529580000000000000",
-      "address": "桃園市大園區中山北路62號",
-      "address_remark": "",
-      "tel": "03-3866228",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 14,
-      "rating_average_star": 4.98,
-      "rating_order_count": 160,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "09:00:00",
-      "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "09:00:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿250外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 6000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 44742,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1702,
-      "brand_code": "linsontea",
-      "brand_name": "林三茶研所",
-      "brand_photo": null,
-      "id": 17035,
-      "name": "大觀店",
-      "name_short": "大觀店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_17035_photo_20231017_185859_9b96d.jpg",
-      "description": null,
-      "longitude": "121.13907700000000000000",
-      "latitude": "25.04447430000000000000",
-      "address": "桃園市觀音區大觀路二段246號",
-      "address_remark": "桃園市觀音區大觀路二段246號",
-      "tel": "03-4838103",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.89,
-      "rating_order_count": 122,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.97,
+      "rating_order_count": 211,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 1,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
       "start_time": "10:00:00",
-      "end_time": "20:30:00",
+      "end_time": "21:30:00",
       "is_preparing": 0,
       "is_open": 1,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿200外送",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿250外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 200,
+          "order_min_price": 250,
           "order_min_distance_m": 0
         },
         {
           "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 2000
+          "order_min_price": 250,
+          "order_min_distance_m": 600
         },
         {
           "delivery_type": 3,
           "order_min_price": 300,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 900,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 52349,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1702,
-      "brand_code": "linsontea",
-      "brand_name": "林三茶研所",
-      "brand_photo": null,
-      "id": 21312,
-      "name": "桃園楊梅店",
-      "name_short": "桃園楊梅店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_21312_photo_20241107_183642_62ea1.jpg",
-      "description": null,
-      "longitude": "121.14611990000000000000",
-      "latitude": "24.91333800000000000000",
-      "address": "桃園市楊梅區楊梅里大成路232號",
-      "address_remark": "",
-      "tel": "03-4750313",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 14,
-      "rating_average_star": 4.57,
-      "rating_order_count": 70,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿250外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
           "order_min_distance_m": 1000
         },
         {
@@ -1076,47 +1088,47 @@
         },
         {
           "delivery_type": 3,
-          "order_min_price": 550,
+          "order_min_price": 600,
           "order_min_distance_m": 4000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 650,
+          "order_min_price": 700,
           "order_min_distance_m": 5000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 750,
+          "order_min_price": 1000,
           "order_min_distance_m": 6000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 850,
+          "order_min_price": 1500,
           "order_min_distance_m": 7000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1000,
+          "order_min_price": 2500,
           "order_min_distance_m": 8000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1200,
+          "order_min_price": 3000,
           "order_min_distance_m": 9000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1400,
+          "order_min_price": 4000,
           "order_min_distance_m": 10000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1600,
+          "order_min_price": 5000,
           "order_min_distance_m": 11000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1800,
+          "order_min_price": 6500,
           "order_min_distance_m": 12000
         }
       ],
@@ -1129,7 +1141,181 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 55222,
+      "distance": 49698,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1702,
+      "brand_code": "linsontea",
+      "brand_name": "林三茶研所",
+      "brand_photo": null,
+      "id": 21144,
+      "name": "新莊龍安店",
+      "name_short": "新莊龍安店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_21144_photo_20241107_183602_d4606.jpg",
+      "description": null,
+      "longitude": "121.42289270000000000000",
+      "latitude": "25.01913460000000000000",
+      "address": "新北市新莊區龍安路347號",
+      "address_remark": "",
+      "tel": "02-82010048",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.92,
+      "rating_order_count": 131,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:50:00",
+      "end_time": "21:50:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:50:00",
+      "order_end_time": "21:50:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 9000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 53431,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1702,
+      "brand_code": "linsontea",
+      "brand_name": "林三茶研所",
+      "brand_photo": null,
+      "id": 25795,
+      "name": "三重文化店",
+      "name_short": "三重文化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_25795_photo_20250801_155323_9e928.jpeg",
+      "description": null,
+      "longitude": "121.49852190000000000000",
+      "latitude": "25.06619270000000000000",
+      "address": "新北市三重區文化北路100號",
+      "address_remark": "1樓",
+      "tel": "02-29826054",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 65208,
       "in_avail_nidin_league": 0
     },
     {
@@ -1211,196 +1397,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 73654,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1702,
-      "brand_code": "linsontea",
-      "brand_name": "林三茶研所",
-      "brand_photo": null,
-      "id": 25798,
-      "name": "新竹金山店",
-      "name_short": "新竹金山店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_25798_photo_20250801_155307_085c0.jpeg",
-      "description": null,
-      "longitude": "121.02215110000000000000",
-      "latitude": "24.77782800000000000000",
-      "address": "新竹市東區金山里金山街65號",
-      "address_remark": "1樓",
-      "tel": "03-5790088",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 5,
-      "rating_order_count": 1,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿500外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 8000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 78472,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1702,
-      "brand_code": "linsontea",
-      "brand_name": "林三茶研所",
-      "brand_photo": null,
-      "id": 25672,
-      "name": "清大店",
-      "name_short": "清大店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14938_icon_20230314_094214_a859e.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_25672_photo_20250801_155249_fc913.jpeg",
-      "description": null,
-      "longitude": "120.99715600000000000000",
-      "latitude": "24.79820480000000000000",
-      "address": "新竹市東區建新路42號",
-      "address_remark": "1樓",
-      "tel": "03-5730588",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 5,
-      "rating_order_count": 5,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿250外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 550,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 650,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 750,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 850,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 12000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1800,
-          "order_min_distance_m": 15000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 79930,
+      "distance": 110492,
       "in_avail_nidin_league": 0
     }
   ]

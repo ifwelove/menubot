@@ -5,93 +5,13 @@
     "name": "鬍子茶Whos Tea"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:16:34.853427",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T09:59:55.314225",
+    "total_regions_searched": 371,
+    "regions_with_stores": 114,
     "total_stores": 6,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
-    {
-      "brand_id": 575,
-      "brand_code": "whostea",
-      "brand_name": "鬍子茶Whos Tea",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/575_d433c4066ab7f945.png",
-      "id": 11419,
-      "name": "微風廣場店",
-      "name_short": "微風廣場店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_575_icon_20210601_112907_0401b.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/575_d433c4066ab7f945.png",
-      "description": null,
-      "longitude": "121.54521920000000000000",
-      "latitude": "25.04591590000000000000",
-      "address": "台北市松山區復興南路一段39號",
-      "address_remark": "微風廣場G樓",
-      "tel": "02-87729798",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 3,
-      "rating_average_star": 4.92,
-      "rating_order_count": 39,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 200
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 1372,
-      "in_avail_nidin_league": 0
-    },
     {
       "brand_id": 575,
       "brand_code": "whostea",
@@ -166,7 +86,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 2788,
+      "distance": 4354,
       "in_avail_nidin_league": 0
     },
     {
@@ -200,8 +120,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -217,7 +137,84 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 2854,
+      "distance": 5399,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 575,
+      "brand_code": "whostea",
+      "brand_name": "鬍子茶Whos Tea",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/575_d433c4066ab7f945.png",
+      "id": 11419,
+      "name": "微風廣場店",
+      "name_short": "微風廣場店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_575_icon_20210601_112907_0401b.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/575_d433c4066ab7f945.png",
+      "description": null,
+      "longitude": "121.54521920000000000000",
+      "latitude": "25.04591590000000000000",
+      "address": "台北市松山區復興南路一段39號",
+      "address_remark": "微風廣場G樓",
+      "tel": "02-87729798",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.92,
+      "rating_order_count": 39,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6517,
       "in_avail_nidin_league": 0
     },
     {
@@ -268,7 +265,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 4468,
+      "distance": 7658,
       "in_avail_nidin_league": 0
     },
     {
@@ -302,10 +299,10 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
-      "is_off_day": 1,
+      "is_off_day": 0,
       "order_start_time": "10:30:00",
       "order_end_time": "21:00:00",
       "delivery_way_description": "最低滿0外送",
@@ -355,7 +352,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 27821,
+      "distance": 23494,
       "in_avail_nidin_league": 0
     },
     {
@@ -389,8 +386,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -442,7 +439,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 31635,
+      "distance": 27863,
       "in_avail_nidin_league": 0
     }
   ]

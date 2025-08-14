@@ -5,14 +5,11 @@
     "name": "小茶齋"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:18:04.305280",
-    "total_pages": 0,
-    "total_stores": 6,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T10:06:45.688483",
+    "total_regions_searched": 371,
+    "regions_with_stores": 6,
+    "total_stores": 7,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -20,54 +17,99 @@
       "brand_code": "xiaochazhai",
       "brand_name": "小茶齋",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1389_7a90d2fc0314b070.png",
-      "id": 13203,
-      "name": "中和民享店",
-      "name_short": "中和民享店",
+      "id": 17666,
+      "name": "新竹民生店",
+      "name_short": "新竹民生店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/13203_icon_20220919_154541_800e1.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_13203_photo_20221006_155130_7d6cb.jpeg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_17666_photo_20240806_175625_5668a.png",
       "description": null,
-      "longitude": "121.47418180000000000000",
-      "latitude": "25.00270980000000000000",
-      "address": "新北市中和區民享街51號",
-      "address_remark": "",
-      "tel": "02-22235866",
+      "longitude": "120.97759960000000000000",
+      "latitude": "24.80963840000000000000",
+      "address": "新竹市東區民生路110號",
+      "address_remark": "巨城附近民生路上",
+      "tel": "03-5153346",
       "order_status": 10,
-      "is_off_allow_order": 0,
+      "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
+      "is_close_allow_order": 1,
       "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 5,
-      "rating_order_count": 31,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.77,
+      "rating_order_count": 22,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
+      "menu_layout_type": 1,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "18:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "18:00:00",
-      "delivery_way_description": "最低滿500外送",
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 500,
+          "order_min_price": 100,
           "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
         },
         {
           "delivery_type": 3,
           "order_min_price": 500,
           "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5000
         },
         {
           "delivery_type": 3,
           "order_min_price": 1000,
-          "order_min_distance_m": 5000
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3500,
+          "order_min_distance_m": 15000
         }
       ],
       "meal_tag_info": [
@@ -79,223 +121,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 11057,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1389,
-      "brand_code": "xiaochazhai",
-      "brand_name": "小茶齋",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1389_7a90d2fc0314b070.png",
-      "id": 18202,
-      "name": "新莊中港店",
-      "name_short": "新莊中港店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/13203_icon_20220919_154541_800e1.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.45175650000000000000",
-      "latitude": "25.04580120000000000000",
-      "address": "新北市新莊區中港一街8號",
-      "address_remark": "",
-      "tel": "02-29929969",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 4.97,
-      "rating_order_count": 34,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 3500
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 11362,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1389,
-      "brand_code": "xiaochazhai",
-      "brand_name": "小茶齋",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1389_7a90d2fc0314b070.png",
-      "id": 18199,
-      "name": "新莊店",
-      "name_short": "新莊店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/13203_icon_20220919_154541_800e1.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.42705100000000000000",
-      "latitude": "25.02684690000000000000",
-      "address": "新北市新莊區建福路73號",
-      "address_remark": "",
-      "tel": "02-22055929",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 4.8,
-      "rating_order_count": 15,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 15032,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1389,
-      "brand_code": "xiaochazhai",
-      "brand_name": "小茶齋",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1389_7a90d2fc0314b070.png",
-      "id": 25744,
-      "name": "內壢忠孝店",
-      "name_short": "內壢忠孝店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/13203_icon_20220919_154541_800e1.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.25478310000000000000",
-      "latitude": "24.97758930000000000000",
-      "address": "桃園市中壢區忠孝路220號",
-      "address_remark": "",
-      "tel": "03-4551231",
-      "order_status": 20,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 0,
-      "rating_average_star": 5,
-      "rating_order_count": 1,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "09:30:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "09:30:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 6000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 0,
-      "distance": 38714,
+      "distance": 30693,
       "in_avail_nidin_league": 0
     },
     {
@@ -320,8 +146,8 @@
       "is_close_allow_order": 1,
       "order_start_day": 0,
       "order_tolerance_day": 100,
-      "rating_average_star": 1,
-      "rating_order_count": 1,
+      "rating_average_star": 3,
+      "rating_order_count": 2,
       "has_shipping_fee": 1,
       "show_menu_product_icon": 0,
       "menu_layout_type": 1,
@@ -329,8 +155,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -417,7 +243,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 76379,
+      "distance": 35867,
       "in_avail_nidin_league": 0
     },
     {
@@ -425,37 +251,37 @@
       "brand_code": "xiaochazhai",
       "brand_name": "小茶齋",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1389_7a90d2fc0314b070.png",
-      "id": 17666,
-      "name": "新竹民生店",
-      "name_short": "新竹民生店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/13203_icon_20220919_154541_800e1.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_17666_photo_20240806_175625_5668a.png",
+      "id": 13026,
+      "name": "東山店",
+      "name_short": "東山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13026_icon_20220901_154024_8f1df.png",
+      "photo": null,
       "description": null,
-      "longitude": "120.97759960000000000000",
-      "latitude": "24.80963840000000000000",
-      "address": "新竹市東區民生路110號",
-      "address_remark": "巨城附近民生路上",
-      "tel": "03-5153346",
+      "longitude": "120.71482900000000000000",
+      "latitude": "24.17389530000000000000",
+      "address": "台中市北屯區東山路一段216-36號",
+      "address_remark": "",
+      "tel": "04-24364515",
       "order_status": 10,
       "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
       "order_start_day": 0,
-      "order_tolerance_day": 30,
-      "rating_average_star": 4.77,
-      "rating_order_count": 22,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.75,
+      "rating_order_count": 24,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
+      "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:30:00",
+      "start_time": "10:15:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "10:30:00",
+      "order_start_time": "10:15:00",
       "order_end_time": "21:00:00",
       "delivery_way_description": "最低滿100外送",
       "delivery_info": [
@@ -467,57 +293,99 @@
         {
           "delivery_type": 3,
           "order_min_price": 100,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 150,
           "order_min_distance_m": 1000
         },
         {
           "delivery_type": 3,
           "order_min_price": 250,
-          "order_min_distance_m": 1500
+          "order_min_distance_m": 2000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 300,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 67743,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1389,
+      "brand_code": "xiaochazhai",
+      "brand_name": "小茶齋",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1389_7a90d2fc0314b070.png",
+      "id": 25744,
+      "name": "內壢忠孝店",
+      "name_short": "內壢忠孝店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/13203_icon_20220919_154541_800e1.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.25478310000000000000",
+      "latitude": "24.97758930000000000000",
+      "address": "桃園市中壢區忠孝路220號",
+      "address_remark": "",
+      "tel": "03-4551231",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
           "order_min_distance_m": 2000
         },
         {
           "delivery_type": 3,
           "order_min_price": 400,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
           "order_min_distance_m": 4000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 750,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 3500,
-          "order_min_distance_m": 15000
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
         }
       ],
       "meal_tag_info": [
@@ -529,7 +397,218 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 81496,
+      "distance": 72490,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1389,
+      "brand_code": "xiaochazhai",
+      "brand_name": "小茶齋",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1389_7a90d2fc0314b070.png",
+      "id": 18199,
+      "name": "新莊店",
+      "name_short": "新莊店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/13203_icon_20220919_154541_800e1.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.42705100000000000000",
+      "latitude": "25.02684690000000000000",
+      "address": "新北市新莊區建福路73號",
+      "address_remark": "",
+      "tel": "02-22055929",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.8,
+      "rating_order_count": 15,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 94224,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1389,
+      "brand_code": "xiaochazhai",
+      "brand_name": "小茶齋",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1389_7a90d2fc0314b070.png",
+      "id": 13203,
+      "name": "中和民享店",
+      "name_short": "中和民享店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/13203_icon_20220919_154541_800e1.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_13203_photo_20221006_155130_7d6cb.jpeg",
+      "description": null,
+      "longitude": "121.47418180000000000000",
+      "latitude": "25.00270980000000000000",
+      "address": "新北市中和區民享街51號",
+      "address_remark": "",
+      "tel": "02-22235866",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 5,
+      "rating_order_count": 31,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "18:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 97203,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1389,
+      "brand_code": "xiaochazhai",
+      "brand_name": "小茶齋",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1389_7a90d2fc0314b070.png",
+      "id": 18202,
+      "name": "新莊中港店",
+      "name_short": "新莊中港店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/13203_icon_20220919_154541_800e1.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.45175650000000000000",
+      "latitude": "25.04580120000000000000",
+      "address": "新北市新莊區中港一街8號",
+      "address_remark": "",
+      "tel": "02-29929969",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.97,
+      "rating_order_count": 34,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 98458,
       "in_avail_nidin_league": 0
     }
   ]

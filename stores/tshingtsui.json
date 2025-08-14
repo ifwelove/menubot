@@ -5,14 +5,11 @@
     "name": "清水茶香"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:16:58.243067",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:01:59.732761",
+    "total_regions_searched": 371,
+    "regions_with_stores": 6,
     "total_stores": 2,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -45,13 +42,13 @@
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
       "start_time": "11:00:00",
-      "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "end_time": "23:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
-      "order_end_time": "22:00:00",
+      "order_end_time": "23:00:00",
       "delivery_way_description": "最低滿400外送",
       "delivery_info": [
         {
@@ -84,7 +81,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 4632,
+      "distance": 3557,
       "in_avail_nidin_league": 0
     },
     {
@@ -118,8 +115,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "22:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -191,7 +188,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 78784,
+      "distance": 85980,
       "in_avail_nidin_league": 0
     }
   ]

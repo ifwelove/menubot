@@ -1,0 +1,2220 @@
+{
+  "brand_info": {
+    "id": 501,
+    "brand_code": "zizaixuan",
+    "name": "自在軒"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-14T09:58:54.206652",
+    "total_regions_searched": 371,
+    "regions_with_stores": 189,
+    "total_stores": 30,
+    "coverage": "全台所有县市区域"
+  },
+  "stores": [
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5621,
+      "name": "新化店",
+      "name_short": "新化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.30665920000000000000",
+      "latitude": "23.03819560000000000000",
+      "address": "台南市新化區忠孝路51號",
+      "address_remark": "",
+      "tel": "06-5902888",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.91,
+      "rating_order_count": 11,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "18:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "18:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 129273,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 20244,
+      "name": "館前店",
+      "name_short": "館前店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.23198950000000000000",
+      "latitude": "23.05847900000000000000",
+      "address": "台南市安南區長和路一段503號1樓",
+      "address_remark": "",
+      "tel": "06-3566593",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 5,
+      "rating_order_count": 5,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "18:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "18:45:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 9999
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 123591,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5558,
+      "name": "中洲店",
+      "name_short": "中洲店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.21858790000000000000",
+      "latitude": "23.06081700000000000000",
+      "address": "台南市安南區安和路4段493號",
+      "address_remark": "",
+      "tel": "06-3566108",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.99,
+      "rating_order_count": 73,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 123968,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5585,
+      "name": "永康中正店",
+      "name_short": "永康中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.25238840000000000000",
+      "latitude": "23.03077910000000000000",
+      "address": "台南市永康區中正路206號",
+      "address_remark": "",
+      "tel": "06-2018799",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.95,
+      "rating_order_count": 78,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126316,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 19050,
+      "name": "永康店",
+      "name_short": "永康店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.25557730000000000000",
+      "latitude": "23.02569550000000000000",
+      "address": "台南市永康區中山南路635號",
+      "address_remark": "（永康農會旁）",
+      "tel": "06-2022737",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 11,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 4000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126855,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5564,
+      "name": "同安店",
+      "name_short": "同安店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.19366590000000000000",
+      "latitude": "23.04425850000000000000",
+      "address": "台南市安南區安中路一段878號",
+      "address_remark": "",
+      "tel": "06-2460333",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.88,
+      "rating_order_count": 8,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:30:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 1,
+      "order_start_time": "08:30:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127480,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5603,
+      "name": "永康西勢店",
+      "name_short": "永康西勢店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.27278950000000000000",
+      "latitude": "23.01529590000000000000",
+      "address": "台南市永康區富強路一段85號",
+      "address_remark": "",
+      "tel": "06-2073757",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 65,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127499,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5555,
+      "name": "安中店",
+      "name_short": "安中店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.17186300000000000000",
+      "latitude": "23.04904970000000000000",
+      "address": "台南市安南區本淵路95號",
+      "address_remark": "",
+      "tel": "06-2465000",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 13,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "15:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "15:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1650,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128066,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5561,
+      "name": "安和店",
+      "name_short": "安和店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.21408200000000000000",
+      "latitude": "23.02860300000000000000",
+      "address": "台南市安南區安和路一段125號",
+      "address_remark": "",
+      "tel": "06-2520256",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.68,
+      "rating_order_count": 66,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128477,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5513,
+      "name": "和緯店",
+      "name_short": "和緯店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.20404610000000000000",
+      "latitude": "23.01269850000000000000",
+      "address": "台南市北區和緯路二段376號",
+      "address_remark": "",
+      "tel": "06-2818568",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.68,
+      "rating_order_count": 34,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:40:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:40:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 129459,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5600,
+      "name": "永康崑大店",
+      "name_short": "永康崑大店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.25012900000000000000",
+      "latitude": "22.99841630000000000000",
+      "address": "台南市永康區復興路19號",
+      "address_remark": "",
+      "tel": "06-2737399",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.73,
+      "rating_order_count": 15,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 124038,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5519,
+      "name": "民德店",
+      "name_short": "民德店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.20500580000000000000",
+      "latitude": "23.00445520000000000000",
+      "address": "台南市北區西門路三段266號",
+      "address_remark": "",
+      "tel": "06-2223000",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.88,
+      "rating_order_count": 32,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿120外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 120,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 124449,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 9676,
+      "name": "東平店",
+      "name_short": "東平店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.22790250000000000000",
+      "latitude": "22.99541010000000000000",
+      "address": "台南市東區東平路243-1號",
+      "address_remark": "",
+      "tel": "06-2375866",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.9,
+      "rating_order_count": 51,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:30:00",
+      "end_time": "19:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125046,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5537,
+      "name": "成功店",
+      "name_short": "成功店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.19935880000000000000",
+      "latitude": "23.00018430000000000000",
+      "address": "台南市中西區成功路357號",
+      "address_remark": "",
+      "tel": "06-2288469",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.98,
+      "rating_order_count": 55,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿120外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 120,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 120,
+          "order_min_distance_m": 800
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 1600
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125224,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 3727,
+      "name": "裕農總店",
+      "name_short": "裕農總店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.22937200000000000000",
+      "latitude": "22.98679900000000000000",
+      "address": "台南市東區裕農路322號1樓",
+      "address_remark": "",
+      "tel": "06-2352556",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.77,
+      "rating_order_count": 155,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 126218,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5552,
+      "name": "台南中正店",
+      "name_short": "台南中正店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.19885930000000000000",
+      "latitude": "22.99308770000000000000",
+      "address": "台南市中西區西門路二段108號",
+      "address_remark": "",
+      "tel": "06-2203200",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.84,
+      "rating_order_count": 32,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 126232,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5543,
+      "name": "開山友愛店",
+      "name_short": "開山友愛店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.20611700000000000000",
+      "latitude": "22.99091060000000000000",
+      "address": "台南市中西區友愛街1號",
+      "address_remark": "",
+      "tel": "06-2233006",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.94,
+      "rating_order_count": 34,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "18:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 126312,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5498,
+      "name": "東門店",
+      "name_short": "東門店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.21524300000000000000",
+      "latitude": "22.98754220000000000000",
+      "address": "台南市東區東門路一段174號",
+      "address_remark": "",
+      "tel": "06-2099886",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.93,
+      "rating_order_count": 82,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126512,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 24490,
+      "name": "自由店",
+      "name_short": "自由店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.23704500000000000000",
+      "latitude": "22.98276790000000000000",
+      "address": "台南市東區自由路三段227號",
+      "address_remark": "1樓",
+      "tel": "06-2895977",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126582,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5570,
+      "name": "文平店",
+      "name_short": "文平店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.17876510000000000000",
+      "latitude": "22.99291680000000000000",
+      "address": "台南市安平區文平路422-1號",
+      "address_remark": "",
+      "tel": "06-2976782",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.69,
+      "rating_order_count": 120,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "07:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "07:30:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126916,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5495,
+      "name": "崇學店",
+      "name_short": "崇學店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.22439600000000000000",
+      "latitude": "22.98081780000000000000",
+      "address": "台南市東區崇學路122號",
+      "address_remark": "",
+      "tel": "06-2908585",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.77,
+      "rating_order_count": 39,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127198,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5612,
+      "name": "仁德一甲店",
+      "name_short": "仁德一甲店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.25316000000000000000",
+      "latitude": "22.97462830000000000000",
+      "address": "台南市仁德區中正路3段120號",
+      "address_remark": "",
+      "tel": "06-2497878",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 15,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "16:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "16:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127332,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5573,
+      "name": "育平店",
+      "name_short": "育平店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.16893220000000000000",
+      "latitude": "22.99046700000000000000",
+      "address": "台南市安平區健康三街230號",
+      "address_remark": "",
+      "tel": "06-2986422",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.9,
+      "rating_order_count": 124,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "21:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "21:45:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127598,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5501,
+      "name": "仁和店",
+      "name_short": "仁和店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.23076760000000000000",
+      "latitude": "22.97572000000000000000",
+      "address": "台南市東區仁和路55號",
+      "address_remark": "",
+      "tel": "06-2608519",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.82,
+      "rating_order_count": 57,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 100
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127743,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5528,
+      "name": "健康店",
+      "name_short": "健康店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.19588950000000000000",
+      "latitude": "22.98167600000000000000",
+      "address": "台南市南區健康路二段70號",
+      "address_remark": "",
+      "tel": "06-2266628",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.92,
+      "rating_order_count": 13,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "17:15:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "17:15:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127922,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 14242,
+      "name": "大林店",
+      "name_short": "大林店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.21363450000000000000",
+      "latitude": "22.97680660000000000000",
+      "address": "台南市南區大同路二段196號",
+      "address_remark": "",
+      "tel": "06-2150303",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 16,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 128067,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5522,
+      "name": "新興店",
+      "name_short": "新興店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.19133900000000000000",
+      "latitude": "22.97516300000000000000",
+      "address": "台南市南區新興路373號",
+      "address_remark": "",
+      "tel": "06-2923388",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.71,
+      "rating_order_count": 55,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128977,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5525,
+      "name": "中華南路店",
+      "name_short": "中華南路店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.21142070000000000000",
+      "latitude": "22.97009080000000000000",
+      "address": "台南市南區中華南路一段157號",
+      "address_remark": "",
+      "tel": "06-2908499",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 10,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "07:00:00",
+      "end_time": "18:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "07:00:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 129075,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 5534,
+      "name": "灣裡店",
+      "name_short": "灣裡店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "120.18307090000000000000",
+      "latitude": "22.92451860000000000000",
+      "address": "台南市南區灣裡路365號",
+      "address_remark": "",
+      "tel": "06-2623337",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.48,
+      "rating_order_count": 42,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "07:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "07:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 115149,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 501,
+      "brand_code": "zizaixuan",
+      "brand_name": "自在軒",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/501_45855ef77e1c1d19.jpeg",
+      "id": 13080,
+      "name": "台東店",
+      "name_short": "台東店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_501_icon_20210706_175800_c4756.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/501_45855ef77e1c1d19.jpeg",
+      "description": null,
+      "longitude": "121.15328590000000000000",
+      "latitude": "22.75465820000000000000",
+      "address": "台東縣臺東市中華路一段364號",
+      "address_remark": "",
+      "tel": "08-9339800",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 8,
+      "rating_average_star": 4.93,
+      "rating_order_count": 107,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 122560,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

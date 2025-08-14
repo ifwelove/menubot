@@ -1,0 +1,83 @@
+{
+  "brand_info": {
+    "id": 1576,
+    "brand_code": "yuhuangdian",
+    "name": "御葟殿"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-14T10:08:54.260071",
+    "total_regions_searched": 371,
+    "regions_with_stores": 6,
+    "total_stores": 1,
+    "coverage": "全台所有县市区域"
+  },
+  "stores": [
+    {
+      "brand_id": 1576,
+      "brand_code": "yuhuangdian",
+      "brand_name": "御葟殿",
+      "brand_photo": null,
+      "id": 13849,
+      "name": "台南新營店",
+      "name_short": "台南新營店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/default_icon_2020.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.31364050000000000000",
+      "latitude": "23.30086050000000000000",
+      "address": "台南市新營區延平路63號",
+      "address_remark": "台南市新營區延平路63號",
+      "tel": "06-6334313",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 1,
+      "rating_average_star": 5,
+      "rating_order_count": 8,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 66336,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

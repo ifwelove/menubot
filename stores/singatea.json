@@ -5,14 +5,11 @@
     "name": "嚮家涼水鋪"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:17:24.307025",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:04:00.532505",
+    "total_regions_searched": 371,
+    "regions_with_stores": 3,
     "total_stores": 1,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -94,7 +91,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5749,
+      "distance": 23922,
       "in_avail_nidin_league": 0
     }
   ]

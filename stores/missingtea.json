@@ -5,14 +5,11 @@
     "name": "思茶 手作飲品"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:13:52.506146",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T09:49:04.197551",
+    "total_regions_searched": 371,
+    "regions_with_stores": 173,
     "total_stores": 20,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -46,8 +43,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "23:59:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -98,8 +95,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 1076,
+      "store_allow_order": 0,
+      "distance": 6839,
       "in_avail_nidin_league": 0
     },
     {
@@ -133,8 +130,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -190,8 +187,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 29302,
+      "store_allow_order": 0,
+      "distance": 22004,
       "in_avail_nidin_league": 0
     },
     {
@@ -273,7 +270,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 38729,
+      "distance": 46038,
       "in_avail_nidin_league": 0
     },
     {
@@ -307,8 +304,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -355,7 +352,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 45030,
+      "distance": 51951,
       "in_avail_nidin_league": 0
     },
     {
@@ -437,7 +434,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 55567,
+      "distance": 62869,
       "in_avail_nidin_league": 0
     },
     {
@@ -471,8 +468,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -513,8 +510,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 69416,
+      "store_allow_order": 0,
+      "distance": 76644,
       "in_avail_nidin_league": 0
     },
     {
@@ -548,8 +545,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -590,8 +587,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 74456,
+      "store_allow_order": 0,
+      "distance": 81437,
       "in_avail_nidin_league": 0
     },
     {
@@ -625,8 +622,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -672,8 +669,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 74941,
+      "store_allow_order": 0,
+      "distance": 82197,
       "in_avail_nidin_league": 0
     },
     {
@@ -707,8 +704,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -754,8 +751,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 75094,
+      "store_allow_order": 0,
+      "distance": 82340,
       "in_avail_nidin_league": 0
     },
     {
@@ -774,7 +771,7 @@
       "address": "新竹縣新豐鄉建興路一段92號",
       "address_remark": "",
       "tel": "03-5571414",
-      "order_status": 20,
+      "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 0,
       "is_close_allow_order": 0,
@@ -789,8 +786,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -842,7 +839,7 @@
         }
       ],
       "store_allow_order": 0,
-      "distance": 75875,
+      "distance": 83186,
       "in_avail_nidin_league": 0
     },
     {
@@ -876,8 +873,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -919,7 +916,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 76489,
+      "distance": 83764,
       "in_avail_nidin_league": 0
     },
     {
@@ -953,8 +950,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1000,8 +997,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 78360,
+      "store_allow_order": 0,
+      "distance": 85560,
       "in_avail_nidin_league": 0
     },
     {
@@ -1035,8 +1032,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1082,8 +1079,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 80414,
+      "store_allow_order": 0,
+      "distance": 87662,
       "in_avail_nidin_league": 0
     },
     {
@@ -1117,8 +1114,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1184,8 +1181,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 81194,
+      "store_allow_order": 0,
+      "distance": 88459,
       "in_avail_nidin_league": 0
     },
     {
@@ -1211,7 +1208,7 @@
       "order_start_day": 0,
       "order_tolerance_day": 2,
       "rating_average_star": 4.86,
-      "rating_order_count": 65,
+      "rating_order_count": 66,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
@@ -1219,8 +1216,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1266,8 +1263,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 81665,
+      "store_allow_order": 0,
+      "distance": 88885,
       "in_avail_nidin_league": 0
     },
     {
@@ -1301,8 +1298,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1338,8 +1335,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 82616,
+      "store_allow_order": 0,
+      "distance": 89864,
       "in_avail_nidin_league": 0
     },
     {
@@ -1373,45 +1370,14 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
       "order_end_time": "22:00:00",
-      "delivery_way_description": "最低滿0外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 0,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 1500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 3000
-        }
-      ],
+      "delivery_way_description": null,
+      "delivery_info": [],
       "meal_tag_info": [
         {
           "tag_id": 1,
@@ -1420,8 +1386,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 84456,
+      "store_allow_order": 0,
+      "distance": 91762,
       "in_avail_nidin_league": 0
     },
     {
@@ -1455,8 +1421,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1502,8 +1468,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 84508,
+      "store_allow_order": 0,
+      "distance": 91773,
       "in_avail_nidin_league": 0
     },
     {
@@ -1537,8 +1503,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "19:20:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1584,8 +1550,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 98612,
+      "store_allow_order": 0,
+      "distance": 105737,
       "in_avail_nidin_league": 0
     },
     {
@@ -1619,8 +1585,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1666,8 +1632,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 101398,
+      "store_allow_order": 0,
+      "distance": 108550,
       "in_avail_nidin_league": 0
     }
   ]

@@ -1,0 +1,128 @@
+{
+  "brand_info": {
+    "id": 1138,
+    "brand_code": "applegoodtea",
+    "name": "春涼好茶 果茶專賣店"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-14T10:04:35.557725",
+    "total_regions_searched": 371,
+    "regions_with_stores": 5,
+    "total_stores": 1,
+    "coverage": "全台所有县市区域"
+  },
+  "stores": [
+    {
+      "brand_id": 1138,
+      "brand_code": "applegoodtea",
+      "brand_name": "春涼好茶 果茶專賣店",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1138_6d5b81d366b70133.jpg",
+      "id": 11497,
+      "name": "雲林斗六店",
+      "name_short": "雲林斗六店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_11497_icon_20230330_141524_4faca.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1138_6d5b81d366b70133.jpg",
+      "description": null,
+      "longitude": "120.53837690000000000000",
+      "latitude": "23.70234990000000000000",
+      "address": "雲林縣斗六市中山路284號",
+      "address_remark": "雲林縣中山路299號（肉羹張隔壁）",
+      "tel": "05-5361730",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.98,
+      "rating_order_count": 249,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:50:00",
+      "end_time": "21:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:50:00",
+      "order_end_time": "21:45:00",
+      "delivery_way_description": "最低滿25外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 25,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 25,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2800
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 29091,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

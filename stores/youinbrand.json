@@ -5,16 +5,326 @@
     "name": "有飲"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:17:41.542859",
-    "total_pages": 0,
-    "total_stores": 18,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T10:05:28.450898",
+    "total_regions_searched": 371,
+    "regions_with_stores": 8,
+    "total_stores": 32,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 23239,
+      "name": "基隆廟口店",
+      "name_short": "基隆廟口店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "121.74374830000000000000",
+      "latitude": "25.12927870000000000000",
+      "address": "基隆市仁愛區仁二路229號",
+      "address_remark": "一樓",
+      "tel": "0224258827",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 5,
+      "rating_order_count": 4,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 4844,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 11692,
+      "name": "永吉店",
+      "name_short": "永吉店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "121.56888990000000000000",
+      "latitude": "25.04372980000000000000",
+      "address": "台北市信義區永吉路30巷95號",
+      "address_remark": "",
+      "tel": "02-27460695",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.62,
+      "rating_order_count": 132,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 30838,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 21831,
+      "name": "台北通化店",
+      "name_short": "台北通化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "121.55425290000000000000",
+      "latitude": "25.02974970000000000000",
+      "address": "台北市大安區通化街97號",
+      "address_remark": "",
+      "tel": "02-27326863",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.69,
+      "rating_order_count": 13,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 33511,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 11683,
+      "name": "大安店",
+      "name_short": "大安店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "121.54626610000000000000",
+      "latitude": "25.04050230000000000000",
+      "address": "台北市大安區大安路一段95號",
+      "address_remark": "",
+      "tel": "02-27112976",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.7,
+      "rating_order_count": 67,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "19:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 33667,
+      "in_avail_nidin_league": 0
+    },
     {
       "brand_id": 1183,
       "brand_code": "youinbrand",
@@ -45,13 +355,13 @@
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
       "start_time": "10:30:00",
-      "end_time": "19:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "end_time": "19:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
-      "order_end_time": "19:00:00",
+      "order_end_time": "19:30:00",
       "delivery_way_description": "最低滿250外送",
       "delivery_info": [
         {
@@ -94,84 +404,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 400,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1183,
-      "brand_code": "youinbrand",
-      "brand_name": "有飲",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
-      "id": 11683,
-      "name": "大安店",
-      "name_short": "大安店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
-      "description": null,
-      "longitude": "121.54626610000000000000",
-      "latitude": "25.04050230000000000000",
-      "address": "台北市大安區大安路一段95號",
-      "address_remark": "",
-      "tel": "02-27112976",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 4.7,
-      "rating_order_count": 67,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "19:30:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 15000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 2078,
+      "distance": 34204,
       "in_avail_nidin_league": 0
     },
     {
@@ -205,8 +438,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "18:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -253,161 +486,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 3134,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1183,
-      "brand_code": "youinbrand",
-      "brand_name": "有飲",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
-      "id": 21831,
-      "name": "台北通化店",
-      "name_short": "台北通化店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
-      "description": null,
-      "longitude": "121.55425290000000000000",
-      "latitude": "25.02974970000000000000",
-      "address": "台北市大安區通化街97號",
-      "address_remark": "",
-      "tel": "02-27326863",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 14,
-      "rating_average_star": 4.69,
-      "rating_order_count": 13,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 3947,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1183,
-      "brand_code": "youinbrand",
-      "brand_name": "有飲",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
-      "id": 11692,
-      "name": "永吉店",
-      "name_short": "永吉店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
-      "description": null,
-      "longitude": "121.56888990000000000000",
-      "latitude": "25.04372980000000000000",
-      "address": "台北市信義區永吉路30巷95號",
-      "address_remark": "",
-      "tel": "02-27460695",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 4.62,
-      "rating_order_count": 132,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 15000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 4256,
+      "distance": 36995,
       "in_avail_nidin_league": 0
     },
     {
@@ -484,7 +563,89 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5430,
+      "distance": 37719,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 19965,
+      "name": "新北淡水店",
+      "name_short": "新北淡水店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "121.44565620000000000000",
+      "latitude": "25.17118790000000000000",
+      "address": "新北市淡水區英專路67號",
+      "address_remark": "",
+      "tel": "02-26266883",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.54,
+      "rating_order_count": 24,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 43111,
       "in_avail_nidin_league": 0
     },
     {
@@ -576,7 +737,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 11965,
+      "distance": 45208,
       "in_avail_nidin_league": 0
     },
     {
@@ -610,8 +771,8 @@
       "is_favorite": 0,
       "start_time": "10:40:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:40:00",
@@ -653,89 +814,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 14858,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1183,
-      "brand_code": "youinbrand",
-      "brand_name": "有飲",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
-      "id": 19965,
-      "name": "新北淡水店",
-      "name_short": "新北淡水店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
-      "description": null,
-      "longitude": "121.44565620000000000000",
-      "latitude": "25.17118790000000000000",
-      "address": "新北市淡水區英專路67號",
-      "address_remark": "",
-      "tel": "02-26266883",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.54,
-      "rating_order_count": 24,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1500,
-          "order_min_distance_m": 15000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 20000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 20909,
+      "distance": 48342,
       "in_avail_nidin_league": 0
     },
     {
@@ -760,8 +839,8 @@
       "is_close_allow_order": 1,
       "order_start_day": 0,
       "order_tolerance_day": 30,
-      "rating_average_star": 4.32,
-      "rating_order_count": 31,
+      "rating_average_star": 4.34,
+      "rating_order_count": 32,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
@@ -769,8 +848,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -842,89 +921,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 22156,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 1183,
-      "brand_code": "youinbrand",
-      "brand_name": "有飲",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
-      "id": 23239,
-      "name": "基隆廟口店",
-      "name_short": "基隆廟口店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
-      "description": null,
-      "longitude": "121.74374830000000000000",
-      "latitude": "25.12927870000000000000",
-      "address": "基隆市仁愛區仁二路229號",
-      "address_remark": "一樓",
-      "tel": "0224258827",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 5,
-      "rating_order_count": 4,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 15000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 29138,
+      "distance": 54573,
       "in_avail_nidin_league": 0
     },
     {
@@ -958,8 +955,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -1016,7 +1013,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 31280,
+      "distance": 64838,
       "in_avail_nidin_league": 0
     },
     {
@@ -1050,8 +1047,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -1093,7 +1090,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 41506,
+      "distance": 75308,
       "in_avail_nidin_league": 0
     },
     {
@@ -1127,8 +1124,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1170,7 +1167,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 43445,
+      "distance": 77187,
       "in_avail_nidin_league": 0
     },
     {
@@ -1195,8 +1192,8 @@
       "is_close_allow_order": 1,
       "order_start_day": 0,
       "order_tolerance_day": 30,
-      "rating_average_star": 4.85,
-      "rating_order_count": 59,
+      "rating_average_star": 4.83,
+      "rating_order_count": 60,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
@@ -1204,8 +1201,8 @@
       "is_favorite": 0,
       "start_time": "11:15:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:15:00",
@@ -1252,7 +1249,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 76220,
+      "distance": 110083,
       "in_avail_nidin_league": 0
     },
     {
@@ -1271,7 +1268,7 @@
       "address": "新竹市東區光復路一段446號",
       "address_remark": "",
       "tel": "03-6669866",
-      "order_status": 10,
+      "order_status": 20,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
@@ -1286,8 +1283,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "20:45:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1338,8 +1335,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 78915,
+      "store_allow_order": 0,
+      "distance": 112688,
       "in_avail_nidin_league": 0
     },
     {
@@ -1421,7 +1418,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 101549,
+      "distance": 84107,
       "in_avail_nidin_league": 0
     },
     {
@@ -1533,7 +1530,1339 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 118285,
+      "distance": 100513,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 19329,
+      "name": "彰化民族店",
+      "name_short": "彰化民族店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "120.54057000000000000000",
+      "latitude": "24.07791020000000000000",
+      "address": "彰化縣彰化市中央里民族路519號",
+      "address_remark": "",
+      "tel": "04-7260388",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.98,
+      "rating_order_count": 56,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 17000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3500,
+          "order_min_distance_m": 25000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 26328,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 15622,
+      "name": "勤美店",
+      "name_short": "勤美店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "120.66185970000000000000",
+      "latitude": "24.15285540000000000000",
+      "address": "台中市西區美村路一段95號",
+      "address_remark": "",
+      "tel": "04-23260108",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.29,
+      "rating_order_count": 48,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 37992,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 20979,
+      "name": "台中東海店",
+      "name_short": "台中東海店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "120.59207440000000000000",
+      "latitude": "24.18149520000000000000",
+      "address": "台中市龍井區台灣大道五段3巷72號",
+      "address_remark": "",
+      "tel": "04-26529511",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.57,
+      "rating_order_count": 14,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 11000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 12000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 13000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 40665,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 21006,
+      "name": "台中漢口店",
+      "name_short": "台中漢口店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "120.68239220000000000000",
+      "latitude": "24.16692420000000000000",
+      "address": "台中市北區漢口路四段274號",
+      "address_remark": "",
+      "tel": "04-22368666",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 7,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "19:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 40739,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 20976,
+      "name": "台中豐原店",
+      "name_short": "台中豐原店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "120.71647190000000000000",
+      "latitude": "24.25187140000000000000",
+      "address": "台中市豐原區中正路256號",
+      "address_remark": "",
+      "tel": "04-25281121",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.8,
+      "rating_order_count": 20,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 14000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 53770,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 21075,
+      "name": "嘉義民族店",
+      "name_short": "嘉義民族店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "120.44944760000000000000",
+      "latitude": "23.47592040000000000000",
+      "address": "嘉義市西區民族路465號",
+      "address_remark": "",
+      "tel": "05-2286088",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.65,
+      "rating_order_count": 20,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 63455,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 25771,
+      "name": "台南民生店",
+      "name_short": "台南民生店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.19714350000000000000",
+      "latitude": "22.99496540000000000000",
+      "address": "台南市中西區民生路二段75路",
+      "address_remark": "",
+      "tel": "06-2212661",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 101823,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 24007,
+      "name": "台南崇德店",
+      "name_short": "台南崇德店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.22757340000000000000",
+      "latitude": "22.97105460000000000000",
+      "address": "台南市東區崇德路631號",
+      "address_remark": "",
+      "tel": "06-2674773",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.8,
+      "rating_order_count": 5,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 104727,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 20652,
+      "name": "高雄楠梓店",
+      "name_short": "高雄楠梓店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "120.29170870000000000000",
+      "latitude": "22.72599590000000000000",
+      "address": "高雄市楠梓區藍昌路388號",
+      "address_remark": "",
+      "tel": "07-3635800",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.5,
+      "rating_order_count": 20,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 650,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 6500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 22515,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 19947,
+      "name": "左營店",
+      "name_short": "左營店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "120.30821200000000000000",
+      "latitude": "22.66527860000000000000",
+      "address": "高雄市左營區裕誠路316號",
+      "address_remark": "",
+      "tel": "07-5506629",
+      "order_status": 20,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.56,
+      "rating_order_count": 18,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:50:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:50:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 30769,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 21078,
+      "name": "高雄建工店",
+      "name_short": "高雄建工店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "120.32913890000000000000",
+      "latitude": "22.65201540000000000000",
+      "address": "高雄市三民區建工路411號",
+      "address_remark": "",
+      "tel": "07-3987293",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 5,
+      "rating_order_count": 12,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 32516,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 24001,
+      "name": "高雄六合店",
+      "name_short": "高雄六合店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.29791500000000000000",
+      "latitude": "22.63353400000000000000",
+      "address": "高雄市前金區自立二路131號",
+      "address_remark": "",
+      "tel": "07-2850587",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 35467,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 24415,
+      "name": "屏東林森店",
+      "name_short": "屏東林森店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.49096470000000000000",
+      "latitude": "22.67314330000000000000",
+      "address": "屏東縣屏東市林森路105號",
+      "address_remark": "",
+      "tel": "08-7663622",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "08:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "08:00:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿250外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 36316,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1183,
+      "brand_code": "youinbrand",
+      "brand_name": "有飲",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1183_65ed3a81ab4623fe.jpeg",
+      "id": 20097,
+      "name": "高雄崛江店",
+      "name_short": "高雄崛江店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_1183_icon_20220601_103323_d4973.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1183_65ed3a81ab4623fe.jpeg",
+      "description": null,
+      "longitude": "120.30356420000000000000",
+      "latitude": "22.62213150000000000000",
+      "address": "高雄市新興區新田路143號",
+      "address_remark": "",
+      "tel": "07-2811558",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 4.8,
+      "rating_order_count": 45,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 3000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 37011,
       "in_avail_nidin_league": 0
     }
   ]

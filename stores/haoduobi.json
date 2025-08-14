@@ -1,0 +1,103 @@
+{
+  "brand_info": {
+    "id": 1018,
+    "brand_code": "haoduobi",
+    "name": "好多必"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-14T10:03:43.705155",
+    "total_regions_searched": 371,
+    "regions_with_stores": 5,
+    "total_stores": 1,
+    "coverage": "全台所有县市区域"
+  },
+  "stores": [
+    {
+      "brand_id": 1018,
+      "brand_code": "haoduobi",
+      "brand_name": "好多必",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1018_9f0fd5fa52051b29.jpg",
+      "id": 9574,
+      "name": "新營店",
+      "name_short": "新營店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_9574_icon_20220118_140010_89f9f.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_9574_photo_20220730_162040_3355c.jpg",
+      "description": null,
+      "longitude": "120.31253110000000000000",
+      "latitude": "23.30496360000000000000",
+      "address": "台南市新營區中華路40-3號",
+      "address_remark": "",
+      "tel": "06-6362622",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.99,
+      "rating_order_count": 266,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 7000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 114963,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

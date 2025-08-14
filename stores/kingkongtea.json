@@ -5,14 +5,11 @@
     "name": "金剛咖啡茶飲"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:18:42.317684",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:10:19.130560",
+    "total_regions_searched": 371,
+    "regions_with_stores": 3,
     "total_stores": 1,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -99,7 +96,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 15223,
+      "distance": 5431,
       "in_avail_nidin_league": 0
     }
   ]

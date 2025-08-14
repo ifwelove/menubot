@@ -5,14 +5,11 @@
     "name": "花好月圓茶飲專賣"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:18:48.456320",
-    "total_pages": 0,
-    "total_stores": 4,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T10:10:36.178838",
+    "total_regions_searched": 371,
+    "regions_with_stores": 10,
+    "total_stores": 8,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -89,7 +86,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 49139,
+      "distance": 46839,
       "in_avail_nidin_league": 0
     },
     {
@@ -123,8 +120,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -186,7 +183,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 50845,
+      "distance": 47884,
       "in_avail_nidin_league": 0
     },
     {
@@ -243,7 +240,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 68990,
+      "distance": 66191,
       "in_avail_nidin_league": 0
     },
     {
@@ -277,8 +274,8 @@
       "is_favorite": 0,
       "start_time": "10:20:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:20:00",
@@ -340,7 +337,320 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 73992,
+      "distance": 71548,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1699,
+      "brand_code": "perfectlife",
+      "brand_name": "花好月圓茶飲專賣",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1699_daf6e74290c5653d.png",
+      "id": 15406,
+      "name": "北屯環太店",
+      "name_short": "北屯環太店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14752_icon_20230224_105452_4358d.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1699_daf6e74290c5653d.png",
+      "description": "*總太住戶一杯飲料/一份雞蛋糕皆可外送，記得在備註打上戶別並完成付款，就能幫您將餐點送至外送桌喔 *心之所向/聚作/2020/青境/明日住戶皆可使用  ⚠️自取/外送時間僅供參考，實際出餐時間依現場狀",
+      "longitude": "120.73109560000000000000",
+      "latitude": "24.15955320000000000000",
+      "address": "台中市北屯區環太東路509號",
+      "address_remark": "台中市北屯區環太東路509號",
+      "tel": "0423932935",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 4.63,
+      "rating_order_count": 32,
+      "has_shipping_fee": 1,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:45:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:45:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126100,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1699,
+      "brand_code": "perfectlife",
+      "brand_name": "花好月圓茶飲專賣",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1699_daf6e74290c5653d.png",
+      "id": 14752,
+      "name": "精誠旗艦總店",
+      "name_short": "精誠旗艦總店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14752_icon_20230224_105452_4358d.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1699_daf6e74290c5653d.png",
+      "description": null,
+      "longitude": "120.65592270000000000000",
+      "latitude": "24.15506520000000000000",
+      "address": "台中市西區精誠路21號和21之1號",
+      "address_remark": "",
+      "tel": "04-23280179",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 1,
+      "rating_average_star": 4.75,
+      "rating_order_count": 24,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 16500,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1699,
+      "brand_code": "perfectlife",
+      "brand_name": "花好月圓茶飲專賣",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1699_daf6e74290c5653d.png",
+      "id": 26026,
+      "name": "台南麻豆店",
+      "name_short": "台南麻豆店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14752_icon_20230224_105452_4358d.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_26026_photo_20250808_155731_719a3.png",
+      "description": null,
+      "longitude": "120.25711440000000000000",
+      "latitude": "23.18391320000000000000",
+      "address": "台南市麻豆區興中路217之3號",
+      "address_remark": "",
+      "tel": "06-5706993",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 1,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 80483,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1699,
+      "brand_code": "perfectlife",
+      "brand_name": "花好月圓茶飲專賣",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1699_daf6e74290c5653d.png",
+      "id": 23761,
+      "name": "高雄楠梓店",
+      "name_short": "高雄楠梓店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_14752_icon_20230224_105452_4358d.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/1699_daf6e74290c5653d.png",
+      "description": null,
+      "longitude": "120.32553740000000000000",
+      "latitude": "22.72718590000000000000",
+      "address": "高雄市楠梓區建楠路208號",
+      "address_remark": "",
+      "tel": "07-3520012",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 0,
+      "rating_average_star": 5,
+      "rating_order_count": 4,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:45:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 54949,
       "in_avail_nidin_league": 0
     }
   ]

@@ -5,14 +5,11 @@
     "name": "一手私藏世界紅茶"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:15:32.007047",
-    "total_pages": 0,
-    "total_stores": 16,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T09:54:36.147375",
+    "total_regions_searched": 371,
+    "regions_with_stores": 356,
+    "total_stores": 29,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -20,38 +17,38 @@
       "brand_code": "itsotea",
       "brand_name": "一手私藏世界紅茶",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
-      "id": 3311,
-      "name": "台北八德店",
-      "name_short": "台北八德店",
+      "id": 3317,
+      "name": "永和中正店",
+      "name_short": "永和中正店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
       "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
       "description": null,
-      "longitude": "121.54160140000000000000",
-      "latitude": "25.04722350000000000000",
-      "address": "台北市中山區八德路二段277號",
+      "longitude": "121.51682030000000000000",
+      "latitude": "25.00711750000000000000",
+      "address": "新北市永和區中正路511號",
       "address_remark": "",
-      "tel": "02-27523168",
+      "tel": "02-29266656",
       "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
       "order_tolerance_day": 7,
-      "rating_average_star": 4.69,
-      "rating_order_count": 270,
+      "rating_average_star": 4.8,
+      "rating_order_count": 45,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 1,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "19:40:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "start_time": "11:45:00",
+      "end_time": "21:15:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "19:40:00",
+      "order_start_time": "12:15:00",
+      "order_end_time": "20:15:00",
       "delivery_way_description": "最低滿300外送",
       "delivery_info": [
         {
@@ -62,37 +59,12 @@
         {
           "delivery_type": 3,
           "order_min_price": 300,
-          "order_min_distance_m": 1000
+          "order_min_distance_m": 500
         },
         {
           "delivery_type": 3,
           "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 8000
+          "order_min_distance_m": 1000
         }
       ],
       "meal_tag_info": [
@@ -104,89 +76,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 934,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 321,
-      "brand_code": "itsotea",
-      "brand_name": "一手私藏世界紅茶",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
-      "id": 18469,
-      "name": "中山錦州店",
-      "name_short": "中山錦州店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
-      "description": null,
-      "longitude": "121.53507430000000000000",
-      "latitude": "25.06042800000000000000",
-      "address": "台北市中山區錦州街265號",
-      "address_remark": "",
-      "tel": "02-25043588",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.78,
-      "rating_order_count": 45,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 6000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 1161,
+      "distance": 551,
       "in_avail_nidin_league": 0
     },
     {
@@ -263,7 +153,544 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 4139,
+      "distance": 2993,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 15580,
+      "name": "中和遠東店",
+      "name_short": "中和遠東店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "121.48746910000000000000",
+      "latitude": "24.99806860000000000000",
+      "address": "新北市中和區建一路160號",
+      "address_remark": "我們位於中和遠東園區內喔",
+      "tel": "02-82265778",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.87,
+      "rating_order_count": 78,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "19:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "18:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 7000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 3966,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 17375,
+      "name": "新店大坪林店",
+      "name_short": "新店大坪林店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "121.54175680000000000000",
+      "latitude": "24.98265060000000000000",
+      "address": "新北市新店區民權路21-1號",
+      "address_remark": "",
+      "tel": "02-29108058",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.46,
+      "rating_order_count": 74,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 11000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5352,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 3311,
+      "name": "台北八德店",
+      "name_short": "台北八德店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "121.54160140000000000000",
+      "latitude": "25.04722350000000000000",
+      "address": "台北市中山區八德路二段277號",
+      "address_remark": "",
+      "tel": "02-27523168",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.69,
+      "rating_order_count": 270,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "19:40:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "19:40:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6391,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 4063,
+      "name": "板橋府中店",
+      "name_short": "板橋府中店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "121.46168020000000000000",
+      "latitude": "25.00989900000000000000",
+      "address": "新北市板橋區中山路一段70號",
+      "address_remark": "",
+      "tel": "02-29641268",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.86,
+      "rating_order_count": 155,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 6936,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 8271,
+      "name": "板橋四維店",
+      "name_short": "板橋四維店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "121.46292680000000000000",
+      "latitude": "25.02935500000000000000",
+      "address": "新北市板橋區四維路294號",
+      "address_remark": "",
+      "tel": "02-22580985",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.93,
+      "rating_order_count": 70,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7305,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 18469,
+      "name": "中山錦州店",
+      "name_short": "中山錦州店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "121.53507430000000000000",
+      "latitude": "25.06042800000000000000",
+      "address": "台北市中山區錦州街265號",
+      "address_remark": "",
+      "tel": "02-25043588",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.78,
+      "rating_order_count": 45,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 7702,
       "in_avail_nidin_league": 0
     },
     {
@@ -345,7 +772,114 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5321,
+      "distance": 8391,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 20718,
+      "name": "新莊福樂店",
+      "name_short": "新莊福樂店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "121.45777040000000000000",
+      "latitude": "25.04497090000000000000",
+      "address": "新北市新莊區福樂街13號",
+      "address_remark": "",
+      "tel": "02-29901943",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.85,
+      "rating_order_count": 40,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1400,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1600,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 9999
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 8965,
       "in_avail_nidin_league": 0
     },
     {
@@ -379,8 +913,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:10:00",
@@ -447,58 +981,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5748,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 321,
-      "brand_code": "itsotea",
-      "brand_name": "一手私藏世界紅茶",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
-      "id": 3317,
-      "name": "永和中正店",
-      "name_short": "永和中正店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
-      "description": null,
-      "longitude": "121.51682030000000000000",
-      "latitude": "25.00711750000000000000",
-      "address": "新北市永和區中正路511號",
-      "address_remark": "",
-      "tel": "02-29266656",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.8,
-      "rating_order_count": 45,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:45:00",
-      "end_time": "21:15:00",
-      "is_preparing": 1,
-      "is_open": 0,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "12:15:00",
-      "order_end_time": "20:15:00",
-      "delivery_way_description": null,
-      "delivery_info": [],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 7147,
+      "distance": 12497,
       "in_avail_nidin_league": 0
     },
     {
@@ -532,8 +1015,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "19:40:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -610,559 +1093,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 9715,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 321,
-      "brand_code": "itsotea",
-      "brand_name": "一手私藏世界紅茶",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
-      "id": 17375,
-      "name": "新店大坪林店",
-      "name_short": "新店大坪林店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
-      "description": null,
-      "longitude": "121.54175680000000000000",
-      "latitude": "24.98265060000000000000",
-      "address": "新北市新店區民權路21-1號",
-      "address_remark": "",
-      "tel": "02-29108058",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.46,
-      "rating_order_count": 74,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 900,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1100,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 10000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1300,
-          "order_min_distance_m": 11000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10118,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 321,
-      "brand_code": "itsotea",
-      "brand_name": "一手私藏世界紅茶",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
-      "id": 15580,
-      "name": "中和遠東店",
-      "name_short": "中和遠東店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
-      "description": null,
-      "longitude": "121.48746910000000000000",
-      "latitude": "24.99806860000000000000",
-      "address": "新北市中和區建一路160號",
-      "address_remark": "我們位於中和遠東園區內喔",
-      "tel": "02-82265778",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.87,
-      "rating_order_count": 78,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "09:30:00",
-      "end_time": "19:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "18:30:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 900,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1100,
-          "order_min_distance_m": 7000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10305,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 321,
-      "brand_code": "itsotea",
-      "brand_name": "一手私藏世界紅茶",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
-      "id": 8271,
-      "name": "板橋四維店",
-      "name_short": "板橋四維店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
-      "description": null,
-      "longitude": "121.46292680000000000000",
-      "latitude": "25.02935500000000000000",
-      "address": "新北市板橋區四維路294號",
-      "address_remark": "",
-      "tel": "02-22580985",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.93,
-      "rating_order_count": 70,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "22:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "22:30:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10416,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 321,
-      "brand_code": "itsotea",
-      "brand_name": "一手私藏世界紅茶",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
-      "id": 20718,
-      "name": "新莊福樂店",
-      "name_short": "新莊福樂店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
-      "description": null,
-      "longitude": "121.45777040000000000000",
-      "latitude": "25.04497090000000000000",
-      "address": "新北市新莊區福樂街13號",
-      "address_remark": "",
-      "tel": "02-29901943",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.85,
-      "rating_order_count": 40,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1400,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1600,
-          "order_min_distance_m": 9000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 9999
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10589,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 321,
-      "brand_code": "itsotea",
-      "brand_name": "一手私藏世界紅茶",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
-      "id": 4063,
-      "name": "板橋府中店",
-      "name_short": "板橋府中店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
-      "description": null,
-      "longitude": "121.46168020000000000000",
-      "latitude": "25.00989900000000000000",
-      "address": "新北市板橋區中山路一段70號",
-      "address_remark": "",
-      "tel": "02-29641268",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.86,
-      "rating_order_count": 155,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "21:30:00",
-      "is_preparing": 1,
-      "is_open": 0,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:30:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 11771,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 321,
-      "brand_code": "itsotea",
-      "brand_name": "一手私藏世界紅茶",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
-      "id": 15139,
-      "name": "新北金山店",
-      "name_short": "新北金山店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
-      "description": null,
-      "longitude": "121.63851770000000000000",
-      "latitude": "25.22103860000000000000",
-      "address": "新北市金山區中山路164號",
-      "address_remark": "",
-      "tel": "02-24981288",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.98,
-      "rating_order_count": 51,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 1,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "19:00:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 8000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 9999
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 27574,
+      "distance": 14344,
       "in_avail_nidin_league": 0
     },
     {
@@ -1187,8 +1118,8 @@
       "is_close_allow_order": 0,
       "order_start_day": 0,
       "order_tolerance_day": 7,
-      "rating_average_star": 4.81,
-      "rating_order_count": 91,
+      "rating_average_star": 4.82,
+      "rating_order_count": 93,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 1,
@@ -1196,8 +1127,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1264,7 +1195,89 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 32184,
+      "distance": 28713,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 15139,
+      "name": "新北金山店",
+      "name_short": "新北金山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "121.63851770000000000000",
+      "latitude": "25.22103860000000000000",
+      "address": "新北市金山區中山路164號",
+      "address_remark": "",
+      "tel": "02-24981288",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.98,
+      "rating_order_count": 51,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9999
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 34424,
       "in_avail_nidin_league": 0
     },
     {
@@ -1298,8 +1311,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1315,7 +1328,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 43318,
+      "distance": 38852,
       "in_avail_nidin_league": 0
     },
     {
@@ -1349,8 +1362,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "18:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1392,7 +1405,1172 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 78420,
+      "distance": 72849,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 3595,
+      "name": "花蓮中山店",
+      "name_short": "花蓮中山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "121.60559610000000000000",
+      "latitude": "23.98193790000000000000",
+      "address": "花蓮縣花蓮市中山路328號",
+      "address_remark": "",
+      "tel": "03-8355616",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.81,
+      "rating_order_count": 62,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "12:00:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127565,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 15319,
+      "name": "豐原南陽店",
+      "name_short": "豐原南陽店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.72599150000000000000",
+      "latitude": "24.24568770000000000000",
+      "address": "台中市豐原區南陽路317號",
+      "address_remark": "",
+      "tel": "04-25155089",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.98,
+      "rating_order_count": 40,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "19:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 91835,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 3327,
+      "name": "彰化和平店",
+      "name_short": "彰化和平店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.54048110000000000000",
+      "latitude": "24.07903110000000000000",
+      "address": "彰化縣彰化市和平路16號",
+      "address_remark": "",
+      "tel": "04-7276689",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.99,
+      "rating_order_count": 104,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "19:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 6000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 124108,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 3331,
+      "name": "嘉義民族店",
+      "name_short": "嘉義民族店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.45778730000000000000",
+      "latitude": "23.47686400000000000000",
+      "address": "嘉義市東區民族路162號",
+      "address_remark": "",
+      "tel": "05-2768599",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.98,
+      "rating_order_count": 83,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 100873,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 3329,
+      "name": "嘉義仁愛店",
+      "name_short": "嘉義仁愛店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.44291300000000000000",
+      "latitude": "23.46894000000000000000",
+      "address": "嘉義市西區仁愛路206號",
+      "address_remark": "",
+      "tel": "05-2255506",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.89,
+      "rating_order_count": 70,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 102581,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 5915,
+      "name": "新市光華店",
+      "name_short": "新市光華店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.29513850000000000000",
+      "latitude": "23.07858230000000000000",
+      "address": "台南市新市區光華街193號",
+      "address_remark": "",
+      "tel": "06-5899389",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.78,
+      "rating_order_count": 72,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 660,
+          "order_min_distance_m": 7000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 124168,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 22113,
+      "name": "永康東橋店",
+      "name_short": "永康東橋店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.23163770000000000000",
+      "latitude": "23.02148760000000000000",
+      "address": "台南市永康區東橋十街6號",
+      "address_remark": "",
+      "tel": "06-3021180",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 13,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 9000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128553,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 3531,
+      "name": "台南育德店",
+      "name_short": "台南育德店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.20663700000000000000",
+      "latitude": "23.01325380000000000000",
+      "address": "台南市北區台南市北區育德路460號",
+      "address_remark": "",
+      "tel": "06-2511857",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.99,
+      "rating_order_count": 225,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1999
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2999
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3999
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4999
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6999
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 8999
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 12000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 129289,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 2751,
+      "name": "台南赤崁店",
+      "name_short": "台南赤崁店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.20195800000000000000",
+      "latitude": "22.99738500000000000000",
+      "address": "台南市中西區民族路二段222號",
+      "address_remark": "",
+      "tel": "06-2232229",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.8,
+      "rating_order_count": 80,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125534,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 3333,
+      "name": "台南歸仁店",
+      "name_short": "台南歸仁店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.29387750000000000000",
+      "latitude": "22.96513870000000000000",
+      "address": "台南市歸仁區中正南路一段62號",
+      "address_remark": "",
+      "tel": "06-2303798",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.94,
+      "rating_order_count": 16,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": null,
+      "delivery_info": [],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127832,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 8268,
+      "name": "高雄富民店",
+      "name_short": "高雄富民店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.30527720000000000000",
+      "latitude": "22.66262390000000000000",
+      "address": "高雄市左營區富民路176號",
+      "address_remark": "",
+      "tel": "07-5560606",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.9,
+      "rating_order_count": 136,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 120610,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 4067,
+      "name": "自強漢神店",
+      "name_short": "自強漢神店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.29766360000000000000",
+      "latitude": "22.61953670000000000000",
+      "address": "高雄市前金區自強三路228號",
+      "address_remark": "",
+      "tel": "07-2010102",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.95,
+      "rating_order_count": 285,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "19:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 8000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126894,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 321,
+      "brand_code": "itsotea",
+      "brand_name": "一手私藏世界紅茶",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/321_0c9611ec92bd7d97.jpeg",
+      "id": 9169,
+      "name": "高雄瑞隆店",
+      "name_short": "高雄瑞隆店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_321_icon_20200415_153600_06157.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/321_0c9611ec92bd7d97.jpeg",
+      "description": null,
+      "longitude": "120.33104040000000000000",
+      "latitude": "22.60560900000000000000",
+      "address": "高雄市前鎮區瑞隆路372號一樓",
+      "address_remark": "",
+      "tel": "07-7216168",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.91,
+      "rating_order_count": 66,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "18:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "18:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1100,
+          "order_min_distance_m": 9000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 9500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 128118,
       "in_avail_nidin_league": 0
     }
   ]

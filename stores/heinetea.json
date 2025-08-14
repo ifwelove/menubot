@@ -5,14 +5,11 @@
     "name": "喜力茶飲"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:18:17.285426",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:07:45.382618",
+    "total_regions_searched": 371,
+    "regions_with_stores": 5,
     "total_stores": 1,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -94,7 +91,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 101127,
+      "distance": 129437,
       "in_avail_nidin_league": 0
     }
   ]

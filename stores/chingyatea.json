@@ -5,14 +5,11 @@
     "name": "青芽摘"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:17:12.650143",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T10:03:10.365718",
+    "total_regions_searched": 371,
+    "regions_with_stores": 4,
     "total_stores": 2,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -94,7 +91,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5801,
+      "distance": 9473,
       "in_avail_nidin_league": 0
     },
     {
@@ -196,7 +193,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 10917,
+      "distance": 19911,
       "in_avail_nidin_league": 0
     }
   ]

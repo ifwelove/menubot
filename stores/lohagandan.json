@@ -1,0 +1,538 @@
+{
+  "brand_info": {
+    "id": 1494,
+    "brand_code": "lohagandan",
+    "name": "甘丹"
+  },
+  "crawl_info": {
+    "crawl_time": "2025-08-14T10:08:19.847240",
+    "total_regions_searched": 371,
+    "regions_with_stores": 5,
+    "total_stores": 6,
+    "coverage": "全台所有县市区域"
+  },
+  "stores": [
+    {
+      "brand_id": 1494,
+      "brand_code": "lohagandan",
+      "brand_name": "甘丹",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1494_abad4aeba82db1ea.jpg",
+      "id": 13681,
+      "name": "頭橋店",
+      "name_short": "頭橋店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13413_icon_20221014_141646_ca823.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1494_photo_20250102_164030_2e227.jpg",
+      "description": null,
+      "longitude": "120.43967320000000000000",
+      "latitude": "23.52369160000000000000",
+      "address": "嘉義縣民雄鄉建國路三段171號",
+      "address_remark": "阿義烤鴨旁",
+      "tel": "05-2200388",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.92,
+      "rating_order_count": 37,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "19:20:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "19:20:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 57296,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1494,
+      "brand_code": "lohagandan",
+      "brand_name": "甘丹",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1494_abad4aeba82db1ea.jpg",
+      "id": 13413,
+      "name": "雲林北港店",
+      "name_short": "雲林北港店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13413_icon_20221014_141646_ca823.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1494_photo_20250102_164030_2e227.jpg",
+      "description": null,
+      "longitude": "120.30101130000000000000",
+      "latitude": "23.57199200000000000000",
+      "address": "雲林縣北港鎮大同路242號",
+      "address_remark": "",
+      "tel": "05-7832258",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.91,
+      "rating_order_count": 22,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿50外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 50,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 60115,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1494,
+      "brand_code": "lohagandan",
+      "brand_name": "甘丹",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1494_abad4aeba82db1ea.jpg",
+      "id": 17384,
+      "name": "嘉義新生店",
+      "name_short": "嘉義新生店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13413_icon_20221014_141646_ca823.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1494_photo_20250102_164030_2e227.jpg",
+      "description": null,
+      "longitude": "120.45674220000000000000",
+      "latitude": "23.49419730000000000000",
+      "address": "嘉義市東區新生路648-1號",
+      "address_remark": "",
+      "tel": "05-2753573",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.4,
+      "rating_order_count": 5,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 60658,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1494,
+      "brand_code": "lohagandan",
+      "brand_name": "甘丹",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1494_abad4aeba82db1ea.jpg",
+      "id": 20715,
+      "name": "嘉義南門店",
+      "name_short": "嘉義南門店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13413_icon_20221014_141646_ca823.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1494_photo_20250102_164030_2e227.jpg",
+      "description": null,
+      "longitude": "120.45645500000000000000",
+      "latitude": "23.47651270000000000000",
+      "address": "嘉義市東區民族路187號",
+      "address_remark": "南門圓環",
+      "tel": "05-2258891",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 5,
+      "rating_order_count": 3,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 63120,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1494,
+      "brand_code": "lohagandan",
+      "brand_name": "甘丹",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1494_abad4aeba82db1ea.jpg",
+      "id": 18223,
+      "name": "水牛厝店",
+      "name_short": "水牛厝店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13413_icon_20221014_141646_ca823.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1494_photo_20250102_164030_2e227.jpg",
+      "description": null,
+      "longitude": "120.38012750000000000000",
+      "latitude": "23.49821220000000000000",
+      "address": "嘉義縣太保市南新里16鄰中山路一段277之3號",
+      "address_remark": "",
+      "tel": "05-2380600",
+      "order_status": 20,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.5,
+      "rating_order_count": 2,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:30:00",
+      "end_time": "19:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:30:00",
+      "order_end_time": "19:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 600
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 850,
+          "order_min_distance_m": 9000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 63677,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 1494,
+      "brand_code": "lohagandan",
+      "brand_name": "甘丹",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/1494_abad4aeba82db1ea.jpg",
+      "id": 17600,
+      "name": "台南西門店",
+      "name_short": "台南西門店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_13413_icon_20221014_141646_ca823.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/b_1494_photo_20250102_164030_2e227.jpg",
+      "description": null,
+      "longitude": "120.20286900000000000000",
+      "latitude": "23.00212130000000000000",
+      "address": "台南市北區西門路三段59號",
+      "address_remark": "",
+      "tel": "06-2222558",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.98,
+      "rating_order_count": 47,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 1,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "20:30:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 110023,
+      "in_avail_nidin_league": 0
+    }
+  ]
+}

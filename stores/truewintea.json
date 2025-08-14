@@ -5,14 +5,11 @@
     "name": "初韻"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:14:45.561431",
-    "total_pages": 0,
-    "total_stores": 9,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T09:51:25.248715",
+    "total_regions_searched": 371,
+    "regions_with_stores": 243,
+    "total_stores": 10,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -46,8 +43,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -114,181 +111,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 2515,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 79,
-      "brand_code": "truewintea",
-      "brand_name": "初韻",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/79_0387a6b9a57bd10b.jpeg",
-      "id": 19509,
-      "name": "台北古亭店",
-      "name_short": "台北古亭店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_79_icon_20220301_173447_79bb2.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.52485400000000000000",
-      "latitude": "25.02709210000000000000",
-      "address": "台北市大安區和平東路一段71之1號",
-      "address_remark": "",
-      "tel": "02-23581173",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 14,
-      "rating_average_star": 5,
-      "rating_order_count": 19,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "20:30:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 750,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 900,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 7000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 4089,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 79,
-      "brand_code": "truewintea",
-      "brand_name": "初韻",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/79_0387a6b9a57bd10b.jpeg",
-      "id": 22284,
-      "name": "台北饒河店",
-      "name_short": "台北饒河店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_79_icon_20220301_173447_79bb2.jpg",
-      "photo": null,
-      "description": null,
-      "longitude": "121.57796850000000000000",
-      "latitude": "25.05120080000000000000",
-      "address": "台北市松山區八德路四段765號",
-      "address_remark": "",
-      "tel": "02-27665199",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 14,
-      "rating_average_star": 4.89,
-      "rating_order_count": 19,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "22:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "22:30:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 5245,
+      "distance": 1692,
       "in_avail_nidin_league": 0
     },
     {
@@ -322,8 +145,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -385,7 +208,181 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 7527,
+      "distance": 3966,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 79,
+      "brand_code": "truewintea",
+      "brand_name": "初韻",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/79_0387a6b9a57bd10b.jpeg",
+      "id": 19509,
+      "name": "台北古亭店",
+      "name_short": "台北古亭店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_79_icon_20220301_173447_79bb2.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.52485400000000000000",
+      "latitude": "25.02709210000000000000",
+      "address": "台北市大安區和平東路一段71之1號",
+      "address_remark": "",
+      "tel": "02-23581173",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 5,
+      "rating_order_count": 19,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 750,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 7000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 5430,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 79,
+      "brand_code": "truewintea",
+      "brand_name": "初韻",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/79_0387a6b9a57bd10b.jpeg",
+      "id": 22284,
+      "name": "台北饒河店",
+      "name_short": "台北饒河店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_79_icon_20220301_173447_79bb2.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "121.57796850000000000000",
+      "latitude": "25.05120080000000000000",
+      "address": "台北市松山區八德路四段765號",
+      "address_remark": "",
+      "tel": "02-27665199",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.89,
+      "rating_order_count": 19,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:30:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 8900,
       "in_avail_nidin_league": 0
     },
     {
@@ -419,8 +416,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -487,7 +484,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 14885,
+      "distance": 12057,
       "in_avail_nidin_league": 0
     },
     {
@@ -521,8 +518,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -538,7 +535,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 17067,
+      "distance": 15011,
       "in_avail_nidin_league": 0
     },
     {
@@ -572,8 +569,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "23:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -640,7 +637,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 29252,
+      "distance": 32060,
       "in_avail_nidin_league": 0
     },
     {
@@ -674,8 +671,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -732,7 +729,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 49802,
+      "distance": 46873,
       "in_avail_nidin_league": 0
     },
     {
@@ -766,8 +763,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -834,7 +831,109 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 50322,
+      "distance": 47701,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 79,
+      "brand_code": "truewintea",
+      "brand_name": "初韻",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/79_0387a6b9a57bd10b.jpeg",
+      "id": 20172,
+      "name": "員林站前店",
+      "name_short": "員林站前店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_79_icon_20220301_173447_79bb2.jpg",
+      "photo": null,
+      "description": null,
+      "longitude": "120.57040730000000000000",
+      "latitude": "23.95917670000000000000",
+      "address": "彰化縣員林市中山里民權街41號",
+      "address_remark": "",
+      "tel": "04-8329388",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 2,
+      "rating_average_star": 5,
+      "rating_order_count": 9,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 900,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 8000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1500,
+          "order_min_distance_m": 10000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 126213,
       "in_avail_nidin_league": 0
     }
   ]

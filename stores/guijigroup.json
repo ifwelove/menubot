@@ -5,14 +5,11 @@
     "name": "龜記茗品"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:16:37.613251",
-    "total_pages": 0,
-    "total_stores": 17,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T10:00:16.758183",
+    "total_regions_searched": 371,
+    "regions_with_stores": 343,
+    "total_stores": 19,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -20,38 +17,38 @@
       "brand_code": "guijigroup",
       "brand_name": "龜記茗品",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
-      "id": 4142,
-      "name": "南京三民店",
-      "name_short": "南京三民店",
+      "id": 20109,
+      "name": "汐止遠雄店",
+      "name_short": "汐止遠雄店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
       "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
       "description": null,
-      "longitude": "121.56074440000000000000",
-      "latitude": "25.05240810000000000000",
-      "address": "台北市松山區南京東路五段123巷13號",
-      "address_remark": "",
-      "tel": "02-37653746",
+      "longitude": "121.63556670000000000000",
+      "latitude": "25.05642350000000000000",
+      "address": "新北市汐止區新台五路一段93號",
+      "address_remark": "汐止遠雄廣場B1甜品區11櫃",
+      "tel": "(02)2697-2177",
       "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
-      "is_close_allow_order": 0,
+      "is_close_allow_order": 1,
       "order_start_day": 0,
-      "order_tolerance_day": 3,
-      "rating_average_star": 4.85,
-      "rating_order_count": 322,
+      "order_tolerance_day": 2,
+      "rating_average_star": 4.6,
+      "rating_order_count": 10,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:00:00",
+      "start_time": "11:00:00",
       "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
-      "order_start_time": "10:30:00",
-      "order_end_time": "21:10:00",
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:30:00",
       "delivery_way_description": "最低滿300外送",
       "delivery_info": [
         {
@@ -62,27 +59,27 @@
         {
           "delivery_type": 3,
           "order_min_price": 300,
-          "order_min_distance_m": 420
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 700
+          "order_min_distance_m": 1000
         },
         {
           "delivery_type": 3,
           "order_min_price": 500,
-          "order_min_distance_m": 999
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 1499
+          "order_min_distance_m": 2000
         },
         {
           "delivery_type": 3,
           "order_min_price": 800,
-          "order_min_distance_m": 4000
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 10000
         }
       ],
       "meal_tag_info": [
@@ -94,7 +91,228 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 2981,
+      "distance": 16946,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 584,
+      "brand_code": "guijigroup",
+      "brand_name": "龜記茗品",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
+      "id": 17708,
+      "name": "南港中信店",
+      "name_short": "南港中信店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
+      "description": null,
+      "longitude": "121.61541330000000000000",
+      "latitude": "25.05947170000000000000",
+      "address": "台北市南港區經貿二路186號3樓",
+      "address_remark": "206 櫃位",
+      "tel": "02-26533331",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 3,
+      "rating_order_count": 4,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 19038,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 584,
+      "brand_code": "guijigroup",
+      "brand_name": "龜記茗品",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
+      "id": 17705,
+      "name": "南港citylink店",
+      "name_short": "南港citylink店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
+      "description": null,
+      "longitude": "121.60729640000000000000",
+      "latitude": "25.05314110000000000000",
+      "address": "台北市南港區忠孝東路七段369號2樓",
+      "address_remark": "C棟2樓",
+      "tel": "02-27832228",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 7,
+      "rating_average_star": 4.56,
+      "rating_order_count": 25,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "11:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "11:00:00",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿500外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1300,
+          "order_min_distance_m": 6000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1800,
+          "order_min_distance_m": 7000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 20401,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 584,
+      "brand_code": "guijigroup",
+      "brand_name": "龜記茗品",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
+      "id": 14224,
+      "name": "南港昆陽店",
+      "name_short": "南港昆陽店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
+      "description": null,
+      "longitude": "121.59217150000000000000",
+      "latitude": "25.05393900000000000000",
+      "address": "台北市南港區南港路三段5號",
+      "address_remark": "",
+      "tel": "02-26537779",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 5,
+      "rating_average_star": 4.63,
+      "rating_order_count": 114,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿300外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 22130,
       "in_avail_nidin_league": 0
     },
     {
@@ -171,7 +389,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 5989,
+      "distance": 23478,
       "in_avail_nidin_league": 0
     },
     {
@@ -205,8 +423,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -253,7 +471,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 6271,
+      "distance": 23794,
       "in_avail_nidin_league": 0
     },
     {
@@ -261,38 +479,38 @@
       "brand_code": "guijigroup",
       "brand_name": "龜記茗品",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
-      "id": 14224,
-      "name": "南港昆陽店",
-      "name_short": "南港昆陽店",
+      "id": 4142,
+      "name": "南京三民店",
+      "name_short": "南京三民店",
       "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
       "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
       "description": null,
-      "longitude": "121.59217150000000000000",
-      "latitude": "25.05393900000000000000",
-      "address": "台北市南港區南港路三段5號",
+      "longitude": "121.56074440000000000000",
+      "latitude": "25.05240810000000000000",
+      "address": "台北市松山區南京東路五段123巷13號",
       "address_remark": "",
-      "tel": "02-26537779",
+      "tel": "02-37653746",
       "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 0,
       "order_start_day": 0,
-      "order_tolerance_day": 5,
-      "rating_average_star": 4.63,
-      "rating_order_count": 114,
+      "order_tolerance_day": 3,
+      "rating_average_star": 4.85,
+      "rating_order_count": 322,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
-      "start_time": "10:30:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "start_time": "10:00:00",
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
-      "order_end_time": "21:00:00",
+      "order_end_time": "21:10:00",
       "delivery_way_description": "最低滿300外送",
       "delivery_info": [
         {
@@ -303,17 +521,27 @@
         {
           "delivery_type": 3,
           "order_min_price": 300,
-          "order_min_distance_m": 1000
+          "order_min_distance_m": 420
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 700
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 999
         },
         {
           "delivery_type": 3,
           "order_min_price": 600,
-          "order_min_distance_m": 3000
+          "order_min_distance_m": 1499
         },
         {
           "delivery_type": 3,
           "order_min_price": 800,
-          "order_min_distance_m": 5000
+          "order_min_distance_m": 4000
         }
       ],
       "meal_tag_info": [
@@ -325,94 +553,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 7105,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 584,
-      "brand_code": "guijigroup",
-      "brand_name": "龜記茗品",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
-      "id": 17705,
-      "name": "南港citylink店",
-      "name_short": "南港citylink店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
-      "description": null,
-      "longitude": "121.60729640000000000000",
-      "latitude": "25.05314110000000000000",
-      "address": "台北市南港區忠孝東路七段369號2樓",
-      "address_remark": "C棟2樓",
-      "tel": "02-27832228",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 4.56,
-      "rating_order_count": 25,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿500外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1300,
-          "order_min_distance_m": 6000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1800,
-          "order_min_distance_m": 7000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 9087,
+      "distance": 26006,
       "in_avail_nidin_league": 0
     },
     {
@@ -494,7 +635,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 9750,
+      "distance": 29872,
       "in_avail_nidin_league": 0
     },
     {
@@ -519,8 +660,8 @@
       "is_close_allow_order": 1,
       "order_start_day": 0,
       "order_tolerance_day": 7,
-      "rating_average_star": 4.7,
-      "rating_order_count": 30,
+      "rating_average_star": 4.71,
+      "rating_order_count": 31,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
@@ -528,8 +669,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -571,151 +712,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 10015,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 584,
-      "brand_code": "guijigroup",
-      "brand_name": "龜記茗品",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
-      "id": 17708,
-      "name": "南港中信店",
-      "name_short": "南港中信店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
-      "description": null,
-      "longitude": "121.61541330000000000000",
-      "latitude": "25.05947170000000000000",
-      "address": "台北市南港區經貿二路186號3樓",
-      "address_remark": "206 櫃位",
-      "tel": "02-26533331",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 3,
-      "rating_order_count": 4,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿500外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 1000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 10196,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 584,
-      "brand_code": "guijigroup",
-      "brand_name": "龜記茗品",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
-      "id": 20109,
-      "name": "汐止遠雄店",
-      "name_short": "汐止遠雄店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
-      "description": null,
-      "longitude": "121.63556670000000000000",
-      "latitude": "25.05642350000000000000",
-      "address": "新北市汐止區新台五路一段93號",
-      "address_remark": "汐止遠雄廣場B1甜品區11櫃",
-      "tel": "(02)2697-2177",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 2,
-      "rating_average_star": 4.6,
-      "rating_order_count": 10,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "11:00:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "11:00:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿300外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1000,
-          "order_min_distance_m": 5000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 2000,
-          "order_min_distance_m": 10000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 12806,
+      "distance": 33488,
       "in_avail_nidin_league": 0
     },
     {
@@ -807,7 +804,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 15385,
+      "distance": 44144,
       "in_avail_nidin_league": 0
     },
     {
@@ -894,7 +891,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 22223,
+      "distance": 50102,
       "in_avail_nidin_league": 0
     },
     {
@@ -996,7 +993,84 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 27815,
+      "distance": 56589,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 584,
+      "brand_code": "guijigroup",
+      "brand_name": "龜記茗品",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
+      "id": 20115,
+      "name": "桃園南崁店",
+      "name_short": "桃園南崁店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
+      "description": null,
+      "longitude": "121.29431930000000000000",
+      "latitude": "25.04743700000000000000",
+      "address": "桃園市蘆竹區南上路1號",
+      "address_remark": "",
+      "tel": "03-3225775",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 15,
+      "rating_average_star": 4.94,
+      "rating_order_count": 17,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:50:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:50:00",
+      "delivery_way_description": "最低滿400外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 4000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 5000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 60015,
       "in_avail_nidin_league": 0
     },
     {
@@ -1083,84 +1157,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 31765,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 584,
-      "brand_code": "guijigroup",
-      "brand_name": "龜記茗品",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
-      "id": 20115,
-      "name": "桃園南崁店",
-      "name_short": "桃園南崁店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
-      "description": null,
-      "longitude": "121.29431930000000000000",
-      "latitude": "25.04743700000000000000",
-      "address": "桃園市蘆竹區南上路1號",
-      "address_remark": "",
-      "tel": "03-3225775",
-      "order_status": 10,
-      "is_off_allow_order": 1,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 15,
-      "rating_average_star": 4.94,
-      "rating_order_count": 17,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:50:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:50:00",
-      "delivery_way_description": "最低滿400外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 500,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
-          "order_min_distance_m": 4000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
-          "order_min_distance_m": 5000
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 31979,
+      "distance": 60294,
       "in_avail_nidin_league": 0
     },
     {
@@ -1194,8 +1191,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "19:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1246,8 +1243,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 36849,
+      "store_allow_order": 0,
+      "distance": 65219,
       "in_avail_nidin_league": 0
     },
     {
@@ -1324,7 +1321,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 44783,
+      "distance": 72328,
       "in_avail_nidin_league": 0
     },
     {
@@ -1349,8 +1346,8 @@
       "is_close_allow_order": 1,
       "order_start_day": 0,
       "order_tolerance_day": 2,
-      "rating_average_star": 4.75,
-      "rating_order_count": 16,
+      "rating_average_star": 4.76,
+      "rating_order_count": 17,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
@@ -1358,8 +1355,8 @@
       "is_favorite": 0,
       "start_time": "10:40:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:40:00",
@@ -1426,7 +1423,186 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 75903,
+      "distance": 104679,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 584,
+      "brand_code": "guijigroup",
+      "brand_name": "龜記茗品",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
+      "id": 20106,
+      "name": "嘉義文化店",
+      "name_short": "嘉義文化店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
+      "description": null,
+      "longitude": "120.44977920000000000000",
+      "latitude": "23.47927930000000000000",
+      "address": "嘉義市東區文化路174號",
+      "address_remark": "",
+      "tel": "05-2278177",
+      "order_status": 20,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 3,
+      "rating_average_star": 3.75,
+      "rating_order_count": 4,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "22:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "22:00:00",
+      "delivery_way_description": "最低滿100外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 100,
+          "order_min_distance_m": 200
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 550,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1050,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1550,
+          "order_min_distance_m": 15000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2050,
+          "order_min_distance_m": 20000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 0,
+      "distance": 100010,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 584,
+      "brand_code": "guijigroup",
+      "brand_name": "龜記茗品",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/584_6a7973629197bb64.png",
+      "id": 19209,
+      "name": "台南健康店",
+      "name_short": "台南健康店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/b_584_icon_20240507_151902_2bf09.jpg",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/584_6a7973629197bb64.png",
+      "description": null,
+      "longitude": "120.19358030000000000000",
+      "latitude": "22.98169200000000000000",
+      "address": "台南市南區健康路二段152號",
+      "address_remark": "",
+      "tel": "06-2228588",
+      "order_status": 10,
+      "is_off_allow_order": 0,
+      "is_preparing_allow_order": 0,
+      "is_close_allow_order": 0,
+      "order_start_day": 0,
+      "order_tolerance_day": 1,
+      "rating_average_star": 4.93,
+      "rating_order_count": 14,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "09:00:00",
+      "end_time": "20:45:00",
+      "is_preparing": 0,
+      "is_open": 1,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "09:00:00",
+      "order_end_time": "20:45:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 500,
+          "order_min_distance_m": 5000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1000,
+          "order_min_distance_m": 10000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 2000,
+          "order_min_distance_m": 15000
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 127993,
       "in_avail_nidin_league": 0
     }
   ]

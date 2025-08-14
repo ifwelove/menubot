@@ -5,14 +5,11 @@
     "name": "龍角"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:13:55.257323",
-    "total_pages": 0,
-    "total_stores": 11,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "crawl_time": "2025-08-14T09:49:22.918329",
+    "total_regions_searched": 371,
+    "regions_with_stores": 287,
+    "total_stores": 12,
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -46,8 +43,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -109,7 +106,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 2078,
+      "distance": 1711,
       "in_avail_nidin_league": 0
     },
     {
@@ -117,49 +114,59 @@
       "brand_code": "dragonhorn",
       "brand_name": "龍角",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/51_651cd478d1b2f90c.jpg",
-      "id": 11275,
-      "name": "信義松菸店",
-      "name_short": "信義松菸店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_11275_icon_20231211_201920_910b9.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_11275_photo_20231211_201859_8207f.png",
+      "id": 22245,
+      "name": "蘆洲徐匯店",
+      "name_short": "蘆洲徐匯店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_15724_icon_20231211_202853_e76b0.png",
+      "photo": null,
       "description": null,
-      "longitude": "121.56377630000000000000",
-      "latitude": "25.04211300000000000000",
-      "address": "台北市信義區忠孝東路四段559巷14號",
+      "longitude": "121.48160540000000000000",
+      "latitude": "25.08122340000000000000",
+      "address": "新北市蘆洲區永安北路二段30號",
       "address_remark": "",
-      "tel": "02-27460599",
-      "order_status": 10,
-      "is_off_allow_order": 1,
+      "tel": "0282861226",
+      "order_status": 20,
+      "is_off_allow_order": 0,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
-      "order_tolerance_day": 14,
-      "rating_average_star": 4.76,
-      "rating_order_count": 217,
+      "order_tolerance_day": 7,
+      "rating_average_star": 5,
+      "rating_order_count": 64,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
       "start_time": "11:00:00",
-      "end_time": "20:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "end_time": "21:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
-      "order_end_time": "20:00:00",
-      "delivery_way_description": "最低滿250外送",
+      "order_end_time": "21:30:00",
+      "delivery_way_description": "最低滿200外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 250,
+          "order_min_price": 200,
           "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 500
         },
         {
           "delivery_type": 3,
           "order_min_price": 250,
           "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1500
         },
         {
           "delivery_type": 3,
@@ -174,36 +181,26 @@
         {
           "delivery_type": 3,
           "order_min_price": 550,
-          "order_min_distance_m": 3500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 600,
           "order_min_distance_m": 4000
         },
         {
           "delivery_type": 3,
           "order_min_price": 650,
-          "order_min_distance_m": 4500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 700,
           "order_min_distance_m": 5000
         },
         {
           "delivery_type": 3,
           "order_min_price": 750,
-          "order_min_distance_m": 5500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
           "order_min_distance_m": 6000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 1300,
+          "order_min_price": 850,
+          "order_min_distance_m": 7000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 950,
           "order_min_distance_m": 8000
         }
       ],
@@ -215,8 +212,8 @@
           "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
         }
       ],
-      "store_allow_order": 1,
-      "distance": 3714,
+      "store_allow_order": 0,
+      "distance": 4719,
       "in_avail_nidin_league": 0
     },
     {
@@ -250,8 +247,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -323,7 +320,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 4929,
+      "distance": 6697,
       "in_avail_nidin_league": 0
     },
     {
@@ -357,8 +354,8 @@
       "is_favorite": 0,
       "start_time": "10:45:00",
       "end_time": "22:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:45:00",
@@ -420,7 +417,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 6366,
+      "distance": 7071,
       "in_avail_nidin_league": 0
     },
     {
@@ -428,156 +425,49 @@
       "brand_code": "dragonhorn",
       "brand_name": "龍角",
       "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/51_651cd478d1b2f90c.jpg",
-      "id": 8857,
-      "name": "內湖成功店",
-      "name_short": "內湖成功店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_8857_icon_20231211_200711_70bbd.png",
-      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_8857_photo_20231211_200633_7688a.png",
+      "id": 11275,
+      "name": "信義松菸店",
+      "name_short": "信義松菸店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_11275_icon_20231211_201920_910b9.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_11275_photo_20231211_201859_8207f.png",
       "description": null,
-      "longitude": "121.59044340000000000000",
-      "latitude": "25.08182870000000000000",
-      "address": "台北市內湖區成功路三段174巷36號",
+      "longitude": "121.56377630000000000000",
+      "latitude": "25.04211300000000000000",
+      "address": "台北市信義區忠孝東路四段559巷14號",
       "address_remark": "",
-      "tel": "02-27944027",
+      "tel": "02-27460599",
       "order_status": 10,
       "is_off_allow_order": 1,
       "is_preparing_allow_order": 1,
       "is_close_allow_order": 1,
       "order_start_day": 0,
       "order_tolerance_day": 14,
-      "rating_average_star": 4.94,
-      "rating_order_count": 558,
-      "has_shipping_fee": 0,
-      "show_menu_product_icon": 0,
-      "menu_layout_type": 3,
-      "menu_product_default_image_type": 0,
-      "is_favorite": 0,
-      "start_time": "10:00:00",
-      "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
-      "is_close": 0,
-      "is_off_day": 0,
-      "order_start_time": "10:00:00",
-      "order_end_time": "21:00:00",
-      "delivery_way_description": "最低滿200外送",
-      "delivery_info": [
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 1500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 250,
-          "order_min_distance_m": 2000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 2500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 350,
-          "order_min_distance_m": 3000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 400,
-          "order_min_distance_m": 3500
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 450,
-          "order_min_distance_m": 3900
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 800,
-          "order_min_distance_m": 4400
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 1200,
-          "order_min_distance_m": 4900
-        }
-      ],
-      "meal_tag_info": [
-        {
-          "tag_id": 1,
-          "name": "飲料",
-          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
-          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
-        }
-      ],
-      "store_allow_order": 1,
-      "distance": 8044,
-      "in_avail_nidin_league": 0
-    },
-    {
-      "brand_id": 51,
-      "brand_code": "dragonhorn",
-      "brand_name": "龍角",
-      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/51_651cd478d1b2f90c.jpg",
-      "id": 22245,
-      "name": "蘆洲徐匯店",
-      "name_short": "蘆洲徐匯店",
-      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_15724_icon_20231211_202853_e76b0.png",
-      "photo": null,
-      "description": null,
-      "longitude": "121.48160540000000000000",
-      "latitude": "25.08122340000000000000",
-      "address": "新北市蘆洲區永安北路二段30號",
-      "address_remark": "",
-      "tel": "0282861226",
-      "order_status": 10,
-      "is_off_allow_order": 0,
-      "is_preparing_allow_order": 1,
-      "is_close_allow_order": 1,
-      "order_start_day": 0,
-      "order_tolerance_day": 7,
-      "rating_average_star": 5,
-      "rating_order_count": 64,
+      "rating_average_star": 4.76,
+      "rating_order_count": 217,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
       "menu_product_default_image_type": 0,
       "is_favorite": 0,
       "start_time": "11:00:00",
-      "end_time": "21:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "end_time": "20:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
-      "order_end_time": "21:30:00",
-      "delivery_way_description": "最低滿200外送",
+      "order_end_time": "20:00:00",
+      "delivery_way_description": "最低滿250外送",
       "delivery_info": [
         {
           "delivery_type": 3,
-          "order_min_price": 200,
+          "order_min_price": 250,
           "order_min_distance_m": 0
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 200,
-          "order_min_distance_m": 500
         },
         {
           "delivery_type": 3,
           "order_min_price": 250,
           "order_min_distance_m": 1000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 300,
-          "order_min_distance_m": 1500
         },
         {
           "delivery_type": 3,
@@ -592,26 +482,36 @@
         {
           "delivery_type": 3,
           "order_min_price": 550,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
           "order_min_distance_m": 4000
         },
         {
           "delivery_type": 3,
           "order_min_price": 650,
+          "order_min_distance_m": 4500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
           "order_min_distance_m": 5000
         },
         {
           "delivery_type": 3,
           "order_min_price": 750,
+          "order_min_distance_m": 5500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
           "order_min_distance_m": 6000
         },
         {
           "delivery_type": 3,
-          "order_min_price": 850,
-          "order_min_distance_m": 7000
-        },
-        {
-          "delivery_type": 3,
-          "order_min_price": 950,
+          "order_min_price": 1300,
           "order_min_distance_m": 8000
         }
       ],
@@ -624,7 +524,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 8455,
+      "distance": 7496,
       "in_avail_nidin_league": 0
     },
     {
@@ -658,8 +558,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -746,7 +646,104 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 10203,
+      "distance": 8068,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 51,
+      "brand_code": "dragonhorn",
+      "brand_name": "龍角",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/51_651cd478d1b2f90c.jpg",
+      "id": 8857,
+      "name": "內湖成功店",
+      "name_short": "內湖成功店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_8857_icon_20231211_200711_70bbd.png",
+      "photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/photos/s_8857_photo_20231211_200633_7688a.png",
+      "description": null,
+      "longitude": "121.59044340000000000000",
+      "latitude": "25.08182870000000000000",
+      "address": "台北市內湖區成功路三段174巷36號",
+      "address_remark": "",
+      "tel": "02-27944027",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 14,
+      "rating_average_star": 4.94,
+      "rating_order_count": 559,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:00:00",
+      "end_time": "21:00:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:00:00",
+      "order_end_time": "21:00:00",
+      "delivery_way_description": "最低滿200外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 200,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 250,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 350,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 400,
+          "order_min_distance_m": 3500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 3900
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 800,
+          "order_min_distance_m": 4400
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 1200,
+          "order_min_distance_m": 4900
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 10738,
       "in_avail_nidin_league": 0
     },
     {
@@ -772,7 +769,7 @@
       "order_start_day": 0,
       "order_tolerance_day": 14,
       "rating_average_star": 4.81,
-      "rating_order_count": 278,
+      "rating_order_count": 279,
       "has_shipping_fee": 0,
       "show_menu_product_icon": 0,
       "menu_layout_type": 3,
@@ -780,8 +777,8 @@
       "is_favorite": 0,
       "start_time": "11:00:00",
       "end_time": "20:30:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "11:00:00",
@@ -863,7 +860,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 10440,
+      "distance": 13524,
       "in_avail_nidin_league": 0
     },
     {
@@ -897,8 +894,8 @@
       "is_favorite": 0,
       "start_time": "10:30:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:30:00",
@@ -1015,7 +1012,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 16411,
+      "distance": 15057,
       "in_avail_nidin_league": 0
     },
     {
@@ -1122,7 +1119,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 41416,
+      "distance": 38682,
       "in_avail_nidin_league": 0
     },
     {
@@ -1156,8 +1153,8 @@
       "is_favorite": 0,
       "start_time": "10:00:00",
       "end_time": "21:00:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:00:00",
@@ -1239,7 +1236,104 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 51799,
+      "distance": 54932,
+      "in_avail_nidin_league": 0
+    },
+    {
+      "brand_id": 51,
+      "brand_code": "dragonhorn",
+      "brand_name": "龍角",
+      "brand_photo": "https://ap-south-1.linodeobjects.com/nidin-production-v3/brand/photos/51_651cd478d1b2f90c.jpg",
+      "id": 19083,
+      "name": "台南中山店",
+      "name_short": "台南中山店",
+      "image": "https://ap-south-1.linodeobjects.com/nidin-production-v3/store/icons/s_15724_icon_20231211_202853_e76b0.png",
+      "photo": null,
+      "description": null,
+      "longitude": "120.20772890000000000000",
+      "latitude": "22.99455060000000000000",
+      "address": "台南市中西區中山路107號",
+      "address_remark": "",
+      "tel": "06-2213896",
+      "order_status": 10,
+      "is_off_allow_order": 1,
+      "is_preparing_allow_order": 1,
+      "is_close_allow_order": 1,
+      "order_start_day": 0,
+      "order_tolerance_day": 30,
+      "rating_average_star": 5,
+      "rating_order_count": 175,
+      "has_shipping_fee": 0,
+      "show_menu_product_icon": 0,
+      "menu_layout_type": 3,
+      "menu_product_default_image_type": 0,
+      "is_favorite": 0,
+      "start_time": "10:30:00",
+      "end_time": "20:30:00",
+      "is_preparing": 1,
+      "is_open": 0,
+      "is_close": 0,
+      "is_off_day": 0,
+      "order_start_time": "10:30:00",
+      "order_end_time": "20:30:00",
+      "delivery_way_description": "最低滿150外送",
+      "delivery_info": [
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 0
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 150,
+          "order_min_distance_m": 500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 225,
+          "order_min_distance_m": 1000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 300,
+          "order_min_distance_m": 1500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 375,
+          "order_min_distance_m": 2000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 450,
+          "order_min_distance_m": 2500
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 525,
+          "order_min_distance_m": 3000
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 600,
+          "order_min_distance_m": 3800
+        },
+        {
+          "delivery_type": 3,
+          "order_min_price": 700,
+          "order_min_distance_m": 4500
+        }
+      ],
+      "meal_tag_info": [
+        {
+          "tag_id": 1,
+          "name": "飲料",
+          "icon": "https://cdn-order.nidin.shop/meal_tag/icons/1_c413a734941f3d64.svg",
+          "image": "https://cdn-order.nidin.shop/meal_tag/images/1_246285437d0716cb.jpg"
+        }
+      ],
+      "store_allow_order": 1,
+      "distance": 125753,
       "in_avail_nidin_league": 0
     }
   ]

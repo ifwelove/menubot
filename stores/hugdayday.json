@@ -5,14 +5,11 @@
     "name": "Hugdayday 好爹爹烈奶茶"
   },
   "crawl_info": {
-    "crawl_time": "2025-08-13T11:15:30.625155",
-    "total_pages": 0,
+    "crawl_time": "2025-08-14T09:54:25.660882",
+    "total_regions_searched": 371,
+    "regions_with_stores": 104,
     "total_stores": 1,
-    "location": {
-      "longitude": 121.53802593358863,
-      "latitude": 25.052828996845143,
-      "description": "台北车站附近"
-    }
+    "coverage": "全台所有县市区域"
   },
   "stores": [
     {
@@ -46,8 +43,8 @@
       "is_favorite": 0,
       "start_time": "10:15:00",
       "end_time": "20:45:00",
-      "is_preparing": 0,
-      "is_open": 1,
+      "is_preparing": 1,
+      "is_open": 0,
       "is_close": 0,
       "is_off_day": 0,
       "order_start_time": "10:15:00",
@@ -109,7 +106,7 @@
         }
       ],
       "store_allow_order": 1,
-      "distance": 1655,
+      "distance": 14090,
       "in_avail_nidin_league": 0
     }
   ]
