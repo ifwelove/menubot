@@ -408,6 +408,62 @@ Route::get('/test-carousel-shops', function () {
 });
 
 // 測試 displayNearbyShops 的 Flex Message 建構
+// 測試隨機附近店家功能
+Route::get('/test-random-nearby', function () {
+    $controller = app(LineBotController::class);
+    
+    // 測試座標（台北市中山區）
+    $testLat = 25.052810405584;
+    $testLng = 121.53793227898;
+    
+    try {
+        // 使用反射來呼叫私有方法
+        $reflection = new ReflectionClass($controller);
+        
+        // 取得 searchNearbyShopsData 方法
+        $searchMethod = $reflection->getMethod('searchNearbyShopsData');
+        $searchMethod->setAccessible(true);
+        
+        $startTime = microtime(true);
+        
+        // 搜尋 1km 內的店家
+        $nearbyShops = $searchMethod->invoke($controller, $testLat, $testLng, 1.0);
+        
+        $endTime = microtime(true);
+        $executionTime = round($endTime - $startTime, 2);
+        
+        // 如果有店家，隨機選一家
+        $selectedShop = null;
+        if (!empty($nearbyShops)) {
+            $randomIndex = array_rand($nearbyShops);
+            $selectedShop = $nearbyShops[$randomIndex];
+        }
+        
+        return response()->json([
+            'status' => 'success',
+            'test_location' => [
+                'lat' => $testLat,
+                'lng' => $testLng,
+                'search_radius' => '1.0 km'
+            ],
+            'execution_time' => $executionTime . ' seconds',
+            'memory_peak' => round(memory_get_peak_usage() / 1024 / 1024, 2) . ' MB',
+            'total_nearby_shops' => count($nearbyShops),
+            'randomly_selected' => $selectedShop,
+            'all_nearby_shops' => array_slice($nearbyShops, 0, 10) // 顯示前10家
+        ]);
+        
+    } catch (\Exception $e) {
+        return response()->json([
+            'status' => 'error',
+            'message' => $e->getMessage(),
+            'file' => $e->getFile(),
+            'line' => $e->getLine(),
+            'trace' => array_slice(explode("\n", $e->getTraceAsString()), 0, 10)
+        ], 500);
+    }
+});
+
 Route::get('/test-display-shops', function () {
     // 模擬 5 家店的資料（使用字串格式的距離）
     $shops = [

@@ -1129,67 +1129,76 @@ class LineBotController extends Controller
     }
 
     /**
+     * 搜尋附近店家資料（共用邏輯）
+     * @return array
+     */
+    private function searchNearbyShopsData($userLat, $userLng, $searchDistance)
+    {
+        $nearbyShops = [];
+        
+        try {
+            $nidinData = $this->shopSearchService->getNidinShops();
+            $brands = config('menu.shops.drink');
+            $brandCount = count($brands);
+            
+            $this->sendToTelegram("📍 開始搜尋 {$searchDistance} 公里內的店家，共有 {$brandCount} 個品牌");
+            
+            foreach ($nidinData as $shopCode => $stores) {
+                $shopName = config("menu.shops.drink.{$shopCode}");
+                if (!$shopName) {
+                    continue;
+                }
+                
+                try {
+                    foreach ($stores as $store) {
+                        if (empty($store['latitude']) || empty($store['longitude'])) {
+                            continue;
+                        }
+                        
+                        $distance = $this->calculateDistance(
+                            $userLat, $userLng, 
+                            (float)$store['latitude'], 
+                            (float)$store['longitude']
+                        );
+                        
+                        if ($distance <= $searchDistance) {
+                            $nearbyShops[] = [
+                                'shop_code' => $shopCode,
+                                'shop_name' => $shopName,
+                                'branch_name' => $store['name'] ?? $store['name_short'] ?? '分店',
+                                'address' => $store['address'] ?? '',
+                                'tel' => $store['tel'] ?? '',
+                                'distance' => round($distance, 2),
+                            ];
+                        }
+                    }
+                } catch (\Exception $e) {
+                    $this->sendToTelegram("❌ 讀取 {$shopCode} 資料錯誤: " . $e->getMessage());
+                    continue;
+                }
+            }
+            
+            $this->sendToTelegram("📍 找到 " . count($nearbyShops) . " 家附近的店");
+            
+            // 按距離排序
+            usort($nearbyShops, function($a, $b) {
+                return $a['distance'] <=> $b['distance'];
+            });
+            
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ 搜尋店家時發生錯誤: " . $e->getMessage());
+        }
+        
+        return $nearbyShops;
+    }
+    
+    /**
      * 尋找附近的飲料店
      */
     private function findNearbyShops($replyToken, $userLat, $userLng, $searchDistance = 2.0)
     {
-        $storesPath = base_path('stores');
-        $shops = config('menu.shops.drink', []);
-        $nearbyShops = [];
-        
-        $this->sendToTelegram("📍 開始搜尋 {$searchDistance} 公里內的店家，共有 " . count($shops) . " 個品牌");
-        
-        // 遍歷所有品牌的 JSON 檔案
-        foreach ($shops as $shopCode => $shopName) {
-            $jsonFile = "{$storesPath}/{$shopCode}.json";
-            
-            if (!file_exists($jsonFile)) {
-                continue;
-            }
-            
-            try {
-                $data = json_decode(file_get_contents($jsonFile), true);
-                
-                if (!isset($data['stores']) || !is_array($data['stores'])) {
-                    continue;
-                }
-                
-                // 檢查每個分店
-                foreach ($data['stores'] as $store) {
-                    // 確保座標資料存在
-                    if (!isset($store['latitude']) || !isset($store['longitude'])) {
-                        continue;
-                    }
-                    
-                    $distance = $this->calculateDistance(
-                        $userLat, $userLng, 
-                        (float)$store['latitude'], 
-                        (float)$store['longitude']
-                    );
-                    
-                    if ($distance <= $searchDistance) { // 在搜尋距離內
-                        $nearbyShops[] = [
-                            'shop_code' => $shopCode,
-                            'shop_name' => $shopName,
-                            'branch_name' => $store['name'] ?? $store['name_short'] ?? '分店',
-                            'address' => $store['address'] ?? '',
-                            'tel' => $store['tel'] ?? '',
-                            'distance' => round($distance, 2), // 確保是數值，方便後續處理
-                        ];
-                    }
-                }
-            } catch (\Exception $e) {
-                $this->sendToTelegram("❌ 讀取 {$shopCode} 資料錯誤: " . $e->getMessage());
-                continue;
-            }
-        }
-        
-        $this->sendToTelegram("📍 找到 " . count($nearbyShops) . " 家附近的店");
-        
-        // 按距離排序
-        usort($nearbyShops, function($a, $b) {
-            return $a['distance'] <=> $b['distance'];
-        });
+        // 使用共用邏輯搜尋附近店家
+        $nearbyShops = $this->searchNearbyShopsData($userLat, $userLng, $searchDistance);
         
         // 顯示結果，傳遞搜尋距離
         $this->displayNearbyShops($replyToken, $nearbyShops, $searchDistance);
@@ -1244,38 +1253,8 @@ class LineBotController extends Controller
         
         $this->sendToTelegram("📍 開始搜尋附近 {$searchDistance}km 內的隨機店家");
         
-        // 找出附近的店家
-        $nearbyShops = [];
-        $nidinData = $this->shopSearchService->getNidinShops();
-        
-        foreach ($nidinData as $shopCode => $stores) {
-            $shopName = config("menu.shops.drink.{$shopCode}");
-            if (!$shopName) {
-                continue;
-            }
-            
-            foreach ($stores as $store) {
-                if (empty($store['latitude']) || empty($store['longitude'])) {
-                    continue;
-                }
-                
-                $distance = $this->calculateDistance(
-                    $userLat, $userLng, 
-                    (float)$store['latitude'], 
-                    (float)$store['longitude']
-                );
-                
-                if ($distance <= $searchDistance) {
-                    $nearbyShops[] = [
-                        'shop_code' => $shopCode,
-                        'shop_name' => $shopName,
-                        'branch_name' => $store['name'] ?? $store['name_short'] ?? '分店',
-                        'address' => $store['address'] ?? '',
-                        'distance' => round($distance, 2),
-                    ];
-                }
-            }
-        }
+        // 使用共用邏輯搜尋附近店家
+        $nearbyShops = $this->searchNearbyShopsData($userLat, $userLng, $searchDistance);
         
         $this->sendToTelegram("📍 找到 " . count($nearbyShops) . " 家附近的店");
         
