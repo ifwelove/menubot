@@ -124,4 +124,76 @@ class ShopSearchService
             '85度C', '萬波', '貢茶', '大苑子', '歇腳亭'
         ];
     }
+    
+    /**
+     * 取得 Nidin 平台的店家資料
+     * 
+     * @return array 店家資料陣列，key 為品牌代碼，value 為該品牌的所有分店資料
+     */
+    public function getNidinShops()
+    {
+        // 使用快取來提升效能
+        $cacheKey = 'nidin_shops_data';
+        $cacheDuration = 3600; // 快取 1 小時
+        
+        // 嘗試從快取取得
+        $cachedData = \Cache::get($cacheKey);
+        if ($cachedData !== null) {
+            return $cachedData;
+        }
+        
+        $nidinData = [];
+        $storesPath = base_path('stores');
+        
+        // 檢查 stores 目錄是否存在
+        if (!is_dir($storesPath)) {
+            \Log::warning('Stores directory not found: ' . $storesPath);
+            return $nidinData;
+        }
+        
+        // 取得所有 JSON 檔案
+        $files = glob($storesPath . '/*.json');
+        
+        foreach ($files as $file) {
+            $shopCode = basename($file, '.json');
+            
+            // 跳過索引檔案
+            if ($shopCode === '_index') {
+                continue;
+            }
+            
+            try {
+                $content = file_get_contents($file);
+                $data = json_decode($content, true);
+                
+                // 檢查 JSON 解析是否成功
+                if (json_last_error() !== JSON_ERROR_NONE) {
+                    throw new \Exception('JSON decode error: ' . json_last_error_msg());
+                }
+                
+                // 確認資料結構包含 stores 陣列
+                if (isset($data['stores']) && is_array($data['stores'])) {
+                    $nidinData[$shopCode] = $data['stores'];
+                } else {
+                    \Log::warning("Invalid store data structure for {$shopCode}");
+                }
+                
+            } catch (\Exception $e) {
+                \Log::error("Failed to load store data for {$shopCode}", [
+                    'file' => $file,
+                    'error' => $e->getMessage()
+                ]);
+            }
+        }
+        
+        // 儲存到快取
+        \Cache::put($cacheKey, $nidinData, $cacheDuration);
+        
+        \Log::info('Loaded Nidin shops data', [
+            'total_brands' => count($nidinData),
+            'total_stores' => array_sum(array_map('count', $nidinData))
+        ]);
+        
+        return $nidinData;
+    }
 }
