@@ -1458,8 +1458,26 @@ class LineBotController extends Controller
                 $imageUrl = null;
                 if (!empty($shop['shop_code'])) {
                     $shopConfig = $this->menuService->getMenuByBrandCode($shop['shop_code']);
-                    if ($shopConfig && isset($shopConfig['image_url'])) {
-                        $imageUrl = $shopConfig['image_url'];
+                    if ($shopConfig && isset($shopConfig['image_url']) && !empty($shopConfig['image_url'])) {
+                        // 驗證是否為有效的 HTTPS URL
+                        $url = $shopConfig['image_url'];
+                        if (filter_var($url, FILTER_VALIDATE_URL) && 
+                            substr($url, 0, 8) === 'https://' && 
+                            $url !== 'None') {
+                            $imageUrl = $url;
+                        }
+                    }
+                }
+                
+                // 如果沒有有效的圖片 URL，使用預設圖片
+                if (empty($imageUrl)) {
+                    // 使用預設的飲料店圖片
+                    // CarouselColumnTemplateBuilder 需要有效的 HTTPS URL
+                    $imageUrl = url('/images/menus/drink.jpeg');
+                    
+                    // 確保是 HTTPS
+                    if (substr($imageUrl, 0, 7) === 'http://') {
+                        $imageUrl = 'https://' . substr($imageUrl, 7);
                     }
                 }
                 
