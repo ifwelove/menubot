@@ -1,0 +1,429 @@
+{
+  "store_id": 17867,
+  "store_name": "竹北店",
+  "brand_code": "chosentea",
+  "brand_name": "丘森茶室",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "熱銷",
+      "items": [
+        {
+          "name": "鳳梨青茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜂蜜青茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜂蜜紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜂蜜烏龍茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "璞玉杏仁青",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "璞玉杏仁紅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "璞玉杏仁烏",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "鳳梨杏仁凍飲",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜂蜜檸檬",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "黑曜冬瓜",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "黑曜鮮奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "冬瓜鮮奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "仙草凍奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "梅子青茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "嚴選鮮奶茶",
+      "items": [
+        {
+          "name": "馥郁四季鮮奶青",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "琥珀烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "莊園特調鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "陽光蕎麥鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "純粹好滋味",
+      "items": [
+        {
+          "name": "四季青茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "琥珀烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "莊園紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "陽光蕎麥",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "丘森厚奶茶",
+      "items": [
+        {
+          "name": "丘森奶青",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "丘森烏龍奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "丘森莊園奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "山嵐果語",
+      "items": [
+        {
+          "name": "沁涼青檸柚",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蘋果莊園紅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "柚香覺醒青",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "柚香覺醒紅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "招牌特調",
+      "items": [
+        {
+          "name": "重乳白玉璽",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "堅果鮮奶綠",
+          "description": null,
+          "price_cold": 89,
+          "price_hot": 89
+        },
+        {
+          "name": "丘森珍鮮Q(M)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "特級堅果飲(M)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "丘森杏仁凍(M)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "天選奶蓋",
+      "items": [
+        {
+          "name": "奶蓋四季青",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "奶蓋馥郁烏",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "奶蓋莊園紅",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "奶蓋蕎麥茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "選口感",
+      "items": [
+        {
+          "name": "金Q莊園紅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "金Q莊園奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "莊園波霸奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "粉粿奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "璞韻杏仁",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "璞韻杏仁冬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "璞韻杏仁鮮奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "鐵韻梅香",
+      "items": [
+        {
+          "name": "梅香莊園紅",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "梅香四季青",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "梅香烏龍茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "青嶺冬瓜",
+      "items": [
+        {
+          "name": "丘森冬瓜",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "冬露莊園紅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬露四季青",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬露烏龍茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬露蕎麥茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "山丘檸語",
+      "items": [
+        {
+          "name": "丘森檸檬紅",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "丘森檸檬青",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "丘森檸檬烏",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "丘森檸檬冬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "袋子",
+      "items": [
+        {
+          "name": "保冷袋",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "1—4杯",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "5—6杯",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

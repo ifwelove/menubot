@@ -1,0 +1,331 @@
+{
+  "store_id": 17603,
+  "store_name": "南崁店",
+  "brand_code": "fullmoontea",
+  "brand_name": "滿月茶作",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "初茶鮮原味(660ml)",
+      "items": [
+        {
+          "name": "滿月綠樹",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "滿月紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "滿月青茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "桂花烏龍（有茶包）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "玫瑰烏龍（有茶包）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "蕎麥綠茶（有茶包）",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "美顏養身",
+      "items": [
+        {
+          "name": "黑糖薑母茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "健康多更多",
+      "items": [
+        {
+          "name": "養樂多綠茶（含寒天）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "百香多多（內寒天）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "柳橙多多",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芭樂檸檬多多",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "醇奶區(鮮奶)",
+      "items": [
+        {
+          "name": "大理石黑糖珍珠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雪之芋露",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "小熊唯你",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "仙草凍鮮奶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "抱爆珠鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "抱爆珠蘋果鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "椰奶西米摟",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "冰沙區",
+      "items": [
+        {
+          "name": "綠樹臨風(小脆冰)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "莓事就健康",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "花果手作區",
+      "items": [
+        {
+          "name": "甘蔗青茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬瓜青",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "滿月脆梅綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冰淇淋紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蘋果紅茶(推薦)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "緋紅不可抱爆",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "黃橙枊綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "仙草干茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "拿鐵區(鮮奶)",
+      "items": [
+        {
+          "name": "紅茶拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蕎麥綠拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "茶王拿鐵（有茶包）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑糖鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "一抹珍情",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "玫瑰烏龍拿鐵（有茶包）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "京時宇治",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "白雪紅蘋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "貴妃香拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "兒時記憶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "奇幻黑森林",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "蜜桃烏龍拿鐵（有茶包）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖珍珠抹茶鮮奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "草莓季(季節限定)",
+      "items": [
+        {
+          "name": "草莓多多(季節限定)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "草莓雪山(季節限定)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "草莓波波(季節限定)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "草莓抹茶牛奶(季節限定)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "綠野仙蹤",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    }
+  ]
+}

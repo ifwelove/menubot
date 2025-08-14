@@ -1,0 +1,1725 @@
+{
+  "store_id": 13014,
+  "store_name": "泰山明志店",
+  "brand_code": "milubrand",
+  "brand_name": "Milu義調柴飲料/早午餐店",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "自由配 99",
+      "items": [
+        {
+          "name": "A區+B區",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99
+        }
+      ]
+    },
+    {
+      "category": "單茶",
+      "items": [
+        {
+          "name": "阿薩姆紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572656_h6pBLQmY.jpg"
+        },
+        {
+          "name": "熟韻紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "泰式手標紅",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "茉香綠茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "金萱青茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "柴燒烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "烏龍綠茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "金萱烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "不喝茶",
+      "items": [
+        {
+          "name": "冬瓜茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "西瓜汁（限冷飲）",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜜茶（限冷飲）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "蜂蜜檸檬（限冷飲）",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "可可",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "檸檬汁（限冷飲）",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜蘆薈（限冷飲）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "多多檸檬（限冷飲）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "柳橙檸檬C（限冷飲）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "水蜜桃多多（限冷飲）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "百香檸檬（限冷飲）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "百香多多（限冷飲）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "金桔檸檬（限冷飲）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芒果多多（限冷飲）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "氣泡飲",
+      "items": [
+        {
+          "name": "柚子氣泡飲(固定冰度)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "藍天氣泡飲(固定冰度)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "珊瑚海氣泡飲(固定冰度)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蔓越莓氣泡飲(固定冰度)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "萄氣氣泡飲(固定冰度)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "多多氣泡飲(固定冰度)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "莓好氣泡飲(固定冰度)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "檸檬多多氣泡飲(固定冰度)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "果茶",
+      "items": [
+        {
+          "name": "水果茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "柳橙果綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "葡萄柚粒粒",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "柚子冰茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "荔莓冰茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "鳳梨冰茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "楊桃凍飲",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芒果青檸凍飲",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "冰淇淋",
+      "items": [
+        {
+          "name": "芒果冰淇淋青",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "冰淇淋紅/綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰淇淋奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "冰淇淋咖啡",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "香草冰淇淋鮮奶",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        }
+      ]
+    },
+    {
+      "category": "奶茶",
+      "items": [
+        {
+          "name": "阿薩姆奶茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "熟韻奶茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "茉香奶綠",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "金萱奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "烏龍奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "薑母奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬瓜奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "可可奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "草莓奶綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芋泥奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "泰式奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "奶蓋",
+      "items": [
+        {
+          "name": "奶蓋紅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "奶蓋韻紅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "奶蓋綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "奶蓋青",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "奶蓋烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冬瓜奶蓋",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "抹茶奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "泰奶奶蓋",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶",
+      "items": [
+        {
+          "name": "阿薩姆鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "熟韻鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "綠茶鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "金萱鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "純鮮奶",
+      "items": [
+        {
+          "name": "冬瓜鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "可可歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "抹茶歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "芋頭純鮮奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "草莓歐蕾/奶蓋（限冷飲）",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "特調",
+      "items": [
+        {
+          "name": "紅梅紅/綠（限冷飲.L）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "蜂蜜紅/綠（限冷飲.L）",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "百香紅/綠（限冷飲.L）",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "檸檬紅/綠(L)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬瓜青(L)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蜜桃烏龍（限冷飲.L）",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "多多綠（限冷飲.L）",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "泰式檸檬紅(L)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "百香多多綠（限冷飲.L）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "口感飲品",
+      "items": [
+        {
+          "name": "QQ青(L)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冰圓仙奶(L、固定甜度)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "百香QQ紅/綠（限冷飲.L）",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "奶綠QQ",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "珍珠鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑糖珍珠鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑糖珍珠鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "椰果奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "椰果鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "統一布丁奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "統一布丁鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖布丁鮮奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "三兄弟奶茶（限冷飲.L）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "仙草凍蜜茶（限冷飲.L）",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "仙草凍奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "黑糖仙草奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "奶綠芋圓",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雙芋奶茶(L)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "Oreo奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "盆栽奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "咖啡磚奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "冰沙",
+      "items": [
+        {
+          "name": "百香冰沙",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬瓜檸檬冰沙",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "檸檬冰沙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "多多冰沙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "葡萄冰沙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "芒果冰沙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鳳檸冰沙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "檸檬多多冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "奶蓋葡萄冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "奶蓋芒果冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "綠豆沙",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "綠豆沙牛奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "綠豆沙奶蓋",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "番茄梅蜜",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "可可冰沙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "可可OREO冰沙",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        }
+      ]
+    },
+    {
+      "category": "Coffee(咖啡因含量均為201毫克（ml）以上)",
+      "items": [
+        {
+          "name": "美式咖啡",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "招牌咖啡",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "拿鐵咖啡",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_655726c3_GEgfAk0h.jpg"
+        },
+        {
+          "name": "香草／榛果／焦糖拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "蜂蜜檸檬咖啡（限冷飲）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖奶蓋拿鐵（限冷飲）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "奶蓋厚乳拿鐵（限冷飲）",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        }
+      ]
+    },
+    {
+      "category": "台農牛乳",
+      "items": [
+        {
+          "name": "果汁牛乳",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        }
+      ]
+    },
+    {
+      "category": "豆漿",
+      "items": [
+        {
+          "name": "豆漿",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "紅茶豆漿",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        }
+      ]
+    },
+    {
+      "category": "湯/粥",
+      "items": [
+        {
+          "name": "蛋花湯",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "海帶芽蛋花湯",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "雞蓉玉米粥",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "蛋餅(皆無菜)",
+      "items": [
+        {
+          "name": "原味蛋餅",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_655721fb_nMSEhJ1t.jpg"
+        },
+        {
+          "name": "菲力雞排蛋餅",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "德式香腸酥皮蛋餅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "玉米蛋餅",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "起司蛋餅",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "肉鬆蛋餅",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_6557226a_H2KrAhWU.jpg"
+        },
+        {
+          "name": "九層塔蛋餅",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "熱狗蛋餅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "燻雞蛋餅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "火腿蛋餅",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "培根蛋餅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "鮪魚玉米蛋餅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "薯餅起司蛋餅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "里肌豬排蛋餅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "卡拉雞蛋餅",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "牛肉起司蛋餅",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "抓餅(皆無菜)",
+      "items": [
+        {
+          "name": "原味蛋抓餅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572232_AWEiVRsx.jpg"
+        },
+        {
+          "name": "玉米蛋抓餅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "起司蛋抓餅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "肉鬆蛋抓餅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "九層塔蛋抓餅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "熱狗蛋抓餅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "燻雞蛋抓餅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "火腿蛋抓餅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "培根蛋抓餅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鮪魚玉米蛋抓餅",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "薯餅起司蛋抓餅",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "里肌豬排蛋抓餅",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "卡拉蛋抓餅",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "菲力雞排蛋抓餅",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "牛肉起司蛋抓餅",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "德式香腸蛋抓餅",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "烤醬吐司",
+      "items": [
+        {
+          "name": "吐司",
+          "description": null,
+          "price_cold": 20,
+          "price_hot": 20
+        },
+        {
+          "name": "熱壓",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25
+        },
+        {
+          "name": "厚片",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        }
+      ]
+    },
+    {
+      "category": "炸物",
+      "items": [
+        {
+          "name": "熱狗",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572365_TGcQlAbF.jpg"
+        },
+        {
+          "name": "薯餅",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25
+        },
+        {
+          "name": "炸蘿蔔糕",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_655723e5_ES8pJ2o3.jpg"
+        },
+        {
+          "name": "炸湯圓",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572478_8s4Vt1uK.jpg"
+        },
+        {
+          "name": "美國脆薯",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_6557242e_JK6S5Bxb.jpg"
+        },
+        {
+          "name": "雞塊",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572454_0IWEinea.jpg"
+        },
+        {
+          "name": "雙色QQ球",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572497_o54RkGCQ.jpg"
+        },
+        {
+          "name": "骰子雞球",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_655724c8_a6OlEzmX.jpg"
+        },
+        {
+          "name": "卡拉雞",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "小肉豆",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_6557238b_YIZyEj40.jpg"
+        },
+        {
+          "name": "德式香腸",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_655723b4_6QWNgAKG.jpg"
+        },
+        {
+          "name": "起司條",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "無骨雞排",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_655724f5_LTorQn5c.jpg"
+        },
+        {
+          "name": "薯條",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572403_KXxZqMat.jpg"
+        },
+        {
+          "name": "甜不辣",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "薯球",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572515_Wd9ciEzN.jpg"
+        },
+        {
+          "name": "洋蔥圈",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "菲力雞排",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "花生煉乳湯圓",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "炸餃",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "椒麻雞塊",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "烤吐司/漢堡 (皆含蛋)",
+      "items": [
+        {
+          "name": "煎蛋吐司",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "九層塔蛋吐司",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "起司蛋吐司",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "肉鬆蛋吐司",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "火腿蛋吐司",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "香雞蛋吐司",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "燻雞蛋吐司",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "培根蛋吐司",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "鮪魚玉米蛋吐司",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "滿福蛋吐司",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "肉鬆花生蛋吐司",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "薯餅起司蛋吐司",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "里肌豬排蛋吐司",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "花生里肌豬排蛋吐司",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "肉鬆里肌豬排蛋吐司",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_655721c6_aw2Z5Jht.jpg"
+        },
+        {
+          "name": "卡拉蛋吐司",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572162_LUznJ0Kq.jpg"
+        },
+        {
+          "name": "花生牛肉起司吐司",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "牛肉起司蛋吐司",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "西西里腿排蛋吐司",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "漢堡",
+      "items": [
+        {
+          "name": "起司蛋漢堡",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "火腿蛋漢堡",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "培根蛋漢堡",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "香雞蛋漢堡",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "滿福蛋漢堡",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "薯餅起司蛋漢堡",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "里肌豬排蛋漢堡",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "奶油里肌豬排蛋漢堡",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "菲力雞排蛋漢堡",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "卡拉蛋漢堡",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "花生牛肉起司漢堡",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "牛肉起司蛋漢堡",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "雙層牛肉培根起司漢堡",
+          "description": null,
+          "price_cold": 140,
+          "price_hot": 140
+        },
+        {
+          "name": "韓式腿排漢堡",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "起司鱈魚漢堡",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "鹹の熱壓",
+      "items": [
+        {
+          "name": "巧巧棉花糖",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "雙火腿起司",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "熱壓鮪魚玉米",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "梅花燒肉",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "花生培根起司",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "鐵板麵",
+      "items": [
+        {
+          "name": "蘑菇鐵板麵",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "黑胡椒鐵板麵",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "番茄雞鐵板麵",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "宮保雞鐵板麵",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "咖哩豬鐵板麵",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "打拋豬鐵板麵",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "沙茶牛鐵板麵",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "三明治",
+      "items": [
+        {
+          "name": "果醬三明治",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "起司三明治",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "火腿蛋三明治",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "肉鬆蛋三明治",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "滿福蛋三明治",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "卡拉蛋三明治",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "麵食",
+      "items": [
+        {
+          "name": "拌拌維力炸醬麵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "單點",
+      "items": [
+        {
+          "name": "荷包蛋",
+          "description": null,
+          "price_cold": 15,
+          "price_hot": 15
+        },
+        {
+          "name": "九層塔蛋",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "奶油餐包(2顆)",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "蔥仔餡餅(5顆)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "冰心地瓜(2顆)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "起司牛肉捲",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "套餐(均附35元飲料，超過補差額)",
+      "items": [
+        {
+          "name": "抓QQ套餐",
+          "description": null,
+          "price_cold": 115,
+          "price_hot": 115,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_655722d6_FzsLWm4x.jpg"
+        },
+        {
+          "name": "糕餅套餐",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_655722f3_XEcJgfmN.jpg"
+        },
+        {
+          "name": "卡薯套餐",
+          "description": null,
+          "price_cold": 140,
+          "price_hot": 140,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572317_Dgn2Pc8b.jpg"
+        },
+        {
+          "name": "炸塔套餐",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1383/b1383_65572337_I4DLoRfQ.jpg"
+        },
+        {
+          "name": "小朋友套餐",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "不知名套餐",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "漢堡套餐",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "鐵板麵套餐",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        }
+      ]
+    }
+  ]
+}

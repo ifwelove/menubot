@@ -1,0 +1,318 @@
+{
+  "store_id": 9322,
+  "store_name": "台北西湖店",
+  "brand_code": "chingyatea",
+  "brand_name": "青芽摘",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "醇茶系列",
+      "items": [
+        {
+          "name": "紳士烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746b0e_jv02zTxb.jpg"
+        },
+        {
+          "name": "青芽茶王",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746ab0_deANvmOC.jpg"
+        },
+        {
+          "name": "東方美人",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746a75_j1d2iUvB.jpg"
+        },
+        {
+          "name": "頂韻烏龍",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746a55_WQ4TcZVp.jpg"
+        },
+        {
+          "name": "玉露青茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_687469bd_1lGx8NyT.jpg"
+        }
+      ]
+    },
+    {
+      "category": "厚奶茶系列",
+      "items": [
+        {
+          "name": "紳士烏龍厚奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746d83_qlInYLEg.jpg"
+        },
+        {
+          "name": "青芽茶王厚奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746d67_OEZL5YKq.jpg"
+        },
+        {
+          "name": "東方美人厚奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746d56_RUaQMB8V.jpg"
+        },
+        {
+          "name": "頂韻烏龍厚奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746d42_8CiVsty0.jpg"
+        },
+        {
+          "name": "玉露青茶厚奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746d2f_Q6LS1k5F.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鮮果調系列",
+      "items": [
+        {
+          "name": "梅子青茶（僅提供冷飲）",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746d0b_nDxV5Nz7.jpg"
+        },
+        {
+          "name": "香檸烏龍（僅提供冷飲）",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746cf8_WdTpIMFQ.jpg"
+        },
+        {
+          "name": "雙柚茶王（僅提供冷飲）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746ce0_6hqRaoBM.jpg"
+        },
+        {
+          "name": "橙香青茶（僅提供冷飲）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746cc6_BPoeAW19.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鮮乳系列",
+      "items": [
+        {
+          "name": "青芽茶王鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746ca7_IsQFrbx1.jpg"
+        },
+        {
+          "name": "紳士烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746c7b_hGoB5M4H.jpg"
+        },
+        {
+          "name": "東方美人鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746c5c_cqojtnur.jpg"
+        },
+        {
+          "name": "頂韻烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746c43_KYBEbg8r.jpg"
+        },
+        {
+          "name": "玉露青茶鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746c21_7fB32Y6P.jpg"
+        }
+      ]
+    },
+    {
+      "category": "開心果奶蓋系列",
+      "items": [
+        {
+          "name": "紳士烏龍開心果奶蓋（僅提供冷飲）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746c04_7ignASzl.jpg"
+        },
+        {
+          "name": "青芽茶王開心果奶蓋（僅提供冷飲）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746be6_moFb6EIC.jpg"
+        },
+        {
+          "name": "東方美人開心果奶蓋（僅提供冷飲）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746bca_tmY5n6ca.jpg"
+        },
+        {
+          "name": "頂韻烏龍開心果奶蓋（僅提供冷飲）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746ba7_NjDgn8Vl.jpg"
+        },
+        {
+          "name": "玉露青茶開心果奶蓋（僅提供冷飲）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/961/b961_68746b87_27FJIEbr.jpg"
+        }
+      ]
+    },
+    {
+      "category": "其他",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    },
+    {
+      "category": "（溫/熱飲）醇茶系列M",
+      "items": [
+        {
+          "name": "紳士烏龍M",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "青芽茶王M",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "東方美人M",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "頂韻烏龍M",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "玉露青茶M",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        }
+      ]
+    },
+    {
+      "category": "（溫/熱飲）厚奶茶系列M",
+      "items": [
+        {
+          "name": "紳士烏龍厚奶茶M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "青芽茶王厚奶茶M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "東方美人厚奶茶M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "頂韻烏龍厚奶茶M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "玉露青茶厚奶茶M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "（溫/熱飲）鮮乳系列M",
+      "items": [
+        {
+          "name": "青芽茶王鮮奶茶M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "紳士烏龍鮮奶茶M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "東方美人鮮奶茶M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "頂韻烏龍鮮奶茶M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "玉露青茶鮮奶茶M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "store_id": 18091,
+  "store_name": "新莊總店",
+  "brand_code": "bamincha",
+  "brand_name": "八茗茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "晶莓物語",
+      "items": [
+        {
+          "name": "冰淇淋可可",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "莓果乳酸冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "奶霜寒天莓果",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "莓果鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "莓果三Q",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "莓果奶霜冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "莓果寒天紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "茗茶香 Fresh Tea",
+      "items": [
+        {
+          "name": "四季春青茶",
+          "description": "清爽茶香不苦澀，入喉甘甜，解渴順口",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "三窨茉香綠",
+          "description": "茉莉花三薰入茶，花香及茶味十足",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "錫蘭紅茶",
+          "description": "錫蘭紅茶獨特的濃郁香氣，茶味濃厚",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "炭焙烏龍",
+          "description": "重焙烏龍帶有獨特的醇厚香氣，茶味濃厚",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "手煮冬瓜茶",
+          "description": "採用手工冬瓜磚熬煮，天然的清涼好滋味",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬瓜尬青茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "嚼感系",
+      "items": [
+        {
+          "name": "百香雙Q",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "葡萄百香雙Q",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜂蜜檸檬寒天愛玉",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "四季雙Q",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "四季仙椰",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "芒果三Q",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "蜂蜜鮮果系",
+      "items": [
+        {
+          "name": "蜂蜜鮮百香青",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜鮮橙綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "茗奶霜 Fresh Milk Foam",
+      "items": [
+        {
+          "name": "奶霜錫蘭紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶霜茉香綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶霜四季青茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶霜炭焙烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶霜手煮冬瓜",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶霜OREO紅茶",
+          "description": "內含珍珠，奶蓋上撒OREO餅乾碎，口感豐富濃郁!",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "奶霜OREO綠茶",
+          "description": "內含珍珠，奶蓋上撒OREO餅乾碎，口感豐富濃郁!",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "奶霜OREO青茶",
+          "description": "內含珍珠，奶蓋上撒OREO餅乾碎，口感豐富濃郁!",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "奶霜OREO烏龍",
+          "description": "內含珍珠，奶蓋上撒OREO餅乾碎，口感豐富濃郁!",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "奶霜巧克力",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "奶霜芋香奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "茗果香 Fresh Fruit",
+      "items": [
+        {
+          "name": "檸檬紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "檸檬綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蜂蜜紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜂蜜綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜂蜜青茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜂蜜烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "葡萄冰茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "金鑽鳳梨冰茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "芒果冰茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜜桃冰茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "金桔梅子綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "綠茶多多",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜜柚紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜜柚綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜜柚青茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜜柚烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "茗奶香 Fresh Milk",
+      "items": [
+        {
+          "name": "八茗奶茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "八茗奶綠",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "八茗奶青",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "八茗奶烏",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "珍珠奶綠",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "珍珠奶青",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "珍珠奶烏",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蜂蜜奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜂蜜奶綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜂蜜奶青",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜂蜜奶烏",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "仙草凍奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "小芋圓奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "小芋圓奶綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "小芋圓奶青",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "小芋圓奶烏",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "紅茶鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "綠茶鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "青茶鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "珍珠紅鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "珍珠綠鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "珍珠青鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "珍珠烏鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜紅鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜綠鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜青鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜烏鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "黑糖紅鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑糖烏鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "小芋圓紅鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "小芋圓綠鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "小芋圓青鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "小芋圓烏鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "仙草凍鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰淇淋紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰淇淋奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖珍珠鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖布丁珍珠鮮奶茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "巧克力",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "巧克力拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "抹茶拿鐵",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "黑糖小芋圓鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "茗芋香 Taro",
+      "items": [
+        {
+          "name": "芋香奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芋香珍奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芋香小芋圓奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "芋香鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "芋香珍珠鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "芋香小芋圓鮮奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "無咖啡因 Decaf",
+      "items": [
+        {
+          "name": "檸檬冬瓜",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蜂蜜檸檬",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "金桔檸檬",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "百香多多",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芒果多多",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "檸檬多多",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜜桃多多",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜜柚檸檬",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "消暑冰沙 Smoothies",
+      "items": [
+        {
+          "name": "蜂蜜檸檬綠茶冰沙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "檸檬蜜桃綠茶冰沙",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "葡萄奶霜冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "芒果牛奶奶霜冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "OREO巧克力冰沙",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "OREO莓果冰沙",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "芒果乳酸冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蜜桃乳酸冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "暖心熱飲 Hot Drinks",
+      "items": [
+        {
+          "name": "桂圓紅棗",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "黑糖薑茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "黑糖薑汁奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "茗咖啡",
+      "items": [
+        {
+          "name": "美式咖啡",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "拿鐵咖啡",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "奶霜咖啡",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "store_id": 22161,
+  "store_name": "大安總店",
+  "brand_code": "momorelemon",
+  "brand_name": "慕慕檸",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "嚴選台灣好茶 | 推廣優惠價 (你訂限定)",
+      "items": [
+        {
+          "name": "五窨茉綠 M",
+          "description": "嚴選台灣南投頂級綠茶，經數次窨花工藝精心製成，讓茉莉花香與茶韻層層交融。無添加香精，還原自然純粹的滋味，茶湯甘醇回甘，花香馥郁高雅，展現台灣好茶的風采。",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "五窨茉綠 L",
+          "description": "嚴選台灣南投頂級綠茶，經數次窨花工藝精心製成，讓茉莉花香與茶韻層層交融。無添加香精，還原自然純粹的滋味，茶湯甘醇回甘，花香馥郁高雅，展現台灣好茶的風采。",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "玉峰雲青 M",
+          "description": "產地：台灣南投 | 山間茶氣回甘 | 嚴選台灣優質高峰茶區(高海拔約2,000公尺)，茶湯如山巔雲霧般清澈甘甜。特有的冷葒韻帶出茶氣的厚實飽滿，入口回甘層次豐富，彷彿置身高山之上泡茶，感受自然的純淨與茶香的深遠。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "玉峰雲青 L",
+          "description": "產地：台灣南投 | 山間茶氣回甘 | 嚴選台灣優質高峰茶區(高海拔約2,000公尺)，茶湯如山巔雲霧般清澈甘甜。特有的冷葒韻帶出茶氣的厚實飽滿，入口回甘層次豐富，彷彿置身高山之上泡茶，感受自然的純淨與茶香的深遠。",
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "熱銷蕎麥系列",
+      "items": [
+        {
+          "name": "慕慕煦光蕎麥茶 M熱飲",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "慕慕煦光蕎麥茶 L冷飲",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "慕慕煦光蕎麥茶 M冷飲",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "蕎麥厚乳 M中杯",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蕎麥厚乳 L大杯",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "冬季限定",
+      "items": [
+        {
+          "name": "薑薑甘蔗汁 M中杯",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        }
+      ]
+    },
+    {
+      "category": "健康能量飲",
+      "items": [
+        {
+          "name": "酪梨香蕉堅果牛奶 中杯M",
+          "description": null,
+          "price_cold": 125,
+          "price_hot": 125
+        },
+        {
+          "name": "纖活奇蹟 (羽衣甘藍奇異果) 700ML",
+          "description": "嚴選新鮮羽衣甘藍，搭配酸甜多汁的一顆奇異果、一顆蘋果、些許檸檬、微量蜂蜜，層次分明、清新爽口。特別融入茉莉花茶的淡雅香氣，帶來前所未有的清爽口感。不加糖也能品味天然甘甜，給你滿滿 維生素C、纖維與能量！",
+          "price_cold": 165,
+          "price_hot": 165
+        }
+      ]
+    },
+    {
+      "category": "草莓季限定 | 快樂莓煩惱",
+      "items": [
+        {
+          "name": "暴打草莓檸檬茉莉綠",
+          "description": "將新鮮檸檬與草莓重重“暴打”，釋放果香與酸甜，打造出層次豐富的滋味！搭配手工熬煮的莓果糖，融合多種莓果的天然香甜，無添加人工色素與香料，讓每一口都散發健康與自然的美味。清爽的檸檬酸勁與草莓的鮮甜完美平衡，再結合茶香的細膩口感，讓人一喝就停不下來。",
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "暴打草莓檸檬香",
+          "description": "將新鮮檸檬與草莓重重“暴打”，釋放果香與酸甜，打造出層次豐富的滋味！搭配手工熬煮的莓果糖，融合多種莓果的天然香甜，無添加人工色素與香料，讓每一口都散發健康與自然的美味。清爽的檸檬酸勁與草莓的鮮甜完美平衡，再結合茶香的細膩口感，讓人一喝就停不下來。",
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "濃情草莓鮮奶 M中杯",
+          "description": "一口喝下，彷彿置身草莓田，幸福感爆棚！嚴選頂級草莓，搭配100%純正台灣鮮乳與紐西蘭特濃牛乳，濃郁香滑，完美融合草莓的自然酸甜與牛奶的細膩口感。用愛手壓一整顆飽滿草莓，除了喝著濃郁的草莓牛奶還能吃到果肉!\r\n\r\n我們的甜味秘訣來自手工熬煮的莓果糖，以草莓、綜合莓果與砂糖細火慢熬，層層釋放天然果香，無添加人工香料與色素，健康又安心，呈現最純粹的甜美享受。",
+          "price_cold": 120,
+          "price_hot": 120
+        }
+      ]
+    },
+    {
+      "category": "暴打檸檬茶",
+      "items": [
+        {
+          "name": "暴打渣男檸檬茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "暴打渣女檸檬茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "暴打檸檬慕慕紅",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "暴打檸檬慕慕青",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "暴打檸檬慕慕香",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "熱檸蜂蜜 M中杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "熱檸桂花烏龍 M中杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "熱檸香 M中杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "熱檸茉莉綠 M中杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "熱檸紅 M中杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "暴打檸檬蜂蜜 M中杯",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "暴打檸檬蜂蜜 L大杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "古早味紅茶(便宜又好喝，還有珍珠可以吃))",
+      "items": [
+        {
+          "name": "黑糖珍珠厭世紅茶(700ML)",
+          "description": "這個價錢大杯700ML，還可以吃珍珠，價錢超級佛!\r\n喝了才會明白，喔!原來就是這杯紅茶。這款紅茶將我們從小到大熟悉的味道濃縮其中，完美融合阿薩姆紅茶的濃郁香氣與決明子的古早風味。每一口都像回到過去那份熟悉的純粹，充滿懷舊韻味，卻又獨具特色。",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "厭世紅茶(700ML)",
+          "description": "喝了才會明白，喔!原來就是這杯紅茶。這款紅茶將我們從小到大熟悉的味道濃縮其中，完美融合阿薩姆紅茶的濃郁香氣與決明子的古早風味。每一口都像回到過去那份熟悉的純粹，充滿懷舊韻味，卻又獨具特色。",
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "挺！小農鮮乳系列",
+      "items": [
+        {
+          "name": "花果精靈鮮乳茶 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "花果精靈鮮乳茶 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "三茶拉拉鮮乳茶 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "三茶拉拉鮮乳茶 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "甘蔗鮮奶 中杯M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "甘蔗鮮奶 大杯L",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "手作糖系列",
+      "items": [
+        {
+          "name": "手作鮮橙檸檬綠",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "手作洛神檸檬青",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "手作旺鳳檸檬青",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "手作野莓檸檬紅",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "手作旺鳳檸檬香",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        }
+      ]
+    }
+  ]
+}

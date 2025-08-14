@@ -1,0 +1,484 @@
+{
+  "store_id": 21849,
+  "store_name": "府中店",
+  "brand_code": "ningxia",
+  "brand_name": "檸夏",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "鮮芽綠茶",
+      "items": [
+        {
+          "name": "桂花綠茶 中杯",
+          "description": "吃的到很多特級桂花,嚴選6A等級的黃金桂花搭配冰糖手工熬煮,不添加任何香精香料.用台灣高山綠茶融合出頂級桂花的清香甘甜,真材實料的好味道.",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d504_Lt1SuQEa.jpg"
+        },
+        {
+          "name": "桂花綠茶 大杯",
+          "description": "吃的到很多特級桂花,嚴選6A等級的黃金桂花搭配冰糖手工熬煮,不添加任何香精香料.用台灣高山綠茶融合出頂級桂花的清香甘甜,真材實料的好味道.",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d538_FLXdByxD.jpg"
+        },
+        {
+          "name": "冬瓜綠茶 中杯",
+          "description": "純冬瓜提煉的冬瓜茶搭配純的台灣高山綠茶,只加冬瓜茶不另糖(甜度固定)",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d7af_QFW6ok7m.jpg"
+        },
+        {
+          "name": "冬瓜綠茶 大杯",
+          "description": "純冬瓜提煉的冬瓜茶搭配純的台灣高山綠茶,只加冬瓜茶不另糖(甜度固定)",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d7ca_lLId37YO.jpg"
+        },
+        {
+          "name": "鮮芽綠茶 M",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8cb9_RT0BhiJX.jpg"
+        },
+        {
+          "name": "鮮芽綠茶 L",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8cac_rx0hHL8F.jpg"
+        },
+        {
+          "name": "芭樂檸檬綠茶(L)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e893a_sRo18X9y.jpg"
+        },
+        {
+          "name": "古早味芭樂綠(L)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8946_FCX1uOc4.jpg"
+        },
+        {
+          "name": "薄荷芭樂檸檬",
+          "description": "大杯。新鮮薄荷加新鮮芭樂搭配南投鮮嫩綠茶現點現打,清涼濃郁的好味道!",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d36e_2SfzlRbe.jpg"
+        },
+        {
+          "name": "羽衣芭樂檸檬(L)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e891e_Y1qRtyoG.jpg"
+        },
+        {
+          "name": "粉粿奇異果綠茶(L)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e878c_hQMYFud6.jpg"
+        },
+        {
+          "name": "葡萄柚綠茶(L)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8928_xoJK4Be6.jpg"
+        },
+        {
+          "name": "檸檬綠茶 M",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8c96_lcTQJj3M.jpg"
+        },
+        {
+          "name": "檸檬綠茶 L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e899c_F4EPotIh.jpg"
+        },
+        {
+          "name": "百香果綠茶 M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e895f_sWQdm7T0.jpg"
+        },
+        {
+          "name": "百香果綠茶 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8954_GO7SZrwe.jpg"
+        },
+        {
+          "name": "綠茶多多(L)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8984_Ykw8PzlC.jpg"
+        },
+        {
+          "name": "鮮芽鮮奶綠 M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8978_BpnJQKw3.jpg"
+        },
+        {
+          "name": "鮮芽鮮奶綠 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8969_yz7URsA0.jpg"
+        }
+      ]
+    },
+    {
+      "category": "紅玉18號",
+      "items": [
+        {
+          "name": "桂花紅玉 中杯",
+          "description": "吃的到很多特級桂花,嚴選6A等級的黃金桂花搭配冰糖手工熬煮,不添加任何香精香料.用台灣紅玉(台茶18號)融合出頂級桂花的清香甘甜,真材實料的好味道.",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "桂花紅玉 大杯",
+          "description": "吃的到很多特級桂花,嚴選6A等級的黃金桂花搭配冰糖手工熬煮,不添加任何香精香料.用台灣紅玉(台茶18號)融合出頂級桂花的清香甘甜,真材實料的好味道.",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬瓜紅玉 中杯",
+          "description": "純冬瓜提煉的冬瓜茶搭配純的台灣紅玉(台茶18號)紅茶,只加冬瓜茶不另糖(甜度固定)",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d801_4jqEH6lB.jpg"
+        },
+        {
+          "name": "冬瓜紅玉 大杯",
+          "description": "純冬瓜提煉的冬瓜茶搭配純的台灣紅玉(台茶18號)紅茶,只加冬瓜茶不另糖(甜度固定)",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d824_PKGjnwxW.jpg"
+        },
+        {
+          "name": "紅玉18號 M",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8907_e0aXV4Bw.jpg"
+        },
+        {
+          "name": "紅玉18號 L",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e88ff_sScr246z.jpg"
+        },
+        {
+          "name": "紅玉檸檬 M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e88f0_Hy7SIgZo.jpg"
+        },
+        {
+          "name": "紅玉檸檬 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e88e5_bYE6wMV3.jpg"
+        },
+        {
+          "name": "紅玉鮮奶茶 M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e88d4_dPN4ig6s.jpg"
+        },
+        {
+          "name": "紅玉鮮奶茶 L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e88ca_qE8xdHDn.jpg"
+        }
+      ]
+    },
+    {
+      "category": "高山烏龍茶",
+      "items": [
+        {
+          "name": "桂花烏龍 中杯",
+          "description": "吃的到很多特級桂花,嚴選6A等級的黃金桂花搭配冰糖手工熬煮,不添加任何香精香料.用台灣高山烏龍茶融合出頂級桂花的清香甘甜,真材實料的好味道.",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d75e_7Ilvda6b.jpg"
+        },
+        {
+          "name": "桂花烏龍 大杯",
+          "description": "吃的到很多特級桂花,嚴選6A等級的黃金桂花搭配冰糖手工熬煮,不添加任何香精香料.用台灣高山烏龍茶融合出頂級桂花的清香甘甜,真材實料的好味道.",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d947_cvesPX8y.jpg"
+        },
+        {
+          "name": "冬瓜烏龍 中杯",
+          "description": "純冬瓜提煉的冬瓜茶搭配純的台灣高山烏龍茶,只加冬瓜茶不另糖(甜度固定)",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d868_M6toEwjU.jpg"
+        },
+        {
+          "name": "冬瓜烏龍 大杯",
+          "description": "純冬瓜提煉的冬瓜茶搭配純的台灣高山烏龍茶,只加冬瓜茶不另糖(甜度固定)",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d88b_dYXOrftF.jpg"
+        },
+        {
+          "name": "粉粿奇異果烏龍(L)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d9f7_WkeG1n69.jpg"
+        },
+        {
+          "name": "脆梅烏龍 M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8775_p5B3hA7w.jpg"
+        },
+        {
+          "name": "脆梅烏龍 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e876a_bdpmv8O2.jpg"
+        },
+        {
+          "name": "菩提烏龍茶 M",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e82cc_JDCoAdSG.jpg"
+        },
+        {
+          "name": "菩提烏龍茶 L",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e82c0_2E3yAQke.jpg"
+        },
+        {
+          "name": "檸檬烏龍 M",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e88bd_CeTnjQEk.jpg"
+        },
+        {
+          "name": "檸檬烏龍 L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e88b0_rgl3nIeG.jpg"
+        },
+        {
+          "name": "百香果烏龍 M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e886b_Mk6ghCnY.jpg"
+        },
+        {
+          "name": "百香果烏龍 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8862_CbIcVeLY.jpg"
+        },
+        {
+          "name": "烏龍多多(L)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e889b_hJHGrc7b.jpg"
+        },
+        {
+          "name": "芭樂烏龍(L)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e882e_TLd6e9tY.jpg"
+        },
+        {
+          "name": "葡萄柚烏龍(L)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8848_4PHk7Biq.jpg"
+        },
+        {
+          "name": "芭樂檸檬烏龍(L)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e883a_mN6R7uXb.jpg"
+        },
+        {
+          "name": "烏龍鮮奶茶 M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e888d_LxUgs70f.jpg"
+        },
+        {
+          "name": "烏龍鮮奶茶 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e887e_PU0lYOaC.jpg"
+        }
+      ]
+    },
+    {
+      "category": "無咖啡因",
+      "items": [
+        {
+          "name": "桂花甘露 中杯",
+          "description": "吃的到很多特級桂花,嚴選6A等級的黃金桂花搭配冰糖手工熬煮,不添加任何香精香料.頂級桂花的清香甘甜,真材實料的好味道.",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d5d6_cROtnHwu.jpg"
+        },
+        {
+          "name": "桂花甘露 大杯",
+          "description": "吃的到很多特級桂花,嚴選6A等級的黃金桂花搭配冰糖手工熬煮,不添加任何香精香料.頂級桂花的清香甘甜,真材實料的好味道.",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_67a1d5f3_izByL2nj.jpg"
+        },
+        {
+          "name": "粉粿桂花檸檬",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e87d0_Wxch0jpP.jpg"
+        },
+        {
+          "name": "冬瓜檸檬 M",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e87ef_auN5OqnF.jpg"
+        },
+        {
+          "name": "冬瓜檸檬 L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e87e5_VPwFIlaT.jpg"
+        },
+        {
+          "name": "檸檬多多 M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e87c2_2N6xOdGV.jpg"
+        },
+        {
+          "name": "檸檬多多 L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e87ae_0THFj2Rc.jpg"
+        },
+        {
+          "name": "薄荷檸檬",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e87fa_tnIuj85Z.jpg"
+        },
+        {
+          "name": "蜂蜜檸檬 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e82ab_NEUsKIVT.jpg"
+        },
+        {
+          "name": "蜂蜜檸檬 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e829d_OHuKqGfD.jpg"
+        },
+        {
+          "name": "檸檬奇異果",
+          "description": "大杯,新鮮奇異果搭配檸檬的健康好滋味,手工熬煮冰糖甜度較低,半糖以上更好喝",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "百香多多 M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e879e_RCZstwJG.jpg"
+        },
+        {
+          "name": "百香多多 L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8796_7myO3VYr.jpg"
+        },
+        {
+          "name": "冬瓜茶 M",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e880e_8JWf4HYD.jpg"
+        },
+        {
+          "name": "冬瓜茶 L",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2697/b2697_676e8804_0SJ8VEZj.jpg"
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "小(1-2杯)",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "大（3-6）杯",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

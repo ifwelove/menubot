@@ -1,0 +1,270 @@
+{
+  "store_id": 20295,
+  "store_name": "新莊中泰店",
+  "brand_code": "gobartea",
+  "brand_name": "果霸茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "精選茶品",
+      "items": [
+        {
+          "name": "蘭韻青茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "東方美人紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "果香烏龍茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "美荔貴妃紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "牛奶金萱",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "芙蓉桂蜜烏龍紅",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "鮮果漾茶",
+      "items": [
+        {
+          "name": "優活多多綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "阿的旺來冰茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜜桃成熟時(水蜜桃紅茶)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "金讚!葡萄柚綠茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "仲夏水果滿滿茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "柳橙粒粒綠茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "柳橙粒粒百香綠茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "濃醇奶茶",
+      "items": [
+        {
+          "name": "東方美人奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "果香烏龍奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "美荔貴妃奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "勁好飲鴛鴦凍奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "太陽神果汁",
+      "items": [
+        {
+          "name": "火龍果蜂蜜檸檬",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "奇異果博士",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "奇異果蘋果博士",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "奶霜茶飲",
+      "items": [
+        {
+          "name": "雲朵奶霜紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雲朵奶霜綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜜香奶霜綠茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜜香奶霜紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "經典歐蕾",
+      "items": [
+        {
+          "name": "法式香頌茶歐雷",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖珍珠茶歐雷",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖真Q鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "特選奶霜飲",
+      "items": [
+        {
+          "name": "熔岩雪霜真Q鮮奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "芝士奶霜麵茶牛奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "蜜香奶霜火龍果蜂蜜檸檬",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        }
+      ]
+    },
+    {
+      "category": "濃情心冰沙",
+      "items": [
+        {
+          "name": "泰式椰奶冰沙",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "麵茶牛奶冰沙",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "芝麻牛奶冰沙",
+          "description": null,
+          "price_cold": 78,
+          "price_hot": 78
+        },
+        {
+          "name": "OREO巧克力牛奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "沁涼樂冰沙(含鮮奶油)",
+      "items": [
+        {
+          "name": "泰式椰奶樂冰沙",
+          "description": null,
+          "price_cold": 88,
+          "price_hot": 88
+        },
+        {
+          "name": "OREO巧克力樂冰沙",
+          "description": null,
+          "price_cold": 98,
+          "price_hot": 98
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "store_id": 23383,
+  "store_name": "桃園大園店",
+  "brand_code": "hsienlantea",
+  "brand_name": "鮮嵐茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "手作現泡茶",
+      "items": [
+        {
+          "name": "初芽玉露",
+          "description": "大杯。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_fhLGIxvT.jpg"
+        },
+        {
+          "name": "洄韻冰茶",
+          "description": "大杯。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_682360b5_GEzIHN2J.jpg"
+        },
+        {
+          "name": "四季青茶",
+          "description": "大杯。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_G4nDya1N.jpg"
+        },
+        {
+          "name": "蜜香紅茶",
+          "description": "大杯。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_I38tTmC7.jpg"
+        },
+        {
+          "name": "琥珀紅茶",
+          "description": "甜度固定。大杯。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_fxolkt6Q.jpg"
+        },
+        {
+          "name": "嵐莓果茶",
+          "description": "無咖啡因。大杯。",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "手採清香烏龍",
+          "description": "大杯。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_1TqBQCUp.jpg"
+        },
+        {
+          "name": "金穗蕎麥茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_68235e1f_2NMrBV8j.jpg"
+        },
+        {
+          "name": "妃語烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_682363b1_7vuKzp4G.jpg"
+        }
+      ]
+    },
+    {
+      "category": "手作醇乳奶(牛奶)",
+      "items": [
+        {
+          "name": "初芽歐蕾",
+          "description": "牛奶。大杯。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_682365d4_d8ePC5T0.jpg"
+        },
+        {
+          "name": "紅茶歐蕾",
+          "description": "牛奶。大杯。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_0jFSuBl6.jpg"
+        },
+        {
+          "name": "洄韻歐蕾",
+          "description": "牛奶。大杯。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_68236621_BAYJUVPb.jpg"
+        },
+        {
+          "name": "清香烏龍歐蕾",
+          "description": "牛奶。大杯。",
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_6823663a_QpkPnBw0.jpg"
+        },
+        {
+          "name": "焦燒紅茶歐蕾",
+          "description": "牛奶。大杯。",
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_APxfpT9S.jpg"
+        }
+      ]
+    },
+    {
+      "category": "手作濃醇奶(奶精)",
+      "items": [
+        {
+          "name": "鮮嵐奶茶",
+          "description": "奶精。大杯。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_ZUM0b2V1.jpg"
+        },
+        {
+          "name": "洄韻奶茶",
+          "description": "奶精。大杯。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_8WFB32OD.jpg"
+        },
+        {
+          "name": "初芽奶茶",
+          "description": "奶精。大杯。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_KNUuYdCH.jpg"
+        },
+        {
+          "name": "琥珀奶茶",
+          "description": "奶精。大杯。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_aud0GNji.jpg"
+        },
+        {
+          "name": "焦燒布蕾奶茶",
+          "description": "奶精。大杯。",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_682368d0_3NrXmdEa.jpg"
+        },
+        {
+          "name": "清香烏龍奶茶",
+          "description": "奶精。大杯。",
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_2qPVlazL.jpg"
+        },
+        {
+          "name": "厚重奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_6823682e_0z2Qbq6H.jpg"
+        }
+      ]
+    },
+    {
+      "category": "手作鮮果茶",
+      "items": [
+        {
+          "name": "樂多綠茶",
+          "description": "大杯。",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "鮮‧百香綠茶",
+          "description": "大杯。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_9G1sAnhW.jpg"
+        },
+        {
+          "name": "鮮‧水果茶",
+          "description": "大杯。",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_VvCbGFJH.jpg"
+        },
+        {
+          "name": "葡萄果粒氣泡飲",
+          "description": "大杯。",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_6823757e_M69zDJPj.jpg"
+        }
+      ]
+    },
+    {
+      "category": "手作爆檸茶",
+      "items": [
+        {
+          "name": "爆打檸檬傻瓜",
+          "description": "甜度固定。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_68237118_eSs49aRk.jpg"
+        },
+        {
+          "name": "爆打檸檬樂多",
+          "description": "大杯。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_68237174_lpFRQK64.jpg"
+        },
+        {
+          "name": "爆打檸檬青茶",
+          "description": "大杯。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_682371f0_I2jWQawL.jpg"
+        },
+        {
+          "name": "爆打檸檬紅茶",
+          "description": "大杯。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_68237237_p0hqDWdt.jpg"
+        },
+        {
+          "name": "爆打檸檬綠茶",
+          "description": "大杯。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_682372ec_zCF9xXw8.jpg"
+        },
+        {
+          "name": "爆打檸檬莓果茶",
+          "description": "大杯。",
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "甜點",
+      "items": [
+        {
+          "name": "布蕾甜點杯",
+          "description": "NULL",
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "其他",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    },
+    {
+      "category": "口感咀嚼系",
+      "items": [
+        {
+          "name": "春漾青梅",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_68236973_wriCudQc.jpg"
+        },
+        {
+          "name": "春穗烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_68236a24_6pJ0q1rW.jpg"
+        },
+        {
+          "name": "金穗蕎麥歐蕾",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_68236a89_JoG2TUZg.jpg"
+        },
+        {
+          "name": "凍滋奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_68236e8d_r1ghnztq.jpg"
+        },
+        {
+          "name": "珍珠紅茶歐蕾",
+          "description": "牛奶。大杯。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_jYrfiVIp.jpg"
+        },
+        {
+          "name": "仙人紅茶歐蕾",
+          "description": "牛奶。大杯。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/S23383_687deb76_i2ATZX07.jpg"
+        },
+        {
+          "name": "仙人撞奶",
+          "description": "奶精。大杯。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3007/b3007_68236ede_rzAc1M9J.jpg"
+        }
+      ]
+    }
+  ]
+}

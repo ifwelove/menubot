@@ -1,0 +1,364 @@
+{
+  "store_id": 23101,
+  "store_name": "新竹站前店",
+  "brand_code": "chatime",
+  "brand_name": "日出茶太",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "獨·太極",
+      "items": [
+        {
+          "name": "太極111 太極粉粿厚茶拿鐵  Tachi Supreme Tea Latte with Jelly Noodle",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a771_8TOiewZl.png"
+        },
+        {
+          "name": "太極1號 太極厚茶拿鐵 Taichi Supreme Tea Latte",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a736_dzGbLlRA.png"
+        },
+        {
+          "name": "太極2號 太極焙茶厚拿鐵 Taichi Supreme Roasted Tea Latte",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a745_9bMWZJKe.png"
+        },
+        {
+          "name": "太極3號 太極粉粿珍奶 Taichi Milk Tea with Jelly Cake",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a754_GhBEWCOw.png"
+        },
+        {
+          "name": "太極4號 太極珍珠奶茶 Taichi Milk Tea",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a761_bSDKAgMy.png"
+        }
+      ]
+    },
+    {
+      "category": "茶·清香",
+      "items": [
+        {
+          "name": "日曜紅茶 Black Tea",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a7d8_Mr1EoG4m.png"
+        },
+        {
+          "name": "玉露春芽 Light Oolong Tea",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a7ff_gEVkMlUL.png"
+        },
+        {
+          "name": "春摘翡翠 Green Tea",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a9bd_r0oDtdlk.png"
+        },
+        {
+          "name": "極上烤茶 Roasted Tea",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa6a_NkAnu0JM.png"
+        },
+        {
+          "name": "烏龍茶王 Oolong Tea",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a9ed_2H8tOD4P.png"
+        },
+        {
+          "name": "金萱茶后 Alishan Jinshyuan Tea",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a9ad_FqH3sUyJ.png"
+        },
+        {
+          "name": "東方美人 Oriental Beauty Oolong Tea",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a9a1_CrStP0X3.png"
+        }
+      ]
+    },
+    {
+      "category": "奶·醇厚",
+      "items": [
+        {
+          "name": "日曜紅茶拿鐵 Black Tea Latte",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a7e5_mev7SaLc.png"
+        },
+        {
+          "name": "日曜珍珠拿鐵 Tea Latte with Pearl",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a7ca_enAhcDy7.png"
+        },
+        {
+          "name": "熟成厚茶拿鐵 Supreme Black Tea Latte",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa8b_zyZ8Os23.png"
+        },
+        {
+          "name": "靜岡抹茶拿鐵 Shizuoka Matcha Tea Latte",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa96_14ZBeGwF.png"
+        },
+        {
+          "name": "莊園可可拿鐵 Chocolate Milk",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa1e_Wt8nR4j9.png"
+        },
+        {
+          "name": "芋泥珍珠拿鐵 Mashed Taro Latte with Pearls",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a838_5DBRSxwm.png"
+        },
+        {
+          "name": "黑糖珍珠鮮奶 Brown Sugar Latte with Pearls",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa5d_0LV5dxwO.png"
+        },
+        {
+          "name": "手工仙草凍鮮奶 Grass Jelly with Milk",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a780_xMyRIesF.png"
+        }
+      ]
+    },
+    {
+      "category": "奶·特調",
+      "items": [
+        {
+          "name": "日不落經典奶茶 Chatime Milk Tea",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a7bc_Fdeq9M7H.png"
+        },
+        {
+          "name": "日不落珍珠奶茶 Milk Tea with Pearl",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a7ae_AC05VHTM.png"
+        },
+        {
+          "name": "泰式奶茶 Thai Milk Tea",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a9ca_jvWioRZM.png"
+        },
+        {
+          "name": "烏龍王奶茶 Oolong Milk Tea",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a9d7_fehZUniV.png"
+        },
+        {
+          "name": "莊園可可奶茶 Chocolate Milk Tea",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa13_7xLc8eNz.png"
+        },
+        {
+          "name": "手作芋泥奶茶 Mashed Taro Milk Tea",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a794_FwexUM20.png"
+        }
+      ]
+    },
+    {
+      "category": "果·鮮爽",
+      "items": [
+        {
+          "name": "棒打鮮檸 Fresh Lemon Juice",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa3f_kmhnlQx2.png"
+        },
+        {
+          "name": "棒打鮮橙 Orange Green Tea",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa2f_NsHmU6R5.png"
+        },
+        {
+          "name": "蜜桃春芽 Peach Light Oolong Tea",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa7a_vn4yBs9x.png"
+        },
+        {
+          "name": "芒果凍檸茶 Mango Lemon Green Tea with Green Tea Jelly",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "水果派對 Fruity Party",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a7f1_TkWfYhFL.png"
+        },
+        {
+          "name": "芒果翡翠綠 Mango Light Oolong Tea",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芒果春芽 Mango Green Tea",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "百香翡翠綠 Passion Fruit Light Oolong Tea",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a81b_7x0Ko23q.png"
+        },
+        {
+          "name": "百香春芽 Passion Fruit Green Tea",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "檸檬翡翠綠 Lemon Light Oolong Tea",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aab9_hjfSoERX.png"
+        },
+        {
+          "name": "檸檬春芽 Lemon Green Tea",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "鮮柚翡翠綠 Grapefruit Light Oolong Tea",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aaa7_db3zhPYw.png"
+        },
+        {
+          "name": "鮮柚春芽 Grapefruit Green Tea",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芒果撞QQ Mango QQ",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "百香撞QQ Passion Fruit QQ",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a828_RcAsXWZg.png"
+        },
+        {
+          "name": "紫玫瑰荔枝凍飲 Purple Drink with Konjac Pearls",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa51_8mVQK7Ho.png"
+        },
+        {
+          "name": "鮮柚撞QQ Grapefruit QQ",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜜桃粉粿乳酸  Peach Yogurt with Jelly Cake",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜜桃粉粿輕乳茶 Peach Jasmine Light Milk Tea with Jelly Cake",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "蜜桃啵啵乳酸 Peach Yogurt with Konjac Pearls",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "啡·黑金",
+      "items": [
+        {
+          "name": "啡美式 Americano",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836a9f9_sQ6RShPO.png"
+        },
+        {
+          "name": "啡拿鐵 Coffee Latte",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2871/b2871_6836aa04_u0qG8Vx5.png"
+        }
+      ]
+    }
+  ]
+}

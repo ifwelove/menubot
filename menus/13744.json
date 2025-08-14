@@ -1,0 +1,923 @@
+{
+  "store_id": 13744,
+  "store_name": "林口長庚店",
+  "brand_code": "sugarcanemam",
+  "brand_name": "甘蔗の媽媽",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "招牌甘蔗原汁系列",
+      "items": [
+        {
+          "name": "招牌四季甘蔗青茶 杯",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "招牌四季甘蔗青茶 瓶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "甘蔗復刻紅茶 杯",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "甘蔗復刻紅茶 瓶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "甘蔗茉莉綠茶 杯",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "甘蔗茉莉綠茶 瓶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "甘蔗鹿谷烏龍茶 杯",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "甘蔗鹿谷烏龍茶 瓶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "檸檬甘蔗青茶 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "檸檬甘蔗青茶 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "檸檬甘蔗烏龍 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "檸檬甘蔗烏龍 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "新鮮甘蔗原汁 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "新鮮甘蔗原汁 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "招牌甘蔗檸檬 杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "招牌甘蔗檸檬 瓶",
+          "description": null,
+          "price_cold": 115,
+          "price_hot": 115
+        },
+        {
+          "name": "招牌甘蔗金桔 杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "招牌甘蔗金桔 瓶",
+          "description": null,
+          "price_cold": 115,
+          "price_hot": 115
+        },
+        {
+          "name": "愛文芒果甘蔗青 杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "愛文芒果甘蔗青 瓶",
+          "description": null,
+          "price_cold": 115,
+          "price_hot": 115
+        },
+        {
+          "name": "蘆薈甘蔗原汁 杯",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蘆薈甘蔗原汁 瓶",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "蔓越梅甘蔗汁 杯",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蔓越梅甘蔗汁 瓶",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "鮮百果香甘蔗汁 杯",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "鮮百果香甘蔗汁 瓶",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "甘蔗養樂多 杯",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "甘蔗養樂多 瓶",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "鮮柳橙甘蔗汁 杯",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "鮮柳橙甘蔗汁 瓶",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "蘆薈甘蔗檸檬 杯",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蘆薈甘蔗檸檬 瓶",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "葡萄柚甘蔗汁 杯",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "葡萄柚甘蔗汁 瓶",
+          "description": null,
+          "price_cold": 125,
+          "price_hot": 125
+        },
+        {
+          "name": "鮮香吉士甘蔗汁 杯",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "鮮香吉士甘蔗汁 瓶",
+          "description": null,
+          "price_cold": 125,
+          "price_hot": 125
+        },
+        {
+          "name": "甘蔗檸檬愛玉",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "好茶系列",
+      "items": [
+        {
+          "name": "冰淇淋紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "檸檬水 杯",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "檸檬水 瓶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "復刻紅茶 杯",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "復刻紅茶 瓶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "四季青茶 杯",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "四季青茶 瓶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "茉莉綠茶 杯",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "茉莉綠茶 瓶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "鹿谷烏龍茶 杯",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "鹿谷烏龍茶 瓶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "QQ粉角紅茶 杯",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "QQ粉角紅茶 瓶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "QQ粉角綠茶 杯",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "QQ粉角綠茶 瓶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "QQ粉角青茶 杯",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "QQ粉角青茶 瓶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "QQ粉角烏龍 杯",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "QQ粉角烏龍 瓶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蜂蜜紅茶 杯",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜紅茶 瓶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "蜂蜜綠茶 杯",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜綠茶 瓶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "蜂蜜青茶 杯",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜青茶 瓶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "蜂蜜烏龍 杯",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜烏龍 瓶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "養樂多綠茶 杯",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "養樂多綠茶 瓶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "鮮果葡萄柚多多 杯",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "鮮果葡萄柚多多 瓶",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        }
+      ]
+    },
+    {
+      "category": "招牌鮮果粒綠茶系列",
+      "items": [
+        {
+          "name": "鮮柳橙綠茶 杯",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鮮柳橙綠茶 瓶",
+          "description": null,
+          "price_cold": 105,
+          "price_hot": 105
+        },
+        {
+          "name": "一顆檸檬綠茶 杯",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "一顆檸檬綠茶 瓶",
+          "description": null,
+          "price_cold": 105,
+          "price_hot": 105
+        },
+        {
+          "name": "招牌曼越莓綠茶 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "招牌曼越莓綠茶 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "一顆葡萄柚綠茶 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "一顆葡萄柚綠茶 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "百香果綠茶 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "百香果綠茶 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "香橙百香果綠茶 杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "香橙百香果綠茶 瓶",
+          "description": null,
+          "price_cold": 115,
+          "price_hot": 115
+        },
+        {
+          "name": "熱帶百香綠 杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "熱帶百香綠 瓶",
+          "description": null,
+          "price_cold": 115,
+          "price_hot": 115
+        },
+        {
+          "name": "甘蔗奇異果綠茶 杯",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "甘蔗奇異果綠茶 瓶",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        }
+      ]
+    },
+    {
+      "category": "新鮮果汁系列",
+      "items": [
+        {
+          "name": "金鑽鳳梨冰茶 杯",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "金鑽鳳梨冰茶 瓶",
+          "description": null,
+          "price_cold": 105,
+          "price_hot": 105
+        },
+        {
+          "name": "桑椹冰茶 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "桑椹冰茶 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "一顆檸檬蜜茶 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "一顆檸檬蜜茶 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "纖蘆薈蜂蜜檸檬 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "纖蘆薈蜂蜜檸檬 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "纖蘆薈蜂蜜金桔 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "纖蘆薈蜂蜜金桔 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        }
+      ]
+    },
+    {
+      "category": "冬瓜系列",
+      "items": [
+        {
+          "name": "現煮冬瓜茶 杯",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "現煮冬瓜茶 瓶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬瓜四季青茶 杯",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬瓜四季青茶 瓶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "冬瓜鮮檸檬 杯",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬瓜鮮檸檬 瓶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "冬瓜鮮金桔 杯",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬瓜鮮金桔 瓶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "QQ粉角冬瓜茶 杯",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "QQ粉角冬瓜茶 瓶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "冬瓜鮮奶 杯",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬瓜鮮奶 瓶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "杏仁凍冬瓜",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "冰沙系列",
+      "items": [
+        {
+          "name": "招牌甘蔗冰沙",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "甘蔗檸檬冰沙",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "蔓越梅甘蔗冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "奇異果甘蔗冰沙",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "愛文芒果鮮奶 M",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "愛文芒果鮮奶 L",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "大甲芋頭鮮奶冰沙(M)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "奶茶系列",
+      "items": [
+        {
+          "name": "奶茶 杯",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "奶茶 瓶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "茉莉奶綠 杯",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "茉莉奶綠 瓶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "統一布丁奶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "牧場鮮奶系列",
+      "items": [
+        {
+          "name": "紅茶鮮奶 杯",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "紅茶鮮奶 瓶",
+          "description": null,
+          "price_cold": 105,
+          "price_hot": 105
+        },
+        {
+          "name": "綠茶鮮奶 杯",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "綠茶鮮奶 瓶",
+          "description": null,
+          "price_cold": 105,
+          "price_hot": 105
+        },
+        {
+          "name": "烏龍鮮奶 杯",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "烏龍鮮奶 瓶",
+          "description": null,
+          "price_cold": 105,
+          "price_hot": 105
+        },
+        {
+          "name": "黑糖鮮奶茶 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖鮮奶茶 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "焦糖鮮奶茶 杯",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "焦糖鮮奶茶 瓶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "阿華田鮮奶 杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "阿華田鮮奶 瓶",
+          "description": null,
+          "price_cold": 115,
+          "price_hot": 115
+        },
+        {
+          "name": "招牌甘蔗鮮奶 杯",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "招牌甘蔗鮮奶 瓶",
+          "description": null,
+          "price_cold": 125,
+          "price_hot": 125
+        },
+        {
+          "name": "杏仁凍甘蔗鮮奶 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "杏仁凍甘蔗鮮奶 杯",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "大甲芋頭鮮奶 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "大甲芋頭鮮奶 杯",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "冬季暖茶系列",
+      "items": [
+        {
+          "name": "熱阿華田 杯",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "熱阿華田 瓶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "甘蔗薑汁 杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "甘蔗薑汁 瓶",
+          "description": null,
+          "price_cold": 115,
+          "price_hot": 115
+        },
+        {
+          "name": "甘蔗熱桔茶 杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "甘蔗熱桔茶 瓶",
+          "description": null,
+          "price_cold": 115,
+          "price_hot": 115
+        }
+      ]
+    },
+    {
+      "category": "加購塑膠袋",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    }
+  ]
+}

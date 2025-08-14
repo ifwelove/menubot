@@ -1,0 +1,216 @@
+{
+  "store_id": 24481,
+  "store_name": "內湖江南店",
+  "brand_code": "morethantea",
+  "brand_name": "盛好概念手窈飲",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "盛好茶_單醇想喝茶",
+      "items": [
+        {
+          "name": "盛好紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "青茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "米香烏龍",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "盛好鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "焙煎大麥茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "焙煎大麥鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "吃心絕對_切吧斷",
+      "items": [
+        {
+          "name": "切切斷葡萄柚紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "喝不盼酪香奶蓋紅",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "喝不盼酪香奶蓋青",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "喝不盼酪香奶蓋烏龍",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "午茶派對檸檬青",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "阿嬤的穀香烏龍奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "阿公的榖香麥奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "吃心絕對_閃殿高手",
+      "items": [
+        {
+          "name": "雙豆盛好紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "雙豆米香烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "港豆鴛鴦奶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "吃心鮮奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "吃心大麥鮮奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "內外兼美_順順咚",
+      "items": [
+        {
+          "name": "可爾不思益紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "內外兼美_粉嫩亮",
+      "items": [
+        {
+          "name": "美檸孅紅茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "內外兼美_Q潤膨",
+      "items": [
+        {
+          "name": "Ｑ潤膨仙女鮮奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "水靈靈",
+      "items": [
+        {
+          "name": "晶亮莓橙青",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "戰鬥模式_複合B群",
+      "items": [
+        {
+          "name": "振奮百香青",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "周邊商品",
+      "items": [
+        {
+          "name": "Q糰獨享袋",
+          "description": null,
+          "price_cold": 15,
+          "price_hot": 15
+        },
+        {
+          "name": "搖窕貝比分享袋",
+          "description": null,
+          "price_cold": 15,
+          "price_hot": 15
+        },
+        {
+          "name": "品牌隨行杯(小)",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99
+        },
+        {
+          "name": "品牌隨行杯(大)",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99
+        }
+      ]
+    }
+  ]
+}

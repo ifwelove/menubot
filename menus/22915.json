@@ -1,0 +1,577 @@
+{
+  "store_id": 22915,
+  "store_name": "桃園中正店",
+  "brand_code": "kungfutea",
+  "brand_name": "功夫茶 KUNGFU TEA",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "期間限定新品 · 功夫茶專屬",
+      "items": [
+        {
+          "name": "星桃樂胭脂",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6862be9e_R1FnvbcT.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "功夫・好茶①",
+      "items": [
+        {
+          "name": "功夫茶王",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6838104b_bXNBg8Wk.jpeg"
+        },
+        {
+          "name": "岩葉紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381525_PSfACzrT.jpeg"
+        },
+        {
+          "name": "翠玉綠茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6838150d_gC2ULFfA.jpeg"
+        },
+        {
+          "name": "四季春青茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683814cf_Cf4nOJ9W.jpeg"
+        },
+        {
+          "name": "烏龍鐵觀音",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6838149c_0nKQ2zP6.jpeg"
+        },
+        {
+          "name": "蜜桃胭脂紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381023_jItLADGO.jpeg"
+        },
+        {
+          "name": "手作冬瓜茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381427_Za7FnxNV.jpeg"
+        },
+        {
+          "name": "阿里山冰茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683813d7_ZwCmO4DI.jpeg"
+        },
+        {
+          "name": "日月潭紅玉",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683813ff_tTBm4H5W.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "功夫・好茶②",
+      "items": [
+        {
+          "name": "芝士奶蓋綠茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381063_FEOm5vk6.jpeg"
+        },
+        {
+          "name": "芝士四季青",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381a5a_YdCXWVBZ.jpeg"
+        },
+        {
+          "name": "芝士奶蓋紅茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683813b1_C3w1e7pU.jpeg"
+        },
+        {
+          "name": "芝士奶蓋烏龍",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683811cd_FQSyhYw3.jpeg"
+        },
+        {
+          "name": "玫瑰冰茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683811b5_XrLVHofv.jpeg"
+        },
+        {
+          "name": "青梅綠茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683811a3_5eWroysA.jpeg"
+        },
+        {
+          "name": "多多綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6838118c_W6LBH1p7.jpeg"
+        },
+        {
+          "name": "胭脂多多",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381163_uAImR24N.jpeg"
+        },
+        {
+          "name": "粉粿胭脂紅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683818ab_H2D0sTiJ.jpeg"
+        },
+        {
+          "name": "冰淇淋岩葉紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381969_S3JjoixZ.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "功夫・奶茶",
+      "items": [
+        {
+          "name": "38奶霸",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6838107d_DOjJISV2.jpeg"
+        },
+        {
+          "name": "黑糖波霸奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381543_jw1MJYLo.jpeg"
+        },
+        {
+          "name": "咖啡凍奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683819e9_BvD46jx1.jpeg"
+        },
+        {
+          "name": "厚奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6838181a_5p3g9sM1.jpeg"
+        },
+        {
+          "name": "厚奶綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381806_gMXIKV6P.jpeg"
+        },
+        {
+          "name": "烏龍觀音奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683817ea_6rWoqn0K.jpeg"
+        },
+        {
+          "name": "英式伯爵奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683817d5_r0Uj6vpx.jpeg"
+        },
+        {
+          "name": "蜜桃胭脂奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683817bc_qSoJ49GY.jpeg"
+        },
+        {
+          "name": "莊園玫瑰奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381798_scOjSrNA.jpeg"
+        },
+        {
+          "name": "巧克力奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381930_KZjbzJpl.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "功夫・鮮果",
+      "items": [
+        {
+          "name": "泰式榴槤莎莎",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381592_eqJKpMFZ.jpeg"
+        },
+        {
+          "name": "輕飲水果茶王",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381784_3tLnGbQN.jpeg"
+        },
+        {
+          "name": "寒天柚香飲",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381725_qusVZabH.jpeg"
+        },
+        {
+          "name": "粉粿柚香綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683816f8_8mlsVHdI.jpeg"
+        },
+        {
+          "name": "鮮榨柳橙綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68637769_DS0PxnyU.png"
+        },
+        {
+          "name": "芭樂檸檬綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683816ab_BDGokEK5.jpeg"
+        },
+        {
+          "name": "黃金芒果綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6838165e_Wp0SYdGB.jpeg"
+        },
+        {
+          "name": "百香3Q",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381643_DtOLbBuq.jpeg"
+        },
+        {
+          "name": "百香羅勒子",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6838162a_OelJEuyP.jpeg"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683818fc_nA8CsrvG.jpeg"
+        },
+        {
+          "name": "粉粿冬瓜檸檬",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68637758_hQJD2Zuo.png"
+        },
+        {
+          "name": "黃金芒果莎莎",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683818c9_gWF3u0rG.jpeg"
+        },
+        {
+          "name": "寒天莓莓",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67dc3fa2_jYAlqbsx.png"
+        }
+      ]
+    },
+    {
+      "category": "功夫・鮮奶",
+      "items": [
+        {
+          "name": "黑糖波霸鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381573_hgdpzIXD.jpeg"
+        },
+        {
+          "name": "紅豆粉粿鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381091_HJdzNLKS.jpeg"
+        },
+        {
+          "name": "巧克力鮮奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683815bc_XNp4gB7o.jpeg"
+        },
+        {
+          "name": "岩葉紅茶拿鐵",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683810bf_39OStdvP.jpeg"
+        },
+        {
+          "name": "烏龍觀音拿鐵",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6838188b_7WBhdxtq.jpeg"
+        },
+        {
+          "name": "英式伯爵拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381867_gaok0GF7.jpeg"
+        },
+        {
+          "name": "蜜桃胭脂拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381844_ILjSs2O1.jpeg"
+        },
+        {
+          "name": "黑糖波霸紅茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_68381832_ypoLWNiX.jpeg"
+        },
+        {
+          "name": "冰淇淋紅茶拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_683819ad_W7ew0Fbo.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "冬日限定",
+      "items": [
+        {
+          "name": "暖薑奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67dc382a_yI9EoUST.png"
+        },
+        {
+          "name": "暖薑鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67dc3fce_fwmOv6Ze.png"
+        },
+        {
+          "name": "薑汁桂圓紅棗",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67dc3fe7_rOW9XTnm.png"
+        },
+        {
+          "name": "慢火老薑茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "桂圓紅棗茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "功夫 · 雞蛋仔",
+      "items": [
+        {
+          "name": "(雞蛋仔) 經典原味",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67e56c6f_qXibnwGU.png"
+        },
+        {
+          "name": "(雞蛋仔) 濃郁可可",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67e56c67_fqDhiptG.png"
+        }
+      ]
+    },
+    {
+      "category": "非菜單已下架①",
+      "items": [
+        {
+          "name": "真．功夫珍奶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67dc2ee9_Qf1GAN90.png"
+        },
+        {
+          "name": "芝士日月潭紅玉",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_6838194b_lTW0q5ye.jpeg"
+        },
+        {
+          "name": "芝士黑糖波霸鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67dc4050_kznp3FM9.png"
+        },
+        {
+          "name": "芝士榴槤莎莎",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67e0ea50_osLN8lqk.png"
+        },
+        {
+          "name": "芝士芒果冰沙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67dc400d_wumsNCpM.png"
+        }
+      ]
+    },
+    {
+      "category": "非菜單已下架②",
+      "items": [
+        {
+          "name": "百香翠玉",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "葡萄柚綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "翡翠檸檬綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "青梅果釀",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "芭樂輕檸",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/b2391_67dc406f_6wF7fSXR.png"
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "塑膠袋(1~3杯適用)",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "塑膠袋(4~12杯適用)",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "塑膠袋(13~24杯適用)",
+          "description": null,
+          "price_cold": 4,
+          "price_hot": 4
+        },
+        {
+          "name": "塑膠袋(25~36杯適用)",
+          "description": null,
+          "price_cold": 6,
+          "price_hot": 6
+        },
+        {
+          "name": "塑膠袋(37~48杯適用)",
+          "description": null,
+          "price_cold": 8,
+          "price_hot": 8
+        },
+        {
+          "name": "塑膠袋(49~60杯適用)",
+          "description": null,
+          "price_cold": 10,
+          "price_hot": 10
+        }
+      ]
+    }
+  ]
+}

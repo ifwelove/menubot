@@ -1,0 +1,464 @@
+{
+  "store_id": 3731,
+  "store_name": "台北通化總店",
+  "brand_code": "freedomwings",
+  "brand_name": "霏等茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "霏等茶",
+      "items": [
+        {
+          "name": "黃金蕎麥茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406605_XpWlhqj0.jpg"
+        },
+        {
+          "name": "冬瓜蕎麥茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_6640665a_SebfM0zL.jpg"
+        },
+        {
+          "name": "茉縈玉露",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_6640650a_oDSBiZfx.jpg"
+        },
+        {
+          "name": "不知春",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664065af_jxFmeqPt.jpg"
+        },
+        {
+          "name": "鐵觀音烏龍",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664065d3_kv5esbht.jpg"
+        },
+        {
+          "name": "古樹紅韻",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664065eb_RCHUhyuf.jpg"
+        },
+        {
+          "name": "桂花蜜知春",
+          "description": "甜度固定微糖",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406618_j2pheVX1.jpg"
+        },
+        {
+          "name": "仙草甘茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_6640666d_zKYUNDva.jpg"
+        }
+      ]
+    },
+    {
+      "category": "茗果",
+      "items": [
+        {
+          "name": "貴妃荔檸蕎麥波波",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406803_B8wCXAHa.jpg"
+        },
+        {
+          "name": "芒果香蘋玉露茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406687_J7z5emS1.jpg"
+        },
+        {
+          "name": "太陽柑橘綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664066be_PwUTsrtO.jpg"
+        },
+        {
+          "name": "蘋果輕鬆青茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406730_OvCQpWi8.jpg"
+        },
+        {
+          "name": "月老荔枝晶球",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406751_ATd0aIYB.jpg"
+        },
+        {
+          "name": "QQ柑橘青蘋綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664067a0_n7OpwxrJ.jpg"
+        },
+        {
+          "name": "蜂蜜檸檬古樹紅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664067c5_yo5MhT2k.jpg"
+        },
+        {
+          "name": "檸檬伍拾冬瓜",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664067dd_y1rIepDG.jpg"
+        },
+        {
+          "name": "不知春青珍粿椰",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "桂花香檸粉粿不知春",
+          "description": "清香桂花融入檸檬和粉粿，酸甜滑嫩，喚醒舌尖初春氣息。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406645_9Z1MQwIR.jpg"
+        }
+      ]
+    },
+    {
+      "category": "歐蕾",
+      "items": [
+        {
+          "name": "青韻奶酪歐蕾",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜂蜜玉露歐蕾",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_6640694e_NqeiCYpD.jpg"
+        },
+        {
+          "name": "琥珀珍珠歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406916_C87piZ1Q.jpg"
+        },
+        {
+          "name": "古樹紅韻歐蕾",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406935_yPictgow.jpg"
+        },
+        {
+          "name": "鐵觀音烏龍歐蕾",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_6640696c_qalNsYC6.jpg"
+        },
+        {
+          "name": "霏糖古樹紅歐蕾",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406996_L5Pfv6i4.jpg"
+        },
+        {
+          "name": "虎紋霏糖珍珠歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_6640681e_Ex4FTHr3.jpg"
+        },
+        {
+          "name": "蕎麥歐蕾",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_6640683b_1EhiRx8F.jpg"
+        },
+        {
+          "name": "霏糖脆果酪梨牛奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "大人系芒果牛奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406855_RDqtUQBi.jpg"
+        },
+        {
+          "name": "霏糖綠歐雷",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "桂花蕎麥歐蕾",
+          "description": "蕎麥醇香交織桂花馥郁，溫潤柔滑，帶來恬淡而迷人的風味。",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "蕎麥雲朵奶蓋",
+      "items": [
+        {
+          "name": "蕎麥雲朵不知春",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_6640689b_mwQZhD8G.jpg"
+        },
+        {
+          "name": "蕎麥雲朵鐵觀音",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664068f8_gGM08JC7.jpg"
+        },
+        {
+          "name": "蕎麥雲朵冬瓜茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_682f3134_rCFSVv95.jpg"
+        },
+        {
+          "name": "蕎麥雲朵桂花蜜知春",
+          "description": "甜度固定微糖",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664068bf_YtVxzaml.jpg"
+        },
+        {
+          "name": "蕎麥雲朵仙草茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664068d8_knOMD2Au.jpg"
+        },
+        {
+          "name": "蕎麥雲朵古樹紅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_682f316a_IVJ6SmC0.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鹹食",
+      "items": [
+        {
+          "name": "紅燒鴨血豆腐拉麵",
+          "description": null,
+          "price_cold": 169,
+          "price_hot": 169
+        },
+        {
+          "name": "脆皮胖豬拌麵",
+          "description": null,
+          "price_cold": 169,
+          "price_hot": 169,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664069c1_CdQGe4N8.jpg"
+        },
+        {
+          "name": "溫玉胡麻豆腐雞拌麵 新品",
+          "description": "胡麻拌醬滑順清香，台灣雞腿肉和溫泉蛋拌著豆腐和拉麵一口滑入，剛剛好的輕拌麵食時光。",
+          "price_cold": 129,
+          "price_hot": 129
+        },
+        {
+          "name": "叉燒 蕎麥 旨 拉麵",
+          "description": null,
+          "price_cold": 149,
+          "price_hot": 149
+        },
+        {
+          "name": "蕎麥 旨 拉麵",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_670f6a5d_uB8ag9hL.png"
+        },
+        {
+          "name": "香辣霏拌麵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664069dc_P5f86xwG.jpg"
+        },
+        {
+          "name": "太陽柑拌麵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_664069fb_Y9Rx0AEM.jpg"
+        },
+        {
+          "name": "奶霜香辣拌麵",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406a1a_YC54TsBo.jpg"
+        },
+        {
+          "name": "叉燒香辣霏拌麵",
+          "description": null,
+          "price_cold": 149,
+          "price_hot": 149,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406a50_TSr5BjZn.jpg"
+        },
+        {
+          "name": "叉燒果豚拌麵",
+          "description": null,
+          "price_cold": 149,
+          "price_hot": 149,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406a31_mF1XI3yY.jpg"
+        },
+        {
+          "name": "叉燒奶霜辣拌麵",
+          "description": null,
+          "price_cold": 149,
+          "price_hot": 149,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406a6b_dTmHlcNX.jpg"
+        },
+        {
+          "name": "玫瑰鹽雪花牛泡菜拌麵",
+          "description": null,
+          "price_cold": 149,
+          "price_hot": 149,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406a88_sq0RrWGH.jpg"
+        },
+        {
+          "name": "魔鬼辣椒180ml/瓶",
+          "description": null,
+          "price_cold": 300,
+          "price_hot": 300
+        }
+      ]
+    },
+    {
+      "category": "小菜",
+      "items": [
+        {
+          "name": "手釀韓國泡菜（素食）Handcrafted Korean Kimchi (Vegan)",
+          "description": "源自韓國濟州島的清爽風味，保留自然酸香與爽脆口感。溫潤不嗆辣，搭茶飲、拌麵或甜品都百搭，點亮每一口風味層次。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406af2_tgLXEUVw.jpg"
+        },
+        {
+          "name": "明太子玉子燒",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_66406aa4_4RcNbIlq.jpg"
+        },
+        {
+          "name": "香辣鴨血豆腐",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "溫辣鴨血",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "胡麻嫩豆腐",
+          "description": "Sesame Tofu Salad\r\n嫩滑豆腐搭配香濃胡麻醬，口感清爽滑順，香氣濃郁，是開胃或搭配主食的絕佳選擇。",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "甜甜圈",
+      "items": [
+        {
+          "name": "經典甜甜圈",
+          "description": "酥皮甜甜圈外酥內軟，層次分明，滿溢 香濃滋味",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/503/b503_6742ed83_hBLFr3Z7.png"
+        },
+        {
+          "name": "鹹蛋黃甜甜圈",
+          "description": "Golden Salted Egg Donut\r\n酥皮甜甜圈外酥內軟，金黃酥脆外皮抺上鹹蛋黃，鹹香甘醇，層次豐盛，",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "起司酥皮甜甜圈",
+          "description": "酥皮甜甜圈，外酥內軟，融合起司風味，每一口都是脆與醇的完美結合！",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "阿華田脆酷力酥皮甜甜圈",
+          "description": "以獨特麥香的脆酷顆粒口感，享受喀滋美味，香濃可可開啟一整天好心情！",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "椪糖蕎麥甜甜圈",
+          "description": "酥皮甜甜圈×椪糖蕎麥脆片×芝士奶霜，絕代雙圈，酥脆香滑一口爆滿！",
+          "price_cold": 99,
+          "price_hot": 99
+        },
+        {
+          "name": "提拉米蘇甜甜圈",
+          "description": "酥皮甜甜圈×咖啡可可粉×芝士奶霜，絕代雙圈，香氣濃郁層層堆疊！",
+          "price_cold": 99,
+          "price_hot": 99
+        }
+      ]
+    },
+    {
+      "category": "限定",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "加入會員",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        }
+      ]
+    }
+  ]
+}

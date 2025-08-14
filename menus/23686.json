@@ -1,0 +1,486 @@
+{
+  "store_id": 23686,
+  "store_name": "新莊店",
+  "brand_code": "tencupslady",
+  "brand_name": "拾杯女子",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "**拾光奶茶系列**品味過去,享受現在的每一杯!",
+      "items": [
+        {
+          "name": "桂香秘語 （桂花烏龍奶茶）",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881e9d0_tI6BJb9F.jpeg"
+        },
+        {
+          "name": "珍珠初戀（珍珠奶茶/奶綠）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881ea40_PCwWqpOe.jpeg"
+        },
+        {
+          "name": "觀音聆風（鐵觀音奶茶）",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881eac0_mD1kaFwY.jpeg"
+        },
+        {
+          "name": "伯爵午后（伯爵奶茶)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881eba0_TyBY57Fu.jpeg"
+        },
+        {
+          "name": "布丁心動（統一布丁奶茶）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "烏龍戀曲（烏龍奶茶）",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881ebcb_0cqhNatv.jpeg"
+        },
+        {
+          "name": "錫蘭之夢（錫蘭奶茶)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881ebd9_tlv3ZSE7.jpeg"
+        },
+        {
+          "name": "茉莉呢喃（茉香奶綠）",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881ebe9_2rIntVzQ.jpeg"
+        },
+        {
+          "name": "仙草凍旋風（仙草凍奶茶）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "**清新果香系列**清新果香,讓味蕾與心情一起起舞!",
+      "items": [
+        {
+          "name": "鳳梨夏日冰茶（鳳梨冰茶）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "夏威夷海風（夏威夷綜合水果冰茶）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881ed1e_JRMWq5AQ.jpeg"
+        },
+        {
+          "name": "紅心果舞冰茶（紅心芭樂冰茶）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881ef46_T9QokNU3.jpeg"
+        },
+        {
+          "name": "微醺蘋果紅（蘋果紅茶）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "**茶韻悠然系列**簡單原茶加料最對味!",
+      "items": [
+        {
+          "name": "四季椰趣樂園（四季青珍布椰）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰淇淋狂想曲（冰淇淋紅茶）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881ef7f_PIdFXG0n.jpeg"
+        },
+        {
+          "name": "桂香茶夢（桂花烏龍）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "蜜意拾光 (蜜香紅茶)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "翠語雲煙 (金萱綠茶)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "龍香撲鼻 (熟成烏龍)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "四季微風（四季青茶）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "烏龍心事（烏龍綠茶）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "碳焙深情（碳焙鐵觀音）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "伯爵情深（伯爵紅茶）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "錫蘭時光（錫蘭紅茶）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "茉莉輕舞（茉香綠茶）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "*咖啡悠享系列**苦澀,是為了最後的回甘! *",
+      "items": [
+        {
+          "name": "隨心美式（美式咖啡）",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "拿鐵悸動（拿鐵）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "甜入心啡（冬瓜咖啡）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_6881efbe_iLpcoKfJ.jpeg"
+        },
+        {
+          "name": "抹茶戀曲（抹茶拿鐵）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688deb56_BRbvGCiy.jpeg"
+        },
+        {
+          "name": "榛果物語（榛果拿鐵）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "檸嘎B (西西里咖啡)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688deccb_L8vX7i0T.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "**特調奶香系列**給你的味蕾一個鹹甜的擁抱,愛在每一口!",
+      "items": [
+        {
+          "name": "雲頂初曦 (岩鹽起司奶蓋紅茶)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688df32c_7XIO9owc.jpeg"
+        },
+        {
+          "name": "雲頂輕語 (岩鹽起司奶蓋青茶)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688df319_XWj8BYFZ.jpeg"
+        },
+        {
+          "name": "雲頂深韻 (岩鹽起司奶蓋鐵觀音)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688df301_B4hruPg2.jpeg"
+        },
+        {
+          "name": "雲頂幽境 (岩鹽起司奶蓋烏龍)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688df2f1_erH2J6W7.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "**茶香漫遊系列**一口粉粿,兩口泰奶,幸福感加倍!",
+      "items": [
+        {
+          "name": "粉舞暹羅 (粉粿+泰國手標奶茶)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688df1f4_51PTq4e9.jpeg"
+        },
+        {
+          "name": "粉心綠意 (粉粿+泰國手標奶綠)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688df2a7_1CQ20YVv.jpeg"
+        },
+        {
+          "name": "鴛鴦情深 (鴛鴦奶茶)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "絲滑如夢 (絲滑奶茶)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "**復古經典系列**老味道,新享受,復古經典再現!",
+      "items": [
+        {
+          "name": "蔗香漫舞（甘蔗青茶）",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688df685_ASbP4YOQ.jpeg"
+        },
+        {
+          "name": "清檸醉甜（甘蔗檸檬）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688dfc22_XibFSNAp.jpeg"
+        },
+        {
+          "name": "甜蜜冬季（冬瓜紅茶）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬瓜老友（冬瓜綠茶）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬日青香（冬瓜青茶）",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "瓜瓜微甜  (冬瓜茶)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬瓜清檸風暴（冬瓜檸檬）",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "多多綠意（養樂多綠茶）",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "青檸甜心（檸檬養樂多）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "**甜蜜點綴系列**柔軟時光裡，一口奶香一點甜，是心動的味道!",
+      "items": [
+        {
+          "name": "英倫奶香（伯爵鮮奶茶）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0024_E1U7eirv.jpeg"
+        },
+        {
+          "name": "鐵觀音戀奶（鐵觀音鮮奶茶）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0087_GJo8HWCw.jpeg"
+        },
+        {
+          "name": "茶香浮雲（鲜奶茶）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e00f0_DhKEJQTu.jpeg"
+        },
+        {
+          "name": "火紅絕配(鳥龍鲜奶茶）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e013e_1uyYiG6q.jpeg"
+        },
+        {
+          "name": "仙草甜蜜戀（仙草凍鲜奶茶）",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0229_7Kfd6XE9.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "**夏季限定系列**夏天限定的悸動，只有在這一杯!",
+      "items": [
+        {
+          "name": "陽光微芒（芒果氣泡飲）",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0470_ox3XHRvO.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "**熱壓吐司系列**被熱壓過得幸福，從第一口開始療癒你!",
+      "items": [
+        {
+          "name": "花生流心戀曲  (花生醬、QQ麻糬、花生奶酥、黑糖)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0842_XNRCMvnL.jpeg"
+        },
+        {
+          "name": "莓果Q戀  (莓果奶酥、QQ麻糬、黑糖)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e08ef_4c0Yqo8S.jpeg"
+        },
+        {
+          "name": "甜蜜可可起司圈  (可可奶酥、起司、黑糖)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e09a6_DAiNlefa.jpeg"
+        },
+        {
+          "name": "紅茶珍愛  (伯爵奶酥、珍珠)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0aae_z19sOkZY.jpeg"
+        },
+        {
+          "name": "抹茶Q心  (抹茶奶酥、QQ麻糬、黑糖)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0b42_qzu2PndG.jpeg"
+        },
+        {
+          "name": "咖啡物語 (摩卡咖啡奶酥、黑糖)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0bbe_ci8MP7Rn.jpeg"
+        },
+        {
+          "name": "香蕉布朗尼戀曲 (巧克力片、香蕉)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0cb0_awoMrlgh.jpeg"
+        },
+        {
+          "name": "起司雙重奏 (火腿片、雙重起司)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0d72_8n2S4ZwB.jpeg"
+        },
+        {
+          "name": "鮪情滿溢 (鮪魚、番茄、雙重起司)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0df5_pKqGlDxX.jpeg"
+        },
+        {
+          "name": "夏威夷陽光咬一口  (花生醬、培根、鳳梨片、起司、番茄醬)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3079/b3079_688e0e73_YBfV9O7l.jpeg"
+        },
+        {
+          "name": "抹醬夾心(六選一)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    }
+  ]
+}

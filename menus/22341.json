@@ -1,0 +1,344 @@
+{
+  "store_id": 22341,
+  "store_name": "三重湯城店",
+  "brand_code": "ganso1984curry",
+  "brand_name": "元祖咖哩",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "蓋飯",
+      "items": [
+        {
+          "name": "豬肉蓋飯",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99
+        },
+        {
+          "name": "牛肉蓋飯",
+          "description": null,
+          "price_cold": 109,
+          "price_hot": 109
+        },
+        {
+          "name": "韓式泡菜豬肉蓋飯",
+          "description": null,
+          "price_cold": 119,
+          "price_hot": 119
+        },
+        {
+          "name": "韓式泡菜牛肉蓋飯",
+          "description": null,
+          "price_cold": 129,
+          "price_hot": 129
+        },
+        {
+          "name": "日式叉燒肉蓋飯",
+          "description": null,
+          "price_cold": 139,
+          "price_hot": 139
+        },
+        {
+          "name": "叉燒大滿貫蓋飯",
+          "description": null,
+          "price_cold": 199,
+          "price_hot": 199
+        },
+        {
+          "name": "日式唐揚雞蓋飯",
+          "description": null,
+          "price_cold": 169,
+          "price_hot": 169
+        },
+        {
+          "name": "炸花枝蝦排蓋飯",
+          "description": null,
+          "price_cold": 179,
+          "price_hot": 179
+        },
+        {
+          "name": "厚切炸豬排蓋飯",
+          "description": null,
+          "price_cold": 199,
+          "price_hot": 199
+        },
+        {
+          "name": "炸蝦蓋飯 (2尾)",
+          "description": null,
+          "price_cold": 199,
+          "price_hot": 199
+        }
+      ]
+    },
+    {
+      "category": "咖哩飯",
+      "items": [
+        {
+          "name": "好菇咖哩飯",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "雞肉咖哩飯",
+          "description": null,
+          "price_cold": 130,
+          "price_hot": 130
+        },
+        {
+          "name": "豬肉咖哩飯",
+          "description": null,
+          "price_cold": 130,
+          "price_hot": 130
+        },
+        {
+          "name": "牛肉咖哩飯",
+          "description": null,
+          "price_cold": 150,
+          "price_hot": 150
+        },
+        {
+          "name": "雞豬牛三拼咖哩飯",
+          "description": null,
+          "price_cold": 200,
+          "price_hot": 200
+        },
+        {
+          "name": "日式叉燒肉咖哩飯",
+          "description": null,
+          "price_cold": 190,
+          "price_hot": 190
+        },
+        {
+          "name": "叉燒大滿貫咖哩飯",
+          "description": null,
+          "price_cold": 240,
+          "price_hot": 240
+        },
+        {
+          "name": "酥炸魚片咖哩飯",
+          "description": null,
+          "price_cold": 180,
+          "price_hot": 180
+        },
+        {
+          "name": "日式唐揚雞咖哩飯",
+          "description": null,
+          "price_cold": 190,
+          "price_hot": 190
+        },
+        {
+          "name": "炸花枝蝦排咖哩飯",
+          "description": null,
+          "price_cold": 200,
+          "price_hot": 200
+        },
+        {
+          "name": "厚切炸豬排咖哩飯",
+          "description": null,
+          "price_cold": 220,
+          "price_hot": 220
+        },
+        {
+          "name": "炸蝦咖哩飯 (2尾)",
+          "description": null,
+          "price_cold": 240,
+          "price_hot": 240
+        },
+        {
+          "name": "廣島炸牡蠣咖哩飯",
+          "description": null,
+          "price_cold": 260,
+          "price_hot": 260
+        },
+        {
+          "name": "獨門炸牛漢堡排咖哩飯",
+          "description": null,
+          "price_cold": 260,
+          "price_hot": 260
+        },
+        {
+          "name": "海陸超人氣組合咖哩飯",
+          "description": null,
+          "price_cold": 300,
+          "price_hot": 300
+        }
+      ]
+    },
+    {
+      "category": "美味單點",
+      "items": [
+        {
+          "name": "上等白米飯",
+          "description": null,
+          "price_cold": 20,
+          "price_hot": 20
+        },
+        {
+          "name": "正宗韓式泡菜",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "日式海帶絲",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "可樂餅-咖哩口味 (單入)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "可樂餅-乳酪起司口味 (單入)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "酥炸魚片 ( 2片 )",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "日式唐揚雞 (溫體手切原肉)",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "炸花枝蝦排 (2塊)",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "炸蝦 (3尾)",
+          "description": null,
+          "price_cold": 180,
+          "price_hot": 180
+        },
+        {
+          "name": "正宗廣島炸牡蠣 (4顆)",
+          "description": null,
+          "price_cold": 180,
+          "price_hot": 180
+        }
+      ]
+    },
+    {
+      "category": "湯類",
+      "items": [
+        {
+          "name": "豬肉味噌湯",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "薑絲蛤蜊湯",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "酒蒸蛤蜊",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        }
+      ]
+    },
+    {
+      "category": "甜點",
+      "items": [
+        {
+          "name": "元祖手作奶油餐包",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25
+        },
+        {
+          "name": "現烤牛奶棒",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "葡式小蛋塔",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "極濃巧克力布朗尼蛋糕切片",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "白色之戀波士頓派切片",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "無酒精飲料",
+      "items": [
+        {
+          "name": "冰 - 元祖紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "冰 - 鮮榨檸檬紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冰 - 紅茶鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "熱 - 甘醇玉米鬚茶 (無糖)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "熱 - 日式抹茶 (無糖)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "氣泡飲料",
+      "items": [
+        {
+          "name": "可樂 330ml",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "雪碧 330ml",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        }
+      ]
+    }
+  ]
+}

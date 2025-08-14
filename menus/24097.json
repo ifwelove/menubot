@@ -1,0 +1,126 @@
+{
+  "store_id": 24097,
+  "store_name": "新竹光復店",
+  "brand_code": "beuhui",
+  "brand_name": "北回木瓜牛奶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "期間限定",
+      "items": [
+        {
+          "name": "春曉芭樂乳酸",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "夏感檸檬乳酸",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "南島百香乳酸",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "【果乳】經典濃醇",
+      "items": [
+        {
+          "name": "初熟香蕉牛奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "涼夏西瓜牛奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "慢熬綠豆沙牛奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "晨曦芋頭牛奶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "暖陽木瓜牛奶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "微醺芒果牛奶",
+          "description": null,
+          "price_cold": 105,
+          "price_hot": 105
+        },
+        {
+          "name": "日光酪梨牛奶",
+          "description": null,
+          "price_cold": 115,
+          "price_hot": 115
+        },
+        {
+          "name": "小山草莓牛奶",
+          "description": null,
+          "price_cold": 140,
+          "price_hot": 140
+        }
+      ]
+    },
+    {
+      "category": "【果汁】極鮮純粹",
+      "items": [
+        {
+          "name": "夏感青檸梅冰沙",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "涼夏西瓜果汁",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "南島百香果冰沙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "春曉紅芭樂冰沙",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "微醺芒果冰沙",
+          "description": null,
+          "price_cold": 105,
+          "price_hot": 105
+        },
+        {
+          "name": "慢熬綠豆冰沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    }
+  ]
+}

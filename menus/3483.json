@@ -1,0 +1,278 @@
+{
+  "store_id": 3483,
+  "store_name": "台北內湖旗艦店",
+  "brand_code": "atteabrand",
+  "brand_name": "署茗職茶@AtTea",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "署茗獨家限定",
+      "items": [
+        {
+          "name": "梅事有我在2.0(限冰飲)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "高山金萱烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "梅果茉莉(限冰飲)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "檸柚百香(限冰飲)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蔓越莓果粒茶(限冰飲)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "冬瓜雷夢(限冰塊固定)",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "冬瓜金萱(限冰飲)",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "冬瓜歐蕾(甜度冰塊固定)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "從前奶茶系列",
+      "items": [
+        {
+          "name": "@從前奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "皇極烏龍奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "茉香綠奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "@從前波霸奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "皇極烏龍波霸奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "茉綠波霸奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "蕭署現萃茶系列",
+      "items": [
+        {
+          "name": "四季清香烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "日出名間烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "老蕭皇極烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "回韻蔗香紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "若葉茉香綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "蕭魂芝士霜降奶蓋系列",
+      "items": [
+        {
+          "name": "芝士霜降皇極烏龍",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "芝士霜降蔗香紅茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "芝士霜降茉香綠茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "芝士霜降高山金萱",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "濃醇極鮮歐蕾系列",
+      "items": [
+        {
+          "name": "老蕭皇極烏龍歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "回韻蔗香紅 歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "茉香綠茶歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "波霸皇極烏龍歐蕾",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "波霸回韻蔗紅歐蕾",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "波霸茉香鮮綠歐蕾",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "高山金萱歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "波霸高山金萱歐蕾",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "職人手作特調系列",
+      "items": [
+        {
+          "name": "清新葡萄柚綠茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "清新葡萄柚紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "金鑽鳳梨綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "金鑽鳳梨紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "熱帶森巴水果茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "包材",
+      "items": [
+        {
+          "name": "塑膠袋(1杯裝)",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "塑膠袋(4杯裝)",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "塑膠袋(6杯裝)",
+          "description": null,
+          "price_cold": 3,
+          "price_hot": 3
+        }
+      ]
+    }
+  ]
+}

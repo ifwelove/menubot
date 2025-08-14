@@ -1,0 +1,270 @@
+{
+  "store_id": 25624,
+  "store_name": "新竹金山店",
+  "brand_code": "chappii",
+  "brand_name": "開心茶事",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "光泉期間限定",
+      "items": [
+        {
+          "name": "梔要優酪綠茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_6890090e_McLAQ68D.png"
+        },
+        {
+          "name": "鳳梨優酪果漾",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_689009ea_ceHjYvf2.png"
+        },
+        {
+          "name": "蜜桃優酪果漾",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_689009db_S5aYMCGb.png"
+        }
+      ]
+    },
+    {
+      "category": "鬆餅小堡",
+      "items": [
+        {
+          "name": "好野藍莓",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_68900870_kWKmcEOH.png"
+        },
+        {
+          "name": "醇巧克力",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_689009ff_nLviSkh3.png"
+        },
+        {
+          "name": "藍莓巧克力",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_68900a44_ufVSEKgk.png"
+        },
+        {
+          "name": "奶油卡士達",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_68900856_qhoRpCF2.png"
+        },
+        {
+          "name": "椪糖卡士達",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_6890096b_ZLJelHAc.png"
+        },
+        {
+          "name": "檸檬脆脆卡士達",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_68900a15_fFdWa9Hr.png"
+        },
+        {
+          "name": "開心果卡士達",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_68900997_dFsHEQ3w.png"
+        },
+        {
+          "name": "開心果巧克力",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_68900987_mocvL0tr.png"
+        }
+      ]
+    },
+    {
+      "category": "開心果奶蓋",
+      "items": [
+        {
+          "name": "(分)荷芽開心果奶蓋",
+          "description": null,
+          "price_cold": 68,
+          "price_hot": 68,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_674188cd_usk347PB.png"
+        },
+        {
+          "name": "(分)梔要茉綠開心果奶蓋",
+          "description": null,
+          "price_cold": 68,
+          "price_hot": 68,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_674188e1_iZGgYfo8.png"
+        },
+        {
+          "name": "(分)香馥烏龍開心果奶蓋",
+          "description": null,
+          "price_cold": 73,
+          "price_hot": 73,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_674188f5_e0xbBk6L.png"
+        },
+        {
+          "name": "(分)好韻穀物開心果奶蓋",
+          "description": null,
+          "price_cold": 73,
+          "price_hot": 73,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_68900890_Q5eVMPvn.png"
+        },
+        {
+          "name": "(分)茶花伯爵開心果奶蓋",
+          "description": null,
+          "price_cold": 78,
+          "price_hot": 78,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_689008fe_Lv9hqAIO.png"
+        }
+      ]
+    },
+    {
+      "category": "醇粹開心",
+      "items": [
+        {
+          "name": "荷芽紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_66e7e28c_Bsg0Rm9f.png"
+        },
+        {
+          "name": "梔要茉綠",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_66e7e59b_NsSP7lDe.png"
+        },
+        {
+          "name": "香馥烏龍",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_66e7e616_NT9DEgCc.png"
+        },
+        {
+          "name": "好韻穀物",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_67c7ac4e_cRnfFbiz.png"
+        },
+        {
+          "name": "茶花伯爵",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_689008dd_IshC8rF0.png"
+        }
+      ]
+    },
+    {
+      "category": "哞哞鮮乳茶",
+      "items": [
+        {
+          "name": "荷芽鮮乳紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_66e7e6f5_bjUS7Jo0.png"
+        },
+        {
+          "name": "梔要茉綠鮮乳",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_66e7e745_eTjLgoQ4.png"
+        },
+        {
+          "name": "香馥鮮乳烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_66e7e7c1_5FPfDvY9.png"
+        },
+        {
+          "name": "好韻穀物鮮乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_689008c8_UJAp62xC.png"
+        },
+        {
+          "name": "茶花伯爵鮮乳",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_689008ed_qJWQG5cN.png"
+        },
+        {
+          "name": "荷芽珍珠鮮乳紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_6890091f_l1pkvmwG.png"
+        },
+        {
+          "name": "開心果奶酪鮮乳紅茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_689009a9_18jzPv6i.png"
+        },
+        {
+          "name": "開心果奶酪鮮乳烏龍",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_689009ba_eOb2AKnB.png"
+        }
+      ]
+    },
+    {
+      "category": "果然開心",
+      "items": [
+        {
+          "name": "梔要香橙綠茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_66ebdd22_pilb9Oug.png"
+        },
+        {
+          "name": "梔要旺來綠茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_66ebdca1_iurWI8s2.png"
+        },
+        {
+          "name": "鳳天橙韻果茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_66ebdd6c_svHLngYQ.png"
+        },
+        {
+          "name": "蜜桃茶花伯爵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2577/b2577_689009ca_cjhEuAap.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "store_id": 18136,
+  "store_name": "新明店",
+  "brand_code": "mitshop",
+  "brand_name": "MIT米亞緹時尚創意飲品",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "手作原萃茶品",
+      "items": [
+        {
+          "name": "斯里蘭卡紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "解憂阿薩姆紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "絕品深韻紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "阿里山初芽(菁茶)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "手採鐵觀音茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "初芽冬瓜青茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "桂圓紅棗茶(熱)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黃金柚子茶(熱)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "匠心濃郁奶香",
+      "items": [
+        {
+          "name": "黑糖珍珠奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "斯里蘭卡奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "解憂阿薩姆奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "絕品深韻奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "手採鐵觀音奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "初芽冬瓜青奶茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "香濃可可奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "布丁奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "鮮採蜜釀茶品（最低2分糖）",
+      "items": [
+        {
+          "name": "七色初芽水果茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "現熬金鑽鳳梨茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰釀桑葚初芽",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "白甘蔗初芽",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "港式凍檸茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰釀脆梅初芽",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "軟乳酪冰淇淋紅茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "深韻香蘋紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "職人醇厚咖啡（480ml 小杯360ml）",
+      "items": [
+        {
+          "name": "特選美式（360ml）",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "黃金果美式",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "法式拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "重烘焙拿鐵（360ml）",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "卡布奇諾（360ml）",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "香草拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "榛果拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "軟乳酪冰淇淋拿鐵（480ml）",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        }
+      ]
+    },
+    {
+      "category": "經典水果奶昔（660ml）",
+      "items": [
+        {
+          "name": "甜心草莓奶昔",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "藍莓優格奶昔",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "海鹽花生奶昔",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "特濃巧克力奶昔",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "焦糖巧克力碎片奶昔",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        }
+      ]
+    },
+    {
+      "category": "CO2成癮泡泡（480ml）",
+      "items": [
+        {
+          "name": "綜合莓果",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "最愛蜜桃",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "青檸冬瓜",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "純釀桑葚",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "義大利麵",
+      "items": [
+        {
+          "name": "茄汁德腸義大利麵",
+          "description": null,
+          "price_cold": 160,
+          "price_hot": 160
+        },
+        {
+          "name": "菠菜青醬義大利麵（素）",
+          "description": null,
+          "price_cold": 150,
+          "price_hot": 150
+        },
+        {
+          "name": "白醬鮭魚義大利麵",
+          "description": null,
+          "price_cold": 160,
+          "price_hot": 160
+        }
+      ]
+    },
+    {
+      "category": "新品限量",
+      "items": [
+        {
+          "name": "蘋果西西里氣泡咖啡",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "檸檬西西里氣泡咖啡",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    }
+  ]
+}

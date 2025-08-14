@@ -1,0 +1,584 @@
+{
+  "store_id": 22275,
+  "store_name": "遠百中山店",
+  "brand_code": "spiceup",
+  "brand_name": "茶裡不然",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "別有用辛",
+      "items": [
+        {
+          "name": "爆打辛檸茶",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "辛茶道 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "辛茶道 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "杏辛滿滿 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "杏辛滿滿 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "烏龍肉桂凍飲 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "烏龍肉桂凍飲 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "鳳梨辛冰茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "鳳梨辛冰茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "綜合水果辛茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "綜合水果辛茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "辛沁自然鮮奶茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "辛沁自然鮮奶茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "肉桂凍鮮奶茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "肉桂凍鮮奶茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "小辛機鮮奶茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "小辛機鮮奶茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "小辛機作白日夢奶蓋 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "小辛機作白日夢奶蓋 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "火辛人紅玉鍋煮鮮奶茶",
+          "description": "凍類不提供熱飲",
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "木辛人烏龍鍋煮鮮奶茶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "小清辛鮮奶茶 M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "小清辛鮮奶茶 L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "醇粹找茶",
+      "items": [
+        {
+          "name": "小茉莉綠茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "小茉莉綠茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "南投包種青茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "南投包種青茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "手焙烏龍茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "手焙烏龍茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "紅玉18號紅茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "紅玉18號紅茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "奶奶不思議",
+      "items": [
+        {
+          "name": "小茉莉綠鮮奶茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "小茉莉綠鮮奶茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "南投包種青鮮奶茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "南投包種青鮮奶茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "手焙烏龍鮮奶茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "手焙烏龍鮮奶茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅玉18鮮奶茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "紅玉18鮮奶茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "黑糖純鮮奶茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑糖純鮮奶茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "薯芋鮮奶茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "薯芋鮮奶茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "黑糖珍珠鮮奶茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖珍珠鮮奶茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "奶奶太厚 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "奶奶太厚 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "茉莉開心果太厚 M",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "茉莉開心果太厚 L",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "觀茶結果",
+      "items": [
+        {
+          "name": "多多綠動",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "檸可多綠動",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "檸香茶聚",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "嚼世百香",
+          "description": "凍類不提供熱飲",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "百香茶聚 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "百香茶聚 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "橙香茶聚 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "橙香茶聚 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "梅橙果粒 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "梅橙果粒 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "桂圓紅棗茶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "桂圓紅棗茶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "塩究白日夢",
+      "items": [
+        {
+          "name": "小茉莉的白日夢奶蓋 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "小茉莉的白日夢奶蓋 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "包種青白日夢奶蓋 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "包種青白日夢奶蓋 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "焙烏龍作白日夢奶蓋 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "焙烏龍作白日夢奶蓋 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "紅玉白日夢奶蓋 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅玉白日夢奶蓋 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "茉莉開心果奶蓋 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "茉莉開心果奶蓋 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "不分黑白",
+      "items": [
+        {
+          "name": "珍黑鮮奶",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "黑糖冬露 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "黑糖冬露 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "黑糖冬檸 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "黑糖冬檸 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "烏冬之戰 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "烏冬之戰 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "黑糖冬瓜杏仁 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "黑糖冬瓜杏仁 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "黑糖冬瓜鮮奶 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "黑糖冬瓜鮮奶 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蔗樣青香 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蔗樣青香 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "檸可蔗樣青 M",
+          "description": "凍類不提供熱飲",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "檸可蔗樣青 L",
+          "description": "凍類不提供熱飲",
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "加購",
+      "items": [
+        {
+          "name": "1杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "2杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "4杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "6杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

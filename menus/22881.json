@@ -1,0 +1,280 @@
+{
+  "store_id": 22881,
+  "store_name": "中和環球店",
+  "brand_code": "toptiertea",
+  "brand_name": "特好喝",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "頂極醇香",
+      "items": [
+        {
+          "name": "特 ‧ 茶王",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcfec3_bLmd8q6k.jpg"
+        },
+        {
+          "name": "韻 ‧ 茶后",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcfed0_xYbXKI2T.jpg"
+        },
+        {
+          "name": "沐野金萱",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcfd46_z2MsCJnD.jpg"
+        },
+        {
+          "name": "溫特冬片",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcfed9_F8eNGuXq.jpg"
+        },
+        {
+          "name": "昔日紅茶(固定糖)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcfeb5_ihDX3prU.jpg"
+        }
+      ]
+    },
+    {
+      "category": "絲滑奶茶",
+      "items": [
+        {
+          "name": "茶王厚潤奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcfef6_yV51TCQf.jpg"
+        },
+        {
+          "name": "茶后厚潤奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcfefe_TRXBwVL9.jpg"
+        },
+        {
+          "name": "錫拿厚潤奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff0f_8WBCfRev.jpg"
+        },
+        {
+          "name": "山焙厚潤奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcfeea_kdBWjUf0.jpg"
+        }
+      ]
+    },
+    {
+      "category": "黑雲仙草系列",
+      "items": [
+        {
+          "name": "黑雲鮮奶(固定糖)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff97_UeILgXm1.jpg"
+        },
+        {
+          "name": "黑雲后絨脆脆",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff86_lRBda5Ww.jpg"
+        },
+        {
+          "name": "黑雲昔日紅",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff7d_AhsZC0U7.jpg"
+        },
+        {
+          "name": "黑雲后潤奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff74_rbmZ850e.jpg"
+        },
+        {
+          "name": "黑雲錫拿歐提",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff8e_FjLuZVha.jpg"
+        }
+      ]
+    },
+    {
+      "category": "絲滑鮮乳茶",
+      "items": [
+        {
+          "name": "茶王歐提",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff35_0QgVNxuC.jpg"
+        },
+        {
+          "name": "茶后歐提",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff41_0rlOAf8a.jpg"
+        },
+        {
+          "name": "錫拿歐提",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff67_6kcgBRzV.jpg"
+        },
+        {
+          "name": "山焙歐提",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff21_Vb4peAmd.jpg"
+        },
+        {
+          "name": "昔日歐提(固定糖)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcff29_MokTz0nO.jpg"
+        }
+      ]
+    },
+    {
+      "category": "極濃奶茶",
+      "items": [
+        {
+          "name": "茶王極濃厚潤奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcffa7_IlPcoD83.jpg"
+        },
+        {
+          "name": "茶后極濃厚潤奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcffb1_yK3xSY7q.jpg"
+        },
+        {
+          "name": "錫拿極濃厚潤奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcffba_3figDhBP.jpg"
+        }
+      ]
+    },
+    {
+      "category": "極濃厚歐提",
+      "items": [
+        {
+          "name": "茶王極濃厚歐提",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67ea0676_W5heu6Qv.jpg"
+        },
+        {
+          "name": "茶后極濃厚歐提",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67ea068e_iNJu0lqc.jpg"
+        },
+        {
+          "name": "錫拿極濃厚歐提",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67ea06a5_Y8hagwSp.jpg"
+        }
+      ]
+    },
+    {
+      "category": "濃醇奶霜",
+      "items": [
+        {
+          "name": "雪絨茶王",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcffda_8b1dzFkr.jpg"
+        },
+        {
+          "name": "雪絨茶后",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcffe5_1Jstl6md.jpg"
+        },
+        {
+          "name": "雪絨沐野",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcffc9_YbU5cVe3.jpg"
+        },
+        {
+          "name": "雪絨昔日(固定糖)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcffd2_EpWl7Vui.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鮮萃果茶",
+      "items": [
+        {
+          "name": "橘沐茶王烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dd000e_vMFo725k.jpg"
+        },
+        {
+          "name": "柚沁沐野金萱",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dcfff9_72DMblkg.jpg"
+        },
+        {
+          "name": "檸萃冬片烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_67dd0020_vI78P1cZ.jpg"
+        },
+        {
+          "name": "柚香林萌金萱",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2907/b2907_68367548_izQ4LcKq.jpg"
+        }
+      ]
+    }
+  ]
+}

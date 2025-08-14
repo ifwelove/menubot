@@ -1,0 +1,478 @@
+{
+  "store_id": 22470,
+  "store_name": "汐止遠雄店",
+  "brand_code": "chaffee",
+  "brand_name": "天仁CHAFFEE",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "季節新品 Seasonal Item",
+      "items": [
+        {
+          "name": "913CHAFFEE黃梅冰沙",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_67f33e99_TbGRszeC.jpg"
+        },
+        {
+          "name": "菊葉綠茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_68623fbf_QuFrW9tR.jpg"
+        },
+        {
+          "name": "檸香菊綠茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_68624006_xgwVTHzC.jpg"
+        }
+      ]
+    },
+    {
+      "category": "原茶系列 Original Tea",
+      "items": [
+        {
+          "name": "阿薩姆紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c32e0_iIH6GJUr.jpg"
+        },
+        {
+          "name": "913茶王",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c311b_OkWlvPcA.jpg"
+        },
+        {
+          "name": "大吉嶺紅茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c330d_iUoat3gQ.jpg"
+        },
+        {
+          "name": "913 CHAFFEE",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4988_K6CgaUZN.jpg"
+        },
+        {
+          "name": "靜岡綠抹茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c444f_u5XCEZpa.jpg"
+        },
+        {
+          "name": "靜岡玄米茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c31f2_rESGh5Tz.jpg"
+        },
+        {
+          "name": "靜岡煎茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c351d_OUPaRbDN.jpg"
+        },
+        {
+          "name": "靜岡焙茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c3278_PDRkspUe.jpg"
+        },
+        {
+          "name": "天廬茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c3226_68eMad5s.jpg"
+        },
+        {
+          "name": "東方美人茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c3347_FXsrPvSV.jpg"
+        },
+        {
+          "name": "鐵觀音",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c32a6_zjHVg1fy.jpg"
+        }
+      ]
+    },
+    {
+      "category": "奶茶系列 Milk Tea",
+      "items": [
+        {
+          "name": "阿薩姆奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4711_soa2v6W7.jpg"
+        },
+        {
+          "name": "913奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c473d_PgWID8dS.jpg"
+        },
+        {
+          "name": "大吉嶺奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c44cf_Pa2rt0Hv.jpg"
+        },
+        {
+          "name": "913 CHAFFEE奶茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4a37_Ere8XAMs.jpg"
+        },
+        {
+          "name": "靜岡抹茶奶綠",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4810_Hpf6eiQb.jpg"
+        },
+        {
+          "name": "靜岡玄米奶綠",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c46be_nplQNVCX.jpg"
+        },
+        {
+          "name": "靜岡煎茶奶綠",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4594_2HFmfC0P.jpg"
+        },
+        {
+          "name": "靜岡焙茶奶綠",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4694_hDNIr4Rg.jpg"
+        },
+        {
+          "name": "天廬奶茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c45cd_IkmRqg8t.jpg"
+        },
+        {
+          "name": "東方美人奶茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4766_9ZD71wsi.jpg"
+        },
+        {
+          "name": "鐵觀音奶茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4841_Q4Yk0CIt.jpg"
+        }
+      ]
+    },
+    {
+      "category": "茶拿鐵系列 Tea Latte",
+      "items": [
+        {
+          "name": "阿薩姆紅茶拿鐵",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c3398_E9rFLvBi.jpg"
+        },
+        {
+          "name": "913茶王拿鐵",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c3165_XNZ03DKn.jpg"
+        },
+        {
+          "name": "大吉嶺紅茶拿鐵",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c33c8_uU6ofJNS.jpg"
+        },
+        {
+          "name": "913 CHAFFEE茶拿鐵",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4a6a_o6Fuzegm.jpg"
+        },
+        {
+          "name": "靜岡綠抹茶拿鐵",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c491d_Q14riTAn.jpg"
+        },
+        {
+          "name": "靜岡玄米茶拿鐵",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c43f0_39BAVXjU.jpg"
+        },
+        {
+          "name": "靜岡煎茶拿鐵",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c43c1_GwxMf4za.jpg"
+        },
+        {
+          "name": "天廬茶拿鐵",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4423_C1P52jOR.jpg"
+        },
+        {
+          "name": "東方美人茶拿鐵",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c33f2_KuBy5G9z.jpg"
+        },
+        {
+          "name": "鐵觀音茶拿鐵",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c341f_AgBbeuap.jpg"
+        },
+        {
+          "name": "黑糖焙茶拿鐵",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c34ec_B0yjER9e.jpg"
+        }
+      ]
+    },
+    {
+      "category": "特色茶飲 Special Tea",
+      "items": [
+        {
+          "name": "醇蜜紅茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c3377_BRQ8J7aA.jpg"
+        },
+        {
+          "name": "洛神梅紅茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c478f_ZLcMYuXa.jpg"
+        },
+        {
+          "name": "檸香大吉嶺紅茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c4941_fckiP2zl.jpg"
+        },
+        {
+          "name": "寒天菊花蜜紅茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c47e6_Uu9x13GJ.jpg"
+        },
+        {
+          "name": "醇蜜天廬茶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c3251_KiRy8GA0.jpg"
+        },
+        {
+          "name": "橙香天廬茶",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c47f9_C1E5kYqb.jpg"
+        },
+        {
+          "name": "913CHAFFEE西西里",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_6788cdb4_CuvHGych.jpg"
+        }
+      ]
+    },
+    {
+      "category": "珍奶系列 Milk Tea With Tapioca",
+      "items": [
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c47b4_jhJnS6z7.jpg"
+        },
+        {
+          "name": "913珍珠奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c447e_BEIlaizJ.jpg"
+        },
+        {
+          "name": "珍珠紅茶拿鐵",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c34c1_AijsPBwk.jpg"
+        },
+        {
+          "name": "913珍珠茶拿鐵",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c44a8_1RYnqQFC.jpg"
+        }
+      ]
+    },
+    {
+      "category": "無咖啡因 Non-Caffeine Beverage",
+      "items": [
+        {
+          "name": "菊花蜜茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c48f7_BtkZVGSR.jpg"
+        },
+        {
+          "name": "橙香蜜果醋",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c490a_FwCfMJBc.jpg"
+        },
+        {
+          "name": "博士茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_6756a6d1_HxpjZaqg.jpg"
+        },
+        {
+          "name": "博士奶茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_6756a6c9_YXu0PhJ9.jpg"
+        },
+        {
+          "name": "博士茶拿鐵",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c31c1_yeGX2Sqc.jpg"
+        }
+      ]
+    },
+    {
+      "category": "咖啡 Coffee",
+      "items": [
+        {
+          "name": "美式咖啡",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c48d9_olbrRcft.jpg"
+        },
+        {
+          "name": "拿鐵咖啡",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2679/b2679_673c48eb_0PeFVWO4.jpg"
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "一杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "二杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "四杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "六杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    },
+    {
+      "category": "茶食零嘴系列Tea Snack Series",
+      "items": [
+        {
+          "name": "913奶茶小茶酥(特價)",
+          "description": null,
+          "price_cold": 39,
+          "price_hot": 39
+        }
+      ]
+    },
+    {
+      "category": "精緻袋茶系列Tea Bag Series",
+      "items": [
+        {
+          "name": "913茶王原片10入",
+          "description": null,
+          "price_cold": 125,
+          "price_hot": 125
+        }
+      ]
+    }
+  ]
+}

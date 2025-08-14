@@ -1,0 +1,282 @@
+{
+  "store_id": 17965,
+  "store_name": "公館店",
+  "brand_code": "europatea",
+  "brand_name": "木衛二",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "新品上市！",
+      "items": [
+        {
+          "name": "蕎香焙麥茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蕎香焙麥乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "全發酵茶特選",
+      "items": [
+        {
+          "name": "荖焙烏香紅",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "盧哈娜錫蘭",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "午夜藍伯爵",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "春暖暮紅玉",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "無發酵茶/部分發酵茶特選",
+      "items": [
+        {
+          "name": "碧湖翡翠綠",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "韃靼胭脂綠",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "穀雨鐵觀音",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蒼麓文山青",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "手沖現泡高山茶",
+      "items": [
+        {
+          "name": "極品奶香金萱",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "初芽驚蟄烏龍",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "夏摘東方美人",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "蟬涎蜜香嫣紅",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "木衛工法厚醇奶茶",
+      "items": [
+        {
+          "name": "焙紅厚奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "碧湖綠奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "錫蘭蜜奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "穀雨厚奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "午夜藍奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "木衛招牌茶香那提",
+      "items": [
+        {
+          "name": "焙紅鮮乳茶那提",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "碧湖鮮乳茶那提",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "錫蘭鮮乳茶那提",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "穀雨鮮乳茶那提",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "午夜藍鮮乳茶那提",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "台灣山林系作",
+      "items": [
+        {
+          "name": "馬告桂花蜜",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "馬告蜜奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "馬告焙乳茶那提",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "樨桂馬告蜜凍飲",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "木衛獨門茶奶特調",
+      "items": [
+        {
+          "name": "極黑濃紅奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "極黑濃藍奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "桂花蘭蜜珍奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "桂花蘭蜜奶凍",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "鮮調果茶與無酒精雞尾酒式飲品",
+      "items": [
+        {
+          "name": "日光嶼冰茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "樨蜜香桂茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蒼麓桂花蜜凍飲",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "仲夏接骨木",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "泰戈爾夏日冰茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "碧湖檸檬蜜凍飲",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    }
+  ]
+}

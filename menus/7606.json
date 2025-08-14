@@ -1,0 +1,277 @@
+{
+  "store_id": 7606,
+  "store_name": "內湖西湖店",
+  "brand_code": "niaoni",
+  "brand_name": "鳥泥飲室",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "季節飲品",
+      "items": [
+        {
+          "name": "金萱搖芭樂 (大)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "323凍凍茶（大）",
+          "description": "冷泡凍頂烏龍搭配杏仁凍，甜度固定",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "來杯好茶",
+      "items": [
+        {
+          "name": "奶韻金萱（大）",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "初日紅茶（大）",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "小種伯爵（大）",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "文火鐵觀音（大）",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "輕焙烏龍（大）",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "323凍頂（大）",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "氣泡波波(最低微冰)",
+      "items": [
+        {
+          "name": "沁涼檸檬(大)",
+          "description": "檸檬片、檸檬汁、氣泡水",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "好天氣(大)甜度固定",
+          "description": "甜橙、小農蜂蜜、氣泡水",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "兒童樂園(大)",
+          "description": "甜橙、百香果、氣泡水",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "青春彈珠檯(大)",
+          "description": "可爾必思、檸檬汁、氣泡水",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "紅潤蔓越莓(大)",
+          "description": "手作蔓越莓果醬、氣泡水",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "楊桃婆婆(大)甜度固定",
+          "description": "楊桃釀、檸檬汁、氣泡水",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "濃奶香",
+      "items": [
+        {
+          "name": "珍珠黑糖鮮奶 (大)甜度固定",
+          "description": "白玉珍珠、手炒黑糖搭配禾香鮮乳",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "鮮奶紅茶 （大）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鮮奶金萱（大）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鮮奶伯爵（大）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鮮奶烏龍（大）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鮮奶鐵觀音（大）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "芋泥鮮奶(大)甜度固定",
+          "description": "芋泥, 搭配禾香鮮乳",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "芋見親子凍(大)甜度固定",
+          "description": "芋圓、芋泥與茶凍, 搭配禾香鮮乳",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "金萱凍奶(大)甜度固定",
+          "description": "手作金萱茶凍搭配禾香鮮乳",
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "手作菓飲",
+      "items": [
+        {
+          "name": "百香凍檸(大)甜度固定",
+          "description": "無咖啡因, 百香果汁及檸檬汁",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "阿嬤凍檸茶(大)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "山城的孩子(大)",
+          "description": "可爾必思、百香果搭配奶韻金萱",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "金萱凍檸(大)甜度固定",
+          "description": "手作金萱茶凍搭配蜂蜜檸檬",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "幸運梅烏龍 (大)",
+          "description": "脆梅、梅嶺梅子釀搭配輕焙烏龍",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "桂花烏龍(大)甜度固定",
+          "description": "甜度固定 ,甜度來自桂花釀",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "桂花鐵觀音(大)甜度固定",
+          "description": "甜度固定 ,甜度來自桂花釀",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蔓蔓長夜(大)最低微糖",
+          "description": "檸檬、手作蔓越莓果醬搭配伯爵紅茶",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "蜂蜜系列",
+      "items": [
+        {
+          "name": "蜂蜜烏龍(大)甜度固定",
+          "description": "使用小農蜂蜜, 甜度固定~",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜紅茶(大)甜度固定",
+          "description": "使用小農蜂蜜, 甜度固定~",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜金萱(大)甜度固定",
+          "description": "使用小農蜂蜜, 甜度固定~",
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "楊桃情調",
+      "items": [
+        {
+          "name": "楊桃水水 （大）甜度固定",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "楊梅汁汁（大）甜度固定",
+          "description": "楊桃釀、梅子釀、檸檬汁",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "楊桃金金 （大）甜度固定",
+          "description": "楊桃釀搭配奶韻金萱",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    }
+  ]
+}

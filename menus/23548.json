@@ -1,0 +1,202 @@
+{
+  "store_id": 23548,
+  "store_name": "遠東世紀店",
+  "brand_code": "wudotea",
+  "brand_name": "伍度",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "【伍度．續命水】每周更新!",
+      "items": [
+        {
+          "name": "雲嶺初光．武陵高山烏龍L",
+          "description": "梔子花香、淡淡果韻",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "【伍度．經典紅茶系列】",
+      "items": [
+        {
+          "name": "甘韻紅茶XL",
+          "description": "麥香馥郁，無糖也回甘\r\n☆建議微冰",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "療癒紅茶XL",
+          "description": "紅茶+嚴選GABA機能茶",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "檸香紅韻L",
+          "description": "甘韻紅茶+檸檬原汁",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "濃韻奶紅L",
+          "description": "紅茶奶茶",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "【王者美人·GABA東方美人茶系】",
+      "items": [
+        {
+          "name": "甘露美人XL",
+          "description": "東方美人茶-果蜜馥郁，甘潤回韻",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "晨曦檸美L",
+          "description": "東方美人茶+檸檬原汁",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "旺來美人L",
+          "description": "東方美人茶+鳳梨\r\n☆最低微糖",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "厚韻美人L",
+          "description": "東方美人茶奶茶",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "美人鮮奶茶L",
+          "description": "東方美人鮮奶茶",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "葡萄柚美人L",
+          "description": "固定甜度-微糖",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "厚韻美人珍奶L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "【伍度．綠茶系列】",
+      "items": [
+        {
+          "name": "清韻綠茶XL",
+          "description": "經典茉香綠茶-清新甘甜，回甘悠長",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "檸香綠韻L",
+          "description": "檸檬綠茶-檸香清透，清涼提神",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "旺來翠綠L",
+          "description": "鳳梨綠茶-茶韻清爽，果香馥郁\r\n☆最低微糖",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "綠韻奶香L",
+          "description": "奶綠-茶香柔順，奶香滑",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "綠韻鮮奶茶L",
+          "description": "鳳梨綠茶-茶韻清爽，果香馥郁\r\n☆最低微糖",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "葡萄柚綠茶L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "【伍度．烏龍茶系列】",
+      "items": [
+        {
+          "name": "春曉花語XL",
+          "description": "四季春烏龍-花香四溢，清爽宜人\r\n☆建議無糖去冰",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "春露青檸L",
+          "description": "四季春烏龍+檸檬原汁",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "春曉奶香L",
+          "description": "四季春奶茶",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "旺來春茶L",
+          "description": "四季春烏龍+鳳梨\r\n☆最低微糖",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "觀音蘭韻XL",
+          "description": "鐵觀音-濃郁蘭香，韻味悠長",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "觀香青檸L",
+          "description": "鐵觀音+檸檬原汁",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鐵韻奶香L",
+          "description": "鐵觀音奶茶",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "旺來觀音L",
+          "description": "鐵觀音+鳳梨\r\n☆最低微糖",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "金萱清韻XL",
+          "description": "奶香輕盈，口感細膩\r\n☆建議無糖去冰",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "雲嶺清韻XL",
+          "description": "杉林溪羊灣烏龍-山嵐茶香，清雅回韻\r\n☆建議無糖去冰",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    }
+  ]
+}

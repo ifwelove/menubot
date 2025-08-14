@@ -1,0 +1,301 @@
+{
+  "store_id": 23014,
+  "store_name": "後站總店",
+  "brand_code": "hsingtsui",
+  "brand_name": "享萃",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "加購塑膠袋",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    },
+    {
+      "category": "享萃排行榜",
+      "items": [
+        {
+          "name": "(一)法式焦糖布丁拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "(二)享萃綠凍烏龍拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "(三)青檸玄米玉露",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(四)青檸紫蝶豆花",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(五)享萃綠茶拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(六)金焙ㄑ一ㄠˊ麥",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(七)蜂ㄋ一ㄤˋ金露",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(八)百香四季春",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(九)蜜桃蘋果茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "嚴選現萃原茶",
+      "items": [
+        {
+          "name": "享萃紅茶",
+          "description": "花韻果香",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "伯爵紅茶",
+          "description": "佛手柑香",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "享萃綠茶",
+          "description": "茉莉花香",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "四季春茶",
+          "description": "茶香不澀",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "享烏龍綠",
+          "description": "清甜香氣",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "享萃烏龍",
+          "description": "炭焙觀音",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "金萱烏龍",
+          "description": "淡淡奶香",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "玄米玉露",
+          "description": "日式綠茶",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜂釀金露",
+          "description": "啤酒花香",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "金焙蕎麥",
+          "description": "無咖啡因",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "果系特調茶",
+      "items": [
+        {
+          "name": "青檸玄米玉露",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "青檸紫蝶豆花",
+          "description": "孕婦、經期、服用抗凝血藥物者 不適飲用",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "青檸蜂釀金露",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "青檸蕎麥茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "蜜桃蘋果茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "洛神花仙女",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "ㄉㄡㄉㄡ綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "香醇鮮奶茶",
+      "items": [
+        {
+          "name": "享萃紅茶拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "伯爵紅茶拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "享萃綠茶拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "享萃烏龍拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "法式焦糖拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "經典可可拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "夏季限定",
+      "items": [
+        {
+          "name": "鮮榨西瓜汁(限自取)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "酪梨布丁拿鐵冰沙(限自取)(M)",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "芒果拿鐵冰沙(限自取)(M)",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "雪蓋紅",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "雪蓋綠",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "百香四季春",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "冷萃瓶裝茶",
+      "items": [
+        {
+          "name": "金萱烏龍冷泡茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "享萃招牌茶糖",
+      "items": [
+        {
+          "name": "享萃紅茶茶糖",
+          "description": null,
+          "price_cold": 149,
+          "price_hot": 149
+        },
+        {
+          "name": "享萃烏龍茶糖",
+          "description": null,
+          "price_cold": 149,
+          "price_hot": 149
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "store_id": 20331,
+  "store_name": "鮮乳之戀甜品屋",
+  "brand_code": "xianruzhilian",
+  "brand_name": "Love milk",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "奶酪系列(採用初鹿鮮奶製成)",
+      "items": [
+        {
+          "name": "手工原味奶酪",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2b5d_A8sQv2XT.jpg"
+        },
+        {
+          "name": "手工草莓奶酪",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2b72_vkgOQri8.jpg"
+        },
+        {
+          "name": "手工藍莓奶酪",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2c28_QyJt6wT0.jpg"
+        },
+        {
+          "name": "手工芒果奶酪",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2c67_GBMWKkzc.jpg"
+        }
+      ]
+    },
+    {
+      "category": "手工泡芙系列(採用初鹿鮮奶製成)",
+      "items": [
+        {
+          "name": "原味鮮奶泡芙",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2c76_dW4KC9fe.jpg"
+        },
+        {
+          "name": "巧克力鮮奶泡芙",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2c8d_QzPL3Ghp.jpg"
+        },
+        {
+          "name": "草莓冰淇淋泡芙",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "手工餅乾系列",
+      "items": [
+        {
+          "name": "手工核桃酥",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2cb3_W1ElCqjV.jpg"
+        },
+        {
+          "name": "大甲奶油酥餅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0755b_WLj36xSQ.jpg"
+        },
+        {
+          "name": "手工鳳梨酥餅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2cc6_pRBv5J43.jpg"
+        },
+        {
+          "name": "一口花生酥+核桃酥",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2d1c_wsVQabrj.jpg"
+        },
+        {
+          "name": "牛奶燒餅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2d33_l7aWq0rV.jpg"
+        },
+        {
+          "name": "手工原味曲奇餅乾",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2d48_hC3UOAMl.jpg"
+        },
+        {
+          "name": "手工巧克力曲奇餅乾",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2d57_7gHiho8F.jpg"
+        },
+        {
+          "name": "杏仁瓦片",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2d69_jh32vxbT.jpg"
+        },
+        {
+          "name": "手工蛋捲",
+          "description": null,
+          "price_cold": 199,
+          "price_hot": 199,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2d7c_59CMo6eP.jpg"
+        },
+        {
+          "name": "司康巧克力",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "司康葡萄乾",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "比臉大蝴蝶酥巧克力",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "比臉大蝴蝶酥草莓",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "比臉大蝴蝶酥抹茶",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "比臉大蝴蝶酥優格",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        }
+      ]
+    },
+    {
+      "category": "蛋糕類",
+      "items": [
+        {
+          "name": "檸檬蛋糕",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2e3a_TkJd5nr4.jpg"
+        },
+        {
+          "name": "原味生乳捲",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0ad70_Gjx7wAZP.jpg"
+        },
+        {
+          "name": "檸檬磅蛋糕",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c08863_nLoyiKtI.jpg"
+        },
+        {
+          "name": "原味重乳酪",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2e50_cGVbuJHz.jpg"
+        },
+        {
+          "name": "提拉米蘇蛋糕",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2e67_AiRoM6nf.jpg"
+        },
+        {
+          "name": "葡式千層蛋塔",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2e7b_0gxFtpJd.jpg"
+        },
+        {
+          "name": "巧克力布朗尼蛋糕",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2ea6_z0EhkaJx.jpg"
+        },
+        {
+          "name": "徳式布丁蛋塔",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2ebd_UivnKdoY.jpg"
+        },
+        {
+          "name": "原味波士頓",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2ecc_e26noMAi.jpg"
+        },
+        {
+          "name": "玫瑰檸檬塔",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2edd_nv37BqS2.jpg"
+        },
+        {
+          "name": "玫瑰莓果塔",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2ef0_K3SV9Tfr.jpg"
+        },
+        {
+          "name": "黑鑽提拉米蘇",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2f01_2TPcKFvE.jpg"
+        },
+        {
+          "name": "彩虹乳酪",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2f15_VrHK5XQ4.jpg"
+        },
+        {
+          "name": "大甲芋泥寶盒",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2f45_O78wIrNv.jpg"
+        },
+        {
+          "name": "雲朵蛋塔",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c08894_Of7j8H9u.jpg"
+        },
+        {
+          "name": "雲朵蛋塔6入禮盒組",
+          "description": null,
+          "price_cold": 450,
+          "price_hot": 450,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_67067c40_GOTjZ7ML.jpg"
+        },
+        {
+          "name": "法式馬卡龍",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2f56_cqjGruNb.jpg"
+        },
+        {
+          "name": "特濃巧克力蛋糕",
+          "description": null,
+          "price_cold": 179,
+          "price_hot": 179,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2f78_tHqxn8Rz.jpg"
+        },
+        {
+          "name": "北海道原味生乳燒",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0acc7_aGU9F3KQ.jpg"
+        },
+        {
+          "name": "巧克力波士頓",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "草莓乳酪",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "原味泡芙蛋糕",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "檸檬泡芙蛋糕",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "芋頭泡芙蛋糕",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "生乳包",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "草莓生乳捲",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "桂圓蛋糕",
+          "description": null,
+          "price_cold": 199,
+          "price_hot": 199
+        }
+      ]
+    },
+    {
+      "category": "現榨果汁類",
+      "items": [
+        {
+          "name": "蘋果牛奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf2fc0_3m128qpB.jpg"
+        },
+        {
+          "name": "草莓牛奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf3011_whYC3y5Z.jpg"
+        },
+        {
+          "name": "酪梨牛奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf3021_DZSH2zRi.jpg"
+        },
+        {
+          "name": "芒果牛奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf3032_BOhavUCs.jpg"
+        },
+        {
+          "name": "紅蘿蔔牛奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf306b_wWDCurkA.jpg"
+        },
+        {
+          "name": "蘋果紅蘿蔔牛奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf3077_rwKqD6PV.jpg"
+        },
+        {
+          "name": "綜合果汁",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0ae77_qmyuXhx8.jpg"
+        },
+        {
+          "name": "蘋果原汁",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0ae99_SpVX8LOT.jpg"
+        },
+        {
+          "name": "酪梨蘋果原汁",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0aeb6_dPli3WEU.jpg"
+        },
+        {
+          "name": "蘋果芭樂",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0aef2_9SaoM3WD.jpg"
+        },
+        {
+          "name": "芒果柳橙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf308c_zTNrFRx2.jpg"
+        },
+        {
+          "name": "芭樂檸檬",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf309c_5eaDwqVt.jpg"
+        },
+        {
+          "name": "芭樂多多",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0af0f_xgZKjMYp.jpg"
+        },
+        {
+          "name": "芭樂梅粉",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf30ac_QShIn9Nb.jpg"
+        },
+        {
+          "name": "芭樂綠茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0af2c_7E4e1goL.jpg"
+        },
+        {
+          "name": "蘋果綠茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0af3f_s8pC4gFL.jpg"
+        },
+        {
+          "name": "蘋果冰茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0af4c_pt6YjeKl.jpg"
+        },
+        {
+          "name": "柳橙綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf30ca_bQdKitJh.jpg"
+        }
+      ]
+    },
+    {
+      "category": "特調類",
+      "items": [
+        {
+          "name": "綠豆沙牛奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66c0ada5_NDt5aiEV.jpg"
+        },
+        {
+          "name": "芋頭牛奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf30dc_lS7HnhPi.jpg"
+        }
+      ]
+    },
+    {
+      "category": "小農奶茶類(採用高大鮮乳)",
+      "items": [
+        {
+          "name": "紅茶鮮奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf3214_VPk80Hvn.jpg"
+        },
+        {
+          "name": "綠茶鮮奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf3204_4O52in7m.jpg"
+        },
+        {
+          "name": "冬瓜鮮奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf31f7_6rOCdTJg.jpg"
+        },
+        {
+          "name": "黑糖鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf31a3_tn5bOrUs.jpg"
+        },
+        {
+          "name": "手工奶酪鮮奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf3193_B8CY5bJd.jpg"
+        }
+      ]
+    },
+    {
+      "category": "茶類",
+      "items": [
+        {
+          "name": "紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf3158_oJvZPWLt.jpg"
+        },
+        {
+          "name": "綠茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf314d_GKTRvU1W.jpg"
+        },
+        {
+          "name": "冬瓜茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf313b_tYuyhqpe.jpg"
+        },
+        {
+          "name": "冬瓜綠茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf312b_OrtBHsLy.jpg"
+        },
+        {
+          "name": "冬瓜紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf311f_DHpmjytI.jpg"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf3114_b48axz6X.jpg"
+        },
+        {
+          "name": "豆漿紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf3107_4VnCbqeT.jpg"
+        },
+        {
+          "name": "多多綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_66bf30f7_nRfsxY5k.jpg"
+        },
+        {
+          "name": "包種冷泡綠茶無糖",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_67067cb9_Oeaptd6P.jpg"
+        },
+        {
+          "name": "冷泡蜜香紅茶無糖",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2517/b2517_67067ccc_jeLExtaF.jpg"
+        }
+      ]
+    }
+  ]
+}

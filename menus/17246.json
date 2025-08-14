@@ -1,0 +1,221 @@
+{
+  "store_id": 17246,
+  "store_name": "微風北車店",
+  "brand_code": "boboliao",
+  "brand_name": "料杯杯",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "季節新品",
+      "items": [
+        {
+          "name": "葡萄梅冰啵爽",
+          "description": "蜂蜜珍珠+原味寒天+葡萄冰沙+梅子",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_68135559_rJTE3hmQ.jpg"
+        },
+        {
+          "name": "葡萄冰萃茶",
+          "description": "原味寒天+葡萄+四季青茶",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_68135569_6I2Ql0Mu.jpg"
+        }
+      ]
+    },
+    {
+      "category": "純茶定律",
+      "items": [
+        {
+          "name": "小葉烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_681354e0_n53HsLRu.png"
+        },
+        {
+          "name": "18號紅玉",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_672ef9ca_ldiRm0zI.jpg"
+        }
+      ]
+    },
+    {
+      "category": "醇奶反應",
+      "items": [
+        {
+          "name": "紅玉牛乳茶",
+          "description": "紅玉紅茶+牛乳",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_672efa5a_F01w8qJ9.jpg"
+        },
+        {
+          "name": "小葉牛乳茶",
+          "description": "小葉烏龍+牛乳",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_681354fb_8evf4xrV.png"
+        },
+        {
+          "name": "芋頭牛乳",
+          "description": "芋頭丁+牛乳",
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_6724974b_7EuH1IFU.jpg"
+        },
+        {
+          "name": "黑白麻吉牛乳茶",
+          "description": "巧克力麻吉+牛奶麻吉+紅玉牛乳茶",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "仙草凍牛乳",
+          "description": "仙草凍+牛乳",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_672efa1f_AKz20Psa.jpg"
+        }
+      ]
+    },
+    {
+      "category": "冰沙配方",
+      "items": [
+        {
+          "name": "芋泥牛乳沙沙",
+          "description": "彩小芋圓+仙草凍+牛乳+芋頭冰沙",
+          "price_cold": 90,
+          "price_hot": 90
+        }
+      ]
+    },
+    {
+      "category": "奶茶公式",
+      "items": [
+        {
+          "name": "麻吉芋奶茶",
+          "description": "芋泥+芋頭丁+牛奶麻吉+仙草凍+仙蜜奶茶",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "仙草凍奶茶",
+          "description": "仙草凍+仙蜜奶茶",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "BOBO奶茶",
+          "description": "蜂蜜珍珠+紅玉寒天+彩小芋圓+仙蜜奶茶",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_672ef812_hca9Yukg.jpg"
+        },
+        {
+          "name": "蜂蜜珍珠奶茶",
+          "description": "蜂蜜珍珠+仙蜜奶茶",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_672ef82f_whgbW4Sn.jpg"
+        },
+        {
+          "name": "仙蜜奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_672ef847_v8eqmztO.jpg"
+        }
+      ]
+    },
+    {
+      "category": "特調實驗",
+      "items": [
+        {
+          "name": "百香QQ搖搖綠",
+          "description": "QQ粉水晶+彩小芋圓+紅玉寒天+百香+四季青茶",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_672efa8b_gLlYps7o.jpg"
+        },
+        {
+          "name": "青檸多QQ",
+          "description": "蜂蜜珍珠+QQ粉水晶+原味寒天+青檸+養樂多",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_672efa9f_V5hZPQpu.jpg"
+        }
+      ]
+    },
+    {
+      "category": "中杯熱飲",
+      "items": [
+        {
+          "name": "18號紅玉M",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_610cd27b_RfhnZU39.png"
+        },
+        {
+          "name": "小葉烏龍M",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "紅玉牛乳茶M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "小葉烏龍牛乳茶M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "仙蜜奶茶M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_610cd31a_cGQXVfng.png"
+        },
+        {
+          "name": "蜂蜜珍珠奶茶M",
+          "description": "蜂蜜珍珠+仙蜜奶茶",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/739/b739_672ef95a_pIkugRWt.png"
+        },
+        {
+          "name": "芋頭牛乳M",
+          "description": "芋頭丁+牛乳",
+          "price_cold": 90,
+          "price_hot": 90
+        }
+      ]
+    },
+    {
+      "category": "其他",
+      "items": [
+        {
+          "name": "1-2杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "4-16杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

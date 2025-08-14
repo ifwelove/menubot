@@ -1,0 +1,336 @@
+{
+  "store_id": 24430,
+  "store_name": "台北吉林店",
+  "brand_code": "skyline",
+  "brand_name": "嵐天",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "野莓雲頂",
+      "items": [
+        {
+          "name": "野莓雲頂穀麥",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "野莓雲頂茉綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "野莓雲頂紅韻",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "野莓雲頂四季",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "野莓雲頂紅烏龍",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "嵐韻茗品",
+      "items": [
+        {
+          "name": "嵐天穀麥茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "五窨茉綠",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "蜜香紅韻",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "四季春",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "茶花紅烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "培香烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "雲頂奶蓋",
+      "items": [
+        {
+          "name": "嵐天穀麥奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "五窨茉綠奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜜香紅韻奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "四季春奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "茶花紅烏龍奶蓋",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "培香烏龍奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "嵐韻輕乳",
+      "items": [
+        {
+          "name": "茉綠輕乳",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "紅韻輕乳",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "四季輕乳",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "紅烏龍輕乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "嵐牧純乳",
+      "items": [
+        {
+          "name": "煮濃紅茶鮮乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "培香烏龍鮮乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "大甲芋頭鮮乳",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "嵐天穀麥鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "五窨沫香鮮乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "沖繩雪鹽紅茶厚奶",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        },
+        {
+          "name": "手作珍珠紅茶鮮乳",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "梅果牛奶雪沙",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "紅茶布蕾鮮乳",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "匠人特調",
+      "items": [
+        {
+          "name": "紫蘇檸蒙國寶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "純冬瓜茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "養樂多綠茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜檸檬",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "果韻茶語",
+      "items": [
+        {
+          "name": "蜜桃果果綠",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        },
+        {
+          "name": "柳丁綠果果",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        },
+        {
+          "name": "紅柚果粒茶",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        },
+        {
+          "name": "白甘蔗冰茶",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        },
+        {
+          "name": "翡翠檸檬",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "綜合莓果綠",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蜂蜜檸檬脆啵啵",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        }
+      ]
+    },
+    {
+      "category": "季節限定",
+      "items": [
+        {
+          "name": "半斤芒果冰沙",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "金芒茉綠",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        },
+        {
+          "name": "金芒雪沙",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "楊枝甘露",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "其他",
+      "items": [
+        {
+          "name": "購物袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    }
+  ]
+}

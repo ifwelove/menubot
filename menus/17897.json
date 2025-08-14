@@ -1,0 +1,391 @@
+{
+  "store_id": 17897,
+  "store_name": "總店",
+  "brand_code": "dootea",
+  "brand_name": "兜喜茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "純茶系列",
+      "items": [
+        {
+          "name": "紅茶",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680efa1c_SrCVWniw.png"
+        },
+        {
+          "name": "茉莉綠茶",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0a79_wQYeAmHz.png"
+        },
+        {
+          "name": "金焙烏龍",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0a96_EdeP96Nx.png"
+        },
+        {
+          "name": "四季春",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0aac_z0lvxJfk.png"
+        }
+      ]
+    },
+    {
+      "category": "單品奶酪(提前一天預訂)",
+      "items": [
+        {
+          "name": "單品招牌奶酪",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "奶蓋系列",
+      "items": [
+        {
+          "name": "奶蓋紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0adb_JWpnmrwv.png"
+        },
+        {
+          "name": "奶蓋綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0af4_gJLQRIAy.png"
+        },
+        {
+          "name": "奶蓋烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0b0e_WCbo765Z.png"
+        },
+        {
+          "name": "奶蓋四季",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0b24_FYNepoyG.png"
+        }
+      ]
+    },
+    {
+      "category": "奶茶系列",
+      "items": [
+        {
+          "name": "招牌奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0b3d_EyP54IxW.png"
+        },
+        {
+          "name": "茉莉奶綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0b80_YaZh2G7f.png"
+        },
+        {
+          "name": "金焙奶烏",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0bbf_aS03HUOQ.png"
+        },
+        {
+          "name": "四季春奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0bd6_QpBu5W6w.png"
+        },
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0bee_8qQ5SKwc.png"
+        },
+        {
+          "name": "椰果奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0c0a_7R3uvmSb.png"
+        },
+        {
+          "name": "雙Ｑ奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芋圓奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f1caa_Fxv6k1iL.png"
+        },
+        {
+          "name": "玫瑰奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_68160af6_5Dd3FNWX.jpg"
+        },
+        {
+          "name": "焦糖奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0e09_WUxg3XnC.png"
+        },
+        {
+          "name": "榛果奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_68160b91_AyjwCGq6.jpg"
+        },
+        {
+          "name": "夏威夷果奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_68160bd9_KAITS9an.jpg"
+        },
+        {
+          "name": "布丁奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0d94_dMpemBxn.png"
+        }
+      ]
+    },
+    {
+      "category": "拿鐵系列",
+      "items": [
+        {
+          "name": "紅茶拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0ddd_3FxC0etr.png"
+        },
+        {
+          "name": "茉莉綠拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "金焙烏龍拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "四季春拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "可可拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "玫瑰拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "焦糖拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "榛果拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "夏威夷果拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "特調果茶",
+      "items": [
+        {
+          "name": "蜂蜜水",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "蜂蜜紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蜂蜜綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蜂蜜柚子茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "多多綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f1493_OGRCIeJ9.png"
+        },
+        {
+          "name": "荔枝玉露",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "金桔檸檬",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f1462_ygMTCupD.png"
+        },
+        {
+          "name": "可可",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "鮮奶系列",
+      "items": [
+        {
+          "name": "珍珠鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_68160d5a_m2sRJixl.jpg"
+        },
+        {
+          "name": "芋圓鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_681748e4_SVxbznWr.jpg"
+        },
+        {
+          "name": "布丁鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_681748fa_b5kWnxR0.jpg"
+        }
+      ]
+    },
+    {
+      "category": "黑糖系列",
+      "items": [
+        {
+          "name": "黑糖珍珠鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f1436_GO14zFbd.png"
+        },
+        {
+          "name": "黑糖鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f144c_yuMcfSLs.png"
+        }
+      ]
+    },
+    {
+      "category": "冰淇淋.冰沙系列",
+      "items": [
+        {
+          "name": "冰淇淋紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0d4a_nhFfjHCl.png"
+        },
+        {
+          "name": "冰淇淋綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_68160cc2_eTXEUGhB.jpg"
+        },
+        {
+          "name": "冰淇淋烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰淇淋四季",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰淇淋鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冰淇淋可可",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2141/b2141_680f0d64_afOiVbW1.png"
+        },
+        {
+          "name": "巧克力冰沙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    }
+  ]
+}

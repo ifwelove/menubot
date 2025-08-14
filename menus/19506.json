@@ -1,0 +1,233 @@
+{
+  "store_id": 19506,
+  "store_name": "板橋店",
+  "brand_code": "sonnychathai",
+  "brand_name": "泰桑哩",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "奶茶系列",
+      "items": [
+        {
+          "name": "泰國手沖奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911518_qQ8D6S4V.png"
+        },
+        {
+          "name": "泰國手沖奶綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_669115b1_zRlXkdyS.png"
+        },
+        {
+          "name": "泰國玫瑰奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911886_TznsPNvR.png"
+        }
+      ]
+    },
+    {
+      "category": "手標原茶系列",
+      "items": [
+        {
+          "name": "泰國手標紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911651_FAUhnvrl.png"
+        },
+        {
+          "name": "泰國玫瑰花茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911685_tB8vjWCE.png"
+        }
+      ]
+    },
+    {
+      "category": "巧克力系列",
+      "items": [
+        {
+          "name": "火山噴發美祿",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_669116c9_zO1x7deL.png"
+        },
+        {
+          "name": "泰國濃情可可",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_6691175c_HbhZoWA3.png"
+        }
+      ]
+    },
+    {
+      "category": "鮮奶系列",
+      "items": [
+        {
+          "name": "泰國鮮奶紅茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_669117b8_2TcBfi6m.png"
+        },
+        {
+          "name": "泰國鮮奶綠茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_669117f3_ZriHqfLV.png"
+        },
+        {
+          "name": "泰國鮮奶可可",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_6691182a_4ArX23dK.png"
+        },
+        {
+          "name": "泰國鮮奶玫瑰",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_669180bd_YlXMPAyT.png"
+        }
+      ]
+    },
+    {
+      "category": "咖啡系列",
+      "items": [
+        {
+          "name": "泰國風味咖啡",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_669118d1_uZtLRTqQ.png"
+        },
+        {
+          "name": "泰國古式咖啡",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911919_nkBXLcfV.png"
+        },
+        {
+          "name": "泰國鴛鴦奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911958_FWLpkz0y.png"
+        }
+      ]
+    },
+    {
+      "category": "特調系列",
+      "items": [
+        {
+          "name": "泰國檸檬紅茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_669119c4_HgkOwsSm.png"
+        },
+        {
+          "name": "泰國玫瑰蜜露",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_669119f8_dFazncTK.png"
+        },
+        {
+          "name": "少女粉紅內內",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911a36_LODV4EN8.png"
+        }
+      ]
+    },
+    {
+      "category": "蘇打系列",
+      "items": [
+        {
+          "name": "蜂蜜檸檬蘇打",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911a88_aowvAGUi.png"
+        },
+        {
+          "name": "戀愛檸檬蘇打",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911acb_1LnwtyzH.png"
+        },
+        {
+          "name": "青澀檸檬蘇打",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911b0d_W7C0tq39.png"
+        }
+      ]
+    },
+    {
+      "category": "黃金綠茶系列",
+      "items": [
+        {
+          "name": "泰國黃金綠奶★",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911b55_1t0ioUl8.png"
+        },
+        {
+          "name": "泰國黃金綠茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911baa_VbhgDwGq.png"
+        },
+        {
+          "name": "泰國蜂蜜綠茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2415/b2415_66911beb_be9flVxc.png"
+        }
+      ]
+    },
+    {
+      "category": "購物袋",
+      "items": [
+        {
+          "name": "一杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "兩杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "四杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "store_id": 20193,
+  "store_name": "台北錦州店",
+  "brand_code": "bailangtea",
+  "brand_name": "白浪春禾",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "飲。",
+      "items": [
+        {
+          "name": "刮油水",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "素顏水",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "粉嫩水",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "貴婦水",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "美容水 水蜜桃醋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "美容水 蔓越莓醋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "窈窕水",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "茶。",
+      "items": [
+        {
+          "name": "極簡紅茶",
+          "description": "完美比例:無糖-少冰",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "九號青茶",
+          "description": "完美比例:無糖-少冰",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "自然冬茶",
+          "description": "完美比例:無糖-少冰",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "雲霧白茶",
+          "description": "完美比例:無糖-少冰",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "淡然綠茶",
+          "description": "完美比例:無糖-少冰",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬瓜甘露",
+          "description": "甜度固定",
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "高山頂級手採紅玉",
+          "description": "完美比例:無糖-少冰",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "瑰密紅茶",
+          "description": "瑰密系列：溫暖細膩的個性就像玫瑰的香氣，輕輕靠近就能感受到他的溫度。│推薦甜度冰塊: 無糖‧少冰│總糖量53 總熱量205.1 數值為全糖量計│總咖啡因含量201毫克以上【紅】│數值會因飲品製程、原物料調整等因素而變動。",
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "果。",
+      "items": [
+        {
+          "name": "荔枝綠茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "荔枝紅茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "荔枝竹香",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "百香綠茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "百香白茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冬瓜檸檬＋檸檬凍",
+          "description": null,
+          "price_cold": 63,
+          "price_hot": 63
+        },
+        {
+          "name": "冰糖檸檬",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "百香檸檬",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬瓜青茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "瑰密冷露",
+          "description": "瑰密系列：低調又獨特的吸引力，像玫瑰的芬芳與冬瓜的清甜交織，讓人忍不住回味與欣賞。│推薦甜度冰塊: 微糖‧少冰│總糖量31總熱量251 數值為全糖量計│總咖啡因含量100毫克以下【綠】│數值會因飲品製程、原物料調整等因素而變動。",
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "桂花系列",
+      "items": [
+        {
+          "name": "桂花凍檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "桂花竹影",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "奶。",
+      "items": [
+        {
+          "name": "伯爵鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "白茶鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "綠茶鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "竹香鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冬瓜鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "琥珀珍珠鮮奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "瑰密鮮奶茶",
+          "description": "瑰密系列：玫瑰的香氣與奶茶的醇厚完美融合，表面柔和甜美、內心深思熟慮，讓人越瞭解越欣賞。│推薦甜度冰塊: 微糖‧少冰│總糖量65 總熱量342.6 數值為全糖量計│總咖啡因含量201毫克以上【紅】│數值會因飲品製程、原物料調整等因素而變動。",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "暖。",
+      "items": [
+        {
+          "name": "黑糖桂圓紅棗茶 大",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "黑糖桂圓紅棗鮮奶茶 大",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "芒果系列",
+      "items": [
+        {
+          "name": "芒果青茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    }
+  ]
+}

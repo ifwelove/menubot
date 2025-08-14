@@ -1,0 +1,372 @@
+{
+  "store_id": 18769,
+  "store_name": "蘆洲店",
+  "brand_code": "houmeiguo",
+  "brand_name": "兩良紅茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "店長推薦",
+      "items": [
+        {
+          "name": "小芋圓冬瓜青茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f773b_I3byoYT2.jpg"
+        },
+        {
+          "name": "寒天檸檬紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f78e4_lGb7ozSy.jpg"
+        },
+        {
+          "name": "寒天半熟紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "寒天冬瓜檸檬",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f78c9_ZgLsKdr4.jpg"
+        },
+        {
+          "name": "黑糖粉圓鮮奶紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f797b_LGPWTI1u.jpg"
+        }
+      ]
+    },
+    {
+      "category": "酸甘甜",
+      "items": [
+        {
+          "name": "百香綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7838_Xfo5JycQ.jpg"
+        },
+        {
+          "name": "檸檬紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7b95_nUiENG3P.jpg"
+        },
+        {
+          "name": "檸檬綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "檸檬汁",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7b73_TMth6sDK.jpg"
+        },
+        {
+          "name": "百香紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f781f_SvXaD9NW.jpg"
+        },
+        {
+          "name": "百香綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7838_Xfo5JycQ.jpg"
+        },
+        {
+          "name": "萃梅綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7911_8NG9DPQC.jpg"
+        },
+        {
+          "name": "萃梅青茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "萃梅半熟紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "季節限定 (甜度固定)",
+      "items": [
+        {
+          "name": "冰淇淋烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f77d7_bGW4HeUq.jpg"
+        },
+        {
+          "name": "金桔檸檬綠",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7865_Nnvhz7Gw.jpg"
+        },
+        {
+          "name": "冰淇淋烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f77d7_bGW4HeUq.jpg"
+        },
+        {
+          "name": "冰淇淋古早紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冰淇淋綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7801_4HiZ9G1c.jpg"
+        },
+        {
+          "name": "冰淇淋半熟紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冰淇淋仙草茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f77d7_bGW4HeUq.jpg"
+        }
+      ]
+    },
+    {
+      "category": "厚喝茶",
+      "items": [
+        {
+          "name": "古早紅茶(可調甜度)",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f778c_d7s2EPla.jpg"
+        },
+        {
+          "name": "半熟紅茶(五分糖)",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f77ac_IlxZsGWo.jpg"
+        },
+        {
+          "name": "綠茶",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7a49_7rzuZDaY.jpg"
+        },
+        {
+          "name": "烏龍茶(二分糖)",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f78ad_9ykcqPjY.jpg"
+        },
+        {
+          "name": "烏龍綠茶",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f78ad_9ykcqPjY.jpg"
+        },
+        {
+          "name": "四季青茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "重焙烤茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        }
+      ]
+    },
+    {
+      "category": "手工熬 (甜度固定)",
+      "items": [
+        {
+          "name": "黑糖粉圓鮮奶(500cc) 純鮮奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7939_FSr7iQ9h.jpg"
+        },
+        {
+          "name": "黑糖粉圓鮮奶(700cc) 純鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f795d_f9uZRxO0.jpg"
+        },
+        {
+          "name": "嫩仙草凍鮮奶(500cc) 純鮮奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f799f_5Lqt43MV.jpg"
+        },
+        {
+          "name": "嫩仙草凍鮮奶(700cc) 純鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f79c2_v9ZRcW2F.jpg"
+        }
+      ]
+    },
+    {
+      "category": "濃醇香 (選用光泉鮮奶)",
+      "items": [
+        {
+          "name": "鮮奶紅茶(可調甜度)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7a72_6aHB8m5l.jpg"
+        },
+        {
+          "name": "鮮奶綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7b4a_Isj1awpe.jpg"
+        },
+        {
+          "name": "鮮奶烏龍茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7a9c_RJ9K5IaD.jpg"
+        },
+        {
+          "name": "鮮奶半熟紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7b2c_YjevCg2p.jpg"
+        },
+        {
+          "name": "鮮奶烤茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "鮮奶青茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "鮮奶仙草茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "黑糖古早紅拿鐵",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7a9c_RJ9K5IaD.jpg"
+        },
+        {
+          "name": "黑糖半熟紅拿鐵 (固定半糖)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7a9c_RJ9K5IaD.jpg"
+        },
+        {
+          "name": "黑糖烏龍拿鐵 (固定半糖)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7a9c_RJ9K5IaD.jpg"
+        }
+      ]
+    },
+    {
+      "category": "古早昔(選用義峰冬瓜)-甜度固定",
+      "items": [
+        {
+          "name": "冬瓜茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬瓜青茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬瓜仙草茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7761_s4awSgIc.jpg"
+        },
+        {
+          "name": "冬瓜鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7ac5_TQK3k2mq.jpg"
+        },
+        {
+          "name": "仙草茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "嫩仙草凍茶飲",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/b599_662f7a16_MZe1cDws.jpg"
+        }
+      ]
+    }
+  ]
+}

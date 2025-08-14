@@ -1,0 +1,244 @@
+{
+  "store_id": 15991,
+  "store_name": "永和樂華計劃",
+  "brand_code": "dejeng",
+  "brand_name": "得正",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "新品上市-白毫烏龍",
+      "items": [
+        {
+          "name": "白毫烏龍",
+          "description": "#中杯：熱量(174kal) | 總糖量(41g) | 咖啡因(100mg以下)\r\n#大杯：熱量(224.4kal) | 總糖量(52.8g)  | 咖啡因(120mg以下)\r\n#以上數值為全糖去冰(最高值)",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_67eb393a_5GBXzty8.jpg"
+        },
+        {
+          "name": "白毫烏龍鮮奶",
+          "description": "#中杯：熱量(231.5kal) | 總糖量(43g) | 咖啡因(100mg以下)\r\n#大杯：熱量(318.12kal) | 總糖量(58.74g)  | 咖啡因(110mg以下)\r\n#以上數值為全糖去冰(最高值)",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_67eb394d_8BWl3thd.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Original TEA",
+      "items": [
+        {
+          "name": "紅茶",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bba8c_WS4ORaz0.jpg"
+        },
+        {
+          "name": "綠茶",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbc5a_PD5LKTbv.jpg"
+        },
+        {
+          "name": "春烏龍",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbc8b_mJNRydUD.jpg"
+        },
+        {
+          "name": "輕烏龍",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbc9e_eBK8z2OE.jpg"
+        },
+        {
+          "name": "焙烏龍",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbcb4_clynoGBP.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Classic MILK TEA",
+      "items": [
+        {
+          "name": "奶茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbdda_n2woy6UY.jpg"
+        },
+        {
+          "name": "焙烏龍奶茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbdf2_DJalRBNK.jpg"
+        },
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbe0f_gqDM8s2t.jpg"
+        },
+        {
+          "name": "黃金珍珠奶綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbe26_JM1WKBij.jpg"
+        },
+        {
+          "name": "烘吉奶茶",
+          "description": "『沉澱屬正常現象，建議飲用前搖勻』",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_65a0ca9d_68W3CBfj.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Fresh MILK",
+      "items": [
+        {
+          "name": "紅茶鮮奶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbe47_mbJMg627.jpg"
+        },
+        {
+          "name": "輕烏龍鮮奶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbe7a_Bat4EoS1.jpg"
+        },
+        {
+          "name": "焙烏龍鮮奶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbe94_Jb8csQ13.jpg"
+        },
+        {
+          "name": "烘吉鮮奶",
+          "description": "『沉澱屬正常現象，建議飲用前搖勻』",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_65a0cab2_HzpR64n7.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Double FRUIT",
+      "items": [
+        {
+          "name": "檸檬春烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbccc_jlyIkQ8X.jpg"
+        },
+        {
+          "name": "香橙春烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbce2_HrOYM0oN.jpg"
+        },
+        {
+          "name": "甘蔗春烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbcf9_cfX7tDFL.jpg"
+        },
+        {
+          "name": "青梅春烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbd24_zpUlQhBG.jpg"
+        },
+        {
+          "name": "優酪春烏龍",
+          "description": "『 過敏原資訊：本產品含有葡萄柚，食物過敏者請留意。』",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbd43_7lbYuCi6.jpg"
+        },
+        {
+          "name": "雙柚金烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_6705d241_I8UVd0ZE.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Cheese MILK FOAM",
+      "items": [
+        {
+          "name": "芝士奶蓋春烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbd7b_jIF4sBtf.jpg"
+        },
+        {
+          "name": "芝士奶蓋焙烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbd91_svoPDflM.jpg"
+        },
+        {
+          "name": "芝士奶蓋阿華田",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_650bbdbe_7PnkQviN.jpg"
+        },
+        {
+          "name": "芝士奶蓋烘吉茶",
+          "description": "『沉澱屬正常現象，建議飲用前搖勻』",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1879/b1879_65a0cac8_AfCMgL8d.jpg"
+        }
+      ]
+    },
+    {
+      "category": "購物袋",
+      "items": [
+        {
+          "name": "1杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "4杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "6杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

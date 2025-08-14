@@ -1,0 +1,456 @@
+{
+  "store_id": 22029,
+  "store_name": "大安總店",
+  "brand_code": "wooyobrand",
+  "brand_name": "吾悠茶所",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "茶師拾光",
+      "items": [
+        {
+          "name": "蜜涎東方美人",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c026e0_D8tx1GFN.jpg"
+        },
+        {
+          "name": "高山蜜香紅茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02704_2HbFo6GY.jpg"
+        },
+        {
+          "name": "龍眼木文火鐵觀音",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02740_BI60cO1k.jpg"
+        },
+        {
+          "name": "龍眼木慢焙鐵觀音",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02869_h8Kb3MNg.jpg"
+        }
+      ]
+    },
+    {
+      "category": "純茶",
+      "items": [
+        {
+          "name": "吾蜜烏龍茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "高山烏龍茶王",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c0292f_Kliecatm.jpg"
+        },
+        {
+          "name": "豐香四季春",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02949_70mU1kCa.jpg"
+        },
+        {
+          "name": "米香烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c0295f_GUHwzo4r.jpg"
+        },
+        {
+          "name": "吾悠鐵觀音",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02978_jb39BLt1.jpg"
+        },
+        {
+          "name": "黃金蕎麥烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬瓜烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "好韻金萱",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "奶茶",
+      "items": [
+        {
+          "name": "吾蜜烏龍茶(奶茶)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c029e6_z7mPZE9t.jpg"
+        },
+        {
+          "name": "吾悠鐵觀音(奶茶)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02abb_W5sR7feq.jpg"
+        },
+        {
+          "name": "米香烏龍(奶茶)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02aed_xhKVXIAj.jpg"
+        },
+        {
+          "name": "吾濃紅(奶茶)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02b38_FdV3xmQl.jpg"
+        },
+        {
+          "name": "好韻金萱(奶茶)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c029e6_z7mPZE9t.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶",
+      "items": [
+        {
+          "name": "吾蜜烏龍茶(鮮奶茶)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02b59_UHWyhg1j.jpg"
+        },
+        {
+          "name": "吾悠鐵觀音(鮮奶茶)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02b75_tpwfkCzI.jpg"
+        },
+        {
+          "name": "米香烏龍(鮮奶茶)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02b8b_eGHn6sYQ.jpg"
+        },
+        {
+          "name": "吾濃紅(鮮奶茶)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02b0f_cxoZwmMA.jpg"
+        },
+        {
+          "name": "好韻金萱(鮮奶茶)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02b59_UHWyhg1j.jpg"
+        },
+        {
+          "name": "吾蜜烏龍(厚奶茶)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02b59_UHWyhg1j.jpg"
+        }
+      ]
+    },
+    {
+      "category": "新台味",
+      "items": [
+        {
+          "name": "童味麵茶鮮奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02bab_5rgDSfBk.jpg"
+        },
+        {
+          "name": "黑糖燕麥鐵觀音鮮奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02bca_LuOxXr5s.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鮮果茶",
+      "items": [
+        {
+          "name": "鳳梨四季春",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02f66_YV5AFUBC.jpg"
+        },
+        {
+          "name": "百鳳鮮果茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02f7f_61NPWOVT.jpg"
+        },
+        {
+          "name": "橙心鮮果茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02f95_vMBk4L7y.jpg"
+        },
+        {
+          "name": "百香鮮果茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67c02fcd_mSB6ijoH.jpg"
+        }
+      ]
+    },
+    {
+      "category": "手打檸檬輕果茶",
+      "items": [
+        {
+          "name": "檸香吾蜜烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67da734c_ihycZSYC.jpg"
+        },
+        {
+          "name": "檸香四季春",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67da7396_PV25niEh.jpg"
+        },
+        {
+          "name": "檸香鐵觀音",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67da73bf_7rHOjke1.jpg"
+        }
+      ]
+    },
+    {
+      "category": "無因系",
+      "items": [
+        {
+          "name": "台灣黃金蕎麥茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "檸香冬瓜",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67da6ffb_YR7gvDsZ.jpg"
+        },
+        {
+          "name": "黑糖珍珠鮮奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2730/b2730_67da7055_JWmrOUYM.jpg"
+        }
+      ]
+    },
+    {
+      "category": "極選蛋堡",
+      "items": [
+        {
+          "name": "起司蛋堡",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "火腿蛋堡",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "火腿起司蛋堡",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "鹹香葱花蛋堡",
+      "items": [
+        {
+          "name": "起司蔥花蛋堡",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "鹹香蔥花蛋牛肉堡",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鹹香蔥花蛋里肌豬堡",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "鹹香蔥花蛋雞肉堡",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "厚吐司",
+      "items": [
+        {
+          "name": "瑞士阿華田脆酷力",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "脆粒花生",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "雞肉堡",
+      "items": [
+        {
+          "name": "香雞肉堡",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "川香麻辣雞腿堡",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        }
+      ]
+    },
+    {
+      "category": "豬肉堡",
+      "items": [
+        {
+          "name": "招牌豬肉堡",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "里肌豬排堡",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "莎莎里肌豬排堡",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "牛肉堡",
+      "items": [
+        {
+          "name": "花生牛肉堡",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "經典牛肉堡",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "墨西哥辣牛堡",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "朝食吐司",
+      "items": [
+        {
+          "name": "火腿起司蛋吐司",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "肉鬆蛋吐司",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "鮪魚玉米沙拉吐司",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "起司豬肉蛋吐司",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "里肌肉蛋吐司",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    }
+  ]
+}

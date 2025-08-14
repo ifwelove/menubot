@@ -1,0 +1,519 @@
+{
+  "store_id": 7963,
+  "store_name": "新北五股店",
+  "brand_code": "wanpoteashop",
+  "brand_name": "萬波島嶼紅茶Wanpo Tea Shop",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "季節限定",
+      "items": [
+        {
+          "name": "芒果冰沙",
+          "description": "建議半糖，固定冰沙。愛文芒果選用的是屏東枋山，新鮮採收，急速冷凍，芒果香氣濃厚，炎炎夏日來一杯，真冰涼。｜總糖量(最高值)：M66/L82克，總熱量(最高值)：M329/L410大卡｜咖啡因總含量：M0毫克/L0毫克。",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_6837fc2a_vdcIw3RX.jpg"
+        },
+        {
+          "name": "楊枝甘露",
+          "description": "建議半糖，固定冰沙。愛文芒果選用的是屏東枋山，新鮮採收，急速冷凍，芒果的香氣濃厚，添加小芋圓、椰漿、西谷米、白柚果肉，推薦給喜歡港式甜品的消費者。｜總糖量(最高值)：M68/L95克，總熱量(最高值)：M512/L717大卡｜咖啡因總含量：M0毫克/L0毫克。",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_6662762e_mzdf275b.jpg"
+        },
+        {
+          "name": "金鑽鳳梨紅茶",
+          "description": "建議微糖、少冰。鳳梨醬採用金鑽鳳梨又名台農17號鳳梨,搭配土鳳梨熬製而成,，加上紅茶，整體呈現微酸香甜輕盈不澀口。茶葉產地：越南、台灣｜總糖量(最高值)：M72/L100克，總熱量(最高值)：M368/L514大卡｜咖啡因總含量：M101-200毫克/L101-200毫克。",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "金鑽鳳梨綠茶",
+          "description": "建議微糖、少冰。鳳梨醬採用金鑽鳳梨又名台農17號鳳梨,搭配土鳳梨熬製而成,，加上綠茶，整體呈現微酸香甜帶些許花香。茶葉產地：越南｜總糖量(最高值)：M73/L106克，總熱量(最高值)：M377/L546大卡｜咖啡因總含量：M低於100毫克/L101-200毫克。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_680aeb54_3H8yfdNI.jpg"
+        },
+        {
+          "name": "金鑽鳳梨鐵觀音",
+          "description": "建議微糖、少冰。鳳梨醬採用金鑽鳳梨又名台農17號鳳梨,搭配土鳳梨熬製而成,，加上烏龍鐵觀音，整體呈現微酸香甜茶香清新穩定厚實，韻久不散。茶葉產地：台灣、越南｜總糖量(最高值)：M72/L100克，總熱量(最高值)：M368/L514大卡｜咖啡因總含量：M101-200毫克/L101-200毫克。",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "金鑽鳳梨金萱",
+          "description": "建議微糖、少冰。鳳梨醬採用金鑽鳳梨又名台農17號鳳梨,搭配土鳳梨熬製而成,，加上青茶，整體呈現微酸香甜，尾韻以奶香收尾，順暢潤喉。茶葉產地：台灣｜總糖量(最高值)：M72/L100克，總熱量(最高值)：M368/L514大卡｜咖啡因總含量：M低於100毫克/L101-200毫克。",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "金鑽鳳梨麗雅",
+          "description": "建議微糖、少冰。鳳梨醬採用金鑽鳳梨又名台農17號鳳梨,搭配土鳳梨熬製而成,，加上麗雅烏龍，整體呈現微酸香甜高雅醇厚。茶葉產地：台灣｜總糖量(最高值)：M72/L100克，總熱量(最高值)：M368/L514大卡｜咖啡因總含量：M低於100毫克/L低於100毫克。",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "金鑽杏仁露",
+          "description": "建議微糖、冰塊固定。鳳梨醬採用金鑽鳳梨又名台農17號鳳梨,搭配土鳳梨熬製而成,，加上杏仁凍，整體呈現微酸香甜且帶口感。總糖量(最高值)：M73/L106克，總熱量(最高值)：M377/L546大卡｜咖啡因總含量：M/L0毫克。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_680aec74_k5Ljco0J.jpg"
+        }
+      ]
+    },
+    {
+      "category": "奶蓋系列",
+      "items": [
+        {
+          "name": "奶蓋紅茶",
+          "description": "只限大杯。固定少冰，建議微糖。使用茂谷柑汁做成的奶蓋，有淡淡的柑橘香。搭配阿薩姆紅茶茶香醇厚不刮舌、茶感滑順好入喉，輕盈不澀口。茶葉產地：越南、台灣｜總糖量(最高值)：L52克，總熱量(最高值)：L472大卡｜咖啡因總含量：L201毫克以上。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_67dcdb46_Vt84bvn2.jpg"
+        },
+        {
+          "name": "奶蓋綠茶",
+          "description": "只限大杯。固定少冰，建議微糖。使用茂谷柑汁做成的奶蓋，有淡淡的柑橘香。搭配綠茶風味帶有些許花香，清新怡人、淡雅脫俗。茶葉產地：越南｜總糖量(最高值)：L52克，總熱量(最高值)：L472大卡｜咖啡因總含量：L101-200毫克。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_67dcdb99_fprwRUCH.jpg"
+        },
+        {
+          "name": "奶蓋鐵觀音",
+          "description": "只限大杯。固定少冰，建議微糖。使用茂谷柑汁做成的奶蓋，有淡淡的柑橘香。搭配鐵觀音茶香心清穩定、香韻厚實久久不散。茶葉產地：台灣、越南｜總糖量(最高值)：L52克，總熱量(最高值)：L472大卡｜咖啡因總含量：L201毫克以上。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_67dcdbb4_YZvRmcLG.jpg"
+        },
+        {
+          "name": "奶蓋青茶",
+          "description": "只限大杯。固定少冰，建議微糖。使用茂谷柑汁做成的奶蓋，有淡淡的柑橘香。搭配金萱青茶，前韻清新醇滑，尾韻以豐厚奶香收尾，流暢潤喉。茶葉產地：台灣｜總糖量(最高值)：L52克，總熱量(最高值)：L472大卡｜咖啡因總含量：L101-200毫克。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_67dcdbd0_nqk19Omv.jpg"
+        },
+        {
+          "name": "奶蓋麗雅",
+          "description": "只限大杯。固定少冰，建議微糖。使用茂谷柑汁做成的奶蓋，有淡淡的柑橘香。搭配屬黃金烏龍種，茶色金黃亮麗，風味高雅醇厚，香氣環繞、刻骨銘心。茶葉產地：台灣｜總糖量(最高值)：L52克，總熱量(最高值)：L472大卡｜咖啡因總含量：L101-200毫克。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_67dcdbec_F8njbQKy.jpg"
+        },
+        {
+          "name": "奶蓋纖麥茶",
+          "description": "只限大杯。固定少冰，建議微糖。使用茂谷柑汁做成的奶蓋，有淡淡的柑橘香。搭配纖麥茶，淡淡甘甜的風味，以及喝得到淡淡的麥香。茶葉產地：澳洲｜總糖量(最高值)：L29克，總熱量(最高值)：L354大卡｜咖啡因總含量：L0毫克。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_67dcdc0b_x0V9XIPm.jpg"
+        },
+        {
+          "name": "奶蓋蜜柑烏龍",
+          "description": "只限大杯。固定少冰，建議微糖。奶蓋綿滑帶有淡淡柑橘香，搭配蜜柑烏龍，整體風味酸甜中夾帶柑橘奶香。茶葉產地：台灣｜總糖量(最高值)：L66克，總熱量(最高值)：L545大卡｜咖啡因總含量：L低於100毫克。",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_67dcdc33_VghdWMli.jpg"
+        },
+        {
+          "name": "奶蓋蜜柑翡翠",
+          "description": "只限大杯。固定少冰，建議微糖。奶蓋綿滑帶有淡淡柑橘香，搭配蜜柑烏龍，整體風味酸甜中夾帶柑橘奶香。茶葉產地：越南｜總糖量(最高值)：L66克，總熱量(最高值)：L545大卡｜咖啡因總含量：L低於100毫克。",
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_67dcdc4f_Zlyrf5xX.jpg"
+        },
+        {
+          "name": "奶蓋蜜柑金萱",
+          "description": "只限大杯。固定少冰，建議微糖。奶蓋綿滑帶有淡淡柑橘香，搭配蜜柑烏龍，整體風味酸甜中夾帶柑橘奶香。茶葉產地：台灣｜總糖量(最高值)：L66克，總熱量(最高值)：L545大卡｜咖啡因總含量：L101-200毫克。",
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_67dcdd04_2rTPRbSh.jpg"
+        }
+      ]
+    },
+    {
+      "category": "品茗精選",
+      "items": [
+        {
+          "name": "島嶼紅茶",
+          "description": "來自南投名間鄉，阿薩姆紅茶茶香醇厚不刮舌、茶感滑順好入喉，輕盈不澀口。茶葉產地：越南、台灣｜總糖量(最高值)：M37/L51克，總熱量(最高值)：M185/L259大卡｜咖啡因總含量：M/L101-200毫克。",
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_620f5f6f_O1Gf7M3V.jpg"
+        },
+        {
+          "name": "烏龍鐵觀音",
+          "description": "茶葉產自嘉義阿里山，鐵觀音茶香心清穩定、香韻厚實久久不散。茶葉產地：台灣、越南｜總糖量(最高值)：M37/L51克，總熱量(最高值)：M185/L259大卡｜咖啡因總含量：M/L101-200毫克。",
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_620f606d_sUrKqmav.jpg"
+        },
+        {
+          "name": "金萱青茶",
+          "description": "茶葉產自南投，當地盛產硬枝紅心，前韻清新醇滑，尾韻以豐厚奶香收尾，流暢潤喉。茶葉產地：台灣｜總糖量(最高值)：M37/L51克，總熱量(最高值)：M185/L259大卡，咖啡因總含量：M/L101-200毫克。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_620f60e7_lba4i13J.jpg"
+        },
+        {
+          "name": "麗雅烏龍",
+          "description": "茶葉產自南投，屬黃金烏龍種，茶色金黃亮麗，風味高雅醇厚，香氣環繞、刻骨銘心。茶葉產地：台灣｜總糖量(最高值)：M37L/51克，總熱量(最高值)：M185/L259大卡｜咖啡因總含量：M低於100毫克/L101-200毫克。",
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_640fe879_X9EeYtJH.jpg"
+        },
+        {
+          "name": "宣橋綠茶",
+          "description": "茶葉產自山茶科-山茶屬的常綠植物-茶樹，風味帶有些許花香，清新怡人、淡雅脫俗。茶葉產地：越南 ｜總糖量（最高值）：M37/L51克，總熱量（最高值）：M185/L259大卡｜咖啡因總含量：M/L101-200毫克。",
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_657bc1b8_OEsji6H5.jpg"
+        },
+        {
+          "name": "纖麥茶",
+          "description": "選用來在澳洲的大麥，淡淡甘甜的風味，以及喝得到淡淡的麥香。茶葉產地：澳洲 ｜總糖量(最高值)：M19/L28克，總熱量(最高值)：M94/L141大卡｜咖啡因總含量：0毫克。",
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_66e3a5c4_yC8EmvPL.jpg"
+        }
+      ]
+    },
+    {
+      "category": "手路調飲",
+      "items": [
+        {
+          "name": "金萱珍波粉",
+          "description": "硬枝紅心金萱青茶搭配波霸、粉圓、粉粿，口感豐富。茶葉產地：台灣｜總糖量(最高值)：M63/L88克，總熱量(最高值)：M386/L541大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_620f05bd_evEkP3KT.jpg"
+        },
+        {
+          "name": "金牌愛玉檸檬",
+          "description": "飲品含茶，愛玉含茶。萬波自製金牌愛玉，添加宣橋綠茶，口感滑嫩Q彈，夏日消暑聖品。茶葉產地：台灣、越南｜總糖量(最高值)：M56/L92克，總熱量(最高值)：M294/L473大卡｜咖啡因總含量：M低於100毫克，L101-200毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_620f6379_U42MXwFb.jpg"
+        },
+        {
+          "name": "杏花雨露",
+          "description": "甜度固定。茶底是冬瓜茶搭配金萱青茶，及門市製作的杏仁凍，冬瓜青茶清甜茶香，還有濃郁香醇的杏仁凍，好喝不膩又有口感 。茶葉產地：台灣｜總糖量(最高值)：M43/L67克，總熱量(最高值)：M216/L339大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_627e0abe_zy1ceJiV.jpg"
+        },
+        {
+          "name": "蜂蜜麗雅",
+          "description": "建議半糖。使用蜜蜂工坊的天然蜂蜜，再搭配南投的黃金烏龍。茶葉產地：台灣｜總糖量(最高值)：M36/L67克，總熱量(最高值)：M164/L300大卡｜咖啡因總含量：M低於100毫克/L101-200毫克。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_640fe86b_zvuwr0YK.jpg"
+        },
+        {
+          "name": "蜂蜜金萱",
+          "description": "建議半糖。使用蜜蜂工坊的天然蜂蜜，再搭配金萱青茶。茶葉產地：台灣｜總糖量(最高值)：M36/L67克，總熱量(最高值)：M164/L300大卡｜咖啡因總含量：M/L101-200毫克。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_640fe85e_Rx7FbZ65.jpg"
+        },
+        {
+          "name": "冬瓜金萱青",
+          "description": "建議微糖，冬瓜茶本身有甜，另加熬糖。來自台南東山的消暑冬瓜茶，加入萬波金萱青，冬瓜香與茶香的香氣交織，夏季必喝。茶葉產地：台灣｜總糖量(最高值)：M46/L72克，總熱量(最高值)：M221/L348大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_620f6789_jOK7028i.jpg"
+        },
+        {
+          "name": "珍珠酸梅冰",
+          "description": "固定碎冰。古早味酸梅冰為概念，酸鹹酸甜風味搭配沁涼碎冰，搭配小珍珠，好喝涮嘴 。｜總糖量(最高值)：M58/L77克，總熱量(最高值)：M375/L491大卡｜咖啡因總含量：M/L0毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_63083888_G9VTmXnW.jpg"
+        },
+        {
+          "name": "愛玉酸梅冰",
+          "description": "固定碎冰。古早味酸梅冰為概念，酸鹹酸甜風味搭配沁涼碎冰，搭配愛玉，好喝涮嘴。茶葉產地：台灣｜總糖量(最高值)：M75/L98克，總熱量(最高值)：M342/L451大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_630838a0_21zqoiAl.jpg"
+        },
+        {
+          "name": "杏仁酸梅冰",
+          "description": "固定碎冰。古早味酸梅冰為概念，酸鹹酸甜風味搭配沁涼碎冰，搭配杏仁凍，好喝涮嘴。｜總糖量(最高值)：M80/L104克，總熱量(最高值)：M388/L506大卡｜咖啡因總含量：M/L0毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_63083874_ckyZGFW4.jpg"
+        },
+        {
+          "name": "古早味酸梅冰",
+          "description": "固定碎冰。古早味酸梅冰為概念，酸鹹酸甜風味搭配沁涼碎冰，好喝涮嘴。｜總糖量(最高值)：M68/L86克，總熱量(最高值)：M322/L406大卡｜咖啡因總含量：M/L0毫克。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_657bff3c_r7wMvjq3.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶",
+      "items": [
+        {
+          "name": "蘭葉那堤",
+          "description": "紅茶鮮奶，無糖茶味偏濃。使用斯里蘭卡康提茶區的錫蘭紅茶作爲紅茶鮮奶專用的茶葉，透過錫蘭紅茶專屬的香氣帶出厚茶感風味，搭配福樂鮮奶，醇厚香濃。茶葉產地：斯里蘭卡｜總糖量(最高值)：M32/L45克，總熱量(最高值)：M250/L349大卡｜咖啡因總含量：M低於101-200毫克，L201毫克以上。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_60f7d7d0_SkGiyIfO.jpg"
+        },
+        {
+          "name": "鐵觀音那堤",
+          "description": "烏龍鮮奶，無糖茶味偏濃。來自嘉義阿里山精選茶莊，使用加倍的鐵觀音來達到厚茶感風味，搭配福樂鮮奶，厚而不膩。茶葉產地：台灣、越南｜總糖量(最高值)：M32/L45克，總熱量(最高值)：M250/L349大卡｜咖啡因總含量：M低於101-200毫克，L201毫克以上。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_620f68e9_9ir3T8f1.jpg"
+        },
+        {
+          "name": "燕麥奶蘭葉那堤",
+          "description": "紅茶燕麥奶，無糖茶味偏濃。斯里蘭卡的紅茶，搭配Oatside燕麥奶，燕麥奶是燕麥粒經水提取後產生的植物奶，本身就帶有天然的甜味，所以建議微糖少冰。茶葉產地：斯里蘭卡｜總糖量(最高值)：M32/L43克，總熱量(最高值)：M235/L329大卡｜咖啡因總含量：M101-200毫克/L201毫克以上。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_629715c7_VWUizQaE.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鮮萃果香",
+      "items": [
+        {
+          "name": "紅蘋島嶼",
+          "description": "建議半糖。紅富士蘋果汁與金萱紅茶結合，果香、茶香四溢。茶葉產地：越南、台灣｜總糖量(最高值)：M83/L117克，總熱量(最高值)：M355/L497大卡｜咖啡因總含量：M/L101-200毫克。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_623d67f0_KqyCdRAW.jpg"
+        },
+        {
+          "name": "埔里甘蔗青",
+          "description": "新鮮甘蔗原汁搭配金萱青，喝的出甘蔗清甜與茶香的完美傑作。茶葉產地：台灣｜總糖量(最高值)：M42/L59克，總熱量(最高值)：M225/L316大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_61387f39_IU5tWLoz.jpg"
+        },
+        {
+          "name": "島嶼檸檬茶王",
+          "description": "茶底選用金萱紅茶與鐵觀音搭配，加入檸檬點綴，解膩解渴。茶葉產地：越南、台灣｜總糖量(最高值)：M67/L95克，總熱量(最高值)：M336/L479大卡｜咖啡因總含量：M/L101-200毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_60f7d68a_gC6pwOXf.jpg"
+        },
+        {
+          "name": "翠涎香檸綠",
+          "description": "宣橋綠茶與檸檬結合，清爽消暑。茶葉產地：台灣、越南｜總糖量(最高值)：M67/L95克，總熱量(最高值)：M336/L479大卡｜咖啡因總含量：M低於100毫克，L101-200毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_6243bb19_7E3WjVcv.jpg"
+        },
+        {
+          "name": "大青梅果綠",
+          "description": "使用青梅果醬與宣橋綠茶搭配，吃得到整顆醃製脆梅。茶葉產地：台灣、越南｜總糖量(最高值)：M62/L87克，總熱量(最高值)：M252/L353大卡｜咖啡因總含量：M/L101-200毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_60f7cd42_6A1hB4Y9.jpg"
+        },
+        {
+          "name": "蔗香煙燻烏梅",
+          "description": "飲品含茶。古早味烏梅汁搭配少許碳焙烏龍茶，很適合當開胃飲品。茶葉產地：台灣、越南｜總糖量(最高值)：M79/L124克，總熱量(最高值)：M346/L549大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_61388063_Kwvhlz41.jpg"
+        },
+        {
+          "name": "白柚烏龍",
+          "description": "建議微糖。使用文旦柚子搭配南投茶區採收的黃金（麗雅）烏龍，加入天然蜂蜜提味，是一杯清爽好喝的果粒茶唷。茶葉產地：台灣｜總糖量(最高值)：M70/L97克，總熱量(最高值)：M305/L427大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_657c00dd_fa9t3onZ.jpg"
+        },
+        {
+          "name": "白柚翡翠",
+          "description": "建議微糖。使用文旦柚子搭配宣橋綠茶，加入天然蜂蜜提味，是一杯清爽好喝的果粒茶唷。茶葉產地：越南｜總糖量(最高值)：M70/L97克，總熱量(最高值)：M305/L427大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_65a781df_3KhUEZYD.jpg"
+        },
+        {
+          "name": "白柚金萱",
+          "description": "建議微糖。使用文旦柚子搭配金萱青茶，加入天然蜂蜜提味，是一杯清爽好喝的果粒茶唷。茶葉產地：台灣｜總糖量(最高值)：M70/L97克，總熱量(最高值)：M305/L427大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_65a781f5_8HKZVp7e.jpg"
+        },
+        {
+          "name": "蜜柑烏龍",
+          "description": "建議微糖。選用在地種植的橙皮茂谷柑果汁，搭配暢銷原茶麗雅烏龍，是一款 很好喝的果茶飲品。茶葉產地：台灣｜總糖量(最高值)：M56/L80克，總熱量(最高值)：M285/L409大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_6764d6a1_drnNBXHu.jpg"
+        },
+        {
+          "name": "蜜柑翡翠",
+          "description": "建議微糖。選用在地種植的橙皮茂谷柑果汁，搭配暢銷原茶宣橋綠茶，是一款 很好喝的果茶飲品。茶葉產地：台灣｜總糖量(最高值)：M56/L80克，總熱量(最高值)：M285/L409大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜜柑金萱",
+          "description": "建議微糖。選用在地種植的橙皮茂谷柑果汁，搭配暢銷原茶金萱青茶，是一款 很好喝的果茶飲品。茶葉產地：台灣｜總糖量(最高值)：M56/L80克，總熱量(最高值)：M285/L409大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "無咖啡因",
+      "items": [
+        {
+          "name": "永良冬瓜露",
+          "description": "甜度固定。使用古早味冬瓜磚，冬瓜茶甜而不膩，香氣四溢。｜總糖量(最高值)：M46/L72克，總熱量(最高值)：M221/L348大卡｜咖啡因總含量：M/L0毫克。",
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_620f67c8_XPgF2LVI.jpg"
+        },
+        {
+          "name": "甘蔗檸檬",
+          "description": "新鮮甘蔗加檸檬，蔗香回甘，酸甜爽口。｜總糖量(最高值)：M61/L79克，總熱量(最高值)：M324/L416大卡｜咖啡因總含量：M/L0毫克。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_6243bb2a_XcIvfxpk.jpg"
+        },
+        {
+          "name": "冬瓜鮮奶",
+          "description": "建議微糖，冬瓜茶本身有甜，另加熬糖。來自台南東山的消暑冬瓜茶，與一番鮮牛奶的組合，香甜順口。 ｜總糖量(最高值)：M46/L71克，總熱量(最高值)：M280/L443大卡｜咖啡因總含量：M/L0毫克。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_60f7d66f_iDn4CE5v.jpg"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": "傳統冬瓜茶搭配新鮮檸檬，口感清爽很適合搭配重口味料理。｜總糖量(最高值)：M68/L94克，總熱量(最高值)：M332/L461大卡｜咖啡因總含量：M/L0毫克。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_61236de2_VWN8lgAu.jpg"
+        },
+        {
+          "name": "雙珍桂圓綠豆蒜",
+          "description": "甜度固定、固定碎冰。這杯是以桂圓湯為基底、波霸、粉圓、綠豆蒜、碎冰，也可以做熱飲。｜總糖量(最高值)：M40/L64克，總熱量(最高值)：M349/L486大卡｜咖啡因總含量：M/L0毫克。(孕婦不宜食用)",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_65d7f75d_kB0wXzc2.jpg"
+        },
+        {
+          "name": "桂圓綠豆蒜",
+          "description": "甜度固定、固定碎冰。這杯是以桂圓湯為基底，裡面有桂圓肉、綠豆蒜，還有碎冰。｜總糖量(最高值)：M42/L61克，總熱量(最高值)：M285/L407大卡｜咖啡因總含量：M/L0毫克。(孕婦不宜食用)",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_65d7f727_U5qxb83D.jpg"
+        },
+        {
+          "name": "紅豆粉粿鮮奶",
+          "description": "甜度、冰塊固定。使用台灣屏東萬丹紅豆與古早味粉粿為基底，加入黑糖蜜與香醇鮮乳，每一口都能喝得到蜜紅豆、軟Q粉粿粒。｜總糖量（最高值）：M68/L95克。總熱量（最高值）：M505/L707大卡｜咖啡因總含量：M/L0毫克",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_61234d94_tkLJzeGs.jpg"
+        },
+        {
+          "name": "麥仔冬瓜露",
+          "description": "甜度固定。冬瓜茶加上纖麥茶，非常清爽、解渴。茶葉產地：澳洲 ｜總糖量(最高值)：M25/L34克，總熱量(最高值)：M106/L142大卡｜咖啡因總含量：0毫克。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_66e3a762_wZQ26ayC.jpg"
+        },
+        {
+          "name": "麥仔奶茶",
+          "description": "萬波黑糖漿搭配纖麥茶與特調奶精，能喝得到淡淡的麥香加上濃郁的奶味。茶葉產地：澳洲｜奶精奶茶，使用纖麥茶。若要改鮮奶請點選麥仔那堤｜總糖量(最高值)：M28/L42克，總熱量(最高值)：M247/L355大卡｜咖啡因總含量：0毫克。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_66e3a72e_n7ivXCSd.jpg"
+        },
+        {
+          "name": "麥仔那堤",
+          "description": "使用纖麥茶，再搭配鮮奶，兩者之前達到一個平衡的最佳味道。茶葉產地：澳洲 ｜總糖量(最高值)：M25/L37克，總熱量(最高值)：M188/L282大卡｜咖啡因總含量：0毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_66e3a77f_l3BY8mxI.jpg"
+        },
+        {
+          "name": "麥仔蜜檸檬",
+          "description": "甜度固定。可以喝得到蜂蜜、大麥的清甜，檸檬提味，順口好喝。茶葉產地：澳洲 ｜總糖量(最高值)：M38/L50克，總熱量(最高值)：M170/L227大卡｜咖啡因總含量：0毫克。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_66e3a794_HcozJrl6.jpg"
+        },
+        {
+          "name": "桂圓茶",
+          "description": "僅限中杯、溫熱飲、甜度固定。每日手工熬煮桂圓茶。｜總糖量(最高值)：M49克，總熱量(最高值)：M214大卡｜咖啡因總含量：M0毫克。",
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "醇濃奶香",
+      "items": [
+        {
+          "name": "萬波奶茶",
+          "description": "萬波黑糖漿搭配阿薩姆紅茶與特調奶精完美搭配出天后級奶茶風味。茶葉產地：越南、台灣｜奶精奶茶，使用島嶼紅茶。若要改鮮奶請點選蘭葉那提｜總糖量(最高值)：M38/L54克，總熱量(最高值)：M332/L465大卡｜咖啡因總含量：M/L101-200毫克。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_61387fac_hm8Ht5IS.jpg"
+        },
+        {
+          "name": "鐵觀音奶茶",
+          "description": "萬波黑糖漿搭配鐵觀音與特調奶精調配出厚實炭焙香氣重奶茶風味。茶葉產地：台灣、越南｜奶精奶茶，若要改鮮奶請點選鐵觀音那提｜總糖量(最高值)：M38/L54克，總熱量(最高值)：M332/L465大卡｜咖啡因總含量：M/L101-200毫克。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_620f6876_W2Ads1Ji.jpg"
+        },
+        {
+          "name": "波霸奶茶",
+          "description": "醇香的萬波奶茶加上細心熬煮3hr的Q彈波霸，榮獲萬波奶類NO.1產品。茶葉產地：越南、台灣｜奶精奶茶，若要改鮮奶請點選蘭葉那提加料｜總糖量(最高值)：M38/L59克，總熱量(最高值)：M507/L725大卡｜咖啡因總含量：M低於100毫克，L101-200毫克。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_60f7d5fc_y0XjSxoL.jpg"
+        },
+        {
+          "name": "宣橋奶綠",
+          "description": "萬波黑糖漿搭配宣橋綠茶與特調奶精調配出溫和口感輕奶茶風味。茶葉產地：越南｜總糖量(最大值)：M38/L54克，總熱量(最高值)：M332/L465大卡｜咖啡因總含量：M/L低於100毫克。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/535/b535_657bc1e2_U5DJ6RSQ.jpg"
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "一杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "二杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "四杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "六杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

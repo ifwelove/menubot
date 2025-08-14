@@ -1,0 +1,558 @@
+{
+  "store_id": 15511,
+  "store_name": "三重店",
+  "brand_code": "welldone",
+  "brand_name": "微堂well done",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "新品-麝香葡萄",
+      "items": [
+        {
+          "name": "山茶晴王",
+          "description": "晴王麝香葡萄風味融入47茶皇，果香甘甜加上層次茶韻，\r\n極致雙重饗宴。添加真實台灣葡萄果肉和青葡凍，微堂獨創",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "葡爵翠綠",
+          "description": "晴王麝香葡萄風味融入四薰茉綠，\r\n享受雅緻花果茶香，搭配台灣葡萄果肉和椰果，咀嚼系不容錯過",
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "原茶",
+      "items": [
+        {
+          "name": "雲霧紅",
+          "description": "來自斯里蘭卡知名產區 Kandy，只取茶葉頂端的芽尖嫩葉，獨家調出甘潤口感，雅緻麥芽香。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "四薰茉綠",
+          "description": "以人工採摘頂級毛尖白毫綠茶及茉莉花苞，經歷四次薰花工序，完美融合茉莉\r\n花香於綠茶裡。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "熟成大麥",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "極焙醇烏龍",
+          "description": "霸道工藝, 焙火沉香，餘韻甘長\r\n『推薦重茶癮者！必喝！』",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "海神(27金萱)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "47茶皇",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "羽韻輕乳（無熱飲）",
+      "items": [
+        {
+          "name": "羽韻輕乳紅L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "羽韻輕乳紅M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "羽韻輕乳綠L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "羽韻輕乳綠M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "羽韻輕乳大麥L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "羽韻輕乳大麥M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "羽韻輕乳焙烏龍L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "羽韻輕乳焙烏龍M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "羽韻輕乳海神L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "羽韻輕乳海神M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "羽韻輕乳茶皇L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "羽韻輕乳茶皇M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "羽韻輕乳茶榖蕎L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "羽韻輕乳茶榖蕎M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "榖蕎系列-無咖啡因",
+      "items": [
+        {
+          "name": "黃金穀蕎",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "榖蕎奶茶L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "榖蕎奶茶M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "榖蕎那堤L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "榖蕎那堤M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "雲頂榖蕎M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "雲頂榖蕎L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "復刻奶茶",
+      "items": [
+        {
+          "name": "復刻奶茶M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "復刻奶茶L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "1987珍珠奶茶M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "1987珍珠奶茶L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "濃茶厚奶M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "濃茶厚奶L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "大甲芋頭奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鹿港麵茶M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "鹿港麵茶L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "阿華田M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "阿華田 L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "那堤 （鮮乳）",
+      "items": [
+        {
+          "name": "那堤M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "那堤L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑波霸那提M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "黑波霸那提L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖波霸鮮奶 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑糖波霸鮮奶 L",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "大甲芋頭鮮奶茶 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "大甲芋頭鮮奶茶 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "大甲芋頭鮮奶 M",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "大甲芋頭鮮奶 L",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "冬露茶那堤 M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冬露茶那堤 L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鹿港麵茶鮮奶M",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鹿港麵茶鮮奶L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "阿華田鮮奶M",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "阿華田鮮奶L",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "雲頂 （奶蓋）",
+      "items": [
+        {
+          "name": "雲頂 M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "雲頂 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雲頂檸檬塔 M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雲頂檸檬塔L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "雲頂莓莓L",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "鮮果 （無熱飲）",
+      "items": [
+        {
+          "name": "冬露茶 M",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "冬露茶 L",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬露茶系 M",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "冬露茶系 L",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬露檸檬 M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬露檸檬 L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜檸檬 M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜檸檬 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "橙青綠 M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "橙青綠 L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "四季莓好 M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "四季莓好 L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "奇異果冰茶 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "野莓冰茶L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "大橘大粒",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "樂多綠茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "樂多青",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "樂多橙青",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "柑仔綠茶",
+          "description": "100％茂谷柑原汁搭配四薰茉綠清爽好喝",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "柑仔焙烏龍",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "柑仔青茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "其他",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "保冷袋",
+          "description": null,
+          "price_cold": 10,
+          "price_hot": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "store_id": 18930,
+  "store_name": "大園店",
+  "brand_code": "teachickencutlet",
+  "brand_name": "錢糖潮",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "最後更新:2025.08.12",
+      "items": [
+        {
+          "name": "新增加料品項( 綠茶凍)",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "使用客家幣 訂單選\"現金單\"送出後來店用客家幣結帳即可.超過客家幣金額部分到店補現金或其他支付皆可.",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "新增暑假優惠(定期更新)",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "買一送一(每日更新品項)",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "若有發現BUG 懇請通知我們",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        }
+      ]
+    },
+    {
+      "category": "(暑期限定) 就是愛分享",
+      "items": [
+        {
+          "name": "(自取)熟成奶茶 2杯 -10",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "(特價) 潮脆鷄腿X2隻",
+          "description": null,
+          "price_cold": 98,
+          "price_hot": 98,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668422bc_hVcoWetj.jpg"
+        },
+        {
+          "name": "(自取買1送1) 買 乖乖鷄薯條 送 飲料",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        }
+      ]
+    },
+    {
+      "category": "香醇奶茶",
+      "items": [
+        {
+          "name": "珍珠奶茶(最熱銷)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66842fda_cdTa1uwv.jpg"
+        },
+        {
+          "name": "珍珠奶綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_67f93f4d_rk2B5wEc.jpg"
+        },
+        {
+          "name": "珍珠奶青",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_68249ea9_gyqfAWiz.png"
+        },
+        {
+          "name": "珍珠奶烏(最熱銷)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_68249ec0_p4lX5g7N.png"
+        },
+        {
+          "name": "小芋圓奶茶(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_67f93f17_3WB1u9lY.jpg"
+        },
+        {
+          "name": "熟成奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "熟成奶綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "熟成奶青",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "熟成奶烏",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "仙草凍奶茶(最熱銷)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66842ede_VuPDhQWi.jpg"
+        },
+        {
+          "name": "椰果奶茶(最熱銷)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6825ff97_NkyemsCY.png"
+        },
+        {
+          "name": "布丁奶茶(最熱銷)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_681438b7_XvLjsHSQ.jpg"
+        },
+        {
+          "name": "奶茶姊妹*",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶茶三寶(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668574ec_1dqToGXg.jpg"
+        },
+        {
+          "name": "三圓奶茶(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6684324d_SjQVLuoY.jpg"
+        },
+        {
+          "name": "芝麻珍珠奶茶*",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "芝麻奶茶*",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "宇治抹茶奶綠*",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "紅豆珍珠奶茶(最熱銷)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅豆芝麻奶茶*",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "可可奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66858307_iFCOYTIA.jpg"
+        },
+        {
+          "name": "芋頭奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "芋頭奶綠(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "紅豆抹茶奶綠*",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅豆奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "養樂多",
+      "items": [
+        {
+          "name": "養樂多香檸*",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "養樂多綠茶(最熱銷)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6847002b_7TDeRyfX.png"
+        },
+        {
+          "name": "養樂多香柚(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_682b37f4_jBgUzmMi.png"
+        },
+        {
+          "name": "養樂多柳橙(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66869603_GWaMPNrd.jpg"
+        },
+        {
+          "name": "養樂多百香*(最熱銷)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_682b3730_CLBVjo0D.png"
+        },
+        {
+          "name": "養樂多青茶*",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "養樂多火龍果(最熱銷)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66842e74_A6NVW1dY.jpg"
+        }
+      ]
+    },
+    {
+      "category": "冰沙",
+      "items": [
+        {
+          "name": "綠豆冰沙(最熱銷)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668575d3_ixsWk49u.jpg"
+        },
+        {
+          "name": "綠豆沙鲜奶(最熱銷)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_68249d2a_0l2ycOPt.png"
+        },
+        {
+          "name": "巧克力冰沙(最熱銷)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668695dc_KBIvdpGM.jpg"
+        }
+      ]
+    },
+    {
+      "category": "黑仙草(獨家飲品)",
+      "items": [
+        {
+          "name": "仙草甘茶(最熱銷)",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66857cc6_YzwjyviC.jpg"
+        },
+        {
+          "name": "黑奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668c06e4_zyxT3OaS.png"
+        },
+        {
+          "name": "黑鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668c086b_v0R9NQVe.png"
+        },
+        {
+          "name": "黑仙草蜜(最熱銷)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6686876f_rVfUbva5.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鮮果茶",
+      "items": [
+        {
+          "name": "檸檬冬瓜茶(最熱銷)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66857f67_JIUt81uL.png"
+        },
+        {
+          "name": "香檸綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "香檸紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66858675_IfXGNzw5.jpg"
+        },
+        {
+          "name": "檸檬愛玉",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66868fc4_bSm1lKPz.jpg"
+        },
+        {
+          "name": "香檸青茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "香檸烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜜香檸桔綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜜香青茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜜香烏龍(最熱銷)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜜香綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜜香紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "金桔香檸(最熱銷)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_682600d1_UH9yBjY6.png"
+        },
+        {
+          "name": "葡萄柚冰茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "香橙綠茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66858601_fZXp8Ceo.jpg"
+        },
+        {
+          "name": "香橙烏龍(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "香橙青茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "檸檬冰茶(最熱銷)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6686a1a8_XFvHfhx1.png"
+        },
+        {
+          "name": "香柚綠茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "香柚烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "甘蔗青茶(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66858957_XZK4L9zv.jpg"
+        },
+        {
+          "name": "甘蔗烏龍(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6810d9bd_0UZdR3HE.jpg"
+        },
+        {
+          "name": "甘蔗茉綠(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6810da11_qJwCvR9X.jpg"
+        },
+        {
+          "name": "百香QQ綠(最熱銷)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668586b9_crzMsAFt.jpg"
+        },
+        {
+          "name": "百香綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66858451_FTCke6cQ.jpg"
+        },
+        {
+          "name": "百香檸檬",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "百香四季青",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芭樂青茶(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66868e3f_6lSysVca.png"
+        },
+        {
+          "name": "芭樂檸檬",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "純鮮奶(不含茶)",
+      "items": [
+        {
+          "name": "珍珠芝麻鮮奶*",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅豆芝麻鮮奶*(最熱銷)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅豆珍珠鮮奶*",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "珍珠可可歐蕾*",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "可可歐蕾(最熱銷)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668eb4b4_o3X0HWUd.jpg"
+        },
+        {
+          "name": "芋圓紅豆鮮奶*(最熱銷)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "芋圓芋頭鮮奶*",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "三圓鮮奶(最熱銷)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "芋頭牛奶(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668575a4_EqXCulJD.jpg"
+        },
+        {
+          "name": "芋頭珍珠鮮奶*",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "珍珠鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "仙草凍鮮奶(最熱銷)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "椰果鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "布丁鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑糖珍珠鮮奶(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6684361b_4GtUCrRP.jpg"
+        },
+        {
+          "name": "鮮奶三寶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668433ea_guMUxAiD.jpg"
+        },
+        {
+          "name": "紅豆鮮奶(最熱銷)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶",
+      "items": [
+        {
+          "name": "紅茶鮮奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668eb403_9f2hIMuW.jpg"
+        },
+        {
+          "name": "綠茶鮮奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "烏龍鮮奶(最熱銷)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "四季鮮奶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "鮮奶茶三寶(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66843417_HY53MoDq.jpg"
+        },
+        {
+          "name": "芝麻鮮奶茶*",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "抹茶珍珠鮮奶*",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "宇治抹茶鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "抹茶芋圓鮮奶*",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "抹茶紅豆鮮奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "三圓鮮奶茶(最熱銷)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "芋頭鮮奶綠(最熱銷)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "台灣好茶",
+      "items": [
+        {
+          "name": "晨曦茉綠(最熱銷)",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668c0083_zMOlNL6X.png"
+        },
+        {
+          "name": "熟成紅茶(最熱銷)",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668696af_JlSVzEt3.jpg"
+        },
+        {
+          "name": "四季春茶(最熱銷)",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668c0232_MBKiDreN.png"
+        },
+        {
+          "name": "凍頂烏龍(最熱銷)",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66869650_ynbS5h97.jpg"
+        },
+        {
+          "name": "決明大麥(最熱銷)",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668c042a_3UZIGw5X.png"
+        },
+        {
+          "name": "冬瓜綠茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66857aa8_qzdUXEx3.png"
+        },
+        {
+          "name": "冬瓜茶(最熱銷)",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66857f41_V6SHeUTM.png"
+        },
+        {
+          "name": "冬瓜青茶(最熱銷)",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66857f9a_HEzjrCua.png"
+        },
+        {
+          "name": "冬瓜紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66857fbf_ypkzsmRX.png"
+        },
+        {
+          "name": "青茶姊妹",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668c036b_Fbn0YXTe.png"
+        },
+        {
+          "name": "紅茶三寶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "潮脆",
+      "items": [
+        {
+          "name": "潮脆經典 (特價) (雞腿1+雞翅1+腿塊1)",
+          "description": null,
+          "price_cold": 137,
+          "price_hot": 137,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_67f93db7_92udjOYl.jpg"
+        },
+        {
+          "name": "潮脆雙人 (特價)(雞腿2+雞翅2+腿塊2)",
+          "description": null,
+          "price_cold": 274,
+          "price_hot": 274,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_67f93d5c_E26isu48.jpg"
+        },
+        {
+          "name": "潮脆分享 (特價)(雞腿3+雞翅3+腿塊3)",
+          "description": null,
+          "price_cold": 411,
+          "price_hot": 411,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_67f93d8f_XkY8wSdy.jpg"
+        }
+      ]
+    },
+    {
+      "category": "主餐",
+      "items": [
+        {
+          "name": "潮大鷄排(最熱銷)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6684236c_5pW8CzJ4.jpg"
+        },
+        {
+          "name": "潮爆嫩鷄(最熱銷)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66897074_YbMu9NpC.jpg"
+        },
+        {
+          "name": "潮脆腿塊1塊(L) (特價)",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66897195_Bat6D1Gc.jpg"
+        },
+        {
+          "name": "潮脆鷄翅1隻(L)  (特價)",
+          "description": null,
+          "price_cold": 39,
+          "price_hot": 39,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6839db1a_lzQ5FvkM.jpg"
+        },
+        {
+          "name": "潮脆鷄腿1隻(L)  (特價)",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66897265_bcFrwNRI.jpg"
+        }
+      ]
+    },
+    {
+      "category": "副餐 (都是熱銷)",
+      "items": [
+        {
+          "name": "金塊薯餅(附番茄醬)",
+          "description": null,
+          "price_cold": 39,
+          "price_hot": 39,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66842938_1HY8kJmG.jpg"
+        },
+        {
+          "name": "梅子地瓜條(口味可選)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66896bc9_XejsHibz.jpg"
+        },
+        {
+          "name": "賣不停薯條",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66896f16_WPzf4jVg.jpg"
+        },
+        {
+          "name": "經典脆薯",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66896f2b_4ysglWqM.jpg"
+        },
+        {
+          "name": "麥克鷄塊4個(附糖醋醬)",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6684296c_OVZvJjz8.jpg"
+        },
+        {
+          "name": "深海魷米花",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66896d38_oAqVhO8n.jpg"
+        },
+        {
+          "name": "好棒熱狗(附番茄醬)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668433ac_wVz3EWlN.jpg"
+        },
+        {
+          "name": "銷魂小肉豆",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6684364e_VAKvP5em.jpg"
+        },
+        {
+          "name": "爽辣鷄米花(8塊)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66843608_q2AGX6yc.jpg"
+        },
+        {
+          "name": "蛋蛋柳葉魚(大3條)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6689760c_Evr24KS3.jpg"
+        },
+        {
+          "name": "奶香銀絲卷(多種口味可選)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66843612_R9CMYZiS.jpg"
+        },
+        {
+          "name": "潮酥脆(甜不辣)",
+          "description": null,
+          "price_cold": 43,
+          "price_hot": 43,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668429b1_0KlnFGI3.jpg"
+        },
+        {
+          "name": "起司鷄肉餅",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6684335b_d0Uw7Otu.jpg"
+        },
+        {
+          "name": "手工花枝丸(4顆)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66896dfa_aEOeZYSU.jpg"
+        },
+        {
+          "name": "潮蝦餅( 附醬 )",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66897597_sYNtF2Ep.jpg"
+        },
+        {
+          "name": "香甜玉米筍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66896f4e_DcjkFi86.jpg"
+        },
+        {
+          "name": "乖乖鷄薯條 (6條)(附糖醋醬)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/S18930_67c828fd_UfAxI2b0.jpeg"
+        },
+        {
+          "name": "香酥杏鮑菇",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/S18930_67c828fd_L0wpcmFt.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "套餐優惠",
+      "items": [
+        {
+          "name": "自由配1號(任選炸物+任選飲料-5元)",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6885ae7b_M4IZt0aS.png"
+        },
+        {
+          "name": "自由配2號(任選主餐+任選副餐+任選飲料-10元)",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6885aef6_zOI94mrv.png"
+        },
+        {
+          "name": "自由配3號(任選主餐+任選副餐-5元)",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6885af15_s9Vgjr5O.png"
+        },
+        {
+          "name": "自由配4號(任選3樣副餐-10元)",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6885af2b_B5xTVGCY.png"
+        },
+        {
+          "name": "糖潮1號(潮大鷄排+珍珠奶茶)-5元",
+          "description": null,
+          "price_cold": 135,
+          "price_hot": 135,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6684255a_oDPHJNOT.jpg"
+        },
+        {
+          "name": "糖潮2號(潮大鷄排+賣不停薯條+晨曦茉綠)-10元",
+          "description": null,
+          "price_cold": 155,
+          "price_hot": 155,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_66842592_P9K7fgAt.jpg"
+        },
+        {
+          "name": "糖潮3號(潮爆嫩鷄+熟成紅茶)-5元",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_668425e7_EIbgq1UH.jpg"
+        },
+        {
+          "name": "薯條三兄弟(賣不停薯條+經典脆薯+梅子地瓜條)-10元",
+          "description": null,
+          "price_cold": 125,
+          "price_hot": 125,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_67f93bdc_2KRVqBmd.jpg"
+        },
+        {
+          "name": "幸運G(麥克鷄塊(4個)+爽辣雞米花+銷魂小肉豆)-10元",
+          "description": null,
+          "price_cold": 129,
+          "price_hot": 129,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_67f93c24_roKfSzqL.jpg"
+        },
+        {
+          "name": "深海覺醒(手工花枝丸+深海魷米花+蛋蛋柳葉魚)-10元",
+          "description": null,
+          "price_cold": 150,
+          "price_hot": 150,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_67f93ba6_9w1tgnUr.jpg"
+        },
+        {
+          "name": "獨賣狂潮(潮蝦餅+起司鷄肉餅+好棒熱狗)-10元",
+          "description": null,
+          "price_cold": 145,
+          "price_hot": 145,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_67f93c5b_cRNYBKV0.jpg"
+        },
+        {
+          "name": "潮爆台客(潮酥脆+銀絲卷+金磚薯餅)-10元",
+          "description": null,
+          "price_cold": 112,
+          "price_hot": 112,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6684331c_Bo4NAuCU.jpg"
+        },
+        {
+          "name": "龍鳳吉祥(蛋蛋柳葉魚+麥克鷄塊(4個)+梅子地瓜)-10元",
+          "description": null,
+          "price_cold": 134,
+          "price_hot": 134,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6684247d_YMK9Am1H.jpg"
+        },
+        {
+          "name": "28鷄塊分享餐(附糖醋醬6+番茄醬2)(副餐1+飲品2)-30元",
+          "description": null,
+          "price_cold": 428,
+          "price_hot": 428,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2307/b2307_6684261d_uW4LqCV1.jpg"
+        }
+      ]
+    }
+  ]
+}

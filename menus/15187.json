@@ -1,0 +1,145 @@
+{
+  "store_id": 15187,
+  "store_name": "台北南港店",
+  "brand_code": "liketea",
+  "brand_name": "老賴茶棧",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "紅茶系列",
+      "items": [
+        {
+          "name": "老賴紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5ac1_FUkzPwlt.jpg"
+        },
+        {
+          "name": "豆香紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5aca_6xvRr5ME.jpg"
+        },
+        {
+          "name": "烏梅紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5b1b_7xgbLIRD.jpg"
+        },
+        {
+          "name": "青檸紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5aea_8FEjuy9x.jpg"
+        }
+      ]
+    },
+    {
+      "category": "牛乳系列",
+      "items": [
+        {
+          "name": "太后牛乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5a89_RPXWEcHY.jpg"
+        },
+        {
+          "name": "珍珠太后牛乳",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "奶茶系列",
+      "items": [
+        {
+          "name": "招牌奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5ad5_Bg6Wcuw1.jpg"
+        },
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5af5_Mrb74Ham.jpg"
+        },
+        {
+          "name": "布丁奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5ab7_cbtqBfdG.jpg"
+        },
+        {
+          "name": "椰果奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5b25_YtumKn78.jpg"
+        },
+        {
+          "name": "胚芽奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5b06_m6oxHbah.jpg"
+        }
+      ]
+    },
+    {
+      "category": "冬瓜茶系列",
+      "items": [
+        {
+          "name": "冬瓜茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5aa6_uFsSkqcI.jpg"
+        },
+        {
+          "name": "冬瓜紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5a9c_N3ZdFlJU.jpg"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5aaf_8tYsiRwT.jpg"
+        },
+        {
+          "name": "太后冬瓜奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5a92_joUiY7ye.jpg"
+        }
+      ]
+    },
+    {
+      "category": "豆漿系列",
+      "items": [
+        {
+          "name": "研磨豆漿",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1747/b1747_643e5afc_TNKA03kI.jpg"
+        }
+      ]
+    }
+  ]
+}

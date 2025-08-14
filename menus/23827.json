@@ -1,0 +1,26 @@
+{
+  "store_id": 23827,
+  "store_name": "長庚復興店",
+  "brand_code": "ludouren",
+  "brand_name": "綠豆人 綠豆冰沙",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "古早味",
+      "items": [
+        {
+          "name": "招牌綠豆沙冰",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "綠豆沙牛奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "store_id": 23704,
+  "store_name": "台北公館樂園",
+  "brand_code": "waterfun",
+  "brand_name": "水療系",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "獺想喝茶茶",
+      "items": [
+        {
+          "name": "果香貴妃紅",
+          "description": "Black Tea with Fruit \n大杯",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_nHSXLiIN.png"
+        },
+        {
+          "name": "茉茉花香綠",
+          "description": "Green Tea with Jasmine \n大杯。\n ????清新綠茶融合淡雅茉莉花香????，每一口都是花香與茶韻的細膩交織，口感輕盈，清新回甘，喝完心情瞬間療癒✨！",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_V4XcIKaE.png"
+        },
+        {
+          "name": "翠玉金萱青",
+          "description": "Jade Jinxuan Light Oolong Tea\n大杯。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_vmZ4AP15.png"
+        },
+        {
+          "name": "鐵觀音烏龍",
+          "description": "Iron Guanyin Oolong Tea\n大杯。\n????烘焙香氣濃郁的鐵觀音，茶湯醇厚，入口帶有迷人焙火香，茶韻綿長，????每一口都是沉穩細緻的高級茶感，讓人回味無窮！",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_RmpXz1GN.png"
+        },
+        {
+          "name": "拾穗穀麥茶",
+          "description": "Wheat Tea\n大杯。無咖啡因。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_IpSKPk4B.png"
+        }
+      ]
+    },
+    {
+      "category": "獺想喝果茶",
+      "items": [
+        {
+          "name": "荔枝蘆薈貴妃紅",
+          "description": "大杯。添加蘆薈\n荔枝的淡淡果香與貴妃紅茶的蜜甜韻味完美融合，✨口感清爽，茶香甘醇，每一口都帶有荔枝的獨特果香，細膩而高雅！",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_L8gKvBQG.png"
+        },
+        {
+          "name": "蜜桃蘆薈貴妃紅",
+          "description": "大杯。添加蘆薈\n獨特的蜜甜韻味，蜜桃的果香柔和交織????，入口先感受到紅茶的醇厚，隨後釋放出蜜桃的淡雅甜香，果香與茶香相互襯托，層次豐富，每一口都清爽回甘！????",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_lXVmRPzw.png"
+        },
+        {
+          "name": "芒果蘆薈花香綠",
+          "description": "大杯。添加蘆薈",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_4E5TSbJD.png"
+        },
+        {
+          "name": "桂花蘆薈翠玉青",
+          "description": "大杯。添加蘆薈",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_l7D1BPpR.png"
+        },
+        {
+          "name": "香檸蘆薈桂花蜜",
+          "description": "大杯。無咖啡因。添加蘆薈",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_7Qm9XeTY.png"
+        },
+        {
+          "name": "香檸貴妃紅",
+          "description": "大杯。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_kFv1VPTu.png"
+        },
+        {
+          "name": "香檸茉茉綠",
+          "description": "大杯。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_8sJ7UMLP.png"
+        },
+        {
+          "name": "香檸翠玉青",
+          "description": "大杯。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_VPiDRU5K.png"
+        }
+      ]
+    },
+    {
+      "category": "獺想喝厚奶",
+      "items": [
+        {
+          "name": "莊園紅厚奶茶",
+          "description": "Rich Black Milk Tea\n大杯。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_1brpWzAU.png"
+        },
+        {
+          "name": "茉茉花厚奶綠",
+          "description": "Rich Green Milk Tea with Jasmine\n大杯。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_Qa37Y5WV.png"
+        },
+        {
+          "name": "翠玉金萱厚奶青",
+          "description": "Jade Jinxuan Light Oolong Tea with Rich Milk\n大杯。\n翠玉青茶的清香與金萱的淡淡奶韻完美交織，每一口都是茶香與奶香的細緻平衡，✨入口溫潤、香醇滑順！",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_jPHqhKer.png"
+        },
+        {
+          "name": "鐵觀音厚奶茶",
+          "description": "Iron Guanyin Rich Milk Tea\n大杯。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_Ee1Cjw9Y.png"
+        },
+        {
+          "name": "拾穗麥厚奶茶",
+          "description": "Rich Wheat Milk Tea\n大杯。無咖啡因。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_JwCvft4x.png"
+        },
+        {
+          "name": "茉茉裝芒厚奶綠",
+          "description": "Rich Green Milk Tea with Jasmine and Mango\n大杯。\n????綠茶的清香結合香甜芒果風味????每一口都是茶香、水果甜味與奶香的完美層次，清爽又濃郁，夏日最療癒的組合！????",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_Iajg87BG.png"
+        },
+        {
+          "name": "獺獺珍珠厚奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "燕麥穀粒厚奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "獺想喝奶蓋",
+      "items": [
+        {
+          "name": "貴妃紅布丁奶蓋",
+          "description": "Black Tea with Egg Pudding and Tea Cap\n大杯。奶蓋使用統一布丁調製。\n????貴妃紅茶的蜜甜茶韻，結合滑順布丁與綿密奶蓋????，每一口都是濃郁奶香與茶韻的雙重享受，茶香回甘，口感層層堆疊，香甜濃厚！",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_IdlsxRGW.png"
+        },
+        {
+          "name": "茉茉花布丁奶蓋",
+          "description": "Jasmine Tea with Egg Pudding and Tea Cap\n大杯。奶蓋使用統一布丁調製。????\n ????茉莉花綠茶的清香搭配香甜布丁與細緻奶蓋，每一口都是滑順、濃郁與清新的完美融合????，層次豐富，甜而不膩，喝完超滿足！",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_kuqJXOHC.png"
+        },
+        {
+          "name": "翠玉青布丁奶蓋",
+          "description": "Jade Jinxuan with Egg Pudding and Tea Cap\n大杯。奶蓋使用統一布丁調製。\n????翠玉青茶的清爽甘甜搭配細緻布丁與濃郁奶蓋????，入口先感受到茶香的清新，再融合布丁的細滑，每一口都是濃醇與輕盈的雙重享受！❤️",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_sUOjM9Ay.png"
+        },
+        {
+          "name": "鐵觀音布丁奶蓋",
+          "description": "Iron Guanyin with Egg Pudding and Tea Cap\n大杯。奶蓋使用統一布丁調製。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_HVBCNEux.png"
+        },
+        {
+          "name": "拾穗麥布丁奶蓋",
+          "description": "Wheat Tea with Egg Pudding and Tea Cap\n大杯。奶蓋使用統一布丁調製。無咖啡因。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_1uAQJm7x.png"
+        },
+        {
+          "name": "莊園鮮奶茶布丁奶蓋",
+          "description": "Fresh Milk Tea with Egg Pudding and Tea Cap\n大杯。奶蓋使用統一布丁調製。",
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_Up4IFcrq.png"
+        },
+        {
+          "name": "觀音鮮奶茶布丁奶蓋",
+          "description": "Iron Guanyin Fresh Milk Tea with Egg Pudding and Tea Cap\n大杯。奶蓋使用統一布丁調製。",
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_sfWM2Gbz.png"
+        }
+      ]
+    },
+    {
+      "category": "獺想喝鮮奶茶",
+      "items": [
+        {
+          "name": "莊園紅鮮奶茶",
+          "description": "Fresh Black Milk Tea\n大杯。使用花蓮阿秀鮮乳。\n選用莊園級紅茶，????茶湯醇厚帶有天然甜感，搭配香醇鮮奶????，口感濃郁順滑，每一口都是茶香與奶香的極致融合，經典必喝！",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_Gc65LyiT.png"
+        },
+        {
+          "name": "茉茉花鮮奶綠",
+          "description": "Fresh Green Milk Tea with Jasmine\n大杯。使用花蓮阿秀鮮乳。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_Fl5QAKuH.png"
+        },
+        {
+          "name": "翠玉金萱鮮奶青",
+          "description": "Jade Jinxuan Light Oolong with Fresh Milk\n大杯。使用花蓮阿秀鮮乳。\n✨翠玉青茶與金萱的茶香融合，帶有自然奶韻，搭配鮮奶的醇厚????，每一口都是茶香、奶香與微甜回甘的完美融合，????細膩而耐喝！",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_0IZsvElm.png"
+        },
+        {
+          "name": "鐵觀音鮮奶茶",
+          "description": "Iron Guanyin Fresh Milk Tea\n大杯。使用花蓮阿秀鮮乳。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_w6ZiXOga.png"
+        },
+        {
+          "name": "拾穗麥鮮奶茶",
+          "description": "Wheat Fresh Milk Tea\n大杯。使用花蓮阿秀鮮乳。無咖啡因。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/S23704_6873da0a_w705eWzE.png"
+        }
+      ]
+    },
+    {
+      "category": "其他",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    },
+    {
+      "category": "可頌鬆餅",
+      "items": [
+        {
+          "name": "蜂蜜可頌鬆餅",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/b2811_67c7fe79_YsW9AmdH.jpg"
+        },
+        {
+          "name": "巧克力可頌鬆餅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/b2811_67c7fe8f_uh2JTlBk.jpg"
+        },
+        {
+          "name": "卡士達可頌鬆餅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2811/b2811_67c7fea3_InBcert3.jpg"
+        },
+        {
+          "name": "薯泥蛋沙拉可頌鬆餅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鮪魚玉米沙拉可頌鬆餅",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "store_id": 21159,
+  "store_name": "竹南光復店",
+  "brand_code": "jschabrand",
+  "brand_name": "珍世茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "世茗品-大杯",
+      "items": [
+        {
+          "name": "世紅茶",
+          "description": "阿薩姆紅茶的茶湯顏色較深，味道也相對濃烈且富有層次感，帶有自然的麥香或焙燒香氣。",
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "翠綠茶",
+          "description": "翠綠茶口感清新且帶有微妙甘甜的茶品，適合喜愛花香和清爽口感的茶飲愛好者。",
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "珍春茶",
+          "description": "珍春茶具有明顯的花香，尤其是像蘭花或茉莉花的香氣，香氣清新而持久，讓人感受到輕盈的愉悅感。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "焙烏龍",
+          "description": "焙烏龍的最大特點是其濃郁的焙火香，茶湯中會散發出一種煙燻或烘焙過的香氣，類似烤堅果或烘焙麵包的香味，具有豐富的層次感。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "烘麥茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "翠綠雪芽",
+          "description": "翠綠雪芽融合茉莉花香與雪芽清韻的精緻茶品。選用優質的雪芽茶葉，經過輕微的蒸氣處理，保留了茶葉的自然清香，並與新鮮茉莉花瓣精心調和，釋放出柔和的花香與清新的茶味。每一口都是清新與細膩的雙重享受，帶來舒緩的放鬆感，仿佛置身於雪霧籠罩的茶園。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "花語茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "萃珍茶-大杯-冷熱飲皆可",
+      "items": [
+        {
+          "name": "焙煎紅",
+          "description": "木質香",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "珍妃綠",
+          "description": "麥花香",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "煎麥青",
+          "description": "| 推薦飲品 | 甜蕎香",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "碳煎烏",
+          "description": "果甜香",
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "季節限定-大杯",
+      "items": [
+        {
+          "name": "芒芒果粒青茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "芒芒果粒綠茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "芒芒纖果青茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "芒芒纖果綠茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "芒芒奶霜青茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "芒芒奶霜綠茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "奶茶薑好",
+          "description": "焙煎紅奶茶醇香的烘麥中和了薑的辣味，喝起來更溫和",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "拿鐵薑好",
+          "description": "桂圓紅棗與焙煎紅鮮奶茶的完美搭配加上薑汁提味，口感甜香醇厚口感 *本身有桂圓紅棗的甜度，建議甜度可以選半糖以下的甜度",
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "珍特調-大杯",
+      "items": [
+        {
+          "name": "桂檸晶粿青茶",
+          "description": "｜甜度冰量固定推薦飲品｜淡雅的桂花香與檸檬，酸甜口齒留香的清爽體驗 Q嫩滑溜的晶粿一口接一口停不下來 甜度與冰量固定",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "旺來檸檬晶粿",
+          "description": "鳳梨果粒與青茶結合，些微檸檬提味，酸甜滋味推疊，再搭配QQㄉㄨㄞ ㄉㄨㄞ的茶晶粿一口接一口停不下來| 甜度冰量固定|",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "桂香黃金焙麥",
+          "description": "| 甜度冰量固定，沒有另外加糖 |\r\n| 無咖啡因 |\r\n桂花蜜搭配低溫烘焙的黃金烘麥茶(黃金蕎麥)",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "桂柚蜜茶",
+          "description": "| 甜度固定，無另外加糖 |\r\n| 無咖啡因 |\r\n淡雅的桂花釀蜜與焙麥茶的香氣再加上韓國蜂蜜柚子醬甜香的風味，沁心的香氣",
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "果味茶-大杯",
+      "items": [
+        {
+          "name": "翠玉檸檬綠",
+          "description": "翠玉檸檬綠茶，檸檬清香與調和清爽的綠茶激盪出酸甜滋味，圖片僅供參考，實品不會放檸檬片",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "檸檬紅茶",
+          "description": "甜中帶酸、後韻回甘，令人著迷的風味層次！(此描述僅供參考)",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "檸檬青茶",
+          "description": "檸檬青茶，檸檬清香與調和清爽的綠茶激盪出酸甜滋味，圖片僅供參考，實品不會放檸檬片",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "柳橙綠茶",
+          "description": "綠茶加入柳橙風味，酸甜中帶有清爽茶感，真想每天來一杯！(此描述僅供參考)",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "柳橙青茶",
+          "description": "青茶加入柳橙風味，酸甜中帶有清爽茶感，真想每天來一杯！(此描述僅供參考)",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "旺來綠冰茶",
+          "description": "蜜漬鳳梨果粒搭配些許蜂蜜提味並以綠茶為基底，果粒與清新的茶香，順口清甜",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "旺來青冰茶",
+          "description": "蜜漬鳳梨果粒搭配些許蜂蜜提味並以青茶為基底，果粒與清新的茶香，順口清甜",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鳳蜜果茶",
+          "description": "蜜漬鳳梨果粒搭配柳橙提味並以青茶為基底，果粒與清新的茶香，順口清甜",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "葡萄柚綠茶",
+          "description": "葡萄柚的酸甜融入綠茶中，清新風味在口中釋放。(此描述僅供參考)",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "葡萄柚青茶",
+          "description": "葡萄柚的酸甜融入青茶中，清新風味在口中釋放。(此描述僅供參考)",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "黑晶萃-大杯",
+      "items": [
+        {
+          "name": "黑晶奶茶",
+          "description": "| 黑晶本身有點甜度 |\r\n建議飲品甜度3分或1分糖\r\n咖啡萃取而成的咖啡風味QQ黑晶小顆粒，入口後咖啡的香氣與烘麥奶茶(黃金蕎麥)融合，充滿嚼勁的QQ黑晶口感增加豐富的層次",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "黑晶拿鐵",
+          "description": "| 黑晶本身有點甜度 |\r\n建議飲品甜度3分或1分糖\r\n咖啡萃取而成的咖啡風味QQ黑晶小顆粒，入口後咖啡的香氣與烘麥鮮奶茶（黃金蕎麥）\r\n融合，充滿嚼勁的QQ黑晶口感增加豐富的層次",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "醇奶茶-大杯",
+      "items": [
+        {
+          "name": "經典紅奶茶",
+          "description": "基底使用的是濃烈的紅茶，使用阿薩姆紅茶，帶有麥香、果香或輕微的焦糖味，口感強烈且充滿層次感。",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "烘麥醇奶茶",
+          "description": "烘麥醇奶茶的味道通常融合了蕎麥的堅果香與奶茶的醇厚甜滑。蕎麥本身帶有一種微微的麥香和些微的焦香味，與奶茶的香濃奶味和茶香相互交融，形成一種獨特的口感層次。",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "世茗綠奶茶",
+          "description": "世茗綠奶茶是一款將茉莉花香與綠茶的清新口感結合，並加入奶精增添絲滑感的飲品。",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "雪芽綠奶茶",
+          "description": "雪芽綠奶茶味道清新獨特，濃郁的茉莉花香彷彿在空氣中綻放，清新的花香與綠茶的清爽相互交織，帶來一股輕柔的芬芳，整體口味溫和順口，奶香與茶香完美結合，既不失綠茶的清新，又添上一層細膩的乳香，讓每一口都帶來舒適的層次感，既清新又不失溫暖。",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "花語醇奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "焙烏龍奶茶",
+          "description": "焙烏龍的深沉風味與奶香融合的飲品，口感豐富且層次分明。",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "晶粿紅奶茶",
+          "description": "招牌QQㄉㄨㄞ ㄉㄨㄞ好喝的茶晶粿",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "珍珠紅奶茶",
+          "description": "大杯",
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "茶韻醇香(鮮奶茶)-大杯",
+      "items": [
+        {
+          "name": "伯牙翠韻",
+          "description": "伯牙翠韻味道清新獨特，濃郁的茉莉花香彷彿在空氣中綻放，清新的花香與綠茶的清爽相互交織，帶來一股輕柔的芬芳。融合了濃醇鮮奶的順滑口感，整體口味溫和順口，奶香與茶香完美結合，既不失綠茶的清新，又添上一層細膩的乳香，讓每一口都帶來舒適的層次感，既清新又不失溫暖。",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "伯牙清馥",
+          "description": "伯牙清馥這款飲品入口時會受到烏龍茶的濃郁香氣，帶有輕微的苦澀與清新的茶香，逐漸引出桂花的芬芳，輕柔而不張揚，為飲品帶來一抹迷人的花香。",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "伯牙花語",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "醇拿鐵(鮮奶茶)-大杯",
+      "items": [
+        {
+          "name": "紅茶醇拿鐵",
+          "description": "紅茶醇拿鐵是一款適合喜愛紅茶且偏好奶香的飲品，既能享受紅茶的濃郁風味，又能體驗奶香的溫和包覆，適合作為日常的提神飲品或午後放鬆時刻的伴侶。",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "焙烏龍拿鐵",
+          "description": "焙烏龍加入牛奶後，焙烏龍茶的濃烈焙香與牛奶的順滑感相結合，奶香溫和且柔和地包裹住焙茶的強烈味道，口感圓潤而不膩。",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "烘麥醇拿鐵",
+          "description": "| 無咖啡因 |\r\n低溫烘焙而成的黃金烘麥茶(黃金蕎麥)，甜香氣息，無咖啡因飲品的首選，搭配醇香鮮奶滋味濃郁",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "可可拿鐵",
+          "description": "可可醇拿鐵是一款口感豐富、巧克力香氣濃郁的飲品，適合喜愛巧克力和奶香的消費者，無論是作為日常的提神飲品，還是下午茶時的舒適享受，都是不錯的選擇。",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑芝麻拿鐵",
+          "description": "黑芝麻拿鐵基底阿薩姆紅茶是一款香氣濃郁、口感豐富且層次分明的飲品，融合了紅茶的濃烈、黑芝麻的香滑和牛奶的順滑感，適合喜愛香濃、具備獨特風味的茶飲愛好者。",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "芝醇奶-大杯",
+      "items": [
+        {
+          "name": "芝麻花晶粿奶霜",
+          "description": "| 限冷飲 | 推薦飲品|\r\n芝麻奶茶為基底，以黑芝麻打成的奶蓋(有甜度)，濃郁芝麻香、茶晶粿(有甜度)、搭配芝麻奶茶層層堆疊，口感醇厚美味| 本產品含有有花生，對食物過敏者請留意。",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "芝麻奶霜奶茶",
+          "description": "| 限冷飲 | 推薦飲品 | \r\n芝麻奶茶為基底，以黑芝麻打成的奶蓋，濃郁芝麻香、搭配芝麻奶茶層層堆疊，口感醇厚美味。",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "芝麻醇香奶茶",
+          "description": "芝麻奶茶，芝麻香口感醇厚美味",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "世奶霜",
+      "items": [
+        {
+          "name": "奶霜紅茶",
+          "description": "阿薩姆紅茶的茶湯顏色較深，味道也相對濃烈且富有層次感，帶有自然的麥香或焙燒香氣加上鹹甜奶蓋擁有獨特風味",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶霜綠茶",
+          "description": "翠綠茶口感清新且帶有微妙甘甜的茶品，適合喜愛花香和清爽口感的茶飲愛好者，加上鹹甜奶蓋擁有獨特風味",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶霜青茶",
+          "description": "珍春茶具有明顯的花香，尤其是像蘭花或茉莉花的香氣，香氣清新而持久，讓人感受到輕盈的愉悅感加上鹹甜奶蓋擁有獨特風味",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶霜烏龍",
+          "description": "焙烏龍的最大特點是其濃郁的焙火香，茶湯中會散發出一種煙燻或烘焙過的香氣，類似烤堅果或烘焙麵包的香味，具有豐富的層次感加上鹹甜奶蓋擁有獨特風味",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶霜雪芽",
+          "description": "翠綠雪芽融合茉莉花香與雪芽清韻的精緻茶品。選用優質的雪芽茶葉，經過輕微的蒸氣處理，保留了茶葉的自然清香，並與新鮮茉莉花瓣精心調和，釋放出柔和的花香與清新的茶味。每一口都是清新與細膩的雙重享受，帶來舒緩的放鬆感，仿佛置身於雪霧籠罩的茶園。加上鹹甜奶蓋擁有獨特風味",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "奶霜花語",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "奶霜可可",
+          "description": "巧克力香氣濃郁的飲品，適合喜愛巧克力和奶香的朋友們加上鹹甜奶蓋讓可可更加濃郁",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "萃冰茶-大杯",
+      "items": [
+        {
+          "name": "四季春",
+          "description": "四季春茶包是一款香氣清新、口感輕盈、易於沖泡的優質茶品，適合喜愛清新、自然花香的茶飲者，並且是現代快節奏生活中的理想選擇。",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜜香紅",
+          "description": "蜜香紅是一款香氣濃郁、口感醇厚、甜美自然的紅茶，適合喜愛自然蜜香和濃郁紅茶風味的茶飲者，無論是作為清晨的提神飲品，還是午後的悠閒茶飲，都是極佳的選擇。",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "四季春茶包",
+          "description": "四季春茶包是一款香氣清新、口感輕盈、易於沖泡的優質茶品，適合喜愛清新、自然花香的茶飲者，並且是現代快節奏生活中的理想選擇。(內15小包)",
+          "price_cold": 235,
+          "price_hot": 235
+        },
+        {
+          "name": "蜜香紅茶包",
+          "description": "蜜香紅是一款香氣濃郁、口感醇厚、甜美自然的紅茶，適合喜愛自然蜜香和濃郁紅茶風味的茶飲者，無論是作為清晨的提神飲品，還是午後的悠閒茶飲，都是極佳的選擇。(內15小包)",
+          "price_cold": 235,
+          "price_hot": 235
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "1杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "2杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "4杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "6杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

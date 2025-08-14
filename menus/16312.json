@@ -1,0 +1,360 @@
+{
+  "store_id": 16312,
+  "store_name": "師大總店",
+  "brand_code": "zhujian",
+  "brand_name": "逐健上飲",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "特選飲品 Specials",
+      "items": [
+        {
+          "name": "椰奶西谷米",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "晨露鮮奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "黑糖鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "椰奶西谷米",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "植物燕麥奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "豆漿紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "黑糖薑茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "嚴選 ‧ 真 ‧ 鮮奶茶 Tea Latte",
+      "items": [
+        {
+          "name": "鹿谷烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "經典鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "醇奶鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "茉香綠鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鹿谷烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鐵觀音鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "天然果調 Fruit Tea",
+      "items": [
+        {
+          "name": "鳳梨冰茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "青檸冬瓜",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜂蜜蘆薈",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜂蜜紅/綠/青/烏/鐵觀音茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "鳳梨冰茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "青檸冬瓜",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "檸香茉綠/烏龍/鐵觀音",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "氣泡纖飲 Fizzy",
+      "items": [
+        {
+          "name": "冰檸蘆薈氣泡飲",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蜂蜜氣泡飲",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜蘆薈氣泡飲",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冰檸氣泡飲",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冰檸蘆薈氣泡飲",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "青檸冬瓜氣泡飲",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "經典茶品 Classic Tea",
+      "items": [
+        {
+          "name": "錫蘭紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "阿薩姆紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "茉香綠茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "春芽嫩綠",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "四季青茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "鹿谷烏龍",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "鐵觀音",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "真 ‧ 鮮奶茶 Tea Latte",
+      "items": [
+        {
+          "name": "錫蘭鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "阿薩姆鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "四季青鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "乳清蛋白飲 Whey Protein Drinks",
+      "items": [
+        {
+          "name": "可可奶-乳清",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "黑糖鮮奶-乳清",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "椰香鮮奶-乳清",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "鮮奶茶-乳清",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "豆漿紅茶-乳清",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "蜂蜜豆奶-乳清",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "蜂蜜燕麥奶-乳清",
+          "description": null,
+          "price_cold": 130,
+          "price_hot": 130
+        }
+      ]
+    },
+    {
+      "category": "大豆蛋白飲 Soy Protein Drinks",
+      "items": [
+        {
+          "name": "鮮奶-大豆蛋白",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "豆漿-大豆蛋白(素)",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "蜂蜜豆奶-大豆蛋白",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "蜂蜜燕麥奶-大豆蛋白",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        }
+      ]
+    },
+    {
+      "category": "豌豆蛋白飲 Pea Protein Drinks",
+      "items": [
+        {
+          "name": "鮮奶-豌豆蛋白",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "豆漿-豌豆蛋白(素)",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "蜂蜜豆奶-豌豆蛋白",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "蜂蜜燕麥奶-豌豆蛋白",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        }
+      ]
+    }
+  ]
+}

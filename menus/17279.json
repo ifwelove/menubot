@@ -1,0 +1,94 @@
+{
+  "store_id": 17279,
+  "store_name": "桃園龜山店",
+  "brand_code": "supermilktea",
+  "brand_name": "顏太煮奶茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "太煮淬茶",
+      "items": [
+        {
+          "name": "焙香蕎麥茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "太煮凍飲",
+      "items": [
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蕎麥冬瓜",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "月老桃氣冰茶（蜜香紅）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "太煮熬奶",
+      "items": [
+        {
+          "name": "蕎麥拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "太煮蓋奶",
+      "items": [
+        {
+          "name": "海鹽奶蓋蕎麥茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "三韻·輕乳茶",
+      "items": [
+        {
+          "name": "韻綠·茉花輕乳茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "韻青·馥玉輕乳茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "韻紅·蜜香輕乳茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "海鹽可可輕乳",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    }
+  ]
+}

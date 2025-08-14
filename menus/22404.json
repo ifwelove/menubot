@@ -1,0 +1,361 @@
+{
+  "store_id": 22404,
+  "store_name": "復興錦州店",
+  "brand_code": "lutientaiwan",
+  "brand_name": "鹿沺台灣茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "(你訂)原味茶",
+      "items": [
+        {
+          "name": "(N)炊煙蒸菁綠茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(N)冉冉茶王青茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "(N)傳世凍頂烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(N)錦鯉小葉紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "(你訂)花果香原味茶",
+      "items": [
+        {
+          "name": "(N)梔子花青綠茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(N)嫣然白桃烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "(N)巨峰葡萄烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "(N)貴妃荔枝紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "(N)富士蘋果紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "(你訂)無咖啡因",
+      "items": [
+        {
+          "name": "(N)黃金蕎麥茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "(N)飄逸草本茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(N)仕女玫瑰茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(N)笑意菊花茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "(你訂)厚奶茶",
+      "items": [
+        {
+          "name": "(N)厚奶凍頂烏",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "(N)厚奶小葉紅",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "(N)黃金蕎麥奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "(你訂)鮮奶茶",
+      "items": [
+        {
+          "name": "(N)鮮奶蒸菁綠",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(N)鮮奶凍頂烏",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(N)鮮奶小葉紅",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(N)巨峰葡萄烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(N)貴妃荔枝紅茶鮮奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(N)富士蘋果紅茶鮮奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(N)黃金蕎麥鮮奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "(你訂)奶蓋",
+      "items": [
+        {
+          "name": "(N)奶蓋茶王青",
+          "description": null,
+          "price_cold": 62,
+          "price_hot": 62
+        },
+        {
+          "name": "(N)奶蓋凍頂烏",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(N)奶蓋小葉紅",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(N)奶蓋葡萄烏龍",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(N)奶蓋荔枝紅茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(N)奶蓋蘋果紅茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "(你訂)酸甜果蜜茶",
+      "items": [
+        {
+          "name": "(N)青梅蒸菁綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "(N)青梅茶王青",
+          "description": null,
+          "price_cold": 53,
+          "price_hot": 53
+        },
+        {
+          "name": "(N)青梅小葉紅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "(N)檸檬綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "(N)檸檬青",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "(N)檸檬紅",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "(N)純蜜蒸菁綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "(N)純蜜茶王青",
+          "description": null,
+          "price_cold": 57,
+          "price_hot": 57
+        },
+        {
+          "name": "(N)純蜜小葉紅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(N)純蜜白桃烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(N)純蜜葡萄烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(N)純蜜荔枝紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(N)純蜜蘋果紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(N)蜂蜜檸檬露",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "(N)蜂蜜檸檬綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(N)蜂蜜檸檬青",
+          "description": null,
+          "price_cold": 66,
+          "price_hot": 66
+        },
+        {
+          "name": "(N)蜂蜜檸檬紅",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(N)熱帶夏威夷(水果茶)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "(你訂)鹿沺行家茶",
+      "items": [
+        {
+          "name": "(N)阿里山(特富野)花香翠玉",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "(N)鹿谷凍頂清香烏龍",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "(N)鹿谷凍頂熟香烏龍",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "(N)鳳凰山高端紅烏龍",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(N)日月潭精品紅玉",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        }
+      ]
+    }
+  ]
+}

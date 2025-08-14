@@ -1,0 +1,261 @@
+{
+  "store_id": 20034,
+  "store_name": "大安店",
+  "brand_code": "kure8brand",
+  "brand_name": "KURE8 Kombucha | 8酵茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "精釀康普茶",
+      "items": [
+        {
+          "name": "茉茉百香",
+          "description": null,
+          "price_cold": 78,
+          "price_hot": 78,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbc73_GgaOp31d.jpg"
+        },
+        {
+          "name": "莓莓白桃",
+          "description": null,
+          "price_cold": 78,
+          "price_hot": 78,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbcbd_nC8sF61f.jpg"
+        },
+        {
+          "name": "荔荔玫瑰",
+          "description": null,
+          "price_cold": 78,
+          "price_hot": 78,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbc9c_nwZEme0A.jpg"
+        },
+        {
+          "name": "薑薑檸檬",
+          "description": null,
+          "price_cold": 78,
+          "price_hot": 78,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbcaa_UCxPy1Xm.jpg"
+        }
+      ]
+    },
+    {
+      "category": "康調茶",
+      "items": [
+        {
+          "name": "8酵水果茶",
+          "description": null,
+          "price_cold": 58,
+          "price_hot": 58,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbcf1_a9ZyLTfw.jpg"
+        },
+        {
+          "name": "柚見星空",
+          "description": null,
+          "price_cold": 58,
+          "price_hot": 58,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbd00_njIdLoiZ.jpg"
+        },
+        {
+          "name": "紫梅沙瓦",
+          "description": null,
+          "price_cold": 58,
+          "price_hot": 58,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbd14_aUSCnOqI.jpg"
+        },
+        {
+          "name": "荔枝花火",
+          "description": null,
+          "price_cold": 58,
+          "price_hot": 58,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbd38_HF6Rhwkv.jpg"
+        },
+        {
+          "name": "鳳梨快車",
+          "description": null,
+          "price_cold": 58,
+          "price_hot": 58,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbd50_xLzSvGHu.jpg"
+        },
+        {
+          "name": "絕代雙檸",
+          "description": null,
+          "price_cold": 58,
+          "price_hot": 58,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbd61_MtcIKh14.jpg"
+        },
+        {
+          "name": "凍檸西西里",
+          "description": null,
+          "price_cold": 68,
+          "price_hot": 68,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbd75_iCqZ8Nxo.jpg"
+        },
+        {
+          "name": "白桃西西里",
+          "description": null,
+          "price_cold": 68,
+          "price_hot": 68
+        }
+      ]
+    },
+    {
+      "category": "八成是茶",
+      "items": [
+        {
+          "name": "白桃紅茶",
+          "description": null,
+          "price_cold": 48,
+          "price_hot": 48
+        },
+        {
+          "name": "玉荷包種",
+          "description": null,
+          "price_cold": 48,
+          "price_hot": 48,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbdc1_ABbVqr4a.jpg"
+        },
+        {
+          "name": "檸麻烏龍",
+          "description": null,
+          "price_cold": 48,
+          "price_hot": 48,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbdd7_L2fUXnlO.jpg"
+        },
+        {
+          "name": "白桃烏龍",
+          "description": null,
+          "price_cold": 48,
+          "price_hot": 48
+        }
+      ]
+    },
+    {
+      "category": "原茶",
+      "items": [
+        {
+          "name": "藝釀烏龍",
+          "description": null,
+          "price_cold": 48,
+          "price_hot": 48,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbe03_0VS2y7WF.jpg"
+        },
+        {
+          "name": "藝釀紅茶",
+          "description": null,
+          "price_cold": 48,
+          "price_hot": 48,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbe1c_qvKuxfOA.jpg"
+        },
+        {
+          "name": "匠焙烏龍",
+          "description": null,
+          "price_cold": 48,
+          "price_hot": 48,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbe31_9Hc40fUw.jpg"
+        }
+      ]
+    },
+    {
+      "category": "咖啡鮮奶茶",
+      "items": [
+        {
+          "name": "紅韻鴛鴦",
+          "description": null,
+          "price_cold": 78,
+          "price_hot": 78,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbe3e_69TqznS5.jpg"
+        },
+        {
+          "name": "迎香鴛鴦",
+          "description": null,
+          "price_cold": 78,
+          "price_hot": 78,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_668fbe51_HN8JP4i3.jpg"
+        }
+      ]
+    },
+    {
+      "category": "季節限定",
+      "items": [
+        {
+          "name": "哈哈檸檬",
+          "description": null,
+          "price_cold": 78,
+          "price_hot": 78,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_687767c2_sN7qS8Li.jpeg"
+        },
+        {
+          "name": "哈味包種",
+          "description": null,
+          "price_cold": 48,
+          "price_hot": 48,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_687767d8_fRAhBjJd.jpeg"
+        },
+        {
+          "name": "芒狗嗚嗚",
+          "description": null,
+          "price_cold": 68,
+          "price_hot": 68,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_66c4ba8a_h3YETWHr.jpeg"
+        },
+        {
+          "name": "芒狗迎香",
+          "description": null,
+          "price_cold": 78,
+          "price_hot": 78,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_66c4ba9f_Oi8mPDoA.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "精釀康普茶瓶裝",
+      "items": [
+        {
+          "name": "茉茉百香 (250ml瓶裝)",
+          "description": null,
+          "price_cold": 140,
+          "price_hot": 140,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_676e43f4_dQKJ0xuj.jpeg"
+        },
+        {
+          "name": " 荔荔玫瑰 (250ml瓶裝)",
+          "description": null,
+          "price_cold": 140,
+          "price_hot": 140,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_676e441d_ML1svJAj.jpeg"
+        },
+        {
+          "name": "薑薑檸檬 (250ml瓶裝)",
+          "description": null,
+          "price_cold": 140,
+          "price_hot": 140,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_676e448f_p6yZDf71.jpeg"
+        },
+        {
+          "name": "莓莓白桃 (250ml瓶裝)",
+          "description": null,
+          "price_cold": 140,
+          "price_hot": 140,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2484/b2484_676e4432_t7se4W6f.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶",
+      "items": [
+        {
+          "name": "紅韻奶茶",
+          "description": null,
+          "price_cold": 68,
+          "price_hot": 68
+        },
+        {
+          "name": "迎香奶茶",
+          "description": null,
+          "price_cold": 68,
+          "price_hot": 68
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "store_id": 15880,
+  "store_name": "淡水牧場",
+  "brand_code": "farfarfarm",
+  "brand_name": "發發",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "期間限定.ᐟ.ᐟ",
+      "items": [
+        {
+          "name": "紫蘇於檸優格(M完美比例)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_686d4ebc_yLkBXvHz.jpg"
+        },
+        {
+          "name": "紫蘇於檸紅萱(L完美比例)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_686d4ede_EDPVmCYq.jpg"
+        }
+      ]
+    },
+    {
+      "category": "元氣灌溉",
+      "items": [
+        {
+          "name": "元氣燕麥優格（M 完美比例）",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a440b1_WUw5R26n.jpg"
+        },
+        {
+          "name": "葡萄啵啵優格（M 完美比例）",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43611_fyBjbeGL.jpg"
+        },
+        {
+          "name": "荔枝海鹽啵啵優格（M 完美比例）",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43673_BzURL4CF.jpg"
+        },
+        {
+          "name": "蘋果百香優格（M 完美比例）",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a437de_DFKcxyGn.jpg"
+        },
+        {
+          "name": "青青芭樂優格 （M 完美比例）",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43ffe_XrNiCKq6.jpg"
+        },
+        {
+          "name": "紅柚啵啵優格（M 完美比例）",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43816_utlGEBKz.jpg"
+        },
+        {
+          "name": "發發好芒優格（M 完美比例）",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a44031_vRT4scKd.jpg"
+        },
+        {
+          "name": "莓果派對優格（M 完美比例）",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a440dd_U8Vb3ivG.jpg"
+        },
+        {
+          "name": "野生藍莓優格（M 完美比例）",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a44066_rtIXyA9K.jpg"
+        },
+        {
+          "name": "伯爵茶優格（M 完美比例）",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a44103_UYDws6RF.jpg"
+        }
+      ]
+    },
+    {
+      "category": "牧場優優",
+      "items": [
+        {
+          "name": "香檸荔枝優優(M)",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43840_B2oCMg5P.jpg"
+        },
+        {
+          "name": "蘋果嚼嚼優優(M)",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43870_68cSl0jd.jpg"
+        },
+        {
+          "name": "青青芭樂優優(M)",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a438ca_qpTlRoNI.jpg"
+        },
+        {
+          "name": "紅柚嚼嚼優優(M)",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a438fc_xhLwD5Gd.jpg"
+        },
+        {
+          "name": "莓果嚼嚼優優(M)",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a4394b_SJFdUgQ3.jpg"
+        },
+        {
+          "name": "野生莓莓優優(M)",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a4397a_SveyIQdG.jpg"
+        }
+      ]
+    },
+    {
+      "category": "醇茶鮮奶",
+      "items": [
+        {
+          "name": "茶中香檳鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a441c5_vbQz1nMm.jpg"
+        },
+        {
+          "name": "發發私藏珍珠鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a44252_m3fBNZjV.jpg"
+        },
+        {
+          "name": "金萱凍鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a439c3_RfjkUF5x.jpg"
+        },
+        {
+          "name": "仙女燕麥穀粒鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a4420c_LGkUogmi.jpg"
+        },
+        {
+          "name": "焙金萱鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43c01_GAkw8s1e.jpg"
+        },
+        {
+          "name": "焙金萱珍珠鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43c48_hfB3Djtg.jpg"
+        }
+      ]
+    },
+    {
+      "category": "慢煮茶香",
+      "items": [
+        {
+          "name": "厚韻紅金萱(L)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43c6b_v7YPJgeE.jpg"
+        },
+        {
+          "name": "芽香綠金萱(L)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43c8e_MHUohdr1.jpg"
+        },
+        {
+          "name": "柔香青金萱(L)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43cb3_NFHLvI3w.jpg"
+        },
+        {
+          "name": "濃韻焙金萱(L)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43cde_rdJBfeT7.jpg"
+        },
+        {
+          "name": "焙金萱珍啵凍(L)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43d04_Mqt5UHg6.jpg"
+        }
+      ]
+    },
+    {
+      "category": "果香茶韻",
+      "items": [
+        {
+          "name": "香檸海鹽綠萱(L)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43d81_OlHpTqDe.jpg"
+        },
+        {
+          "name": "發發蘋果綠萱(L)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43db6_jkNv6Cld.jpg"
+        },
+        {
+          "name": "葡萄百香綠萱(L)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43ded_kZp9RNMP.jpg"
+        },
+        {
+          "name": "香檸芭樂青萱(L)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43e29_oYu4QRi6.jpg"
+        },
+        {
+          "name": "芒芒百香綠萱(L)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43e67_aXm8htWV.jpg"
+        },
+        {
+          "name": "莓果啵啵綠萱(L)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43e9d_0N2e9TgF.jpg"
+        },
+        {
+          "name": "紅柚蘆薈青萱(L)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43ec7_UHn0F8G5.jpg"
+        }
+      ]
+    },
+    {
+      "category": "無咖啡因",
+      "items": [
+        {
+          "name": "蘋果蘆薈果粒(L)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43ef1_zKtVs5aZ.jpg"
+        },
+        {
+          "name": "香檸百香啵啵(L)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43f21_VBfJ8y5t.jpg"
+        },
+        {
+          "name": "紅柚蘆薈果粒(L)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a43f52_BUyesojH.jpg"
+        },
+        {
+          "name": "牧香十穀物茶(L)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a4418a_uEf93NeY.jpg"
+        },
+        {
+          "name": "牧香穀物鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67a441ec_MfiXTPxm.jpg"
+        }
+      ]
+    },
+    {
+      "category": "發發療癒周邊",
+      "items": [
+        {
+          "name": "奇異鳥透明雙層環保隨行杯",
+          "description": null,
+          "price_cold": 788,
+          "price_hot": 788,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_664463da_SFVTBkpa.jpg"
+        },
+        {
+          "name": "奇異鳥發發招財包",
+          "description": null,
+          "price_cold": 288,
+          "price_hot": 288,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_67c4754e_zycPxaB8.jpg"
+        },
+        {
+          "name": "奇異鳥珍珠奶茶磁鐵",
+          "description": null,
+          "price_cold": 188,
+          "price_hot": 188,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_667d2626_n7KJVFrU.jpg"
+        },
+        {
+          "name": "黑色奇異鳥針織包",
+          "description": null,
+          "price_cold": 188,
+          "price_hot": 188,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_66ee9ffc_qC1ZMDuS.jpg"
+        },
+        {
+          "name": "黑色奇異鳥公仔杯套提袋",
+          "description": null,
+          "price_cold": 388,
+          "price_hot": 388,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_66ee9d47_zXqwM95b.jpg"
+        },
+        {
+          "name": "奇異鳥針織包",
+          "description": null,
+          "price_cold": 188,
+          "price_hot": 188,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_65942923_jIzoGb5M.jpg"
+        },
+        {
+          "name": "奇異鳥公仔杯套提袋",
+          "description": null,
+          "price_cold": 388,
+          "price_hot": 388,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/715/b715_64b89e39_mOoXDRt8.png"
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "1杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "2杯袋(可裝2杯~3杯)",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "4杯袋(可裝4杯~6杯)",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

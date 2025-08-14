@@ -1,0 +1,356 @@
+{
+  "store_id": 23998,
+  "store_name": "師大店",
+  "brand_code": "yifancha",
+  "brand_name": "一番茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "純茶",
+      "items": [
+        {
+          "name": "一番茶(穀蕎麥)-純茶L冰",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "一番茶(穀蕎麥)-純茶M熱",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "焙烏龍-純茶L冰",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "焙烏龍-純茶M熱",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "春烏龍-純茶L冰",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "春烏龍-純茶M熱",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "榖烏龍-純茶L冰",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "榖烏龍-純茶M熱",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "梔窨茉綠-純茶L冰",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "梔窨茉綠-純茶M熱",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "麝香紅-純茶L冰",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "麝香紅-純茶M熱",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶",
+      "items": [
+        {
+          "name": "麝香紅-鮮奶茶L冰",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "麝香紅-鮮奶茶M冰",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "麝香紅-鮮奶茶M熱",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "焙烏龍-鮮奶茶L冰",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "焙烏龍-鮮奶茶M冰",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "焙烏龍-鮮奶茶M熱",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "榖烏龍-鮮奶茶L冰",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "榖烏龍-鮮奶茶M冰",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "榖烏龍-鮮奶茶M熱",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "一番茶(穀蕎麥)-鮮奶茶L冰",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "一番茶(穀蕎麥)-鮮奶茶M冰",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "一番茶(穀蕎麥)-鮮奶茶M熱",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "奶茶",
+      "items": [
+        {
+          "name": "麝香紅-奶茶L冰",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "麝香紅-奶茶M熱",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "焙烏龍-奶茶L冰",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "焙烏龍-奶茶M熱",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "榖烏龍-奶茶L冰",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "榖烏龍-奶茶M熱",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "一番茶(穀蕎麥)-奶茶L冰",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "一番茶(穀蕎麥)-奶茶M熱",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "果味茶",
+      "items": [
+        {
+          "name": "柚香穀烏龍L冰",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "柚香春烏龍L冰",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "青森蘋果茶-梔窨綠L冰",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "青森蘋果茶-春烏龍L冰",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "青森蘋果茶-麝香紅L冰",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "香檸果茶-春烏龍L冰",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "香檸果茶-麝香紅L冰",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "香橙春綠L冰",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "蜜蜂工坊 蜂蜜",
+      "items": [
+        {
+          "name": "一番茶(穀蕎麥)-蜂蜜L冰",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "春烏龍-蜂蜜L冰",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "麝香紅-蜂蜜L冰",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "焙烏龍鮮奶茶-蜂蜜L冰",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "背心袋",
+      "items": [
+        {
+          "name": "購物袋-1杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "購物袋-2杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "購物袋-4杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "購物袋-6杯袋",
+          "description": null,
+          "price_cold": 3,
+          "price_hot": 3
+        }
+      ]
+    },
+    {
+      "category": "絕配加料",
+      "items": [
+        {
+          "name": "杏仁凍春烏龍L冰",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蕨餅一番茶L冰",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蕨餅焙烏龍鮮奶茶L冰",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "焙凍柚香春烏龍L冰",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    }
+  ]
+}

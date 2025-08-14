@@ -1,0 +1,432 @@
+{
+  "store_id": 20997,
+  "store_name": "大安示範店",
+  "brand_code": "mometeashop",
+  "brand_name": "沫茗手作茶專賣",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "沫茗茶",
+      "items": [
+        {
+          "name": "茗綠茶. M",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "茗綠茶. L",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "悅紅茶. M",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25
+        },
+        {
+          "name": "悅紅茶. L",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "沫烏龍. M",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "沫烏龍. L",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "輕冬露.. M",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "輕冬露.. L",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "山茶花紅韻烏龍. M",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "山茶花紅韻烏龍. L",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "金箔玉露抹茶.",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2613/b2613_6761af76_V7lZmObE.jpg"
+        }
+      ]
+    },
+    {
+      "category": "沫鮮果",
+      "items": [
+        {
+          "name": "招牌柳橙烏龍蒟蒻.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2613/b2613_67407d7a_ORQbKGh9.jpg"
+        },
+        {
+          "name": "招牌柳橙沫烏龍.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2613/b2613_6761aec1_49M0RxZD.jpg"
+        },
+        {
+          "name": "招牌檸檬沫烏龍.",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鮮百香綠茶.",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "桑葚冰茶.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        },
+        {
+          "name": "紅茶桑葚凍飲.",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2613/b2613_6761aeff_Y58AbWo4.jpg"
+        },
+        {
+          "name": "復刻檸檬春梅.",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2613/b2613_6761aeef_1bS9lyVA.jpg"
+        },
+        {
+          "name": "百香蒟蒻凍飲.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2613/b2613_6761afaf_ZsogLU21.jpg"
+        },
+        {
+          "name": "冬露檸檬..",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "翡翠柳橙綠.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        },
+        {
+          "name": "鮮蘋果沫烏龍.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        }
+      ]
+    },
+    {
+      "category": "沫歐雷",
+      "items": [
+        {
+          "name": "錫蘭紅茶拿鐵. M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "錫蘭紅茶拿鐵. L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2613/b2613_6761ae56_MAPN93fl.jpg"
+        },
+        {
+          "name": "紅豆Q拿鐵. M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "紅豆Q拿鐵. L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "煮濃厚拿鐵.",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2613/b2613_6761af0c_vdAWQNX5.jpg"
+        },
+        {
+          "name": "蒟蒻凍紅茶拿鐵. M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蒟蒻凍紅茶拿鐵. L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "珍珠紅茶拿鐵. M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "珍珠紅茶拿鐵. L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "黃金烏龍拿鐵. M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黃金烏龍拿鐵. L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "輕冬露拿鐵.. M",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "輕冬露拿鐵.. L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "山茶花紅韻烏龍拿鐵.",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "梔子花綠茶拿鐵. M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "梔子花綠茶拿鐵. L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "頂級玫瑰鹽紅茶奶蓋. M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "頂級玫瑰鹽紅茶奶蓋. L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "頂級玫瑰鹽綠茶奶蓋. M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "頂級玫瑰鹽綠茶奶蓋. L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "頂級玫瑰鹽烏龍奶蓋. M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "頂級玫瑰鹽烏龍奶蓋. L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "沫抹茶",
+      "items": [
+        {
+          "name": "招牌抹茶紅豆蒟蒻.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        },
+        {
+          "name": "招牌抹茶紅豆.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2613/b2613_6761aeb2_GU53alLv.jpg"
+        },
+        {
+          "name": "招牌抹茶蒟蒻.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        },
+        {
+          "name": "日式抹茶拿鐵.",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "日式抹茶烏龍拿鐵.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2613/b2613_6761aecc_PfIQZXsn.jpg"
+        },
+        {
+          "name": "日式抹茶奶蓋拿鐵.",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        }
+      ]
+    },
+    {
+      "category": "十勝聯名系列",
+      "items": [
+        {
+          "name": "十勝霜淇淋紅茶.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        },
+        {
+          "name": "十勝霜淇淋綠茶.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        },
+        {
+          "name": "十勝霜淇淋烏龍.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        },
+        {
+          "name": "十勝霜淇淋冬露.",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        },
+        {
+          "name": "十勝霜淇淋X煮濃厚拿鐵.",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        },
+        {
+          "name": "百香霜淇淋.",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        },
+        {
+          "name": "十勝霸王醇乳重拿鐵..",
+          "description": null,
+          "price_cold": 88,
+          "price_hot": 88
+        }
+      ]
+    },
+    {
+      "category": "A+B A區",
+      "items": [
+        {
+          "name": "桑葚凍蘋果烏龍.",
+          "description": "點完此品項記得在單品茶類擇一",
+          "price_cold": 99,
+          "price_hot": 99
+        }
+      ]
+    },
+    {
+      "category": "A+B B區",
+      "items": [
+        {
+          "name": "茗綠茶B",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "悅紅茶B",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "沫烏龍B",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "山茶花紅韻烏龍B",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "輕冬露B",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        }
+      ]
+    }
+  ]
+}

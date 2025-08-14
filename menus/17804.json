@@ -1,0 +1,299 @@
+{
+  "store_id": 17804,
+  "store_name": "汐止總店",
+  "brand_code": "jinchaju",
+  "brand_name": "金茶居",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "享紅茶",
+      "items": [
+        {
+          "name": "歲月紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "鮮檸紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜜蘋歲月",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "金錫奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "金錫鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "喫綠茶",
+      "items": [
+        {
+          "name": "春茉綠茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2123/b2123_663477a9_oqjCref2.jpg"
+        },
+        {
+          "name": "茉香奶綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "鳳梨冰茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "品伯爵",
+      "items": [
+        {
+          "name": "皇家伯爵茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "伯爵鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "喝烏龍",
+      "items": [
+        {
+          "name": "炭焙烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "蜜香烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "炭焙烏龍奶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "炭焙鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "找青茶",
+      "items": [
+        {
+          "name": "四季青茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "桂花四季",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "柳橙青茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芭椰青",
+          "description": "四季青茶配芭樂原汁，再加上椰果。",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "無茶系",
+      "items": [
+        {
+          "name": "冬瓜茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "蜂蜜菊花",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "氣泡系",
+      "items": [
+        {
+          "name": "冬瓜泡檸檬",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜泡香橙",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "咖啡系",
+      "items": [
+        {
+          "name": "美式咖啡",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "特調咖啡",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "拿鐵咖啡",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "檸檬氣泡咖啡",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "吃泡麵",
+      "items": [
+        {
+          "name": "牛肉風味麵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蔥辣牛風味麵(微辣)",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "豚骨風味麵",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "香滷烏龍麵",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "韓式泡麵(微辣)",
+          "description": null,
+          "price_cold": 109,
+          "price_hot": 109
+        }
+      ]
+    },
+    {
+      "category": "冰鎮滷味",
+      "items": [
+        {
+          "name": "滷蛋",
+          "description": null,
+          "price_cold": 17,
+          "price_hot": 17
+        },
+        {
+          "name": "小豆干",
+          "description": null,
+          "price_cold": 20,
+          "price_hot": 20
+        },
+        {
+          "name": "百頁豆腐",
+          "description": null,
+          "price_cold": 20,
+          "price_hot": 20
+        },
+        {
+          "name": "三角油豆腐",
+          "description": null,
+          "price_cold": 20,
+          "price_hot": 20
+        },
+        {
+          "name": "小豆干一包",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "包材",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "塑膠杯架",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "多加購紙碗",
+          "description": null,
+          "price_cold": 5,
+          "price_hot": 5
+        }
+      ]
+    }
+  ]
+}

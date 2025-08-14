@@ -1,0 +1,581 @@
+{
+  "store_id": 24379,
+  "store_name": "中山店",
+  "brand_code": "longootea",
+  "brand_name": "巃蕪中山",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "一元袋(1－2杯）",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "二元袋（3－6杯）",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    },
+    {
+      "category": "天龍BUBBLE（大杯）",
+      "items": [
+        {
+          "name": "桃龍沁露（白桃梅露＋茶凍）",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "國色天香（蜜香紅茶鮮奶＋三料巃總來）",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "龍焙神奶（ 觀音烏龍鮮奶＋三料巃總來）",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "臥普藏龍（菊花普洱鮮奶＋三料巃總來）",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "飛龍在天（翠玉烏龍鮮奶＋三料巃總來）",
+          "description": null,
+          "price_cold": 125,
+          "price_hot": 125
+        },
+        {
+          "name": "魚躍龍門（ 紅玉鮮奶＋三料巃總來）",
+          "description": null,
+          "price_cold": 135,
+          "price_hot": 135
+        },
+        {
+          "name": "金龍細語（金萱烏龍＋三料巃總來）",
+          "description": null,
+          "price_cold": 135,
+          "price_hot": 135
+        },
+        {
+          "name": "飛黃騰達（梨山蜜香紅鮮奶＋蓮藕冰粉）",
+          "description": null,
+          "price_cold": 200,
+          "price_hot": 200
+        },
+        {
+          "name": "蒼龍出凍（梔子花青綠+松露奶蓋＋茶凍）",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        }
+      ]
+    },
+    {
+      "category": "台茶系列",
+      "items": [
+        {
+          "name": "梔子花沁青綠",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "高山青茶烏龍",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "阿里山初露",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "白桃清香烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "葡萄四季烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "焙香觀音烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "春日蜜香紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "荔枝窨香紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "藍莓熟成紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "菊花普洱茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "古早味紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "世界台茶（中杯建議無糖常溫或去冰）",
+      "items": [
+        {
+          "name": "翠玉烏龍",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "紅玉紅茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "手摘奶香金萱",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "熟香凍頂烏龍茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "清香包種",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "蜜香紅烏龍",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "凍頂三十老茶",
+          "description": null,
+          "price_cold": 180,
+          "price_hot": 180
+        },
+        {
+          "name": "月光白茶",
+          "description": null,
+          "price_cold": 230,
+          "price_hot": 230
+        },
+        {
+          "name": "樸得普洱",
+          "description": null,
+          "price_cold": 250,
+          "price_hot": 250
+        },
+        {
+          "name": "東方美人茶",
+          "description": null,
+          "price_cold": 130,
+          "price_hot": 130
+        },
+        {
+          "name": "東方美人＿得獎茶",
+          "description": null,
+          "price_cold": 180,
+          "price_hot": 180
+        },
+        {
+          "name": "梨山金芽蜜香紅",
+          "description": null,
+          "price_cold": 160,
+          "price_hot": 160
+        },
+        {
+          "name": "大禹嶺95K－醇香厚實",
+          "description": null,
+          "price_cold": 280,
+          "price_hot": 280
+        },
+        {
+          "name": "大禹嶺100K雪霧茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320
+        },
+        {
+          "name": "華崗水源頭2650米",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320
+        },
+        {
+          "name": "高山野放烏龍",
+          "description": null,
+          "price_cold": 450,
+          "price_hot": 450
+        },
+        {
+          "name": "自然農法紅烏龍",
+          "description": null,
+          "price_cold": 280,
+          "price_hot": 280
+        },
+        {
+          "name": "自然農法蜜香紅",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320
+        },
+        {
+          "name": "清心包種－頭等獎",
+          "description": null,
+          "price_cold": 180,
+          "price_hot": 180
+        }
+      ]
+    },
+    {
+      "category": "蜂蜜系列",
+      "items": [
+        {
+          "name": "蜂蜜梔子花沁青綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜高山青烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜阿里山初露",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜白桃清香烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜葡萄四季烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜焙香觀音烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜春日蜜香紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜荔枝窨香紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜藍莓熟成紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜菊花普洱茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "咖啡系列",
+      "items": [
+        {
+          "name": "美式咖啡",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "咖啡拿鐵",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "梔花茶美式咖",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "荔枝紅美式咖",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "布蕾起士美式咖啡",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "陳梅烏龍美式咖啡",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "鮮奶系列",
+      "items": [
+        {
+          "name": "梔子花青綠鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "高山青烏龍鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "阿里山初露鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "白桃清香烏龍鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "葡萄四季烏龍鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "焙香觀音烏龍鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "春日蜜香紅茶鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "荔枝窨香紅茶鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "藍莓熟成紅茶鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "菊花普洱茶鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "焦糖國寶紅鮮奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "黃金蕎麥茶鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "白河蓮藕茶鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "配料",
+      "items": [
+        {
+          "name": "玉琉璃",
+          "description": null,
+          "price_cold": 20,
+          "price_hot": 20
+        }
+      ]
+    },
+    {
+      "category": "低咖啡因飲品",
+      "items": [
+        {
+          "name": "慢心舒壓茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "焦糖國寶紅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "黃金蕎麥茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "白河蓮藕茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "梅子冰露",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "黑糖鮮奶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "冰梅茶飲",
+      "items": [
+        {
+          "name": "冰梅梔冰花沁青綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰梅高山青烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冰梅阿里山初露",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冰梅白桃清香烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰梅葡萄四季烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰梅焙香觀音烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰梅春日蜜香紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冰梅荔枝窨香紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冰梅藍莓熟成紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冰莓菊花普洱茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    }
+  ]
+}

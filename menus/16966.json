@@ -1,0 +1,104 @@
+{
+  "store_id": 16966,
+  "store_name": "北車概念店",
+  "brand_code": "plante",
+  "brand_name": "植蘊 Planté",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "注意事項",
+      "items": [
+        {
+          "name": "全單使用紙杯",
+          "description": "預設使用循環杯，杯子可清洗後重複使用，好攜帶且可以完全密封。若不使用循環杯，請下標此選項。",
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "30 杯以上請提前預訂",
+          "description": "如當天訂購，將依店內狀況安排配送時間，恕無法指定時間。",
+          "price_cold": 0,
+          "price_hot": 0
+        }
+      ]
+    },
+    {
+      "category": "果茶 (冷熱飲皆可做)",
+      "items": [
+        {
+          "name": "植蘊水果茶",
+          "description": "成分｜100%鳳梨、柳橙、百香果、檸檬、當季水果。\r\n風味｜首創純果水果茶，天然水果風味。\r\n營養｜120大卡、富含多種水果。",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1978/b1978_65843d3e_efm79E8G.png"
+        },
+        {
+          "name": "初榨檸檬",
+          "description": "成分｜屏東履歷檸檬、台灣香檬、柳橙。\r\n風味｜三種柑橘類的多層次酸甜。\r\n營養｜120大卡、富含維生素C。",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1978/b1978_65843e0c_dJ3z1gnZ.jpg"
+        },
+        {
+          "name": "多肉柳橙",
+          "description": "成分｜南投履歷柳丁、屏東履歷檸檬。\r\n風味｜冷凍原汁，酸甜帶層次。\r\n營養｜120大卡、富含維生素C",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1978/b1978_6584404c_j1MX6tio.jpg"
+        },
+        {
+          "name": "冷萃鳳梨",
+          "description": "成分｜高雄有機鳳梨、屏東履歷檸檬。\r\n風味｜完整鳳梨風味與果粒，杯杯現打。\r\n營養｜120大卡、富含鳳梨酵素",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1978/b1978_65843f8f_pWClKOho.jpg"
+        },
+        {
+          "name": "果粒桑葚",
+          "description": "成分｜彰化履歷桑葚、檸檬。\r\n風味｜原始天然桑葚的香氣與層次，建議第一次喝嘗試微糖。\r\n營養｜62大卡、富含花青素。",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1978/b1978_65844093_64yQueoA.jpg"
+        }
+      ]
+    },
+    {
+      "category": "奶茶 (冷熱飲皆可做)",
+      "items": [
+        {
+          "name": "冠軍鮮奶茶",
+          "description": "成分｜含煮濃蜜香紅、鮮奶、維生素D3 400UI。\r\n風味｜使用一斤近千的蜜香紅茶，帶天然花果蜜香、無糖不會甜。\r\n營養｜184大卡、蛋白質8.6g\r\n（大杯無糖無料營養標示）\r\n\r\n「膠原果凍含檸檬成分，為提供最適合的喝法，故無法搭配冠軍鮮奶茶 / 高纖燕麥奶作飲用，敬請見諒 」",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1978/b1978_65844019_72gJOEIV.jpg"
+        },
+        {
+          "name": "高纖燕麥奶",
+          "description": "成分｜100%無添加燕麥奶、維生素D3 400UI。\r\n風味｜質樸的燕麥風味，建議加料豐富口感。\r\n營養｜230大卡、蛋白質9.1g、膳食纖維8.7g。\r\n（大杯無糖無料營養標示）\r\n\r\n「膠原果凍含檸檬成分，為提供最適合的喝法，故無法搭配冠軍鮮奶茶 / 高纖燕麥奶作飲用，敬請見諒 」",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1978/b1978_658440cf_HBwUC9i0.jpg"
+        }
+      ]
+    },
+    {
+      "category": "純茶 (冷熱飲皆可做)",
+      "items": [
+        {
+          "name": "蜜香紅蘊",
+          "description": "成分｜蟬吻蜜香紅茶、菊苣纖維。\r\n風味｜台灣頂級紅茶之一，帶有天然花果蜂蜜香，無糖不會甜。\r\n營養｜4大卡、茶黃素、茶胺酸較高。\r\n（大杯無糖無料營養標示）",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1978/b1978_6584411b_G3sj95ef.jpg"
+        },
+        {
+          "name": "四季春蘊",
+          "description": "成分｜兩種頂級青茶、菊苣纖維。\r\n風味｜帶有花果香的輕烏龍茶。\r\n營養｜4大卡、黃酮類、兒茶素較高。\r\n（大杯無糖無料營養標示）",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1978/b1978_65843fe2_Z9N7OQla.jpg"
+        }
+      ]
+    }
+  ]
+}

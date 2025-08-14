@@ -1,0 +1,337 @@
+{
+  "store_id": 25828,
+  "store_name": "竹南店",
+  "brand_code": "godtea",
+  "brand_name": "尬癮茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "純茶系列",
+      "items": [
+        {
+          "name": "紅玉紅茶",
+          "description": "Taiwanese Hong Yu Black Tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "霸王普洱",
+          "description": "Pu-erh Tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "碧螺春綠茶",
+          "description": "Biluochun Green Tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "烏龍鐵觀音",
+          "description": "Oolong Tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "重焙冬片青",
+          "description": "Taiwanese Winter Oolong Tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "鹿谷奶韻金萱",
+          "description": "Lugu Milk Fragrance Jin Xuan Tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "日式京都玄米",
+          "description": "Japanese Kyoto Genmaicha Tea",
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "無咖啡因系列",
+      "items": [
+        {
+          "name": "仙草甘茶",
+          "description": "Grass Tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "手作現熬冬瓜茶",
+          "description": "Fresh Winter Melon Tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "尬癮茶冰沙",
+          "description": "Godocha Slush",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬瓜尬玄米",
+          "description": "Winter Melon with Genmaicha",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬瓜尬檸檬",
+          "description": "Lemon with Winter Melon Tea",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬瓜尬仙草凍",
+          "description": "Grass Jelly with Winter Melon Tea",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "甘蔗尬檸檬",
+          "description": "Sugar Cane Lemon Tea",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "浮雲鹹奶蓋系列",
+      "items": [
+        {
+          "name": "紅玉鹹奶蓋",
+          "description": "Taiwanese Hong Yu Black Tea with Cheese Cream Cap",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "普洱鹹奶蓋",
+          "description": "Pure Puerh Tea with Cheese Cream Cap",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "金萱鹹奶蓋",
+          "description": "Lugu Milk Fragrance Jin Xuan Tea with Cheese Cream Cap",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "玄米鹹奶蓋",
+          "description": "Japanese Kyoto Genmaicha Tea with Cheese Cream Cap",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "碧螺春鹹奶蓋",
+          "description": "Biluochun Green Tea with Cheese Cream Cap",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "鐵觀音鹹奶蓋",
+          "description": "Oolong Tea with Cheese Cream Cap",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬片青鹹奶蓋",
+          "description": "Taiwanese Winter Oolong Tea with Cheese Cream Cap",
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "奶茶系列",
+      "items": [
+        {
+          "name": "尬癮奶茶",
+          "description": "Milk Tea",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "藍莓凍尬奶茶",
+          "description": "Blueberry Jelly with Milk Tea",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "凍凍我試試",
+          "description": "Black Sesame with Brown Sugar Jelly with Milk Tea",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "黑芝麻奶茶",
+          "description": "Black Sesame Milk Tea",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "珍珠尬奶茶",
+          "description": "Boba Milk Tea",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "小芋圓尬奶綠",
+          "description": "Small Taro Balls with Green Milk Tea",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "粉角烏龍尬奶",
+          "description": "Tapioca Cube with Oolong Milk Tea",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "3Q烏龍尬奶",
+          "description": "Boba & Tapioca Cube & Small Taro Balls with Oolong Milk Tea",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "濃乳系列",
+      "items": [
+        {
+          "name": "濃乳紅茶拿鐵",
+          "description": "Rich Black Tea Latte",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "甘蔗拿鐵",
+          "description": "Sugar Cane Latte",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "阿華田拿鐵",
+          "description": "Assam Tea Latte",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "3Q紅茶拿鐵",
+          "description": "Boba & Tapioca Cube & Small Taro Balls with Black Tea Latte",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "鮮奶尬仙草凍",
+          "description": "Fresh Milk with Grass Jelly",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "小芋圓紅茶拿鐵",
+          "description": "Small Taro Balls with Black Tea Latte",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "黑芝麻紅茶拿鐵",
+          "description": "Brown Sugar Black Tea Latte",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "黑糖拉麵紅茶拿鐵",
+          "description": "Brown Sugar Jelly Black Tea Latte",
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "解渴系列",
+      "items": [
+        {
+          "name": "冬瓜尬青茶",
+          "description": "Winter Melon with Oolong Tea",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "柳橙尬綠茶",
+          "description": "Orange with Green Tea",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "甘蔗尬青茶",
+          "description": "Sugar Cane Lemon Tea",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "百香尬綠茶",
+          "description": "Passion Fruit with Green Tea",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "百香尬綠茶2.0",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "塑膠袋1元",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "塑膠袋2元",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    },
+    {
+      "category": "限定飲品",
+      "items": [
+        {
+          "name": "酸梅湯",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "綠茶梅了",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "酸梅冰沙",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "紅茶梅了",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    }
+  ]
+}

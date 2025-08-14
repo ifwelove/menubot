@@ -1,0 +1,524 @@
+{
+  "store_id": 22605,
+  "store_name": "竹南博愛店",
+  "brand_code": "teamelody",
+  "brand_name": "十二韻",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "台灣好韻茶",
+      "items": [
+        {
+          "name": "台灣首選綠茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "台灣香韻青茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "日月潭紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "碳焙鐵觀音-台灣",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "鐵觀音青-台灣",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "鐵觀音綠-台灣",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "油切茶花綠茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "冰淇淋紅茶",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        }
+      ]
+    },
+    {
+      "category": "私藏特調",
+      "items": [
+        {
+          "name": "黃金焙炒蕎麥",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "焙炒蕎麥冬瓜",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "仙草甘茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "手熬冬瓜茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "手熬冬瓜青",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "手熬冬瓜檸檬",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "養樂多綠茶",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        }
+      ]
+    },
+    {
+      "category": "纖果飲",
+      "items": [
+        {
+          "name": "葡萄柚果粒綠茶",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "土鳳梨青茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "台灣柳橙綠茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "埔里甘蔗青茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "百香綠茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "百香紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "檸檬養樂多",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "富士蘋果熟成紅",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        }
+      ]
+    },
+    {
+      "category": "初鹿牧場鮮奶",
+      "items": [
+        {
+          "name": "日月潭鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "鐵觀音鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "青茶鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "綠茶鮮奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "珍珠鮮奶茶",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59
+        },
+        {
+          "name": "珍珠鮮鐵奶",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59
+        },
+        {
+          "name": "焙炒蕎麥鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "芋頭純鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "京都宇治抹茶拿鐵",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59
+        }
+      ]
+    },
+    {
+      "category": "嚼感茶",
+      "items": [
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "珍珠鐵奶",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "仙芋Q奶",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "椰果奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "雙Q奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "百香Q果綠",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "粉珍粿奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "嫩仙草奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "巨峰葡萄吸凍飲",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59
+        },
+        {
+          "name": "魔法紫芋波波",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "草莓Q凍奶",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "蜂蜜柚子輕凍飲",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "粉角檸檬綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "醇奶茶",
+      "items": [
+        {
+          "name": "香韻奶青",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "首選奶綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "日月潭奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "鐵觀音奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "草莓醇奶茶",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        }
+      ]
+    },
+    {
+      "category": "真蜂蜜特調",
+      "items": [
+        {
+          "name": "蜂蜜翡翠檸檬",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜檸檬汁",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜檸檬粉粿",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "玫瑰",
+      "items": [
+        {
+          "name": "玫瑰美妍冰茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "玫瑰舒暢茶",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59
+        }
+      ]
+    },
+    {
+      "category": "水凝HA莓果",
+      "items": [
+        {
+          "name": "水凝HA莓果Q凍飲",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59
+        },
+        {
+          "name": "水凝HA莓果養樂多",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59
+        }
+      ]
+    },
+    {
+      "category": "氣泡飲",
+      "items": [
+        {
+          "name": "巨峰葡萄氣泡飲",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "銀河星空",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59
+        }
+      ]
+    },
+    {
+      "category": "奶昔",
+      "items": [
+        {
+          "name": "草莓香草奶昔",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2844/b2844_67bee2f8_optR7rB1.jpg"
+        },
+        {
+          "name": "京都宇治抹茶奶昔",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59
+        },
+        {
+          "name": "紫芋香草奶昔",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        }
+      ]
+    },
+    {
+      "category": "桂花",
+      "items": [
+        {
+          "name": "桂花檸檬粉粿",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "桂花冰釀梅綠",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "桂花鐵觀音",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "荔枝",
+      "items": [
+        {
+          "name": "荔枝粉角紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "荔枝檸檬冰沙",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "荔枝輕檸椰果",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "荔枝纖檸冰茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "芭樂果漾",
+      "items": [
+        {
+          "name": "芭樂鳳梨冰茶",
+          "description": null,
+          "price_cold": 59,
+          "price_hot": 59
+        },
+        {
+          "name": "芭樂檸檬吸凍飲",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芭樂養樂多",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芭樂檸檬冰沙",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        },
+        {
+          "name": "芭樂梅果冰茶",
+          "description": null,
+          "price_cold": 49,
+          "price_hot": 49
+        }
+      ]
+    }
+  ]
+}

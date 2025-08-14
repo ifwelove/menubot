@@ -1,0 +1,349 @@
+{
+  "store_id": 20181,
+  "store_name": "雙連店",
+  "brand_code": "roojibrand",
+  "brand_name": "儒記",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "舉人推薦",
+      "items": [
+        {
+          "name": "金榜題名(烏龍鮮奶+黑糖寒天)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "提案順利(荔枝鮮奶+珠寶盒)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "神來一筆(白桃烏龍+輕雲奶蓋+茶凍)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "熬夜不瞌睡(果香美式咖啡+茶凍)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "午后好時光(伯爵鮮奶+珠寶盒)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "【高山茗品】台灣好茶",
+      "items": [
+        {
+          "name": "杉林溪高冷茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "舉人焙香烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "台灣高山紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "【雅士果韻】花果香茶系列",
+      "items": [
+        {
+          "name": "玉荷荔枝紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "皇家伯爵紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "菊花普洱茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "茶花玉露綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "白桃蜜烏龍茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "香檳葡萄烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "洛神烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "【醇香鮮奶】鮮奶茶系列",
+      "items": [
+        {
+          "name": "高山紅茶鮮乳",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "荔枝紅茶鮮乳",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "伯爵紅茶鮮乳",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "舉人焙香烏龍鮮乳",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "香檳葡萄烏龍鮮乳",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "菊花普洱鮮乳",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "牛蒡黑豆鮮乳",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "【文人茶咖】咖啡系列",
+      "items": [
+        {
+          "name": "果香黑咖啡",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "花香黑咖啡",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "單品拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "雲朵冰咖啡",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蘭姆酒香咖啡",
+          "description": null,
+          "price_cold": 150,
+          "price_hot": 150
+        }
+      ]
+    },
+    {
+      "category": "【清新雅飲】無咖啡因系列",
+      "items": [
+        {
+          "name": "陳年梅露",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "牛蒡黑豆茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "飄然紓壓茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "小農蜂蜜水",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "【蜜意茶香】蜂蜜、陳梅系列",
+      "items": [
+        {
+          "name": "純蜜高山紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "純蜜荔枝紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "純蜜高冷烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "純蜜白桃烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "純蜜葡萄烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "純蜜洛神烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "純蜜茶花玉露",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "純蜜菊花普洱",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "陳梅蜜香紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "舉人陳梅烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "陳梅洛神烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "【御品現泡茶】高端茶系列",
+      "items": [
+        {
+          "name": "大禹嶺霜雪烏龍",
+          "description": null,
+          "price_cold": 280,
+          "price_hot": 280
+        },
+        {
+          "name": "福壽頂級梨山",
+          "description": null,
+          "price_cold": 260,
+          "price_hot": 260
+        },
+        {
+          "name": "蟬涎極品蜜香",
+          "description": null,
+          "price_cold": 220,
+          "price_hot": 220
+        },
+        {
+          "name": "合歡霧淞烏龍",
+          "description": null,
+          "price_cold": 180,
+          "price_hot": 180
+        },
+        {
+          "name": "合歡霧淞紅茶",
+          "description": null,
+          "price_cold": 180,
+          "price_hot": 180
+        },
+        {
+          "name": "東方美人",
+          "description": null,
+          "price_cold": 130,
+          "price_hot": 130
+        },
+        {
+          "name": "嵒紅紅烏龍",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "花香翠玉烏龍",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        }
+      ]
+    }
+  ]
+}

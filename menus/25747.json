@@ -1,0 +1,166 @@
+{
+  "store_id": 25747,
+  "store_name": "竹北中山店",
+  "brand_code": "somilk",
+  "brand_name": "壽奶茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "注意事項",
+      "items": [
+        {
+          "name": "全商品建議一分糖最對味",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "珍珠皆為小珍珠/芝士奶蓋是微甜的",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "每杯容量為500cc",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        }
+      ]
+    },
+    {
+      "category": "原創產品",
+      "items": [
+        {
+          "name": "髒髒芝士奶蓋可可",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "髒髒芝士奶蓋抹茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "1.0鐵觀音芝士奶蓋麵茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "2.0鐵觀音芝士奶蓋麵茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "貴妃普洱鮮奶茶升級版",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "鮮奶類",
+      "items": [
+        {
+          "name": "黑糖錫蘭鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鐵觀音鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "半熟烤茶鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "抹茶鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖純鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "昭和焙茶鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "貴妃普洱鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "手採溫焙青鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "限定產品",
+      "items": [
+        {
+          "name": "原味 泰奶紅",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "經典 泰奶綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "純茶類",
+      "items": [
+        {
+          "name": "特級紅烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "純正老鐵觀音",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "半熟烤茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "手採溫焙青茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    }
+  ]
+}

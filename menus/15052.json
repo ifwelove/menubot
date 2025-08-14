@@ -1,0 +1,438 @@
+{
+  "store_id": 15052,
+  "store_name": "大安店",
+  "brand_code": "nuttea",
+  "brand_name": "NUTTEA堅果奶茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "NUTTEA優質小物",
+      "items": [
+        {
+          "name": "家庭號純堅果乳500ML",
+          "description": null,
+          "price_cold": 210,
+          "price_hot": 210
+        },
+        {
+          "name": "家庭號純堅果乳1000ML",
+          "description": null,
+          "price_cold": 399,
+          "price_hot": 399
+        },
+        {
+          "name": "原磨堅果醬",
+          "description": null,
+          "price_cold": 280,
+          "price_hot": 280
+        },
+        {
+          "name": "NUTTEA 咖啡渣隨行杯",
+          "description": null,
+          "price_cold": 790,
+          "price_hot": 790
+        },
+        {
+          "name": "NUTTEA 吸管杯",
+          "description": null,
+          "price_cold": 299,
+          "price_hot": 299
+        },
+        {
+          "name": "NUTTEA手提杯套",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        }
+      ]
+    },
+    {
+      "category": "黃金穀麥系列(無咖啡因)",
+      "items": [
+        {
+          "name": "開心果奶蓋穀麥茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "黃金穀麥堅果奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "黃金穀麥茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "堅果奶蓋茶",
+      "items": [
+        {
+          "name": "四季春堅果奶蓋茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267a4c_HptdQUXx.png"
+        },
+        {
+          "name": "台灣紅玉堅果奶蓋茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267a43_vWItnReS.png"
+        },
+        {
+          "name": "茉莉綠鑽堅果奶蓋茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267a7b_VJHxA8B2.png"
+        },
+        {
+          "name": "烏龍堅果奶蓋茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267a87_3tjNmQI7.png"
+        },
+        {
+          "name": "宇治抹茶堅果奶蓋茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267a56_iqSV3ULT.png"
+        },
+        {
+          "name": "開心果堅果奶蓋茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "焙茶堅果奶蓋茶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "伯爵巧克力堅果奶蓋茶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267a6a_sCVBTdY8.png"
+        }
+      ]
+    },
+    {
+      "category": "水果茶堅果奶蓋",
+      "items": [
+        {
+          "name": "繽紛火龍果堅果奶蓋茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267aa3_78OgPw4k.png"
+        },
+        {
+          "name": "粉芭柳堅果奶蓋茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "青森蘋果堅果奶蓋茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "蜜桃四季春堅果奶蓋茶",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        }
+      ]
+    },
+    {
+      "category": "堅果奶",
+      "items": [
+        {
+          "name": "原磨堅果奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_6426797d_Tm6FC8i7.png"
+        },
+        {
+          "name": "珍珠堅果奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267944_dZr5NjBp.png"
+        },
+        {
+          "name": "香芋堅果奶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267958_PlgiLXFs.png"
+        },
+        {
+          "name": "巧克力榛果堅果奶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267937_T0KQn6HL.png"
+        },
+        {
+          "name": "黑芝芝堅果奶",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_6426798b_eWyUGR8Q.png"
+        },
+        {
+          "name": "紫米堅果奶",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        }
+      ]
+    },
+    {
+      "category": "水果堅果奶",
+      "items": [
+        {
+          "name": "粉紅芭樂堅果奶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "火龍果堅果奶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_6426792e_nfszjZWX.png"
+        },
+        {
+          "name": "青森蘋果堅果奶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "蜜桃堅果奶",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        }
+      ]
+    },
+    {
+      "category": "堅果奶茶",
+      "items": [
+        {
+          "name": "伯爵堅果奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642679de_ol0PTt2d.png"
+        },
+        {
+          "name": "台灣紅玉堅果奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642679cb_BLCovjnV.png"
+        },
+        {
+          "name": "烏龍堅果奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642679e7_cx1luS53.png"
+        },
+        {
+          "name": "茉莉綠堅果奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267a11_oZuNpwQG.png"
+        },
+        {
+          "name": "堅果珍珠奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642679ef_OpuoXJ5U.png"
+        },
+        {
+          "name": "宇治堅果奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642679d5_6YA2ZVrR.png"
+        },
+        {
+          "name": "開心果堅果奶青",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "黑糖凍堅果奶茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267a04_KZvLTakc.png"
+        },
+        {
+          "name": "香芋堅果奶茶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "紫米香芋堅果奶茶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "焙茶堅果奶茶",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642679f9_2490qaXu.png"
+        }
+      ]
+    },
+    {
+      "category": "特選好茶",
+      "items": [
+        {
+          "name": "四季春茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642678ff_aErcnPtq.png"
+        },
+        {
+          "name": "台灣紅玉茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642678f6_nRkLeQBl.png"
+        },
+        {
+          "name": "茉莉綠茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267912_u2UPtgl7.png"
+        },
+        {
+          "name": "高山烏龍茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_6426791b_AU38E0K6.png"
+        },
+        {
+          "name": "格雷伯爵茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267908_8WP7Ry3h.png"
+        }
+      ]
+    },
+    {
+      "category": "法蘭絨手沖精品咖啡",
+      "items": [
+        {
+          "name": "手沖精品美式",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642678e8_UWBiLV6r.png"
+        },
+        {
+          "name": "手沖堅果奶咖啡",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642678d4_L08opxTk.png"
+        },
+        {
+          "name": "手沖黑糖堅果奶咖啡",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_642678df_axlwIsiC.png"
+        },
+        {
+          "name": "巧克力摩卡堅果奶咖啡",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "手沖咖啡奶蓋",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267a32_6uWxPyLp.png"
+        },
+        {
+          "name": "手沖咖啡巧克力奶蓋",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1720/b1720_64267a3b_4sUlxO7o.png"
+        }
+      ]
+    },
+    {
+      "category": "水果茶",
+      "items": [
+        {
+          "name": "鮮橙果粒茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鮮柚果粒茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "青森蘋果凍飲",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "粉芭柳凍飲",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蜜桃四季春凍飲",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        }
+      ]
+    }
+  ]
+}

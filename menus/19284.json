@@ -1,0 +1,411 @@
+{
+  "store_id": 19284,
+  "store_name": "十渡寶山店",
+  "brand_code": "shoulddo",
+  "brand_name": "十渡",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "原味茶",
+      "items": [
+        {
+          "name": "斯里蘭卡紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "玉露翡翠綠茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "四季春青茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "輕焙烏龍茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "紅烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "古釀冬瓜茶",
+          "description": "糖度固定，可調整冰量",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "焙炒黑豆茶",
+          "description": "限定無糖",
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "鮮果冰茶",
+      "items": [
+        {
+          "name": "十渡冰茶",
+          "description": "建議半糖以上飽和度比較好",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "凍頂檸檬",
+          "description": "建議半糖以上比較不酸",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "玫瑰鮮檸茶",
+          "description": "建議半糖以上較不酸，不含咖啡因",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黃金葡萄柚",
+          "description": "內含蘆薈果肉",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": "無糖即是冬瓜磚本身的甜",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "百香綠茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "檸檬紅茶",
+          "description": "建議半糖以上較不酸",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "金桔檸檬",
+          "description": "建議半糖以上較不酸",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鮮桔茶",
+          "description": "建議半糖以上較不酸",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "檸檬汁",
+          "description": "建議半糖以上較不酸",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬檸ＱＱ",
+          "description": "無糖即是冬瓜磚本身的甜",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "香橙錫蘭紅",
+          "description": "建議半糖以上飽和度比較好",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "水果茶",
+          "description": "熬煮鳳梨為基底，搭配新鮮水果",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "香橙翡翠綠",
+          "description": "建議半糖以上飽和度比較好",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "香橙四季青",
+          "description": "建議半糖以上飽和度比較好",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "鳳梨青茶",
+          "description": "古法熬煮鳳梨，搭配新鮮水果獨特濃郁好滋味",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "百香紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "青梅凍飲",
+          "description": "青梅汁搭配綠茶，內含茶凍、青梅果粒",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "醇香拿鐵",
+      "items": [
+        {
+          "name": "紅茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "烏龍拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "紅烏龍拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "翡翠拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "四季青拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "古釀冬瓜拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "焙炒黑豆拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "玫瑰拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "黑糖珍珠鮮奶",
+          "description": "只加黑糖、糖冰固定、去冰不滿杯",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "黑糖鮮奶",
+          "description": "只加黑糖、糖冰固定、去冰不滿杯",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "紅豆鮮奶",
+          "description": "糖冰固定、無法去冰",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "芋頭鮮奶",
+          "description": "糖冰固定、去冰不滿杯",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "頂級巧克力拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "芋見黑森林",
+          "description": "頂級巧克力搭配芋泥",
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "現調茶",
+      "items": [
+        {
+          "name": "冰淇淋紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "養樂多綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "海鹽奶蓋紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "海鹽奶蓋綠茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "海鹽奶蓋青茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "海鹽奶蓋烏龍茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "海鹽奶蓋紅烏龍",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冬瓜青茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬瓜紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬瓜綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冬瓜烏龍茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "檸檬養樂多",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "濃醇奶茶",
+      "items": [
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "翡翠奶綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "四季奶青",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "烏龍奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "紅烏龍奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "玫瑰奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "嫩仙草奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "布丁奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "頂級巧克力",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "健康醋飲",
+      "items": [
+        {
+          "name": "蘆薈蘋果醋",
+          "description": "甜度固定、可調整冰量",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    }
+  ]
+}

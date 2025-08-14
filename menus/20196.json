@@ -1,0 +1,280 @@
+{
+  "store_id": 20196,
+  "store_name": "新北泰山店",
+  "brand_code": "dailydae",
+  "brand_name": "黛黛茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "皇家級選單品",
+      "items": [
+        {
+          "name": "三皇黛黛茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "凱薩琳皇后大吉嶺",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9b716_8jowrzfs.jpg"
+        },
+        {
+          "name": "維多利亞女王紅玉",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9b8c3_waXPRnMI.jpg"
+        },
+        {
+          "name": "金萱綠茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9c050_T3AOdH0r.jpg"
+        },
+        {
+          "name": "四季青茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9bfdd_m0CPJUp2.jpg"
+        },
+        {
+          "name": "琥珀烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "花果公主紅茶",
+      "items": [
+        {
+          "name": "黃金香橙大吉嶺",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62ade958_hzOt78Ko.png"
+        },
+        {
+          "name": "黛黛紅玉果茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9bc34_ENucJMdW.jpg"
+        },
+        {
+          "name": "凍檸茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "紅柚烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "青檸青森蘋果飲",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "丹荔玫瑰公主",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9b6fe_Z8Geq5RQ.jpg"
+        },
+        {
+          "name": "甘蔗青茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9bbff_s2vYibHq.jpg"
+        },
+        {
+          "name": "蜜桃紅玉",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜜桃青茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜜桃烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜜桃沙沙",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "皇家拿鐵",
+      "items": [
+        {
+          "name": "皇家拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9c0cf_d0gGSo7u.jpg"
+        },
+        {
+          "name": "烏龍拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "焦糖烤布蕾(甜品)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "焦糖布蕾王子",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9b7fc_mel0ow89.jpg"
+        },
+        {
+          "name": "凡爾賽玫瑰拿鐵(建議無糖)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9b3a9_lyfVKDk3.jpg"
+        }
+      ]
+    },
+    {
+      "category": "皇家香濃奶茶",
+      "items": [
+        {
+          "name": "皇家奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "皇家珍珠奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9c0b9_g4wmKOBE.jpg"
+        },
+        {
+          "name": "三皇奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "烏龍奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "經典特調",
+      "items": [
+        {
+          "name": "白露冬瓜",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "白露拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1203/b1203_62a9c03c_hzLKOmkW.jpg"
+        },
+        {
+          "name": "白露春梅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "白露青檸",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "季節限定",
+      "items": [
+        {
+          "name": "百年仙草茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "百年仙草凍飲",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "仙草沙沙",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "仙草奶茶(內無仙草凍)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "仙草凍奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "春梅翡翠綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "紫葡薈烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑森林花果茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    }
+  ]
+}

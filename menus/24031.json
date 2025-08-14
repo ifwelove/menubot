@@ -1,0 +1,148 @@
+{
+  "store_id": 24031,
+  "store_name": "信義創始店",
+  "brand_code": "ilingtea",
+  "brand_name": "愛伶茶隨便喝",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "百年古茶樹鮮奶茶",
+      "items": [
+        {
+          "name": "百年茶姬. 普洱鹹奶茶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "百年茶魂. 經典鮮奶茶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "百年孤獨.鮮奶綠茶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "百年好合.共舞鮮奶茶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        }
+      ]
+    },
+    {
+      "category": "100%台灣原葉鮮奶茶",
+      "items": [
+        {
+          "name": "梔香烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "古法炭焙鐵觀音鮮奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "紅烏龍鮮奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "100%台灣原葉純茶",
+      "items": [
+        {
+          "name": "清香烏龍",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "凍頂烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "梔香烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "古法炭焙鐵觀音",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "百年古樹鹹普洱茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "日本老鐵壺手沖",
+      "items": [
+        {
+          "name": "百年古樹紅茶",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "梨山烏龍",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "東方美人",
+          "description": null,
+          "price_cold": 180,
+          "price_hot": 180
+        },
+        {
+          "name": "民國70年代老凍頂烏龍",
+          "description": null,
+          "price_cold": 240,
+          "price_hot": 240
+        }
+      ]
+    },
+    {
+      "category": "每日限量冷泡茶",
+      "items": [
+        {
+          "name": "阿里山金萱",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "梔香烏龍冷泡茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "古樹綠茶冷泡茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    }
+  ]
+}

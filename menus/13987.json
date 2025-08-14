@@ -1,0 +1,337 @@
+{
+  "store_id": 13987,
+  "store_name": "林口長庚店",
+  "brand_code": "mayibrand",
+  "brand_name": "滿溢",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "現萃滿溢Tea",
+      "items": [
+        {
+          "name": "ND.滿溢醇香紅茶",
+          "description": "Mayi Black Tea",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "ND.滿溢茉莉綠茶",
+          "description": "Mayi Green Tea",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "ND.炭焙高山烏龍",
+          "description": "Charcoal-Roasted Oolong Tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "ND.菁選四季青茶",
+          "description": "Four Seasons Oolong tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "ND.琥珀烏龍青茶",
+          "description": "Oolong tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "ND.冬瓜茶",
+          "description": "White Gourd Tea",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "ND.冬瓜青茶",
+          "description": "White Gourd Mountain Green tea",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "ND.冬瓜奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "ND.冬瓜珍珠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "ND.冬瓜檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "ND.古意人楊桃汁(無咖啡因)",
+          "description": "Star Fruit Juice",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "多多滿溢 Yakult",
+      "items": [
+        {
+          "name": "ND.綠茶多多",
+          "description": "Yakult Green Tea",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "ND.檸檬多多",
+          "description": "Lemon Yakult Green tea",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "ND.百香多多綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "ND.蜜桃多多",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "奶香滿溢 Milk Tea",
+      "items": [
+        {
+          "name": "ND.滿溢奶茶",
+          "description": "Mayi Milk Tea",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "ND.滿溢茉莉奶綠",
+          "description": "Mayi Green Milk Tea",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "ND.滿溢焙香奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "ND.炭焙烏龍奶茶",
+          "description": "Charcoal-Roasted Oolong Milk Tea",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "ND.滿溢珍珠奶茶",
+          "description": "Mayi Bubble Milk Tea",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "ND.仙草凍奶茶",
+          "description": "Grass Jelly Milk Tea",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "ND.黑糖奶茶",
+          "description": "Brown  Sugar Milk Tea",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "ND.手沖泰式奶茶",
+          "description": "Thai Milk Tea",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "ND.白桃烏龍奶茶",
+          "description": "Peach Oolong Tea",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "ND.可可遇見你",
+          "description": "Chocolate",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "醇厚滿溢 Latte",
+      "items": [
+        {
+          "name": "ND.冬瓜鮮奶",
+          "description": "White Gourd Milk",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "ND.紅茶拿鐵",
+          "description": "Black Tea Latte",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "ND.炭焙烏龍拿鐵",
+          "description": "Oolong Latte",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "ND.可可鮮奶",
+          "description": "Chocolate Milk",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "ND.黑糖鮮奶",
+          "description": "Brown Sugar Latte",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "ND.仙草凍鮮奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "ND.珍珠鮮奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "口感主打風Chewing",
+      "items": [
+        {
+          "name": "ND.梅子凍綠茶",
+          "description": "Plum Jelly Green Tea",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "ND.冬瓜仙草凍",
+          "description": "White Gourd Tea With Grass Jelly",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "ND.蜜桃QQ青茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "ND.金桔檸檬百香綠",
+          "description": "Kumquat Lemon Passion Fruit Green tea",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "ND.百香鳳梨綠凍飲",
+          "description": "Passion Fruit & Pineapple Jelly Green Tea",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "ND.貴妃荔枝紅茶凍飲",
+          "description": "Lychee Jelly Black Tea",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "ND.蜜桃荔凍飲",
+          "description": "Peach & Lychee Jelly Iced Tea",
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "蜜香系列Honey Tea",
+      "items": [
+        {
+          "name": "ND.蜜香紅茶",
+          "description": "Honey Black Tea",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "ND.蜜香綠茶",
+          "description": "Honey Green Tea",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "ND.蜜香青茶",
+          "description": "Honey Mountain Green Tea",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "ND.蜜香焙茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "ND.白桃蜜烏龍",
+          "description": "Honey Peach Oolong Tea",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "ND.蜜香檸檬決明子",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "果香滿溢 Apple Tea Line",
+      "items": [
+        {
+          "name": "ND.紅蜜蘋果茶",
+          "description": "Honey Apple Tea",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "ND.蘋蘋果茶",
+          "description": "Apple Tea",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "一杯滿溢(滿溢獨家商品)",
+      "items": [
+        {
+          "name": "ND.滿溢果漾",
+          "description": "*每日隨機搭配不同口味的水果燕麥杯*，讓你每一餐都充滿驚喜\r\n選用燕麥與豆漿為基底，搭配奇亞籽與優質蛋白粉，幫你補足一天所需營養！包括香濃巧克力、酸甜草莓優質蛋白粉、新鮮綜合水果等，滑順綿密、冰涼爽口，無論是早餐、下午點心、運動後補給，甚至是宵夜，都超適合！",
+          "price_cold": 145,
+          "price_hot": 145
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "store_id": 20013,
+  "store_name": "公館店",
+  "brand_code": "cowbanana",
+  "brand_name": "Cow Banana香蕉牛",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "套餐",
+      "items": [
+        {
+          "name": "貓王烤雞腿套餐(水果茶)",
+          "description": null,
+          "price_cold": 150,
+          "price_hot": 150,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66a315a1_teFk9XRb.jpg"
+        },
+        {
+          "name": "瑞典牛肉丸套餐(百香蜜柚QQ)",
+          "description": null,
+          "price_cold": 160,
+          "price_hot": 160,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66a315bc_Z4F7czQi.jpg"
+        },
+        {
+          "name": "牧場鮮炒菇套餐(蔓越莓香蕉鮮奶)",
+          "description": null,
+          "price_cold": 160,
+          "price_hot": 160,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66a31666_twOy0Go9.jpg"
+        },
+        {
+          "name": "泰式打拋豬歐姆套餐(泰式奶茶)",
+          "description": null,
+          "price_cold": 160,
+          "price_hot": 160,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66a31688_ctTZDrBL.jpg"
+        },
+        {
+          "name": "青醬鴨胸套餐(蔓越莓鮮奶)",
+          "description": null,
+          "price_cold": 160,
+          "price_hot": 160,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66a31620_QG5cD9rO.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鮮果冰茶 Fresh Tea",
+      "items": [
+        {
+          "name": "錫蘭紅茶",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66976cab_X3bz2weo.jpg"
+        },
+        {
+          "name": "黃金烏龍綠",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6698680d_MeE805ra.jpg"
+        },
+        {
+          "name": "格雷伯爵紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6698682a_zjw4MuBv.jpg"
+        },
+        {
+          "name": "鮮翠檸檬綠",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66986849_YVCfAtNs.jpg"
+        },
+        {
+          "name": "鮮水果茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_669f535c_U3lqfv10.jpg"
+        },
+        {
+          "name": "蔓越莓檸檬綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66a1cf06_1MQeEHX9.jpg"
+        },
+        {
+          "name": "檸檬蜂蜜綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6698692a_GiAT7QPL.jpg"
+        },
+        {
+          "name": "百香蜜柚QQ",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66986b2e_eadVA7Lc.jpg"
+        }
+      ]
+    },
+    {
+      "category": "牧場鮮奶茶 Milk Tea",
+      "items": [
+        {
+          "name": "珍Q紅茶拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66986b4d_F3QL1O97.jpg"
+        },
+        {
+          "name": "黑糖珍Q鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699ca0a_shVjH0cL.jpg"
+        },
+        {
+          "name": "英式鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699ca33_k62UPfOx.jpg"
+        },
+        {
+          "name": "烏龍鮮奶綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699cab7_cfzVukAg.jpg"
+        },
+        {
+          "name": "伯爵鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699cacb_08TsyfxV.jpg"
+        },
+        {
+          "name": "蜂蜜岩鹽鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699de27_Fwoh0U1N.jpg"
+        },
+        {
+          "name": "泰式奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699de94_VsYXNGyF.jpg"
+        }
+      ]
+    },
+    {
+      "category": "鮮奶混搭 Milk Mix",
+      "items": [
+        {
+          "name": "香蕉巧克力鮮奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699deb4_aVY5QmKc.jpg"
+        },
+        {
+          "name": "Oreo香蕉鮮奶",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699defc_FEfu3jJh.jpg"
+        },
+        {
+          "name": "蔓越莓香蕉鮮奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e02f_wSmBTdNr.jpg"
+        },
+        {
+          "name": "黑芝麻香蕉鮮奶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e04f_RHzrVG5a.jpg"
+        },
+        {
+          "name": "經典巧克力鮮奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e07a_tr4SE5ao.jpg"
+        },
+        {
+          "name": "蔓越莓鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e0c0_cbeaElpx.jpg"
+        }
+      ]
+    },
+    {
+      "category": "純鮮奶 Milk / No Tea",
+      "items": [
+        {
+          "name": "黑岩漿厚奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e263_yxbv4UTc.jpg"
+        },
+        {
+          "name": "黑岩漿厚奶珍珠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e2df_EZDiUH9J.jpg"
+        }
+      ]
+    },
+    {
+      "category": "磨咖啡 Moo Cafa",
+      "items": [
+        {
+          "name": "經典拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e2f9_LNhnVWOj.jpg"
+        },
+        {
+          "name": "美式咖啡",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e323_lAv7uRwe.jpg"
+        },
+        {
+          "name": "豆奶拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e35a_i4sACPuN.jpg"
+        },
+        {
+          "name": "牛奶糖拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e4cd_NpqKa6Bb.jpg"
+        },
+        {
+          "name": "榛果拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e448_04Xhz1O5.jpg"
+        },
+        {
+          "name": "黑糖拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e46d_BYRhiGST.jpg"
+        },
+        {
+          "name": "岩鹽焦糖拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e4a1_V0EcMSTC.jpg"
+        }
+      ]
+    },
+    {
+      "category": "御抹茶 Matcha",
+      "items": [
+        {
+          "name": "抹茶鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e524_Qv6L538f.jpg"
+        },
+        {
+          "name": "抹茶鮮豆奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e53e_6mdhyxUC.jpg"
+        },
+        {
+          "name": "紅豆抹茶鮮奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e556_Lk3NUJiS.jpg"
+        },
+        {
+          "name": "Oreo抹茶冰沙",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e56c_nMiC4qQh.jpg"
+        }
+      ]
+    },
+    {
+      "category": "思慕鮮果昔 Smoothie",
+      "items": [
+        {
+          "name": "夏日繽紛",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e584_xVnuTKqf.jpg"
+        },
+        {
+          "name": "熱情芭娜娜",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e59a_rHoYDyJI.jpg"
+        },
+        {
+          "name": "莓果甜心",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e5af_LDV97sJk.jpg"
+        }
+      ]
+    },
+    {
+      "category": "芝士歐姆蛋口袋吐司",
+      "items": [
+        {
+          "name": "芝士歐姆蛋(蛋奶素)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e5ce_hl1gFzsi.jpg"
+        },
+        {
+          "name": "牧場鮮炒菇(五辛素)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e5ec_HMC5hGxE.jpg"
+        },
+        {
+          "name": "青醬厚培根歐姆(豬肉)",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e603_QvVZrmIS.jpg"
+        },
+        {
+          "name": "泰式打拋豬歐姆(辣.豬肉)",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e61c_2S3WmcP5.jpg"
+        },
+        {
+          "name": "青醬鴨胸歐姆",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e644_xM2Aiocw.jpg"
+        },
+        {
+          "name": "貓王烤雞腿歐姆",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e6bf_8chspnDB.jpg"
+        },
+        {
+          "name": "義式火腿歐姆",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e6e9_y84Lw92B.jpg"
+        },
+        {
+          "name": "瑞典牛肉丸歐姆(牛肉)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e6fd_tV5dXUTp.jpg"
+        },
+        {
+          "name": "奶酥芝士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e716_HVfDm5Io.jpg"
+        },
+        {
+          "name": "花生芝士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e730_gvJKOxWw.jpg"
+        },
+        {
+          "name": "巧克力芝士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66a31220_MySIjLVi.jpg"
+        },
+        {
+          "name": "Oreo巧克力芝士",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66a3123b_Z5I0jrUw.jpg"
+        }
+      ]
+    },
+    {
+      "category": "美式肉捲",
+      "items": [
+        {
+          "name": "美式芝士牛肉捲",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e7d6_xmd2b1y7.jpg"
+        },
+        {
+          "name": "美式芝士雞肉捲",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_6699e7ec_rDRChZtN.jpg"
+        }
+      ]
+    },
+    {
+      "category": "主廚烘培",
+      "items": [
+        {
+          "name": "檸檬生起士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_669f5d78_0EFv2OAI.jpg"
+        },
+        {
+          "name": "伯爵奶茶生起士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鐵觀音烤奶生起士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_669f5d9a_baTi1JYA.jpg"
+        },
+        {
+          "name": "抹茶生起士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "百芒生起士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "泰奶生起士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "藍莓生起士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_669f5db0_wzGmuFfN.jpg"
+        },
+        {
+          "name": "草莓生起士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "焦糖餅乾生起士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "Oreo生起士",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_669f5d4a_UVFmdPNy.jpg"
+        },
+        {
+          "name": "原味焦糖烤布雷",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2478/b2478_66a34032_0dg7tRUP.jpg"
+        }
+      ]
+    }
+  ]
+}

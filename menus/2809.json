@@ -1,0 +1,267 @@
+{
+  "store_id": 2809,
+  "store_name": "中正南昌店",
+  "brand_code": "itsotea",
+  "brand_name": "一手私藏世界紅茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "世界的紅茶",
+      "items": [
+        {
+          "name": "台灣魚池18號紅玉",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "俄羅斯夏卡爾紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "私藏仲夏夜紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "印度阿薩姆琥珀紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "英式格雷伯爵紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "斯里蘭卡錫蘭紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "一手琥珀凍紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "台灣玉露綠茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "台灣黑金烏龍茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "茶拿鐵",
+      "items": [
+        {
+          "name": "紅玉茶拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "蜜斯茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "伯爵茶拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "阿薩姆茶拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "錫蘭珍珠茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "德古拉茶拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "琥珀粉條茶拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "厚奶系",
+      "items": [
+        {
+          "name": "濃生乳太厚奶茶",
+          "description": "本品項若點熱飲，熱飲不可加料喔",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "珍珠太厚生乳奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "珍珠厚黑奶(500cc.)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "私藏泰式奶茶(中 500cc.)",
+          "description": "本品項若點熱飲，熱飲不可加料喔",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "私藏泰式奶茶(大 660cc)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "黑可可",
+          "description": "本品項若點熱飲，熱飲不可加料喔",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "獅子國紅寶石奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "奶香烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "果茶調戲",
+      "items": [
+        {
+          "name": "格雷冰果茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "半島凍檸茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "青檸玉露綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "檬龍雨(含粉條)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "金檸龍",
+          "description": "檸檬烏龍",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "林檎之森",
+          "description": "酸甜好喝，帶有茉莉花香的蘋果紅茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "夏卡爾多多紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "檸檬養樂多",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "薔薇果釀紅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "傲嬌玫瑰(果醋粉條 500cc)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "季節新品",
+      "items": [
+        {
+          "name": "柚夕-柚卡達紅茶",
+          "description": "喝的到果粒的葡萄柚紅茶，帶有淡淡的蜜桃香。",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "柚Woo-柚烏",
+          "description": "帶有炭焙烏龍香氣的紅柚烏龍",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "柚麗-柚綠",
+          "description": "帶有茉莉香氣的紅柚綠茶",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "購物袋",
+      "items": [
+        {
+          "name": "購物袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

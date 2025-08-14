@@ -1,0 +1,248 @@
+{
+  "store_id": 17261,
+  "store_name": "新竹寶山店",
+  "brand_code": "supermilktea",
+  "brand_name": "顏太煮奶茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "太煮淬茶",
+      "items": [
+        {
+          "name": "古早味紅茶",
+          "description": "採用決明子與大麥一起炒製，喝起來有濃厚麥香味的古早味紅茶。\r\n建議甜度：微糖或半糖\r\n\r\n茶葉產地: 越南",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "高山青茶",
+          "description": "嚴選南投高山茶葉。喝起來有高山茶特有回甘冷韻味。\r\n建議甜度：微糖或無糖\r\n\r\n茶葉產地:台灣",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "山茶花綠茶",
+          "description": "加入頂級山茶花的翡翠綠茶，入口即喝到清甜花香味。\r\n建議微糖或半糖\r\n\r\n茶葉產地:越南",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "百年仙草甘茶",
+          "description": "使用百年仙草大廠品牌，清爽消暑又香甜的茶底，回甘半糖 潤喉好喝。\r\n建議甜度：無糖（無糖就有甜）\r\n\r\n◎無咖啡因",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "著涎蜜香紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "焙香蕎麥茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "太煮凍飲",
+      "items": [
+        {
+          "name": "梅子綠",
+          "description": "特級翡翠綠茶加入特製梅醬，入口酸甘甜，甜而不膩。杯底還吃的到蜜香檸凍。\r\n建議甜度：半糖或微糖\r\n\r\n茶葉產地:越南",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "金御檸檬綠",
+          "description": "檸檬汁搭配翡翠綠茶，入口清新爽口解渴。\r\n建議甜度半糖\r\n\r\n檸檬飲品為保鮮，最少冰量只能做到微冰",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "三巡百香綠",
+          "description": "三「巡」在古代代表三「次」，表示連皇帝都指定要喝三 次...\r\n獨家山茶花綠茶搭配皇室秘寶，琥珀珍珠/蜜香檸凍/荔枝椰果，料多滿足，帶有百香果香甜，相當滿足。\r\n\r\n建議甜度：微糖或半糖",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "白露葡萄冰茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "月老桃氣冰茶（青茶）",
+          "description": "杯底有Q波波及水蜜桃凍，基底青茶搭配水蜜桃風味醬，清新香甜",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "荔枝玉露冰茶",
+          "description": "使用頂級甘甜玉荷包製成果醬，加入招牌高山茶，入口特別帶出茶香與果香，杯底吃的到荔枝椰果與蜜香檸凍。\r\n建議甜度：微糖或半糖\r\n\r\n茶葉產地:台灣",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "金御檸檬青",
+          "description": "檸檬飲品為保鮮，最少冰量只能做到微冰",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蕎麥冬瓜",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "月老桃氣冰茶（蜜香紅）",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "太煮熬奶",
+      "items": [
+        {
+          "name": "琥珀珍奶",
+          "description": "※厚奶：牛奶加奶蓋\r\n※拿鐵：牛奶不加奶蓋",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "太煮厚奶茶",
+          "description": "傳說太煮姑姑某日在調製飲料時不小心打翻了一匙鹽， 無意創造出深受皇帝喜愛，人人爭先恐後新滋味...\r\n鮮奶加入獨家鹹奶香配方，喝起來微甜鹹香，是獨家特 別的招牌飲品。\r\n\r\n茶葉產地:斯里蘭卡",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "雙Q厚奶茶",
+          "description": "※厚奶：牛奶加奶蓋\r\n※拿鐵：牛奶不加奶蓋\r\n\r\n招牌太煮厚奶茶搭配皇室珍寶琥珀珍珠及黑糖Q波波，一口雙料一口厚奶，濃郁口感豐富層次。\r\n建議甜度：微糖或半糖\r\n\r\n茶葉產地:斯里蘭卡",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "三喜厚奶茶",
+          "description": "※厚奶：牛奶加奶蓋\r\n※拿鐵：牛奶不加奶蓋\r\n\r\n招牌太煮厚奶茶搭配3種皇室珍寶，三種口感一次滿足。\r\n建議甜度：微糖或半糖\r\n\r\n茶葉產地:斯里蘭卡",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "朝露咖啡牛奶",
+          "description": "中深烘培度以甜感為主調，搭配醇厚自然甜香的紐西蘭奶粉，整體厚實飽滿，卻不膩口。",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "蕎麥拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "太煮蓋奶",
+      "items": [
+        {
+          "name": "海鹽奶蓋紅茶",
+          "description": "太煮姑姑獨家特調海鹽奶蓋，搭配茶底紅茶。\r\n建議甜度半糖\r\n\r\n茶葉產地:越南",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "海鹽奶蓋青茶",
+          "description": "太煮姑姑獨家特調海鹽奶蓋，搭配茶底高山青茶。\r\n建議甜度：微糖或無糖\r\n\r\n茶葉產地:台灣",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "海鹽奶蓋綠茶",
+          "description": "太煮姑姑獨家特調海鹽奶蓋，搭配茶底綠茶。\r\n建議甜度：微糖或無糖\r\n\r\n茶葉產地:越南",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "海鹽奶蓋仙草",
+          "description": "太煮姑姑獨家特調海鹽奶蓋，茶底為仙草甘茶。\r\n建議甜度：微糖或無糖\r\n\r\n◎無咖啡因",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "海鹽奶蓋茶蜜香紅",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "海鹽奶蓋蕎麥茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "太煮椰拿鐵",
+      "items": [
+        {
+          "name": "太后拿鐵",
+          "description": "香濃茶香搭搭配牛奶調製而成，入口後帶有香醇奶茶香。\r\n建議甜度：半糖\r\n\r\n茶葉產地:斯里蘭卡",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "三韻·輕乳茶",
+      "items": [
+        {
+          "name": "韻綠·茉花輕乳茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "韻青·馥玉輕乳茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "韻紅·蜜香輕乳茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "海鹽可可輕乳",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

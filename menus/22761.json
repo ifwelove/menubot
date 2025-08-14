@@ -1,0 +1,688 @@
+{
+  "store_id": 22761,
+  "store_name": "中壢店",
+  "brand_code": "milkbase",
+  "brand_name": "喵可部",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "法芙娜可可拿鐵系列(Valrhona Latte Beverages)",
+      "items": [
+        {
+          "name": "招牌芝士雲朵可可拿鐵(Signature Cheese Milk Foam Valrhona Cocoa Latte)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "原味可可拿鐵(無奶蓋)(Classic Valrhona Cocoa Latte)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "薄荷可可拿鐵(Mint Valrhona Cocoa Latte)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "榛果可可拿鐵(Hazelnut Valrhona Cocoa Latte)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "椰夏可可拿鐵(Coconut Valrhona Cocoa Latte)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "雪球可可拿鐵(Ice Cream Valrhona Cocoa Latte)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "冰沙系列(Smoothie Beverages(cold)",
+      "items": [
+        {
+          "name": "Oreo可可繽沙 (Oreo Valrhona Cocoa Smoothie)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "棉花糖可可繽沙(Marshmallow Valrhona Cocoa Smoothie)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "榛香可可繽沙(Hazelnut Valrhona Cocoa Smoothie)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "薄荷可可繽沙(Mint Valrhona Cocoa Smoothie)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "靜岡抹茶繽沙(Shizuoka Matcha Smoothie)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "摩卡星空繽沙(Coffee Mocha Smoothie)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "芭樂檸檬冰沙(Guava Lemon  smoothie)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "水蜜桃冰沙(Peach smoothie)",
+          "description": null,
+          "price_cold": 105,
+          "price_hot": 105
+        }
+      ]
+    },
+    {
+      "category": "奶昔系列(Valrhona Cocoa Milkshake Beverages(cold)",
+      "items": [
+        {
+          "name": "原味可可奶昔(Valrhona Cocoa Milkshake)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "香蕉可可奶昔(Banana Valrhona Cocoa Milkshake)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "榛果可可奶昔(Hazelnut Valrhona Cocoa Milkshake)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "薄荷可可奶昔(Mint Valrhona Cocoa Milkshake)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "靜岡抹茶奶昔(Shizuoka Matcha Milkshake)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "特殊茶飲(Specialty Tea Beverages)",
+      "items": [
+        {
+          "name": "台灣可可豆茶(Taiwan Cocoa Bean Tea)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "西西里可可豆茶(Sicily Cocoa Bean Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蕎麥玄米茶(Buckwheat Genmai Tea)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "醇好茶系列(Tea Beverages)",
+      "items": [
+        {
+          "name": "薩蘭紅茶(Ceylon Assam Black Tea)",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "白毫茉綠(Jasmine Green Tea)",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "四季高山青(Sijichun Light Oolong Tea)",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "雪球薩蘭紅(Ice Cream Black Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "雪球白毫綠(Ice Cream Green Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "雪球四季青(Ice Cream Light Oolong Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "珍珠紅茶(Pearl Black Tea)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "椰果紅茶(Coconut Jelly Black Tea)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "寒天紅茶(Agar Pearls Black Tea)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "咖啡凍紅茶(Coffee Jelly Black Tea)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "奶茶系列(Non-Dairy Creamer Beverages)",
+      "items": [
+        {
+          "name": "濃厚奶茶(Milk Black Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "白毫奶綠(Milk Green Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "四季奶青( Milk Light Oolong Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "珍珠奶茶(Pearl Milk Black Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "珍珠奶綠(Pearl Milk Green Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "珍珠奶青(Pearl Milk Light Oolong Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "雪球奶茶(Ice Cream Milk Black Tea)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "雪球奶綠(Ice Cream Milk Green Tea)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "雪球奶青(Ice Cream Milk Light Oolong Tea)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "布丁奶茶(Pudding Milk Black Tea)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "布丁奶綠(Pudding Milk Green Tea)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "布丁奶青(Pudding Milk Light Oolong Tea)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "椰果奶茶(Coconut Jelly Milk Black Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "寒天奶茶(Agar Pearls Milk Black Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "咖啡凍奶茶(Coffee Jelly Milk Black Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶系列(Tea Latte Beverages)",
+      "items": [
+        {
+          "name": "紅茶拿鐵(Black Tea Latte)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "綠茶拿鐵(Green Tea Latte)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "四季青拿鐵(Light Oolong Tea Latte)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "珍珠紅茶拿鐵(Pearl Black Tea Latte)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "珍珠綠茶拿鐵(Pearl Green Tea Latte)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "珍珠四季青拿鐵(Pearl Light Oolong Tea Latte)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "珍珠職人拿鐵(Pearl Fresh Milk)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雪球紅茶拿鐵(Ice Cream Black Tea Latte)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雪球綠茶拿鐵(Ice Cream Green Tea Latte)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雪球四季青拿鐵(Ice Cream Light Oolong Tea Latte)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "靜岡抹茶拿鐵(Shizuoka Matcha Latte)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑糖薑母拿鐵(季節限定)(Brown Sugar Ginger Latte (Winter Only))",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "台灣可可豆茶拿鐵(Taiwan Cocoa Bean Tea Latte)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蕎麥玄米拿鐵(Buckwheat Genmai Latte)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "芝士雲朵系列(起司奶蓋)(Cheese Milk Foam Beverages)",
+      "items": [
+        {
+          "name": "芝士雲朵薩蘭紅(Cheese Milk Foam Ceylon Assam Black Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "芝士雲朵白毫綠(Cheese Milk Foam Green Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "芝士雲朵四季青(Cheese Milk Foam Sijichun Light Oolong Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "芝士雲朵奶茶(Cheese Milk Foam Milk Black Tea)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芝士雲朵奶綠(Cheese Milk Foam Milk Green Tea)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芝士雲朵四季奶青(Cheese Milk Foam Milk Light Oolong Tea)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芝士雲朵紅茶拿鐵(Cheese Milk Foam Black Tea Latte)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "芝士雲朵綠茶拿鐵(Cheese Milk Foam Green Tea Latte)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "芝士雲朵四季青拿鐵((Cheese Milk Foam Light Oolong Tea Latte)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "芝士雲朵抹茶拿鐵(Cheese Milk Foam Shizuoka Matcha Latte)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "芝士雲朵黑糖薑母拿鐵(季節限定)(Cheese Milk Foam Brown Sugar Ginger Latte )",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "石蓮花多酚系列(Houseleek Polyphenol Beverages)",
+      "items": [
+        {
+          "name": "石蓮花多酚綠意(Houseleek Polyphenol Green Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "石蓮花多酚紅茶(Houseleek Polyphenol Black Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "石蓮花多酚四季青(Houseleek Polyphenol Sijichun Light Oolong Tea)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "石蓮花多酚檸檬(Houseleek Polyphenol Lemonade)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "石蓮花多酚鮮奶(Houseleek Polyphenol Fresh Milk)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "百香多酚(Houseleek Polyphenol Passionfruit)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "葡萄柚多酚(Houseleek Polyphenol Grapefruit)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "特調系列(Specialty Beverages)",
+      "items": [
+        {
+          "name": "蜂蜜檸檬(Honey Lemonade)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "純蜜茶(Honey Water)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "檸檬薩蘭紅(Lemon Black Tea)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "檸檬白毫綠(Lemon Green Tea)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "檸檬四季青(Lemon Light Oolong Tea)",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "蜂蜜薩蘭紅(Honey Black Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "蜂蜜白毫綠(Honey Green Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "蜂蜜四季青(Honey Light Oolong Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "黑糖薑母茶(季節限定)(Brown Sugar Ginger Tea(winter only)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "金桔檸檬(Kumquat Lemonade)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "甘蔗檸檬(Sugarcane Lemonade)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "芭樂青茶(Guava Light Oolong Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "百香綠茶(Passionfruit Green Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "葡萄柚綠茶(Grapefruit Green Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "翡翠柳丁綠茶(Orange Green Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "甘蔗綠茶(Sugarcane Green Tea)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "氣泡飲(Sparkling Drink)",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "咖啡系列(Coffee Beverages)",
+      "items": [
+        {
+          "name": "醇厚美式(Coffee Americano)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "香濃拿鐵(Coffee Latte)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "特級摩卡(Coffee Mocha)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "榛果拿鐵(Hazelnut Coffee Latte)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "西西里美式(Sicily Lemon Americano)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芝士雲朵美式(海塩)(Cheese Milk Foam Coffee Americano)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "芝士雲朵香濃拿鐵(海塩)(Cheese Milk Foam Coffee Latte)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "漂浮雪球冰咖啡(Ice Cream Coffee Americano)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    }
+  ]
+}

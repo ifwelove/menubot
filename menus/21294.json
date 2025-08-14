@@ -1,0 +1,321 @@
+{
+  "store_id": 21294,
+  "store_name": "楊梅埔心店",
+  "brand_code": "truewintea",
+  "brand_name": "初韻",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "果然好韻系列",
+      "items": [
+        {
+          "name": "楊枝甘露",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_6220321d_8cCExSpk.png"
+        },
+        {
+          "name": "亂七八糟",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_62aae993_AJg401Mi.png"
+        },
+        {
+          "name": "六韻水果茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_62202eb0_eNCPpr24.png"
+        },
+        {
+          "name": "酪梨優格",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_64d44bf0_09piBg6F.png"
+        },
+        {
+          "name": "元氣Q葡萄",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_62202fe1_pSGlUj0F.png"
+        },
+        {
+          "name": "韻綠鮮草莓",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_62202ef5_B0JN2pCy.png"
+        },
+        {
+          "name": "蜜桃西瓜茉莉",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "酪布是你",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_64d44bfc_jWbgKVmF.png"
+        },
+        {
+          "name": "多肉紅柚凍",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_62f4d8d0_Xhyguqb6.png"
+        },
+        {
+          "name": "多肉香橙凍",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_62f4d8c6_WXlnRrST.png"
+        }
+      ]
+    },
+    {
+      "category": "芝士奶蓋系列",
+      "items": [
+        {
+          "name": "芝士奶蓋蜜亞高山紅",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芝士奶蓋茉莉雪芽",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芝士奶蓋四季烏龍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_622038b4_PWah2GHt.png"
+        },
+        {
+          "name": "芝士奶蓋Q芒果",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_622031d4_FTsYlfht.png"
+        },
+        {
+          "name": "芝士奶蓋Q葡萄",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_62203801_3uxdQvtP.png"
+        },
+        {
+          "name": "芝士奶蓋草莓",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_62203885_nQFzW2N5.png"
+        },
+        {
+          "name": "芝士奶蓋酪梨",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "好韻特調系列",
+      "items": [
+        {
+          "name": "双韻百香綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_62203254_dRSVB0DA.png"
+        },
+        {
+          "name": "蜂蜜鮮檸",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_6220326c_OvD5gfA2.png"
+        },
+        {
+          "name": "荔枝多多烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_6351731e_10PHM9KW.png"
+        },
+        {
+          "name": "荔枝烏龍凍凍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_6351732a_KbQLeU5r.png"
+        }
+      ]
+    },
+    {
+      "category": "在地好韻系列",
+      "items": [
+        {
+          "name": "開韻四季春",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_622033d9_D38nCQK4.png"
+        },
+        {
+          "name": "蜜雅高山紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_6220329f_lqThIPa9.png"
+        },
+        {
+          "name": "茉莉雪芽",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "日式喬麥茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_65a5f334_bm40VE1w.jpg"
+        }
+      ]
+    },
+    {
+      "category": "拉絲酸奶系列",
+      "items": [
+        {
+          "name": "原味拉絲酸奶水果撈",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_65a5efb2_ti9H2lWf.jpg"
+        },
+        {
+          "name": "芒果拉絲酸奶水果撈",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_65a5ef0a_LlBsAMb0.jpg"
+        },
+        {
+          "name": "草莓拉絲酸奶水果撈",
+          "description": "數種新鮮時令水果搭配特製草莓優格，入口香甜，尾韻帶些許酸，綿密滑順的口感，酸酸甜甜讓人回味",
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_65a5efcb_XFdzONes.jpg"
+        },
+        {
+          "name": "滿杯草莓酸奶水果撈",
+          "description": null,
+          "price_cold": 125,
+          "price_hot": 125
+        }
+      ]
+    },
+    {
+      "category": "多肉優格奶昔",
+      "items": [
+        {
+          "name": "二顆焦糖布丁優格",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_666bad82_Frp2K9Zs.png"
+        },
+        {
+          "name": "多肉草莓優格",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_666bad63_ybZiIAtW.png"
+        },
+        {
+          "name": "多肉覆盆莓優格",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_666badaa_NkblDqWh.png"
+        },
+        {
+          "name": "多肉芒果優格",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_666badcc_fIHrpckV.png"
+        },
+        {
+          "name": "多肉香蕉優格",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_666bae0a_Zw82E16g.png"
+        },
+        {
+          "name": "多肉酪梨優格",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_666bade6_eNB8pYFO.png"
+        }
+      ]
+    },
+    {
+      "category": "輕乳茶",
+      "items": [
+        {
+          "name": "茉莉雪芽輕乳",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜜亞高山輕乳",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_62203434_fZ2Sl6zd.png"
+        },
+        {
+          "name": "開韻四季輕乳",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "日式蕎麥輕乳",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/79/b79_65a5f34c_hIe8cXTQ.jpg"
+        },
+        {
+          "name": "珍珠紅茶輕乳 700cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑糖珍珠輕乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    }
+  ]
+}

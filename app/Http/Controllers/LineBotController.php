@@ -39,11 +39,13 @@ use LINE\LINEBot\QuickReplyBuilder\ButtonBuilder\QuickReplyButtonBuilder;
 use LINE\LINEBot\TemplateActionBuilder\LocationTemplateActionBuilder;
 use Illuminate\Support\Facades\Cache;
 use App\Services\ShopSearchService;
+use App\Services\MenuService;
 
 class LineBotController extends Controller
 {
     private $bot;
     private $shopSearchService;
+    private $menuService;
     private $tgToken;
     private $tgClient;
     private $tgChatId;
@@ -53,6 +55,7 @@ class LineBotController extends Controller
         $httpClient = new CurlHTTPClient(config('line.LINE_CHANNEL_ACCESS_TOKEN'));
         $this->bot  = new LINEBot($httpClient, ['channelSecret' => config('line.LINE_CHANNEL_SECRET')]);
         $this->shopSearchService = new ShopSearchService();
+        $this->menuService = new MenuService();
 
         // 初始化 Telegram
         $this->tgToken = env('TELEGRAM_TOKEN', '');
@@ -169,7 +172,7 @@ class LineBotController extends Controller
                         shuffle($randomKeys); // 随机排序选出的店铺键
                         $columns = [];
                         foreach ($randomKeys as $key) {
-                            $shop = config("menus.{$key}");
+                            $shop = $this->menuService->getMenuByBrandCode($key);
                             if (is_null($shop)) {
                                 continue;
                             }
@@ -195,8 +198,10 @@ class LineBotController extends Controller
                         // 完全匹配店名
                         $matchingKeys = array_keys(config('menu.shops.drink'), $userMessage);
                         $shopName = $matchingKeys[0];
-                        $shop = config("menus.{$shopName}");
-                        $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
+                        $shop = $this->menuService->getMenuByBrandCode($shopName);
+                        if ($shop) {
+                            $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
+                        }
                     } else {
                         // 先檢查是否為標籤
                         $tags = config('shop_tags');
@@ -211,7 +216,7 @@ class LineBotController extends Controller
                         if (count($searchResults) == 1) {
                             // 只找到一個結果，直接顯示菜單
                             $shopCode = array_key_first($searchResults);
-                            $shop = $this->shopSearchService->getShopInfo($shopCode);
+                            $shop = $this->menuService->getMenuByBrandCode($shopCode);
                             if ($shop) {
                                 $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
                             }
@@ -242,8 +247,10 @@ class LineBotController extends Controller
                     try {
                         if ($postbackData['action'] == 'select' && isset($postbackData['shop'])) {
                             $shopName = $postbackData['shop'];
-                            $shop = config("menus.{$shopName}");
-                            $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
+                            $shop = $this->menuService->getMenuByBrandCode($shopName);
+                            if ($shop) {
+                                $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
+                            }
                         } elseif ($postbackData['action'] == 'instructions') {
                             // 顯示使用說明
                             $message = "📖 使用說明\n\n";
@@ -347,7 +354,7 @@ class LineBotController extends Controller
         foreach ($randomKeys as $key) {
 //        foreach ($shops as $shopName => $shopInfo) {
             $shopName = $shops[$key]; // 或者直接用 $key 如果鍵名就是店鋪名
-            $shop = config("menus.{$key}");
+            $shop = $this->menuService->getMenuByBrandCode($key);
             if (is_null($shop)) {
                 continue;
             }
@@ -480,7 +487,7 @@ class LineBotController extends Controller
             // 使用 Carousel 顯示（5個以下）
             $columns = [];
             foreach ($searchResults as $shopCode => $shopName) {
-                $shop = config("menus.{$shopCode}");
+                $shop = $this->menuService->getMenuByBrandCode($shopCode);
                 if (!$shop) {
                     continue;
                 }
@@ -673,7 +680,7 @@ class LineBotController extends Controller
         $columns = [];
 
         foreach ($selectedShops as $shopCode => $shopName) {
-            $shop = config("menus.{$shopCode}");
+            $shop = $this->menuService->getMenuByBrandCode($shopCode);
             if (!$shop) {
                 continue;
             }
@@ -711,7 +718,7 @@ class LineBotController extends Controller
 
         // 隨機選一家店
         $randomKey = array_rand($shops);
-        $shop = config("menus.{$randomKey}");
+        $shop = $this->menuService->getMenuByBrandCode($randomKey);
 
         if ($shop) {
             $this->replyWithShopMenu($replyToken, $shop, '🎲 為您推薦：' . $shop['shop_name']);
@@ -751,7 +758,7 @@ class LineBotController extends Controller
         $columns = [];
 
         foreach ($shops as $shopCode => $shopName) {
-            $shop = config("menus.{$shopCode}");
+            $shop = $this->menuService->getMenuByBrandCode($shopCode);
             if (!$shop) {
                 continue;
             }
@@ -1450,7 +1457,7 @@ class LineBotController extends Controller
                 // 取得店家圖片（如果有的話）
                 $imageUrl = null;
                 if (!empty($shop['shop_code'])) {
-                    $shopConfig = config("menus.{$shop['shop_code']}");
+                    $shopConfig = $this->menuService->getMenuByBrandCode($shop['shop_code']);
                     if ($shopConfig && isset($shopConfig['image_url'])) {
                         $imageUrl = $shopConfig['image_url'];
                     }

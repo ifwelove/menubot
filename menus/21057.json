@@ -1,0 +1,355 @@
+{
+  "store_id": 21057,
+  "store_name": "景安店",
+  "brand_code": "muteabrand",
+  "brand_name": "沐羽茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "醇茶系列",
+      "items": [
+        {
+          "name": "春桃伯爵",
+          "description": "白桃mix伯爵，每一口都充滿變化和驚喜，喜歡嚐鮮的一定要來一杯。",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "春桃紅茶",
+          "description": "茶湯裡帶有白桃的香氣，喝一口就能感受到那股淡淡的甜香在口中環繞，是一款會唇齒留香的茶。",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "夏日金萱",
+          "description": "茶湯清澈，滋味鮮爽，自帶一股天然的清新奶香味是它的特色，這種香氣清新自然，喝一口彷彿置身在世外桃源中。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬韻觀音",
+          "description": "口感甘醇，入口順滑，尾韻帶有一絲木質香氣回味而甘甜，使茶湯增加了深度和韻味，像是冬季裡的陽光，給人一種潤澤的感覺。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "紳士伯爵",
+          "description": "我們的伯爵香氣和味道層次分明，既有紅茶的深厚底蘊，又融合了佛手柑的清新，氣味可在口中久久不散。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "熱情錫蘭",
+          "description": "錫蘭紅茶的味道濃烈，茶湯厚實且有力，尾韻帶有淡淡的果香香氣增添了茶的層次感，最適合喜歡濃茶的人。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "穀香茶",
+          "description": "陽光穀物茶",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "穀蜜茶",
+          "description": "陽光穀物搭配蜂蜜。",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "桃花多多",
+          "description": "酸甜多多搭配春桃紅茶，戀愛的幸福感。",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "爵對多多",
+          "description": "酸甜多多搭配紳仕伯爵，帶出小大人味。",
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "拿鐵系列",
+      "items": [
+        {
+          "name": "水芝糖蜜拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "春桃紅茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "夏日金萱拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬韻觀音拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "紳士伯爵拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "熱情錫蘭拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "穀蜜拿鐵",
+          "description": "陽光穀物搭配蜂蜜和鮮奶，濃郁好滋味。",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "抹茶拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "仙草拿鐵 2.0",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "奶茶系列",
+      "items": [
+        {
+          "name": "春桃奶茶",
+          "description": "奶香濃厚、口感濃郁，搭上風味香甜的春桃紅茶，喝一口就有戀愛的感覺。",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "夏日金萱奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冬韻觀音奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "紳士伯爵奶茶",
+          "description": "伯爵的香氣搭上口感濃郁的奶香，濃厚而久久不散，帶來一種長時間的愉悅感。",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "熱情錫蘭奶茶",
+          "description": "輕微苦澀的茶湯混入奶香濃厚、口感濃郁的厚奶，微妙有如天秤，兩者平衡的令人感覺愉悅而回味無窮。",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "雲果奶蓋系列",
+      "items": [
+        {
+          "name": "雲果春桃伯爵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "雲果春桃",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "雲果金萱",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雲果觀音",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雲果伯爵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雲果錫蘭",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雲果抹茶香",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "雲果仙草",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "水芝冬瓜茶系列",
+      "items": [
+        {
+          "name": "水芝糖蜜",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "水芝春桃",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "水芝金萱",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "水芝觀音",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "水芝伯爵",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "水芝錫蘭",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "水芝檬檬",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "水芝旺萊",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "水芝香柚",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "咀嚼時光系列",
+      "items": [
+        {
+          "name": "荔枝玫瑰",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "玫瑰金萱",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "玫瑰春桃",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "厚奶白珠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "厚奶黑珠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "春奶雙珠",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "抹茶戀桃粿",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "仙草系列",
+      "items": [
+        {
+          "name": "嫩仙草.ZIP(純嫩仙草+奶精球)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "嫩仙草.1TB(芋圓、地瓜圓、珍珠、奶精球)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "其他/袋子",
+      "items": [
+        {
+          "name": "袋子",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    }
+  ]
+}

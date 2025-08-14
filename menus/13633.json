@@ -1,0 +1,629 @@
+{
+  "store_id": 13633,
+  "store_name": "中和店",
+  "brand_code": "sunriseinn",
+  "brand_name": "日出客棧茶飲",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "牧場乳茶",
+      "items": [
+        {
+          "name": "招牌冬瓜拿鐵",
+          "description": "限冷飲，古法熬製冬瓜露搭配小農鮮乳，不另外加糖，飲品本身含有冬瓜甜度。最佳風味建議半糖(5",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_6369deb2_IEzTXUa0.jpg"
+        },
+        {
+          "name": "紅茶拿鐵",
+          "description": "日出特調古早味搭配小農鮮乳，交織出特殊濃厚香氣。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_6369dee4_5MtsCoNg.jpg"
+        },
+        {
+          "name": "紅茶厚拿鐵",
+          "description": "日出特調古早味搭配加厚小農鮮乳。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_6369df0c_yAMtREaj.jpg"
+        },
+        {
+          "name": "綠茶拿鐵",
+          "description": "小農鮮乳襯托出茉莉淡淡香氣，最佳風味建議微糖(3分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_6369df21_1uKSN8zO.jpg"
+        },
+        {
+          "name": "玉露拿鐵",
+          "description": "台灣嚴選青茶，搭配鮮奶清爽滑順。最佳風味建議無糖(0分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_6369df5a_tuK2jv6E.jpg"
+        },
+        {
+          "name": "仙草拿鐵",
+          "description": "限冷飲，職人熬煮仙草汁搭配鮮奶的濃郁滋味不容錯過。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b13bc_p9geERyz.jpg"
+        },
+        {
+          "name": "珍珠紅茶拿鐵",
+          "description": "每日新鮮現煮Q彈珍珠，滿足的口感搭配日出特調紅茶拿鐵。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b238b_bIk9ON6f.jpg"
+        },
+        {
+          "name": "仙草凍紅茶拿鐵",
+          "description": "職人手工仙草凍，搭配日出特調紅茶拿鐵，輕彈在舌尖的好滋味。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1362_i12kAjEf.jpg"
+        },
+        {
+          "name": "布丁紅茶拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b164b_rPV8IOD0.jpg"
+        },
+        {
+          "name": "靜岡抹茶拿鐵",
+          "description": "嚴選靜岡抹茶，搭配淡淡乳香。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b249d_p0sqFADt.jpg"
+        },
+        {
+          "name": "Hershey's可可拿鐵",
+          "description": "嚴選美國好時可可，搭配淡淡乳香。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b15e7_4bufI27c.jpg"
+        },
+        {
+          "name": "甘蔗拿鐵",
+          "description": "限冷飲，台灣小農植作甘蔗，甘甜口感交織淡淡乳香。不另外加糖，飲品本身含有甘蔗甜度。最佳風味",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b167e_bdNlU4Sp.jpg"
+        }
+      ]
+    },
+    {
+      "category": "自然果感",
+      "items": [
+        {
+          "name": "金桔茶",
+          "description": "台灣小農鮮果使用，酸中帶甜。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1fb6_gHGwpaUs.jpg"
+        },
+        {
+          "name": "金桔綠茶",
+          "description": "限冷飲，台灣小農鮮果使用，搭上綠茶的清爽滋味。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b2132_okXhLfly.jpg"
+        },
+        {
+          "name": "金桔檸檬",
+          "description": "台灣小農鮮果使用，酸中帶甜。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b22d5_WJbOXS7U.jpg"
+        },
+        {
+          "name": "鳳梨紅茶",
+          "description": "限冷飲，紅糖冰釀鳳梨榨汁搭配古早味紅茶。輕甜口感。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "鳳梨綠茶",
+          "description": "限冷飲，紅糖冰釀鳳梨榨汁，輕甜口感。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b2478_3FYXGWAj.jpg"
+        },
+        {
+          "name": "鳳梨百香綠茶",
+          "description": "限冷飲，紅糖冰釀鳳梨榨汁搭配百香的夏日酸甜氣息。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b2452_acV0gZ8h.jpg"
+        },
+        {
+          "name": "鳳梨輕檸QQ",
+          "description": "限冷飲，紅糖冰釀鳳梨榨汁搭配檸檬的夏日酸甜氣息，脆爽輕盈的寒天在舌尖跳躍。最佳風味建議半糖",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b248b_QtX7uGLb.jpg"
+        },
+        {
+          "name": "鳳梨百香綠茶QQ",
+          "description": "限冷飲，紅糖冰釀鳳梨榨汁搭配百香的夏日酸甜氣息，脆爽輕盈的寒天在舌尖跳躍。最佳風味建議半糖",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b2465_v20fbPrG.jpg"
+        },
+        {
+          "name": "百香紅茶",
+          "description": "限冷飲，香氣十足的百香搭配古早味紅茶，香氣加乘。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "百香綠茶",
+          "description": "限冷飲，香氣十足的百香搭配茉香綠茶，香氣加乘。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1e93_7FZthqoJ.jpg"
+        },
+        {
+          "name": "百香檸檬",
+          "description": "限冷飲，香氣十足的百香搭配嚴選台灣在地檸檬。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "話梅輕檸綠茶",
+          "description": "限冷飲，檸檬綠以話梅提點風味，復古酸甜好滋味。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b2422_lP0q2TrA.jpg"
+        },
+        {
+          "name": "檸檬綠茶",
+          "description": "限冷飲，嚴選台灣在地檸檬與綠茶碰撞的解渴單品。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_6371f997_zbMQKS91.jpg"
+        },
+        {
+          "name": "招牌凍檸茶",
+          "description": "限冷飲，整顆新鮮檸檬翻壓，搭配日出特調古早味，為日出不敗單品。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1f8f_N8IoKtz2.jpg"
+        },
+        {
+          "name": "柳橙紅茶",
+          "description": "限冷飲，酸甜柳橙搭配搭配古早味紅茶。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "柳橙綠茶",
+          "description": "限冷飲，酸甜柳橙搭配茉香綠茶，香氣加乘。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "柳橙青茶",
+          "description": "限冷飲，酸甜柳橙搭配台灣青茶的清爽好滋味。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b22ee_v3EWUcpZ.jpg"
+        },
+        {
+          "name": "柳橙檸檬",
+          "description": "限冷飲，嚴選在地鮮果混搭黃金配比，無咖啡因適合孕婦及兒童。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "葡萄柚綠茶",
+          "description": "限冷飲，嚴選台灣在地葡萄柚與綠茶碰撞的解渴單品。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b23e2_q0xN9RkD.jpg"
+        },
+        {
+          "name": "葡萄柚檸檬",
+          "description": "限冷飲，嚴選在地鮮果混搭黃金配比，無咖啡因適合孕婦及兒童。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b240d_RxCUEo2d.jpg"
+        },
+        {
+          "name": "招牌甘蔗青",
+          "description": "限冷飲，台灣小農植作甘蔗，甘甜口感交織淡淡茶香。不另外加糖，飲品本身含有甘蔗甜度。最佳風味",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1f7c_LZ2vxDM3.jpg"
+        },
+        {
+          "name": "柳橙鮮蔗漾",
+          "description": "限冷飲，嚴選在地鮮果與清甜甘蔗混搭黃金配比，無咖啡因適合孕婦及兒童。最佳風味建議半糖(5分",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b2308_ZwPOUC1k.jpg"
+        },
+        {
+          "name": "葡萄柚鮮蔗漾",
+          "description": "限冷飲，嚴選在地鮮果與清甜甘蔗混搭黃金配比，無咖啡因適合孕婦及兒童。最佳風味建議半糖(5分",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b23f7_Jk8bfIoh.jpg"
+        },
+        {
+          "name": "甘蔗檸檬",
+          "description": "限冷飲，台灣小農植作甘蔗，搭配嚴選台灣在地檸檬。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b23f7_Jk8bfIoh.jpg"
+        }
+      ]
+    },
+    {
+      "category": "日出鮮茶",
+      "items": [
+        {
+          "name": "日出紅茶",
+          "description": "日出特調古早味紅茶香氣。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1345_G7p4DCQE.jpg"
+        },
+        {
+          "name": "翠玉綠茶",
+          "description": "經典茉莉花香綠茶，香氣繚繞鼻腔，舌尖口感更加平衡。最佳風味建議微糖(3分糖)以上。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b243b_n9GkMCrA.jpg"
+        },
+        {
+          "name": "四季春青茶",
+          "description": "限冷飲，台灣嚴選青茶，清爽口感。最佳風味建議無糖(0分糖)以上。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b15f9_zdX9B5MI.jpg"
+        },
+        {
+          "name": "仙草茶",
+          "description": "限冷飲，職人熬煮仙草汁。最佳風味建議微糖(3分糖)以上。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b143b_zL2hSwCo.jpg"
+        },
+        {
+          "name": "豆漿紅茶",
+          "description": "統一陽光豆漿與日出特調古早味的濃郁火花。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1f01_7YtAZT6w.jpg"
+        },
+        {
+          "name": "日出奶茶",
+          "description": "日出特調古早味交織著濃厚奶香不容錯過。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b12fe_G3ZuDmxe.jpg"
+        },
+        {
+          "name": "日出奶綠",
+          "description": "限冷飲，淡淡茉莉香氣交織著濃厚奶香。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1310_vd9kIZxJ.jpg"
+        },
+        {
+          "name": "日出奶青",
+          "description": "限冷飲，台灣嚴選青茶，奶香清爽。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "珍珠奶茶",
+          "description": "每日新鮮現煮Q彈珍珠，滿足的口感搭配復古味奶茶。最佳風味建議半糖(5分糖)以上。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b2338_NQoCzZj2.jpg"
+        },
+        {
+          "name": "珍珠奶綠",
+          "description": "限冷飲，每日新鮮現煮Q彈珍珠，滿足的口感搭上茉香奶茶。最佳風味建議微糖(3分糖)以上。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b234d_rUsvDcFa.jpg"
+        },
+        {
+          "name": "仙草凍飲",
+          "description": "限冷飲，職人手工仙草凍與仙草汁的純正風味。最佳風味建議半糖(5分糖)以上",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b139e_kHKEi8M0.jpg"
+        }
+      ]
+    },
+    {
+      "category": "多多系列",
+      "items": [
+        {
+          "name": "多多綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1e6d_FEHWeq3C.jpg"
+        },
+        {
+          "name": "多多檸檬",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1e7e_lDnqP78c.jpg"
+        },
+        {
+          "name": "多多百香",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1691_lIwFGVvA.jpg"
+        },
+        {
+          "name": "多多柳橙",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1d74_richDpeJ.jpg"
+        },
+        {
+          "name": "多多葡萄柚",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1e21_QIaGNXn3.jpg"
+        }
+      ]
+    },
+    {
+      "category": "古早味冬瓜",
+      "items": [
+        {
+          "name": "冬瓜茶",
+          "description": "限冷飲，堅持古法熬煮日出冬瓜露，不另外加糖，飲品本身含有冬瓜甜度",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1524_3VvogAQl.jpg"
+        },
+        {
+          "name": "招牌冬瓜豆漿",
+          "description": "限冷飲，堅持古法熬煮日出冬瓜露搭配統一陽光豆漿。不另外加糖，飲品本身含有冬瓜甜度。最佳風味",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1f15_XCLgvazG.jpg"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": "限冷飲，堅持古法熬煮日出冬瓜露搭配檸檬的輕甜夏日口感。不另外加糖，飲品本身含有冬瓜甜度。最",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b153a_4XdRnies.jpg"
+        },
+        {
+          "name": "冬瓜紅茶",
+          "description": "限冷飲，堅持古法熬煮日出冬瓜露搭配古早味紅茶。不另外加糖，飲品本身含有冬瓜甜度。最佳風味建",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冬瓜綠茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冬瓜青茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b145e_8LPxY0HT.jpg"
+        },
+        {
+          "name": "冬瓜奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冬瓜奶綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冬瓜奶青",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "冬瓜仙草",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "冬季限定",
+      "items": [
+        {
+          "name": "薑汁檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b24bf_5FzZ97bl.jpg"
+        },
+        {
+          "name": "薑汁紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b24ae_56mHPIwG.jpg"
+        },
+        {
+          "name": "招牌薑汁拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1537/b1537_636b1fa5_qISKRfGk.jpg"
+        },
+        {
+          "name": "薑汁奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "薑汁奶綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "薑汁奶青",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "薑汁紅茶拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "薑汁綠茶拿鐵",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "薑汁玉露拿鐵",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "柚香系列",
+      "items": [
+        {
+          "name": "柚子茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "柚香紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "柚香綠茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "柚香青茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "柚香奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "柚香奶綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "柚香奶青",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "檸檬柚柚",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "百香柚柚",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "柳橙柚柚",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "葡萄柚柚",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "老闆特調",
+      "items": [
+        {
+          "name": "衷初奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "衷初奶綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "衷初奶青",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "三奶歸紅",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "三奶歸綠",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "三奶歸青",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    }
+  ]
+}

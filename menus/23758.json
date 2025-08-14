@@ -1,0 +1,251 @@
+{
+  "store_id": 23758,
+  "store_name": "中和南勢角店",
+  "brand_code": "blackteabus",
+  "brand_name": "紅茶巴士",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "原萃茶",
+      "items": [
+        {
+          "name": "招牌巴士紅茶",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_6835271e_RwWDQc43.png"
+        },
+        {
+          "name": "復刻古早味紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_6835273e_c786nwPO.png"
+        },
+        {
+          "name": "胭脂紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_6835276f_z4OPhAHe.png"
+        },
+        {
+          "name": "英式伯爵紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352797_3VdYnsfu.png"
+        },
+        {
+          "name": "高山金萱青茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_6835282a_DRYlWtTx.png"
+        },
+        {
+          "name": "黃金麥茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_683528d9_m498zSdA.png"
+        },
+        {
+          "name": "茉香綠茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_683529ba_E01Ao8td.png"
+        }
+      ]
+    },
+    {
+      "category": "厚奶茶",
+      "items": [
+        {
+          "name": "招牌巴士奶茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352a2b_czZdWwyg.png"
+        },
+        {
+          "name": "招牌巴士奶綠",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68353400_aoDWFTEu.png"
+        },
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352ad7_TJ7w2Icd.png"
+        },
+        {
+          "name": "阿嬤豆漿紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_683533c8_YuSmaU17.png"
+        },
+        {
+          "name": "豪華巴士奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352bd5_dQy3xLqH.png"
+        },
+        {
+          "name": "黑糖粉角奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352c80_2z0FSC7x.png"
+        },
+        {
+          "name": "黑糖粉角奶綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352c9d_59OQHwvZ.png"
+        }
+      ]
+    },
+    {
+      "category": "冰淇淋",
+      "items": [
+        {
+          "name": "冰淇淋巴士紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352d06_Yu7tLhmC.png"
+        },
+        {
+          "name": "冰淇淋復刻紅茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352d22_JtKjzsUR.png"
+        },
+        {
+          "name": "冰淇淋伯爵茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352d47_Od4nYLUz.png"
+        }
+      ]
+    },
+    {
+      "category": "香那堤",
+      "items": [
+        {
+          "name": "招牌巴士那堤",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352db3_jqiOfo5H.png"
+        },
+        {
+          "name": "復刻紅茶那堤",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352dd2_6zCblm5s.png"
+        },
+        {
+          "name": "英式伯爵那堤",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352e12_bXLEFK9h.png"
+        },
+        {
+          "name": "胭脂那堤",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352e2c_iebrUsg0.png"
+        },
+        {
+          "name": "粉角紅茶牛奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352e48_AzTf1hr9.png"
+        }
+      ]
+    },
+    {
+      "category": "鮮果粒",
+      "items": [
+        {
+          "name": "爆打檸檬水",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352ebb_tBDb5eRW.png"
+        },
+        {
+          "name": "爆打檸檬紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352f34_UvKinSYO.png"
+        },
+        {
+          "name": "爆打檸檬綠茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68352fcf_5ADIhYOr.png"
+        },
+        {
+          "name": "爆打檸檬柳橙綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68353030_YhdSNA7v.png"
+        },
+        {
+          "name": "荔枝冰紅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_683530a8_cjH52tu0.png"
+        },
+        {
+          "name": "鮮柳橙綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68353141_OGKt2NpC.png"
+        },
+        {
+          "name": "甘蔗青茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_683531c4_HcYfNKxr.png"
+        },
+        {
+          "name": "荔枝金萱雙Q",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68635fef_vPRJiMKq.png"
+        },
+        {
+          "name": "金萱雙Q",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3091/b3091_68635f0a_rjoRb9JP.png"
+        }
+      ]
+    }
+  ]
+}

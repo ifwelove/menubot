@@ -1,0 +1,474 @@
+{
+  "store_id": 23065,
+  "store_name": "台北小巨蛋店",
+  "brand_code": "kungfutea",
+  "brand_name": "功夫茶 KUNGFU TEA",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "功夫．好茶①",
+      "items": [
+        {
+          "name": "功夫茶王",
+          "description": "∥無糖限定∥大杯∥手採阿里山高山茶葉，細火慢焙，喉韻甘醇，滑順不張揚。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_Jw6ADvYz.jpg"
+        },
+        {
+          "name": "岩葉紅茶",
+          "description": "∥大杯∥選用錫蘭紅茶，茶感濃韻，茶味香醇而紮實，建議喝正常蜜或無蜜，若要調整建議少蜜。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_SUy7XiJY.jpg"
+        },
+        {
+          "name": "翠玉綠茶",
+          "description": "∥大杯∥嚴選臺灣蒸青綠茶，經過 2 次薰花帶出濃郁香氣。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_YZXJciQB.jpg"
+        },
+        {
+          "name": "四季春青茶",
+          "description": "∥大杯∥四季春青茶是功夫茶的招牌原味茶，採用臺灣高山茶，清香回甘。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_keulVwMo.jpg"
+        },
+        {
+          "name": "烏龍鐵觀音",
+          "description": "∥大杯∥正欉鐵觀音，茶湯入喉，生津止渴。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_Hl8PSIux.jpg"
+        },
+        {
+          "name": "手作冬瓜茶",
+          "description": "∥大杯∥甜度固定∥不另外加糖。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_3GzUtSWl.jpg"
+        },
+        {
+          "name": "阿里山冰茶",
+          "description": "∥大杯∥屬於烏龍的一種，香氣淡雅、茶湯甘甜且富含兒茶素。正常比例喝起來會有清甜蔗香味, 無糖可以喝到純正的茶味。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_k0Yo39qm.jpg"
+        },
+        {
+          "name": "日月潭紅玉",
+          "description": "∥大杯∥臺灣原生山茶, 茶湯金黃帶紅，尾韻帶焦糖味, 迷人順口。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_UYkvp591.jpg"
+        },
+        {
+          "name": "蜜桃胭脂紅茶",
+          "description": "嚴選蜜桃風味紅茶，清甜果香與甘醇茶香的層次融合得恰到好處，淡雅迷人。",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_MAzEkgfI.jpg"
+        }
+      ]
+    },
+    {
+      "category": "功夫．好茶 ②",
+      "items": [
+        {
+          "name": "芝士奶蓋綠茶",
+          "description": "茉莉花香綠茶加上鹹香濃郁芝士厚奶蓋，不知不覺一飲而盡。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_VlYKsT2j.jpg"
+        },
+        {
+          "name": "芝士奶蓋烏龍",
+          "description": "微鹹的濃郁芝士厚奶蓋，加入深焙鐵觀音茶香韻味。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_oybLVlw3.jpg"
+        },
+        {
+          "name": "芝士奶蓋青茶",
+          "description": "微鹹的濃郁芝士厚奶蓋，加入招牌青茶，茶香韻味十足清爽。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_vOYLbdwH.jpg"
+        },
+        {
+          "name": "青梅綠茶",
+          "description": "∥大杯∥獨家青梅汁, 搭配花香十足的綠茶, 微酸的清爽口感。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_SaL2DxVX.jpg"
+        },
+        {
+          "name": "多多綠茶",
+          "description": "∥大杯∥養樂多及翠玉綠茶。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_jeDglRX9.jpg"
+        },
+        {
+          "name": "玫瑰冰茶",
+          "description": "∥大杯∥甜度固定。以玫瑰花釀，加上四季春青茶，讓整體口感清爽而高級。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_SgLFGPJs.jpg"
+        },
+        {
+          "name": "芝士奶蓋紅茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "胭脂多多",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "粉粿胭脂紅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "冰淇淋岩葉紅茶",
+          "description": "∥大杯∥臺灣原生山茶, 茶湯金黃帶紅，尾韻帶焦糖味, 迷人順口。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_v9IpYesZ.jpg"
+        }
+      ]
+    },
+    {
+      "category": "功夫．奶茶",
+      "items": [
+        {
+          "name": "38奶霸",
+          "description": "黑糖波霸香氣濃郁，加上仙草與蒟蒻，三種口感一次滿足。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_ftPvHUjm.jpg"
+        },
+        {
+          "name": "黑糖波霸奶茶",
+          "description": "濃郁 Q 彈黑糖波霸，加上岩紅厚奶茶。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_rt5dsW0D.jpg"
+        },
+        {
+          "name": "厚奶茶",
+          "description": "濃韻紅茶與奶精調和，成就一杯香醇濃郁的奶茶，加上特調蜂蜜提味。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_uJWvgmOd.jpg"
+        },
+        {
+          "name": "咖啡凍奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "厚奶綠",
+          "description": "使用清香回甘的翠玉綠茶與奶精特調，茉莉花茶香與奶香巧妙結合的滋味。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_rt5dsW0D.jpg"
+        },
+        {
+          "name": "烏龍觀音奶茶",
+          "description": "重發酵的正欉鐵觀音與香醇奶香融合出獨特的味蕾感受，茶香完整呈現，是功夫茶的招牌奶茶。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_YAJZoKrN.jpg"
+        },
+        {
+          "name": "英式伯爵奶茶",
+          "description": "∥大杯∥自帶香氣的伯爵奶茶，茶的澀味慢慢在嘴裡褪去，淡淡的茶感在口腔裡漫遊。邀你一同探索伯爵系列的神秘浪漫。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_8iLsMInK.jpg"
+        },
+        {
+          "name": "莊園玫瑰奶茶",
+          "description": "以奶茶加上玫瑰花釀，輕柔的花香襯托出奶茶的絲滑優雅。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_uVsT71RJ.jpg"
+        },
+        {
+          "name": "蜜桃胭脂奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "巧克力奶茶",
+          "description": "∥冷熱皆可∥獨家調製濃厚大人感，迷人香氣，層次滑順。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_zuY3e2x6.jpg"
+        }
+      ]
+    },
+    {
+      "category": "功夫．水果",
+      "items": [
+        {
+          "name": "泰式榴蓮莎莎",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_LS7kURQF.jpg"
+        },
+        {
+          "name": "寒天柚香飲",
+          "description": "以酸甜葡萄柚綠茶為基底, 加上低熱量寒天晶球，清爽少負擔。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_e4WJraiA.jpg"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": "∥大杯∥甜度固定∥。消暑解渴的冬瓜茶，加入百搭檸檬。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_cD2koyQL.jpg"
+        },
+        {
+          "name": "粉粿柚香綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "百香羅勒子",
+          "description": "∥大杯∥百香果汁搭配高鮮羅勒子，富含豐富的膳食纖維，清爽又順口。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_vKiyZkOl.jpg"
+        },
+        {
+          "name": "芭樂檸檬綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_sZVgkhpI.jpg"
+        },
+        {
+          "name": "鮮榨柳橙綠",
+          "description": "∥大杯∥甜度固定∥富含維他命 C 的新鮮柳橙原汁搭配茉莉花香綠茶。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_5H79jmvZ.jpg"
+        },
+        {
+          "name": "百香3Q",
+          "description": "∥大杯∥新鮮百香果汁加上黑糖波霸，蒟蒻及椰果，酸甜不膩口。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_kyXtFMmO.jpg"
+        }
+      ]
+    },
+    {
+      "category": "功夫．鮮奶",
+      "items": [
+        {
+          "name": "紅豆粉粿鮮奶",
+          "description": "∥甜度冰塊固定∥復刻經典甜品 (紅豆粉粿冰棒)，軟、綿、鬆、香的蜜紅豆與 Q 彈粉粿，與滑順的濃醇鮮奶包覆著古早味。",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_WBhygrXp.jpg"
+        },
+        {
+          "name": "岩葉紅茶拿鐵",
+          "description": "鮮奶與濃韻紅茶完美融合，茶感與奶香平衡。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_cjZYdlQ1.jpg"
+        },
+        {
+          "name": "烏龍觀音拿鐵",
+          "description": "鐵觀音搭配鮮奶，不同於鮮奶茶，可以感受到濃厚的茶感與餘韻。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_l1Doimqn.jpg"
+        },
+        {
+          "name": "英式伯爵拿鐵",
+          "description": "∥大杯∥自帶香氣的伯爵茶加上鮮奶，茶的澀味慢慢在嘴裡褪去，淡淡的茶韻與清甜奶香在口腔裡漫遊。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_xRlvDY1N.jpg"
+        },
+        {
+          "name": "黑糖波霸鮮奶",
+          "description": "∥甜度固定 ∥ 黑糖波霸香濃馥郁，搭配鮮奶，整體滑順令人滿足。",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蜜桃胭脂拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "巧克力鮮奶",
+          "description": "∥冷熱皆可∥獨家調製巧克力可可，配上清甜鮮奶，口感不僅變得童趣也更加迷人。",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_DEftdzpq.jpg"
+        },
+        {
+          "name": "冰淇淋紅茶拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "冬日限定",
+      "items": [
+        {
+          "name": "桂圓紅棗茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "薑汁桂圓紅棗",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_NJStaQfI.jpg"
+        },
+        {
+          "name": "暖薑奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_mUEQWMPY.jpg"
+        },
+        {
+          "name": "暖薑鮮奶",
+          "description": "∥熱飲∥綿密的牛奶奶泡混合老薑汁。中西合璧的和諧口感，襯托老薑的慢火風味與牛奶香氣。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_fI6nzHWN.jpg"
+        },
+        {
+          "name": "慢火老薑茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "非菜單&已下架①",
+      "items": [
+        {
+          "name": "真．功夫珍奶",
+          "description": "波霸的黑糖香氣提升鮮奶茶純厚口感，再加上芝士奶蓋，極富入口層次。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_zHiD8oal.jpg"
+        },
+        {
+          "name": "芝士榴槤莎莎",
+          "description": "∥中杯∥冰沙商品∥全台獨創榴槤飲品加入濃郁芝士奶蓋，點燃你的榴槤宇宙！加量再升級、濃郁滿分、絲滑加倍！！",
+          "price_cold": 110,
+          "price_hot": 110
+        },
+        {
+          "name": "芝士日月潭紅玉",
+          "description": "∥大杯∥微鹹的濃郁芝士厚奶蓋, 搭配日月潭紅茶。",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_B3mdPskx.jpg"
+        },
+        {
+          "name": "芝士黑糖波霸鮮奶",
+          "description": "∥甜度固定∥。黑糖波霸香濃馥郁，搭配濃醇鮮奶，再加上經典濃郁芝士厚奶蓋。",
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_mxoU7Tp1.jpg"
+        }
+      ]
+    },
+    {
+      "category": "非菜單&已下架②",
+      "items": [
+        {
+          "name": "翡翠檸檬綠茶",
+          "description": "∥大杯∥新鮮檸檬原汁,搭配翠玉綠茶,用凍飲方式調製而成,口感酸甜,不僅能品嚐到檸檬原汁的淡雅香氣與酸度, 還有翠玉綠茶濃厚獨特的茉莉茶香.",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "百香翠玉",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "葡萄柚綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芭樂輕檸",
+          "description": "無咖啡因｜純芭樂+檸檬原汁，酸甜平衡的口感，喝一口透心涼！",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "青梅果釀",
+          "description": "∥大杯∥獨家青梅汁, 微酸的清爽口感。",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "寒天莓莓",
+          "description": "∥大杯∥寒天晶球高纖低卡，以酸甜適中的蔓越莓汁調和，是一款不含咖啡因的飲品。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2391/S23065_68829fae_4gUTBaFd.jpg"
+        }
+      ]
+    },
+    {
+      "category": "活動區",
+      "items": [
+        {
+          "name": "星桃樂胭脂",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "其他",
+      "items": [
+        {
+          "name": "購物袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    }
+  ]
+}

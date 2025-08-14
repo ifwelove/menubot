@@ -1,0 +1,314 @@
+{
+  "store_id": 20298,
+  "store_name": "板橋中正店",
+  "brand_code": "teasommelier",
+  "brand_name": "侍茶匠",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "原茶",
+      "items": [
+        {
+          "name": "穗波(麥穗香)紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "格雷伯爵(柑橘香)紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "白鳳(蜜桃香)紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "月季(玫瑰香)綠茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "麒麟(青茶香)青茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "御紋(杭菊香)烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "月下莓人(莓果香)(無咖啡因)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "薔薇之戀(玫瑰香)(無咖啡因)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蘭芳(斑蘭葉)綠茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "豆乳奶蓋",
+      "items": [
+        {
+          "name": "輕盈的豆乳奶蓋很好動不易沉澱，會採用封膜+附杯蓋唷～",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "穗波紅茶豆乳奶蓋",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "格雷伯爵紅茶豆乳奶蓋",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "月季綠茶豆乳奶蓋",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "麒麟青茶豆乳奶蓋",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "御紋烏龍豆乳奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "褐香焙茶豆乳奶蓋(M)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "豆乳",
+      "items": [
+        {
+          "name": "穗波紅茶豆乳",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "黑糖穗波紅茶豆乳",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "格雷伯爵豆乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "麒麟青茶豆乳",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "御紋烏龍豆乳",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "褐香焙茶豆乳(M)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "月季綠茶豆乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶",
+      "items": [
+        {
+          "name": "穗波紅茶拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "黑糖穗波紅茶拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "格雷伯爵拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "白鳳紅茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "月季綠茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "麒麟青茶拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "御紋烏龍拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "褐香焙茶拿鐵(M)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "蘭芳綠茶拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "職人手作",
+      "items": [
+        {
+          "name": "特上宇治豆乳奶蓋(M)",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        },
+        {
+          "name": "特上宇治拿鐵(M)",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        },
+        {
+          "name": "特上宇治豆乳(M)",
+          "description": null,
+          "price_cold": 79,
+          "price_hot": 79
+        }
+      ]
+    },
+    {
+      "category": "特調",
+      "items": [
+        {
+          "name": "穗波檸檬紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "御紋蜂蜜烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蘭芳柳橙綠茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "蘭芳百香綠茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "蘭芳紅柚綠茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "麒麟鳳梨青茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "麒麟冬瓜青茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋(不買外送人員會有拒單的風險唷！！)",
+      "items": [
+        {
+          "name": "店員會視情況幫閣下加購的袋子-兩杯型",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "店員會視情況幫閣下加購的袋子-六杯型",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

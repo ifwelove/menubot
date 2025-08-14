@@ -1,0 +1,368 @@
+{
+  "store_id": 18616,
+  "store_name": "竹科店",
+  "brand_code": "dawowbrand",
+  "brand_name": "大王茶迷",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "好茶here",
+      "items": [
+        {
+          "name": "【超人氣】大王烏龍檸檬茶 L",
+          "description": "台灣烏龍×鮮搾檸檬，茶香甘醇交織果酸清爽！琥珀茶湯透著陽光滋味，天然無添加，尾韻回甘如風穿茶園。盛夏解渴首選，來一杯島嶼的純淨獻禮。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431ab6_pgOKPw5R.jpg"
+        },
+        {
+          "name": "大王靜焙烏龍茶 L",
+          "description": "【王者茶韻・雙重獻映】嚴選台灣烏龍醇厚果香，佐冬片茶冷冽甘甜，以黃金比例淬鍊茶湯層次！琥珀茶色綻放蘭花香韻，尾韻回甘如朝露沁心，每一口都是寶島茶藝的極致獻禮。#台灣茶王誕生",
+          "price_cold": 37,
+          "price_hot": 37,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431a92_v4R6YX1V.jpg"
+        },
+        {
+          "name": "大王慢熬冬瓜茶 L",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431a7e_Mdn3yT4N.jpg"
+        },
+        {
+          "name": "大王烏龍甘蔗青茶 L",
+          "description": "嚴選台灣烏龍茶甘韻底蘊，融合在地鮮榨甘蔗汁清甜，茶香醇厚交織蔗香爽冽，創造層次豐富的寶島風味。天然純粹，解暑沁心，每一口都是島嶼陽光的溫柔獻禮！\r\n\r\n#100分%天然甘蔗汁無額外加糖",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431a58_yBLEQaVu.jpg"
+        },
+        {
+          "name": "大王檸檬汁瓶裝 950ml (限購6瓶) 1瓶",
+          "description": "一單限購6瓶",
+          "price_cold": 140,
+          "price_hot": 140,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431a34_BZgIA0DU.jpg"
+        },
+        {
+          "name": "老茶廠紅茶 L",
+          "description": null,
+          "price_cold": 37,
+          "price_hot": 37,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_664312c9_jlxAINZT.jpg"
+        },
+        {
+          "name": "大王烏龍冬瓜茶 L",
+          "description": null,
+          "price_cold": 47,
+          "price_hot": 47,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431a04_OUtTBPqb.jpg"
+        },
+        {
+          "name": "冬瓜紅茶 L",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_664319d3_IKG1QR4y.jpg"
+        },
+        {
+          "name": "大王冬瓜檸檬茶 L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_664319b9_1LBb2k0v.jpg"
+        },
+        {
+          "name": "檸檬紅茶 L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431998_0gVLkaNo.jpg"
+        },
+        {
+          "name": "【超人氣】烏龍梅子脆脆 L",
+          "description": "天然梅子釀製一年符合人體有機需求不添加任何香精 含在口中就飄散出一股淡淡的香氣 滋味順口自然與台灣烏龍茶香相互交映碰撞 清新裡見濃芳 一見傾心✨\r\n內含脆梅",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431974_v4l65tJR.jpg"
+        },
+        {
+          "name": "冬瓜蕎麥焙香 L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431b74_jmKuNiHg.jpg"
+        },
+        {
+          "name": "大王烏龍佐蜂蜜 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_677df89e_chzKMf7Z.jpg"
+        },
+        {
+          "name": "大王台灣四季青 L",
+          "description": null,
+          "price_cold": 37,
+          "price_hot": 37,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_67a9715c_8YRZJmh5.jpg"
+        },
+        {
+          "name": "【超人氣】大王霍頓莊園水果茶 L",
+          "description": "天然果香，甜蜜綻放！精選柳橙汁、百香果與鳳梨慢火熬煮成濃郁果蜜，融入奢華頂級霍頓莊園紅茶，交織出層次豐富的酸甜與醇厚，每一口都是自然的鮮果饗宴！",
+          "price_cold": 79,
+          "price_hot": 79,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_67dcd01c_tA5DOKFd.jpg"
+        },
+        {
+          "name": "大王烏龍金桔梅子脆脆 L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_684a439f_dceX1tGF.jpg"
+        },
+        {
+          "name": "蕎麥焙香 L",
+          "description": "來自台灣山區的黃金蕎麥，以慢火焙炒，散發出迷人的堅果香與清新麥香。口感溫潤、回甘。",
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "小農鮮乳使用",
+      "items": [
+        {
+          "name": "大王烏龍鮮奶茶 L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_6643195a_1O5TYmze.jpg"
+        },
+        {
+          "name": "冬瓜奶奶 L",
+          "description": "冬瓜慢熬8小時",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431933_Pg9Bn6h3.jpg"
+        },
+        {
+          "name": "蕎麥焙香鮮奶茶 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66b1c25c_JUbEHjAa.jpg"
+        },
+        {
+          "name": "霍頓莊園鮮奶茶 L",
+          "description": "霍頓莊園位於海拔超過4000英尺。復雜地形和氣候使得茶葉擁有特殊的茉莉和柏樹混合風味。\r\n手採嫩葉 ，茶香層次豐富，茶多酚含量高，好茶不會讓胃不舒服，每天要喝就喝好一點",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66d86017_rCUbN5Rd.jpg"
+        },
+        {
+          "name": "大王烏龍鮮奶佐蜂蜜 L",
+          "description": "100%天然蜂蜜使用，無額外加糖。",
+          "price_cold": 79,
+          "price_hot": 79,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_677df8d0_tmqBhiYQ.jpg"
+        },
+        {
+          "name": "老茶廠紅茶鮮奶茶 L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_6848f830_Ixon6wi5.jpg"
+        },
+        {
+          "name": "黑糖霍頓莊園鮮奶茶 L",
+          "description": "增加黑糖香氣，風味更迷人",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "+4球檸檬冰沙系列",
+      "items": [
+        {
+          "name": "大王烏龍檸檬冰沙 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431908_ZTOgkU1N.jpg"
+        },
+        {
+          "name": "大王冬瓜檸檬冰沙 L",
+          "description": "慢熬冬瓜茶的清甜與天然檸檬的馨香相遇，三種層次的口感，一層一層撞擊出絕妙好滋味",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431887_3ZA9dnKk.jpg"
+        },
+        {
+          "name": "檸檬冰沙紅茶 L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_6643182c_3rMVBJx4.jpg"
+        }
+      ]
+    },
+    {
+      "category": "+4球紐西蘭牛奶冰淇淋",
+      "items": [
+        {
+          "name": "大王烏龍奶香冰淇淋 L",
+          "description": "四球紐西蘭牛奶冰淇淋，讓濃郁奶香在烏龍茶中慢慢融化你的心",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_664316ed_GQpEaqUd.jpg"
+        },
+        {
+          "name": "冬瓜奶香冰淇淋 L",
+          "description": "四球紐西蘭牛奶冰淇淋，讓濃郁奶香在手工冬瓜茶中慢慢融化你的心",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_6643169e_DuayeOEB.jpg"
+        },
+        {
+          "name": "紐西蘭牛奶冰淇淋紅茶 L",
+          "description": "以霍頓莊園手採茶為基底，誇張的加上四球紐西蘭鮮奶做成的奶香冰淇淋，順滑的濃郁奶香與口感比厚奶茶更甚一籌。",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66d86082_9owUOB7D.jpg"
+        }
+      ]
+    },
+    {
+      "category": "+2球檸檬冰沙",
+      "items": [
+        {
+          "name": "【超人氣】大王烏龍金鑽鳳梨冰茶 L",
+          "description": "南台灣頂級金鑽鳳梨切丁熬蜜\r\n2球大王檸檬冰沙，在烏龍茶香中綻放",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66432380_BtjGUhD0.jpg"
+        }
+      ]
+    },
+    {
+      "category": "愛嚼嚼",
+      "items": [
+        {
+          "name": "黃金粉角烏龍茶 L",
+          "description": null,
+          "price_cold": 52,
+          "price_hot": 52,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_664314b5_C65wEmnQ.jpg"
+        },
+        {
+          "name": "春二珍珠烏龍茶 L",
+          "description": null,
+          "price_cold": 47,
+          "price_hot": 47,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_6643147f_s89LVHDv.jpg"
+        },
+        {
+          "name": "黑糖粉粿烏龍茶 L",
+          "description": null,
+          "price_cold": 52,
+          "price_hot": 52,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431415_BOGwh194.jpg"
+        },
+        {
+          "name": "黑糖粉粿烏龍冬瓜 L",
+          "description": null,
+          "price_cold": 62,
+          "price_hot": 62,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_664313e0_jpoqrWIw.jpg"
+        },
+        {
+          "name": "冬瓜ㄋㄟㄋㄟ黑糖粉粿 L",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66431362_w1PH48Lv.jpg"
+        },
+        {
+          "name": "黑糖粉粿檸檬爽 L",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_664321db_jqVRSvm3.jpg"
+        },
+        {
+          "name": "黑糖粉粿烏龍檸檬茶 L",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_6643130e_c3nWCPDk.jpg"
+        },
+        {
+          "name": "黃金粉角蕎麥茶 L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_668fcfe4_Cfl0HYn7.jpg"
+        },
+        {
+          "name": "黃金粉角冬瓜茶 L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_668fcfac_KB3ZOWcM.jpg"
+        },
+        {
+          "name": "春二珍珠冬瓜茶 L",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_668fcf73_beIiNEKF.jpg"
+        },
+        {
+          "name": "春二珍珠蕎麥茶 L",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_668fcf42_tsxO9L5k.jpg"
+        },
+        {
+          "name": "黑糖粉粿蕎麥茶 L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_668fcf06_wGetD3dS.jpg"
+        },
+        {
+          "name": "黑糖珍珠霍頓莊園鮮奶茶 L",
+          "description": "霍頓莊園位於海拔超過4000英尺。復雜地形和氣候使得茶葉擁有特殊的茉莉和柏樹混合風味。\r\n手採嫩葉 ，茶香層次豐富，茶多酚含量高，不容易刺激胃腸，每天要喝就喝好一點",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/1630/b1630_66d860b8_F1fZnxtb.jpg"
+        }
+      ]
+    },
+    {
+      "category": "加購袋子",
+      "items": [
+        {
+          "name": "塑膠袋 4-6杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "鋁箔加厚保溫袋2杯裝",
+          "description": null,
+          "price_cold": 10,
+          "price_hot": 10
+        },
+        {
+          "name": "鋁箔加厚保溫袋4杯裝",
+          "description": null,
+          "price_cold": 16,
+          "price_hot": 16
+        }
+      ]
+    }
+  ]
+}

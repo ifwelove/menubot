@@ -1,0 +1,655 @@
+{
+  "store_id": 24046,
+  "store_name": "三重店",
+  "brand_code": "houmeiguo",
+  "brand_name": "兩良紅茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "店長推薦",
+      "items": [
+        {
+          "name": "黑糖粉圓鮮奶紅茶 700cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_rMoq8X5g.jpg"
+        },
+        {
+          "name": "黑糖粉圓鮮奶紅茶 960cc",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_oYnd0VRj.jpg"
+        },
+        {
+          "name": "寒天冬瓜檸檬    700cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_MgHFpajQ.jpg"
+        },
+        {
+          "name": "寒天冬瓜檸檬    960cc",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_vpGVm1DE.jpg"
+        },
+        {
+          "name": "寒天檸檬紅茶    700cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_Ocd2D8oh.jpg"
+        },
+        {
+          "name": "寒天檸檬紅茶    960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_EQR1V4J3.jpg"
+        },
+        {
+          "name": "寒天半熟紅茶    700cc",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_xZuHl4S6.jpg"
+        },
+        {
+          "name": "寒天半熟紅茶    960cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_JHobIznN.jpg"
+        },
+        {
+          "name": "嫩仙草凍冬瓜青茶 700cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_hdqO3iDg.jpg"
+        },
+        {
+          "name": "嫩仙草凍冬瓜青茶 960cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_4M5ejkFf.jpg"
+        }
+      ]
+    },
+    {
+      "category": "酸甘甜",
+      "items": [
+        {
+          "name": "百香綠茶 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_A0DHNmZV.jpg"
+        },
+        {
+          "name": "百香綠茶 960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_DawiXQxc.jpg"
+        },
+        {
+          "name": "檸檬紅茶 700cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_uYi3LI5g.jpg"
+        },
+        {
+          "name": "檸檬紅茶 960cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_mSACbZli.jpg"
+        },
+        {
+          "name": "檸檬綠茶 700cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_fxBEaWJ6.jpg"
+        },
+        {
+          "name": "檸檬綠茶 960cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_tdaK5IZL.jpg"
+        },
+        {
+          "name": "檸檬汁 700cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_KMerNFfJ.jpg"
+        },
+        {
+          "name": "檸檬汁 960cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_jyd5HpgS.jpg"
+        },
+        {
+          "name": "百香紅茶 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_eAXR0fO5.jpg"
+        },
+        {
+          "name": "百香紅茶 960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_v2GroD3e.jpg"
+        },
+        {
+          "name": "百香綠茶 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_m5EvW9O3.jpg"
+        },
+        {
+          "name": "百香綠茶 960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_NStCIra1.jpg"
+        },
+        {
+          "name": "萃梅綠茶 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_3fr4Fvhe.jpg"
+        },
+        {
+          "name": "萃梅綠茶 960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_9JbR5jG8.jpg"
+        },
+        {
+          "name": "萃梅青茶 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_Saj8EpUB.jpg"
+        },
+        {
+          "name": "萃梅青茶 960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_0c3h6ufC.jpg"
+        },
+        {
+          "name": "萃梅半熟紅茶    700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "萃梅半熟紅茶    960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "多多綠茶 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "多多綠茶 960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "季節限定",
+      "items": [
+        {
+          "name": "冰淇淋烏龍 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_4e8NolTd.jpg"
+        },
+        {
+          "name": "冰淇淋烏龍 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_CNxBzE5O.jpg"
+        },
+        {
+          "name": "冰淇淋古早紅茶   700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689affae_lE7iHtqs.png"
+        },
+        {
+          "name": "冰淇淋綠茶 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_BMC0GnFE.jpg"
+        },
+        {
+          "name": "冰淇淋仙草茶    700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_UfZPgwQD.jpg"
+        },
+        {
+          "name": "冰淇淋半熟紅茶   700cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689affae_NlbFnPLX.png"
+        }
+      ]
+    },
+    {
+      "category": "厚喝茶",
+      "items": [
+        {
+          "name": "古早紅茶 700cc",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_f3EPDuqH.jpg"
+        },
+        {
+          "name": "古早紅茶 960cc",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_6JmjFXVI.jpg"
+        },
+        {
+          "name": "半熟紅茶 700cc",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_EHm1sVCA.jpg"
+        },
+        {
+          "name": "半熟紅茶 960cc",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_BybLvYnc.jpg"
+        },
+        {
+          "name": "綠茶 700cc",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_YmNABus9.jpg"
+        },
+        {
+          "name": "綠茶 960cc",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_DBnW7tq2.jpg"
+        },
+        {
+          "name": "烏龍茶 700cc",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_AUIkhGS6.jpg"
+        },
+        {
+          "name": "烏龍茶 960cc",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_XY2Nphq7.jpg"
+        },
+        {
+          "name": "四季青茶 700cc",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_WOGTPwNy.jpg"
+        },
+        {
+          "name": "四季青茶 960cc",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_3UKvrIqp.jpg"
+        },
+        {
+          "name": "重焙烤茶 700cc",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "重焙烤茶 960cc",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_avV3M2eD.jpg"
+        },
+        {
+          "name": "烏龍綠茶 700cc",
+          "description": null,
+          "price_cold": 25,
+          "price_hot": 25,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_A0KMNqwD.jpg"
+        },
+        {
+          "name": "烏龍綠茶 960cc",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_j16ogLJT.jpg"
+        }
+      ]
+    },
+    {
+      "category": "手工熬",
+      "items": [
+        {
+          "name": "黑糖粉圓鮮奶    500cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_80CW5jVM.jpg"
+        },
+        {
+          "name": "黑糖粉圓鮮奶    700cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_BRMl78Tm.jpg"
+        },
+        {
+          "name": "嫩仙草凍鮮奶    500cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_c9tTVGSO.jpg"
+        },
+        {
+          "name": "嫩仙草凍鮮奶    700cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_S30kE4uZ.jpg"
+        }
+      ]
+    },
+    {
+      "category": "濃醇香",
+      "items": [
+        {
+          "name": "鮮奶紅茶 700cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_YsE8xaMp.jpg"
+        },
+        {
+          "name": "鮮奶紅茶 960cc",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_WehiK4DF.jpg"
+        },
+        {
+          "name": "鮮奶綠茶 700cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_LtxolDh2.jpg"
+        },
+        {
+          "name": "鮮奶綠茶 960cc",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_mViX0lRM.jpg"
+        },
+        {
+          "name": "鮮奶烏龍茶 700cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_cAOgr2F8.jpg"
+        },
+        {
+          "name": "鮮奶烏龍茶 960cc",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_ZR79q3tH.jpg"
+        },
+        {
+          "name": "鮮奶青茶 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_QKjgvCnk.jpg"
+        },
+        {
+          "name": "鮮奶青茶 960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_aHPTLe1r.jpg"
+        },
+        {
+          "name": "鮮奶烤茶 700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_9mQzdepD.jpg"
+        },
+        {
+          "name": "鮮奶烤茶 960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_7hlpCOar.jpg"
+        },
+        {
+          "name": "鮮奶半熟紅茶    700cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_IE8QY1Xc.jpg"
+        },
+        {
+          "name": "鮮奶半熟紅茶    960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_ruVjNE1A.jpg"
+        },
+        {
+          "name": "鮮奶仙草茶 700cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_rTy0CRX2.jpg"
+        },
+        {
+          "name": "鮮奶仙草茶 960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_QE3G4Lmy.jpg"
+        },
+        {
+          "name": "黑糖古早紅拿鐵    700cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_iTgeAmHw.jpg"
+        },
+        {
+          "name": "黑糖古早紅拿鐵    960cc",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_PR3L4cGz.jpg"
+        },
+        {
+          "name": "黑糖半熟紅拿鐵    700cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_flxDIHVQ.jpg"
+        },
+        {
+          "name": "黑糖半熟紅拿鐵    960cc",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_OKUEsX8y.jpg"
+        },
+        {
+          "name": "黑糖烏龍拿鐵    700cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_dK0C2RBc.jpg"
+        },
+        {
+          "name": "黑糖烏龍拿鐵    960cc",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_Q5uBnEvG.jpg"
+        }
+      ]
+    },
+    {
+      "category": "古早昔",
+      "items": [
+        {
+          "name": "冬瓜茶 700cc",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_vMgBe6iz.jpg"
+        },
+        {
+          "name": "冬瓜茶 960cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_hjGP7Jnx.jpg"
+        },
+        {
+          "name": "冬瓜青茶 700cc",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_gwyRWG2u.jpg"
+        },
+        {
+          "name": "冬瓜青茶 960cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_oYLWd3v9.jpg"
+        },
+        {
+          "name": "冬瓜檸檬 700cc",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_ZxwVk7zX.jpg"
+        },
+        {
+          "name": "冬瓜檸檬 960cc",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_ADKtGjyH.jpg"
+        },
+        {
+          "name": "冬瓜鮮奶 700cc",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_Scud70Jk.jpg"
+        },
+        {
+          "name": "冬瓜鮮奶 960cc",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_rY9mOiMn.jpg"
+        },
+        {
+          "name": "冬瓜仙草茶 700cc",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c0322_ljywhZ0V.jpg"
+        },
+        {
+          "name": "冬瓜仙草茶 960cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_wPAXac7e.jpg"
+        },
+        {
+          "name": "仙草茶 700cc",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_Eu0FfNDL.jpg"
+        },
+        {
+          "name": "仙草茶 960cc",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_ea5TzwCu.jpg"
+        },
+        {
+          "name": "嫩仙草凍茶飲    700cc",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_4ORtYsup.jpg"
+        },
+        {
+          "name": "嫩仙草凍茶飲    960cc",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/599/S24046_689c035f_dcuRkhqA.jpg"
+        }
+      ]
+    }
+  ]
+}

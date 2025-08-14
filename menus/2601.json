@@ -1,0 +1,298 @@
+{
+  "store_id": 2601,
+  "store_name": "忠孝復興店",
+  "brand_code": "hugdayday",
+  "brand_name": "Hugdayday 好爹爹烈奶茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "純萃單品茶-L",
+      "items": [
+        {
+          "name": "金麥文火烏龍",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬芽一芯",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "三窨春露",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "蜜香紅烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "清香茶王",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "高原春摘紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "百花淡麗紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "好爹爹烈奶茶(杯裝) M/L",
+      "items": [
+        {
+          "name": "仲夏．紅韻(茶底-紅茶)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芋泥茉香鮮奶綠（L）",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "三窨．花茶(茶底-綠茶)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "冷香．冬片(茶底-冬茶)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "秋分．焙香(茶底-烏龍茶)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜜香紅烏龍歐蕾",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "70%可可巧克力鮮乳(M/L)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "無咖啡因飲品",
+      "items": [
+        {
+          "name": "我的娘超濃酪梨牛奶(甜度.冰塊固定)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "晨曦甘露(楊枝甘露)冰沙，冰度甜度固定",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "我的娘超濃酪梨牛奶(甜度.冰塊固定)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "大甲芋頭牛奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "晨曦甘露(楊枝甘露)冰沙，冰度甜度固定",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "冬瓜鮮乳(固定微糖)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬蜜萃露(固定微糖)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "冬瓜青檸檬(固定微糖)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "甘蔗檸檬汁（固定微糖）",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "蜂蜜檸檬汁（固定微糖）",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "紅心芭樂檸檬汁",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "鮮果好爹爹-L",
+      "items": [
+        {
+          "name": "冬露青檸紅茶",
+          "description": "無糖是冬瓜微糖甜度",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜檸檬紅茶",
+          "description": "無糖是蜂蜜微糖甜度",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "桃韻烏香(固定微糖微冰)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "有機蘋果蜜香紅茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "巨峰葡香冬片(固定微糖微冰)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "白甘蔗香冬片茶（固定甘蔗微糖）",
+          "description": "固定甘蔗微糖",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬瓜露冬片茶（固定微糖）",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "粉柚烏龍冰茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "青檸香焙烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "橙香重焙烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "柳橙三窨春綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "檸香芭樂綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "經典美味比例",
+      "items": [
+        {
+          "name": "好爹爹招牌特調奶茶(M/L)-固定微糖. 微冰",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "經典珍珠奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜜香紅烏奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "高原春摘紅奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "深焙烏龍奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "三窨春綠奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "70%濃可可(M/L)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "store_id": 20601,
+  "store_name": "東門店",
+  "brand_code": "fruitpigtea",
+  "brand_name": "來杯果豬。茶研所 Fruitpig Tea Lab",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "嚴選台灣原葉茶Tea",
+      "items": [
+        {
+          "name": "甘萃四季青茶 L",
+          "description": "清香甘甜，帶有梔子花香 \r\n茶葉經ＳＧＳ檢驗合格，無糖不澀口，品嚐純粹茶香",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "蜜香小葉紅茶 L",
+          "description": "茶體輕盈，茶香飛揚，自帶甘味蜜香 \r\n茶葉經ＳＧＳ檢驗合格，無糖不澀口，品嚐純粹茶香",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "日月紅玉紅茶 L",
+          "description": "茶體濃郁，帶有木質、肉桂、薄荷香 \r\n茶葉經ＳＧＳ檢驗合格，無糖不澀口，品嚐純粹茶香",
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "米克斯飲品Mixed Drink",
+      "items": [
+        {
+          "name": "桑椹檸檬青茶 L",
+          "description": "小農桑椹果泥＋檸檬＋四季青",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "蜂蜜柳丁青茶 Ｌ",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "百香珍果雙Ｑ青茶 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "韓國柚子醬青茶 L",
+          "description": "固定甜度",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冬瓜四季青 L",
+          "description": "固定甜度",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶系列Fresh Milk Tea",
+      "items": [
+        {
+          "name": "珍珠紅玉鮮奶茶 L",
+          "description": "換料：仙草/茶凍",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "雙寶鮮奶茶 L",
+          "description": "珍珠、仙草、茶凍3選2",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "蜂蜜珍珠鮮奶茶 L",
+          "description": "固定甜度",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "日月紅玉厚鮮乳 L",
+          "description": "鮮奶茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "日月紅玉厚鮮乳 M",
+          "description": "鮮奶茶",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜜香小葉厚鮮乳 L",
+          "description": "鮮奶茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "蜜香小葉厚鮮乳 M",
+          "description": "鮮奶茶",
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "醇香奶茶系列Milk Tea",
+      "items": [
+        {
+          "name": "珍珠小葉奶茶 L",
+          "description": "可換：仙草/茶凍",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "雙寶奶茶 L",
+          "description": "珍珠、仙草、茶凍3選2",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜜香小葉奶茶 L",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "蜜香小葉奶茶 M",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "日月紅玉奶茶 L",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "日月紅玉奶茶 M",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "果豬冰沙Fruit Smoothie",
+      "items": [
+        {
+          "name": "金桔百香果冰沙 L",
+          "description": "固定甜度",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "檸檬煉乳冰沙 L",
+          "description": "固定甜度",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "鮮乳飲品Fresh Milk",
+      "items": [
+        {
+          "name": "木瓜小農鮮乳 L",
+          "description": "果豬與牛奶-水果系列",
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "香蕉蜂蜜鮮乳 L",
+          "description": "固定甜度 \r\n果豬與牛奶-水果系列",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "珍珠黑糖鮮乳 M",
+          "description": "固定甜度 , 可換：仙草/茶凍\r\n果豬小時後-懷舊系列",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "早睡豬寶寶Decaf Drink",
+      "items": [
+        {
+          "name": "黃金蕎麥茶 L",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "桑椹醋蘆薈 L",
+          "description": "固定甜度\r\n小農桑椹果泥、果醋",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "酸甜紅葡萄果醋 M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "酸甜紅葡萄果醋蘆薈 M",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "黑糖冬瓜仙草蜜 L",
+          "description": "固定甜度",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "黑糖冬瓜珍珠 L",
+          "description": "固定甜度",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "黑糖冬瓜檸檬 L",
+          "description": "固定甜度\r\n檸檬可換：百香/金桔",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "黑糖冬瓜茶 L",
+          "description": "固定甜度",
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "就是果豬Juice",
+      "items": [
+        {
+          "name": "蜂蜜金桔 L",
+          "description": "100%天然原汁",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜檸檬  L",
+          "description": "100%天然原汁",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "蜂蜜檸檬蘆薈 L",
+          "description": "100%天然原汁",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "store_id": 24028,
+  "store_name": "COFFEE MOON",
+  "brand_code": "coffeemoon",
+  "brand_name": "咖啡月",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "MOON ESPRESSO",
+      "items": [
+        {
+          "name": "精品美式",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "美式咖啡",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "滿月特調（含奶精）",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "卡布奇諾",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "精品拿鐵",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "拿鐵咖啡",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "輕拿鐵咖啡",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        }
+      ]
+    },
+    {
+      "category": "FRUITS ESPRESSO",
+      "items": [
+        {
+          "name": "芒果美式（冰沙）",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "芭樂咖啡",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "柑橘咖啡",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "蜜桃美式",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "西瓜美式",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        }
+      ]
+    },
+    {
+      "category": "FLAVORED ESPRESSO",
+      "items": [
+        {
+          "name": "香草拿鐵",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "焦糖瑪奇朵",
+          "description": null,
+          "price_cold": 105,
+          "price_hot": 105
+        },
+        {
+          "name": "焦糖海鹽拿鐵",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "摩卡咖啡",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "黑糖拿鐵",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "蜂蜜肉桂拿鐵",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "芝麻拿鐵",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        }
+      ]
+    },
+    {
+      "category": "SINGLE ORIGIN",
+      "items": [
+        {
+          "name": "手沖-巴西 喜拉朵波旁&卡杜艾 布朗尼",
+          "description": null,
+          "price_cold": 220,
+          "price_hot": 220
+        },
+        {
+          "name": "冷萃",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "手沖-衣索比亞 耶加雪菲 露露 74112&74110",
+          "description": null,
+          "price_cold": 180,
+          "price_hot": 180
+        },
+        {
+          "name": "手沖-哥斯大黎加 布蘭卡 奇異波美景莊園",
+          "description": null,
+          "price_cold": 220,
+          "price_hot": 220
+        }
+      ]
+    },
+    {
+      "category": "NON-COFFEE",
+      "items": [
+        {
+          "name": "英式紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "紅莓果茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "香甜蜜桃茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "肉桂香蘋茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "國寶茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "鍋煮奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "紅茶生乳拿鐵",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "蘋果醋",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "歐蕾系列",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "FOOD",
+      "items": [
+        {
+          "name": "香橙肉桂捲",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "杏仁可頌",
+          "description": null,
+          "price_cold": 125,
+          "price_hot": 125
+        },
+        {
+          "name": "巧克力可頌",
+          "description": null,
+          "price_cold": 100,
+          "price_hot": 100
+        },
+        {
+          "name": "番茄起司巧巴達",
+          "description": null,
+          "price_cold": 110,
+          "price_hot": 110
+        }
+      ]
+    }
+  ]
+}

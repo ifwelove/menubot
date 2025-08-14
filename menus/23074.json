@@ -1,0 +1,202 @@
+{
+  "store_id": 23074,
+  "store_name": "台北信義店",
+  "brand_code": "somilk",
+  "brand_name": "壽奶茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "注意事項",
+      "items": [
+        {
+          "name": "為確保最佳飲用品質，建議1小時內飲用完畢",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "環保杯不適用外送",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "奶蓋商品本身已有奶蓋，?確保飲品最佳享用比例數，恕無法添加兩份奶蓋",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "為運送安全，奶蓋商品杯口皆改為封膜出餐",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "珍珠皆為小珍珠",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "為保護飲料外送安全，請務必加購塑膠袋",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        }
+      ]
+    },
+    {
+      "category": "原創產品",
+      "items": [
+        {
+          "name": "髒髒芝士奶蓋可可",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "髒髒芝士奶蓋抹茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "1.0 鐵觀音芝士奶蓋麵茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "2.0 鐵觀音芝士奶蓋麵茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "咖啡芝士奶蓋麵茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "鮮奶類",
+      "items": [
+        {
+          "name": "黑糖錫蘭鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鐵觀音鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "半熟烤茶鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "黑糖純鮮奶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "抹茶鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "泰式奶紅",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "昭和焙茶鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "貴妃普洱鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "手採溫焙青鮮奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "純茶類",
+      "items": [
+        {
+          "name": "特級紅烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "純正老鐵觀音",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "（單茶）半熟烤茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "金萱",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "加購塑膠袋",
+      "items": [
+        {
+          "name": "一杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "兩杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "四杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "六杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    }
+  ]
+}

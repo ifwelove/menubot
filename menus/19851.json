@@ -1,0 +1,219 @@
+{
+  "store_id": 19851,
+  "store_name": "臺北古亭店",
+  "brand_code": "shisheng",
+  "brand_name": "十盛奶茶專賣",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "茶花系列新上市 NEW ARRIVAL",
+      "items": [
+        {
+          "name": "茶花烤糖脆奶霜",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_685a510e_E9QCcwyG.png"
+        },
+        {
+          "name": "茶花奶烏",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_685a50e7_PNu470cx.png"
+        },
+        {
+          "name": "茶花蜜桃冰茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_685a5103_IWG0SA1C.png"
+        },
+        {
+          "name": "茶花紅烏",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_685a50f6_E8muGnjd.png"
+        }
+      ]
+    },
+    {
+      "category": "燕麥米麻糬  MOCHI & OAT GROATS",
+      "items": [
+        {
+          "name": "濃煮米麻糬",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_675a69a0_5F2xC1lV.png"
+        },
+        {
+          "name": "抹茶米麻糬",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_675a69d1_qpMsmVWx.png"
+        },
+        {
+          "name": "焙茶米麻糬",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_675a69ea_2VHwFUDy.png"
+        }
+      ]
+    },
+    {
+      "category": "特賞奶茶 PREMIUM MILK TEA",
+      "items": [
+        {
+          "name": "極濃鍋煮",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_6694d87b_diEtcpwP.png"
+        },
+        {
+          "name": "冬焙蕎麥",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_666ad5d2_SWZvPwDA.png"
+        },
+        {
+          "name": "馥桂奶烏",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_6751758a_8XCDWaP6.png"
+        },
+        {
+          "name": "伯爵康提",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_666ad571_pC1mf7ZJ.png"
+        },
+        {
+          "name": "馥鐵觀音",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_66cd7a76_dN6lhHes.png"
+        }
+      ]
+    },
+    {
+      "category": "烤糖脆奶霜 TORCHED CREAM",
+      "items": [
+        {
+          "name": "抹茶玉露脆奶霜",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_67dd3bcb_JTQt3e6Y.png"
+        },
+        {
+          "name": "焙茶烏龍脆奶霜",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_67dd3b8e_BaGt95fr.png"
+        },
+        {
+          "name": "十盛蕎麥脆奶霜",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_67dd3c04_MCGcg7Av.png"
+        },
+        {
+          "name": "琥珀紅玉脆奶霜",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_67dd3be7_wXntPgfY.png"
+        }
+      ]
+    },
+    {
+      "category": "極萃醇茶 PRIME TEA",
+      "items": [
+        {
+          "name": "十盛蕎麥",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_666ad69a_elnc0Som.png"
+        },
+        {
+          "name": "馥桂烏龍",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_675175a3_59KUkEh0.png"
+        },
+        {
+          "name": "琥珀紅玉",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_666ad6b5_BZwHUjM8.png"
+        },
+        {
+          "name": "玉露香片",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_666ad6ec_TVKuZzO9.png"
+        }
+      ]
+    },
+    {
+      "category": "日曬果茶 FRUIT TEA",
+      "items": [
+        {
+          "name": "馥桂紅柚冰茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_6751760e_rkE0Pgw3.png"
+        },
+        {
+          "name": "荔枝蕎麥冰茶",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_6751762c_0GKW8lMZ.png"
+        },
+        {
+          "name": "鳳梨蕎麥冰茶",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_666ad7d0_hilAqKsR.png"
+        }
+      ]
+    },
+    {
+      "category": "提袋與周邊商品 BAG & PRODUCT",
+      "items": [
+        {
+          "name": "ESTHER BUNNY 聯名限定提袋",
+          "description": null,
+          "price_cold": 19,
+          "price_hot": 19,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_67dd4bb9_LHlx5Zzh.png"
+        },
+        {
+          "name": "一般塑膠提袋 PLASTIC BAG",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2325/b2325_667ed745_Q51YHI2r.png"
+        }
+      ]
+    }
+  ]
+}

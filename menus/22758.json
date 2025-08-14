@@ -1,0 +1,449 @@
+{
+  "store_id": 22758,
+  "store_name": "公館總店",
+  "brand_code": "onemillion",
+  "brand_name": "One Million",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "茗茶",
+      "items": [
+        {
+          "name": "琥珀紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d43950_Lb2CSurP.jpg"
+        },
+        {
+          "name": "光芯茉綠",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de7227_4lkrA8Ee.jpg"
+        },
+        {
+          "name": "高山焙烏龍",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de7255_4mkaUQwf.jpg"
+        },
+        {
+          "name": "玄米蕎麥茶(無咖啡因)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de7271_UlvIHiwy.jpg"
+        },
+        {
+          "name": "桂花輕烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d43c5d_gtyi9cbn.jpg"
+        },
+        {
+          "name": "蜜香啤花綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de72c3_ymLugPNf.jpg"
+        },
+        {
+          "name": "黃金蕎麥綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d43d01_5zD6S9Km.jpg"
+        }
+      ]
+    },
+    {
+      "category": "醇奶茶",
+      "items": [
+        {
+          "name": "薰衣草奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d44098_4FHi3Vcf.jpg"
+        },
+        {
+          "name": "光煥茉奶綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d441b2_Rg9iUeN5.jpg"
+        },
+        {
+          "name": "高山焙烏龍奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d44230_J92FQIDt.jpg"
+        },
+        {
+          "name": "桂花輕烏龍奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d442ab_4Ja3Mmin.jpg"
+        },
+        {
+          "name": "蜜香啤花奶綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d44317_Mmbt0QAW.jpg"
+        },
+        {
+          "name": "黃金蕎麥奶綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d4438f_FLUhoC62.jpg"
+        },
+        {
+          "name": "草莓果粒奶綠",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67f4d368_QuYH8Ryt.jpg"
+        },
+        {
+          "name": "芒果凍茉奶綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "烏金凍可可奶霜",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "鮮歐蕾",
+      "items": [
+        {
+          "name": "薰衣草歐蕾 L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d443eb_j2B4NDrY.jpg"
+        },
+        {
+          "name": "薰衣草歐蕾 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67ed3ff0_kG8ldn5Q.jpg"
+        },
+        {
+          "name": "光芯茉綠歐蕾 L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de732a_QRGgryhd.jpg"
+        },
+        {
+          "name": "光芯茉綠歐蕾 M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de7350_epHKQDlO.jpg"
+        },
+        {
+          "name": "高山焙烏龍歐蕾 L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de7381_hrQsfadE.jpg"
+        },
+        {
+          "name": "高山焙烏龍歐蕾 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de73b2_BPNy37qw.jpg"
+        },
+        {
+          "name": "玄米蕎麥歐蕾(無咖啡因) L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de73ee_IQv73oLZ.jpg"
+        },
+        {
+          "name": "玄米蕎麥歐蕾(無咖啡因) M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de7420_f9zysKJm.jpg"
+        },
+        {
+          "name": "桂花輕烏龍歐蕾 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d4444b_QvIt4eon.jpg"
+        },
+        {
+          "name": "桂花輕烏龍歐蕾 M",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de745d_okJ3EBWZ.jpg"
+        },
+        {
+          "name": "蜜香啤花綠歐蕾 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de74c7_XRTrmu5Z.jpg"
+        },
+        {
+          "name": "蜜香啤花綠歐蕾 M",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de74e3_XA7irThM.jpg"
+        },
+        {
+          "name": "黃金蕎麥綠歐蕾 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de7564_QoPAlZ3J.jpg"
+        },
+        {
+          "name": "黃金蕎麥綠歐蕾 M",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de759e_Mi1bR7tB.jpg"
+        },
+        {
+          "name": "比利時可可歐蕾 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de761a_GoFPa947.jpg"
+        },
+        {
+          "name": "比利時可可歐蕾 M",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de793e_QledB3Uk.jpg"
+        },
+        {
+          "name": "特上伊勢抹茶歐蕾 L",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d44483_uv7HgcQR.jpg"
+        },
+        {
+          "name": "特上伊勢抹茶歐蕾 M",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d444e4_jzJi1HGY.jpg"
+        },
+        {
+          "name": "草莓抹茶歐蕾(M)",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67f4d340_oGvQsXDj.jpg"
+        },
+        {
+          "name": "草莓可可歐蕾(M)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67f4d32b_f0MCeK1k.jpg"
+        }
+      ]
+    },
+    {
+      "category": "水果茶",
+      "items": [
+        {
+          "name": "荔枝琥珀紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d43d5b_LMbRw96X.jpg"
+        },
+        {
+          "name": "芒果光芯茉綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d43d84_YtfhQ5AI.jpg"
+        },
+        {
+          "name": "桑椹高山焙烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67d43db8_JNhC7x0o.jpg"
+        },
+        {
+          "name": "蜜桃高山焙烏龍",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67de72e9_CuIrkEPA.jpg"
+        },
+        {
+          "name": "草莓果粒綠茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_67f4d4a3_HdtqLej0.jpg"
+        }
+      ]
+    },
+    {
+      "category": "瓶裝花茶",
+      "items": [
+        {
+          "name": "極光花瓣",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "量子菊元 L",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "全息紫境 L",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "金萱烏龍茶(冷泡)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "洋甘菊柚綠(冷泡)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "琥珀莊園紅茶(冷泡)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "彩虹調味乳",
+      "items": [
+        {
+          "name": "草莓牛奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "香蕉牛奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "哈密瓜牛奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "棉花糖牛奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "薰衣草牛奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "咖啡牛奶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "品牌保溫杯",
+      "items": [
+        {
+          "name": "曜夜黑-MIDNIGHT BLACK",
+          "description": "購買品牌保溫杯即贈茗茶系列15杯兌換卡\r\n(兌換期限2個月)",
+          "price_cold": 680,
+          "price_hot": 680,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_683680c2_D4kf5At2.jpg"
+        },
+        {
+          "name": "月光白-LUNAR WHITE",
+          "description": "購買品牌保溫杯即贈茗茶系列15杯兌換卡\r\n(兌換期限2個月)",
+          "price_cold": 680,
+          "price_hot": 680,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_683680a9_e4oOD0hM.jpg"
+        },
+        {
+          "name": "深靛藍-NAVY BLUE",
+          "description": "購買品牌保溫杯即贈茗茶系列15杯兌換卡\r\n(兌換期限2個月)",
+          "price_cold": 680,
+          "price_hot": 680,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_683680e0_O8RIVt7M.jpg"
+        },
+        {
+          "name": "潮霧粉-BLUSH CODE",
+          "description": "購買品牌保溫杯即贈茗茶系列15杯兌換卡\r\n(兌換期限2個月)",
+          "price_cold": 680,
+          "price_hot": 680,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_683680f6_C3kRdl6M.jpg"
+        },
+        {
+          "name": "晴空藍-SKY BLUE",
+          "description": "購買品牌保溫杯即贈茗茶系列15杯兌換卡\r\n(兌換期限2個月)",
+          "price_cold": 680,
+          "price_hot": 680,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_6836810c_VhPnEI3M.jpg"
+        },
+        {
+          "name": "靜謐綠-SAGE GREEN",
+          "description": "購買品牌保溫杯即贈茗茶系列15杯兌換卡\r\n(兌換期限2個月)",
+          "price_cold": 680,
+          "price_hot": 680,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2886/b2886_6836812c_YwQkgXjN.jpg"
+        },
+        {
+          "name": "購買品牌保溫杯即贈茗茶兌換卡（15杯）",
+          "description": "兌換期限2個月",
+          "price_cold": 0,
+          "price_hot": 0
+        }
+      ]
+    }
+  ]
+}

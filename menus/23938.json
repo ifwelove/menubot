@@ -1,0 +1,297 @@
+{
+  "store_id": 23938,
+  "store_name": "伊通店",
+  "brand_code": "sixrhymetea",
+  "brand_name": "六韻茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "韻香醇茶",
+      "items": [
+        {
+          "name": "花烏龍",
+          "description": "塑膠袋",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f21c6_GC6KvOBh.png"
+        },
+        {
+          "name": "春烏龍",
+          "description": "塑膠袋",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f21ce_bE2UIwsW.png"
+        },
+        {
+          "name": "玫烏龍",
+          "description": "塑膠袋",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f21d7_KQkFNyhX.png"
+        },
+        {
+          "name": "蜜烏龍",
+          "description": "塑膠袋",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f21df_xJ9bfTvg.png"
+        },
+        {
+          "name": "金芽紅",
+          "description": "塑膠袋",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f220f_P4W5OsQD.png"
+        },
+        {
+          "name": "翡翠綠",
+          "description": "塑膠袋",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f221b_k9KIecTb.png"
+        }
+      ]
+    },
+    {
+      "category": "柔韻無茶",
+      "items": [
+        {
+          "name": "蕎麥茶",
+          "description": "塑膠袋",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f22be_mezQ4I2O.png"
+        },
+        {
+          "name": "蕎麥鮮奶茶",
+          "description": "塑膠袋",
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f1f29_UcNp5ohm.png"
+        },
+        {
+          "name": "朵朵蕎麥茶",
+          "description": "塑膠袋",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2547_eCDlEf4U.png"
+        },
+        {
+          "name": "蜂蜜檸檬",
+          "description": "塑膠袋",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f22c9_9T6Bj2xt.png"
+        },
+        {
+          "name": "柳橙蜂蜜粉角",
+          "description": "塑膠袋",
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f1fcc_h0Kkl2NA.png"
+        },
+        {
+          "name": "蘋果葡萄QQ",
+          "description": "塑膠袋",
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f22d5_LnDXMQwY.png"
+        }
+      ]
+    },
+    {
+      "category": "韻乳輕香",
+      "items": [
+        {
+          "name": "蜜烏龍蕎麥凍奶茶",
+          "description": "塑膠袋",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2395_uTHschX9.png"
+        },
+        {
+          "name": "伯爵珍珠奶茶",
+          "description": "塑膠袋",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2553_DCeGrQL7.png"
+        },
+        {
+          "name": "花烏龍奶茶",
+          "description": "塑膠袋",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2562_gu4bxPkh.png"
+        },
+        {
+          "name": "玫烏龍奶茶",
+          "description": "塑膠袋",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2576_UEBcmNwn.png"
+        }
+      ]
+    },
+    {
+      "category": "果韻茶香",
+      "items": [
+        {
+          "name": "青芭樂春烏龍",
+          "description": "塑膠袋",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2589_n94zyKLb.png"
+        },
+        {
+          "name": "巨峰葡萄花烏龍",
+          "description": "塑膠袋",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2590_EXpYT4Wg.png"
+        },
+        {
+          "name": "富士蘋果金芽紅",
+          "description": "塑膠袋",
+          "price_cold": 68,
+          "price_hot": 68,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f259b_PEhMAsjU.png"
+        },
+        {
+          "name": "柳丁翡翠",
+          "description": "塑膠袋",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f25a5_Ln86jxmy.png"
+        },
+        {
+          "name": "柳丁春烏龍",
+          "description": "塑膠袋",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f25ad_Dl0XhENW.png"
+        },
+        {
+          "name": "蜂蜜蜜烏龍",
+          "description": "塑膠袋",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f261f_JfyI5YDx.png"
+        }
+      ]
+    },
+    {
+      "category": "朵朵奶蓋",
+      "items": [
+        {
+          "name": "朵朵金芽紅",
+          "description": "塑膠袋",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2645_ofDpZsM0.png"
+        },
+        {
+          "name": "朵朵花烏龍",
+          "description": "塑膠袋",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2870_zITlRXWp.png"
+        },
+        {
+          "name": "朵朵蜜烏龍",
+          "description": "塑膠袋",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2867_ofDzhQLp.png"
+        },
+        {
+          "name": "朵朵雙Q玫烏龍",
+          "description": "塑膠袋",
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2854_EtfLmy97.png"
+        }
+      ]
+    },
+    {
+      "category": "輕奶韻茗",
+      "items": [
+        {
+          "name": "粉角花烏龍鮮奶茶",
+          "description": "塑膠袋",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f284b_UiTXvYZ7.png"
+        },
+        {
+          "name": "蜜烏龍鮮奶茶",
+          "description": "塑膠袋",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f283d_TRpOvSNr.png"
+        },
+        {
+          "name": "玫烏龍鮮奶茶",
+          "description": "塑膠袋",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2834_2sOUEmbt.png"
+        },
+        {
+          "name": "伯爵珍珠鮮奶茶",
+          "description": "塑膠袋",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2828_BnoPy0rI.png"
+        }
+      ]
+    },
+    {
+      "category": "季節限定",
+      "items": [
+        {
+          "name": "西瓜玫烏龍",
+          "description": "塑膠袋",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_686f2817_KqVeAM1t.png"
+        },
+        {
+          "name": "蜜桃玫烏龍",
+          "description": "塑膠袋",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3118/b3118_689956b0_ckDXzbw9.png"
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "1杯袋",
+          "description": "塑膠袋",
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "2杯袋",
+          "description": "塑膠袋",
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "4杯袋",
+          "description": "塑膠袋",
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "6杯袋",
+          "description": "塑膠袋",
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

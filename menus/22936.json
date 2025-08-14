@@ -1,0 +1,403 @@
+{
+  "store_id": 22936,
+  "store_name": "內湖店",
+  "brand_code": "skyline",
+  "brand_name": "嵐天",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "嵐韻茗品",
+      "items": [
+        {
+          "name": "嵐天穀麥茶",
+          "description": "季節限定",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f2471c_BJqcLwNC.jpg"
+        },
+        {
+          "name": "五窨茉綠",
+          "description": "季節限定",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f2536d_s5YnIGeJ.jpg"
+        },
+        {
+          "name": "蜜香紅韻",
+          "description": "季節限定",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f25383_WGDLTk0Y.jpg"
+        },
+        {
+          "name": "四季春",
+          "description": "季節限定",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f254a4_NmWsO1Mp.jpg"
+        },
+        {
+          "name": "茶花紅烏龍",
+          "description": "季節限定",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f254b9_sBojLaYh.jpg"
+        },
+        {
+          "name": "培香烏龍",
+          "description": "季節限定",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f254d1_uw4ktQA2.jpg"
+        }
+      ]
+    },
+    {
+      "category": "雲頂奶蓋",
+      "items": [
+        {
+          "name": "嵐天穀麥奶蓋",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f5144c_mQLF4eyV.jpg"
+        },
+        {
+          "name": "五窨茉綠奶蓋",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f5145f_TX8xVi7L.jpg"
+        },
+        {
+          "name": "蜜香紅韻奶蓋",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51471_luTXeqIR.jpg"
+        },
+        {
+          "name": "四季春奶蓋",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51482_cD9KRfFC.jpg"
+        },
+        {
+          "name": "茶花紅烏龍奶蓋",
+          "description": "季節限定",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f5149b_PBe3Os0x.jpg"
+        },
+        {
+          "name": "培香烏龍奶蓋",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f514b3_ItYBemyX.jpg"
+        }
+      ]
+    },
+    {
+      "category": "嵐牧純乳",
+      "items": [
+        {
+          "name": "煮濃紅茶鮮乳",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f514df_mRuHGZ0d.jpg"
+        },
+        {
+          "name": "培香烏龍鮮乳",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f514f0_1IThdE2s.jpg"
+        },
+        {
+          "name": "大甲芋頭鮮乳",
+          "description": "季節限定",
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51501_U5J9vsFo.jpg"
+        },
+        {
+          "name": "嵐天穀麥鮮奶",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51510_geajuBcW.jpg"
+        },
+        {
+          "name": "五窨沫香鮮乳",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51523_BgtYkRfx.jpg"
+        },
+        {
+          "name": "沖繩雪鹽紅茶厚奶",
+          "description": "季節限定",
+          "price_cold": 79,
+          "price_hot": 79,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51533_PhItGOav.jpg"
+        },
+        {
+          "name": "手作珍珠紅茶鮮乳",
+          "description": "季節限定",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51546_MbZ0wTnV.jpg"
+        }
+      ]
+    },
+    {
+      "category": "匠人特調",
+      "items": [
+        {
+          "name": "紫蘇檸檬國寶茶",
+          "description": "季節限定",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51566_aFfXhL02.jpg"
+        },
+        {
+          "name": "純冬瓜茶",
+          "description": "季節限定",
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51575_2zY3gLnl.jpg"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": "季節限定",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51586_lWnUyiwd.jpg"
+        },
+        {
+          "name": "蜂蜜水",
+          "description": "季節限定",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51598_MldQ81LR.jpg"
+        },
+        {
+          "name": "蜂蜜檸檬",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f515a9_tWzushbp.jpg"
+        }
+      ]
+    },
+    {
+      "category": "果韻茶語",
+      "items": [
+        {
+          "name": "蜜桃果果綠",
+          "description": "季節限定",
+          "price_cold": 79,
+          "price_hot": 79,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f515bd_dWPZfqmA.jpg"
+        },
+        {
+          "name": "柳丁綠果果",
+          "description": "季節限定",
+          "price_cold": 79,
+          "price_hot": 79,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f515cd_ki03vNte.jpg"
+        },
+        {
+          "name": "紅柚果粒茶",
+          "description": "季節限定",
+          "price_cold": 79,
+          "price_hot": 79,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f515df_lCSzE8fk.jpg"
+        },
+        {
+          "name": "白甘蔗冰茶",
+          "description": "季節限定",
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f515f3_6ZQ85bmh.jpg"
+        },
+        {
+          "name": "翡翠檸檬",
+          "description": "季節限定",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51609_QkCmAEeG.jpg"
+        },
+        {
+          "name": "蜂蜜檸檬脆啵啵",
+          "description": "季節限定",
+          "price_cold": 79,
+          "price_hot": 79,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51664_u3UGI1Ye.jpg"
+        }
+      ]
+    },
+    {
+      "category": "養樂多",
+      "items": [
+        {
+          "name": "養樂多綠茶",
+          "description": "季節限定",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51674_wLsNB7rX.jpg"
+        },
+        {
+          "name": "檸檬多多",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51688_5tL0YBI1.jpg"
+        },
+        {
+          "name": "蜜桃翡翠多多",
+          "description": "季節限定",
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51710_nBkfIwj9.jpg"
+        },
+        {
+          "name": "柳丁果粒多多",
+          "description": "季節限定",
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51721_HcY5Bwqx.jpg"
+        },
+        {
+          "name": "紅柚果粒多多",
+          "description": "季節限定",
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51701_97JjPT8F.jpg"
+        }
+      ]
+    },
+    {
+      "category": "野莓雲頂",
+      "items": [
+        {
+          "name": "穀麥野莓雲頂",
+          "description": "季節限定",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "茉綠野莓雲頂",
+          "description": "季節限定",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅韻野莓雲頂",
+          "description": "季節限定",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "四季野莓雲頂",
+          "description": "季節限定",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅烏龍野莓雲頂",
+          "description": "季節限定",
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "嵐韻輕乳",
+      "items": [
+        {
+          "name": "茉綠輕乳",
+          "description": "季節限定",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "紅韻輕乳",
+          "description": "季節限定",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "四季輕乳",
+          "description": "季節限定",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "紅烏龍輕乳",
+          "description": "季節限定",
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "金夏很芒",
+      "items": [
+        {
+          "name": "半斤芒果冰沙",
+          "description": "季節限定",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "金芒茉綠",
+          "description": "季節限定",
+          "price_cold": 79,
+          "price_hot": 79
+        },
+        {
+          "name": "金芒雪沙",
+          "description": "季節限定",
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "楊枝甘露",
+          "description": "季節限定",
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "季節限定",
+      "items": [
+        {
+          "name": "綜合莓果綠",
+          "description": "季節限定",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51733_j1Iybs4Q.jpg"
+        },
+        {
+          "name": "莓果多多",
+          "description": "季節限定",
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51745_sdzRuiTQ.jpg"
+        },
+        {
+          "name": "梅果牛奶雪沙",
+          "description": "季節限定",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2914/b2914_67f51753_234yZ9bm.jpg"
+        }
+      ]
+    }
+  ]
+}

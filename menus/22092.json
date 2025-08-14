@@ -1,0 +1,107 @@
+{
+  "store_id": 22092,
+  "store_name": "台北信義店",
+  "brand_code": "hohodrinks",
+  "brand_name": "河河飲品",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "台灣原葉茶",
+      "items": [
+        {
+          "name": "日光金萱",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "輕焙金萱",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "熟焙金萱",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "炭焙紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "鮮果原葉茶",
+      "items": [
+        {
+          "name": "鮮檸檬金萱",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "鮮百香金萱",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "韓式柚子金萱",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "厚厚奶蓋茶",
+      "items": [
+        {
+          "name": "厚厚塩奶蓋茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "黑糖厚厚塩奶蓋茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "厚厚檸檬塔",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "烤焦糖布丁奶蓋金萱",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99
+        }
+      ]
+    },
+    {
+      "category": "河河茶鮮乳",
+      "items": [
+        {
+          "name": "單品茶鮮乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "原味茶鮮乳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    }
+  ]
+}

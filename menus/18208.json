@@ -1,0 +1,317 @@
+{
+  "store_id": 18208,
+  "store_name": "中山天母店",
+  "brand_code": "teabrown",
+  "brand_name": "茶與布朗",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "海しお鹽",
+      "items": [
+        {
+          "name": "薄鹽可可 大杯",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "鹽糖金萱梅 大杯",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "芭樂鹽式厚奶 大杯",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "蜜韻鹽式厚奶 大杯",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "青檸海鹽茶 大杯",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "茶心茶藝",
+      "items": [
+        {
+          "name": "斯里蘭卡紅茶",
+          "description": "蜜香紅茶，人工採摘最幼嫩的一心一葉細揉而成。具獨特果香，色澤烏褐，湯色紅亮，茶感醇厚代帶點蜜香，相較紅玉紅茶，斯里蘭卡紅茶略帶澀味但順口，不喜歡澀味的建議選取紅玉紅茶。\r\n總熱量為162.8Kcal總糖量為33.1G",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "花壇茉莉綠茶",
+          "description": "採用自彰化花壇鄉的茉莉花。以茶葉以及茉莉花通過窨製工法反覆窨製而成，茶湯清透，入口滑順，口感回甘且帶有茉莉花香。\r\n總熱量為180.9Kcal，總糖量為36.8G",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "鹿谷奶香金萱",
+          "description": "稱作「台茶12號」，茶香裡帶有淡淡奶香，茶湯色新煌透亮，甘潤順口，入口帶甜，讓人意猶未盡。\r\n總熱量為162.8Kcal，總糖量為33.1G",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "日月潭紅玉紅茶",
+          "description": "為茶與布朗人氣品項之一。又稱「台茶18號」，其富有多層次的香味，一個季節採收皆有不同香味，茶湯具有清甜蜜香入口後慢慢的回甘，是兼具香氣與甘美口感的好茶。\r\n總熱量為162.8Kcal，總糖量為33.1G",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "烏龍綠茶",
+          "description": "撲鼻的茉莉花香及甜感搭配厚重的碳焙味增加不同調性的茶感體驗，厚實又回甘~\r\n總熱量為163.8Kcal，總糖量為33.1G",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "金萱烏龍茶",
+          "description": "撲鼻的甜蜜奶香搭配厚重炭焙味增加有層次感的味蕾體驗，直得細細品嚐箇中滋味~\r\n總熱量為163.8Kcal，總糖量為33.1G",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "炭焙烏龍茶",
+          "description": "為最講究火候的茶種，茶色為深褐色，茶體透光明亮。待有厚重炭焙及龍眼乾香氣，入口後於舌根處慢慢帶出焦糖甜味回甘。\r\n總熱量為166.3Kcal，總糖量為33.1G",
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "我想喝奶茶",
+      "items": [
+        {
+          "name": "蜜韻厚奶茶",
+          "description": "為茶與布朗人氣品項之一。採用日本品質牛乳調製而成。\r\n總熱量為221.2Kcal，總糖量為41.1G",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "茉莉厚奶茶",
+          "description": "採用日本品質牛乳調製而成。\r\n搭配花壇鄉茉莉綠茶~\r\n帶有淡淡的茉莉花香如此的溫柔滑順~\r\n總熱量為257.4Kcal，總糖量為48.5G",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "金萱厚奶茶",
+          "description": "採用日本品質牛乳調製而成。\r\n茶香裡帶有淡淡奶香~\r\n有茶感間接提升奶感!\r\n總熱量為221.2Kcal，總糖量為41.1G",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅玉厚奶茶",
+          "description": "採用日本品質牛乳調製而成。\r\n紅玉山茶花入奶茶中,多了一股淡淡花香,別有一番風味!\r\n總熱量為221.2Kcal，總糖量為41.1G",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "黑糖珍珠鮮奶",
+          "description": "採用日本品質牛乳調製而成，淋上深邃甜味和微妙苦甘的黑糖，在放入現煮且擁有黃金溫度的Q彈珍珠，咀嚼的同時，也能感受到濃郁奶香黑糖風味。\r\n總熱量為479.5Kcal，總糖量為42.7G",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "炭焙烏龍厚奶",
+          "description": "厚重的烏龍茶體搭配日本履歷的鮮奶調製，呈現濃郁不膩口的驚喜口感，一定要試試看~\r\n總熱量為224.1Kcal，總糖量為41.1G",
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "像雲端啊啊啊",
+      "items": [
+        {
+          "name": "布朗尼厚奶茶",
+          "description": "為茶與布朗人氣品項之一。採用日本品質牛乳調製的鮮奶茶，搭配濃郁的可可奶蓋，怎麼喝都是布朗最愛～\r\n總熱量為359.1Kcal，總糖量為49.7G",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "布蕾厚奶茶",
+          "description": "採用日本品質牛乳調製的鮮奶茶，搭配清爽的布蕾奶蓋，喜歡布丁滋味的不可錯過～\r\n總熱量為390.6Kcal，總糖量為G44.1",
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "「果」然好喝",
+      "items": [
+        {
+          "name": "信義梅子綠茶",
+          "description": "為茶與布朗人氣品項之一。來自梅子之都 南投信義鄉的話梅，透過旋茶機快速萃取話梅精華，酸甜滋味從口中散開，清爽解渴。\r\n總熱量為219.9Kcal，總糖量為51.5G",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "員山紅芭樂金萱",
+          "description": "採用新鮮圓山紅芭樂園原汁與奶香金萱融合，建議以正常甜製作較能帶出芭樂韻味。\r\n總熱量為245.9Kcal，總糖量為46.9G",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "埔里百香綠茶",
+          "description": "採用埔里百香子與茉莉綠茶融合，建議以正常甜製作較能帶出百香果韻味。\r\n總熱量為282.5Kcal，總糖量為50.3G",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "心酸檸檬綠",
+          "description": "為茶與布朗人氣品項之一。採用新鮮檸檬原汁搭配茉莉綠茶，酸甜滋味中回甘的清爽感，喜歡檸檬的人可以試試～\r\n總熱量為267.8Kcal，總糖量為52.1G",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "舶來莓果飲",
+          "description": "來自歐洲的繽紛野莓果粒,內含有多種水果乾與莓果乾類,新氣與滋味誘人,讓人一口接一口~怕咖啡因攝取選我就對了~無咖啡因成分唷~\r\n總熱量為190.5Kcal，總糖量為36.8G",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "葡萄柚綠茶",
+          "description": "酸爽及微甜滋味的葡萄柚，搭配茉莉花香形成和諧搭配，同時富含維他命C喔～\r\n總熱量為260.7Kcal，總糖量為52.6G",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "梅C凍凍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "多多支持",
+      "items": [
+        {
+          "name": "紅芭樂多多",
+          "description": "採用新鮮圓山紅芭樂園原汁搭配3罐養樂多，甜度自行斟酌以免怕太甜~\r\n總熱量為348.5Kcal，總糖量為65.2G",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "百香果多多",
+          "description": "採用埔里百香子搭配3罐養樂多，甜度自行斟酌以免怕太甜~\r\n總熱量為379.1Kcal，總糖量為68.1G",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "檸檬多多",
+          "description": "採用新鮮檸檬原汁配3罐養樂多，甜度自行斟酌以免怕太甜~\r\n總熱量為339.1Kcal，總糖量為63.5G",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "綠茶多多",
+          "description": "採用茉莉綠茶搭配多多，大眾組合帶給您出眾口感，建議以半糖製作較能帶出口感。\r\n總熱量為288.7Kcal，總糖量為56.6G",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "葡萄柚多多",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "冬瓜小寶貝",
+      "items": [
+        {
+          "name": "冬瓜茶",
+          "description": "慢慢熬製的冬瓜茶湯，帶給你甜甜的古早味。\r\n總熱量為280Kcal，總糖量為61.6G",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "冬瓜鮮奶",
+          "description": "採用日本品質牛乳調製而成，搭配慢火熬製的冬瓜茶湯，帶有香醇甘甜的滋味。\r\n總熱量為271Kcal，總糖量為55.6G",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "九如檸檬冬瓜",
+          "description": "採用新鮮九如檸檬原汁搭配冬瓜磚慢慢熬製的冬瓜茶湯。\r\n總熱量為291Kcal，總糖量為62.1G",
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "柚見秋光",
+      "items": [
+        {
+          "name": "柚見清茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "一盞柚檸",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "雙柚果粒茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "柚意多多",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "布朗爆打檸檬",
+      "items": [
+        {
+          "name": "鹹檸檸檬茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "鹹檸金桔檸檬茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "加購",
+      "items": [
+        {
+          "name": "大袋 (4 至 8 杯)",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "小袋 (2 至 4 杯)",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    }
+  ]
+}

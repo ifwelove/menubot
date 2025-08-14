@@ -1,0 +1,582 @@
+{
+  "store_id": 24022,
+  "store_name": "淡水水碓店",
+  "brand_code": "sunbay",
+  "brand_name": "山焙",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "原萃系列",
+      "items": [
+        {
+          "name": "(H)山焙黑金",
+          "description": "深烤烏龍茶",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "(L)山焙黑金",
+          "description": "深烤烏龍茶",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "(H)墨赤紅茶",
+          "description": "深烤焦香紅茶",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(M)墨赤紅茶",
+          "description": "深烤焦香紅茶",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(L)墨赤紅茶",
+          "description": "深烤焦香紅茶",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "(H)赤龍紅茶",
+          "description": "蜜香紅茶",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(M)赤龍紅茶",
+          "description": "蜜香紅茶",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(L)赤龍紅茶",
+          "description": "蜜香紅茶",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "(H)金烏厚茶",
+          "description": "凍頂烏龍，具有熟果香味",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(M)金烏厚茶",
+          "description": "凍頂烏龍，具有熟果香味",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(L)金烏厚茶",
+          "description": "凍頂烏龍，具有熟果香味",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "(H)羅賓紅茶",
+          "description": "日月潭紅玉",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(M)羅賓紅茶",
+          "description": "日月潭紅玉",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(L)羅賓紅茶",
+          "description": "日月潭紅玉",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "(H)春花青茶",
+          "description": "四季春青茶",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(M)春花青茶",
+          "description": "四季春青茶",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(L)春花青茶",
+          "description": "四季春青茶",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "(H)極上88°C焙茶",
+          "description": "原創台灣焙茶",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(L)極上88°C焙茶",
+          "description": "原創台灣焙茶",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "(H)熟麥煎茶",
+          "description": "大麥香穀物茶 (內含蜂蜜)",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(L)熟麥煎茶",
+          "description": "大麥香穀物茶(內含蜂蜜)",
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "水果系列",
+      "items": [
+        {
+          "name": "(H)丁丁",
+          "description": "綜合水果丁茶",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(L)丁丁",
+          "description": "綜合水果丁茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(H)雷檬",
+          "description": "鮮榨檸檬搭配青茶或紅茶，可再選擇加入蜂蜜讓風味更加提升哦~",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(L)雷檬",
+          "description": "鮮榨檸檬搭配青茶或紅茶，可再選擇蜂蜜讓風味更加提升哦~",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(H)金烏鳳檸",
+          "description": "鳳梨檸檬烏龍茶",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(L)金烏鳳檸",
+          "description": "鳳梨檸檬烏龍茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)梅菓88°C",
+          "description": "茶梅凍梅香焙茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)玫荔佳人",
+          "description": "玫瑰荔枝青茶",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(H)青甘",
+          "description": "甘蔗焙茶",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(M)青甘",
+          "description": "甘蔗焙茶",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "(L)青甘",
+          "description": "甘蔗焙茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)金烏西瓜",
+          "description": "鮮榨冷凍西瓜汁搭配熟果香味凍頂烏龍茶，清爽解膩無負擔。",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)青山楊桃",
+          "description": "使用古法釀製楊桃汁搭配帶有微花香清爽的春花青茶",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(H)青山楊桃",
+          "description": "使用古法釀製楊桃汁搭配帶有微花香清爽的春花青茶",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "(L)夏醒獅茶",
+          "description": "山焙*基隆和平島聯名飲品\r\n選用在地石花菜煮至而成的清爽蜂蜜檸檬石花凍\r\n搭配上青茶、檸檬、蜂蜜做調配\r\n後加上日式抹茶粉增添色彩與層次\r\n是最適合消暑的飲品。",
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶",
+      "items": [
+        {
+          "name": "(H)黑金拿鐵",
+          "description": "深烤烏龍鮮奶茶",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "(L)黑金拿鐵",
+          "description": "深烤烏龍鮮奶茶",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "(H)金烏拿鐵",
+          "description": "凍頂烏龍鮮奶茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)金烏拿鐵",
+          "description": "凍頂烏龍鮮奶茶",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(H)墨赤拿鐵",
+          "description": "焦香紅鮮奶茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)墨赤拿鐵",
+          "description": "焦香紅鮮奶茶",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(H)赤龍拿鐵",
+          "description": "蜜香紅鮮奶茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)赤龍拿鐵",
+          "description": "蜜香紅鮮奶茶",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "(H)羅賓拿鐵",
+          "description": "紅玉鮮奶茶",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)羅賓拿鐵",
+          "description": "紅玉鮮奶茶",
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "歐蕾/奶茶",
+      "items": [
+        {
+          "name": "(H)金烏奶茶",
+          "description": "凍頂烏龍奶茶(純奶粉)",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "(M)金烏奶茶",
+          "description": "凍頂烏龍奶茶(純奶粉)",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "(L)金烏奶茶",
+          "description": "凍頂烏龍奶茶(純奶粉)",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(H)墨赤奶茶",
+          "description": "焦香紅奶茶(純奶粉)",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "(M)墨赤奶茶",
+          "description": "焦香紅奶茶(純奶粉)",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "(L)墨赤奶茶",
+          "description": "焦香紅奶茶(純奶粉)",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(H)88°C焙茶歐蕾",
+          "description": "爆米香烏龍歐蕾 (內含蜂蜜、奶粉、鮮奶)",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(L)88°C焙茶歐蕾",
+          "description": "爆米香烏龍歐蕾 (內含蜂蜜、奶粉、鮮奶)",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(H)墨赤歐蕾",
+          "description": "焦香紅歐蕾 (內含蜂蜜、奶粉、鮮奶)",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(L)墨赤歐蕾",
+          "description": "焦香紅歐蕾 (內含蜂蜜、奶粉、鮮奶)",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(H)赤龍歐蕾",
+          "description": "蜜香紅歐蕾 (內含蜂蜜、奶粉、鮮奶)",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(L)赤龍歐蕾",
+          "description": "蜜香紅歐蕾 (內含蜂蜜、奶粉、鮮奶)",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(H)春花歐蕾",
+          "description": "四季春歐蕾 (內含蜂蜜、奶粉、鮮奶)",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(L)春花歐蕾",
+          "description": "四季春歐蕾 (內含蜂蜜、奶粉、鮮奶)",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(H)熟麥歐蕾",
+          "description": "大麥香穀物歐蕾 (內含蜂蜜、奶粉、鮮奶)",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "(L)熟麥歐蕾",
+          "description": "大麥香穀物歐蕾 (內含蜂蜜、奶粉、鮮奶)",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "黑奶蓋系列",
+      "items": [
+        {
+          "name": "(L)墨赤黑奶蓋",
+          "description": "焦香紅奶蓋(黑糖風味奶蓋)",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)赤龍黑奶蓋",
+          "description": "蜜香紅奶蓋(黑糖風味奶蓋)",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)羅賓黑奶蓋",
+          "description": "日月潭紅茶奶蓋(黑糖風味奶蓋)",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)金烏黑奶蓋",
+          "description": "凍頂烏龍奶蓋(黑糖風味奶蓋)",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)88°C焙茶黑奶蓋",
+          "description": "爆米焦糖香烏龍奶蓋(黑糖風味奶蓋)",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)春花黑奶蓋",
+          "description": "四季春奶蓋(黑糖風味奶蓋)",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "(L)熟麥黑奶蓋",
+          "description": "大麥穀物奶蓋(內涵蜂蜜)(黑糖風味奶蓋)",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "甜點",
+      "items": [
+        {
+          "name": "茉莉花爆米花",
+          "description": null,
+          "price_cold": 130,
+          "price_hot": 130
+        },
+        {
+          "name": "羅賓爆米花",
+          "description": null,
+          "price_cold": 130,
+          "price_hot": 130
+        },
+        {
+          "name": "東方美人爆米花",
+          "description": null,
+          "price_cold": 130,
+          "price_hot": 130
+        }
+      ]
+    },
+    {
+      "category": "精品手沖茶",
+      "items": [
+        {
+          "name": "(H)杯中日月",
+          "description": "有機日月潭紅玉(熱360)",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "(M)杯中日月",
+          "description": "有機日月潭紅玉",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "(H)金屋藏嬌",
+          "description": "凍頂烏龍.東方美人(熱360)",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "(M)金屋藏嬌",
+          "description": "凍頂烏龍.東方美人",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "(H)父子濃情",
+          "description": "梨山烏龍茶(熱360)",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "(M)父子濃情",
+          "description": "梨山烏龍茶",
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "包材",
+      "items": [
+        {
+          "name": "一杯袋",
+          "description": "背心袋",
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "二~四杯袋",
+          "description": "背心袋",
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "六杯袋",
+          "description": "背心袋",
+          "price_cold": 2,
+          "price_hot": 2
+        },
+        {
+          "name": "龍年提袋",
+          "description": "無紡不織布提袋",
+          "price_cold": 29,
+          "price_hot": 29
+        },
+        {
+          "name": "白玉",
+          "description": null,
+          "price_cold": 15,
+          "price_hot": 15
+        },
+        {
+          "name": "茶梅凍",
+          "description": null,
+          "price_cold": 15,
+          "price_hot": 15
+        },
+        {
+          "name": "仙草凍",
+          "description": null,
+          "price_cold": 10,
+          "price_hot": 10
+        },
+        {
+          "name": "茶蕨",
+          "description": null,
+          "price_cold": 15,
+          "price_hot": 15
+        },
+        {
+          "name": "環保茶葉吸管",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    },
+    {
+      "category": "周邊商品/茶葉",
+      "items": [
+        {
+          "name": "SunBay茶袋禮盒",
+          "description": null,
+          "price_cold": 550,
+          "price_hot": 550
+        }
+      ]
+    }
+  ]
+}

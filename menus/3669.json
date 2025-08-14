@@ -1,0 +1,418 @@
+{
+  "store_id": 3669,
+  "store_name": "台北錦西店",
+  "brand_code": "dayungs",
+  "brand_name": "大苑子",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "我挺農二代 (此系列建議半糖以上)",
+      "items": [
+        {
+          "name": "芭樂檸檬 (店長推薦★)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "芭樂梅",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "芭樂甘草",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "翡翠檸檬",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "番茄梅",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "許慶良鮮乳 (936ml)/瓶",
+          "description": null,
+          "price_cold": 119,
+          "price_hot": 119
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋(一個袋子可以裝10杯)",
+      "items": [
+        {
+          "name": "塑膠袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    },
+    {
+      "category": "季節限定(此系列建議半糖以上)",
+      "items": [
+        {
+          "name": "百變火龍冰沙(L、冰固定)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "芭樂甜橙",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "甜橙火龍果(L)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "巨峰葡萄雪沙(L/冰固定)",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "巨峰葡萄冰茶(L)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "火龍果翡翠(L)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "特調",
+      "items": [
+        {
+          "name": "蘋果醋冰茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "養樂多綠茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "百年蜜仙草",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬瓜檸檬(甜度固定)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "金桔粒脆纖果",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蘋果多輕飲",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冬瓜檸檬脆纖果(L)(甜度固定)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "冬瓜茶(甜度固定)",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "仙草干茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "春熙柳橙翡翠",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "六顆柳丁汁(容量250ml)",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "RedBull 能量(糖/冰固定)",
+      "items": [
+        {
+          "name": "能量小葡丁(L)",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99
+        },
+        {
+          "name": "能量小巨峰(L)",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99
+        },
+        {
+          "name": "能量小火龍(L)",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99
+        },
+        {
+          "name": "能量大巨蛋(L)",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99
+        },
+        {
+          "name": "能量小柳丁(L)",
+          "description": null,
+          "price_cold": 99,
+          "price_hot": 99
+        }
+      ]
+    },
+    {
+      "category": "蜜朵朵",
+      "items": [
+        {
+          "name": "冰釀蜜朵朵(L)(甜度固定)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "紅茶蜜朵朵(L)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蘋果蜜朵朵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "蜂蜜",
+      "items": [
+        {
+          "name": "蜂蜜檸檬(大杯)(甜度固定)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "蜂蜜檸檬蘆薈(大杯)(甜度固定)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "蜂蜜蘆薈(L杯、甜度固定))",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "蜜茶(L杯、甜度固定)",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "醇果 (此系列建議半糖以上)",
+      "items": [
+        {
+          "name": "鮮百香果綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "柚美粒",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "鮮榨葡萄柚綠",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "百香愛玉",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "檸檬愛玉",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "金桔檸檬",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "經典檸檬紅茶 (L杯)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "鮮榨檸檬汁",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "綜合水果茶 (芒果、鳳梨，有茶)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    },
+    {
+      "category": "奶茶",
+      "items": [
+        {
+          "name": "奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "百年仙草凍奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "纖活奶綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    },
+    {
+      "category": "好茶",
+      "items": [
+        {
+          "name": "古城錫蘭紅茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "文山青茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "纖活綠茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "春烏龍（無糖限定）",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "許慶良鮮乳",
+      "items": [
+        {
+          "name": "許慶良鮮奶珍珠(中杯)(甜度、冰塊固定)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "許慶良鮮奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "許慶良觀音拿鐵",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "許慶良鮮奶冬瓜(甜度固定)",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "許慶良鮮奶綠",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "許慶良奶酪鮮奶茶 (L杯)",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        }
+      ]
+    }
+  ]
+}

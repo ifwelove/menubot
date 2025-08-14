@@ -1,0 +1,359 @@
+{
+  "store_id": 22966,
+  "store_name": "芳洲快閃",
+  "brand_code": "brownsugarbrand",
+  "brand_name": "88糖廠",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "台式甜品",
+      "items": [
+        {
+          "name": "手工鹽滷豆花(M)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "手工鹽滷豆花(L)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "8hr經典黑糖甜湯(M)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "8hr經典黑糖甜湯(L)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "彩虹水果Q凍(M)-碗裝",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "彩虹水果Q凍(L)-碗裝",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "冰der燒仙草(M)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "冰der燒仙草(L)",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "黑鑽仙草Q奶凍",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "伯爵紅茶Q奶凍",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "翡翠綠茶Q奶凍",
+          "description": null,
+          "price_cold": 95,
+          "price_hot": 95
+        }
+      ]
+    },
+    {
+      "category": "爆料刨冰",
+      "items": [
+        {
+          "name": "8hr經典黑糖刨冰",
+          "description": null,
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "莓好時光冰(大湖草莓)",
+          "description": null,
+          "price_cold": 159,
+          "price_hot": 159
+        },
+        {
+          "name": "好運旺旺冰(金鑽鳳梨)",
+          "description": null,
+          "price_cold": 159,
+          "price_hot": 159
+        },
+        {
+          "name": "椹夏酷樂冰(桑椹)",
+          "description": null,
+          "price_cold": 159,
+          "price_hot": 159
+        }
+      ]
+    },
+    {
+      "category": "純茶葉沖泡茶",
+      "items": [
+        {
+          "name": "翡翠綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "英式伯爵紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "雙Q椰椰(翡翠綠)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "雙Q椰椰(伯爵紅)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "彩虹QQ茶(翡翠綠)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "彩虹QQ茶(伯爵紅)",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "無咖啡因的茶",
+      "items": [
+        {
+          "name": "決明子大麥茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "甘味黑鑽仙草茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "8HR經典黑糖冬瓜",
+      "items": [
+        {
+          "name": "8hr經典黑糖冬瓜",
+          "description": "本產品無果糖",
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "3Q經典黑糖冬瓜",
+          "description": "本產品無果糖",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "吸der手工豆花",
+          "description": "本產品無果糖",
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "焦糖濃奶茶",
+      "items": [
+        {
+          "name": "原味焦糖濃奶茶",
+          "description": "無果糖&無反式脂肪",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "伯爵焦糖濃奶茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "翡翠焦糖濃奶綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "珍珠焦糖濃奶茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "三色焦糖濃奶茶",
+          "description": "無果糖&無反式脂肪",
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "清新果漾冰茶",
+      "items": [
+        {
+          "name": "蜜桃伯爵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "貴妃乃姬",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "迷幻世界",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "綠茶梅梅",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "好運旺旺來",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "8芭8",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "桑椹酵素茶",
+      "items": [
+        {
+          "name": "桑椹酵素茶(綠)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "桑椹酵素茶(紅)",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "100%醇濃生乳",
+      "items": [
+        {
+          "name": "8hr經典黑糖鮮奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "英式伯爵鮮奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "沁韻翡翠鮮奶綠",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        }
+      ]
+    },
+    {
+      "category": "面交福利標",
+      "items": [
+        {
+          "name": "手工鹽滷豆花.",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "8HR經典黑糖甜湯.",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "珍珠焦糖濃奶茶.",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "3Q黑糖冬瓜.",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "雙Q椰椰(紅).",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "雙Q椰椰(綠).",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "彩虹QQ茶(紅).",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "彩虹QQ茶(綠).",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        }
+      ]
+    }
+  ]
+}

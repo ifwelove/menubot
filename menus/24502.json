@@ -1,0 +1,474 @@
+{
+  "store_id": 24502,
+  "store_name": "中和店",
+  "brand_code": "yuxianzhenwei",
+  "brand_name": "芋仙珍味",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "嫩仙草系列",
+      "items": [
+        {
+          "name": "招牌嫩仙草",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "芋圓嫩仙草",
+          "description": "芋圓+地瓜圓+珍珠+綠豆+奶油球",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "純嫩仙草",
+          "description": "嫩仙草+奶油球",
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "消暑冰品",
+      "items": [
+        {
+          "name": "招牌芋仙冰",
+          "description": "仙草+芋條+地瓜條+花豆+珍珠",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "芋圓冰",
+          "description": "仙草+芋圓+地瓜圓+花豆+珍珠",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "紅豆牛奶冰",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "綠豆牛奶冰",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "花豆牛奶冰",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "蔓越莓牛奶冰",
+          "description": "芋圓+地瓜圓+珍珠+椰果",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "清冰",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "冬季限定",
+      "items": [
+        {
+          "name": "(熱)綜合燒仙草",
+          "description": "芋圓+地瓜圓+花豆",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "(熱)招牌紅豆湯",
+          "description": "芋圓+地瓜圓+珍珠",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "(熱)紅豆湯圓",
+          "description": "紅豆湯+湯圓",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "(熱)純燒仙草",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "(熱)純紅豆湯",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "原茶系列",
+      "items": [
+        {
+          "name": "紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "翡翠綠茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "四季青茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "鐵觀音風味茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "白桃烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "仙草甘茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "冬瓜茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35
+        }
+      ]
+    },
+    {
+      "category": "奶茶系列",
+      "items": [
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "珍珠奶綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "珍珠奶青",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "仙草凍奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "仙草凍奶綠",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "仙草凍奶青",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "3Q奶茶",
+          "description": "仙草凍+珍珠+椰果",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "3Q奶綠",
+          "description": "仙草凍+珍珠+椰果",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "3Q奶青",
+          "description": "仙草凍+珍珠+椰果",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "原味奶茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "原味奶綠",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "原味奶青",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "風味茶系列",
+      "items": [
+        {
+          "name": "關西仙草凍飲",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬瓜仙草凍飲",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "鮮奶冬瓜茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "珍珠冬瓜茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "檸檬冬瓜茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "檸檬冬瓜小紫蘇",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蜂蜜檸檬",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "蜂蜜檸檬小紫蘇",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬瓜檸檬凍飲",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "拿鐵鮮奶系列",
+      "items": [
+        {
+          "name": "紅茶鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "綠茶鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "青茶鮮奶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "鮮奶仙草凍 M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "鮮奶仙草凍 L",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "黑糖波霸鮮奶 M",
+          "description": "去冰、溫飲、熱飲皆不會滿杯",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "黑糖波霸鮮奶 L",
+          "description": "去冰、溫飲、熱飲皆不會滿杯",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "泰式鮮奶茶 M",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "泰式鮮奶茶 L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "紅豆鮮奶 M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "紅豆鮮奶 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "綠豆鮮奶 M",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "綠豆鮮奶 L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "果茶系列",
+      "items": [
+        {
+          "name": "蔓越莓檸檬",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蔓越莓青茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蔓越莓QQ青茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "芒果綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "芒果QQ綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "百香綠茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "百香QQ綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "鳳梨冰茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "鳳梨青茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "金桔檸檬",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        }
+      ]
+    },
+    {
+      "category": "蓋蓋奶系列",
+      "items": [
+        {
+          "name": "紅茶蓋蓋",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "綠茶蓋蓋",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "青茶蓋蓋",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "冬瓜蓋蓋",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    }
+  ]
+}

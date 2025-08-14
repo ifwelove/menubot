@@ -1,0 +1,260 @@
+{
+  "store_id": 24310,
+  "store_name": "永和頂溪店",
+  "brand_code": "wudotea",
+  "brand_name": "伍度",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "經典紅茶",
+      "items": [
+        {
+          "name": "甘韻紅茶XL",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2b25_rCmnbBd8.png"
+        },
+        {
+          "name": "療癒紅茶XL",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2b15_BCieb4UE.png"
+        },
+        {
+          "name": "檸香紅韻L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2af8_YwsTnqBK.jpg"
+        },
+        {
+          "name": "濃韻奶紅L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2aeb_WJpIyKMn.jpg"
+        },
+        {
+          "name": "療癒鮮奶茶L",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2ad9_XF3TSAo2.png"
+        }
+      ]
+    },
+    {
+      "category": "烏龍茶",
+      "items": [
+        {
+          "name": "觀音蘭韻XL",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2aba_Mjxlp6q1.png"
+        },
+        {
+          "name": "春曉花語XL",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2aaa_u7YivZQa.png"
+        },
+        {
+          "name": "金萱清韻XL",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2a9a_XIfClLWi.png"
+        },
+        {
+          "name": "雲嶺清韻XL",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2a8b_I3fN4Te5.png"
+        },
+        {
+          "name": "春露青檸L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2a78_94UxtZVO.png"
+        },
+        {
+          "name": "春曉奶香L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2a5e_Gwgl13XL.png"
+        },
+        {
+          "name": "旺來春茶L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2a50_ILmHEv3N.png"
+        },
+        {
+          "name": "鐵韻奶香L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2a46_7sRKwmi8.png"
+        },
+        {
+          "name": "金萱鮮奶茶L",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2a31_7RKf6lsZ.png"
+        },
+        {
+          "name": "雲嶺鮮奶茶L",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_68974891_InZioQtu.jpg"
+        },
+        {
+          "name": "七家灣國寶茶L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_689b37cd_YquVSozC.png"
+        },
+        {
+          "name": "七家灣國寶鮮奶茶L",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90
+        }
+      ]
+    },
+    {
+      "category": "東方美人茶",
+      "items": [
+        {
+          "name": "甘露美人XL",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e215d_52FNMrE3.png"
+        },
+        {
+          "name": "晨曦檸美L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2149_0cUF9fI3.png"
+        },
+        {
+          "name": "旺來美人L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e209a_XsTaNcIH.png"
+        },
+        {
+          "name": "厚韻美人L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e1d28_jlvTOmXI.jpg"
+        },
+        {
+          "name": "厚韻美人珍奶L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2088_TxBGm0JV.jpg"
+        },
+        {
+          "name": "美人鮮奶茶L",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2046_nFaSt3gG.png"
+        },
+        {
+          "name": "葡萄柚東美L",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e2024_aoqwgb1l.jpg"
+        }
+      ]
+    },
+    {
+      "category": "綠茶",
+      "items": [
+        {
+          "name": "清韻綠茶XL",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e1fe6_eTWEfB56.jpg"
+        },
+        {
+          "name": "檸香綠韻L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e1fd5_kDzCUTLX.jpg"
+        },
+        {
+          "name": "旺來翠綠L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e1fbb_YxFfULbe.png"
+        },
+        {
+          "name": "綠韻奶香L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e1f6e_jDHkrSN0.png"
+        },
+        {
+          "name": "葡萄柚綠茶L",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3049/b3049_688e1f5b_1u5m3nyB.jpg"
+        }
+      ]
+    },
+    {
+      "category": "袋子",
+      "items": [
+        {
+          "name": "1杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "2杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "4杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "6杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    }
+  ]
+}

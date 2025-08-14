@@ -1,0 +1,201 @@
+{
+  "store_id": 20085,
+  "store_name": "八德店",
+  "brand_code": "jellypartea",
+  "brand_name": "嚼力 ゼリーパーティー",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "嚼力超推薦",
+      "items": [
+        {
+          "name": "百香亮晶晶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34b48_VGhxIZC0.jpg"
+        },
+        {
+          "name": "桂花膠滴滴",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34c15_8SJKqIxn.jpg"
+        },
+        {
+          "name": "煥采檸檬拳",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34bdb_sneINRtU.jpg"
+        },
+        {
+          "name": "窈窕の小梅",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34b12_j7cxUouE.jpg"
+        }
+      ]
+    },
+    {
+      "category": "極濃鮮奶茶",
+      "items": [
+        {
+          "name": "鹹焦糖拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34c75_7h9CnE52.jpg"
+        },
+        {
+          "name": "珍珠紅拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34cbc_wrs6YkKz.jpg"
+        },
+        {
+          "name": "池韻紅拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34d20_boBuW8PA.jpg"
+        },
+        {
+          "name": "雲頂青拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34d77_0aB2mIyq.jpg"
+        },
+        {
+          "name": "紅寶石拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34dd4_Wvm6Xu8t.jpg"
+        },
+        {
+          "name": "嚼秘黑拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34da3_8LVtWG23.jpg"
+        }
+      ]
+    },
+    {
+      "category": "濃縮乳清飲",
+      "items": [
+        {
+          "name": "大力神助攻",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_67c51128_h1PVMc6u.jpeg"
+        },
+        {
+          "name": "維納斯誕生",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_67c5110d_Owhe9qTZ.jpeg"
+        },
+        {
+          "name": "池韻紅乳清",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_67c510e8_U0qbjYwk.jpeg"
+        },
+        {
+          "name": "嚼秘黑乳清",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_67c50f77_S9FxCkwG.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "絕妙風味茶",
+      "items": [
+        {
+          "name": "一顆梅子綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34e2c_THxVtnSh.jpg"
+        },
+        {
+          "name": "冰萃檸檬青",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34e52_pvsgND4i.jpg"
+        },
+        {
+          "name": "仲夏百香青",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34e96_1dbnO2Nx.jpg"
+        },
+        {
+          "name": "炭培桂烏龍",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34ec4_aqV05ilr.jpg"
+        },
+        {
+          "name": "這不是雀巢",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "純粹喝好茶",
+      "items": [
+        {
+          "name": "印度紅紗",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34eef_61TmtSMV.jpg"
+        },
+        {
+          "name": "冰炫綠茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34f0d_09LC4num.jpg"
+        },
+        {
+          "name": "雲頂清青",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34f81_aFBqIHZE.jpg"
+        },
+        {
+          "name": "嚼秘烏龍",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34fa7_ITGMyaDK.jpg"
+        },
+        {
+          "name": "南非紅寶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2493/b2493_66c34fd7_OX6z9mhH.jpg"
+        }
+      ]
+    }
+  ]
+}

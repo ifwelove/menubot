@@ -1,0 +1,509 @@
+{
+  "store_id": 19866,
+  "store_name": "竹北三民店",
+  "brand_code": "chillday",
+  "brand_name": "鶖茶",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "醇chill一下",
+      "items": [
+        {
+          "name": "小葉蜜香紅茶",
+          "description": "蜜香紅茶是茶樹生長過程中遭小綠葉蟬吸吮(台語稱為著涎) ，人工採摘最幼嫩的一心一葉，再細心揉製而成的特殊茶品。沖泡過程中即散發出陣陣令人陶醉的蜜香。",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f3f69e_egr9fXIC.jpg"
+        },
+        {
+          "name": "獨韻紅茶",
+          "description": "來至自斯里蘭卡七大茶葉產區中，經百款茶品經反覆杯測，嚴選出盧哈納產區的上選紅茶葉，茶感渾厚及糖香持久明顯，透過特殊烘茶技法，使茶底帶有濃郁的焦糖蜜果香、香氣悠長",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f3f6ca_fNYlZVXS.jpg"
+        },
+        {
+          "name": "茉香玉露",
+          "description": "茶葉產地越南及台灣的茉莉花品種，薰花次數、薰花比例及香氣來分等級，堅持使用新鮮茉莉花，不加香精，清香的茉莉香味與口感",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f3f715_cKXW05wB.jpg"
+        },
+        {
+          "name": "沁香冬片仔",
+          "description": "海拔1500公尺以上的高山，由於日夜溫差大且雨量豐沛，特別適合茶葉的生長。葉片飽滿柔軟且油亮，果膠質含量高，是聞名世界的上等好茶。沖泡的茶湯色澤透亮，不苦不澀爽口回甘",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f3f720_6Kqy17Sm.jpg"
+        },
+        {
+          "name": "炭焙鐵觀音",
+          "description": "高山特有的茶葉來製作烘焙，本身以火候、時間、溫度,控制洽當。其沖泡茶葉中會帶有一點點的熟火香味，茶湯濃郁，香氣獨特，醇厚自然回甘。濃厚茶的香味混合著輕淡的烘焙味，可說是獨家風味。",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "窯燒熟麥茶",
+          "description": "烘焙過的麥子加入決明子下去一起悶煮，麥香濃厚~\r\n(此飲品不含咖啡因)",
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53acf_TmP2Fpaj.png"
+        },
+        {
+          "name": "黃金蕎麥茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53b68_CNKbUXup.png"
+        },
+        {
+          "name": "南投金萱烏龍",
+          "description": "茶湯金黃碧綠，獨特淡淡奶香口感，尾韻茶感不苦澀，並帶著花果香氣。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53b35_Ca9B63wD.png"
+        }
+      ]
+    },
+    {
+      "category": "濃郁奶香",
+      "items": [
+        {
+          "name": "獨韻奶茶 M",
+          "description": "使用斯里蘭卡尾韻帶有焦糖香氣的錫蘭紅茶作為基底加入獨家特調奶精粉，非常有古早味的一杯奶茶，做無糖也很好喝的奶茶！",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53bbb_4ZWBCGgq.png"
+        },
+        {
+          "name": "獨韻奶茶 L",
+          "description": "使用斯里蘭卡尾韻帶有焦糖香氣的錫蘭紅茶作為基底加入獨家特調奶精粉，非常有古早味的一杯奶茶，做無糖也很好喝的奶茶！",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53bad_xn9q0NiW.png"
+        },
+        {
+          "name": "茉香玉露奶茶 M",
+          "description": "嚴選不使用香精·香料的上等茉香綠茶作為基底，再加入獨家特調奶精粉。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53be1_4NLQ0u9i.png"
+        },
+        {
+          "name": "茉香玉露奶茶 L",
+          "description": "嚴選不使用香精·香料的上等茉香綠茶作為基底，再加入獨家特調奶精粉。",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53bee_lsDve3RW.png"
+        },
+        {
+          "name": "炭焙鐵觀音奶茶 M",
+          "description": "嚴選無添加香精·香料的上等炭培鐵觀音，再加入獨家特調奶精粉",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53c0f_gfzYMxAT.png"
+        },
+        {
+          "name": "炭焙鐵觀音奶茶 L",
+          "description": "嚴選無添加香精·香料的上等炭培鐵觀音，再加入獨家特調奶精粉",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53c17_tIwlTX8B.png"
+        },
+        {
+          "name": "獨韻珍珠奶茶 M",
+          "description": "使用斯里蘭卡錫蘭紅茶作為基底加入獨家特調奶精粉，及每日現煮軟Q適中的珍珠非常有古早味風味的一杯珍珠奶茶！『甜度建議：平常喝的甜度降一階唷』",
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53c45_4bfQmTVN.png"
+        },
+        {
+          "name": "獨韻珍珠奶茶 L",
+          "description": "使用斯里蘭卡錫蘭紅茶作為基底加入獨家特調奶精粉，及每日現煮軟Q適中的珍珠非常有古早味風味的一杯珍珠奶茶！『甜度建議：平常喝的甜度降一階唷』",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53c50_A7iQT2JO.png"
+        }
+      ]
+    },
+    {
+      "category": "乳香那堤",
+      "items": [
+        {
+          "name": "窯燒熟麥茶那堤 M",
+          "description": "使用烘焙過的麥子熬煮出來的麥茶，加入養樂多優質鮮奶，喝的到麥子的香氣及鮮奶的乳香。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53c7a_b9lOmtFo.png"
+        },
+        {
+          "name": "窯燒熟麥茶那堤 L",
+          "description": "使用烘焙過的麥子熬煮出來的麥茶，加入養樂多優質鮮奶，喝的到麥子的香氣及鮮奶的乳香。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53c86_stbGlo0e.png"
+        },
+        {
+          "name": "獨韻紅茶那堤 M",
+          "description": "選用養樂多鮮奶，加上來自斯里蘭卡的皇家錫蘭紅茶茶湯香氣十足搭配鮮奶最適合『推薦：想喝無糖鮮奶茶建的您』",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53caf_QDgOULnp.png"
+        },
+        {
+          "name": "獨韻紅茶那堤 L",
+          "description": "選用養樂多鮮奶，加上來自斯里蘭卡的皇家錫蘭紅茶茶湯香氣十足搭配鮮奶最適合『推薦：想喝無糖鮮奶茶建的您』",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53cbb_8cU3dnjO.png"
+        },
+        {
+          "name": "小葉蜜香紅茶那堤 M",
+          "description": "帶有獨特蜜香的清香茶湯，加入養樂多優質鮮奶。『蜜香紅茶茶感較清爽 做無糖，味道偏淡唷』",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53cc6_XrTgcN4H.png"
+        },
+        {
+          "name": "小葉蜜香紅茶那堤 L",
+          "description": "帶有獨特蜜香的清香茶湯，加入養樂多優質鮮奶。『蜜香紅茶茶感較清爽 做無糖，味道偏淡唷』",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53cd3_mKlLbORH.png"
+        },
+        {
+          "name": "茉香玉露那堤 M",
+          "description": "使用不添加香精·香料的上等茉香綠茶做為茶湯，加入養樂多優質鮮奶『小叮嚀：鮮奶茶無糖，味道偏淡』",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53d23_y5jHxtBC.png"
+        },
+        {
+          "name": "茉香玉露那堤 L",
+          "description": "使用不添加香精·香料的上等茉香綠茶做為茶湯，加入養樂多優質鮮奶『小叮嚀：鮮奶茶無糖，味道偏淡』",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53d2c_7NURE8hT.png"
+        },
+        {
+          "name": "炭焙鐵觀音那堤 M",
+          "description": "茶湯選用帶炭培香氣的鐵觀音烏龍茶葉每日現泡，加入養樂多優質鮮奶。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53d03_bO15HNKJ.png"
+        },
+        {
+          "name": "炭焙鐵觀音那堤 L",
+          "description": "茶湯選用帶炭培香氣的鐵觀音烏龍茶葉每日現泡，加入養樂多優質鮮奶。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53d0f_WDMsYUqh.png"
+        },
+        {
+          "name": "黑糖珍珠那堤(M)",
+          "description": "每日現煮的珍珠，口感彈牙軟硬適中，加入黑糖蜜掛壁最後倒入整杯鮮奶，完全不加一滴水，香甜濃醇 ~ \r\n※此飲品不含咖啡因",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53d81_7kZ9yhVb.png"
+        },
+        {
+          "name": "黃金蕎麥那堤",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53d58_Ho8UeR49.png"
+        }
+      ]
+    },
+    {
+      "category": "醇厚開心(開心果奶蓋)",
+      "items": [
+        {
+          "name": "奶蓋窯燒熟麥茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54115_kErHFfTp.png"
+        },
+        {
+          "name": "奶蓋獨韻紅茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f5414c_Vlz01F5u.png"
+        },
+        {
+          "name": "奶蓋小葉蜜香紅茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54157_rys6xbjO.png"
+        },
+        {
+          "name": "奶蓋茉香玉露",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54177_zs9ypoi5.png"
+        },
+        {
+          "name": "奶蓋冬片仔",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54180_wJ6Q9iK1.png"
+        },
+        {
+          "name": "奶蓋鐵觀音",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54123_S1Ei5hrx.png"
+        },
+        {
+          "name": "奶蓋黃金蕎麥",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f541a8_wiJDdF03.png"
+        }
+      ]
+    },
+    {
+      "category": "自然鮮chill",
+      "items": [
+        {
+          "name": "玉露多多",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53dab_PunQK0JW.png"
+        },
+        {
+          "name": "香檸甘蔗",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53dd7_SJ1zLogN.png"
+        },
+        {
+          "name": "甘蔗冬片",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53e0c_Pqjw3nzA.png"
+        },
+        {
+          "name": "甜橙玉露",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53e39_zKcmGdDW.png"
+        },
+        {
+          "name": "香檸桑椹",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53e6b_6FJWTZNg.png"
+        },
+        {
+          "name": "桑椹多多",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "冰糖桑椹紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53e86_gpI7kXob.png"
+        }
+      ]
+    },
+    {
+      "category": "夏日鶖選",
+      "items": [
+        {
+          "name": "青梅玉露",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53f8b_0ozkgHvF.png"
+        },
+        {
+          "name": "香檸青梅",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53fcd_JGsVv4bz.png"
+        },
+        {
+          "name": "西瓜玉露",
+          "description": "100%天然檸檬汁搭上茉香綠茶，清爽解渴\r\n喜歡酸酸口感的好選擇～",
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54051_T9Kw2uBR.png"
+        },
+        {
+          "name": "西瓜那堤(M)",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f5407e_M2VNU6WK.png"
+        },
+        {
+          "name": "香蘋檸檬",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f540cc_SzbpjRmo.png"
+        },
+        {
+          "name": "紅柚鐵觀音",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69
+        },
+        {
+          "name": "紅柚玉露",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54021_tAECqVXO.png"
+        },
+        {
+          "name": "香蘋紅茶",
+          "description": null,
+          "price_cold": 69,
+          "price_hot": 69,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f540a4_ASI9XTym.png"
+        },
+        {
+          "name": "香蘋西瓜",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        }
+      ]
+    },
+    {
+      "category": "關西仙草",
+      "items": [
+        {
+          "name": "關西仙草茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f3f9a2_w46LpHIA.jpg"
+        },
+        {
+          "name": "關西仙草凍那堤 M",
+          "description": "使用關西農會仙草原汁，手工熬煮仙草凍！滑嫩的口感加上養樂多優質鮮奶，完美比例！大人小孩都喜愛\r\n(不另外加冰塊與糖)\r\n※此飲品不含咖啡因",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f3f789_CTHksArh.jpg"
+        },
+        {
+          "name": "關西仙草凍那堤 L",
+          "description": "使用關西農會仙草原汁，手工熬煮仙草凍！滑嫩的口感加上養樂多優質鮮奶，完美比例！大人小孩都喜愛\r\n(不另外加冰塊與糖)\r\n※此飲品不含咖啡因",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f3f972_i7dcCtqe.jpg"
+        },
+        {
+          "name": "仙草茶那堤 L",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53f10_aC8WRMFb.png"
+        },
+        {
+          "name": "仙草茶那堤 M",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f53f1c_xHEGg0dD.png"
+        }
+      ]
+    },
+    {
+      "category": "北埔擂茶",
+      "items": [
+        {
+          "name": "Hakka原味擂茶",
+          "description": "使用新竹在地有名北埔39號擂茶製作而成的飲品，喜愛擂茶的您不可錯過。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f541c7_9gfZInUN.png"
+        },
+        {
+          "name": "Hakka擂茶奶茶 M",
+          "description": "擂茶粉選用新竹在地北埔三十九號擂茶粉加入特調奶精粉，讓您一整杯喝出擂茶的堅果香氣，以及奶精粉濃醇奶味。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f541fa_H8ZNueiK.png"
+        },
+        {
+          "name": "Hakka擂茶奶茶 L",
+          "description": "擂茶粉選用新竹在地北埔三十九號擂茶粉加入特調奶精粉，讓您一整杯喝出擂茶的堅果香氣，以及奶精粉濃醇奶味。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54205_waLBYGWA.png"
+        },
+        {
+          "name": "Hakka擂茶粉粿奶茶 M",
+          "description": "斯里蘭卡錫蘭紅茶做為基底，再加入特調奶精粉調製成的奶茶，及鶖茶獨家製做的擂茶粉粿。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54229_Ed93irfj.png"
+        },
+        {
+          "name": "Hakka擂茶粉粿奶茶 L",
+          "description": "斯里蘭卡錫蘭紅茶做為基底，再加入特調奶精粉調製成的奶茶，及鶖茶獨家製做的擂茶粉粿。",
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54236_VOmAPNRk.png"
+        },
+        {
+          "name": "Hakka擂茶那堤(M)",
+          "description": "使用北埔三十九號擂茶粉與鮮奶調製而成，喝的出擂茶的香，鮮奶的香醇奶味。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54256_smWngwtj.png"
+        },
+        {
+          "name": "Hakka擂茶奶蓋",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2379/b2379_67f54276_NeQv3Hai.png"
+        }
+      ]
+    },
+    {
+      "category": "塑膠袋",
+      "items": [
+        {
+          "name": "購物袋 1杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "購物袋 2~4杯袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        },
+        {
+          "name": "購物袋 6~8杯袋",
+          "description": null,
+          "price_cold": 2,
+          "price_hot": 2
+        }
+      ]
+    }
+  ]
+}

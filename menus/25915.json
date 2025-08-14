@@ -1,0 +1,297 @@
+{
+  "store_id": 25915,
+  "store_name": "新莊店",
+  "brand_code": "treeda",
+  "brand_name": "Tree噠 養樂兜調飲專賣",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "台灣好茶",
+      "items": [
+        {
+          "name": "焙香 文山包種茶",
+          "description": "入口清香，尾韻帶一點烘焙香氣。（老闆自己調製的茶葉",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "深焙 文山包種茶",
+          "description": "茶味濃厚，烘焙香氣十足，選用好的茶葉～不苦澀不苦澀不苦澀",
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "梔子碧螺春綠茶",
+          "description": "帶有梔子花香的碧螺春綠茶，簡單不簡單",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "紅玉紅茶",
+          "description": "紅玉紅茶^_^",
+          "price_cold": 35,
+          "price_hot": 35
+        },
+        {
+          "name": "文山包種茶",
+          "description": "獨特清香，回甘不苦澀。阿姨種的茶，從小喝到大",
+          "price_cold": 40,
+          "price_hot": 40
+        }
+      ]
+    },
+    {
+      "category": "養樂兜",
+      "items": [
+        {
+          "name": "冬瓜兜兜",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "隱藏版氣泡兜兜",
+          "description": "養樂兜加一種特別的汽水，老闆研究的第一支養樂兜特調\r\n（冰塊固定",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "是兜兜不是多多",
+          "description": "養樂兜加熱炒店的最愛（只能提示這麼多ㄌ\r\n（冰塊固定",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "快樂氣泡兜兜",
+          "description": "養樂兜加透明快樂水，透心涼就點這一杯\r\n（冰塊固定",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "鮮奶兜兜綠",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "鮮奶兜兜",
+          "description": "養樂兜加鮮奶，完美比例！加粉圓絕配！\r\n無咖啡因",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "百香兜兜綠",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "林萌兜兜",
+          "description": "林萌原汁酸到苦瓜臉",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "芭樂兜兜",
+          "description": "芭樂原汁hen香。\r\n無咖啡因",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "甘蔗兜兜",
+          "description": "甘蔗原汁+養樂兜，本身已有甜，加糖請適量、三思。\r\n無咖啡因",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "柳橙兜兜",
+          "description": "柳橙原汁酸酸甜甜，不像初戀，但是好喝。\r\n無咖啡因",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "就是兜兜綠",
+          "description": "就是兜兜綠。\r\n（帶一點梔子花香，跟別人綠茶不一樣",
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "包種茶兜兜",
+          "description": "第一名的必喝！\r\n三種焙度的包種茶可依照口味或是心情來選擇。",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "老闆幫我調 基本款",
+          "description": "看老闆最近研究什麼就調什麼",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "老闆幫我調 變化版",
+          "description": "看老闆最近研究什麼就調什麼",
+          "price_cold": 0,
+          "price_hot": 0
+        }
+      ]
+    },
+    {
+      "category": "特調",
+      "items": [
+        {
+          "name": "林萌",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "886芭芭柳",
+          "description": "芭樂+柳橙，新鮮原汁\r\n（冰塊固定",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "甘巴爹油",
+          "description": "甘蔗+芭樂，新鮮原汁給你滿滿活力，甘芭爹油～（冰塊固定",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "蜂蜜紅",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蜂蜜綠",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "蜂蜜包種茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "百香狗",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "柳橙",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "芭樂",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "甘蔗",
+          "description": null,
+          "price_cold": 0,
+          "price_hot": 0
+        },
+        {
+          "name": "快樂氣泡包種茶",
+          "description": "深焙包種茶+透明快樂水\r\n沒喝過的味道（冰塊固定",
+          "price_cold": 55,
+          "price_hot": 55
+        }
+      ]
+    },
+    {
+      "category": "鮮奶",
+      "items": [
+        {
+          "name": "珍珠鮮奶綠",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "珍珠鮮奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "冬瓜鮮奶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "紅玉拿鐵",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "碧螺春鮮奶綠",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "包種茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65
+        }
+      ]
+    },
+    {
+      "category": "冬瓜",
+      "items": [
+        {
+          "name": "冬冬冬瓜茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "冬瓜綠",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "冬瓜紅",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40
+        },
+        {
+          "name": "冬瓜包種茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45
+        },
+        {
+          "name": "冬瓜林萌",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60
+        }
+      ]
+    },
+    {
+      "category": "其他",
+      "items": [
+        {
+          "name": "塑膠袋袋",
+          "description": null,
+          "price_cold": 1,
+          "price_hot": 1
+        }
+      ]
+    }
+  ]
+}

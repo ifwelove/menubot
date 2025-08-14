@@ -1,0 +1,323 @@
+{
+  "store_id": 17762,
+  "store_name": "中山店",
+  "brand_code": "60plusteashop",
+  "brand_name": "60+ Tea Shop",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "單品茶",
+      "items": [
+        {
+          "name": "雪烏龍 M",
+          "description": "雪山",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "雪烏龍 L",
+          "description": "雪山",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "金烏龍 M",
+          "description": "奇萊山",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "金烏龍 L",
+          "description": "奇萊山",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅烏龍 M",
+          "description": "阿里山",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "紅烏龍 L",
+          "description": "阿里山",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "火烏龍 M",
+          "description": "梨山",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "火烏龍 L",
+          "description": "梨山",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "碧波綠茶 M",
+          "description": "阿里山",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "碧波綠茶 L",
+          "description": "阿里山",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "沁心青茶 M",
+          "description": "松柏嶺",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "沁心青茶 L",
+          "description": "松柏嶺",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "包種 M",
+          "description": "坪林",
+          "price_cold": 50,
+          "price_hot": 50
+        },
+        {
+          "name": "包種 L",
+          "description": "坪林",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "東方美人 M",
+          "description": "峨眉",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "東方美人 L",
+          "description": "峨眉",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "紅玉紅茶 M",
+          "description": "日月潭",
+          "price_cold": 60,
+          "price_hot": 60
+        },
+        {
+          "name": "紅玉紅茶 L",
+          "description": "日月潭",
+          "price_cold": 70,
+          "price_hot": 70
+        }
+      ]
+    },
+    {
+      "category": "私房手沖茶",
+      "items": [
+        {
+          "name": "冠軍茶",
+          "description": "中烘焙\r\n台灣比賽\r\n精品茶",
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "極品茶",
+          "description": "輕烘焙\r\n台茶12號\r\n金萱\r\n淡雅奶香味",
+          "price_cold": 120,
+          "price_hot": 120
+        },
+        {
+          "name": "私房茶",
+          "description": "輕烘焙\r\n頂級梨山\r\n高山茶",
+          "price_cold": 120,
+          "price_hot": 120
+        }
+      ]
+    },
+    {
+      "category": "鮮奶茶",
+      "items": [
+        {
+          "name": "火烏龍奶茶",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "紅烏龍奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "東方美人奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "紅玉奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "鐵觀音奶茶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "這夏有料-茶丸奶茶",
+          "description": "紅玉奶茶加茶丸",
+          "price_cold": 95,
+          "price_hot": 95
+        }
+      ]
+    },
+    {
+      "category": "果茶",
+      "items": [
+        {
+          "name": "綠檬龍 M",
+          "description": "檸檬+綠茶",
+          "price_cold": 65,
+          "price_hot": 65
+        },
+        {
+          "name": "綠檬龍 L",
+          "description": "檸檬+綠茶",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "雪檬龍 M",
+          "description": "檸檬+雪烏龍",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "雪檬龍 L",
+          "description": "檸檬+雪烏龍",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "紅檬龍 M",
+          "description": "檸檬+紅烏龍",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "紅檬龍 L",
+          "description": "檸檬+紅烏龍",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "金旺來 M",
+          "description": "鳳梨+金烏龍",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "金旺來 L",
+          "description": "鳳梨+金烏龍",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "鳳美人 M",
+          "description": "鳳梨+東美",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "鳳美人 L",
+          "description": "鳳梨+東美",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "這夏有料-琥珀雪朦朧 M",
+          "description": "雪朦朧加茶凍",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "這夏有料-琥珀雪朦朧 L",
+          "description": "雪朦朧加茶凍",
+          "price_cold": 90,
+          "price_hot": 90
+        },
+        {
+          "name": "4週年限定特調-桂檸青 M",
+          "description": "桂花蜜+天然檸檬汁與清茶完美搭配",
+          "price_cold": 70,
+          "price_hot": 70
+        },
+        {
+          "name": "4週年限定特調-桂檸青 L",
+          "description": "桂花蜜+天然檸檬汁與清茶完美搭配",
+          "price_cold": 80,
+          "price_hot": 80
+        },
+        {
+          "name": "峰梅綠 M",
+          "description": "梅子+綠茶",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "峰梅綠 L",
+          "description": "梅子+綠茶",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "椹夏青 M",
+          "description": "桑椹+青茶",
+          "price_cold": 75,
+          "price_hot": 75
+        },
+        {
+          "name": "椹夏青 L",
+          "description": "桑椹+青茶",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "熟火梅 M",
+          "description": "梅子+火烏龍",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "熟火梅 L",
+          "description": "梅子+火烏龍",
+          "price_cold": 95,
+          "price_hot": 95
+        },
+        {
+          "name": "椹日紅 M",
+          "description": "桑椹+紅玉",
+          "price_cold": 85,
+          "price_hot": 85
+        },
+        {
+          "name": "椹日紅 L",
+          "description": "桑椹+紅玉",
+          "price_cold": 95,
+          "price_hot": 95
+        }
+      ]
+    }
+  ]
+}

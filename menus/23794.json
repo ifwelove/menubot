@@ -1,0 +1,337 @@
+{
+  "store_id": 23794,
+  "store_name": "新竹店",
+  "brand_code": "cgteabrand",
+  "brand_name": "柯基茶飲",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "柯基原茶",
+      "items": [
+        {
+          "name": "茉莉綠茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30
+        },
+        {
+          "name": "紅玉紅茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683812a5_dwBhPb8r.jpg"
+        },
+        {
+          "name": "紅烏龍茶",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683812be_4EGUZYzm.jpg"
+        },
+        {
+          "name": "炭焙烏龍",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_6838134d_AMEZIXKt.jpg"
+        },
+        {
+          "name": "東方美人",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381356_HLfrv9mu.jpg"
+        }
+      ]
+    },
+    {
+      "category": "奶茶系列",
+      "items": [
+        {
+          "name": "紅玉奶茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683813d7_uSfnNhiV.jpg"
+        },
+        {
+          "name": "茉莉奶茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683813e3_0Cex3Nsp.jpg"
+        },
+        {
+          "name": "炭焙奶茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683813ef_gOv1X3iG.jpg"
+        },
+        {
+          "name": "柯基奶茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381403_CkKdmayp.jpg"
+        },
+        {
+          "name": "珍珠奶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381776_WoYUMTrS.jpg"
+        },
+        {
+          "name": "雙Q奶茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_6838182b_jAqy5cfD.jpg"
+        }
+      ]
+    },
+    {
+      "category": "拿鐵系列（鮮奶茶）",
+      "items": [
+        {
+          "name": "黃金蕎麥拿鐵",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683819ba_XFHstTIx.jpg"
+        },
+        {
+          "name": "炭焙烏龍拿鐵",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381b3e_PO3ZTLI1.jpg"
+        },
+        {
+          "name": "茉莉綠茶拿鐵",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381b4a_1jAHmd0c.jpg"
+        },
+        {
+          "name": "紅玉紅茶拿鐵",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381b63_OUre5ajt.jpg"
+        },
+        {
+          "name": "東方美人拿鐵",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381b6e_7GX0vHZu.jpg"
+        }
+      ]
+    },
+    {
+      "category": "柯基奶蓋",
+      "items": [
+        {
+          "name": "紅茶奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381c5e_HIJ7lOV5.jpg"
+        },
+        {
+          "name": "茉莉奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381c8f_fq4JHgTr.jpg"
+        },
+        {
+          "name": "炭焙奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381d2a_fO8gerUJ.jpg"
+        }
+      ]
+    },
+    {
+      "category": "可可脆蓋",
+      "items": [
+        {
+          "name": "珍奶脆蓋",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381d76_GR5fJWVu.jpg"
+        },
+        {
+          "name": "茉莉脆蓋",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381ddb_mK94i56X.jpg"
+        },
+        {
+          "name": "炭焙脆蓋",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381e19_OQI2YJxX.jpg"
+        }
+      ]
+    },
+    {
+      "category": "短腿特調",
+      "items": [
+        {
+          "name": "桑葚原汁",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381e56_y6SPiUsn.jpg"
+        },
+        {
+          "name": "桂香紅烏",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381ebb_IntxKdy7.jpg"
+        },
+        {
+          "name": "多多綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381f31_TnaSIbuW.jpg"
+        },
+        {
+          "name": "蜂蜜綠茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381f58_LU8YKXZx.jpg"
+        },
+        {
+          "name": "冰淇淋紅茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55
+        },
+        {
+          "name": "蜂蜜檸檬汁",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68381faf_56RHDICA.jpg"
+        }
+      ]
+    },
+    {
+      "category": "蕎麥系列",
+      "items": [
+        {
+          "name": "黃金蕎麥",
+          "description": null,
+          "price_cold": 30,
+          "price_hot": 30,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683820c7_j5ZHMIe0.jpg"
+        },
+        {
+          "name": "蕎麥拿鐵",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683820de_Flekacvd.jpg"
+        },
+        {
+          "name": "蕎麥奶茶",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683820f2_HJ1ZeRgl.jpg"
+        }
+      ]
+    },
+    {
+      "category": "增基蛋白",
+      "items": [
+        {
+          "name": "木瓜牛奶高蛋白",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68382141_zMHlOX9j.jpg"
+        },
+        {
+          "name": "草莓牛奶高蛋白",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_6838215e_s9NKhXGV.jpg"
+        },
+        {
+          "name": "香蕉牛奶高蛋白",
+          "description": null,
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_6838217e_xb9rc8sY.jpg"
+        }
+      ]
+    },
+    {
+      "category": "峇里島咖啡",
+      "items": [
+        {
+          "name": "美式咖啡",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683821d3_CfkPx2zT.jpg"
+        },
+        {
+          "name": "咖啡拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_683821f2_J1Ws8eG4.jpg"
+        },
+        {
+          "name": "雪融咖啡",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68382210_1TXGNAMS.jpg"
+        }
+      ]
+    },
+    {
+      "category": "柯基點心",
+      "items": [
+        {
+          "name": "柯基燒餅(甜) ",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68382237_x0ZutyvY.jpg"
+        },
+        {
+          "name": "柯基燒餅(鹹)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_68382253_TRcedND4.jpg"
+        },
+        {
+          "name": "柯基燒餅(紅豆)",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/3097/b3097_6838226c_YeHKCfjI.jpg"
+        }
+      ]
+    }
+  ]
+}

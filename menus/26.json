@@ -1,0 +1,375 @@
+{
+  "store_id": 26,
+  "store_name": "新竹民族店",
+  "brand_code": "milkshoptea",
+  "brand_name": "迷客夏",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "熱銷新品",
+      "items": [
+        {
+          "name": "島嶼芒果青梅綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_6818724e_HZTRKvgi.jpg"
+        },
+        {
+          "name": "海鹽芒果綠",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_6818720b_unP34tso.jpg"
+        },
+        {
+          "name": "熱帶水果氣泡",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_68187286_wYiPOHj7.jpg"
+        }
+      ]
+    },
+    {
+      "category": "愛茶的牛",
+      "items": [
+        {
+          "name": "娜杯紅茶",
+          "description": "特選斯里蘭卡中低海拔盧哈娜茶葉產區，得天獨厚的氣候造就厚實的紅茶風味，單茶酌飲茶香獨特，餘韻持久，口感清爽不油膩。",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddee3_5AYfBebE.jpg"
+        },
+        {
+          "name": "英倫伯爵紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_649933ef_Nx9rO13z.jpg"
+        },
+        {
+          "name": "大正醇香紅茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630dde87_sRJF6gjf.jpg"
+        },
+        {
+          "name": "原片初露青茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630dded9_vm9xFNpl.jpg"
+        },
+        {
+          "name": "茉莉原淬綠茶 ",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddeca_ptSlLYAm.jpg"
+        },
+        {
+          "name": "琥珀高峰烏龍",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_649933fd_Cj3PlkNR.jpg"
+        },
+        {
+          "name": "水之森玄米抹茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_6525fadf_VgOxX6r3.jpg"
+        }
+      ]
+    },
+    {
+      "category": "手作特調",
+      "items": [
+        {
+          "name": "熟釀青梅綠",
+          "description": "適合夏日消暑的酸甜感系飲品。前段帶出濃郁酸鹹的梅子味，尾韻有清爽的綠茶香，風味酸甜清爽。",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_665ff9d9_kJwbce4R.jpg"
+        },
+        {
+          "name": "熟釀青梅檸",
+          "description": "適合夏日消暑的酸甜感系飲品。不同的兩種果香和酸甜鹹互搭，檸檬的添加讓整體風味更具層次。 ※ 此飲品不含咖啡因",
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_665ffa3a_mkXjqOVK.jpg"
+        },
+        {
+          "name": "冰糖洛神梅",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddaf1_IerBbT4y.jpg"
+        },
+        {
+          "name": "白甘蔗青茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddacd_Zn3epR4g.jpg"
+        },
+        {
+          "name": "柚蜜白玉",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_63f71c27_YJE4hjli.jpg"
+        },
+        {
+          "name": "香柚綠茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddb53_R43FVjA1.jpg"
+        },
+        {
+          "name": "養樂多綠",
+          "description": "茉莉原淬綠茶搭配養樂多多，清甜微酸、清爽無負擔。",
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddb79_ipAZyCR4.jpg"
+        },
+        {
+          "name": "青檸香茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddb22_PgLs180b.jpg"
+        },
+        {
+          "name": "冬瓜青茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630dda87_EAVJMPnd.jpg"
+        },
+        {
+          "name": "冬瓜麥茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddab5_Rlm7cfMS.jpg"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddac4_45RBIfM7.jpg"
+        },
+        {
+          "name": "柳丁綠茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddb42_HdRVOh3g.jpg"
+        },
+        {
+          "name": "柳丁青茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddb31_wB6QT8o9.jpg"
+        },
+        {
+          "name": "冰萃柳丁",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddb14_BqxELwVR.jpg"
+        },
+        {
+          "name": "冰萃檸檬",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddb01_06iToEvf.jpg"
+        },
+        {
+          "name": "蜂蜜檸檬晶凍",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de304_gymw9ZF3.jpg"
+        },
+        {
+          "name": "蜜桃烏龍",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_665ffc91_snXy1Tm3.jpg"
+        },
+        {
+          "name": "蜜桃茉莉",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_665ffcb4_fRtsrwdE.jpg"
+        }
+      ]
+    },
+    {
+      "category": "牧場鮮奶茶",
+      "items": [
+        {
+          "name": "娜杯紅茶拿鐵",
+          "description": "特選自斯里蘭卡中低海拔盧哈娜茶葉產區，添加迷客夏自家綠光牧場的鮮乳製成，特製的調飲比例讓盧哈娜紅茶與鮮奶風味達到平衡，奶味不失濃郁醇香，帶有些許焦糖香氣滑潤順口。",
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de294_zKDSHRgb.jpg"
+        },
+        {
+          "name": "伯爵紅茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de27b_1kH7EmFg.jpg"
+        },
+        {
+          "name": "大正紅茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de252_MzJlHFAG.jpg"
+        },
+        {
+          "name": "琥珀烏龍拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de2a2_afEmNyr0.jpg"
+        },
+        {
+          "name": "茉香綠茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de2ce_BdFQcZqt.jpg"
+        },
+        {
+          "name": "原片青茶拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de287_JGjWA0Ql.jpg"
+        },
+        {
+          "name": "珍珠伯爵紅茶拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de1a5_5YueM8vx.jpg"
+        },
+        {
+          "name": "珍珠大正紅茶拿鐵",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de190_b1HQAxMd.jpg"
+        },
+        {
+          "name": "珍珠娜杯紅茶拿鐵",
+          "description": "嚴選斯里蘭卡中低海拔-盧哈娜產區紅茶，帶有焦糖甜香的獨特茶韻，茶色呈現迷人的深紅褐色。搭配純淨香濃綠光鮮奶與娜杯紅茶融合，再加入Q彈白玉珍珠，變身香氣獨特的珍珠娜杯紅茶拿鐵。",
+          "price_cold": 80,
+          "price_hot": 80,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de1af_rJ4BFoGW.jpg"
+        }
+      ]
+    },
+    {
+      "category": "綠光牧場鮮奶",
+      "items": [
+        {
+          "name": "芋頭鮮奶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_649933be_EcpD4Zlb.jpg"
+        },
+        {
+          "name": "手炒黑糖鮮奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddffd_d9vh1wbc.jpg"
+        },
+        {
+          "name": "珍珠鮮奶",
+          "description": null,
+          "price_cold": 90,
+          "price_hot": 90,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddfeb_3pJg6IZe.jpg"
+        },
+        {
+          "name": "嫩仙草凍奶",
+          "description": null,
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddfb8_wm6W9huP.jpg"
+        },
+        {
+          "name": "綠光純鮮奶家庭號",
+          "description": null,
+          "price_cold": 169,
+          "price_hot": 169,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddff5_EBQhGKgo.jpg"
+        },
+        {
+          "name": "玄米抹茶鮮奶",
+          "description": "嚴選福岡特級奧八女抹茶，加入直火炒焙玄 米，再搭配香醇綠光鮮奶，一杯玄米抹茶乳 香拿鐵誕生了！推薦給喜愛嚐鮮的你。",
+          "price_cold": 85,
+          "price_hot": 85,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_65434bdb_YXpMdkbJ.jpg"
+        }
+      ]
+    },
+    {
+      "category": "無咖啡因",
+      "items": [
+        {
+          "name": "輕纖蕎麥拿鐵",
+          "description": "自然的蕎麥香氣，無咖啡因飲茶，蕎麥本身含膳食纖維與多樣維生素。使用獨有的製成技術，讓穀香濃郁撲鼻，滋味溫潤回甘。搭配自家綠光鮮奶，風味更溫潤順口。※ 此飲品不含咖啡因",
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_665ff9b9_MND1VpWx.jpg"
+        },
+        {
+          "name": "輕纖蕎麥茶",
+          "description": "自然的蕎麥香氣，無咖啡因飲茶，蕎麥本身含膳食纖維與多樣維生素。使用獨有的製成技術，讓穀香濃郁撲鼻，滋味溫潤回甘。※ 此飲品不含咖啡因",
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_665ff922_An8rtXDQ.jpg"
+        },
+        {
+          "name": "原鄉冬瓜茶",
+          "description": null,
+          "price_cold": 40,
+          "price_hot": 40,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630dde93_gW5wKqeJ.jpg"
+        },
+        {
+          "name": "焙香決明大麥",
+          "description": null,
+          "price_cold": 35,
+          "price_hot": 35,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630ddeaa_nSUzANuB.jpg"
+        },
+        {
+          "name": "焙香大麥拿鐵",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2/b2_630de2c4_vdlqtjES.jpg"
+        }
+      ]
+    }
+  ]
+}

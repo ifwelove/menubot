@@ -1,0 +1,558 @@
+{
+  "store_id": 23209,
+  "store_name": "昆陽店",
+  "brand_code": "threepercent",
+  "brand_name": "3%THREE PERCENT 金萱茶手搖專賣店",
+  "menu_version": "2025-08-14",
+  "menu_items": [
+    {
+      "category": "濃韻茶香",
+      "items": [
+        {
+          "name": "3%金萱茶王",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674973f8_OQTdRgZS.png"
+        },
+        {
+          "name": "蜜香紅茶",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749741c_1Em2RotZ.png"
+        },
+        {
+          "name": "炭焙萱烏龍",
+          "description": null,
+          "price_cold": 45,
+          "price_hot": 45,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749743c_39K1WAPr.png"
+        },
+        {
+          "name": "云霧萱普洱",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497465_6oBZc5Ln.png"
+        },
+        {
+          "name": "焦香國寶茶",
+          "description": null,
+          "price_cold": 50,
+          "price_hot": 50,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749747e_qxIbV5io.png"
+        },
+        {
+          "name": "3%珍粿凍茶王",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674972f6_SoA3pfKv.png"
+        },
+        {
+          "name": "3%金萱茶王",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674973f8_OQTdRgZS.png"
+        },
+        {
+          "name": "蜜香紅茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749741c_1Em2RotZ.png"
+        },
+        {
+          "name": "炭焙萱烏龍",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749743c_39K1WAPr.png"
+        },
+        {
+          "name": "云霧萱普洱",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497465_6oBZc5Ln.png"
+        },
+        {
+          "name": "焦香國寶茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749747e_qxIbV5io.png"
+        },
+        {
+          "name": "3%珍粿凍茶王",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674972f6_SoA3pfKv.png"
+        }
+      ]
+    },
+    {
+      "category": "醇厚奶香",
+      "items": [
+        {
+          "name": "3%頂級金萱歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497499_cAXuQq4n.png"
+        },
+        {
+          "name": "萱玉紅歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674974bd_IR1r0obY.png"
+        },
+        {
+          "name": "炭焙萱烏歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674974de_fn5CL8is.png"
+        },
+        {
+          "name": "云霧萱普洱歐蕾",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674974fe_PCNQ29Vn.png"
+        },
+        {
+          "name": "3%頂級金萱歐蕾",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497499_cAXuQq4n.png"
+        },
+        {
+          "name": "萱玉紅歐蕾",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674974bd_IR1r0obY.png"
+        },
+        {
+          "name": "炭焙萱烏歐蕾",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674974de_fn5CL8is.png"
+        },
+        {
+          "name": "云霧萱普洱歐蕾",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674974fe_PCNQ29Vn.png"
+        }
+      ]
+    },
+    {
+      "category": "復刻香醇",
+      "items": [
+        {
+          "name": "萱玉紅奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749752e_7DztRbwk.png"
+        },
+        {
+          "name": "萱烏龍奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749754c_kgyzOpBi.png"
+        },
+        {
+          "name": "珍珠萱玉紅奶茶",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749756d_F2rQDPVa.png"
+        },
+        {
+          "name": "焦香國寶奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497291_UHrp8CKE.png"
+        },
+        {
+          "name": "3%茶王奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674972db_dm5plxsV.png"
+        },
+        {
+          "name": "普洱奶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5538_qlIsbHjz.jpg"
+        },
+        {
+          "name": "萱玉紅奶茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749752e_7DztRbwk.png"
+        },
+        {
+          "name": "萱烏龍奶茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749754c_kgyzOpBi.png"
+        },
+        {
+          "name": "珍珠萱玉紅奶茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_6749756d_F2rQDPVa.png"
+        },
+        {
+          "name": "焦香國寶奶茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497291_UHrp8CKE.png"
+        },
+        {
+          "name": "3%茶王奶茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674972db_dm5plxsV.png"
+        },
+        {
+          "name": "普洱奶茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5538_qlIsbHjz.jpg"
+        }
+      ]
+    },
+    {
+      "category": "輕甜果香",
+      "items": [
+        {
+          "name": "金萱冬露露",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497a0f_VPYdDe2K.png"
+        },
+        {
+          "name": "桂香金萱茶",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497a31_OICWTStp.png"
+        },
+        {
+          "name": "桂香國寶茶",
+          "description": null,
+          "price_cold": 60,
+          "price_hot": 60,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497a70_Kw6gRXck.png"
+        },
+        {
+          "name": "蜜桃紅茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497a8e_9DSz3iu2.png"
+        },
+        {
+          "name": "荔香金萱茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497aa9_omeE6BSi.png"
+        },
+        {
+          "name": "蜂蜜洛神萱烏龍",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497ac7_SQHwD6Xq.png"
+        },
+        {
+          "name": "蜂蜜檸檬蜜香紅",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497aeb_8hSMtP6p.png"
+        },
+        {
+          "name": "桂花西柚果粒茶",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497b14_k7hKpZqx.png"
+        },
+        {
+          "name": "3%輕甜水果茶王",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497b2f_GQv0Dr9U.png"
+        },
+        {
+          "name": "蜜桃烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674d07f9_k97MUv0y.png"
+        },
+        {
+          "name": "檸檬金萱茶",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674d081f_Agkx068z.png"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 55,
+          "price_hot": 55,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5521_WBmkitHe.jpg"
+        },
+        {
+          "name": "紫蘇梅萱烏龍",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5506_OQ4YrvM2.jpg"
+        },
+        {
+          "name": "金萱冬露露",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497a0f_VPYdDe2K.png"
+        },
+        {
+          "name": "桂香金萱茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497a31_OICWTStp.png"
+        },
+        {
+          "name": "桂香國寶茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497a70_Kw6gRXck.png"
+        },
+        {
+          "name": "蜜桃紅茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497a8e_9DSz3iu2.png"
+        },
+        {
+          "name": "荔香金萱茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497aa9_omeE6BSi.png"
+        },
+        {
+          "name": "蜂蜜洛神萱烏龍",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497ac7_SQHwD6Xq.png"
+        },
+        {
+          "name": "蜂蜜檸檬蜜香紅",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497aeb_8hSMtP6p.png"
+        },
+        {
+          "name": "桂花西柚果粒茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497b14_k7hKpZqx.png"
+        },
+        {
+          "name": "3%輕甜水果茶王",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67497b2f_GQv0Dr9U.png"
+        },
+        {
+          "name": "蜜桃烏龍",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674d07f9_k97MUv0y.png"
+        },
+        {
+          "name": "檸檬金萱茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_674d081f_Agkx068z.png"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5521_WBmkitHe.jpg"
+        },
+        {
+          "name": "紫蘇梅萱烏龍",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5506_OQ4YrvM2.jpg"
+        }
+      ]
+    },
+    {
+      "category": "奶蓋",
+      "items": [
+        {
+          "name": "萱普洱奶蓋",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5974_JpQRfGEN.jpg"
+        },
+        {
+          "name": "茶王奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea554f_mcjvXkBh.jpg"
+        },
+        {
+          "name": "蜜香紅奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5565_vybTpg6Y.jpg"
+        },
+        {
+          "name": "萱烏龍奶蓋",
+          "description": null,
+          "price_cold": 65,
+          "price_hot": 65,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5575_4DXEjy5M.jpg"
+        },
+        {
+          "name": "桂香金萱奶蓋",
+          "description": null,
+          "price_cold": 75,
+          "price_hot": 75,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea558e_CGlOKkNu.jpg"
+        },
+        {
+          "name": "國寶茶奶蓋",
+          "description": null,
+          "price_cold": 70,
+          "price_hot": 70,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea55a3_nIvpk5xK.jpg"
+        },
+        {
+          "name": "萱普洱奶蓋",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5974_JpQRfGEN.jpg"
+        },
+        {
+          "name": "茶王奶蓋",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea554f_mcjvXkBh.jpg"
+        },
+        {
+          "name": "蜜香紅奶蓋",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5565_vybTpg6Y.jpg"
+        },
+        {
+          "name": "萱烏龍奶蓋",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea5575_4DXEjy5M.jpg"
+        },
+        {
+          "name": "桂香金萱奶蓋",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea558e_CGlOKkNu.jpg"
+        },
+        {
+          "name": "國寶茶奶蓋",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320,
+          "image": "https://cdn-order-v3.nidin.shop/product/images/2313/b2313_67ea55a3_nIvpk5xK.jpg"
+        }
+      ]
+    },
+    {
+      "category": "買十送一贈品(滿10杯送一份)",
+      "items": [
+        {
+          "name": "買10送1｜3%手提袋2025版",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320
+        },
+        {
+          "name": "買10送1｜3%手提袋2025版",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320
+        }
+      ]
+    },
+    {
+      "category": "季節限定",
+      "items": [
+        {
+          "name": "戀夏芒果果茶",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320
+        },
+        {
+          "name": "戀夏芒粿粿奶蓋",
+          "description": null,
+          "price_cold": 320,
+          "price_hot": 320
+        }
+      ]
+    }
+  ]
+}
