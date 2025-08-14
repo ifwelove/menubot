@@ -1026,15 +1026,10 @@ class LineBotController extends Controller
         
         $this->sendToTelegram("📍 收到位置: {$latitude}, {$longitude}\n地址: {$address}");
         
-        // 檢查是否是從隨機推薦來的位置分享
-        $textBefore = $event['message']['text'] ?? '';
-        if (strpos($textBefore, '附近隨機推薦') !== false || 
-            ($userId && Cache::get("user_action_{$userId}") === 'random_nearby')) {
-            
+        // 優先檢查是否是從隨機推薦來的位置分享
+        if ($userId && Cache::get("user_action_{$userId}") === 'random_nearby') {
             // 清除暫存狀態
-            if ($userId) {
-                Cache::forget("user_action_{$userId}");
-            }
+            Cache::forget("user_action_{$userId}");
             
             $this->sendToTelegram("🎲 執行附近隨機推薦");
             
@@ -1043,7 +1038,7 @@ class LineBotController extends Controller
             return;
         }
         
-        // 檢查是否有自訂搜尋的距離設定
+        // 其次檢查是否有自訂搜尋的距離設定
         if ($userId) {
             $customDistance = Cache::get("custom_search_distance_{$userId}");
             if ($customDistance !== null) {
