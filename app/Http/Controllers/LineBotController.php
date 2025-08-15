@@ -117,11 +117,11 @@ class LineBotController extends Controller
         register_shutdown_function(function() {
             $error = error_get_last();
             if ($error && in_array($error['type'], [E_ERROR, E_CORE_ERROR, E_COMPILE_ERROR, E_PARSE])) {
-                $this->sendToTelegram("💥 Fatal Error: " . $error['message'] . "\n" . 
+                $this->sendToTelegram("💥 Fatal Error: " . $error['message'] . "\n" .
                                     "File: " . $error['file'] . ":" . $error['line']);
             }
         });
-        
+
         // 記錄收到的請求
         $this->sendToTelegram("🔵 收到 LINE Webhook 請求\n" . json_encode($request->all(), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
@@ -134,7 +134,7 @@ class LineBotController extends Controller
 
                     // 記錄收到的訊息
                     $this->sendToTelegram("📨 收到訊息: {$userMessage}");
-                    
+
                     // 正規化訊息：將日文「説」替換為中文「說」
                     $normalizedMessage = str_replace('説', '說', $userMessage);
 
@@ -217,7 +217,7 @@ class LineBotController extends Controller
                             // 只找到一個結果，直接顯示菜單
                             $shopCode = array_key_first($searchResults);
                             $this->sendToTelegram("🔍 找到唯一店家: {$shopCode}");
-                            
+
                             try {
                                 $shop = $this->menuService->getMenuByBrandCode($shopCode);
                                 if ($shop) {
@@ -251,7 +251,7 @@ class LineBotController extends Controller
                 } elseif ($event['type'] == 'message' && $event['message']['type'] == 'location') {
                     // 處理位置訊息
                     $this->handleLocationMessage($event);
-                    
+
                 } elseif ($event['type'] == 'postback') {
                     $data = $event['postback']['data'];
                     parse_str($data, $postbackData);
@@ -271,7 +271,7 @@ class LineBotController extends Controller
                             $shopCode = $postbackData['shop'];
                             $category = $postbackData['category'];
                             $shop = $this->menuService->getMenuByBrandCode($shopCode);
-                            
+
                             if ($shop && isset($shop['menu_items'][$category])) {
                                 $this->sendToTelegram("📋 顯示分類: {$category}");
                                 $this->replyWithCategoryItems($event['replyToken'], $shop, $category);
@@ -330,7 +330,7 @@ class LineBotController extends Controller
                             $lat = (float)($postbackData['lat'] ?? 0);
                             $lng = (float)($postbackData['lng'] ?? 0);
                             $distance = (float)($postbackData['distance'] ?? 2.0);
-                            
+
                             $this->sendToTelegram("📍 執行搜尋: 距離 {$distance} 公里");
                             $this->findNearbyShops($event['replyToken'], $lat, $lng, $distance);
                         } elseif ($postbackData['action'] == 'select_distance') {
@@ -341,13 +341,13 @@ class LineBotController extends Controller
                             // 自訂搜尋範圍 - 選擇距離後要求分享位置
                             $distance = (float)($postbackData['distance'] ?? 2.0);
                             $userId = $event['source']['userId'] ?? null;
-                            
+
                             if ($userId) {
                                 // 暫存用戶選擇的距離（5分鐘有效）
                                 Cache::put("custom_search_distance_{$userId}", $distance, 300);
                                 $this->sendToTelegram("🎯 儲存用戶 {$userId} 的自訂距離：{$distance} km");
                             }
-                            
+
                             $this->requestLocationForCustomSearch($event['replyToken'], $distance);
                         }
                     } catch (\Exception $e) {
@@ -442,13 +442,13 @@ class LineBotController extends Controller
             // // 優先檢查是否有菜單圖片
             // $menuImagePath = "/images/menus/{$shop['shop_name']}.png";
             // $fullImagePath = public_path($menuImagePath);
-            // 
+            //
             // if (file_exists($fullImagePath)) {
             //     $this->sendToTelegram("📷 使用圖片菜單: {$menuImagePath}");
             //     $this->replyWithMenuImage($replyToken, $shop, $title);
             //     return;
             // }
-            
+
             // 檢查菜單資料是否存在
             if (!isset($shop['menu_items']) || empty($shop['menu_items'])) {
                 $this->sendToTelegram("⚠️ 店家菜單資料不完整: " . json_encode($shop, JSON_UNESCAPED_UNICODE));
@@ -457,7 +457,7 @@ class LineBotController extends Controller
                 ));
                 return;
             }
-            
+
             // 計算菜單項目總數
             $totalItems = 0;
             foreach ($shop['menu_items'] as $category => $categoryData) {
@@ -467,7 +467,7 @@ class LineBotController extends Controller
                     $totalItems += count($categoryData);
                 }
             }
-            
+
             // 如果項目太多，使用分類選擇方式
             if ($totalItems > 50 || count($shop['menu_items']) > 5) {
                 $this->sendToTelegram("📋 菜單太大 ({$totalItems} 項)，使用分類選擇");
@@ -490,7 +490,7 @@ class LineBotController extends Controller
                     $this->sendToTelegram("⚠️ 分類 {$category} 的項目格式不正確");
                     continue;
                 }
-                
+
                 $itemComponents[] = TextComponentBuilder::builder()
                     ->setText($category)
                     ->setWeight('bold')
@@ -501,7 +501,7 @@ class LineBotController extends Controller
                     if (!is_array($item) || !isset($item['name'])) {
                         continue;
                     }
-                    
+
                     $priceText = ' ';
                     if (! empty($item['price_cold'])) {
                         $priceText .= $item['price_cold'] . $coldEmoji;
@@ -565,13 +565,13 @@ class LineBotController extends Controller
 
         // 使用LINE Bot实例发送消息
         $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
-        
+
         if ($response->isSucceeded()) {
             $this->sendToTelegram("✅ 成功發送菜單");
         } else {
             $this->sendToTelegram("❌ 發送菜單失敗: " . $response->getRawBody());
         }
-        
+
         } catch (\Exception $e) {
             $this->sendToTelegram("❌ replyWithShopMenu 錯誤: " . $e->getMessage() . "\n" . $e->getTraceAsString());
             $this->bot->replyMessage($replyToken, new TextMessageBuilder(
@@ -588,14 +588,14 @@ class LineBotController extends Controller
         try {
             $menuImagePath = "/images/menus/{$shop['shop_name']}.png";
             $imageUrl = url($menuImagePath);
-            
+
             // 確保是 HTTPS
             if (substr($imageUrl, 0, 7) === 'http://') {
                 $imageUrl = 'https://' . substr($imageUrl, 7);
             }
-            
+
             $this->sendToTelegram("📷 發送圖片菜單: {$imageUrl}");
-            
+
             // 使用 Flex Message 顯示圖片
             $flexMessageBuilder = FlexMessageBuilder::builder()
                 ->setAltText($title)
@@ -631,9 +631,9 @@ class LineBotController extends Controller
                                 ])
                         )
                 );
-            
+
             $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
-            
+
             if ($response->isSucceeded()) {
                 $this->sendToTelegram("✅ 成功發送圖片菜單");
             } else {
@@ -650,7 +650,7 @@ class LineBotController extends Controller
             ));
         }
     }
-    
+
     /**
      * 顯示分類選擇
      */
@@ -658,12 +658,12 @@ class LineBotController extends Controller
     {
         try {
             $categories = array_keys($shop['menu_items']);
-            
+
             // 限制最多顯示 10 個分類
             if (count($categories) > 10) {
                 $categories = array_slice($categories, 0, 10);
             }
-            
+
             // 建立按鈕
             $buttons = [];
             foreach ($categories as $category) {
@@ -674,13 +674,13 @@ class LineBotController extends Controller
                 } else {
                     $itemCount = is_array($categoryData) ? count($categoryData) : 0;
                 }
-                
+
                 $postbackData = http_build_query([
                     'action' => 'view_category',
                     'shop' => $shop['brand_code'] ?? $shop['shop_name'],
                     'category' => $category
                 ]);
-                
+
                 $buttons[] = ButtonComponentBuilder::builder()
                     ->setStyle(ComponentButtonStyle::LINK)
                     ->setHeight(ComponentButtonHeight::SM)
@@ -689,7 +689,7 @@ class LineBotController extends Controller
                         $postbackData
                     ));
             }
-            
+
             $flexMessageBuilder = FlexMessageBuilder::builder()
                 ->setAltText($title)
                 ->setContents(
@@ -720,9 +720,9 @@ class LineBotController extends Controller
                                 ))
                         )
                 );
-            
+
             $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
-            
+
             if ($response->isSucceeded()) {
                 $this->sendToTelegram("✅ 成功發送分類選擇");
             } else {
@@ -743,7 +743,7 @@ class LineBotController extends Controller
     {
         try {
             $this->sendToTelegram("📋 開始顯示分類項目: {$category}");
-            
+
             // 確認分類存在
             if (!isset($shop['menu_items'][$category])) {
                 $this->bot->replyMessage($replyToken, new TextMessageBuilder(
@@ -751,7 +751,7 @@ class LineBotController extends Controller
                 ));
                 return;
             }
-            
+
             // 處理 beverage_shops.php 格式
             $categoryData = $shop['menu_items'][$category];
             if (isset($categoryData['items']) && is_array($categoryData['items'])) {
@@ -766,41 +766,41 @@ class LineBotController extends Controller
             }
             $coldEmoji = "\u{2744}\u{FE0F}"; // ❄️ 雪花
             $hotEmoji  = "\u{1F525}"; // 🔥 火焰
-            
+
             // 建立項目組件
             $itemComponents = [];
-            
+
             // 標題
             $itemComponents[] = TextComponentBuilder::builder()
                 ->setText("{$shop['shop_name']} - {$category}")
                 ->setWeight(ComponentFontWeight::BOLD)
                 ->setSize(ComponentFontSize::LG)
                 ->setMargin(ComponentMargin::MD);
-                
+
             // 分隔線
             $itemComponents[] = SeparatorComponentBuilder::builder()
                 ->setMargin(ComponentMargin::MD);
-            
+
             // 項目列表
             foreach ($items as $item) {
                 if (!is_array($item) || !isset($item['name'])) {
                     continue;
                 }
-                
+
                 $priceText = '';
                 if (!empty($item['price_cold'])) {
-                    $priceText .= $coldEmoji . ' $' . $item['price_cold'];
+                    $priceText .= $item['price_cold'] . $coldEmoji;
                 }
                 if (!empty($item['price_hot'])) {
-                    if ($priceText) $priceText .= ' / ';
-                    $priceText .= $hotEmoji . ' $' . $item['price_hot'];
+                    if ($priceText) $priceText .= '';
+                    $priceText .= $item['price_hot'] . $hotEmoji;
                 }
-                
+
                 // 如果沒有價格資訊，使用預設文字
                 if (empty($priceText)) {
                     $priceText = '價格請洽店家';
                 }
-                
+
                 // 建立項目區塊
                 $itemComponents[] = BoxComponentBuilder::builder()
                     ->setLayout(ComponentLayout::HORIZONTAL)
@@ -818,11 +818,11 @@ class LineBotController extends Controller
                             ->setFlex(2)
                     ]);
             }
-            
+
             // 加入返回按鈕
             $itemComponents[] = SeparatorComponentBuilder::builder()
                 ->setMargin(ComponentMargin::LG);
-                
+
             $itemComponents[] = ButtonComponentBuilder::builder()
                 ->setStyle(ComponentButtonStyle::LINK)
                 ->setHeight(ComponentButtonHeight::SM)
@@ -832,7 +832,7 @@ class LineBotController extends Controller
                 ))
                 ->setColor('#666666')
                 ->setMargin(ComponentMargin::MD);
-            
+
             // 建立 Flex Message
             $flexMessageBuilder = FlexMessageBuilder::builder()
                 ->setAltText("{$shop['shop_name']} - {$category}")
@@ -844,15 +844,15 @@ class LineBotController extends Controller
                                 ->setContents($itemComponents)
                         )
                 );
-            
+
             $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
-            
+
             if ($response->isSucceeded()) {
                 $this->sendToTelegram("✅ 成功發送分類項目");
             } else {
                 $this->sendToTelegram("❌ 發送分類項目失敗: " . $response->getRawBody());
             }
-            
+
         } catch (\Exception $e) {
             $this->sendToTelegram("❌ replyWithCategoryItems 錯誤: " . $e->getMessage());
             $this->bot->replyMessage($replyToken, new TextMessageBuilder(
@@ -1110,7 +1110,7 @@ class LineBotController extends Controller
         if (isset($event['source']['userId'])) {
             $userId = $event['source']['userId'];
         }
-        
+
         // 建立 Quick Reply 按鈕
         $quickReplyButtons = [
             new QuickReplyButtonBuilder(
@@ -1126,19 +1126,19 @@ class LineBotController extends Controller
                 )
             )
         ];
-        
+
         $quickReply = new QuickReplyMessageBuilder($quickReplyButtons);
-        
+
         $message = "請選擇推薦方式：\n\n";
         $message .= "🎲 隨機推薦品牌\n";
         $message .= "從所有品牌中隨機選擇一家\n\n";
         $message .= "📍 附近隨機推薦\n";
         $message .= "從您附近 1km 內的店家隨機選擇";
-        
+
         $textMessage = new TextMessageBuilder($message, $quickReply);
         $this->bot->replyMessage($replyToken, $textMessage);
     }
-    
+
     /**
      * 顯示隨機品牌
      */
@@ -1233,7 +1233,7 @@ class LineBotController extends Controller
     private function showShopTags($replyToken)
     {
         $tags = config('shop_tags');
-        
+
         // 建立標籤按鈕
         $tagButtons = [];
         $colorMap = [
@@ -1247,7 +1247,7 @@ class LineBotController extends Controller
             '特色飲品' => '#E91E63',
             '泰式奶茶' => '#FF5722',
         ];
-        
+
         foreach (array_keys($tags) as $tag) {
             if ($tag !== 'TOP熱門店家') {
                 $color = isset($colorMap[$tag]) ? $colorMap[$tag] : '#607D8B';
@@ -1258,7 +1258,7 @@ class LineBotController extends Controller
                     ->setColor($color);
             }
         }
-        
+
         // 建立 Flex Message
         $flexMessageBuilder = FlexMessageBuilder::builder()
             ->setAltText('飲料店分類標籤')
@@ -1288,7 +1288,7 @@ class LineBotController extends Controller
                         ],
                         $tagButtons
                     ))));
-        
+
         $this->bot->replyMessage($replyToken, $flexMessageBuilder);
     }
 
@@ -1419,36 +1419,36 @@ class LineBotController extends Controller
         $longitude = $event['message']['longitude'];
         $address = $event['message']['address'] ?? '';
         $userId = $event['source']['userId'] ?? null;
-        
+
         $this->sendToTelegram("📍 收到位置: {$latitude}, {$longitude}\n地址: {$address}");
-        
+
         // 優先檢查是否是從隨機推薦來的位置分享
         if ($userId && Cache::get("user_action_{$userId}") === 'random_nearby') {
             // 清除暫存狀態
             Cache::forget("user_action_{$userId}");
-            
+
             $this->sendToTelegram("🎲 執行附近隨機推薦");
-            
+
             // 執行附近隨機推薦
             $this->randomNearbyShop($event['replyToken'], $latitude, $longitude);
             return;
         }
-        
+
         // 其次檢查是否有自訂搜尋的距離設定
         if ($userId) {
             $customDistance = Cache::get("custom_search_distance_{$userId}");
             if ($customDistance !== null) {
                 // 清除暫存
                 Cache::forget("custom_search_distance_{$userId}");
-                
+
                 $this->sendToTelegram("🎯 使用自訂距離搜尋：{$customDistance} km");
-                
+
                 // 直接使用自訂距離搜尋
                 $this->findNearbyShops($event['replyToken'], $latitude, $longitude, $customDistance);
                 return;
             }
         }
-        
+
         // 一般流程：顯示距離選擇選項
         $this->askSearchDistance($event['replyToken'], $latitude, $longitude);
     }
@@ -1460,7 +1460,7 @@ class LineBotController extends Controller
     {
         try {
             $this->sendToTelegram("📍 顯示距離選擇選項");
-            
+
             // 建立快速回覆按鈕
             $quickReplyButtons = [
                 new QuickReplyButtonBuilder(
@@ -1494,10 +1494,10 @@ class LineBotController extends Controller
                     )
                 ),
             ];
-            
+
             // 建立快速回覆訊息
             $quickReply = new QuickReplyMessageBuilder($quickReplyButtons);
-            
+
             // 建立文字訊息並附加快速回覆
             $textMessageBuilder = new TextMessageBuilder(
                 "📍 請選擇搜尋範圍：\n\n" .
@@ -1505,10 +1505,10 @@ class LineBotController extends Controller
                 "選擇較大的範圍可以看到更多選擇。",
                 $quickReply
             );
-            
+
             // 發送訊息
             $response = $this->bot->replyMessage($replyToken, $textMessageBuilder);
-            
+
             if ($response->isSucceeded()) {
                 $this->sendToTelegram("✅ 成功發送距離選擇選項");
             } else {
@@ -1516,7 +1516,7 @@ class LineBotController extends Controller
                 // 如果失敗，使用預設 2 公里搜尋
                 $this->findNearbyShops($replyToken, $latitude, $longitude, 2.0);
             }
-            
+
         } catch (\Exception $e) {
             $this->sendToTelegram("❌ askSearchDistance 錯誤: " . $e->getMessage());
             // 發生錯誤時使用預設搜尋
@@ -1531,32 +1531,32 @@ class LineBotController extends Controller
     private function searchNearbyShopsData($userLat, $userLng, $searchDistance)
     {
         $nearbyShops = [];
-        
+
         try {
             $nidinData = $this->shopSearchService->getNidinShops();
             $brands = config('menu.shops.drink');
             $brandCount = count($brands);
-            
+
             $this->sendToTelegram("📍 開始搜尋 {$searchDistance} 公里內的店家，共有 {$brandCount} 個品牌");
-            
+
             foreach ($nidinData as $shopCode => $stores) {
                 $shopName = config("menu.shops.drink.{$shopCode}");
                 if (!$shopName) {
                     continue;
                 }
-                
+
                 try {
                     foreach ($stores as $store) {
                         if (empty($store['latitude']) || empty($store['longitude'])) {
                             continue;
                         }
-                        
+
                         $distance = $this->calculateDistance(
-                            $userLat, $userLng, 
-                            (float)$store['latitude'], 
+                            $userLat, $userLng,
+                            (float)$store['latitude'],
                             (float)$store['longitude']
                         );
-                        
+
                         if ($distance <= $searchDistance) {
                             $nearbyShops[] = [
                                 'shop_code' => $shopCode,
@@ -1573,21 +1573,21 @@ class LineBotController extends Controller
                     continue;
                 }
             }
-            
+
             $this->sendToTelegram("📍 找到 " . count($nearbyShops) . " 家附近的店");
-            
+
             // 按距離排序
             usort($nearbyShops, function($a, $b) {
                 return $a['distance'] <=> $b['distance'];
             });
-            
+
         } catch (\Exception $e) {
             $this->sendToTelegram("❌ 搜尋店家時發生錯誤: " . $e->getMessage());
         }
-        
+
         return $nearbyShops;
     }
-    
+
     /**
      * 尋找附近的飲料店
      */
@@ -1595,7 +1595,7 @@ class LineBotController extends Controller
     {
         // 使用共用邏輯搜尋附近店家
         $nearbyShops = $this->searchNearbyShopsData($userLat, $userLng, $searchDistance);
-        
+
         // 顯示結果，傳遞搜尋距離
         $this->displayNearbyShops($replyToken, $nearbyShops, $searchDistance);
     }
@@ -1606,19 +1606,19 @@ class LineBotController extends Controller
     private function calculateDistance($lat1, $lon1, $lat2, $lon2)
     {
         $earthRadius = 6371; // 地球半徑（公里）
-        
+
         $latDiff = deg2rad($lat2 - $lat1);
         $lonDiff = deg2rad($lon2 - $lon1);
-        
+
         $a = sin($latDiff/2) * sin($latDiff/2) +
              cos(deg2rad($lat1)) * cos(deg2rad($lat2)) *
              sin($lonDiff/2) * sin($lonDiff/2);
-        
+
         $c = 2 * atan2(sqrt($a), sqrt(1-$a));
-        
+
         return $earthRadius * $c;
     }
-    
+
     /**
      * 請求位置來進行附近隨機推薦
      */
@@ -1630,15 +1630,15 @@ class LineBotController extends Controller
                 null
             )
         ];
-        
+
         $quickReply = new QuickReplyMessageBuilder($quickReplyButtons);
-        
+
         $message = "請分享您的位置，我會從您附近 1 公里內隨機推薦一家飲料店給您！";
-        
+
         $textMessage = new TextMessageBuilder($message, $quickReply);
         $this->bot->replyMessage($replyToken, $textMessage);
     }
-    
+
     /**
      * 隨機推薦附近的店家
      */
@@ -1646,18 +1646,18 @@ class LineBotController extends Controller
     {
         // 使用 1km 作為預設搜尋範圍
         $searchDistance = 1.0;
-        
+
         $this->sendToTelegram("📍 開始搜尋附近 {$searchDistance}km 內的隨機店家");
-        
+
         // 使用共用邏輯搜尋附近店家
         $nearbyShops = $this->searchNearbyShopsData($userLat, $userLng, $searchDistance);
-        
+
         $this->sendToTelegram("📍 找到 " . count($nearbyShops) . " 家附近的店");
-        
+
         if (empty($nearbyShops)) {
             $message = "您附近 1 公里內沒有找到飲料店 😢\n\n";
             $message .= "要不要試試看隨機推薦品牌？";
-            
+
             // 提供 Quick Reply 選項
             $quickReplyButtons = [
                 new QuickReplyButtonBuilder(
@@ -1667,19 +1667,19 @@ class LineBotController extends Controller
                     )
                 )
             ];
-            
+
             $quickReply = new QuickReplyMessageBuilder($quickReplyButtons);
             $textMessage = new TextMessageBuilder($message, $quickReply);
             $this->bot->replyMessage($replyToken, $textMessage);
             return;
         }
-        
+
         // 隨機選擇一家
         $randomIndex = array_rand($nearbyShops);
         $selectedShop = $nearbyShops[$randomIndex];
-        
+
         $this->sendToTelegram("📍 隨機選中：{$selectedShop['shop_name']} {$selectedShop['branch_name']}");
-        
+
         // 載入並顯示菜單
         $shop = $this->menuService->getMenuByBrandCode($selectedShop['shop_code']);
         if ($shop) {
@@ -1697,7 +1697,7 @@ class LineBotController extends Controller
     {
         try {
             $this->sendToTelegram("🎯 顯示自訂搜尋範圍選項");
-            
+
             // 使用 Flex Message 顯示距離選項
             $buttonComponents = [
                 ButtonComponentBuilder::builder()
@@ -1721,7 +1721,7 @@ class LineBotController extends Controller
                     ->setAction(new PostbackTemplateActionBuilder('🔍 搜尋 5 公里內', 'action=custom_search&distance=5'))
                     ->setColor('#F44336'),
             ];
-            
+
             $flexMessageBuilder = FlexMessageBuilder::builder()
                 ->setAltText('選擇搜尋範圍')
                 ->setContents(BubbleContainerBuilder::builder()
@@ -1755,18 +1755,18 @@ class LineBotController extends Controller
                                 ->setSpacing(ComponentSpacing::SM)
                                 ->setContents($buttonComponents)
                         ])));
-            
+
             $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
-            
+
             if ($response->isSucceeded()) {
                 $this->sendToTelegram("✅ 成功顯示距離選項");
             } else {
                 $this->sendToTelegram("❌ 顯示距離選項失敗: " . $response->getRawBody());
             }
-            
+
         } catch (\Exception $e) {
             $this->sendToTelegram("❌ showDistanceOptions 錯誤: " . $e->getMessage());
-            
+
             // 回傳錯誤訊息
             $this->bot->replyMessage($replyToken, new TextMessageBuilder(
                 "抱歉，功能暫時無法使用。\n請直接分享您的位置。"
@@ -1782,40 +1782,40 @@ class LineBotController extends Controller
         try {
             $distanceText = $distance < 1 ? ($distance * 1000) . ' 公尺' : $distance . ' 公里';
             $this->sendToTelegram("🎯 自訂搜尋範圍：要求分享位置，距離 {$distanceText}");
-            
+
             // 建立快速回覆按鈕
             $quickReplyButton = new QuickReplyButtonBuilder(
                 new LocationTemplateActionBuilder('分享位置')
             );
-            
+
             // 建立快速回覆訊息
             $quickReply = new QuickReplyMessageBuilder([$quickReplyButton]);
-            
+
             // 建立文字訊息並附加快速回覆
             // 在訊息中加入特殊標記，用於識別自訂搜尋模式
             $message = "🎯 [自訂搜尋:{$distance}km] 已選擇搜尋範圍：{$distanceText}\n\n";
             $message .= "請分享您的位置，我會立即搜尋範圍內的飲料店！\n";
             $message .= "點擊下方的「分享位置」按鈕開始搜尋。\n\n";
             $message .= "⚡ 分享位置後將直接搜尋，不會再詢問距離";
-            
+
             $textMessageBuilder = new TextMessageBuilder($message, $quickReply);
-            
+
             // 儲存距離資訊（使用 Redis 或其他方式）
             // 這裡我們使用訊息內容來標記
             $this->sendToTelegram("🎯 標記自訂搜尋模式，距離：{$distance} km");
-            
+
             // 發送訊息
             $response = $this->bot->replyMessage($replyToken, $textMessageBuilder);
-            
+
             if ($response->isSucceeded()) {
                 $this->sendToTelegram("✅ 成功發送自訂搜尋的位置請求");
             } else {
                 $this->sendToTelegram("❌ 發送位置請求失敗: " . $response->getRawBody());
             }
-            
+
         } catch (\Exception $e) {
             $this->sendToTelegram("❌ requestLocationForCustomSearch 錯誤: " . $e->getMessage());
-            
+
             // 回傳錯誤訊息
             $this->bot->replyMessage($replyToken, new TextMessageBuilder(
                 "抱歉，功能暫時無法使用。\n請直接分享您的位置。"
@@ -1831,15 +1831,15 @@ class LineBotController extends Controller
         try {
             $distanceText = $distance < 1 ? ($distance * 1000) . ' 公尺' : $distance . ' 公里';
             $this->sendToTelegram("📍 要求用戶分享位置，預設距離: {$distanceText}");
-            
+
             // 建立快速回覆按鈕
             $quickReplyButton = new QuickReplyButtonBuilder(
                 new LocationTemplateActionBuilder('分享位置')
             );
-            
+
             // 建立快速回覆訊息
             $quickReply = new QuickReplyMessageBuilder([$quickReplyButton]);
-            
+
             // 建立文字訊息並附加快速回覆
             $textMessageBuilder = new TextMessageBuilder(
                 "🎯 已選擇搜尋範圍：{$distanceText}\n\n" .
@@ -1848,21 +1848,21 @@ class LineBotController extends Controller
                 "💡 提示：分享位置後會直接搜尋 {$distanceText} 內的店家",
                 $quickReply
             );
-            
+
             // 由於無法保存狀態，我們將距離資訊放在訊息中讓用戶知道
-            
+
             // 發送訊息
             $response = $this->bot->replyMessage($replyToken, $textMessageBuilder);
-            
+
             if ($response->isSucceeded()) {
                 $this->sendToTelegram("✅ 成功發送位置請求（含距離資訊）");
             } else {
                 $this->sendToTelegram("❌ 發送位置請求失敗: " . $response->getRawBody());
             }
-            
+
         } catch (\Exception $e) {
             $this->sendToTelegram("❌ requestLocationWithDistance 錯誤: " . $e->getMessage());
-            
+
             // 回傳錯誤訊息
             $this->bot->replyMessage($replyToken, new TextMessageBuilder(
                 "抱歉，功能暫時無法使用。\n請直接分享您的位置。"
@@ -1877,14 +1877,14 @@ class LineBotController extends Controller
     {
         try {
             $this->sendToTelegram("📍 要求用戶分享位置，快速搜尋模式: " . ($isQuickSearch ? '是' : '否'));
-            
+
             // 建立快速回覆按鈕，根據模式加入不同的資訊
-            $actionBuilder = $isQuickSearch 
+            $actionBuilder = $isQuickSearch
                 ? new PostbackTemplateActionBuilder('分享位置', 'action=location_quick&mode=quick')
                 : new LocationTemplateActionBuilder('分享位置');
-            
+
             $quickReplyButton = new QuickReplyButtonBuilder($actionBuilder);
-            
+
             // 如果是快速搜尋，使用特殊的 postback 按鈕來標記
             if ($isQuickSearch) {
                 // 對於快速搜尋，我們需要使用 LocationTemplateActionBuilder
@@ -1893,10 +1893,10 @@ class LineBotController extends Controller
                     new LocationTemplateActionBuilder('分享位置')
                 );
             }
-            
+
             // 建立快速回覆訊息
             $quickReply = new QuickReplyMessageBuilder([$quickReplyButton]);
-            
+
             // 根據模式調整訊息文字
             $message = $isQuickSearch
                 ? "📍 快速搜尋模式\n\n" .
@@ -1904,28 +1904,28 @@ class LineBotController extends Controller
                   "點擊下方的「分享位置」按鈕開始搜尋。"
                 : "📍 請分享您的位置，我會幫您找出附近的飲料店！\n\n" .
                   "點擊下方的「分享位置」按鈕，即可開始搜尋。";
-            
+
             // 建立文字訊息並附加快速回覆
             $textMessageBuilder = new TextMessageBuilder($message, $quickReply);
-            
+
             // 如果是快速搜尋，在 session 或暫存中標記
             if ($isQuickSearch) {
                 // 由於 LINE Bot 是無狀態的，我們將在訊息中包含提示
                 $this->sendToTelegram("📍 設定快速搜尋模式");
             }
-            
+
             // 發送訊息
             $response = $this->bot->replyMessage($replyToken, $textMessageBuilder);
-            
+
             if ($response->isSucceeded()) {
                 $this->sendToTelegram("✅ 成功發送位置請求");
             } else {
                 $this->sendToTelegram("❌ 發送位置請求失敗: " . $response->getRawBody());
             }
-            
+
         } catch (\Exception $e) {
             $this->sendToTelegram("❌ requestLocation 錯誤: " . $e->getMessage());
-            
+
             // 回傳錯誤訊息
             $errorMsg = "抱歉，位置功能暫時無法使用。\n";
             $errorMsg .= "請直接分享您的位置訊息。";
@@ -1942,45 +1942,45 @@ class LineBotController extends Controller
         if (count($shops) <= $limit) {
             return $shops;
         }
-        
+
         // 計算權重（距離越近，權重越高）
         $distances = array_column($shops, 'distance');
         $maxDistance = max($distances);
         $minDistance = min($distances);
         $range = $maxDistance - $minDistance;
-        
+
         $weightedShops = [];
-        
+
         foreach ($shops as $index => $shop) {
             // 反向權重：距離越近，權重越大
             // 使用指數函數讓近的店家有更明顯的優勢
             $normalizedDistance = ($shop['distance'] - $minDistance) / ($range > 0 ? $range : 1);
             $weight = exp(-2 * $normalizedDistance); // 指數衰減，近的店家權重明顯更高
-            
+
             $weightedShops[] = [
                 'index' => $index,
                 'weight' => $weight,
                 'cumulative' => 0
             ];
         }
-        
+
         // 計算累積權重
         $totalWeight = 0;
         foreach ($weightedShops as &$item) {
             $totalWeight += $item['weight'];
             $item['cumulative'] = $totalWeight;
         }
-        
+
         // 隨機選擇不重複的店家
         $selected = [];
         $selectedIndices = [];
         $attempts = 0;
         $maxAttempts = $limit * 10; // 防止無限循環
-        
+
         while (count($selected) < $limit && $attempts < $maxAttempts) {
             $attempts++;
             $random = (mt_rand() / mt_getrandmax()) * $totalWeight;
-            
+
             foreach ($weightedShops as $item) {
                 if ($random <= $item['cumulative'] && !in_array($item['index'], $selectedIndices)) {
                     $selected[] = $shops[$item['index']];
@@ -1989,7 +1989,7 @@ class LineBotController extends Controller
                 }
             }
         }
-        
+
         // 如果隨機選擇不足，補充剩餘的店家
         if (count($selected) < $limit) {
             foreach ($shops as $index => $shop) {
@@ -1999,15 +1999,15 @@ class LineBotController extends Controller
                 }
             }
         }
-        
+
         // 保持距離排序，讓顯示更有邏輯性
         usort($selected, function($a, $b) {
             return $a['distance'] <=> $b['distance'];
         });
-        
+
         return $selected;
     }
-    
+
     /**
      * 顯示附近的飲料店
      */
@@ -2015,7 +2015,7 @@ class LineBotController extends Controller
     {
         try {
             $this->sendToTelegram("📍 準備顯示 " . count($shops) . " 家店");
-            
+
             if (empty($shops)) {
                 $distanceText = $searchDistance < 1 ? ($searchDistance * 1000) . ' 公尺' : $searchDistance . ' 公里';
                 $message = "附近 {$distanceText}內沒有找到飲料店 😢\n\n";
@@ -2026,47 +2026,47 @@ class LineBotController extends Controller
                 $this->bot->replyMessage($replyToken, new TextMessageBuilder($message));
                 return;
             }
-            
+
             // 使用加權隨機選擇 10 家（給所有店家曝光機會）
             $totalShops = count($shops);
             $shops = $this->weightedRandomSelect($shops, 10);
             $this->sendToTelegram("📍 從 {$totalShops} 家店中加權隨機選擇了 " . count($shops) . " 家");
-            
+
             // 建立 Carousel 卡片
             $this->sendToTelegram("📍 開始建構 Carousel，共 " . count($shops) . " 家店");
-            
+
             $columns = [];
-            
+
             foreach ($shops as $index => $shop) {
                 // 準備距離字串
                 $distanceStr = is_numeric($shop['distance']) ? sprintf("%.1f", $shop['distance']) : $shop['distance'];
-                
+
                 // 標題（最多40字元）
                 $title = mb_substr($shop['shop_name'] . ' ' . $shop['branch_name'], 0, 40);
-                
+
                 // 描述文字（最多60字元）
                 $text = "📍 {$distanceStr} km\n";
                 $text .= mb_substr($shop['address'], 0, 50);
-                
+
                 // 建立動作按鈕
                 $actions = [];
-                
+
                 // 查看菜單按鈕
                 if (!empty($shop['shop_code'])) {
                     $postbackData = http_build_query(['action' => 'select', 'shop' => $shop['shop_code']]);
                     $actions[] = new PostbackTemplateActionBuilder('查看菜單', $postbackData);
                 }
-                
+
                 // 撥打電話按鈕（如果有電話）
                 if (!empty($shop['tel'])) {
                     $actions[] = new UriTemplateActionBuilder('撥打電話', 'tel:' . $shop['tel']);
                 }
-                
+
                 // 如果沒有動作，至少加一個查看詳情
                 if (empty($actions)) {
                     $actions[] = new MessageTemplateActionBuilder('查看詳情', $shop['shop_name'] . ' ' . $shop['branch_name']);
                 }
-                
+
                 // 取得店家圖片（如果有的話）
                 $imageUrl = null;
                 if (!empty($shop['shop_code'])) {
@@ -2074,26 +2074,26 @@ class LineBotController extends Controller
                     if ($shopConfig && isset($shopConfig['image_url']) && !empty($shopConfig['image_url'])) {
                         // 驗證是否為有效的 HTTPS URL
                         $url = $shopConfig['image_url'];
-                        if (filter_var($url, FILTER_VALIDATE_URL) && 
-                            substr($url, 0, 8) === 'https://' && 
+                        if (filter_var($url, FILTER_VALIDATE_URL) &&
+                            substr($url, 0, 8) === 'https://' &&
                             $url !== 'None') {
                             $imageUrl = $url;
                         }
                     }
                 }
-                
+
                 // 如果沒有有效的圖片 URL，使用預設圖片
                 if (empty($imageUrl)) {
                     // 使用預設的飲料店圖片
                     // CarouselColumnTemplateBuilder 需要有效的 HTTPS URL
                     $imageUrl = url('/images/menus/drink.jpeg');
-                    
+
                     // 確保是 HTTPS
                     if (substr($imageUrl, 0, 7) === 'http://') {
                         $imageUrl = 'https://' . substr($imageUrl, 7);
                     }
                 }
-                
+
                 // 建立 Carousel Column
                 $column = new CarouselColumnTemplateBuilder(
                     $title,      // 標題
@@ -2101,30 +2101,30 @@ class LineBotController extends Controller
                     $imageUrl,   // 圖片 URL（可選）
                     $actions     // 動作按鈕
                 );
-                
+
                 $columns[] = $column;
-                
+
                 $this->sendToTelegram("📍 建立第 " . ($index + 1) . " 張卡片：{$title}");
             }
-            
+
             // 建立 Carousel Template
             $carouselTemplateBuilder = new CarouselTemplateBuilder($columns);
             $templateMessage = new TemplateMessageBuilder('📍 附近的飲料店', $carouselTemplateBuilder);
-            
+
             $this->sendToTelegram("📍 準備發送 Carousel Message");
-            
+
             $response = $this->bot->replyMessage($replyToken, $templateMessage);
-            
+
             if ($response->isSucceeded()) {
                 $this->sendToTelegram("✅ 成功發送附近店家 Carousel");
             } else {
                 $this->sendToTelegram("❌ 發送失敗: " . $response->getRawBody());
                 throw new \Exception("LINE API 錯誤");
             }
-            
+
         } catch (\Exception $e) {
             $this->sendToTelegram("❌ displayNearbyShops 錯誤: " . $e->getMessage());
-            
+
             // 改用簡單文字訊息
             $message = "📍 附近的飲料店：\n\n";
             $count = 0;
@@ -2139,7 +2139,7 @@ class LineBotController extends Controller
                 }
                 $message .= "\n";
             }
-            
+
             $this->bot->replyMessage($replyToken, new TextMessageBuilder($message));
         }
     }
