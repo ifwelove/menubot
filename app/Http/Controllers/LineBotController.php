@@ -266,6 +266,20 @@ class LineBotController extends Controller
                             if ($shop) {
                                 $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
                             }
+                        } elseif ($postbackData['action'] == 'view_category' && isset($postbackData['shop']) && isset($postbackData['category'])) {
+                            // 顯示特定分類的菜單
+                            $shopCode = $postbackData['shop'];
+                            $category = $postbackData['category'];
+                            $shop = $this->menuService->getMenuByBrandCode($shopCode);
+                            
+                            if ($shop && isset($shop['menu_items'][$category])) {
+                                $this->sendToTelegram("📋 顯示分類: {$category}");
+                                $this->replyWithCategoryItems($event['replyToken'], $shop, $category);
+                            } else {
+                                $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder(
+                                    "找不到該分類的資料 😢"
+                                ));
+                            }
                         } elseif ($postbackData['action'] == 'instructions') {
                             // 顯示使用說明
                             $message = "📖 使用說明\n\n";
@@ -424,12 +438,35 @@ class LineBotController extends Controller
     private function replyWithShopMenu($replyToken, $shop, $title)
     {
         try {
+            // 優先檢查是否有菜單圖片
+            $menuImagePath = "/images/menus/{$shop['shop_name']}.png";
+            $fullImagePath = public_path($menuImagePath);
+            
+            if (file_exists($fullImagePath)) {
+                $this->sendToTelegram("📷 使用圖片菜單: {$menuImagePath}");
+                $this->replyWithMenuImage($replyToken, $shop, $title);
+                return;
+            }
+            
             // 檢查菜單資料是否存在
             if (!isset($shop['menu_items']) || empty($shop['menu_items'])) {
                 $this->sendToTelegram("⚠️ 店家菜單資料不完整: " . json_encode($shop, JSON_UNESCAPED_UNICODE));
                 $this->bot->replyMessage($replyToken, new TextMessageBuilder(
                     "抱歉，{$shop['shop_name']} 的菜單資料不完整 😢"
                 ));
+                return;
+            }
+            
+            // 計算菜單項目總數
+            $totalItems = 0;
+            foreach ($shop['menu_items'] as $category => $items) {
+                $totalItems += count($items);
+            }
+            
+            // 如果項目太多，使用分類選擇方式
+            if ($totalItems > 50 || count($shop['menu_items']) > 5) {
+                $this->sendToTelegram("📋 菜單太大 ({$totalItems} 項)，使用分類選擇");
+                $this->replyWithCategorySelection($replyToken, $shop, $title);
                 return;
             }
 
@@ -530,6 +567,269 @@ class LineBotController extends Controller
             $this->sendToTelegram("❌ replyWithShopMenu 錯誤: " . $e->getMessage() . "\n" . $e->getTraceAsString());
             $this->bot->replyMessage($replyToken, new TextMessageBuilder(
                 "抱歉，顯示菜單時發生錯誤 😢\n請稍後再試或聯繫客服。"
+            ));
+        }
+    }
+
+    /**
+     * 使用圖片顯示菜單
+     */
+    private function replyWithMenuImage($replyToken, $shop, $title)
+    {
+        try {
+            $menuImagePath = "/images/menus/{$shop['shop_name']}.png";
+            $imageUrl = url($menuImagePath);
+            
+            // 確保是 HTTPS
+            if (substr($imageUrl, 0, 7) === 'http://') {
+                $imageUrl = 'https://' . substr($imageUrl, 7);
+            }
+            
+            $this->sendToTelegram("📷 發送圖片菜單: {$imageUrl}");
+            
+            // 使用 Flex Message 顯示圖片
+            $flexMessageBuilder = FlexMessageBuilder::builder()
+                ->setAltText($title)
+                ->setContents(
+                    BubbleContainerBuilder::builder()
+                        ->setHeader(
+                            BoxComponentBuilder::builder()
+                                ->setLayout(ComponentLayout::VERTICAL)
+                                ->setContents([
+                                    TextComponentBuilder::builder()
+                                        ->setText($title)
+                                        ->setWeight(ComponentFontWeight::BOLD)
+                                        ->setSize(ComponentFontSize::LG)
+                                        ->setAlign('center')
+                                ])
+                        )
+                        ->setHero(
+                            ImageComponentBuilder::builder()
+                                ->setUrl($imageUrl)
+                                ->setSize(ComponentImageSize::FULL)
+                                ->setAspectRatio(ComponentImageAspectRatio::R20TO13)
+                                ->setAspectMode(ComponentImageAspectMode::FIT)
+                        )
+                        ->setBody(
+                            BoxComponentBuilder::builder()
+                                ->setLayout(ComponentLayout::VERTICAL)
+                                ->setContents([
+                                    TextComponentBuilder::builder()
+                                        ->setText('點擊圖片可放大查看')
+                                        ->setSize(ComponentFontSize::SM)
+                                        ->setColor('#999999')
+                                        ->setAlign('center')
+                                ])
+                        )
+                );
+            
+            $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+            
+            if ($response->isSucceeded()) {
+                $this->sendToTelegram("✅ 成功發送圖片菜單");
+            } else {
+                $this->sendToTelegram("❌ 發送圖片菜單失敗: " . $response->getRawBody());
+                // 降級到文字訊息
+                $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                    "{$title}\n\n請參考店內菜單或官方網站查詢最新價格。"
+                ));
+            }
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ replyWithMenuImage 錯誤: " . $e->getMessage());
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                "抱歉，無法顯示菜單圖片 😢"
+            ));
+        }
+    }
+    
+    /**
+     * 顯示分類選擇
+     */
+    private function replyWithCategorySelection($replyToken, $shop, $title)
+    {
+        try {
+            $categories = array_keys($shop['menu_items']);
+            
+            // 限制最多顯示 10 個分類
+            if (count($categories) > 10) {
+                $categories = array_slice($categories, 0, 10);
+            }
+            
+            // 建立按鈕
+            $buttons = [];
+            foreach ($categories as $category) {
+                $itemCount = count($shop['menu_items'][$category]);
+                $postbackData = http_build_query([
+                    'action' => 'view_category',
+                    'shop' => $shop['brand_code'] ?? $shop['shop_name'],
+                    'category' => $category
+                ]);
+                
+                $buttons[] = ButtonComponentBuilder::builder()
+                    ->setStyle(ComponentButtonStyle::LINK)
+                    ->setHeight(ComponentButtonHeight::SM)
+                    ->setAction(new PostbackTemplateActionBuilder(
+                        "{$category} ({$itemCount}項)",
+                        $postbackData
+                    ));
+            }
+            
+            $flexMessageBuilder = FlexMessageBuilder::builder()
+                ->setAltText($title)
+                ->setContents(
+                    BubbleContainerBuilder::builder()
+                        ->setHeader(
+                            BoxComponentBuilder::builder()
+                                ->setLayout(ComponentLayout::VERTICAL)
+                                ->setContents([
+                                    TextComponentBuilder::builder()
+                                        ->setText($title)
+                                        ->setWeight(ComponentFontWeight::BOLD)
+                                        ->setSize(ComponentFontSize::LG)
+                                        ->setAlign('center')
+                                ])
+                        )
+                        ->setBody(
+                            BoxComponentBuilder::builder()
+                                ->setLayout(ComponentLayout::VERTICAL)
+                                ->setSpacing(ComponentSpacing::SM)
+                                ->setContents(array_merge(
+                                    [
+                                        TextComponentBuilder::builder()
+                                            ->setText('請選擇要查看的分類：')
+                                            ->setSize(ComponentFontSize::MD)
+                                            ->setMargin(ComponentMargin::MD)
+                                    ],
+                                    $buttons
+                                ))
+                        )
+                );
+            
+            $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+            
+            if ($response->isSucceeded()) {
+                $this->sendToTelegram("✅ 成功發送分類選擇");
+            } else {
+                $this->sendToTelegram("❌ 發送分類選擇失敗: " . $response->getRawBody());
+            }
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ replyWithCategorySelection 錯誤: " . $e->getMessage());
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                "抱歉，無法顯示分類選擇 😢"
+            ));
+        }
+    }
+
+    /**
+     * 顯示分類中的菜單項目
+     */
+    private function replyWithCategoryItems($replyToken, $shop, $category)
+    {
+        try {
+            $this->sendToTelegram("📋 開始顯示分類項目: {$category}");
+            
+            // 確認分類存在
+            if (!isset($shop['menu_items'][$category])) {
+                $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                    "找不到 {$category} 分類的資料 😢"
+                ));
+                return;
+            }
+            
+            $items = $shop['menu_items'][$category];
+            $coldEmoji = "\u{2744}\u{FE0F}"; // ❄️ 雪花
+            $hotEmoji  = "\u{1F525}"; // 🔥 火焰
+            
+            // 建立項目組件
+            $itemComponents = [];
+            
+            // 標題
+            $itemComponents[] = TextComponentBuilder::builder()
+                ->setText("{$shop['shop_name']} - {$category}")
+                ->setWeight(ComponentFontWeight::BOLD)
+                ->setSize(ComponentFontSize::LG)
+                ->setMargin(ComponentMargin::MD);
+                
+            // 分隔線
+            $itemComponents[] = SeparatorComponentBuilder::builder()
+                ->setMargin(ComponentMargin::MD);
+            
+            // 項目列表
+            foreach ($items as $item) {
+                if (!is_array($item) || !isset($item['name'])) {
+                    continue;
+                }
+                
+                $priceText = '';
+                if (!empty($item['price_cold'])) {
+                    $priceText .= $coldEmoji . ' $' . $item['price_cold'];
+                }
+                if (!empty($item['price_hot'])) {
+                    if ($priceText) $priceText .= ' / ';
+                    $priceText .= $hotEmoji . ' $' . $item['price_hot'];
+                }
+                
+                // 如果沒有價格資訊，使用預設文字
+                if (empty($priceText)) {
+                    $priceText = '價格請洽店家';
+                }
+                
+                // 建立項目區塊
+                $itemComponents[] = BoxComponentBuilder::builder()
+                    ->setLayout(ComponentLayout::HORIZONTAL)
+                    ->setMargin(ComponentMargin::MD)
+                    ->setContents([
+                        TextComponentBuilder::builder()
+                            ->setText($item['name'])
+                            ->setSize(ComponentFontSize::SM)
+                            ->setFlex(3)
+                            ->setWrap(true),
+                        TextComponentBuilder::builder()
+                            ->setText($priceText)
+                            ->setSize(ComponentFontSize::SM)
+                            ->setAlign('end')
+                            ->setFlex(2)
+                    ]);
+            }
+            
+            // 加入返回按鈕
+            $itemComponents[] = SeparatorComponentBuilder::builder()
+                ->setMargin(ComponentMargin::LG);
+                
+            $itemComponents[] = ButtonComponentBuilder::builder()
+                ->setStyle(ComponentButtonStyle::LINK)
+                ->setHeight(ComponentButtonHeight::SM)
+                ->setAction(new PostbackTemplateActionBuilder(
+                    '⬅️ 返回分類選擇',
+                    http_build_query(['action' => 'select', 'shop' => $shop['brand_code']])
+                ))
+                ->setColor('#666666')
+                ->setMargin(ComponentMargin::MD);
+            
+            // 建立 Flex Message
+            $flexMessageBuilder = FlexMessageBuilder::builder()
+                ->setAltText("{$shop['shop_name']} - {$category}")
+                ->setContents(
+                    BubbleContainerBuilder::builder()
+                        ->setBody(
+                            BoxComponentBuilder::builder()
+                                ->setLayout(ComponentLayout::VERTICAL)
+                                ->setContents($itemComponents)
+                        )
+                );
+            
+            $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+            
+            if ($response->isSucceeded()) {
+                $this->sendToTelegram("✅ 成功發送分類項目");
+            } else {
+                $this->sendToTelegram("❌ 發送分類項目失敗: " . $response->getRawBody());
+            }
+            
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ replyWithCategoryItems 錯誤: " . $e->getMessage());
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                "顯示分類項目時發生錯誤 😢"
             ));
         }
     }
