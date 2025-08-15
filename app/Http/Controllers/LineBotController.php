@@ -690,6 +690,22 @@ class LineBotController extends Controller
                     ));
             }
 
+            // 加入分隔線
+            $buttons[] = SeparatorComponentBuilder::builder()
+                ->setMargin(ComponentMargin::MD);
+
+            // 加入「你訂的」按鈕
+            $orderUrl = $shop['website_url'] ?? 'https://order.nidin.shop';
+            $buttons[] = ButtonComponentBuilder::builder()
+                ->setStyle(ComponentButtonStyle::LINK)
+                ->setHeight(ComponentButtonHeight::SM)
+                ->setAction(new UriTemplateActionBuilder(
+                    '🛒 你訂',
+                    $orderUrl
+                ))
+                ->setColor('#FF6B6B')
+                ->setMargin(ComponentMargin::SM);
+
             $flexMessageBuilder = FlexMessageBuilder::builder()
                 ->setAltText($title)
                 ->setContents(
@@ -832,6 +848,18 @@ class LineBotController extends Controller
                 ))
                 ->setColor('#666666')
                 ->setMargin(ComponentMargin::MD);
+
+            // 加入「你訂的」按鈕
+            $orderUrl = $shop['website_url'] ?? 'https://order.nidin.shop';
+            $itemComponents[] = ButtonComponentBuilder::builder()
+                ->setStyle(ComponentButtonStyle::LINK)
+                ->setHeight(ComponentButtonHeight::SM)
+                ->setAction(new UriTemplateActionBuilder(
+                    '🛒 你訂',
+                    $orderUrl
+                ))
+                ->setColor('#FF6B6B')
+                ->setMargin(ComponentMargin::SM);
 
             // 建立 Flex Message
             $flexMessageBuilder = FlexMessageBuilder::builder()
