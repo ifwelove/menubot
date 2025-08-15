@@ -216,9 +216,24 @@ class LineBotController extends Controller
                         if (count($searchResults) == 1) {
                             // 只找到一個結果，直接顯示菜單
                             $shopCode = array_key_first($searchResults);
-                            $shop = $this->menuService->getMenuByBrandCode($shopCode);
-                            if ($shop) {
-                                $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
+                            $this->sendToTelegram("🔍 找到唯一店家: {$shopCode}");
+                            
+                            try {
+                                $shop = $this->menuService->getMenuByBrandCode($shopCode);
+                                if ($shop) {
+                                    $this->sendToTelegram("✅ 成功載入菜單，準備顯示");
+                                    $this->replyWithShopMenu($event['replyToken'], $shop, $shop['shop_name'] . ' 菜單');
+                                } else {
+                                    $this->sendToTelegram("❌ 無法載入店家菜單: {$shopCode}");
+                                    $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder(
+                                        "抱歉，無法載入 {$searchResults[$shopCode]} 的菜單資料 😢"
+                                    ));
+                                }
+                            } catch (\Exception $e) {
+                                $this->sendToTelegram("❌ 顯示菜單時發生錯誤: " . $e->getMessage());
+                                $this->bot->replyMessage($event['replyToken'], new TextMessageBuilder(
+                                    "抱歉，顯示菜單時發生錯誤，請稍後再試 😢"
+                                ));
                             }
                         } elseif (count($searchResults) > 1) {
                             // 多個結果，顯示選擇列表
@@ -408,34 +423,55 @@ class LineBotController extends Controller
 
     private function replyWithShopMenu($replyToken, $shop, $title)
     {
-        $coldEmoji = "\u{2744}\u{FE0F}"; // ❄️ 雪花
-        $hotEmoji  = "\u{1F525}"; // 🔥 火焰
+        try {
+            // 檢查菜單資料是否存在
+            if (!isset($shop['menu_items']) || empty($shop['menu_items'])) {
+                $this->sendToTelegram("⚠️ 店家菜單資料不完整: " . json_encode($shop, JSON_UNESCAPED_UNICODE));
+                $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                    "抱歉，{$shop['shop_name']} 的菜單資料不完整 😢"
+                ));
+                return;
+            }
 
-        // 创建饮料项目组件
-        $itemComponents = [];
-        foreach ($shop['menu_items'] as $category => $detail) {
-            $itemComponents[] = TextComponentBuilder::builder()
-                ->setText($category)
-                ->setWeight('bold')
-                ->setSize('md');
+            $coldEmoji = "\u{2744}\u{FE0F}"; // ❄️ 雪花
+            $hotEmoji  = "\u{1F525}"; // 🔥 火焰
 
-            foreach ($detail as $item) {
-                $priceText = ' ';
-                if (! empty($item['price_cold'])) {
-                    $priceText .= $item['price_cold'] . $coldEmoji;
+            // 创建饮料项目组件
+            $itemComponents = [];
+            foreach ($shop['menu_items'] as $category => $items) {
+                // 確保 $items 是陣列
+                if (!is_array($items)) {
+                    $this->sendToTelegram("⚠️ 分類 {$category} 的項目不是陣列");
+                    continue;
                 }
-                if (! empty($item['price_hot'])) {
-                    if (! empty($priceText)) {
-                        $priceText .= ''; // 分隔冷热价格
+                
+                $itemComponents[] = TextComponentBuilder::builder()
+                    ->setText($category)
+                    ->setWeight('bold')
+                    ->setSize('md');
+
+                foreach ($items as $item) {
+                    // 確保 $item 是陣列且有 name 欄位
+                    if (!is_array($item) || !isset($item['name'])) {
+                        continue;
                     }
-                    $priceText .= $item['price_hot'] . $hotEmoji;
-                }
-                if (! empty($item['price'])) {
-                    if (! empty($priceText)) {
-                        $priceText .= ''; // 分隔冷热价格
+                    
+                    $priceText = ' ';
+                    if (! empty($item['price_cold'])) {
+                        $priceText .= $item['price_cold'] . $coldEmoji;
                     }
-                    $priceText .= $item['price'] . '$';
-                }
+                    if (! empty($item['price_hot'])) {
+                        if (! empty($priceText) && trim($priceText) !== '') {
+                            $priceText .= ' '; // 分隔冷热价格
+                        }
+                        $priceText .= $item['price_hot'] . $hotEmoji;
+                    }
+                    if (! empty($item['price'])) {
+                        if (! empty($priceText) && trim($priceText) !== '') {
+                            $priceText .= ' '; // 分隔冷热价格
+                        }
+                        $priceText .= $item['price'] . '$';
+                    }
                 $itemComponents[] = BoxComponentBuilder::builder()
                     ->setLayout('baseline')
                     ->setContents([
@@ -482,7 +518,20 @@ class LineBotController extends Controller
                     ])));
 
         // 使用LINE Bot实例发送消息
-        $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+        $response = $this->bot->replyMessage($replyToken, $flexMessageBuilder);
+        
+        if ($response->isSucceeded()) {
+            $this->sendToTelegram("✅ 成功發送菜單");
+        } else {
+            $this->sendToTelegram("❌ 發送菜單失敗: " . $response->getRawBody());
+        }
+        
+        } catch (\Exception $e) {
+            $this->sendToTelegram("❌ replyWithShopMenu 錯誤: " . $e->getMessage() . "\n" . $e->getTraceAsString());
+            $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                "抱歉，顯示菜單時發生錯誤 😢\n請稍後再試或聯繫客服。"
+            ));
+        }
     }
 
     /**
