@@ -408,6 +408,18 @@ Route::get('/test-carousel-shops', function () {
 });
 
 // 測試 displayNearbyShops 的 Flex Message 建構
+// 測試搜尋功能
+Route::get('/test-search/{keyword}', function ($keyword) {
+    $searchService = new \App\Services\ShopSearchService();
+    $results = $searchService->search($keyword);
+    
+    return response()->json([
+        'keyword' => $keyword,
+        'results_count' => count($results),
+        'results' => $results
+    ]);
+});
+
 // 測試隨機附近店家功能
 Route::get('/test-random-nearby', function () {
     $controller = app(LineBotController::class);

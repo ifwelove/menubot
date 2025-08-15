@@ -3,19 +3,15 @@
 return [
     // 常見連鎖品牌
     '50lantea' => ['50嵐', '50', '五十嵐', '50lan', '50藍', '50藍', '五十藍', '50蘭', '伍拾嵐', '50lan tea', '50 嵐', '５０嵐'],
-    'coco' => ['coco', '可可', '都可', 'COCO', 'coco都可', '都可coco', '可可都可', 'CoCo', 'Coco', 'COCO都可', '都可COCO'],
-    'kebuke' => ['可不可', '可不可熟成紅茶', 'kebuke', 'KBK', '可不可紅茶', '可不', '可不可熟成', 'KEBUKE', '可不可茶'],
-    'milkshop' => ['迷客夏', 'milkshop', '迷客', 'Milksha', '密可夏', '蜜客夏', 'MKX', 'milksha', '迷客夏綠光', 'MILKSHOP'],
+    'cocotea' => ['coco', '可可', '都可', 'COCO', 'coco都可', '都可coco', '可可都可', 'CoCo', 'Coco', 'COCO都可', '都可COCO'],
+    'milkshoptea' => ['迷客夏', 'milkshop', '迷客', 'Milksha', '密可夏', '蜜客夏', 'MKX', 'milksha', '迷客夏綠光', 'MILKSHOP'],
     'chingshin' => ['清心', '清心福全', '清心福', 'chingshin', '清福', '清心福全冷飲站', 'CHING SHIN', '清心冷飲', 'qingxin'],
     'tigersugar' => ['老虎堂', '老虎', 'tiger', 'tigersugar', '老虎糖', 'tiger sugar', '虎糖', '老虎黑糖', 'TIGER SUGAR', '老虎堂黑糖'],
     'truedan' => ['珍煮丹', '珍煮單', 'truedan', '真煮丹', '珍珠丹', 'ZZD', '珍煮', 'TRUEDAN', '珍煮丹黑糖', 'zzd'],
     'comebuytea' => ['comebuy', '康青龍', 'comebuy茶', 'come buy', '康青', 'KQL', 'COMEBUY', '康青龍冷飲', 'ComeBuy'],
-    'happylemon' => ['快樂檸檬', 'happylemon', '快樂', 'happy lemon', '快檸', 'happy', '檸檬', 'HAPPY LEMON', 'Happy Lemon', 'HL'],
-    'tenren' => ['天仁', '天仁茗茶', 'tenren', '天仁茶', '10ren', '天仁茶飲', '天仁茶趣', 'Ten Ren', 'TENREN', '天仁喫茶趣'],
+    'chaforteatogo' => ['天仁', '天仁茗茶', 'tenren', '天仁茶', '10ren', '天仁茶飲', '天仁茶趣', 'Ten Ren', 'TENREN', '天仁喫茶趣'],
     'teatop' => ['茶湯會', 'teatop', '茶湯', 'TP', 'tea party', '茶party', 'TEA TOP', '茶湯會TP', 'TeaTop'],
     'chatime' => ['日出茶太', 'chatime', '日出', '茶太', '日出茶', 'sunrise tea', 'CHATIME', 'Chatime', '日出茶太chatime'],
-    'greentea' => ['鮮茶道', '鮮茶', 'presotea', 'presso tea', '鮮茶道Presotea', 'presso', 'PRESOTEA', 'Presotea', '鮮茶道presso'],
-    'easyway' => ['一芳', '一芳水果茶', 'easyway', '一芳茶', '一芳台灣水果茶', 'yifang', '1芳', 'YIFANG', 'Yi Fang', '一芳果茶'],
 
     // 特色品牌關鍵字
     'kungfutea' => ['功夫茶', '功夫', 'kungfu', 'gongfu', 'KUNGFU', 'kung fu tea', '功夫茶KungFu', 'KUNG FU TEA', 'GongFuCha', 'KFT'],
@@ -66,7 +62,7 @@ return [
     'geesunteashop' => ['茶吉桑', '吉桑', 'geesun', 'gee sun', 'GEESUN', '茶吉sang', 'cha ji sang', '茶吉'],
     'lohass' => ['樂活事', '樂活', 'lohas', 'LOHAS', '樂活shi', 'le huo shi', 'lohas事', '樂活士'],
     'roojibrand' => ['儒記', 'rooji', 'roo ji', 'ROOJI', '儒記brand', 'ru ji', '儒ji', '如記'],
-    'chunyu' => ['春雨', '春雨制茶', '春雨茶', 'chun yu', 'CHUNYU', '春雨tea', 'spring rain', '春yu'],
+    'springraintea' => ['春雨', '春雨制茶', '春雨茶', 'chun yu', 'CHUNYU', '春雨tea', 'spring rain', '春yu'],
     'morein' => ['沫飲', 'more in', '沫', 'MORE IN', 'morein', '沫yin', 'mo yin', '摩飲'],
     'teaplay' => ['茶不雷', 'teaplay', '不雷', 'tea play', 'TEAPLAY', '茶不lei', 'cha bu lei', '茶play'],
     'teabrown' => ['茶與布朗', '茶布朗', 'tea brown', 'TEA BROWN', '茶與布朗', 'cha yu bu lang', '茶與brown'],
@@ -99,8 +95,6 @@ return [
     'sharetea' => ['歇腳亭', '歇腳', 'sharetea', 'share tea', 'SHARETEA', '歇jiao亭', 'xie jiao ting', '歇腳tea'],
     'mrwish' => ['Mr.Wish', 'mrwish', 'mr wish', 'MR.WISH', 'mr. wish', '威許先生', 'wish先生', 'MRW'],
     'presotea' => ['鮮茶道', 'presotea', 'presso tea', 'PRESOTEA', '鮮茶', 'presso', '鮮茶道presso', 'xian cha dao'],
-    'cocotea' => ['CoCo都可', 'coco都可', 'cocotea', 'coco tea', 'COCOTEA', 'coco', 'CoCo', '都可coco'],
-    'milkshoptea' => ['迷客夏', 'milkshop tea', 'milkshoptea', 'MILKSHOP', '迷客', 'milksha', '迷客夏milkshop'],
 
     // 新增特色品牌
     'hugdayday' => ['好爹爹', 'hugdayday', '好爹爹烈奶茶', 'hug daddy', 'HUGDAYDAY', '好daddy', 'hao die die', '好爹'],
