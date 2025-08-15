@@ -459,8 +459,12 @@ class LineBotController extends Controller
             
             // 計算菜單項目總數
             $totalItems = 0;
-            foreach ($shop['menu_items'] as $category => $items) {
-                $totalItems += count($items);
+            foreach ($shop['menu_items'] as $category => $categoryData) {
+                if (isset($categoryData['items']) && is_array($categoryData['items'])) {
+                    $totalItems += count($categoryData['items']);
+                } elseif (is_array($categoryData)) {
+                    $totalItems += count($categoryData);
+                }
             }
             
             // 如果項目太多，使用分類選擇方式
@@ -475,10 +479,14 @@ class LineBotController extends Controller
 
             // 创建饮料项目组件
             $itemComponents = [];
-            foreach ($shop['menu_items'] as $category => $items) {
-                // 確保 $items 是陣列
-                if (!is_array($items)) {
-                    $this->sendToTelegram("⚠️ 分類 {$category} 的項目不是陣列");
+            foreach ($shop['menu_items'] as $category => $categoryData) {
+                // 處理 beverage_shops.php 格式（有 'items' 鍵）和一般格式
+                if (isset($categoryData['items']) && is_array($categoryData['items'])) {
+                    $items = $categoryData['items'];
+                } elseif (is_array($categoryData)) {
+                    $items = $categoryData;
+                } else {
+                    $this->sendToTelegram("⚠️ 分類 {$category} 的項目格式不正確");
                     continue;
                 }
                 
@@ -658,7 +666,14 @@ class LineBotController extends Controller
             // 建立按鈕
             $buttons = [];
             foreach ($categories as $category) {
-                $itemCount = count($shop['menu_items'][$category]);
+                // 處理 beverage_shops.php 格式
+                $categoryData = $shop['menu_items'][$category];
+                if (isset($categoryData['items']) && is_array($categoryData['items'])) {
+                    $itemCount = count($categoryData['items']);
+                } else {
+                    $itemCount = is_array($categoryData) ? count($categoryData) : 0;
+                }
+                
                 $postbackData = http_build_query([
                     'action' => 'view_category',
                     'shop' => $shop['brand_code'] ?? $shop['shop_name'],
@@ -736,7 +751,18 @@ class LineBotController extends Controller
                 return;
             }
             
-            $items = $shop['menu_items'][$category];
+            // 處理 beverage_shops.php 格式
+            $categoryData = $shop['menu_items'][$category];
+            if (isset($categoryData['items']) && is_array($categoryData['items'])) {
+                $items = $categoryData['items'];
+            } elseif (is_array($categoryData)) {
+                $items = $categoryData;
+            } else {
+                $this->bot->replyMessage($replyToken, new TextMessageBuilder(
+                    "分類資料格式錯誤 😢"
+                ));
+                return;
+            }
             $coldEmoji = "\u{2744}\u{FE0F}"; // ❄️ 雪花
             $hotEmoji  = "\u{1F525}"; // 🔥 火焰
             

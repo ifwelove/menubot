@@ -420,6 +420,47 @@ Route::get('/test-search/{keyword}', function ($keyword) {
     ]);
 });
 
+// 測試 50嵐菜單載入
+Route::get('/test-50lan-menu', function () {
+    $menuService = new \App\Services\MenuService();
+    
+    // 測試載入 50嵐菜單
+    $menu = $menuService->getMenuByBrandCode('50lantea');
+    
+    if ($menu) {
+        // 計算總項目數
+        $totalItems = 0;
+        $categories = [];
+        
+        if (isset($menu['menu_items'])) {
+            foreach ($menu['menu_items'] as $category => $categoryData) {
+                // beverage_shops.php 格式: $categoryData['items'] 包含項目陣列
+                $items = isset($categoryData['items']) ? $categoryData['items'] : $categoryData;
+                $itemCount = is_array($items) ? count($items) : 0;
+                $totalItems += $itemCount;
+                $categories[$category] = $itemCount;
+            }
+        }
+        
+        return response()->json([
+            'status' => 'success',
+            'shop_name' => $menu['shop_name'],
+            'menu_version' => $menu['menu_version'] ?? 'unknown',
+            'image_url' => $menu['image_url'],
+            'total_items' => $totalItems,
+            'categories' => $categories,
+            'categories_count' => count($categories),
+            'sample_category' => array_key_first($menu['menu_items'] ?? []),
+            'sample_items' => array_slice($menu['menu_items'][array_key_first($menu['menu_items'] ?? [])] ?? [], 0, 3)
+        ]);
+    } else {
+        return response()->json([
+            'status' => 'error',
+            'message' => '無法載入 50嵐 菜單'
+        ]);
+    }
+});
+
 // 測試隨機附近店家功能
 Route::get('/test-random-nearby', function () {
     $controller = app(LineBotController::class);

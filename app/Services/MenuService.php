@@ -12,6 +12,7 @@ class MenuService
     protected $phpMenuPath;
     protected $indexPath;
     protected $index = null;
+    protected $beverageShopsCache = null;
     
     public function __construct()
     {
@@ -37,21 +38,112 @@ class MenuService
     }
     
     /**
+     * 載入 beverage_shops.php 資料
+     */
+    protected function loadBeverageShops()
+    {
+        if ($this->beverageShopsCache === null) {
+            try {
+                $beverageShops = config('beverage_shops.shops', []);
+                $this->beverageShopsCache = $beverageShops;
+            } catch (\Exception $e) {
+                Log::error("Failed to load beverage shops: " . $e->getMessage());
+                $this->beverageShopsCache = [];
+            }
+        }
+        return $this->beverageShopsCache;
+    }
+    
+    /**
+     * 從 beverage_shops.php 載入特定店家的菜單
+     */
+    protected function loadBeverageShopMenu($shopName)
+    {
+        $beverageShops = $this->loadBeverageShops();
+        
+        if (isset($beverageShops[$shopName])) {
+            $shopData = $beverageShops[$shopName];
+            
+            // 轉換為標準菜單格式
+            return [
+                'brand_code' => $this->getBrandCodeByShopName($shopName),
+                'shop_name' => $shopName,
+                'store_id' => null,
+                'store_name' => $shopName,
+                'image_url' => $shopData['image_url'] ?? '',
+                'website_url' => $shopData['website_url'] ?? '',
+                'menu_version' => 'beverage_shops',
+                'menu_items' => $shopData['items'] ?? []
+            ];
+        }
+        
+        return null;
+    }
+    
+    /**
+     * 根據店名獲取品牌代碼
+     */
+    protected function getBrandCodeByShopName($shopName)
+    {
+        // 建立店名到品牌代碼的對應
+        $shopNameToBrandCode = [
+            '50嵐' => '50lantea',
+            'CoCo都可' => 'cocotea',
+            '迷客夏' => 'milkshoptea',
+            '清心福全' => 'chingshin',
+            '老虎堂' => 'tigersugar',
+            '珍煮丹' => 'truedan',
+            'COMEBUY' => 'comebuytea',
+            '天仁喫茶趣ToGo' => 'chaforteatogo',
+            '茶湯會' => 'teatop',
+            '日出茶太' => 'chatime',
+            // 可以根據需要加入更多對應關係
+        ];
+        
+        return $shopNameToBrandCode[$shopName] ?? strtolower(str_replace(' ', '', $shopName));
+    }
+    
+    /**
      * 根據品牌代碼獲取菜單
-     * 優先使用 JSON 菜單，找不到時使用 PHP 菜單
+     * 優先順序：beverage_shops.php → JSON 菜單 → PHP 菜單
      */
     public function getMenuByBrandCode($brandCode)
     {
         $cacheKey = "menu_brand_{$brandCode}";
         
         return Cache::store('file')->remember($cacheKey, 3600, function () use ($brandCode) {
-            // 先嘗試從 JSON 載入
+            // 首先嘗試根據品牌代碼找到對應的店名
+            $brandCodeToShopName = [
+                '50lantea' => '50嵐',
+                'cocotea' => 'CoCo都可',
+                'milkshoptea' => '迷客夏',
+                'chingshin' => '清心福全',
+                'tigersugar' => '老虎堂',
+                'truedan' => '珍煮丹',
+                'comebuytea' => 'COMEBUY',
+                'chaforteatogo' => '天仁喫茶趣ToGo',
+                'teatop' => '茶湯會',
+                'chatime' => '日出茶太',
+                // 可以根據需要加入更多對應關係
+            ];
+            
+            // 如果有對應的店名，嘗試從 beverage_shops.php 載入
+            if (isset($brandCodeToShopName[$brandCode])) {
+                $shopName = $brandCodeToShopName[$brandCode];
+                $beverageShopMenu = $this->loadBeverageShopMenu($shopName);
+                if ($beverageShopMenu) {
+                    Log::info("Loading menu from beverage_shops.php for: {$shopName}");
+                    return $beverageShopMenu;
+                }
+            }
+            
+            // 其次嘗試從 JSON 載入
             $jsonMenu = $this->loadJsonMenuByBrandCode($brandCode);
             if ($jsonMenu) {
                 return $this->formatJsonMenu($jsonMenu);
             }
             
-            // 找不到 JSON 時，使用原有的 PHP 菜單
+            // 最後使用原有的 PHP 菜單
             return $this->loadPhpMenu($brandCode);
         });
     }
