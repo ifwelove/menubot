@@ -438,15 +438,16 @@ class LineBotController extends Controller
     private function replyWithShopMenu($replyToken, $shop, $title)
     {
         try {
-            // 優先檢查是否有菜單圖片
-            $menuImagePath = "/images/menus/{$shop['shop_name']}.png";
-            $fullImagePath = public_path($menuImagePath);
-            
-            if (file_exists($fullImagePath)) {
-                $this->sendToTelegram("📷 使用圖片菜單: {$menuImagePath}");
-                $this->replyWithMenuImage($replyToken, $shop, $title);
-                return;
-            }
+            // 移除圖片菜單功能，所有店家都使用文字菜單
+            // // 優先檢查是否有菜單圖片
+            // $menuImagePath = "/images/menus/{$shop['shop_name']}.png";
+            // $fullImagePath = public_path($menuImagePath);
+            // 
+            // if (file_exists($fullImagePath)) {
+            //     $this->sendToTelegram("📷 使用圖片菜單: {$menuImagePath}");
+            //     $this->replyWithMenuImage($replyToken, $shop, $title);
+            //     return;
+            // }
             
             // 檢查菜單資料是否存在
             if (!isset($shop['menu_items']) || empty($shop['menu_items'])) {
