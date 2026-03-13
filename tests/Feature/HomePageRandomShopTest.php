@@ -15,6 +15,19 @@ class HomePageRandomShopTest extends TestCase
         $response->assertSee('隨機抽一家');
         $response->assertSee('全部縣市');
         $response->assertSee('查看這家菜單');
+        $response->assertSee('立即訂購');
+    }
+
+    public function test_shop_menu_page_shows_order_button()
+    {
+        $brandCode = array_key_first(config('menu.shops.drink', []));
+
+        $response = $this->get('/shop/' . $brandCode);
+
+        $response->assertStatus(200);
+        $response->assertSee('立即訂購');
+        $response->assertSee('target="_blank"', false);
+        $response->assertSee('order.nidin.shop/brand/', false);
     }
 
     public function test_random_shop_route_redirects_to_a_valid_shop_menu()

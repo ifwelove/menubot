@@ -182,7 +182,8 @@
                 @include('components.shop-card', [
                     'code' => $shop['code'],
                     'name' => $shop['name'],
-                    'image' => $shop['image']
+                    'image' => $shop['image'],
+                    'order_url' => $shop['order_url'] ?? null
                 ])
             @endforeach
         </div>

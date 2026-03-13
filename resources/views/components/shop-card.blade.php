@@ -16,8 +16,20 @@
     </div>
     <div class="shop-card-content">
         <h3 class="shop-card-title text-center">{{ $name }}</h3>
-        <a href="{{ route('shop.menu', $code) }}" class="shop-card-button">
-            查看菜單
-        </a>
+        <div class="grid gap-2">
+            <a href="{{ route('shop.menu', $code) }}" class="shop-card-button">
+                查看菜單
+            </a>
+            @if(!empty($order_url))
+                <a
+                    href="{{ $order_url }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex w-full items-center justify-center rounded-xl border border-stone-300 bg-white px-4 py-3 text-sm font-medium text-stone-700 transition-colors hover:border-stone-400 hover:text-stone-900"
+                >
+                    立即訂購
+                </a>
+            @endif
+        </div>
     </div>
 </div>

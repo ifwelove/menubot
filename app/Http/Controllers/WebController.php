@@ -73,8 +73,9 @@ class WebController extends Controller
         // Get store count from Nidin data
         $nidinShops = $this->shopSearchService->getNidinShops();
         $storeCount = isset($nidinShops[$brandCode]) ? count($nidinShops[$brandCode]) : 0;
+        $orderUrl = $this->menuService->getOrderUrlByBrandCode($brandCode, $menu);
 
-        return view('shop.menu', compact('menu', 'brandCode', 'storeCount'));
+        return view('shop.menu', compact('menu', 'brandCode', 'storeCount', 'orderUrl'));
     }
 
     /**
@@ -166,6 +167,7 @@ class WebController extends Controller
                 'name' => $name,
                 'image' => $menu['image_url'] ?? null,
                 'url' => route('shop.menu', $code),
+                'order_url' => $this->menuService->getOrderUrlByBrandCode($code, $menu),
             ];
         }
 

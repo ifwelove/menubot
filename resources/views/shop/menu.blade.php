@@ -63,9 +63,19 @@
             <!-- Shop Info -->
             <div class="flex-grow text-center md:text-left">
                 <h1 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">{{ $menu['shop_name'] ?? '店家' }}</h1>
+                <div class="mb-4 flex flex-wrap justify-center md:justify-start gap-3">
+                    <a
+                        href="{{ $orderUrl }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center justify-center rounded-xl bg-stone-900 px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-stone-700"
+                    >
+                        立即訂購
+                    </a>
+                </div>
                 <div class="flex flex-wrap justify-center md:justify-start gap-4 text-gray-600">
                     @if(!empty($menu['website_url']))
-                        <a href="{{ $menu['website_url'] }}" target="_blank" class="inline-flex items-center hover:text-gray-800">
+                        <a href="{{ $menu['website_url'] }}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center hover:text-gray-800">
                             <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
                             </svg>

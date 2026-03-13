@@ -147,6 +147,19 @@ class MenuService
             return $this->loadPhpMenu($brandCode);
         });
     }
+
+    public function getOrderUrlByBrandCode(string $brandCode, ?array $menu = null): string
+    {
+        if (!empty($menu['order_url'])) {
+            return $menu['order_url'];
+        }
+
+        if (!empty($menu['website_url']) && str_contains($menu['website_url'], 'order.nidin.shop')) {
+            return $menu['website_url'];
+        }
+
+        return sprintf('https://order.nidin.shop/brand/%s/', $brandCode);
+    }
     
     /**
      * 根據店鋪 ID 獲取菜單
