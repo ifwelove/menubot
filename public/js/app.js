@@ -3628,6 +3628,95 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('tagFilter', function () {
     }
   };
 });
+alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('randomShopPicker', function () {
+  var shops = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+  var initialShop = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+  var fallbackUrl = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '/';
+  var regions = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];
+  var shopMap = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {};
+  return {
+    shops: shops,
+    selected: initialShop,
+    fallbackUrl: fallbackUrl,
+    regions: regions,
+    shopMap: shopMap,
+    selectedCity: '',
+    selectedDistrict: '',
+    init: function init() {
+      if (!this.selected) {
+        this.pick();
+      }
+    },
+    cityDistricts: function cityDistricts() {
+      var _this$regions$find,
+        _this3 = this;
+      return ((_this$regions$find = this.regions.find(function (region) {
+        return region.name === _this3.selectedCity;
+      })) === null || _this$regions$find === void 0 ? void 0 : _this$regions$find.districts) || [];
+    },
+    filteredShops: function filteredShops() {
+      var _cityData$districts;
+      if (!this.selectedCity) {
+        return this.shops;
+      }
+      var cityData = this.shopMap[this.selectedCity];
+      if (!cityData) {
+        return [];
+      }
+      if (!this.selectedDistrict) {
+        return cityData._all || [];
+      }
+      return ((_cityData$districts = cityData.districts) === null || _cityData$districts === void 0 ? void 0 : _cityData$districts[this.selectedDistrict]) || [];
+    },
+    onCityChange: function onCityChange() {
+      if (!this.cityDistricts().includes(this.selectedDistrict)) {
+        this.selectedDistrict = '';
+      }
+      this.pick();
+    },
+    onDistrictChange: function onDistrictChange() {
+      this.pick();
+    },
+    pick: function pick() {
+      var _this$selected;
+      var source = this.filteredShops();
+      if (!source.length) {
+        this.selected = null;
+        return;
+      }
+      var currentCode = (_this$selected = this.selected) === null || _this$selected === void 0 ? void 0 : _this$selected.code;
+      var candidates = source;
+      if (source.length > 1 && currentCode) {
+        var filtered = source.filter(function (shop) {
+          return shop.code !== currentCode;
+        });
+        if (filtered.length) {
+          candidates = filtered;
+        }
+      }
+      var next = candidates[Math.floor(Math.random() * candidates.length)];
+      this.selected = _objectSpread(_objectSpread({}, next), {}, {
+        pickedAt: Date.now()
+      });
+    },
+    selectedUrl: function selectedUrl() {
+      var _this$selected2;
+      return ((_this$selected2 = this.selected) === null || _this$selected2 === void 0 ? void 0 : _this$selected2.url) || this.fallbackUrl;
+    },
+    filterLabel: function filterLabel() {
+      if (this.selectedCity && this.selectedDistrict) {
+        return "".concat(this.selectedCity).concat(this.selectedDistrict);
+      }
+      if (this.selectedCity) {
+        return "".concat(this.selectedCity, "\u5168\u90E8\u5340\u57DF");
+      }
+      return '全台品牌';
+    },
+    availableCount: function availableCount() {
+      return this.filteredShops().length;
+    }
+  };
+});
 alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('drinkPicker', function () {
   var items = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
   return {
@@ -3668,20 +3757,20 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
       menu: null
     },
     init: function init() {
-      var _this3 = this;
+      var _this4 = this;
       return _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee2() {
         return _regenerator().w(function (_context2) {
           while (1) switch (_context2.n) {
             case 0:
               _context2.n = 1;
-              return _this3.loadStores();
+              return _this4.loadStores();
             case 1:
               _context2.n = 2;
-              return _this3.$nextTick();
+              return _this4.$nextTick();
             case 2:
-              _this3.initMap();
-              _this3.invalidateMapSize();
-              _this3.getUserLocation();
+              _this4.initMap();
+              _this4.invalidateMapSize();
+              _this4.getUserLocation();
             case 3:
               return _context2.a(2);
           }
@@ -3689,7 +3778,7 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
       }))();
     },
     loadStores: function loadStores() {
-      var _this4 = this;
+      var _this5 = this;
       return _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee3() {
         var response, data, _t2;
         return _regenerator().w(function (_context3) {
@@ -3704,14 +3793,14 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
               return response.json();
             case 2:
               data = _context3.v;
-              _this4.stores = data.stores || [];
+              _this5.stores = data.stores || [];
               _context3.n = 4;
               break;
             case 3:
               _context3.p = 3;
               _t2 = _context3.v;
               console.error('Failed to load stores:', _t2);
-              _this4.error = 'Failed to load store data';
+              _this5.error = 'Failed to load store data';
             case 4:
               return _context3.a(2);
           }
@@ -3726,14 +3815,14 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
       }).addTo(this.map);
     },
     invalidateMapSize: function invalidateMapSize() {
-      var _this5 = this;
+      var _this6 = this;
       if (!this.map) return;
       requestAnimationFrame(function () {
-        _this5.map.invalidateSize();
+        _this6.map.invalidateSize();
       });
     },
     getUserLocation: function getUserLocation() {
-      var _this6 = this;
+      var _this7 = this;
       if (!navigator.geolocation) {
         this.error = 'Geolocation not supported';
         this.isLoading = false;
@@ -3741,39 +3830,39 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
         return;
       }
       navigator.geolocation.getCurrentPosition(function (position) {
-        _this6.userLocation = {
+        _this7.userLocation = {
           lat: position.coords.latitude,
           lng: position.coords.longitude
         };
-        _this6.map.setView([_this6.userLocation.lat, _this6.userLocation.lng], 15);
+        _this7.map.setView([_this7.userLocation.lat, _this7.userLocation.lng], 15);
 
         // Add user marker
-        if (_this6.userMarker) {
-          _this6.map.removeLayer(_this6.userMarker);
+        if (_this7.userMarker) {
+          _this7.map.removeLayer(_this7.userMarker);
         }
-        _this6.userMarker = L.marker([_this6.userLocation.lat, _this6.userLocation.lng], {
+        _this7.userMarker = L.marker([_this7.userLocation.lat, _this7.userLocation.lng], {
           icon: L.divIcon({
             className: 'user-marker',
             html: '<div class="w-4 h-4 bg-blue-500 rounded-full border-2 border-white shadow-lg"></div>'
           })
-        }).addTo(_this6.map).bindPopup('你的位置');
-        _this6.updateNearbyStores();
-        _this6.isLoading = false;
-        _this6.invalidateMapSize();
+        }).addTo(_this7.map).bindPopup('你的位置');
+        _this7.updateNearbyStores();
+        _this7.isLoading = false;
+        _this7.invalidateMapSize();
       }, function (error) {
         console.error('Geolocation error:', error);
-        _this6.error = 'Unable to get your location';
-        _this6.isLoading = false;
-        _this6.invalidateMapSize();
+        _this7.error = 'Unable to get your location';
+        _this7.isLoading = false;
+        _this7.invalidateMapSize();
       });
     },
     updateNearbyStores: function updateNearbyStores() {
-      var _this7 = this;
+      var _this8 = this;
       if (!this.userLocation) return;
 
       // Clear existing markers
       this.markers.forEach(function (marker) {
-        return _this7.map.removeLayer(marker);
+        return _this8.map.removeLayer(marker);
       });
       this.markers = [];
 
@@ -3781,14 +3870,14 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
       var storesToShow = this.stores;
       if (this.selectedBrand) {
         storesToShow = this.stores.filter(function (s) {
-          return s.brand_code === _this7.selectedBrand;
+          return s.brand_code === _this8.selectedBrand;
         });
       }
 
       // Calculate distances and sort
       this.filteredStores = storesToShow.map(function (store) {
         return _objectSpread(_objectSpread({}, store), {}, {
-          distance: _this7.calculateDistance(_this7.userLocation.lat, _this7.userLocation.lng, store.lat, store.lng)
+          distance: _this8.calculateDistance(_this8.userLocation.lat, _this8.userLocation.lng, store.lat, store.lng)
         });
       }).filter(function (store) {
         return store.distance <= 5000;
@@ -3799,8 +3888,8 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
 
       // Add markers
       this.filteredStores.forEach(function (store) {
-        var marker = L.marker([store.lat, store.lng]).addTo(_this7.map).bindPopup("<b>".concat(store.name, "</b><br>").concat(store.address || ''));
-        _this7.markers.push(marker);
+        var marker = L.marker([store.lat, store.lng]).addTo(_this8.map).bindPopup("<b>".concat(store.name, "</b><br>").concat(store.address || ''));
+        _this8.markers.push(marker);
       });
       this.fitMapBounds();
     },
@@ -3842,23 +3931,23 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
       window.open(url, '_blank');
     },
     openStoreMenu: function openStoreMenu(store) {
-      var _this8 = this;
+      var _this9 = this;
       return _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee4() {
         var response, data, _t3;
         return _regenerator().w(function (_context4) {
           while (1) switch (_context4.p = _context4.n) {
             case 0:
-              _this8.menuModal.open = true;
-              _this8.menuModal.loading = true;
-              _this8.menuModal.error = null;
-              _this8.menuModal.store = store;
-              _this8.menuModal.menu = null;
-              if (!_this8.menuCache[store.brand_code]) {
+              _this9.menuModal.open = true;
+              _this9.menuModal.loading = true;
+              _this9.menuModal.error = null;
+              _this9.menuModal.store = store;
+              _this9.menuModal.menu = null;
+              if (!_this9.menuCache[store.brand_code]) {
                 _context4.n = 1;
                 break;
               }
-              _this8.menuModal.menu = _this8.menuCache[store.brand_code];
-              _this8.menuModal.loading = false;
+              _this9.menuModal.menu = _this9.menuCache[store.brand_code];
+              _this9.menuModal.loading = false;
               return _context4.a(2);
             case 1:
               _context4.p = 1;
@@ -3876,18 +3965,18 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
               return response.json();
             case 4:
               data = _context4.v;
-              _this8.menuCache[store.brand_code] = data;
-              _this8.menuModal.menu = data;
+              _this9.menuCache[store.brand_code] = data;
+              _this9.menuModal.menu = data;
               _context4.n = 6;
               break;
             case 5:
               _context4.p = 5;
               _t3 = _context4.v;
               console.error('Failed to load menu:', _t3);
-              _this8.menuModal.error = '目前無法載入這家店的菜單。';
+              _this9.menuModal.error = '目前無法載入這家店的菜單。';
             case 6:
               _context4.p = 6;
-              _this8.menuModal.loading = false;
+              _this9.menuModal.loading = false;
               return _context4.f(6);
             case 7:
               return _context4.a(2);

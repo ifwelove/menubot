@@ -18,6 +18,9 @@ Route::get('/', [WebController::class, 'index'])->name('home');
 // 搜尋
 Route::get('/search', [WebController::class, 'search'])->name('search');
 
+// 隨機抽一家飲料店
+Route::get('/shop/random', [WebController::class, 'randomShop'])->name('shop.random');
+
 // 品牌菜單頁
 Route::get('/shop/{brandCode}', [WebController::class, 'showMenu'])->name('shop.menu');
 

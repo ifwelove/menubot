@@ -6,7 +6,7 @@
 @section('content')
 <div class="page-section py-6 md:py-10">
     <section class="hero-panel px-5 py-8 md:px-10 md:py-12">
-        <div class="relative grid gap-8 lg:grid-cols-[minmax(0,1fr),220px] lg:items-start">
+        <div class="relative grid gap-8 lg:grid-cols-[minmax(0,1fr),240px] lg:items-start">
             <div>
                 <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-stone-200 bg-stone-100 px-3 py-1 text-sm font-medium text-stone-700">
                     全台飲料店菜單索引
@@ -71,12 +71,73 @@
                 </div>
             </div>
 
-            <div class="lg:self-start">
+            <div class="space-y-4 lg:self-start">
+                <div
+                    class="hero-stat"
+                    x-data='randomShopPicker(@json($randomShopOptions), @json($randomShop), @json(route("shop.random")), @json($regionOptions), @json($regionShopMap))'
+                >
+                    <div class="text-sm text-stone-500">隨機抽一家</div>
+                    <p class="mt-2 text-sm leading-6 text-stone-500">
+                        可以先選縣市和區域，不選也能直接全台隨機抽。
+                    </p>
+                    <div class="mt-4 grid gap-2">
+                        <select
+                            x-model="selectedCity"
+                            @change="onCityChange()"
+                            class="rounded-xl border border-stone-300 bg-white px-3 py-2.5 text-sm text-stone-700 outline-none transition-colors focus:border-stone-500"
+                        >
+                            <option value="">全部縣市</option>
+                            <template x-for="region in regions" :key="region.name">
+                                <option :value="region.name" x-text="region.name"></option>
+                            </template>
+                        </select>
+                        <select
+                            x-model="selectedDistrict"
+                            @change="onDistrictChange()"
+                            :disabled="!selectedCity"
+                            class="rounded-xl border border-stone-300 bg-white px-3 py-2.5 text-sm text-stone-700 outline-none transition-colors focus:border-stone-500 disabled:cursor-not-allowed disabled:bg-stone-100 disabled:text-stone-400"
+                        >
+                            <option value="">全部區域</option>
+                            <template x-for="district in cityDistricts()" :key="district">
+                                <option :value="district" x-text="district"></option>
+                            </template>
+                        </select>
+                    </div>
+                    <p class="mt-2 text-xs text-stone-500" x-text="`${filterLabel()} 可抽 ${availableCount()} 家品牌`">
+                        全台品牌可抽 {{ count($randomShopOptions) }} 家
+                    </p>
+                    <div class="mt-3 min-h-[3.5rem] text-2xl font-bold leading-tight text-stone-900" x-text="selected?.name || '這個範圍目前沒有可抽的品牌'">
+                        {{ $randomShop['name'] ?? '暫時沒有店家可抽' }}
+                    </div>
+                    <div class="mt-4 grid gap-2">
+                        <button
+                            type="button"
+                            @click="pick()"
+                            :disabled="!availableCount()"
+                            class="inline-flex items-center justify-center rounded-xl border border-stone-300 bg-white px-4 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:border-stone-400 hover:text-stone-900"
+                        >
+                            重抽一家
+                        </button>
+                        <a
+                            href="{{ $randomShop['url'] ?? route('shop.random') }}"
+                            :href="selectedUrl()"
+                            class="inline-flex items-center justify-center rounded-xl bg-stone-900 px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-stone-700"
+                        >
+                            查看這家菜單
+                        </a>
+                    </div>
+                </div>
+
                 <div class="hero-stat">
                     <div class="text-sm text-stone-500">快速入口</div>
-                    <a href="{{ route('nearby') }}" class="mt-2 inline-flex text-sm font-medium text-stone-700 hover:text-stone-900">
-                        找附近門市 →
-                    </a>
+                    <div class="mt-3 grid gap-2">
+                        <a href="{{ route('nearby') }}" class="inline-flex text-sm font-medium text-stone-700 hover:text-stone-900">
+                            找附近門市 →
+                        </a>
+                        <a href="{{ route('tags') }}" class="inline-flex text-sm font-medium text-stone-700 hover:text-stone-900">
+                            從分類標籤開始 →
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -72,6 +72,99 @@ Alpine.data('tagFilter', () => ({
     }
 }));
 
+Alpine.data('randomShopPicker', (shops = [], initialShop = null, fallbackUrl = '/', regions = [], shopMap = {}) => ({
+    shops,
+    selected: initialShop,
+    fallbackUrl,
+    regions,
+    shopMap,
+    selectedCity: '',
+    selectedDistrict: '',
+
+    init() {
+        if (!this.selected) {
+            this.pick();
+        }
+    },
+
+    cityDistricts() {
+        return this.regions.find(region => region.name === this.selectedCity)?.districts || [];
+    },
+
+    filteredShops() {
+        if (!this.selectedCity) {
+            return this.shops;
+        }
+
+        const cityData = this.shopMap[this.selectedCity];
+        if (!cityData) {
+            return [];
+        }
+
+        if (!this.selectedDistrict) {
+            return cityData._all || [];
+        }
+
+        return cityData.districts?.[this.selectedDistrict] || [];
+    },
+
+    onCityChange() {
+        if (!this.cityDistricts().includes(this.selectedDistrict)) {
+            this.selectedDistrict = '';
+        }
+
+        this.pick();
+    },
+
+    onDistrictChange() {
+        this.pick();
+    },
+
+    pick() {
+        const source = this.filteredShops();
+        if (!source.length) {
+            this.selected = null;
+            return;
+        }
+
+        const currentCode = this.selected?.code;
+        let candidates = source;
+
+        if (source.length > 1 && currentCode) {
+            const filtered = source.filter(shop => shop.code !== currentCode);
+            if (filtered.length) {
+                candidates = filtered;
+            }
+        }
+
+        const next = candidates[Math.floor(Math.random() * candidates.length)];
+        this.selected = {
+            ...next,
+            pickedAt: Date.now(),
+        };
+    },
+
+    selectedUrl() {
+        return this.selected?.url || this.fallbackUrl;
+    },
+
+    filterLabel() {
+        if (this.selectedCity && this.selectedDistrict) {
+            return `${this.selectedCity}${this.selectedDistrict}`;
+        }
+
+        if (this.selectedCity) {
+            return `${this.selectedCity}全部區域`;
+        }
+
+        return '全台品牌';
+    },
+
+    availableCount() {
+        return this.filteredShops().length;
+    },
+}));
+
 Alpine.data('drinkPicker', (items = []) => ({
     items,
     selected: null,
