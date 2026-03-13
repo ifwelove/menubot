@@ -33,6 +33,7 @@ Route::get('/nearby', [WebController::class, 'nearby'])->name('nearby');
 // ============================================
 Route::prefix('api')->group(function () {
     Route::get('/shops', [ShopApiController::class, 'list'])->name('api.shops');
+    Route::get('/shops/{brandCode}/menu', [ShopApiController::class, 'menu'])->name('api.shops.menu');
     Route::get('/shops/{brandCode}/stores', [ShopApiController::class, 'stores'])->name('api.shops.stores');
     Route::get('/search', [ShopApiController::class, 'search'])->name('api.search');
     Route::get('/stores', [ShopApiController::class, 'allStores'])->name('api.stores');

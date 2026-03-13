@@ -76,16 +76,27 @@ Alpine.data('tagFilter', () => ({
 Alpine.data('nearbyStores', (initialBrand = '') => ({
     map: null,
     userLocation: null,
+    userMarker: null,
     stores: [],
     filteredStores: [],
     selectedBrand: initialBrand,
     isLoading: true,
     error: null,
     markers: [],
+    menuCache: {},
+    menuModal: {
+        open: false,
+        loading: false,
+        error: null,
+        store: null,
+        menu: null,
+    },
 
     async init() {
         await this.loadStores();
+        await this.$nextTick();
         this.initMap();
+        this.invalidateMapSize();
         this.getUserLocation();
     },
 
@@ -109,10 +120,19 @@ Alpine.data('nearbyStores', (initialBrand = '') => ({
         }).addTo(this.map);
     },
 
+    invalidateMapSize() {
+        if (!this.map) return;
+
+        requestAnimationFrame(() => {
+            this.map.invalidateSize();
+        });
+    },
+
     getUserLocation() {
         if (!navigator.geolocation) {
             this.error = 'Geolocation not supported';
             this.isLoading = false;
+            this.invalidateMapSize();
             return;
         }
 
@@ -125,20 +145,26 @@ Alpine.data('nearbyStores', (initialBrand = '') => ({
                 this.map.setView([this.userLocation.lat, this.userLocation.lng], 15);
 
                 // Add user marker
-                L.marker([this.userLocation.lat, this.userLocation.lng], {
+                if (this.userMarker) {
+                    this.map.removeLayer(this.userMarker);
+                }
+
+                this.userMarker = L.marker([this.userLocation.lat, this.userLocation.lng], {
                     icon: L.divIcon({
                         className: 'user-marker',
                         html: '<div class="w-4 h-4 bg-blue-500 rounded-full border-2 border-white shadow-lg"></div>'
                     })
-                }).addTo(this.map).bindPopup('Your location');
+                }).addTo(this.map).bindPopup('你的位置');
 
                 this.updateNearbyStores();
                 this.isLoading = false;
+                this.invalidateMapSize();
             },
             (error) => {
                 console.error('Geolocation error:', error);
                 this.error = 'Unable to get your location';
                 this.isLoading = false;
+                this.invalidateMapSize();
             }
         );
     },
@@ -178,6 +204,28 @@ Alpine.data('nearbyStores', (initialBrand = '') => ({
                 .bindPopup(`<b>${store.name}</b><br>${store.address || ''}`);
             this.markers.push(marker);
         });
+
+        this.fitMapBounds();
+    },
+
+    fitMapBounds() {
+        if (!this.map || !this.userLocation) return;
+
+        const points = [[this.userLocation.lat, this.userLocation.lng]];
+        this.filteredStores.slice(0, 12).forEach(store => {
+            points.push([store.lat, store.lng]);
+        });
+
+        if (points.length === 1) {
+            this.map.setView(points[0], 15);
+            return;
+        }
+
+        const bounds = L.latLngBounds(points);
+        this.map.fitBounds(bounds, {
+            padding: [40, 40],
+            maxZoom: 16,
+        });
     },
 
     calculateDistance(lat1, lng1, lat2, lng2) {
@@ -207,8 +255,43 @@ Alpine.data('nearbyStores', (initialBrand = '') => ({
         window.open(url, '_blank');
     },
 
+    async openStoreMenu(store) {
+        this.menuModal.open = true;
+        this.menuModal.loading = true;
+        this.menuModal.error = null;
+        this.menuModal.store = store;
+        this.menuModal.menu = null;
+
+        if (this.menuCache[store.brand_code]) {
+            this.menuModal.menu = this.menuCache[store.brand_code];
+            this.menuModal.loading = false;
+            return;
+        }
+
+        try {
+            const response = await fetch(`/api/shops/${store.brand_code}/menu`);
+            if (!response.ok) {
+                throw new Error('menu fetch failed');
+            }
+
+            const data = await response.json();
+            this.menuCache[store.brand_code] = data;
+            this.menuModal.menu = data;
+        } catch (error) {
+            console.error('Failed to load menu:', error);
+            this.menuModal.error = '目前無法載入這家店的菜單。';
+        } finally {
+            this.menuModal.loading = false;
+        }
+    },
+
+    closeStoreMenu() {
+        this.menuModal.open = false;
+    },
+
     onBrandChange() {
         this.updateNearbyStores();
+        this.invalidateMapSize();
     }
 }));
 

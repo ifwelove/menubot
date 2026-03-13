@@ -1,30 +1,35 @@
-<header class="bg-white border-b border-gray-200 sticky top-0 z-40">
+<header class="sticky top-0 z-40 border-b border-stone-200/80 bg-white/85 backdrop-blur">
     <div class="container mx-auto px-4">
-        <div class="flex items-center justify-between h-16">
+        <div class="flex h-16 items-center justify-between">
             <!-- Logo -->
-            <a href="{{ route('home') }}" class="flex items-center space-x-2">
-                <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                </svg>
-                <span class="text-xl font-bold text-gray-800">飲料店菜單</span>
+            <a href="{{ route('home') }}" class="flex items-center gap-3">
+                <span class="flex h-10 w-10 items-center justify-center rounded-2xl bg-amber-100 text-amber-700">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                </span>
+                <span>
+                    <span class="block text-base font-semibold tracking-tight text-stone-900">飲料店菜單</span>
+                    <span class="block text-xs text-stone-500">查品牌、找門市、看價格</span>
+                </span>
             </a>
 
             <!-- Navigation -->
-            <nav class="hidden md:flex items-center space-x-6">
-                <a href="{{ route('home') }}" class="text-gray-600 hover:text-gray-900 transition-colors {{ request()->routeIs('home') ? 'text-gray-900 font-medium' : '' }}">
+            <nav class="hidden items-center gap-2 md:flex">
+                <a href="{{ route('home') }}" class="rounded-full px-4 py-2 text-sm transition-colors {{ request()->routeIs('home') ? 'bg-stone-900 text-white' : 'text-stone-600 hover:bg-amber-50 hover:text-stone-900' }}">
                     首頁
                 </a>
-                <a href="{{ route('nearby') }}" class="text-gray-600 hover:text-gray-900 transition-colors {{ request()->routeIs('nearby') ? 'text-gray-900 font-medium' : '' }}">
+                <a href="{{ route('nearby') }}" class="rounded-full px-4 py-2 text-sm transition-colors {{ request()->routeIs('nearby') ? 'bg-stone-900 text-white' : 'text-stone-600 hover:bg-amber-50 hover:text-stone-900' }}">
                     附近門市
                 </a>
-                <a href="{{ route('tags') }}" class="text-gray-600 hover:text-gray-900 transition-colors {{ request()->routeIs('tags*') ? 'text-gray-900 font-medium' : '' }}">
+                <a href="{{ route('tags') }}" class="rounded-full px-4 py-2 text-sm transition-colors {{ request()->routeIs('tags*') ? 'bg-stone-900 text-white' : 'text-stone-600 hover:bg-amber-50 hover:text-stone-900' }}">
                     分類標籤
                 </a>
             </nav>
 
             <!-- Mobile menu button -->
             <div class="md:hidden" x-data="{ open: false }">
-                <button @click="open = !open" class="text-gray-600 hover:text-gray-900 p-2">
+                <button @click="open = !open" class="rounded-xl border border-stone-200 p-2 text-stone-600 hover:text-stone-900">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path x-show="!open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                         <path x-show="open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -32,11 +37,11 @@
                 </button>
 
                 <!-- Mobile menu -->
-                <div x-show="open" @click.away="open = false" class="absolute top-16 left-0 right-0 bg-white border-b border-gray-200 shadow-lg">
-                    <div class="container mx-auto px-4 py-4 space-y-3">
-                        <a href="{{ route('home') }}" class="block text-gray-600 hover:text-gray-900">首頁</a>
-                        <a href="{{ route('nearby') }}" class="block text-gray-600 hover:text-gray-900">附近門市</a>
-                        <a href="{{ route('tags') }}" class="block text-gray-600 hover:text-gray-900">分類標籤</a>
+                <div x-show="open" x-transition @click.away="open = false" class="absolute left-0 right-0 top-16 border-b border-stone-200 bg-white shadow-lg">
+                    <div class="container mx-auto space-y-3 px-4 py-4">
+                        <a href="{{ route('home') }}" class="block rounded-xl px-3 py-2 text-stone-600 hover:bg-amber-50 hover:text-stone-900">首頁</a>
+                        <a href="{{ route('nearby') }}" class="block rounded-xl px-3 py-2 text-stone-600 hover:bg-amber-50 hover:text-stone-900">附近門市</a>
+                        <a href="{{ route('tags') }}" class="block rounded-xl px-3 py-2 text-stone-600 hover:bg-amber-50 hover:text-stone-900">分類標籤</a>
                     </div>
                 </div>
             </div>

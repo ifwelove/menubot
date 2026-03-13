@@ -13,12 +13,12 @@
     <!-- Leaflet CSS (for nearby page) -->
     @stack('styles')
 </head>
-<body class="bg-gray-50 min-h-screen flex flex-col">
+<body class="app-shell flex min-h-screen flex-col">
     <!-- Header -->
     @include('components.header')
 
     <!-- Main Content -->
-    <main class="flex-grow">
+    <main class="flex-grow pb-16">
         @yield('content')
     </main>
 

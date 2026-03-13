@@ -101,6 +101,52 @@ class ShopApiController extends Controller
     }
 
     /**
+     * Get menu data for a specific brand
+     */
+    public function menu($brandCode)
+    {
+        $menu = $this->menuService->getMenuByBrandCode($brandCode);
+
+        if (!$menu) {
+            return response()->json([
+                'message' => 'Menu not found',
+            ], 404);
+        }
+
+        $categories = [];
+        foreach (($menu['menu_items'] ?? []) as $categoryName => $categoryData) {
+            $items = isset($categoryData['items']) ? $categoryData['items'] : $categoryData;
+            if (!is_array($items)) {
+                continue;
+            }
+
+            $categories[] = [
+                'name' => $categoryName,
+                'items' => array_values(array_filter(array_map(function ($item) {
+                    if (!is_array($item)) {
+                        return null;
+                    }
+
+                    return [
+                        'name' => $item['name'] ?? '',
+                        'description' => $item['description'] ?? '',
+                        'price' => $item['price'] ?? '',
+                        'price_cold' => $item['price_cold'] ?? ($item['cold'] ?? ''),
+                        'price_hot' => $item['price_hot'] ?? ($item['hot'] ?? ''),
+                    ];
+                }, $items))),
+            ];
+        }
+
+        return response()->json([
+            'brand_code' => $brandCode,
+            'shop_name' => $menu['shop_name'] ?? '',
+            'image_url' => $menu['image_url'] ?? null,
+            'categories' => $categories,
+        ]);
+    }
+
+    /**
      * Get all stores with coordinates for map
      */
     public function allStores()

@@ -3635,12 +3635,21 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
   return {
     map: null,
     userLocation: null,
+    userMarker: null,
     stores: [],
     filteredStores: [],
     selectedBrand: initialBrand,
     isLoading: true,
     error: null,
     markers: [],
+    menuCache: {},
+    menuModal: {
+      open: false,
+      loading: false,
+      error: null,
+      store: null,
+      menu: null
+    },
     init: function init() {
       var _this3 = this;
       return _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee2() {
@@ -3650,9 +3659,13 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
               _context2.n = 1;
               return _this3.loadStores();
             case 1:
-              _this3.initMap();
-              _this3.getUserLocation();
+              _context2.n = 2;
+              return _this3.$nextTick();
             case 2:
+              _this3.initMap();
+              _this3.invalidateMapSize();
+              _this3.getUserLocation();
+            case 3:
               return _context2.a(2);
           }
         }, _callee2);
@@ -3695,42 +3708,55 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
         attribution: '&copy; OpenStreetMap contributors'
       }).addTo(this.map);
     },
-    getUserLocation: function getUserLocation() {
+    invalidateMapSize: function invalidateMapSize() {
       var _this5 = this;
+      if (!this.map) return;
+      requestAnimationFrame(function () {
+        _this5.map.invalidateSize();
+      });
+    },
+    getUserLocation: function getUserLocation() {
+      var _this6 = this;
       if (!navigator.geolocation) {
         this.error = 'Geolocation not supported';
         this.isLoading = false;
+        this.invalidateMapSize();
         return;
       }
       navigator.geolocation.getCurrentPosition(function (position) {
-        _this5.userLocation = {
+        _this6.userLocation = {
           lat: position.coords.latitude,
           lng: position.coords.longitude
         };
-        _this5.map.setView([_this5.userLocation.lat, _this5.userLocation.lng], 15);
+        _this6.map.setView([_this6.userLocation.lat, _this6.userLocation.lng], 15);
 
         // Add user marker
-        L.marker([_this5.userLocation.lat, _this5.userLocation.lng], {
+        if (_this6.userMarker) {
+          _this6.map.removeLayer(_this6.userMarker);
+        }
+        _this6.userMarker = L.marker([_this6.userLocation.lat, _this6.userLocation.lng], {
           icon: L.divIcon({
             className: 'user-marker',
             html: '<div class="w-4 h-4 bg-blue-500 rounded-full border-2 border-white shadow-lg"></div>'
           })
-        }).addTo(_this5.map).bindPopup('Your location');
-        _this5.updateNearbyStores();
-        _this5.isLoading = false;
+        }).addTo(_this6.map).bindPopup('你的位置');
+        _this6.updateNearbyStores();
+        _this6.isLoading = false;
+        _this6.invalidateMapSize();
       }, function (error) {
         console.error('Geolocation error:', error);
-        _this5.error = 'Unable to get your location';
-        _this5.isLoading = false;
+        _this6.error = 'Unable to get your location';
+        _this6.isLoading = false;
+        _this6.invalidateMapSize();
       });
     },
     updateNearbyStores: function updateNearbyStores() {
-      var _this6 = this;
+      var _this7 = this;
       if (!this.userLocation) return;
 
       // Clear existing markers
       this.markers.forEach(function (marker) {
-        return _this6.map.removeLayer(marker);
+        return _this7.map.removeLayer(marker);
       });
       this.markers = [];
 
@@ -3738,14 +3764,14 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
       var storesToShow = this.stores;
       if (this.selectedBrand) {
         storesToShow = this.stores.filter(function (s) {
-          return s.brand_code === _this6.selectedBrand;
+          return s.brand_code === _this7.selectedBrand;
         });
       }
 
       // Calculate distances and sort
       this.filteredStores = storesToShow.map(function (store) {
         return _objectSpread(_objectSpread({}, store), {}, {
-          distance: _this6.calculateDistance(_this6.userLocation.lat, _this6.userLocation.lng, store.lat, store.lng)
+          distance: _this7.calculateDistance(_this7.userLocation.lat, _this7.userLocation.lng, store.lat, store.lng)
         });
       }).filter(function (store) {
         return store.distance <= 5000;
@@ -3756,8 +3782,25 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
 
       // Add markers
       this.filteredStores.forEach(function (store) {
-        var marker = L.marker([store.lat, store.lng]).addTo(_this6.map).bindPopup("<b>".concat(store.name, "</b><br>").concat(store.address || ''));
-        _this6.markers.push(marker);
+        var marker = L.marker([store.lat, store.lng]).addTo(_this7.map).bindPopup("<b>".concat(store.name, "</b><br>").concat(store.address || ''));
+        _this7.markers.push(marker);
+      });
+      this.fitMapBounds();
+    },
+    fitMapBounds: function fitMapBounds() {
+      if (!this.map || !this.userLocation) return;
+      var points = [[this.userLocation.lat, this.userLocation.lng]];
+      this.filteredStores.slice(0, 12).forEach(function (store) {
+        points.push([store.lat, store.lng]);
+      });
+      if (points.length === 1) {
+        this.map.setView(points[0], 15);
+        return;
+      }
+      var bounds = L.latLngBounds(points);
+      this.map.fitBounds(bounds, {
+        padding: [40, 40],
+        maxZoom: 16
       });
     },
     calculateDistance: function calculateDistance(lat1, lng1, lat2, lng2) {
@@ -3781,8 +3824,66 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
       var url = "https://www.google.com/maps/dir/?api=1&destination=".concat(store.lat, ",").concat(store.lng);
       window.open(url, '_blank');
     },
+    openStoreMenu: function openStoreMenu(store) {
+      var _this8 = this;
+      return _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee4() {
+        var response, data, _t3;
+        return _regenerator().w(function (_context4) {
+          while (1) switch (_context4.p = _context4.n) {
+            case 0:
+              _this8.menuModal.open = true;
+              _this8.menuModal.loading = true;
+              _this8.menuModal.error = null;
+              _this8.menuModal.store = store;
+              _this8.menuModal.menu = null;
+              if (!_this8.menuCache[store.brand_code]) {
+                _context4.n = 1;
+                break;
+              }
+              _this8.menuModal.menu = _this8.menuCache[store.brand_code];
+              _this8.menuModal.loading = false;
+              return _context4.a(2);
+            case 1:
+              _context4.p = 1;
+              _context4.n = 2;
+              return fetch("/api/shops/".concat(store.brand_code, "/menu"));
+            case 2:
+              response = _context4.v;
+              if (response.ok) {
+                _context4.n = 3;
+                break;
+              }
+              throw new Error('menu fetch failed');
+            case 3:
+              _context4.n = 4;
+              return response.json();
+            case 4:
+              data = _context4.v;
+              _this8.menuCache[store.brand_code] = data;
+              _this8.menuModal.menu = data;
+              _context4.n = 6;
+              break;
+            case 5:
+              _context4.p = 5;
+              _t3 = _context4.v;
+              console.error('Failed to load menu:', _t3);
+              _this8.menuModal.error = '目前無法載入這家店的菜單。';
+            case 6:
+              _context4.p = 6;
+              _this8.menuModal.loading = false;
+              return _context4.f(6);
+            case 7:
+              return _context4.a(2);
+          }
+        }, _callee4, null, [[1, 5, 6, 7]]);
+      }))();
+    },
+    closeStoreMenu: function closeStoreMenu() {
+      this.menuModal.open = false;
+    },
     onBrandChange: function onBrandChange() {
       this.updateNearbyStores();
+      this.invalidateMapSize();
     }
   };
 });
