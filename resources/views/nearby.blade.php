@@ -6,6 +6,9 @@
 @push('styles')
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
+    [x-cloak] {
+        display: none !important;
+    }
     #map {
         height: 100%;
         min-height: 440px;
@@ -144,72 +147,74 @@
         </section>
     </div>
 
-    <div
-        x-cloak
-        x-show="menuModal.open"
-        x-transition.opacity
-        @keydown.escape.window="closeStoreMenu()"
-        class="fixed inset-0 z-[5000] flex items-end justify-center bg-stone-950/50 p-4 backdrop-blur-sm md:items-center"
-    >
-        <div @click="closeStoreMenu()" class="absolute inset-0"></div>
-        <div x-show="menuModal.open" x-transition class="relative z-10 flex max-h-[85vh] w-full max-w-4xl flex-col overflow-hidden rounded-[2rem] bg-white shadow-2xl">
-            <div class="border-b border-stone-200 px-6 py-5">
-                <div class="flex items-start justify-between gap-4">
-                    <div>
-                        <div class="mb-2 flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-stone-100 px-3 py-1 text-xs font-medium text-stone-700" x-text="menuModal.store?.brand_name || ''"></span>
-                            <span class="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600" x-text="menuModal.store ? formatDistance(menuModal.store.distance) : ''"></span>
+    <template x-teleport="body">
+        <div
+            x-cloak
+            x-show="menuModal.open"
+            x-transition.opacity
+            @keydown.escape.window="closeStoreMenu()"
+            class="fixed inset-0 z-[5000] flex items-end justify-center bg-stone-950/50 p-4 backdrop-blur-sm md:items-center"
+        >
+            <div @click="closeStoreMenu()" class="absolute inset-0"></div>
+            <div x-show="menuModal.open" x-transition class="relative z-[5001] flex max-h-[85vh] w-full max-w-4xl flex-col overflow-hidden rounded-[2rem] bg-white shadow-2xl">
+                <div class="border-b border-stone-200 px-6 py-5">
+                    <div class="flex items-start justify-between gap-4">
+                        <div>
+                            <div class="mb-2 flex flex-wrap items-center gap-2">
+                                <span class="rounded-full bg-stone-100 px-3 py-1 text-xs font-medium text-stone-700" x-text="menuModal.store?.brand_name || ''"></span>
+                                <span class="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600" x-text="menuModal.store ? formatDistance(menuModal.store.distance) : ''"></span>
+                            </div>
+                            <h2 class="text-2xl font-bold text-stone-900" x-text="menuModal.menu?.shop_name || menuModal.store?.brand_name || '菜單'"></h2>
+                            <p class="mt-2 text-sm text-stone-600" x-text="menuModal.store?.name || ''"></p>
+                            <p class="mt-1 text-sm text-stone-500" x-text="menuModal.store?.address || ''"></p>
                         </div>
-                        <h2 class="text-2xl font-bold text-stone-900" x-text="menuModal.menu?.shop_name || menuModal.store?.brand_name || '菜單'"></h2>
-                        <p class="mt-2 text-sm text-stone-600" x-text="menuModal.store?.name || ''"></p>
-                        <p class="mt-1 text-sm text-stone-500" x-text="menuModal.store?.address || ''"></p>
+                        <button @click="closeStoreMenu()" class="rounded-xl border border-stone-200 px-3 py-2 text-stone-600 hover:bg-stone-50 hover:text-stone-900">
+                            關閉
+                        </button>
                     </div>
-                    <button @click="closeStoreMenu()" class="rounded-xl border border-stone-200 px-3 py-2 text-stone-600 hover:bg-stone-50 hover:text-stone-900">
-                        關閉
-                    </button>
-                </div>
-            </div>
-
-            <div class="flex-1 overflow-y-auto px-6 py-5">
-                <div x-show="menuModal.loading" class="py-12 text-center text-stone-500">
-                    讀取菜單中...
                 </div>
 
-                <div x-show="menuModal.error" class="rounded-2xl border border-red-200 bg-red-50 p-5 text-red-700" x-text="menuModal.error"></div>
+                <div class="flex-1 overflow-y-auto px-6 py-5">
+                    <div x-show="menuModal.loading" class="py-12 text-center text-stone-500">
+                        讀取菜單中...
+                    </div>
 
-                <div x-show="!menuModal.loading && !menuModal.error && menuModal.menu">
-                    <template x-if="menuModal.menu?.categories?.length">
-                        <div class="space-y-6">
-                            <template x-for="category in menuModal.menu.categories" :key="category.name">
-                                <section class="rounded-[1.5rem] border border-stone-200/80 bg-stone-50/70 p-5">
-                                    <h3 class="mb-4 text-lg font-semibold text-stone-900" x-text="category.name"></h3>
-                                    <div class="space-y-3">
-                                        <template x-for="item in category.items" :key="category.name + item.name">
-                                            <div class="flex items-start justify-between gap-4 rounded-2xl bg-white px-4 py-3">
-                                                <div class="min-w-0">
-                                                    <div class="font-medium text-stone-800" x-text="item.name"></div>
-                                                    <div x-show="item.description" class="mt-1 text-sm text-stone-500" x-text="item.description"></div>
+                    <div x-show="menuModal.error" class="rounded-2xl border border-red-200 bg-red-50 p-5 text-red-700" x-text="menuModal.error"></div>
+
+                    <div x-show="!menuModal.loading && !menuModal.error && menuModal.menu">
+                        <template x-if="menuModal.menu?.categories?.length">
+                            <div class="space-y-6">
+                                <template x-for="category in menuModal.menu.categories" :key="category.name">
+                                    <section class="rounded-[1.5rem] border border-stone-200/80 bg-stone-50/70 p-5">
+                                        <h3 class="mb-4 text-lg font-semibold text-stone-900" x-text="category.name"></h3>
+                                        <div class="space-y-3">
+                                            <template x-for="item in category.items" :key="category.name + item.name">
+                                                <div class="flex items-start justify-between gap-4 rounded-2xl bg-white px-4 py-3">
+                                                    <div class="min-w-0">
+                                                        <div class="font-medium text-stone-800" x-text="item.name"></div>
+                                                        <div x-show="item.description" class="mt-1 text-sm text-stone-500" x-text="item.description"></div>
+                                                    </div>
+                                                    <div class="shrink-0 text-right text-sm text-stone-600">
+                                                        <div x-show="item.price" x-text="'$' + item.price"></div>
+                                                        <div x-show="item.price_cold" x-text="'冷 $' + item.price_cold"></div>
+                                                        <div x-show="item.price_hot" x-text="'熱 $' + item.price_hot"></div>
+                                                    </div>
                                                 </div>
-                                                <div class="shrink-0 text-right text-sm text-stone-600">
-                                                    <div x-show="item.price" x-text="'$' + item.price"></div>
-                                                    <div x-show="item.price_cold" x-text="'冷 $' + item.price_cold"></div>
-                                                    <div x-show="item.price_hot" x-text="'熱 $' + item.price_hot"></div>
-                                                </div>
-                                            </div>
-                                        </template>
-                                    </div>
-                                </section>
-                            </template>
+                                            </template>
+                                        </div>
+                                    </section>
+                                </template>
+                            </div>
+                        </template>
+
+                        <div x-show="menuModal.menu && !menuModal.menu.categories?.length" class="rounded-2xl border border-stone-200 bg-stone-50 p-5 text-stone-500">
+                            目前沒有可顯示的菜單項目。
                         </div>
-                    </template>
-
-                    <div x-show="menuModal.menu && !menuModal.menu.categories?.length" class="rounded-2xl border border-stone-200 bg-stone-50 p-5 text-stone-500">
-                        目前沒有可顯示的菜單項目。
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </template>
 </div>
 @endsection
 
