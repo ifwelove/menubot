@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* Custom styles */
+.shop-card {
+    @apply bg-white rounded-lg border border-gray-200 overflow-hidden transition-all duration-200 hover:shadow-lg hover:-translate-y-1;
+}
+
+.shop-card-image {
+    @apply w-full h-32 object-contain bg-gray-50 p-4;
+}
+
+.shop-card-content {
+    @apply p-4;
+}
+
+.shop-card-title {
+    @apply text-lg font-semibold text-gray-800 mb-2;
+}
+
+.shop-card-button {
+    @apply w-full bg-gray-600 text-white py-2 px-4 rounded-md hover:bg-gray-700 transition-colors;
+}
+
+.tag-button {
+    @apply px-4 py-2 rounded-full text-sm font-medium transition-colors;
+}
+
+.tag-button-active {
+    @apply bg-gray-600 text-white;
+}
+
+.tag-button-inactive {
+    @apply bg-gray-100 text-gray-600 hover:bg-gray-200;
+}
+
+.menu-category {
+    @apply mb-8;
+}
+
+.menu-category-title {
+    @apply text-xl font-bold text-gray-800 mb-4 pb-2 border-b-2 border-gray-200;
+}
+
+.menu-item {
+    @apply flex justify-between items-center py-3 border-b border-gray-100;
+}
+
+.menu-item:last-child {
+    @apply border-b-0;
+}
+
+.menu-item-name {
+    @apply text-gray-800;
+}
+
+.menu-item-price {
+    @apply text-gray-600 font-medium;
+}
+
+/* Search dropdown */
+.search-dropdown {
+    @apply absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-lg shadow-lg mt-1 max-h-80 overflow-y-auto z-50;
+}
+
+.search-result-item {
+    @apply px-4 py-3 cursor-pointer border-b border-gray-100;
+}
+
+.search-result-item:hover {
+    @apply bg-gray-50;
+}
+
+.search-result-item:last-child {
+    @apply border-b-0;
+}

@@ -1,10 +1,46 @@
 <?php
 
 use App\Http\Controllers\LineBotController;
+use App\Http\Controllers\WebController;
+use App\Http\Controllers\Api\ShopApiController;
+use Illuminate\Support\Facades\Route;
 
+// LINE Bot Webhook (保留原有功能)
 Route::post('/webhook', [LineBotController::class, 'webhook']);
 
-use Illuminate\Support\Facades\Route;
+// ============================================
+// Web Routes - 飲料店菜單查詢網頁介面
+// ============================================
+
+// 首頁 - 品牌列表
+Route::get('/', [WebController::class, 'index'])->name('home');
+
+// 搜尋
+Route::get('/search', [WebController::class, 'search'])->name('search');
+
+// 品牌菜單頁
+Route::get('/shop/{brandCode}', [WebController::class, 'showMenu'])->name('shop.menu');
+
+// 標籤分類
+Route::get('/tags', [WebController::class, 'tags'])->name('tags');
+Route::get('/tags/{tagName}', [WebController::class, 'shopsByTag'])->name('tags.shops');
+
+// 附近門市
+Route::get('/nearby', [WebController::class, 'nearby'])->name('nearby');
+
+// ============================================
+// API Routes - 供前端 AJAX 使用
+// ============================================
+Route::prefix('api')->group(function () {
+    Route::get('/shops', [ShopApiController::class, 'list'])->name('api.shops');
+    Route::get('/shops/{brandCode}/stores', [ShopApiController::class, 'stores'])->name('api.shops.stores');
+    Route::get('/search', [ShopApiController::class, 'search'])->name('api.search');
+    Route::get('/stores', [ShopApiController::class, 'allStores'])->name('api.stores');
+});
+
+// ============================================
+// Test Routes (保留原有測試路由)
+// ============================================
 
 Route::get('/test', function () {
     return response()->json([
