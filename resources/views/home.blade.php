@@ -11,7 +11,7 @@
                 <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-stone-200 bg-stone-100 px-3 py-1 text-sm font-medium text-stone-700">
                     全台飲料店菜單索引
                 </div>
-                <h1 class="max-w-3xl text-4xl font-bold tracking-tight text-stone-900 md:text-5xl">
+                <h1 class="max-w-2xl text-3xl font-bold leading-tight tracking-tight text-stone-900 md:text-4xl lg:text-[3.25rem]">
                     快速找到品牌菜單、分類標籤與附近門市
                 </h1>
                 <p class="mt-4 max-w-2xl text-base leading-7 text-stone-600 md:text-lg">

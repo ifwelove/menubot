@@ -72,6 +72,25 @@ Alpine.data('tagFilter', () => ({
     }
 }));
 
+Alpine.data('drinkPicker', (items = []) => ({
+    items,
+    selected: null,
+
+    pick() {
+        if (!this.items.length) return;
+
+        const next = this.items[Math.floor(Math.random() * this.items.length)];
+        this.selected = {
+            ...next,
+            pickedAt: Date.now(),
+        };
+    },
+
+    hasAnyPrice(item) {
+        return !!(item?.price || item?.price_cold || item?.price_hot);
+    },
+}));
+
 // Nearby stores component
 Alpine.data('nearbyStores', (initialBrand = '') => ({
     map: null,

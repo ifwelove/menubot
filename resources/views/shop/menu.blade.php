@@ -4,7 +4,34 @@
 @section('description', '查看 ' . ($menu['shop_name'] ?? '') . ' 的完整菜單與價格')
 
 @section('content')
-<div class="container mx-auto px-4 py-8">
+@php
+    $drinkPool = [];
+
+    foreach (($menu['menu_items'] ?? []) as $category => $categoryData) {
+        $items = isset($categoryData['items']) ? $categoryData['items'] : $categoryData;
+
+        if (!is_array($items)) {
+            continue;
+        }
+
+        foreach ($items as $item) {
+            if (!is_array($item) || empty($item['name'])) {
+                continue;
+            }
+
+            $drinkPool[] = [
+                'category' => $category,
+                'name' => $item['name'],
+                'description' => $item['description'] ?? '',
+                'price' => $item['price'] ?? '',
+                'price_cold' => $item['price_cold'] ?? ($item['cold'] ?? ''),
+                'price_hot' => $item['price_hot'] ?? ($item['hot'] ?? ''),
+            ];
+        }
+    }
+@endphp
+
+<div class="container mx-auto px-4 py-8" x-data='drinkPicker(@json($drinkPool))'>
     <!-- Breadcrumb -->
     <nav class="mb-6">
         <a href="{{ route('home') }}" class="text-gray-500 hover:text-gray-700">
@@ -55,6 +82,39 @@
                         </a>
                     @endif
                 </div>
+
+                @if(count($drinkPool) > 0)
+                    <div class="mt-6 rounded-2xl border border-gray-200 bg-gray-50 p-4">
+                        <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+                            <div>
+                                <div class="text-sm font-medium text-gray-800">不知道喝什麼？</div>
+                                <p class="mt-1 text-sm text-gray-500">按一下隨機抽一杯，從這家店現有菜單裡幫你選一個品項。</p>
+                            </div>
+                            <button
+                                type="button"
+                                @click="pick()"
+                                class="inline-flex items-center justify-center rounded-xl bg-stone-900 px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-stone-700"
+                            >
+                                隨機抽一杯
+                            </button>
+                        </div>
+
+                        <div x-show="selected" x-transition class="mt-4 rounded-2xl bg-white p-4 shadow-sm ring-1 ring-gray-100">
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-600" x-text="selected?.category"></span>
+                                <span class="rounded-full bg-stone-900 px-3 py-1 text-xs font-medium text-white">今日手氣</span>
+                            </div>
+                            <div class="mt-3 text-xl font-bold text-gray-900" x-text="selected?.name"></div>
+                            <p x-show="selected?.description" class="mt-2 text-sm text-gray-500" x-text="selected?.description"></p>
+
+                            <div class="mt-4 flex flex-wrap gap-3 text-sm text-gray-700">
+                                <span x-show="selected?.price" class="rounded-full bg-gray-100 px-3 py-1" x-text="'$' + selected.price"></span>
+                                <span x-show="selected?.price_cold" class="rounded-full bg-blue-50 px-3 py-1 text-blue-700" x-text="'冷 $' + selected.price_cold"></span>
+                                <span x-show="selected?.price_hot" class="rounded-full bg-red-50 px-3 py-1 text-red-700" x-text="'熱 $' + selected.price_hot"></span>
+                            </div>
+                        </div>
+                    </div>
+                @endif
             </div>
         </div>
     </div>

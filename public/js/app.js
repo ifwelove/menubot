@@ -3628,6 +3628,23 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('tagFilter', function () {
     }
   };
 });
+alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('drinkPicker', function () {
+  var items = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+  return {
+    items: items,
+    selected: null,
+    pick: function pick() {
+      if (!this.items.length) return;
+      var next = this.items[Math.floor(Math.random() * this.items.length)];
+      this.selected = _objectSpread(_objectSpread({}, next), {}, {
+        pickedAt: Date.now()
+      });
+    },
+    hasAnyPrice: function hasAnyPrice(item) {
+      return !!(item !== null && item !== void 0 && item.price || item !== null && item !== void 0 && item.price_cold || item !== null && item !== void 0 && item.price_hot);
+    }
+  };
+});
 
 // Nearby stores component
 alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function () {

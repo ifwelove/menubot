@@ -36,6 +36,8 @@ class WebController extends Controller
             ];
         }
 
+        shuffle($shopList);
+
         return view('home', compact('shopList', 'tags'));
     }
 
