@@ -6,7 +6,7 @@
 @section('content')
 <div class="page-section py-6 md:py-10">
     <section class="hero-panel px-5 py-8 md:px-10 md:py-12">
-        <div class="relative grid gap-8 lg:grid-cols-[minmax(0,1fr),280px] lg:items-start">
+        <div class="relative grid gap-8 lg:grid-cols-[minmax(0,1fr),220px] lg:items-start">
             <div>
                 <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-stone-200 bg-stone-100 px-3 py-1 text-sm font-medium text-stone-700">
                     全台飲料店菜單索引
@@ -71,15 +71,7 @@
                 </div>
             </div>
 
-            <div class="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
-                <div class="hero-stat">
-                    <div class="text-sm text-stone-500">收錄品牌</div>
-                    <div class="mt-1 text-3xl font-bold text-stone-900">{{ count($shopList) }}</div>
-                </div>
-                <div class="hero-stat">
-                    <div class="text-sm text-stone-500">分類標籤</div>
-                    <div class="mt-1 text-3xl font-bold text-stone-900">{{ count($tags) }}</div>
-                </div>
+            <div class="lg:self-start">
                 <div class="hero-stat">
                     <div class="text-sm text-stone-500">快速入口</div>
                     <a href="{{ route('nearby') }}" class="mt-2 inline-flex text-sm font-medium text-stone-700 hover:text-stone-900">
