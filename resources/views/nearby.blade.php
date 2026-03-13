@@ -20,8 +20,13 @@
     }
     .leaflet-container,
     .leaflet-pane,
-    .leaflet-control {
-        z-index: 10;
+    .leaflet-top,
+    .leaflet-bottom,
+    .leaflet-control,
+    .leaflet-popup-pane,
+    .leaflet-marker-pane,
+    .leaflet-tooltip-pane {
+        z-index: 10 !important;
     }
 </style>
 @endpush
@@ -144,7 +149,7 @@
         x-show="menuModal.open"
         x-transition.opacity
         @keydown.escape.window="closeStoreMenu()"
-        class="fixed inset-0 z-[1200] flex items-end justify-center bg-stone-950/50 p-4 backdrop-blur-sm md:items-center"
+        class="fixed inset-0 z-[5000] flex items-end justify-center bg-stone-950/50 p-4 backdrop-blur-sm md:items-center"
     >
         <div @click="closeStoreMenu()" class="absolute inset-0"></div>
         <div x-show="menuModal.open" x-transition class="relative z-10 flex max-h-[85vh] w-full max-w-4xl flex-col overflow-hidden rounded-[2rem] bg-white shadow-2xl">
