@@ -3754,7 +3754,8 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
       loading: false,
       error: null,
       store: null,
-      menu: null
+      menu: null,
+      pickedDrink: null
     },
     init: function init() {
       var _this4 = this;
@@ -3942,6 +3943,7 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
               _this9.menuModal.error = null;
               _this9.menuModal.store = store;
               _this9.menuModal.menu = null;
+              _this9.menuModal.pickedDrink = null;
               if (!_this9.menuCache[store.brand_code]) {
                 _context4.n = 1;
                 break;
@@ -3986,6 +3988,36 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
     },
     closeStoreMenu: function closeStoreMenu() {
       this.menuModal.open = false;
+    },
+    menuDrinkPool: function menuDrinkPool() {
+      var _this$menuModal$menu;
+      var categories = ((_this$menuModal$menu = this.menuModal.menu) === null || _this$menuModal$menu === void 0 ? void 0 : _this$menuModal$menu.categories) || [];
+      return categories.flatMap(function (category) {
+        var items = Array.isArray(category.items) ? category.items : [];
+        return items.filter(function (item) {
+          return item === null || item === void 0 ? void 0 : item.name;
+        }).map(function (item) {
+          return {
+            category: category.name,
+            name: item.name,
+            description: item.description || '',
+            price: item.price || '',
+            price_cold: item.price_cold || '',
+            price_hot: item.price_hot || ''
+          };
+        });
+      });
+    },
+    pickMenuDrink: function pickMenuDrink() {
+      var items = this.menuDrinkPool();
+      if (!items.length) {
+        this.menuModal.pickedDrink = null;
+        return;
+      }
+      var next = items[Math.floor(Math.random() * items.length)];
+      this.menuModal.pickedDrink = _objectSpread(_objectSpread({}, next), {}, {
+        pickedAt: Date.now()
+      });
     },
     onBrandChange: function onBrandChange() {
       this.updateNearbyStores();

@@ -184,6 +184,36 @@
                     <div x-show="!menuModal.loading && !menuModal.error && menuModal.menu">
                         <template x-if="menuModal.menu?.categories?.length">
                             <div class="space-y-6">
+                                <section class="rounded-[1.5rem] border border-stone-200/80 bg-stone-50/70 p-5">
+                                    <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-stone-900">隨機抽一杯</h3>
+                                            <p class="mt-1 text-sm text-stone-500">從這家店目前載入的菜單裡隨機挑一個品項。</p>
+                                        </div>
+                                        <button
+                                            type="button"
+                                            @click="pickMenuDrink()"
+                                            class="inline-flex items-center justify-center rounded-xl bg-stone-900 px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-stone-700"
+                                        >
+                                            抽一杯
+                                        </button>
+                                    </div>
+
+                                    <div x-show="menuModal.pickedDrink" x-transition class="mt-4 rounded-2xl bg-white p-4 shadow-sm ring-1 ring-stone-100">
+                                        <div class="flex flex-wrap items-center gap-2">
+                                            <span class="rounded-full bg-stone-100 px-3 py-1 text-xs font-medium text-stone-700" x-text="menuModal.pickedDrink?.category"></span>
+                                            <span class="rounded-full bg-stone-900 px-3 py-1 text-xs font-medium text-white">附近手氣</span>
+                                        </div>
+                                        <div class="mt-3 text-xl font-bold text-stone-900" x-text="menuModal.pickedDrink?.name"></div>
+                                        <p x-show="menuModal.pickedDrink?.description" class="mt-2 text-sm text-stone-500" x-text="menuModal.pickedDrink?.description"></p>
+                                        <div class="mt-4 flex flex-wrap gap-3 text-sm text-stone-700">
+                                            <span x-show="menuModal.pickedDrink?.price" class="rounded-full bg-stone-100 px-3 py-1" x-text="'$' + menuModal.pickedDrink.price"></span>
+                                            <span x-show="menuModal.pickedDrink?.price_cold" class="rounded-full bg-blue-50 px-3 py-1 text-blue-700" x-text="'冷 $' + menuModal.pickedDrink.price_cold"></span>
+                                            <span x-show="menuModal.pickedDrink?.price_hot" class="rounded-full bg-red-50 px-3 py-1 text-red-700" x-text="'熱 $' + menuModal.pickedDrink.price_hot"></span>
+                                        </div>
+                                    </div>
+                                </section>
+
                                 <template x-for="category in menuModal.menu.categories" :key="category.name">
                                     <section class="rounded-[1.5rem] border border-stone-200/80 bg-stone-50/70 p-5">
                                         <h3 class="mb-4 text-lg font-semibold text-stone-900" x-text="category.name"></h3>

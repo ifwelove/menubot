@@ -975,6 +975,9 @@
   .ring-gray-100 {
     --tw-ring-color: var(--color-gray-100);
   }
+  .ring-stone-100 {
+    --tw-ring-color: var(--color-stone-100);
+  }
   .blur {
     --tw-blur: blur(8px);
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);

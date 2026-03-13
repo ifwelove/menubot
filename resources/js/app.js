@@ -202,6 +202,7 @@ Alpine.data('nearbyStores', (initialBrand = '') => ({
         error: null,
         store: null,
         menu: null,
+        pickedDrink: null,
     },
 
     async init() {
@@ -373,6 +374,7 @@ Alpine.data('nearbyStores', (initialBrand = '') => ({
         this.menuModal.error = null;
         this.menuModal.store = store;
         this.menuModal.menu = null;
+        this.menuModal.pickedDrink = null;
 
         if (this.menuCache[store.brand_code]) {
             this.menuModal.menu = this.menuCache[store.brand_code];
@@ -399,6 +401,39 @@ Alpine.data('nearbyStores', (initialBrand = '') => ({
 
     closeStoreMenu() {
         this.menuModal.open = false;
+    },
+
+    menuDrinkPool() {
+        const categories = this.menuModal.menu?.categories || [];
+
+        return categories.flatMap(category => {
+            const items = Array.isArray(category.items) ? category.items : [];
+
+            return items
+                .filter(item => item?.name)
+                .map(item => ({
+                    category: category.name,
+                    name: item.name,
+                    description: item.description || '',
+                    price: item.price || '',
+                    price_cold: item.price_cold || '',
+                    price_hot: item.price_hot || '',
+                }));
+        });
+    },
+
+    pickMenuDrink() {
+        const items = this.menuDrinkPool();
+        if (!items.length) {
+            this.menuModal.pickedDrink = null;
+            return;
+        }
+
+        const next = items[Math.floor(Math.random() * items.length)];
+        this.menuModal.pickedDrink = {
+            ...next,
+            pickedAt: Date.now(),
+        };
     },
 
     onBrandChange() {
