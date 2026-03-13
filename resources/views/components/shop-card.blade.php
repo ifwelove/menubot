@@ -1,4 +1,6 @@
-@props(['code', 'name', 'image' => null])
+@php
+    $image = $image ?? null;
+@endphp
 
 <div class="shop-card">
     <div class="shop-card-image">

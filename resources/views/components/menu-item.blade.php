@@ -1,4 +1,6 @@
-@props(['item'])
+@php
+    $item = $item ?? [];
+@endphp
 
 <div class="menu-item">
     <div class="flex-grow">
