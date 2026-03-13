@@ -8,7 +8,7 @@
     <section class="hero-panel px-5 py-8 md:px-10 md:py-12">
         <div class="relative grid gap-8 lg:grid-cols-[minmax(0,1fr),280px] lg:items-start">
             <div>
-                <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-sm font-medium text-amber-700">
+                <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-stone-200 bg-stone-100 px-3 py-1 text-sm font-medium text-stone-700">
                     全台飲料店菜單索引
                 </div>
                 <h1 class="max-w-3xl text-4xl font-bold tracking-tight text-stone-900 md:text-5xl">
@@ -27,7 +27,7 @@
                             @focus="showDropdown = query.length > 0 && results.length > 0"
                             @blur="closeDropdown()"
                             placeholder="搜尋品牌、關鍵字或飲料類型..."
-                            class="w-full rounded-[1.4rem] border border-stone-200 bg-white px-5 py-4 pl-12 text-lg shadow-[0_12px_32px_rgba(41,37,36,0.08)] outline-none transition-all focus:border-amber-300 focus:ring-4 focus:ring-amber-100"
+                            class="w-full rounded-[1.4rem] border border-stone-200 bg-white px-5 py-4 pl-12 text-lg shadow-[0_12px_32px_rgba(41,37,36,0.08)] outline-none transition-all focus:border-stone-400 focus:ring-4 focus:ring-stone-200"
                         >
                         <svg class="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="hero-stat">
                     <div class="text-sm text-stone-500">快速入口</div>
-                    <a href="{{ route('nearby') }}" class="mt-2 inline-flex text-sm font-medium text-amber-700 hover:text-amber-800">
+                    <a href="{{ route('nearby') }}" class="mt-2 inline-flex text-sm font-medium text-stone-700 hover:text-stone-900">
                         找附近門市 →
                     </a>
                 </div>

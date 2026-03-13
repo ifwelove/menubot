@@ -24,7 +24,7 @@
 @section('content')
 <div class="page-section py-6 md:py-10" x-data="nearbyStores(@js($initialBrand ?? ''))">
     <div class="mb-8">
-        <div class="mb-3 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-sm font-medium text-amber-700">
+        <div class="mb-3 inline-flex items-center gap-2 rounded-full border border-stone-200 bg-stone-100 px-3 py-1 text-sm font-medium text-stone-700">
             位置導向搜尋
         </div>
         <h1 class="section-title">附近門市</h1>
@@ -39,7 +39,7 @@
                     id="brandSelect"
                     x-model="selectedBrand"
                     @change="onBrandChange()"
-                    class="w-full rounded-xl border border-stone-200 bg-stone-50 px-4 py-3 text-stone-800 outline-none transition focus:border-amber-300 focus:ring-4 focus:ring-amber-100"
+                    class="w-full rounded-xl border border-stone-200 bg-stone-50 px-4 py-3 text-stone-800 outline-none transition focus:border-stone-400 focus:ring-4 focus:ring-stone-200"
                 >
                     <option value="">全部品牌</option>
                     @foreach($shops as $code => $name)
@@ -59,7 +59,7 @@
                 </div>
 
                 <template x-if="userLocation">
-                    <div class="mt-4 rounded-2xl bg-amber-50 px-4 py-3 text-sm text-amber-800">
+                    <div class="mt-4 rounded-2xl bg-stone-100 px-4 py-3 text-sm text-stone-700">
                         已取得定位，地圖會自動對焦到你附近的門市。
                     </div>
                 </template>
@@ -105,7 +105,7 @@
                             <div class="flex items-start justify-between gap-4">
                                 <div class="flex-grow">
                                     <div class="mb-2 flex flex-wrap items-center gap-2">
-                                        <span class="rounded-full bg-amber-50 px-3 py-1 text-xs font-medium text-amber-800" x-text="store.brand_name"></span>
+                                        <span class="rounded-full bg-stone-100 px-3 py-1 text-xs font-medium text-stone-700" x-text="store.brand_name"></span>
                                         <span class="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600" x-text="formatDistance(store.distance)"></span>
                                     </div>
                                     <h3 class="font-semibold text-stone-800" x-text="store.name"></h3>
@@ -114,7 +114,7 @@
                                 </div>
                                 <button
                                     @click.stop="openNavigation(store)"
-                                    class="rounded-xl bg-stone-900 px-4 py-2 text-sm text-white transition-colors hover:bg-amber-500 hover:text-stone-950"
+                                    class="rounded-xl bg-stone-900 px-4 py-2 text-sm text-white transition-colors hover:bg-stone-700"
                                 >
                                     導航
                                 </button>
@@ -147,7 +147,7 @@
                 <div class="flex items-start justify-between gap-4">
                     <div>
                         <div class="mb-2 flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-amber-50 px-3 py-1 text-xs font-medium text-amber-800" x-text="menuModal.store?.brand_name || ''"></span>
+                            <span class="rounded-full bg-stone-100 px-3 py-1 text-xs font-medium text-stone-700" x-text="menuModal.store?.brand_name || ''"></span>
                             <span class="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600" x-text="menuModal.store ? formatDistance(menuModal.store.distance) : ''"></span>
                         </div>
                         <h2 class="text-2xl font-bold text-stone-900" x-text="menuModal.menu?.shop_name || menuModal.store?.brand_name || '菜單'"></h2>
