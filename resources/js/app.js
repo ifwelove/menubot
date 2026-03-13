@@ -305,7 +305,7 @@ Alpine.data('nearbyStores', (initialBrand = '') => ({
                     store.lng
                 )
             }))
-            .filter(store => store.distance <= 5000) // Within 5km
+            .filter(store => store.distance <= 500) // Within 500m
             .sort((a, b) => a.distance - b.distance)
             .slice(0, 50);
 

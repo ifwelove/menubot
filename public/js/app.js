@@ -3880,8 +3880,8 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].data('nearbyStores', function (
           distance: _this8.calculateDistance(_this8.userLocation.lat, _this8.userLocation.lng, store.lat, store.lng)
         });
       }).filter(function (store) {
-        return store.distance <= 5000;
-      }) // Within 5km
+        return store.distance <= 500;
+      }) // Within 500m
       .sort(function (a, b) {
         return a.distance - b.distance;
       }).slice(0, 50);

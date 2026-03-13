@@ -41,7 +41,7 @@
             位置導向搜尋
         </div>
         <h1 class="section-title">附近門市</h1>
-        <p class="mt-3 max-w-2xl text-stone-600">允許定位後，系統會抓出你附近 5 公里內的飲料店，並可依品牌再篩一次。</p>
+        <p class="mt-3 max-w-2xl text-stone-600">允許定位後，系統會抓出你附近 500 公尺內的飲料店，並可依品牌再篩一次。</p>
     </div>
 
     <div class="grid gap-6 lg:grid-cols-[320px,minmax(0,1fr)] lg:items-start">
@@ -63,7 +63,7 @@
                 <div class="mt-4 grid grid-cols-2 gap-3 text-sm">
                     <div class="rounded-2xl bg-stone-50 px-4 py-3">
                         <div class="text-stone-500">搜尋半徑</div>
-                        <div class="mt-1 font-semibold text-stone-900">5 公里</div>
+                        <div class="mt-1 font-semibold text-stone-900">500 公尺</div>
                     </div>
                     <div class="rounded-2xl bg-stone-50 px-4 py-3">
                         <div class="text-stone-500">結果數量</div>
@@ -142,7 +142,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                 </svg>
-                <p class="text-stone-500">附近 5 公里內沒有找到飲料店</p>
+                <p class="text-stone-500">附近 500 公尺內沒有找到飲料店</p>
             </div>
         </section>
     </div>
