@@ -90,7 +90,7 @@
         </aside>
 
         <section class="space-y-6">
-            <div class="map-shell relative z-0">
+            <div :class="menuModal.open ? 'invisible pointer-events-none' : ''" class="map-shell relative z-0">
                 <div id="map"></div>
                 <div x-show="isLoading" class="absolute inset-0 flex items-center justify-center bg-white/75 backdrop-blur-sm">
                     <div class="text-center">
